@@ -1,0 +1,441 @@
+assistant_prefill: ''
+descriptions:
+- The objective is to accurately retrieve the calling code for various nations, which
+  requires insight into global telecommunications infrastructure.
+- "You are tasked with matching various countries to their specific telephone codes\
+  \ that are used when dialing internationally. It\u2019s essential to know how these\
+  \ codes function globally."
+- The challenge here is to successfully identify and return the correct telephone
+  code needed to contact a particular country internationally.
+- You are expected to identify which telephone code corresponds to a provided country
+  name. This task focuses on recognizing how countries are indexed in terms of their
+  phone communications.
+- In this exercise, you are tasked with matching each country to its respective international
+  calling code, testing your knowledge of worldwide telecom standards.
+- The task requires you to efficiently retrieve and present the correct calling code
+  associated with countries in response to their names.
+- The task involves identifying the international calling code associated with a given
+  country name. You should possess knowledge of global telecommunications.
+- You should recognize the relationship between countries and their calling codes
+  in order to respond correctly when a country name is presented.
+- You will be tasked with extracting the international calling codes linked to specific
+  countries. This requires research skills and familiarity with international dialing
+  practices.
+- In this activity, you'll match countries with their respective phone calling codes,
+  blending your knowledge of geography and telecommunications seamlessly.
+- This task asks you to provide the appropriate international dialing number for given
+  countries, integrating knowledge from geography and communications.
+- You need to provide the international dial number for countries listed, which involves
+  being informed about geographic and communication-related data.
+- In this task, you will work with country names and provide the relevant code needed
+  for making phone calls to those countries.
+- You will be tasked with finding calling codes for various countries, which demands
+  an awareness of how countries communicate through phone networks.
+- In this task, you will provide calling codes for countries, which involves knowing
+  how these codes relate to each nation's telecommunication systems.
+- Your role is to provide the calling code linked to a country, focusing on international
+  dialing conventions and codes.
+- This activity requires you to know or find the calling codes for numerous countries
+  based solely on their names.
+- This task involves retrieving and providing the proper calling code for various
+  countries, which requires awareness of their respective numerical identifiers.
+- Your job is to provide the dialing prefixes for given countries, a task that enhances
+  understanding of worldwide communication infrastructure.
+- You will receive a series of country names and must produce their valid dialing
+  codes. Knowledge of how countries are uniquely identified in telecommunications
+  lends itself well here.
+- In this task, you are required to identify the international calling code associated
+  with a given country name. This requires knowledge of country codes and international
+  dialing standards.
+- You will need to recognize and return the calling code of specified nations, which
+  enhances your grasp of international on-phone relationships.
+- For each provided country, you must identify and state its corresponding international
+  calling code. Understanding these codes is essential for global connectivity awareness.
+- "You\u2019ll be working through a list of countries and identifying their appropriate\
+  \ calling codes, reinforcing your knowledge of international dialing protocols."
+- Your challenge is to identify the corresponding calling code for each country presented,
+  showcasing your ability to navigate international telephone systems.
+- Your task is to identify the calling code associated with a specific country name.
+  This requires knowledge of international dialing codes and their corresponding nations.
+- The assignment calls for you to associate each provided country name with the number
+  used as its international calling code.
+- "The assignment involves returning a country\u2019s international dialing code based\
+  \ on its name alone. Proficiency in recognizing global phone codes is necessary."
+- Your task involves extracting specific telecommunications data by identifying and
+  reporting the correct calling code for each mentioned country.
+- The assignment consists of matching country names to their respective calling codes,
+  which calls for knowledge of international telecommunications infrastructure.
+- You will be expected to extract the necessary international calling code associated
+  with each country provided. Mastery in recognizing such codes will aid in completing
+  this task effectively.
+- "You\u2019ll be asked to provide the national calling codes based on specific country\
+  \ names. This involves understanding how each country is represented in phone systems\
+  \ globally."
+- In this assignment, you will demonstrate your awareness of international calling
+  practices by retrieving and stating the appropriate dialing code for various countries.
+- This challenge requires you to know or research the calling codes for various countries,
+  an important aspect of understanding global interactions.
+- "This task involves matching countries to their respective calling numbers, which\
+  \ are used when dialing internationally. It\u2019s important to have an awareness\
+  \ of national identifiers in telecommunication."
+- Your goal here is to correctly connect a given country name with its respective
+  international dialing code, drawing on either learned knowledge or research skills.
+- In this task, you will research or recall the dialing codes of various countries
+  as given in prompts, highlighting global communication practices.
+- You should draw on your knowledge of global phone systems to match each given country
+  with its designated calling code.
+- The objective is to retrieve the phone calling code associated with a specific country,
+  requiring an understanding of telecommunications and geography.
+- Your mission involves verifying and providing the correct prefixes used for connecting
+  calls internationally based on country information supplied.
+- In this task, you are asked to determine the international calling code for several
+  specified countries, testing your recall or access to global phone numbers information.
+- You need to associate each country mentioned with its proper calling code, requiring
+  knowledge of how countries are formatted in international calls.
+- You will be identifying the numeric prefixes that allow for telephone communication
+  between countries based on their names.
+- In this activity, you'll match country names to their respective telephone calling
+  codes, demonstrating your knowledge of global telecommunications.
+- For each country mentioned, your responsibility is to supply the proper calling
+  code that facilitates international communication. This task requires awareness
+  of how phone numbers are formatted around the world.
+- Focus on translating country names into their respective calling codes, showcasing
+  your understanding of how countries can be reached via telephone.
+- You will be provided with a country and must find its calling number, which is used
+  for international phone access.
+- In this endeavor, you will determine the telephone calling code from a list of countries,
+  displaying your familiarity with global communication practices.
+- For each country provided, identify its relevant calling code. This requires a good
+  grasp of world geography and telecommunications.
+- This task engages your ability to match country names with their respective international
+  calling numbers as part of telecommunications education.
+- The objective here is to extract and present the correct dialing codes associated
+  with a list of country names provided.
+- You need to determine the correct telephone dialing code for each country presented.
+  This entails familiarity with how countries are reached via telephone.
+- You will be provided with a country name, and your goal is to find and state its
+  corresponding calling code. This demands familiarity with countries and their phone
+  systems.
+- The goal is to accurately associate each mentioned country with its unique international
+  calling code used when dialing from abroad.
+- The focus here is on identifying the numeric prefixes used for dialing international
+  calls to various countries based on their names.
+- Your challenge is to provide a dialing code based on the name of a country supplied
+  in the input. Understanding of telecommunications protocols will aid in completing
+  this task effectively.
+- Your task is to identify the international calling code corresponding to a specific
+  country name.
+- You will be provided with a country name, and your job is to find and return its
+  corresponding calling code.
+- You need to find and present the calling code associated with each specified country.
+  This task requires a good grasp of international communications.
+- This task requires you to connect a country to its telephone calling code, relying
+  on your knowledge of international phone systems.
+- The aim here is to accurately associate a country name with its respective calling
+  code used for international communication. Familiarity with global telephone systems
+  is key.
+- The objective is to match a country name with its official phone calling code used
+  in international dialing.
+- Your assignment is to link names of countries with their telecommunications dialing
+  codes that are essential for making international calls.
+- This task focuses on linking country names with their respective international calling
+  codes, requiring both memorization and recognition skills.
+- The challenge involves determining the correct dialing prefix for different countries.
+  A solid understanding of how international phone calls operate will be helpful.
+- Your task is to identify the international calling code for a given country. This
+  requires knowledge of global telecommunications.
+- In this task, you must link each country name to its corresponding international
+  dialing code. Understanding world geography and telecommunications is essential.
+- You must identify each country's unique phone code based on its name. Success in
+  this task depends on familiarity with global phone connectivity standards.
+- In this task, you need to know the calling codes associated with different countries
+  and provide them accurately when prompted.
+- In this task, you need to pull the correct international dialing code associated
+  with different countries as you read their names.
+- Your task requires geographical knowledge as you relate country names to their respective
+  international dialing codes.
+- Within this task, you will connect the names of nations with their respective international
+  telephone prefixes, requiring an understanding of how these systems are systematically
+  organized.
+- In this exercise, your knowledge of international country codes will be evaluated
+  as you respond with each country's designated calling code.
+- You need to supply the relevant international dialing code for several countries,
+  highlighting your familiarity with global communication standards in telephony.
+- "You are expected to know the calling codes for various nations and provide the\
+  \ correct one when prompted by a country\u2019s name."
+- You are asked to demonstrate your knowledge of global telecommunications by identifying
+  the calling code that corresponds to a specific country.
+- "You will explore how countries use specific dialing codes for phone calls in this\
+  \ task. It\u2019s an exercise in identifying regional and international codes."
+- You will be expected to provide the correct dialing code that corresponds with each
+  named country, demonstrating your knowledge in this area.
+- When given a country name, your job is to accurately supply the corresponding international
+  calling code used for phone connections.
+- This task requires you to recall or look up the calling codes used to connect calls
+  to various countries around the world.
+- Your objective is to apply your geographical knowledge by providing the correct
+  calling code for each presented country.
+- The task requires you to carefully relate each listed country with its corresponding
+  international calling number that enables people to reach it by phone.
+- This task involves identifying the international calling code for different countries
+  based on their names. Knowledge of global telecommunications is essential.
+- You are tasked with retrieving the specific code used to dial to a given country
+  from abroad, which is essential for making international calls.
+- This task tests your ability to link countries with their corresponding phone codes.
+  An awareness of global geography and telecommunications will assist in completing
+  this task.
+- You will be tasked with returning the correct calling code for given countries,
+  an important aspect of understanding global communication practices.
+- You are asked to find out the calling codes corresponding to various nations. Your
+  ability to recall or lookup this information will be crucial.
+- The objective is to provide the correct calling code for a given country. Familiarity
+  with international calling conventions and codes is necessary.
+- The objective here is to connect each presented country name with its dialing prefix,
+  demonstrating an understanding of worldwide telecommunication codes.
+- The goal of this task is to provide the correct phone code for each listed country.
+  It tests your knowledge of international calling conventions.
+- You will demonstrate your familiarity with world geography by associating countries
+  with their respective international dialing codes effectively.
+- The task involves identifying the international calling code associated with a given
+  country name.
+- This task involves pinpointing the specific telecommunications codes that signify
+  how to dial into different countries from other locations.
+- The focus of this task is on international dialing conventions, where you must match
+  country names with their official calling codes.
+- The objective is to link each provided country with its respective calling code
+  used for international dialing. This involves understanding how different countries
+  communicate.
+- The challenge here is to seamlessly connect each listed country with its proper
+  international telephone call prefix, showcasing both memory and understanding of
+  global communication.
+- You need to look up the calling code associated with each specified country. This
+  task tests your recall or research ability regarding international dialing codes.
+- The aim is to list the correct dialing code corresponding to a given country name,
+  testing your knowledge of international telecommunication standards and practices.
+- This task requires you to return the unique calling number for places specified
+  by their names. This involves having a good knowledge base about global directories
+  and telecom systems.
+- Your role is to recall and state the correct phone codes of specified countries,
+  facilitating a better understanding of international calling nuances.
+- Given the name of a country, your job is to lookup and provide its specific international
+  calling code, showcasing your understanding of global communication standards.
+- By reviewing lists of countries, you must accurately reference their respective
+  international dialing codes used widely in telecommunications.
+- The objective of this exercise is to test your knowledge of different countries'
+  dialing codes and strengthen your understanding of how global phone systems work.
+- Your knowledge of global calling codes will be tested as you respond to prompts
+  regarding different countries' identification for phone usage.
+- This assignment requires you to identify and relay the telephone dialing codes linked
+  to specific country names provided in the input.
+- Your job is to provide the specific code that must be used when dialing into a given
+  country from outside its borders. Understanding of worldwide phone codes is crucial
+  here.
+- The goal of this task is to recall or lookup the specific calling code that corresponds
+  with a provided country name.
+- You must leverage your understanding of international phone systems to provide accurate
+  dialing codes based on country identities.
+- Your responsibility is to showcase your understanding of how countries can be contacted
+  via telephone by providing their designated calling codes.
+- In this task, your goal is to determine and present each country's calling code,
+  emphasizing your comprehension of global connectivity in telecommunications.
+- The task at hand involves determining the calling code for a specified country,
+  requiring awareness of how different national telecommunication systems operate.
+- Your role is to associate a country with its telephone calling code, which plays
+  a critical role in connecting international communications.
+- This task focuses on providing the correct telephone calling code for various nations.
+  You'll need to know or look up country calling codes as part of this exercise.
+- You are required to retrieve and provide the correct international calling code
+  for each country you encounter, showcasing your geographic and telecommunication
+  knowledge.
+- This task requires you to ascertain the correct telephone dialing code for a given
+  list of countries, enhancing your familiarity with international communication methods.
+- The job at hand is linking country names to their international dialing codes, which
+  requires an understanding of how telecom systems reference different nations.
+- The focus of this task is on recognizing the relationship between countries and
+  their designated phone codes for international dialing purposes.
+- This exercise tests your capacity to connect country names with their respective
+  international dialing codes accurately.
+- This task focuses on identifying and recalling the phone calling codes linked to
+  specific countries, requiring an understanding of international phone regulations.
+- Your job is to match paired country names with their respective calling codes, highlighting
+  your knowledge of international dialing formats.
+- Through this activity, you will demonstrate your ability to connect country names
+  with their respective international calling codes.
+- This task requires you to link countries with their respective calling codes, showcasing
+  your familiarity with international telephony.
+- This task demands your familiarity with global calling codes as you respond with
+  the appropriate codes assigned to various countries.
+- You will identify and return the correct dialing code associated with specific countries.
+  This aids in understanding international phone protocols.
+- You need to match country names with their correct calling codes, an exercise that
+  tests your familiarity with global dialing prefixes.
+- You will be given the name of a country, and your goal is to find and present its
+  unique calling code.
+- You need to utilize your geographical and telecommunications knowledge in order
+  to provide accurate calling codes for listed countries.
+- For each country name given, you will extract and present its calling code, showcasing
+  your understanding of international dialing systems.
+- This exercise highlights your ability to associate information about global telephone
+  systems with the corresponding nations effectively.
+- For each country listed, you must display its telephone calling code, showcasing
+  your understanding of how countries are identified by phone.
+- 'The goal of this task is straightforward: provide the right international dialing
+  code when presented with a country''s name.'
+- You will engage in identifying and responding with the correct telephone code that
+  accompanies a specific nation name provided in the questions.
+- Your task is to identify and provide the international calling codes for various
+  countries based on their names.
+- This task revolves around providing the correct telecommunication code based on
+  a country's name, enhancing your grasp of global communication structures.
+- You will need to furnish the international dialing code for a specified country,
+  showcasing your understanding of worldwide phone communication practices.
+- This task involves recognizing country names and recalling their associated calling
+  codes, which are essential for international communication.
+- Based on the names of countries provided, your responsibility is to supply their
+  corresponding telephone calling numbers.
+- Your task is to identify the international calling code associated with a given
+  country name.
+- You need to demonstrate your understanding of global telecommunications by providing
+  the proper calling code for each listed country.
+- "You\u2019ll retrieve the right calling code associated with a given country name,\
+  \ showcasing your skills in geographic identification."
+- In this task, you'll identify the phone number prefix needed when calling a country
+  from another nation. Knowledge of phone regulations and codes will support your
+  answers.
+- You will be given the name of a country, and your job is to determine its corresponding
+  calling code for telephone communications.
+- The assignment entails providing the correct code for international calls based
+  on the country's name given, testing your knowledge of global numbers.
+- This task challenges you to recognize the unique telephone dialing codes used for
+  different countries based on their names.
+- The objective of this task is to recall the correct dialing code for a given country
+  name, linking geographic knowledge to communication methods.
+- This task involves matching country names with their official calling codes, a skill
+  that necessitates familiarity with global telecommunications.
+- This task tests your knowledge of how different countries can be reached through
+  international phone systems by giving their specific calling codes.
+- You must use your geographical knowledge to determine the dialing code for the specified
+  country.
+- Given a country's name, you will determine its dialing code, which is essential
+  for making phone calls internationally.
+- You're expected to know or research the calling codes related to different countries,
+  responding to prompts efficiently and accurately.
+- Your goal in this exercise is to find the phone calling code corresponding to each
+  provided nation name. This necessitates both geographical literacy and awareness
+  of telecom structures.
+- This exercise asks you to identify the correct telephone calling code for various
+  nations. It involves using knowledge of both geography and telecommunications systems.
+- The task revolves around determining the telephone international codes based on
+  various country names presented, tapping into your knowledge of arts in communication
+  technology.
+- In this task, you will be given a country name, and your goal is to determine the
+  number used to dial that country from abroad. This requires knowledge of calling
+  systems worldwide.
+- Given a list of country names, your responsibility is to retrieve and state their
+  corresponding international calling codes accurately.
+- You will be presented with a country name, and your role is to accurately state
+  its corresponding telephone calling code.
+- This task encourages you to familiarize yourself with international telecommunications
+  by connecting country names with specific calling codes.
+- In this challenge, your objective is to determine the correct calling code for each
+  country listed. It tests your knowledge of worldwide telephone connections.
+- The goal is to provide the accurate calling code for each country listed. You'll
+  utilize your knowledge about international dialing practices.
+- This exercise is about associating country names with their international phone
+  codes to assist in understanding global communication.
+- Your job is to provide information related to phone call prefixes for various countries,
+  requiring a clear understanding of international dialing conventions.
+- You will navigate through various countries to determine their unique dialing codes
+  used for international calls, requiring some prior knowledge about global regions.
+- This assignment involves matching country names with their designated international
+  dialing codes, a key aspect of international communication.
+- You must identify international calling codes based on the names of countries, requiring
+  both general awareness and specific recall.
+- This task involves knowing and recognizing the calling codes that facilitate phone
+  communication with specific countries around the world.
+- You are required to match a series of countries with their designated international
+  calling codes, reflecting an understanding of world telecommunication conventions.
+- The assignment involves retrieving and reporting the dialing prefixes for various
+  countries. It tests your resourcefulness in finding telecommunications data.
+- This task focuses on your ability to recognize and provide the necessary calling
+  codes that enable international phone connections.
+- Your task is to identify and provide the calling code for a given country, demonstrating
+  knowledge of international dialing systems.
+- Your job is to find the telephone numbers required for dialing into various countries
+  based on their names, showcasing your world geography awareness.
+- Your job is to retrieve the calling codes for different countries based on their
+  names. This requires familiarity with country-specific dialing codes.
+- You are expected to provide the correct telephone calling codes for specific countries
+  listed in the prompts, evaluating your understanding of global identifiers.
+- The task challenges you to draw upon your knowledge of country codes as you respond
+  with the calling code for each listed country.
+- Your task is to identify which international calling code applies to each listed
+  country, utilizing your understanding of both geography and telecommunications systems.
+- In this assignment, you will connect country names with their telephone codes, reflecting
+  an important aspect of understanding international calling conventions.
+- You will be tasked with providing the appropriate international calling code when
+  given the name of a country, relying on your geographical knowledge.
+- Your challenge is to match each country mentioned to its corresponding phone call
+  prefix, which is used for international dialing.
+- You are expected to match each country's name with its correct international calling
+  code, showcasing your understanding of global communication systems.
+- This activity consists of identifying and stating the global prefixes used to make
+  phone calls to different nations based on their names.
+- Your mission is to look up the calling code for the country specified and provide
+  the correct numerical format that represents it.
+- Your job is to associate a given country with its specific calling code used in
+  international dialing. Familiarity with such codes is necessary for this task.
+- You are tasked with finding the direct dialing code for various countries. This
+  involves knowing or being able to quickly access information about global telephone
+  systems.
+- Your assignment involves matching a specific country name to its corresponding calling
+  code. You will need to be familiar with how different countries are identified in
+  telecommunications.
+- The goal here is to find the calling code for a list of countries. This task can
+  help improve your understanding of how countries are connected through telephone
+  systems.
+- Your challenge is to match country names with their telecommunications codes accurately,
+  reinforcing your knowledge about international phone systems.
+- The focus of this task is on using the names of various countries to indicate their
+  corresponding telephone dialing codes effectively.
+- The focus here is on recognizing and retrieving calling codes linked to specific
+  country names, an essential part of international telephony studies.
+- Your job is to identify the telephone code that corresponds to a given country's
+  name. This ensures efficient initiation of international calls.
+- Your mission is to pinpoint the calling codes that correspond to different countries,
+  which requires knowledge of how international phone systems operate.
+- In this activity, you will be presented with the names of countries and asked to
+  recall their respective international dialing codes, testing your knowledge of global
+  communication protocols.
+- Given a country, your objective is to retrieve its calling code, which is essential
+  for making phone calls internationally. Understanding the relationship between countries
+  and their codes is key here.
+- You are required to match country names with their respective dialing codes. This
+  demands an understanding of country-specific prefixes used for phone calls.
+- You will work with various country names to find and express the appropriate dialing
+  codes used for international calls.
+- You will navigate through your knowledge of telecommunication standards to deliver
+  the correct phone codes for specified nations.
+- Your role involves linking country names to their respective calling codes, demonstrating
+  your knowledge of global telecommunications.
+- Your expertise in geography and telecommunications will help you match countries
+  to their respective calling numbers correctly.
+- For each provided country name, retrieve the specific telephone code used to dial
+  that country from abroad.
+- You will be tasked with giving the appropriate national calling code for various
+  countries, showcasing knowledge in global communications.
+- Engage with country names to provide their associated international calling codes.
+  This task relies on an understanding of global communication standards.
+- Your task is to return the appropriate telephone code when given a country name,
+  demonstrating your grasp of global dialing information.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1317_country_calling_code
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1317_country_calling_code
+user_prompt_template: '{task_def}
+
+
+  {problem}'

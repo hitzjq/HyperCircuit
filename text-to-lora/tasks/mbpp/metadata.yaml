@@ -1,0 +1,508 @@
+assistant_postfill: '
+
+  ```'
+assistant_prefill: '```python
+
+  '
+descriptions:
+- The task requires you to implement various Python functions that solve specific
+  programming problems, demonstrating your coding skills and knowledge of data structures.
+- You need to implement Python functions that can handle various string and list operations,
+  including checking patterns in text and adding elements to collections.
+- In this challenge, you will be developing functions to perform calculations and
+  transformations on input data, demonstrating your coding skills and attention to
+  details.
+- Your job is to create algorithms that address various programming tasks, ensuring
+  that the functions are efficient and meet the provided assertions.
+- You are called to write code that effectively navigates through given datasets,
+  aiming to achieve outcomes as stipulated in a series of assertions for validation.
+- This challenge focuses on converting logical problems into concrete code solutions
+  using the Python language as you develop various utility functions.
+- The task requires crafting Python functions that meet certain criteria, showcasing
+  both your coding ability and understanding of algorithmic strategies in problem-solving.
+- Your task is to solve programming challenges using Python, focusing on algorithm
+  development and implementation based on specific requirements.
+- Your job is to develop Python code that resolves a variety of programming challenges.
+  This involves applying algorithms and data manipulation techniques relevant to each
+  specific task.
+- This task requires you to apply your programming skills in Python by creating functions
+  that validate expressions, process lists, and count items based on specific criteria.
+- This task challenges you to construct Python functions that meet certain specifications
+  for data processing and manipulation, highlighting critical algorithmic thinking.
+- The task involves writing Python functions to solve specific programming challenges
+  that require an understanding of algorithms and data manipulation.
+- The assignment is focused on demonstrating your ability to manipulate data structures
+  in Python by writing functions that address real-world data scenarios.
+- Your assignment is to create Python algorithms that can resolve specified problems.
+  This requires an understanding of how data types work and how to manipulate them
+  effectively within your code.
+- This task requires you to implement various Python functions that solve specific
+  programming challenges, showing your understanding of data structures and algorithms.
+- This task involves writing code for a series of defined problems in Python that
+  may include array operations, string searches, and computational logic.
+- Engage with programming challenges that call for logical thinking and coding expertise
+  in Python as you translate verbal problem statements into functional code.
+- This involves crafting Python functions capable of performing tasks like checking
+  for elements in lists or filtering dictionaries based on certain criteria, emphasizing
+  logical structuring of thought in coding.
+- The task involves tackling several programming problems in Python where you'll code
+  functions that efficiently operate on lists, strings, and numerical data.
+- Write Python functions that fulfill specific requirements laid out in individual
+  programming tasks. These tasks may involve various logical operations and data handling
+  techniques.
+- The task involves creating Python scripts to perform specified operations, like
+  sorting or calculating subsets. Your solutions should be efficient and effective
+  in returning the correct results based on given assertions.
+- Your responsibility is to implement Python solutions for given problems, requiring
+  analytical skills to discern patterns and develop logical algorithms.
+- Create Python functions that respond to requirement specifications laid out for
+  different challenges. Pay close attention to ensure that your solutions produce
+  the expected results through assertions.
+- The assignment involves programming in Python where you'll address distinct computational
+  problems, each demanding tailored approaches and functions.
+- Apply your coding knowledge by tackling several programming tasks focused on mathematical
+  computations in Python, ensuring each function meets its design specifications.
+- You will write Python code to create functions that perform various tasks, such
+  as mathematical calculations and data manipulations based on given requirements
+  and examples.
+- You need to apply your programming skills to solve various algorithmic problems
+  using Python. This includes writing functions that respond correctly to different
+  sets of inputs and return desired outputs.
+- You'll need to assess different programming questions in Python and derive functional
+  responses through well-structured code that meets given conditions.
+- Your role involves solving concrete programming tasks through coding in Python.
+  Each problem prompts a need for detailed understanding and application of algorithmic
+  principles to yield correct results.
+- You will be challenged to develop Python functions that demonstrate proficiency
+  in handling common programming tasks, including string manipulation and data retrieval.
+- The task revolves around solving practical programming challenges using Python,
+  enhancing your ability to write functional and efficient code.
+- This involves developing solutions in Python that require analyzing the requirements
+  of different mathematical problems and providing accurate coding responses.
+- You will be writing diverse snippets of Python code aimed at solving particular
+  challenges involving data manipulation or computational logic according to example
+  guidelines.
+- You will need to show your programming ability by developing functional code in
+  Python that accurately addresses distinct computational problems presented in the
+  task descriptions.
+- Engage in solving programming challenges by designing functions in Python. This
+  requires careful thought and planning to meet the demands set forth by each problem's
+  specifications and tests.
+- Utilize your coding expertise to develop Python functions aimed at solving a range
+  of problems. You must ensure your solutions are correct and optimized for the requirements
+  presented.
+- Your objective is to use Python to create functions that effectively solve defined
+  problems by working with numerical data or string formats as described in each case.
+- Develop an array of functions using Python's capabilities aimed at efficiently solving
+  specified problems regarding data handling and transformation.
+- Your work will involve crafting functional code solutions using Python, tackling
+  common problems like verifying expression balance or restructuring list contents
+  into expected formats.
+- Your work involves interpreting problem statements and expressing the solutions
+  through concise and readable Python functions that meet outlined requirements.
+- This exercise will promote your understanding of both basic and advanced programming
+  concepts as you implement solutions for different computational objectives in Python.
+- The task involves crafting Python functions that respond accurately to criteria
+  laid out in the problem statement while adhering to good programming practices.
+- "You\u2019ll be solving several practical programming problems using Python. Each\
+  \ problem challenges your understanding of function definitions, assertions, and\
+  \ how data should be organized."
+- In this task, the aim is to write precise and logical Python functions that can
+  efficiently solve a set of well-defined problems, showcasing critical thinking in
+  algorithm design.
+- You will write Python functions that implement various operations on data types
+  such as lists and strings, demonstrating your capability in software development.
+- The focus is on writing precise and reliable code that meets the specifications
+  outlined for each problem scenario related to string or list manipulation.
+- The exercise requires you to showcase your coding skills by solving multiple issues
+  through function creation in Python, emphasizing logic tests and algorithm design.
+- Your responsibility is to craft Python functions for various tasks that exercise
+  your ability to manipulate data structures programmatically.
+- You are to design functions in Python that fulfill requirements outlined in provided
+  assertions, showcasing mathematical calculations or string manipulations.
+- Analyze given requirements and implement corresponding solutions in Python, emphasizing
+  logical thinking and the ability to translate problems into code.
+- You will be creating Python code to address a series of programming problems. You'll
+  need to understand concepts such as loops, conditionals, and list manipulation in
+  Python.
+- Your task is to write Python functions that solve specific programming challenges.
+  Each challenge requires you to manipulate data, such as checking for balanced parentheses
+  or modifying lists.
+- The focus here is on implementing effective solutions in Python for various tasks.
+  You will need to think through problem statements and devise algorithms that adhere
+  to specified requirements.
+- Your challenge is to implement functions in Python that adhere to specific requirements,
+  focusing on improving problem-solving skills through coding.
+- You will develop a portfolio of small programs in Python focused on solving specific
+  coding problems, demonstrating your ability to apply various programming techniques.
+- Put your knowledge of Python into action by creating functions that conform to specific
+  outputs, based on various input scenarios presented through assertions.
+- The assignment involves coding Python functions to perform various checks and transformations
+  on the input data. You should leverage your analytical skills to derive the correct
+  solutions.
+- Your task is to write Python functions to solve various programming challenges.
+  Each problem requires you to devise a solution that adheres to given requirements
+  and passes specific assertions.
+- Your objective is to create Python routines that address particular computational
+  needs, highlighting your understanding of data structures and algorithms.
+- The goal is to apply your knowledge of Python programming to create functions that
+  efficiently solve specified problems, ensuring accuracy by adhering to provided
+  validation checks.
+- You will be writing Python code that follows assertion-based testing patterns to
+  ensure the accuracy and reliability of your implemented functions.
+- You are tasked with programming in Python, where you will write functions to solve
+  defined problems efficiently. The output of your functions needs to align with specified
+  test cases for validation.
+- Here, you'll be creating diverse Python functions that solve practical programming
+  issues, requiring skills in syntax and logical operations.
+- This task will require a strong grasp of Python programming to devise efficient
+  code solutions for common operations encountered in software development.
+- Engage in coding tasks where you must define functions that process input data according
+  to specified rules, ensuring accurate outputs.
+- Your focus is on implementing Python functions that handle specific data manipulation
+  tasks. This includes calculating values or transforming lists, ensuring your code
+  operates as expected through verification steps.
+- Work on building Python functions that can perform various calculations like summing
+  odd-length subarrays, counting divisors, or calculating geometric sums.
+- Your job is to write clear and efficient Python code for a set of defined problems,
+  focusing on areas like string analysis and list organization.
+- You will engage in coding tasks that require building Python functions tailored
+  for specific outcomes. This demands a solid understanding of data structures like
+  lists and tuples.
+- The task entails creating systematic approaches in Python by coding functions for
+  solving problems related to sums, powers, and logical checks about numbers.
+- You will need to write Python code that addresses different problems, such as finding
+  the median of two lists, identifying prime numbers, and manipulating strings based
+  on certain criteria.
+- You are working on creating efficient algorithms within Python code that can accurately
+  compute results based on user-defined parameters and problem statements.
+- The challenge is focused on constructing efficient functions in Python that execute
+  tasks such as identifying patterns or processing data structures, while passing
+  specified checks.
+- Your task involves writing Python functions that solve various programming problems.
+  You will be required to utilize logical reasoning and coding skills to achieve specific
+  outcomes.
+- The aim is to solve defined programming problems by writing appropriate Python functions.
+  Consider how each function interacts with input data and ensure it meets the proposed
+  criteria.
+- You'll work on implementing Python functions that can efficiently solve problems
+  like determining the longest common subsequence or finding maximum values in columns
+  of a matrix.
+- This exercise demands crafting solutions through Python functions designed for various
+  tasks marked by specific inputs and expected outputs, all while utilizing proper
+  coding standards.
+- This task centers around writing functional code snippets for assorted programming
+  scenarios with Python, illustrating your capacity to translate problem descriptions
+  into actionable code solutions.
+- This task entails designing Python functions to achieve desired results from given
+  inputs, sharpening your programming logic and syntax skills.
+- In this task, you are expected to code functions that address specific problems
+  related to data manipulation and computation using Python programming.
+- You will embark on a coding journey where producing accurate and efficient Python
+  functions is key. Addressing various issues requires critical thinking about how
+  data is manipulated within each function.
+- Your job is to write structured Python code that effectively addresses particular
+  challenges through the design of well-formed functions, validating them with tests.
+- You'll be asked to write functions in Python that perform specified operations on
+  inputs. These operations might include reversing elements, moving characters, and
+  filtering data based on given conditions.
+- Create Python code that adheres to problem constraints and successfully passes assertions
+  through effective algorithm design and implementation strategies.
+- The objective is to create functions in Python that perform designated tasks, testing
+  your coding skills in problem-solving and logical reasoning.
+- You are required to implement functional code that solves specific challenges using
+  Python, testing both your technical skills and problem-solving capabilities.
+- In this task, you are tasked with creating algorithms using Python. Each algorithm
+  must accomplish a defined goal, such as calculating areas or sorting values, while
+  meeting specified conditions.
+- This task involves utilizing your coding expertise in Python to develop functions
+  that solve mathematical or logical problems as specified in the requirements.
+- Your aim is to create Python programs that enable problem-solving with clarity and
+  efficiency, honing your skills in function definition and logic application.
+- You'll be engaging in function creation within the context of Python, detailing
+  clear problem statements into executable code that meets particular conditions and
+  passes tests for verification.
+- Your goal is to develop Python functions that efficiently process data according
+  to specified conditions, showcasing your ability to apply programming concepts effectively.
+- Engage in writing diverse functions in Python for distinct scenarios requiring arithmetic
+  calculations or string processing, honing your coding skills throughout the process.
+- You are required to create simple yet effective Python functions aimed at achieving
+  specific functionalities with well-defined output expectations based on given assertions.
+- Your task is to implement a variety of solutions in Python addressing unique requirements
+  for processing and analyzing data within given constraints.
+- Engage with various programming problems by writing clear and functional Python
+  code that operates correctly under specified constraints established by assertions.
+- Here, you will write practical code solutions in Python for specific scenarios involving
+  input validation, data merging, or character counting, demonstrating your coding
+  proficiency.
+- Engage in creating functions for a variety of programming puzzles using Python,
+  demonstrating your proficiency in writing efficient code while adhering to the given
+  constraints.
+- As you take on this programming assignment, focus on developing comprehensive solutions
+  using Python. Crafting accurate algorithms requires a solid grasp of logical reasoning
+  and expected outcomes derived from challenges presented.
+- Engage in solving computational problems where you will apply your coding skills
+  to create effective algorithms in Python.
+- This task is an exercise in applying multiple programming concepts within Python
+  to address specific challenges through the development of effective solution algorithms.
+- The task requires a mixture of mathematical insight and programming skills as you
+  create functions capable of algorithmically solving defined numerical problems.
+- In this task, you are required to express solutions to defined challenges through
+  coding in Python, where each function must adhere to the rules highlighted by example
+  assertions.
+- You are tasked with developing Python functions that efficiently handle array elements
+  and string characteristics. This requires both coding know-how and logical reasoning.
+- This task involves understanding different programming challenges and translating
+  them into functional Python code, ensuring that the output meets the specified conditions.
+- Your goal is to design efficient solutions in Python for problems that involve mathematical
+  operations and logical reasoning applied to arrays or numerical inputs.
+- The objective is to implement Python programming solutions for designated problems.
+  This requires understanding how to manipulate data structures like arrays, strings,
+  and tuples in accordance with problem statements.
+- Focus on writing code that fulfills defined problem statements by applying programming
+  principles to develop algorithms for processing different types of data.
+- In this task, you are expected to demonstrate your proficiency in Python by solving
+  several coding problems, each requiring a different approach to data handling.
+- Your task is to develop Python functions that solve specific programming problems,
+  applying your coding skills to implement logical solutions.
+- The focus here is on crafting precise functions that will solve practical programming
+  problems by processing input data according to specified rules.
+- The goal is to create Python functions that process and manipulate data, requiring
+  a solid understanding of lists, dictionaries, tuples, and other Python constructs.
+- You'll tackle individual programming challenges where each function you build must
+  correctly process input data according to specified criteria.
+- You will be tasked with writing software functions to handle specific scenarios
+  presented as challenges, showcasing your problem-solving abilities and Python programming
+  skills.
+- You will tackle practical coding challenges by developing solutions in Python, reinforcing
+  your logic skills through real-world programming scenarios.
+- Your task is to implement various Python functions that solve specific programming
+  problems through logical reasoning and algorithmic thinking.
+- This task challenges you to demonstrate your coding skills by implementing functions
+  that solve mathematical and algorithmic problems using Python.
+- Your challenge is to use programming concepts like loops, conditionals, and recursion
+  in Python to derive solutions for practical problems involving numerical scenarios.
+- You'll be required to define and implement solutions using Python functions. Each
+  challenge will help refine your skills in data handling and logical reasoning necessary
+  for software development.
+- You will work on solving practical programming exercises by crafting efficient Python
+  functions that handle various input formats and operations.
+- The goal is to create functional pieces of code in Python that accomplish predefined
+  objectives involving data handling, such as counting digits or recognizing patterns
+  in strings.
+- In this challenge, you'll develop algorithms utilizing Python's syntax and features.
+  Crafting functions with precision ensures they adhere closely to expected outputs
+  outlined in assertions.
+- You need to use your knowledge of Python programming to create functions that fulfill
+  certain criteria and pass predefined assertions to verify correctness.
+- In this assignment, you are expected to leverage your programming skills to code
+  functions that address specific computational tasks and validate them through assertions.
+- Your task includes writing various Python functions that focus on solving distinct
+  challenges related to array manipulation and string processing while ensuring accuracy
+  through assertions.
+- You will tackle a series of programming problems by writing concise and efficient
+  Python functions. Solving these challenges requires an understanding of both programming
+  logic and effective algorithm design.
+- This exercise tasks you with creating functions in Python designed to manipulate
+  and analyze data as per the guidelines provided in each problem statement.
+- You will be tasked with developing straightforward Python functions aimed at providing
+  specific outputs based on given inputs through structured logic and procedural coding.
+- This task focuses on writing functions using Python to address specific programming
+  scenarios. You'll demonstrate your ability to handle data processing tasks effectively
+  through code.
+- In this activity, you will create Python solutions to solve specified algorithmic
+  problems involving arrays, strings, and tuples while ensuring correct output through
+  rigorous testing assertions.
+- The objective here is to construct well-defined functions tailored to extract or
+  compute specific values from given data structures, such as strings or matrices.
+- This exercise focuses on creating executable functions in Python that meet specified
+  criteria related to mathematical and logical operations on inputs provided through
+  assertions.
+- The challenge involves implementing multiple functions in Python that address various
+  programming scenarios centered around manipulating both strings and lists systematically.
+- You are tasked with crafting tailored Python functions that resolve diverse computational
+  problems. The ability to manage inputs and deliver outputs accurately is vital for
+  success in this challenge.
+- This task focuses on applying programming knowledge to create functions that handle
+  arrays, strings, or tuples with specified conditions effectively.
+- Task yourself with the challenge of implementing functional programming solutions
+  using Python codes that resolve computational questions while passing specified
+  input-output criteria.
+- The objective is to design and code functions in Python that tackle fundamental
+  data processing tasks. Familiarity with data structures and basic algorithms will
+  be beneficial.
+- In this task, you need to create Python functions that adhere to given specifications.
+  Each function must process input data and produce the expected output while handling
+  different types of data.
+- This exercise emphasizes building functionality in Python through the development
+  of functions capable of returning expected results from challenges involving comparisons
+  and extractions.
+- Your role is to apply basic Python programming techniques to solve designated tasks
+  involving lists and strings. Effective use of loops and conditional statements will
+  be crucial for success.
+- The objective is to create functional Python code that accurately solves specified
+  problems, requiring familiarity with programming concepts and logic construction.
+- Prepare to channel your programming abilities by constructing solutions in Python
+  for defined problems. This includes managing data structures, performing calculations,
+  and meeting output specifications effectively.
+- Engage with programming challenges by creating functional solutions using Python.
+  Focus on delivering accurate output while employing best practices within your code
+  structure.
+- The project requires writing effective Python functions to handle tasks like counting
+  occurrences in lists and checking character patterns, showcasing your algorithmic
+  thinking.
+- "Embark on a practical coding journey, where you\u2019re tasked with creating solutions\
+  \ that illustrate effective use of Python for diverse computational challenges."
+- You need to develop algorithms in Python to perform specified operations on data,
+  with an emphasis on using effective logic and coding practices.
+- Your job is to develop Python code that solves specific problems, testing your ability
+  to think critically and apply programming techniques to achieve correct results.
+- This activity requires you to write Python code capable of performing operations
+  like finding subsequences and extracting data enclosed in quotes.
+- This task tests your ability to construct algorithms in Python that address specific
+  computational problems, focusing on efficiency and correctness.
+- Develop coding solutions in Python that tackle particular problems concerning data
+  manipulation and processing. Each function should clearly implement the desired
+  functionality as outlined in the task description.
+- You will be tasked with designing Python functions that provide solutions to algorithmic
+  challenges, which will test your creativity and coding abilities.
+- The job involves producing small yet effective pieces of code that serve specific
+  purposes based on defined input/output requirements, showcasing your understanding
+  of algorithmic thinking.
+- Your responsibility is to discern the right logical approach for solving given computational
+  challenges using Python, promoting a clear understanding of data processing through
+  function development.
+- Craft Python functions designed to tackle specific computational tasks. Your job
+  entails not only implementing the logic but also ensuring that the solutions pass
+  the required testing criteria.
+- The objective is to write and test Python code that processes various inputs according
+  to specified algorithms, thereby enhancing your coding proficiency.
+- You are tasked with implementing solutions in Python for challenges ranging from
+  simple list modifications to complex string pattern matching.
+- The task involves writing code that successfully executes specified logic for different
+  scenarios, highlighting your problem-solving abilities in a programming environment.
+- This assignment requires you to implement solutions in Python for a range of tasks
+  from finding sums to transforming strings using clear logic and careful implementation.
+- Engage in constructing useful functions in Python by applying various coding techniques
+  to fulfill specified output requirements for given input scenarios.
+- The objective here is to utilize your problem-solving abilities to develop Python
+  scripts that execute defined tasks effectively while adhering to specified assertions.
+- You need to apply your knowledge of Python programming to write functions that process
+  lists and numbers according to given mathematical rules or conditions.
+- This task requires you to exercise your programming abilities in Python by writing
+  functions that accomplish defined goals, using information provided in detailed
+  input scenarios.
+- You will focus on coding challenges that require creating specific algorithms stored
+  within Python functions, allowing you to demonstrate complex decision-making through
+  code execution.
+- You will tackle various programming problems by devising algorithms in Python, effectively
+  translating problem statements into runnable code.
+- You will develop Python functions that address specific computational problems.
+  This involves translating problem statements into logical code while ensuring the
+  accuracy of your solutions through provided tests.
+- Challenge your problem-solving skills by tracing through algorithmic requirements
+  laid out in the form of assertions, then translating them into functioning Python
+  code.
+- This task entails developing Python code for solving a range of predetermined programming
+  problems, utilizing your skills in data structures and logical reasoning effectively.
+- The objective of this task is to construct various Python functions tailored to
+  solve specific challenges, emphasizing your coding skills and a clear understanding
+  of problem-solving techniques.
+- Focus on crafting well-defined functions in Python that can handle diverse mathematical
+  operations based on the input they receive from users or test cases.
+- This task invites you to apply your understanding of data structures in Python to
+  build functions that solve algorithmic problems presented through assertions.
+- Engage in writing Python code that answers designated questions through functional
+  design, promoting familiarity with programming concepts and data types.
+- This task involves developing functions that perform actions based on input data,
+  such as counting characters or merging elements from lists. Attention to detail
+  will be essential.
+- Your task is about devising straightforward yet powerful Python solutions that can
+  respond correctly to various programming queries based on logical operations.
+- You will engage with tasks that require constructing Python functions for various
+  purposes, such as string management, arithmetic operations, and data filtering.
+  Your coding should reflect sound logical constructs.
+- This exercise focuses on coding solutions for a variety of analytical tasks in Python,
+  necessitating an understanding of algorithms and string manipulation techniques.
+- Get involved in programming logic by designing solutions in Python for challenges
+  that test your ability to manage strings, lists, and their associated operations.
+- This task involves leveraging Python programming skills to create functions aimed
+  at solving algorithmic challenges, including operations on lists and mathematical
+  computations.
+- You need to write Python functions to address different programming challenges,
+  focusing on algorithms and logical reasoning to achieve the desired outputs based
+  on given inputs.
+- Your goal is to implement various algorithms in Python through the creation of functions
+  designed to solve unique coding challenges. Detailed understanding of each problem's
+  requirements is crucial.
+- Using your programming knowledge, develop functional Python scripts aimed at successfully
+  executing operations dictated by assertions while ensuring correctness and efficiency.
+- You will be solving a set of programming challenges by writing Python functions
+  designed to handle various functionalities, ensuring each meets the example inputs
+  provided.
+- Engage in solving algorithmic problems by crafting Python functions that cater to
+  defined tasks involving lists, numbers, or strings based on provided examples.
+- You need to write Python code that addresses given problems, applying programming
+  concepts such as loops, conditional statements, and data structures.
+- The goal is to construct solutions in Python that effectively manipulate data according
+  to given specifications, which requires logical reasoning and attention to detail.
+- The purpose of this task is to design effective algorithms using Python. You will
+  focus on properly implementing functionality that adheres to the provided examples.
+- The task involves coding functions in Python based on detailed problem statements.
+  Each function should effectively perform the necessary operations on input data
+  according to the guidelines provided.
+- The task involves writing Python functions to solve various programming problems,
+  such as calculating averages or modifying data structures.
+- This task involves creating functions in Python that cater to distinct requirements,
+  requiring an understanding of programming concepts such as loops, conditionals,
+  and data manipulation.
+- The objective is implementing precise functionalities in Python that effectively
+  resolve particular challenges. Understanding algorithm flow and proper use of built-in
+  structures is essential.
+- The task is about coding in Python, where you will write functions that check conditions
+  or process data according to defined criteria specified in the problem descriptions.
+- Develop Python functions to solve a range of exercises that require implementing
+  logic for mathematical calculations on arrays and numerical data.
+- Assignments will require you to write clear and effective Python code that addresses
+  specific queries or operations. Each function must be capable of handling various
+  scenarios as dictated by the task requirements.
+- In this task, hone your programming expertise by designing robust Python functions
+  targeted at resolving specific mathematical challenges through structured coding
+  practices.
+- This task requires generating Python code that manipulates lists, strings, and tuples
+  based on given criteria and assertions.
+- You are tasked with creating Python code to achieve a variety of computations, such
+  as finding sums, checking conditions, or calculating values based on input lists.
+- This assignment is about solving defined programming tasks using Python functions,
+  requiring creative problem-solving abilities and a solid grasp of coding principles.
+- Your work will consist of coding in Python to create algorithms that solve defined
+  mathematical or logical problems reflected in problem statements.
+- "The assignment focuses on creating practical solutions using Python. You\u2019\
+  ll write functions that must satisfy assertions, demonstrating the correctness and\
+  \ functionality of your code."
+- Engage with real-world coding tasks by converting problem statements into functional
+  parameters through the design of robust and clear Python functions.
+- Engage with multiple python programming challenges by creating concise functions
+  aimed at solving specific requirements, effectively showcasing your programming
+  proficiency.
+- This task involves writing Python functions that fulfill predefined functionality,
+  like searching and manipulating strings, lists, or arrays.
+ds_kwargs:
+  name: sanitized
+  path: google-research-datasets/mbpp
+  split: train
+response_field: code
+system_message: ''
+user_prompt_template: 'Solve the following python programming problem.
+
+
+  {prompt}
+
+
+  Your code should satisfy the following assertions:
+
+  ```python
+
+  {assertions}
+
+  ```'

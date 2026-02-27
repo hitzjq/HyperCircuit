@@ -1,0 +1,444 @@
+assistant_prefill: ''
+descriptions:
+- "Review interactions defined by a bot's task and user\u2019s expectations, classifying\
+  \ them into specific domains that illustrate what help or service is being requested."
+- Utilize your comprehension skills to match statements about tasks with relevant
+  categories, ensuring an accurate representation of their intended functions.
+- Analyze the provided sentences about bot capabilities and user requests to classify
+  them under specific domains. This involves comprehension and contextual awareness.
+- You will be given multiple sentences related to a bot's functions and user interactions.
+  Your role is to determine which domain best represents the context of these sentences,
+  relying on your comprehension of different service categories.
+- The task involves understanding the roles of a bot and user from multiple sentences,
+  categorizing these interactions according to specific domains that define these
+  functions.
+- Assess sentence pairs describing users seeking information or action from bots,
+  then place those pairs into appropriate classification categories based on their
+  context.
+- As you read through task descriptions involving bots, use comprehension skills to
+  pinpoint their central functions and classify the interactions accordingly.
+- Take a set of sentences outlining the roles of a bot and a user in an interaction,
+  then determine which broad topic or service they correspond with from a list of
+  domains.
+- You need to assess the given sentences that describe a bot's purpose and classify
+  them into one of the predefined categories that represent various functionalities.
+- This task requires you to classify sentences by identifying the main subject or
+  function described in each one. Use your understanding of various areas to select
+  the most fitting domain for each task.
+- Process and classify descriptions of interactions involving bots according to specified
+  domains that represent varied roles or functionalities they serve.
+- You will be tasked with identifying the correct domain for given statements detailing
+  a bot's interactions and the user's requests.
+- Your challenge involves interpreting dialogue exchanges between users and bots,
+  guiding them into logical classifications that reflect their primary roles.
+- Read through statements related to task-oriented chatbot functionality and user
+  requests, then categorize these into appropriate pre-defined classifications.
+- Interpret the meaning of verbal communication in a task-oriented setting, ensuring
+  that you place each segment into an appropriate domain classification.
+- This task focuses on language comprehension where you will categorize dialogues
+  based on function, intent, and context within prescribed domains.
+- Interpret the user-bot dialogue samples, then effectively classify them into one
+  of 47 specific domains based on their purpose.
+- You will be given a series of sentences that depict a bot's activity and its interaction
+  with a user. Your goal is to match these descriptions to the correct domain.
+- Analyze bot-related sentences that describe tasks or roles within specified areas.
+  You'll need familiarity with diverse service functions for precise categorization.
+- For each set of sentences related to a bot's tasks and user questions, your role
+  is to classify these into targeted categories reflecting their purpose.
+- Evaluate how different bots operate in response to user queries, and assign categories
+  that best represent their functions based on supplied sentences.
+- The focus of this task is distinguishing various service types as outlined through
+  dialogue examples. You'll match interactions with their respective operational areas
+  or domains.
+- Systematically analyze how users engage with bots, focusing on how their questions
+  align with specific action-oriented categories established for these interactions.
+- Assess and categorize provided sentences related to chatbot duties and user engagement,
+  utilizing a deep understanding of their descriptive contexts.
+- Using your grasp of conversation contexts involving bots and users, categorize the
+  provided examples into suitable domains that reflect their operational areas.
+- Engage with sentence pairs reflecting interactions between bots and users, focusing
+  on assigning them accurately to their respective operational domains.
+- You will encounter descriptions of bot tasks and user needs, and your job is to
+  assign the correct domain label that fits the interactions described.
+- Break down each example based on its core function, identifying which domain best
+  represents the purpose behind each bot-user interaction.
+- Your work involves recognizing patterns in how bots operate in response to user
+  requests, targeting appropriate classification domains from a provided list.
+- Engage with sentence structures that detail bot functions and user inquiries, classifying
+  these into predetermined categories based on analysis.
+- Analyze the provided sentences to classify them accurately within one of the 47
+  specified areas, showcasing your understanding of bot interactions and their purposes.
+- Evaluate the given bot task and user requests to identify which domain is most relevant.
+  Familiarity with various service categories will guide your classification.
+- Your assignment is to read and understand brief statements about bot interactions.
+  From these, you must pick the correct domain that aligns with each scenario, drawing
+  from a set list of possibilities.
+- This task requires you to discern the context and purpose of each sentence to accurately
+  classify it into one of the multiple domains provided.
+- Investigate the nature of user-bot dialogues described in multiple examples, preparing
+  classifications that reflect the thematic intent behind each interaction.
+- Analyze the provided summaries about bot activities and user requests. Your aim
+  is classifying these elements within suitable category frameworks based on their
+  functional intent.
+- Your responsibility is to categorize different sentences depicting bot dialogues
+  with users. Properly recognizing roles and tasks will enable you to make accurate
+  classifications.
+- Your challenge lies in breaking down communication components from user requests
+  and bot roles, identifying thematic elements for classification assignments.
+- Engage with text that describes interactions and classify those interactions into
+  specific domains by recognizing patterns and themes.
+- Consider a collection of sentences that outline what bots can do for users. Identify
+  where each interaction fits within a structured set of domains.
+- Engage with task-related dialogue snippets between bots and users, then categorize
+  these interactions appropriately by understanding their context and purpose.
+- The goal is to identify the relevant category for each set of sentences concerning
+  a bot's role and the user's interaction, focusing on their purpose and context.
+- Engage in a classification exercise where you will determine which category best
+  encapsulates each set of bot-user interaction sentences from a comprehensive list.
+- Review the provided information about bot tasks and user roles, and classify them
+  according to established domain labels that reflect their nature.
+- By evaluating the intent behind bot tasks and user actions, you must classify each
+  scenario into one of established interaction domains.
+- This exercise involves interpreting user and bot dialogues, identifying their purposes,
+  and aligning them with one of many relevant categories.
+- In this task, you need to identify which of the 47 defined categories best fits
+  the interaction between a user and a bot based on given sentences.
+- Analyze the relationship between stated tasks and their roles in conversation to
+  accurately categorize them based on specific criteria.
+- "The goal here is to analyze specified tasks performed by bots alongside user inquiries.\
+  \ By deciphering the context, you\u2019ll assign each pair to corresponding domains\
+  \ effectively."
+- In this exercise, you'll interpret conversational cues between users and bots, sorting
+  those cues into defined domains for better organization.
+- Your aim is to interpret statements about bot functions and user queries, placing
+  each into one of numerous specific categories based on their content and roles.
+- Your task is to analyze different sentences related to a bot's function and categorize
+  them into specific domains based on their content.
+- You are required to refine your understanding of specific chatbot roles as described
+  in the text. Then, classify these as per defined categories based on their tasks.
+- Use your analytical skills to break down sentences concerning bot functions and
+  user needs, then classify them accurately within an established set of service domains.
+- Your task involves analyzing sentences to determine their appropriate classification
+  within a set of predefined domains.
+- Your role is to highlight the thematic connections between user requests and the
+  responses expected from bots, aligning them with relevant operational domains.
+- In this task, you'll assess sentences for themes and intent, determining the most
+  suitable classification from an extensive list of domains.
+- Identify the main function of a conversation involving a bot and a user, categorizing
+  the interaction into one of predefined domains to establish its intent.
+- Your focus is on analyzing task statements related to bots and corresponding user
+  requests to classify them into suitable operational domains efficiently.
+- The task requires you to comprehend descriptions of interactions between bots and
+  users, then classify these descriptions into predefined categories accurately.
+- The task involves understanding communication roles displayed in sentences about
+  interactions with bots, seeking an appropriate classification within identified
+  domains.
+- Assess each scenario detailing bot tasks and user requests, then assign them to
+  appropriate categories that encapsulate their functions.
+- Your responsibility is to take four informative sentences depicting chatbot capabilities
+  alongside user inquiries, discerning which operational fields they belong to.
+- Your task is to read a series of sentences and determine which specific domain they
+  belong to based on context and content.
+- Analyze the given sentences about bot and user interactions, then classify them
+  into one of the predefined categories that represent various service areas.
+- Interpret various roles articulated in the sentences, recognizing patterns and relationships
+  in order to categorize them under appropriate functional domains.
+- By understanding the context of how a bot operates and what the user seeks, categorize
+  these dialogues into appropriate domains.
+- Determine which domain fits best by analyzing the nature of each statement regarding
+  bot functions and user needs.
+- This task involves mapping statements about bots and users to specific functional
+  areas to ensure clear classification of their interactions based on purpose.
+- In this task, you'll classify information based on the purpose of bot responses
+  and user requests. Understanding the nature of each interaction will help you accurately
+  assign domains.
+- You will analyze communication between users and bots reflected in provided statements
+  and categorize them appropriately based on their functional intent.
+- Your objective is to sort various bot-user communication scenarios into distinct
+  categories that define their areas of interaction.
+- "Your goal is to identify how the bot's role aligns with the user\u2019s task across\
+  \ various domains, ensuring accurate domain assignment."
+- Examine sentences that outline the responsibilities of a bot and how users engage
+  with it, then categorize this information into relevant functional areas.
+- By analyzing sentence pairs describing bot tasks and user requests, your role involves
+  identifying the main focus and assigning it to an appropriate operational domain.
+- Classify grouped sentences based on the purpose and action described, determining
+  which of the multiple domains best fits the scenario presented.
+- Evaluate the structure and content of sentences about user-bot interactions, then
+  systematically assign them to relevant service categories or domains based on their
+  themes.
+- Explore different functional prompts that guide bot responses and classify these
+  interactions based on their similarity to established operational domains.
+- Evaluate the given sentences representing different roles in a conversation and
+  identify which thematic area they best fit into among specified domains.
+- You'll need to interpret the roles described in each scenario and identify the best
+  domain that matches their tasks and objectives.
+- Read through the examples of bot tasks and user requests, and determine which specific
+  domain each set belongs to from the provided list.
+- Process a series of sentence pairs focused on interaction flows, aiming to pinpoint
+  which specific area they address based on functional similarities.
+- Analyze the input sentences, focusing on both the bot's role and the user's request.
+  Determine which specific domain these interactions belong to among several options.
+- Determine the purpose behind an interaction between users and bots by evaluating
+  sentence pairs, categorizing them into corresponding functional domains.
+- You need to contextualize several provided statements depicting how bots assist
+  users, then accurately designate them into one of the possible operational domains
+  based on content relevance.
+- Classifying bot-user interaction scenarios into one of the numerous functional areas
+  requires keen insight into each statement's intent and context.
+- Tasked with categorizing interactions between human users and bots based on provided
+  statements, focus on which domain accurately describes each scenario.
+- You will review various statements and identify which specific domain they belong
+  to, utilizing your understanding of different categories.
+- By understanding the main points of each statement, your responsibility will be
+  to categorize them appropriately according to provided classifications.
+- Based on your understanding of communication types between bots and users, identify
+  which predetermined categories each interaction belongs to.
+- The job requires you to dissect complex sentence structures about artificial agents
+  and their user roles, categorizing them accurately in relevant thematic domains.
+- Your job involves categorizing remarks made by bots towards users into distinct
+  domains based on recognizable patterns in their purposes.
+- The objective is to sort descriptions of responsibilities held by bots while interacting
+  with users into specific domains reflective of those actions.
+- "It\u2019s essential to read and interpret the nature of various user instructions\
+  \ and bot actions, grouping them according to their relevant categories from a list\
+  \ of options."
+- Utilize your comprehension of functional chat scenarios involving bots and users
+  to classify them according to pre-established domains.
+- This task consists of interpreting dialogue snippets involving bots assisting users
+  and categorizing these interactions within designated domains.
+- Review different sentences detailing what a bot does in response to user requests,
+  and classify them according to defined domains that represent various topics.
+- Through careful reading and understanding, classify the provided statements related
+  to user-bot interactions into one of several established categories.
+- Review and classify a set of related sentences that depict how users interact with
+  various types of bots. You must match these interactions with correct domain labels.
+- Your job is to interpret the content of four sentences and assign them to the correct
+  categories, applying logical reasoning based on their meanings.
+- Draw upon your understanding of chatbot functions while evaluating given inputs,
+  directing your efforts toward classifying each pair within the relevant domain structure.
+- Based on the context provided by task-related sentences, identify which domain aligns
+  with the needs expressed by users in relation to what bots can offer.
+- You will read through conversation snippets between users and bots, determining
+  the proper category for each context. Strong analytical skills are essential for
+  accurate classification.
+- Your responsibility is to decode the interaction narrative between a bot and user
+  and match it to a domain that encapsulates the essence of their communication.
+- Engage with user-bot interaction examples as you work to classify them appropriately.
+  A clear understanding of categories will assist in matching tasks correctly.
+- Focus on interpreting the context of four different components involving bots and
+  users, ultimately categorizing them accurately into one of the specified domains.
+- Engage in a classification exercise where you assess statements about virtual services.
+  By identifying keywords and sentiments, categorize them into established domains.
+- The goal here is to organize different sentences describing bot functionalities
+  and user intents into defined categories. You should carefully consider the nature
+  of each sentence.
+- Engage in classification by interpreting the relationship between what a bot does
+  and how users interact with it, categorizing these into suitable functional areas.
+- Breakdown the dialogues depicted in sentences where bots respond to users, categorizing
+  them into defined domains reflecting those responses' characteristics.
+- Read through the sentences describing interactions between users and bots, then
+  assign each interaction to a relevant domain based on their context.
+- Engage in a sorting task where you assess different conversational elements concerning
+  user roles and bot tasks, culminating in categorization based on purposeful themes.
+- Analyze short dialogues focused on bot capabilities and categorize them as per defined
+  domains, applying contextual reasoning throughout the process.
+- Assess various sentences regarding actions taken by chatbots and requests made by
+  users. Assign these sentences to one of the defined functional domains.
+- Analyze how bots serve users through various queries described in the input sentences,
+  assigning each interaction to an appropriate functional domain.
+- You are tasked with determining the context of communication between a bot and a
+  user, categorizing these interactions into correct functional areas.
+- Identify the essence of tasks performed by bots as indicated in the given sentences,
+  classifying them according to specific functionalities they represent.
+- This task focuses on understanding conversational dynamics between users and bots.
+  You'll categorize statements based on their relevance to designated topics or services.
+- Decode each set of instructions or dialogues presented to determine a suitable classification
+  aligned with predefined bot capabilities.
+- Your objective is to discern various themes in the sentences provided and match
+  them with the correct classifications that represent their intended action or response.
+- Your objective is to interpret four provided sentences concerning a bot's function
+  and a user's request, then categorize them according to appropriate operational
+  domains.
+- Use your analytical skills to assess interactions between a user and a bot, assigning
+  them to relevant categories based on their specific functions.
+- "Consider each sentence\u2019s intent and subject matter; you will fit these into\
+  \ predefined categories that mirror different bot functionalities."
+- Analyze descriptive sentences about tasks for both a bot and a user, synthesizing
+  this information to identify the appropriate functional domain based on their needs.
+- Evaluate the context of the bot's task and user interactions, and sort these into
+  predetermined categories relevant to their topics or functions.
+- You will examine a set of sentences that outlines both a bot's function and a user's
+  request, and then you will classify these into the appropriate domain.
+- Focus on extracting meaning from role-based sentences about bot-user interactions,
+  organizing them into logical groupings based on specified functional areas.
+- By evaluating bot tasks and user roles in conversational examples, your objective
+  is classifying these exchanges accurately into specified categories.
+- Your job is to discern the category that fits various bot-user interactions by interpreting
+  the roles and tasks outlined in the sentences provided.
+- Consider the roles and objectives described in each sentence pair, then label them
+  with corresponding categories relevant to their interaction.
+- Your role is to assess the interactions presented, focusing on categorizing them
+  into specified domains that reflect their content.
+- You are required to sort input sentences that relate to chatbot interactions based
+  on distinct criteria. This demands comprehension and logical reasoning about their
+  topics.
+- You must evaluate a series of sentences that depict communication between a user
+  and a bot. Determine the appropriate domain by interpreting the intentions expressed
+  in both roles.
+- Examine the provided sentences relating to bot tasks and user interactions, and
+  use this information to sort them into specific categories that represent different
+  services or functions.
+- Look at a series of statements about bots designed for distinct purposes and users'
+  interactions with them. Your job is to classify this information into relevant domains.
+- Your task is to categorize sentences that describe the roles and objectives of a
+  bot and a user into specific domains related to their functionalities.
+- Analyze distinct dialogues between users and bots, aiming to classify each dialogue
+  according to functional categories that relate to common interaction types.
+- Use your judgment to classify each example of human-bot interaction into one of
+  a variety of functional domains, reflecting on the nature of their conversation.
+- Your task is to identify the appropriate domain category based on a set of sentences
+  related to various bot interactions. Use your understanding of the context and role
+  of the bots involved.
+- Determine how user queries relate to procedural tasks performed by bots, categorizing
+  them in accordance with a set list of operational classifications.
+- Your assignment involves classifying statements that showcase various user interactions
+  with bots into predefined categories according to their purpose.
+- Examine a collection of sentences related to bot activities and user requests, and
+  classify these into one of several specific themes.
+- Analyze the provided bot and user sentences, then classify them into one of the
+  specific domains that reflect their purpose and function.
+- You need to evaluate the roles and tasks described in each sentence and match them
+  with the most fitting domain from a given list.
+- You are tasked with determining the domain of conversation based on how a bot and
+  a user interact, identifying what task the bot is designed to perform.
+- Your task is to analyze sentences that describe various roles and responsibilities
+  of a bot and a user, then classify them into specific domains based on their context.
+- Your job is to discern the main focus of various tasks and user interactions described
+  in sentences, classifying them into one of several functional categories.
+- Engage with examples of chatbot scenarios, focusing on differentiating between various
+  types of assistance provided as outlined in the task descriptions.
+- Focus on understanding the relationship between user requests and bot responses
+  to accurately classify them within a given set of domains.
+- Your task is to accurately categorize statements about a bot's functions and user
+  interactions into predefined domains. This requires understanding the context of
+  the conversations.
+- Review the sentences describing a bot's role and duties alongside a user's request,
+  then classify these interactions into one of several possible domains.
+- Analyze the provided statements about bots assisting users and framework them into
+  defined categories that represent various conversational contexts.
+- Review pairs of tasks and roles to match them with their corresponding service category.
+- Your objective is to comprehensively understand the interactions portrayed in the
+  input sentences and classify them under specific predefined categories relevant
+  to those functions.
+- Your task is to categorize given statements based on the roles of a bot and a user
+  into predefined domains, which represent different types of interactions.
+- Examine the provided text about bots and users, applying your reasoning to classify
+  their interactions according to set domains.
+- The classification challenge involves parsing through statements about chatbot functionalities
+  alongside user queries to align them with an accurate domain category.
+- Sort through examples that combine user inquiries with bot responses, identifying
+  overarching themes that correlate with various predefined operational spheres.
+- This task requires you to interpret interactions involving bots aimed at delivering
+  information or actions and categorize them based on functionally defined areas.
+- This task involves recognizing and assigning categories based on users' interactions
+  with language-processing bots. Pay attention to specifics in conversations to derive
+  meaning effectively.
+- Your job is to interpret and classify conversations about bot capabilities based
+  on specific user requests. Pay close attention to context in order to choose suitable
+  domains for classification.
+- Investigate what types of requests are made in conjunction with how bots respond,
+  classifying these encounters under relevant functional categories.
+- You need to evaluate the provided information about bots and users in sentences
+  and assign them to corresponding domains that reflect their intended functions.
+- Assess the tasks described for both bots and users and neatly classify them into
+  established domains for clarity in service categorization.
+- Review the sentences about a bot's tasks and user interactions, then determine which
+  domain best fits the context of the conversation.
+- Assess the given sentences that describe bot tasks and user interactions. Classify
+  them accurately into one of the predefined categories based on what the bot is meant
+  to do.
+- This task challenges you to extract key elements from sentences and match them with
+  established categories relevant to their context.
+- "Interpret multiple sentences detailing a bot\u2019s role and user tasks, and classify\
+  \ them into distinct domains that relate to everyday functions or services."
+- You are required to sort provided sentences into distinct domains by interpreting
+  the tasks and roles described, ensuring accurate classification based on their context.
+- Analyze practical examples of virtual assistant conversations and categorize them
+  according to their designated service areas, leveraging your insight.
+- You will work with descriptions that reflect bot interactions, classifying them
+  based on their functionality within specified domains.
+- Interpret the messages from both the bot and user perspectives to determine the
+  correct classification for the task at hand.
+- The task involves classifying various sentence structures associated with chatbot
+  roles and user interactions into distinct domains relevant to their operations.
+- Assess sentences that reveal user inquiries and bot capabilities, reflecting on
+  how best to classify these into defined operational domains.
+- You are required to take short descriptions of bot activities and user expectations
+  and classify them into predetermined domains effectively.
+- Your role involves scrutinizing dialogues that showcase tasks performed by bots
+  in response to user inquiries. Leaning on your understanding of various domains
+  will direct your choices.
+- Your role is to sift through descriptive sentences about conversational tasks and
+  place them into their appropriate operational domains, showcasing your comprehension.
+- Review testimonies about bot activities distinguished by user engagement, then categorize
+  them effectively based on predetermined operational genres.
+- Examine descriptions that illustrate bot tasks and user roles. Organize these descriptions
+  into corresponding categories based on their content focus.
+- You need to consider the essence of each sentence describing tasks performed by
+  a bot or requested by a user, then decide which of the known domains is most fitting.
+- This task involves recognizing the core activity described in each set of sentences
+  and determining which of the 47 domains it best fits.
+- Investigate provided sentences for underlying themes related to assistance or inquiries,
+  matching them with pre-defined domains associated with those themes.
+- You will evaluate a combination of sentences provided about bot tasks and user queries,
+  and need to categorize this specific interaction according to established domains.
+- Your task involves categorizing a set of sentences into one of several predefined
+  domains based on their content. You will need to analyze each sentence to determine
+  its topic and match it to the appropriate category.
+- Tasked with classifying sentences based on user-bot interactions, you'll utilize
+  comprehension skills to identify the purpose of discussions and assign accurate
+  labels.
+- Your role is to interpret sentences concerning bot functions and user needs, then
+  align them with one of the targeted categories that reflect their core essence.
+- Engage in analyzing brief dialogues between bots and users to determine appropriate
+  domains, relying on your understanding of their roles and tasks.
+- Your goal is to dissect descriptions of what both users want from bots and what
+  bots are designed to do, correlating these with established categories of services
+  offered.
+- Categorize the provided sentences by recognizing their intended service area. This
+  requires a keen understanding of context clues within the dialogue.
+- Identify the main purpose behind each pair of bot activities and user requests,
+  and record those purposes under suitable domains from a given list.
+- Your mission is to classify sentence pairs regarding bot actions and user inquiries
+  according to one of the established functional domains previously outlined.
+- You will review a series of sentences representing bot tasks and user interactions,
+  then place them in the appropriate domain that best describes their functionality.
+- Your task is to categorize different sentences that describe roles and responsibilities
+  into one of several designated domains.
+- You will categorize interactions based on the tasks bots perform in response to
+  user inquiries by selecting from a range of specific functional areas.
+- You are required to organize descriptions of bot roles and user inquiries into defined
+  areas that illustrate their specific types of interaction.
+- Evaluate the roles and tasks presented in the input sentences and categorize them
+  accordingly within a set framework of domains.
+- Analyze the provided sentences about bot functions and user interactions, then assign
+  them to the appropriate category based on their context.
+- This exercise requires insight into dialogue structure and intent. By discerning
+  underlying themes, you'll classify each interactive exchange into corresponding
+  service domains.
+- Analyze the relationship between a bot's task and the user's request in given sentences,
+  then determine which domain they correspond to from a list of options.
+- Dissect various scenarios where users interact with informational bots, focusing
+  on recognizing which broader categories these scenarios belong to.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1394_meta_woz_task_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1394_meta_woz_task_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

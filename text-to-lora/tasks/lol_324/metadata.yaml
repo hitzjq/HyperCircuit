@@ -1,0 +1,537 @@
+assistant_prefill: ''
+descriptions:
+- Engage with a range of online perspectives and identify which ones are in agreement
+  with the main idea presented, versus those that challenge or dispute it.
+- You will evaluate a series of online remarks, determining if they indicate concurrence
+  with or opposition to a certain view.
+- Judge the sentiments expressed in online comments by categorizing them based on
+  whether they indicate consensus with a statement or push back against it.
+- This task calls for careful consideration of the language used in public comments
+  to categorize them effectively as either reflecting agreement or fostering discord.
+- "Analyze comments from digital platforms focusing on how they align with existing\
+  \ opinions \u2014 either reinforcing them through agreement or challenging them\
+  \ through disagreements."
+- Your job revolves around assessing public feedback online, making calls about whether
+  sentiment leans toward approval or rejection, considering aspects like tone and
+  context.
+- Analyze comments and categorize them as either 'agree' or 'disagree,' based on the
+  tone and content of the statements.
+- As you process these comments, aim to gauge public sentiment regarding specific
+  topics by categorizing remarks as supportive sentiments or as dissenting views that
+  might lead to disagreements.
+- Your task is to evaluate public comments and determine whether they express agreement
+  or disagreement. This requires analyzing the tone and content of the comments.
+- Assess various online discussions by identifying comments that express agreement
+  or disagreement. Consider both explicit opinions and more subtle nuances in the
+  statements made.
+- The objective is to characterize each comment based on the likelihood of it inciting
+  dissent amongst viewers, labeling them accordingly.
+- Engage in the analysis of social media comments to determine their classification.
+  Focus on identifying elements that lead to either agreement or disagreement.
+- The goal here is to closely observe how individuals express support for ideas in
+  online settings versus how they articulate disagreements. Your classification skills
+  will help illuminate public discourse trends.
+- As part of this task, your focus will be on public opinions expressed online. You
+  should determine whether a comment aligns with mainstream views (agree) or challenges
+  them (disagree).
+- Engage with online opinions and classify them based on their supportive or critical
+  nature toward a particular point of view. Contextual interpretation is crucial here.
+- You need to appraise social media comments critically and identify whether they
+  support or contradict prevailing thoughts in their context.
+- This task involves reflecting on public discussions to classify statements as either
+  agreeing with or opposing existing opinions. It requires sensitivity to nuance and
+  a keen understanding of social dynamics.
+- In this exercise, focus on understanding how public sentiment can be shaped through
+  commentary. Determine if each entry reflects agreement with prevailing notions or
+  presents points of contention.
+- In this exercise, you will read comments that may provoke differing public reactions.
+  Your role is to evaluate these expressions for their level of consensus or contention
+  in their messages.
+- Read through various comments and assess their sentiment, marking them as either
+  conflicting or harmonious based on expressed opinions.
+- You need to interpret sentiments expressed in online discussions, deciding if they
+  advocate for agreement or provoke disagreement. This involves understanding subtle
+  meanings behind expressions.
+- "Evaluate online commentary for sentiment analysis. Determine if the expressed ideas\
+  \ represent general consensus (agreement) or significant pushback against an idea\
+  \ (disagreement) \u2013 focusing on language cues throughout your analysis."
+- "This task centers around navigating through user-generated content and determining\
+  \ the nature of the commentary\u2014whether it\u2019s supportive or challenging."
+- Assess comments made on social media platforms for their stance. You need to identify
+  when a comment likely generates public discord or if it reflects acceptance of the
+  view being expressed.
+- Your work involves categorizing comments found in public forums based on whether
+  they express support for a viewpoint or challenge it sharply. The distinction can
+  be based on emotional tone and content specifics.
+- The task involves reading comments from social media and categorizing them as supportive
+  or dissenting. Consider how each comment might be received by others in the public
+  forum.
+- Engage critically with public commentary by deciding if statements align with prevailing
+  views or challenge them. A keen eye for emotional expressions can guide your decisions.
+- You will analyze various viewpoints expressed in public commentary. Your task is
+  to identify whether the comments lean towards agreement or disagreement, considering
+  factors that could spark debate.
+- This task involves reading user opinions shared online and determining if they reflect
+  an approved perspective or dissent against prevailing arguments, highlighting societal
+  divides in viewpoint.
+- Monitor public discourse through various comments and assess their implications
+  for either consensus or contention. Use your judgment to classify them effectively.
+- You will assess online feedback and classify it based on its potential for public
+  disagreement. Observing nuances in tone can assist you in your evaluation.
+- You will classify the nature of public comments by recognizing when potential disagreement
+  arises due to toxic arguments, controversies, or differing beliefs.
+- Analyze commenters' expressions for signs of agreement versus disagreement, considering
+  how conflicting opinions can reflect broader community sentiments.
+- 'You will classify public comments into two categories: agree or disagree. Focus
+  on identifying any signs of hostility, controversy, or differing opinions.'
+- Identify whether specific online user comments reflect concurrence with existing
+  ideas, feelings, or beliefs, or if they represent significant opposition to those
+  same concepts.
+- This task requires you to interpret comments and classify their sentiment as either
+  agree or disagree. Look for indicators of public disagreement, such as contentious
+  language or differing opinions.
+- Assess public comments on various subjects and classify them as either agreeing
+  or disagreeing. Your focus should be on the sentiments expressed in the comments
+  to gauge public reactions.
+- "In this exercise, you\u2019re tasked with gauging public sentiment expressed in\
+  \ comments, categorizing responses as agreeing with or countering an idea."
+- Your task is to evaluate public comments and determine whether they express agreement
+  or disagreement. This involves understanding the tone and implications of the comments.
+- Your job is to interpret comments found on various platforms, deciding if they align
+  with or oppose a certain viewpoint. This includes evaluating whether the comments
+  contain contentious or toxic elements.
+- In this task, you will read various comments from online discussions. You must classify
+  them into two categories based on whether they suggest an agreement or a disagreement
+  with ideas presented.
+- You will judge the content of user-generated comments by distinguishing between
+  supportive language and expressions of conflict based on underlying issues discussed.
+- Your role is to look at comments from the public and decide if they convey support
+  or opposition. This means recognizing subtle cues that indicate conflict or harmony
+  in opinions.
+- This task involves reviewing comments made in public forums and classifying them
+  according to whether they likely align with the idea presented or oppose it.
+- You're tasked with evaluating public remarks, identifying the degree of agreement
+  or opposition within each comment. Be aware of emotional triggers that may signal
+  disagreement.
+- Your task is to evaluate online comments and decide if they express agreement or
+  disagreement with the content being discussed.
+- You are tasked with classifying statements extracted from online conversations,
+  identifying whether each one expresses general support for an idea or raises disagreements
+  that could provoke varied reactions.
+- Your mission is to sift through statements found in digital forums and categorize
+  them into agree or disagree based on underlying opinions. Watch out for nuanced
+  rhetoric that indicates division.
+- Analyze textual interactions online to gauge collective attitudes, specifically
+  looking for signs of agreement that foster community support or disagreement that
+  incites division.
+- Tasked with reading online discourse, categorize each comment as either harmonious
+  with the discourse or contentious, focusing on wording that suggests opposition
+  or critique.
+- You will carefully read user comments and identify their stance towards broader
+  discussions. Recognizing signals of agreement and indicators of dissent is essential
+  in your assessment.
+- Your examination should encapsulate potential disagreements arising from misunderstandings
+  and differing perspectives found within social commentary.
+- Your task involves evaluating usage of language in comments to determine if the
+  sentiments expressed indicate agreement or disagreement with broader discussions
+  or claims.
+- Your role is to examine the sentiment in various comments from the internet and
+  establish whether they reflect approval or objection towards a statement or viewpoint.
+- 'Read through public comments and sort them into two categories: agree or disagree.
+  Understanding the underlying emotions and opinions will help you make an informed
+  decision.'
+- Analyze public comments to classify them as either supportive or opposing. Look
+  for signs of disagreement, such as conflict or negative sentiments.
+- Review public opinions in comments and classify them as either aligned with or opposed
+  to the notion being discussed. Recognize any indicators of toxic remarks or disagreements.
+- Review the given public comments carefully to determine if they foster agreement
+  among individuals or express conflicting viewpoints which could foster debate within
+  the community.
+- Examine social media statements closely. Look for indications of acceptance of ideas
+  versus indications of dispute that highlight misunderstandings or strong opposing
+  viewpoints.
+- You are required to evaluate comments from online forums for agreement versus disagreement.
+  This entails identifying the emotional undertone and any contentious elements present.
+- 'This activity involves reading individual comments from various online platforms
+  and categorizing them into two distinct groups: those that agree with a point and
+  those that disagree.'
+- Your task is to evaluate comments from online platforms and determine whether they
+  express agreement or disagreement. This requires analyzing the tone and content
+  of the comments.
+- Your job is to review statements from the public and classify them. Focus on identifying
+  sentiments that either support or challenge prevalent ideas.
+- This task involves evaluating user-generated content for its stance. Classify each
+  comment as reflective of consensus (agree) or dissent (disagree) based on its wording
+  and implications.
+- This task involves evaluating statements for emotional and content clues to classify
+  them clearly as disagreeing or agreeing with a certain proposition.
+- Determine if comments resonate with a shared perspective or contradict it by identifying
+  expressions of sentiment such as frustration, support, or dissent in the language
+  used.
+- Your role is to sift through various opinions shared online and ascertain if they
+  express a shared viewpoint or signal a form of disagreement.
+- Your job is to evaluate provided comments and decide if they imply an agreement
+  with a viewpoint or a disagreement that may cause controversy. Analyzing the content
+  critically is essential.
+- Analyze online discussions by determining if comments reflect agreement with common
+  beliefs or diverge from them. Understanding societal context can enhance your classifications.
+- Dissect public remarks to determine if they buttress the views expressed in discussions
+  or push back against them due to concerns, criticisms, or differing opinions.
+- Your role is to interpret social media comments, deciding if they convey support
+  or challenge to a shared idea within the conversation.
+- 'This exercise involves reviewing online comments and categorizing them into two
+  distinct groups: those that show support for an idea and those that oppose it, especially
+  when such opposition can be contentious.'
+- In this task, read comments and judge if they are likely to create disagreement
+  among readers. Words that suggest strong opinions or emotional reactions may help
+  you classify them accurately.
+- The task is to examine online comments to see if they are likely to foster agreement
+  or disagreement within a discussion. You'll analyze the content for cues that indicate
+  its intent.
+- The objective here is to assess the attitudes in various public comments regarding
+  certain topics, labeling them as either expressing agreement or disagreement through
+  careful analysis of word choice and sentiment.
+- In this task, your focus is on gauging public opinions through comments. You'll
+  classify these remarks as either affirming an idea or opposing it, based on discernible
+  expressions of support or criticism.
+- Your task involves reading public comments from online platforms and deciding whether
+  they express agreement or disagreement.
+- The assignment requires you to recognize tones in online discussions and classify
+  comments based on whether they reflect agreement or opposition.
+- Review public commentary, categorizing it into agree or disagree factions based
+  on tone and content. Being attuned to underlying feelings within discussions is
+  fundamental here.
+- This task requires you to interpret online remarks and discern their sentiment regarding
+  agreement or disagreement. Assess for signs of hostility or controversy in the language
+  used.
+- You will engage with public comments and discern their implications, sorting them
+  into categories of concurrence or opposition towards certain issues.
+- Your task is to read public comments and determine whether the author agrees or
+  disagrees with the content being discussed. Pay attention to the tone and language
+  used in the comments.
+- Classify a variety of online comments by determining if they agree with or oppose
+  a given viewpoint. Focus on the language used to understand the commenter's stance.
+- This task involves understanding the underlying sentiments of online comments. Classify
+  each comment according to whether it likely promotes agreement or sparks disagreement
+  among readers.
+- Your job involves looking at opinions shared in comments and identifying whether
+  they align with the subject matter positively or negatively based on their content's
+  implications.
+- In this assignment, your role is to assess the nature of user comments online. Determine
+  if these remarks denote consensus within a discussion or signify challenges that
+  could evoke disagreement among others.
+- This task asks you to closely examine opinions shared publicly and determine if
+  they reflect support for a given idea or a challenge against it, taking care not
+  to overlook emotional undertones.
+- Your main focus will be the sentiment contained within online remarks. You'll need
+  to tell if the speaker aligns with a viewpoint or takes a contrary stance, using
+  critical insight into the language employed.
+- The goal of this task is to sift through public opinions expressed online and classify
+  them as attitudes of support (agreeing) or rejection (disagreeing), focusing on
+  both explicit messages and implied meaning.
+- You are tasked with classifying public discourse in terms of consensus versus contention.
+  Identify constructive agreements contrasted against critical viewpoints which may
+  evoke differing opinions.
+- This task requires you to delve into online commentary culture where opinions may
+  clash. Classify sentiments as either supportive or contentious based on their phrasing.
+- The goal is to classify online comments by sentiment. Determine whether each comment
+  fosters agreement or promotes disagreement within its context.
+- Evaluate sentiments expressed in the comments, focusing on contextual clues that
+  reveal whether the commenter is in alignment with prevailing opinions or contradicting
+  them.
+- "The aim is to classify public remarks based on attitudes towards issues\u2014whether\
+  \ they express a consensus viewpoint or provoke dissent among readers."
+- In this task, you will examine comments for underlying sentiment, deciding if they
+  reflect agreement with widely held views or disagreement that may provoke conflict.
+- Your goal is to evaluate a variety of public comments and classify them based on
+  whether they are likely to provoke disagreement or show support for an idea.
+- Analyze the provided comments to determine if they agree with common sentiments
+  or present opposing views. This involves recognizing emotional tone and underlying
+  beliefs.
+- You are tasked with classifying online remarks based on whether they seem to foster
+  agreement or discord. This involves understanding the context and sentiment behind
+  the words.
+- "Scrutinize feedback from online discussions for their underlying message \u2014\
+  \ whether they validate the presented views or introduce dissenting thoughts reflecting\
+  \ public discord."
+- In this task, you are asked to classify comments from social media based on their
+  sentiment towards a topic. Recognize signs of strong feelings and potential conflict
+  in the commentary.
+- "You are tasked with sorting comments regarding their polarizing nature\u2014whether\
+  \ they support a notion or oppose it. Analyze the phrasing and implications carefully."
+- Your job is to classify comments found in public forums according to their sentiment,
+  determining if they agree with an established perspective or bring a countering
+  opinion.
+- Your role is to interpret comments, focusing on whether they promote agreement with
+  an idea or contribute to disagreement. Pay attention to the emotional tone of the
+  message.
+- The task involves analyzing public comments to determine whether the speaker expresses
+  agreement or disagreement. You'll need to detect tone, language, and any indications
+  of conflict or harmony in opinions.
+- Evaluate online comments critically, sorting them into those that support the argument
+  and those that reject it due to misunderstanding, offense, or disagreement.
+- Your assignment is to classify responses from online users into categories of agreement
+  and disagreement, paying careful attention to language that conveys positivity or
+  negativity.
+- You will categorize comments based on whether they echo agreement or signal disagreement.
+  Pay attention to how people express their opinions and any potential for controversy.
+- The objective is to determine the alignment of various comments with more broadly
+  accepted perspectives versus those that diverge from them. Look out for signals
+  of confidence or dispute in sentiments.
+- Engage with public commentary to discern whether they lean towards disagreement
+  or agreement, recognizing that language can carry strong implications about public
+  sentiment.
+- Read and interpret comments to categorize them as expressing consensus or contention.
+  Pay attention to emotional language or controversial statements that might signal
+  disagreement.
+- Your goal is to dissect public comments, interpreting them through a lens of support
+  or opposition. Crucial indicators include emotional intensity and contentious language.
+- Your task involves understanding the nuances of social commentary online, identifying
+  which remarks would be seen as affirming agreement or sparking disagreement among
+  audiences.
+- Review public comments and decide if they agree with or challenge certain ideas.
+  Observe details that may reveal conflict or solidarity in opinions expressed.
+- You will need to interpret a variety of public comments and identify them as either
+  affirming an idea or challenging it. Your analysis will rely on understanding context
+  and tone.
+- Analyze public comments from social platforms to classify them as likely agreeable
+  or disagreeable. Understanding context and word choice is key, as these elements
+  influence the sentiment behind each statement.
+- This task involves classifying public comments according to their likely emotional
+  impact. You'll be identifying whether each comment promotes agreement or indicates
+  disagreement based on its content.
+- Determine if a public comment endorses or opposes the subject matter presented.
+  Your judgment hinges on linguistic cues that reflect emotional or rational responses.
+- Your mission is to read through various public comments and distinguish between
+  supportive arguments and those that signify a clear disagreement, especially when
+  negativity is present.
+- You will assess public commentary, determining if each expresses consensus or dissent.
+  Recognizing conflicting opinions will guide your classification.
+- Analyze comments from online discussions and determine their stance regarding the
+  subject matter. Notice whether the comment conveys dissent or consensus based on
+  its phrasing.
+- You are tasked with determining the sentiment of public comments. Each comment should
+  be analyzed for cues indicating whether individuals are supportive of or opposed
+  to the ideas being discussed.
+- You will analyze online comments to figure out if they express agreement or disagreement.
+  Look for cues that indicate support or opposition, considering how the statements
+  may provoke differing opinions.
+- Your job is to scrutinize online discussions and determine the level of agreement
+  expressed in each comment provided.
+- Classify the sentiment of public comments as either supportive or contentious based
+  on their language and context. Recognizing tension in discussions is important for
+  this task.
+- You need to evaluate comments from online discussions and decide whether they show
+  agreement or disagreement. This involves identifying the tone and context to determine
+  how they might be received by others.
+- The task requires you to scrutinize comments made by users online, assessing whether
+  these opinions are aligned with a prevailing idea (agreement) or in opposition to
+  it (disagreement).
+- Your role involves judging comments that reflect personal viewpoints on certain
+  matters. Identify whether they encourage a healthy discussion or likely lead to
+  public skirmishes.
+- Your objective is to assess user-generated comments for their sentiment. Classify
+  each comment as either agreeing with the topic or expressing a significant level
+  of disagreement that might provoke further discussion.
+- Your job is to analyze whether comments reflect approval or dissent. Pay attention
+  to the language and context, as these will guide your classification.
+- "You are tasked with interpreting comments from various online sources to classify\
+  \ their stance regarding economic or political issues\u2014deciding between an agreeing\
+  \ voice or one of dissent."
+- The goal of this task is to analyze comments made by users online. You need to identify
+  if each comment indicates an agreement with a viewpoint or a disagreement that could
+  lead to public contention.
+- You will examine comments from various online sources and decide if they reflect
+  an alignment with common beliefs (agreement) or if they present conflictual ideas
+  that may stir debate (disagreement).
+- Your task is to discern whether online remarks indicate support for a viewpoint
+  or challenge it. This will entail analyzing content for potential friction among
+  opinions.
+- In this activity, you'll analyze how people respond in public discussions. Identify
+  if their remarks suggest collective support (agreement) or conflicting viewpoints
+  (disagreement).
+- You will read comments from public platforms and decide if they convey a sense of
+  agreement or disagreement, taking into account the tone and content of the remarks.
+- Read through various public comments and determine whether they are expressing a
+  supportive stance or a critical one. Recognizing toxic language can help in making
+  this judgment.
+- The objective is to assess whether a comment aligns with a viewpoint or opposes
+  it. Look for keywords and phrases that indicate support or conflict.
+- The objective here is to review public statements and establish if they lean more
+  towards agreement or disagreement. Consider how the wording reflects different perspectives
+  and emotions.
+- As you engage with these public comments, your judgment will be tested as you decide
+  if they represent agreement or spark dissenting opinions while evaluating potential
+  underlying issues in the discourse.
+- The task involves analyzing online comments to determine whether they express agreement
+  or disagreement with a given viewpoint or statement.
+- Examine each comment carefully to identify if it adds positivity or negativity to
+  a discussion. Comments that contain disrespect or conflict should be classified
+  differently from those that show support.
+- Your responsibility is to determine the nature of comments found online by distinguishing
+  whether they convey support for a statement or express dissent. Critical evaluation
+  of the language will aid your judgment.
+- 'Analyze comments to identify their sentiment towards certain topics, classifying
+  them into two groups: those that express agreement and those that signify disagreement.'
+- "This task invites you to closely examine online comments and classify them into\
+  \ two opposing views\u2014agreement or disagreement\u2014while considering emotional\
+  \ undertones and context that may influence public opinion."
+- Your role is to judge online comments for their level of agreement or disagreement
+  with a statement, highlighting disagreements that might stem from misunderstandings
+  or toxic attitudes.
+- You are tasked with evaluating public comments from various online platforms and
+  determining whether they express agreement or disagreement. Your classification
+  will rely on understanding the tone and content of the comments.
+- Your responsibility is to evaluate whether statements in online discussions spark
+  agreement or disagreement among audiences, tracking how language can affect perceptions.
+- You will be examining various public remarks to gauge their sentiment. Your goal
+  is to classify each comment as agreeing or disagreeing based on its content and
+  intent.
+- This task requires you to review and interpret public comments. Judge each comment
+  by its level of agreement or disagreement, being mindful of nuances in tone that
+  signal broader societal attitudes.
+- This task requires you to measure the sentiment of online comments, determining
+  whether they lean towards agreement or dissent based on their content and tone.
+- Your job is to evaluate sentences from user comments based on whether they indicate
+  consensus or discord within public opinion. Look for argumentative language as a
+  key indicator.
+- The task requires you to determine how each comment fits into the dichotomy of agreement
+  or disagreement by analyzing language and intent.
+- Your job is to evaluate the language used in online discussions, sizing up whether
+  public sentiments align with discussion topics (agree) or present objections that
+  highlight societal disagreements (disagree).
+- Your analysis should focus on understanding the underlying sentiment in public remarks,
+  particularly regarding how they may foster disagreement.
+- "As part of this task, you will take comments from online platforms and classify\
+  \ them based on their likely public reaction\u2014identifying whether they agree\
+  \ with a sentiment or argue against it."
+- The task centers around providing a clear judgment on public sentiments expressed
+  in comments, focusing on distinguishing between support and opposition.
+- Analyze online statements for signs of agreement or disagreement. Categorize them
+  accordingly, relying on your understanding of social dynamics and how arguments
+  are constructed.
+- The project requires you to examine various comments made online and judge whether
+  they express a favorable view or challenge it. Look for tones that indicate satisfaction
+  or discontent.
+- Consider each comment you read as a voice in a larger conversation. Your task is
+  to determine if these voices agree with the topic at hand or speak against it based
+  on tone and content.
+- You will examine public comments and determine their sentiment, specifically focusing
+  on whether they indicate support or contention regarding the topic discussed.
+- Analyze the submitted remarks formulating whether they align more with a perspective
+  that indicates agreement or one that suggests disagreement.
+- The focus lies in your ability to understand public sentiment through comments posted
+  online. Determine if these remarks indicate an alignment with a belief system or
+  challenge it due to differing perspectives.
+- In this task, you will read comments from the web and classify them based on their
+  sentiment. Focus on identifying signals of disagreement stemming from disrespectful
+  or controversial opinions versus neutral or positive agreement.
+- "Your focus will be on social media discourse, where you classify sentiments in\
+  \ user comments\u2014identifying supportive consensus versus contentious objections."
+- As part of your analysis, classify public comments by identifying whether they foster
+  agreement or open the floor for disagreement, requiring an understanding of social
+  norms in discourse.
+- "Review online discussions critically to provide insight into commenters\u2019 attitudes,\
+  \ determining when remarks might stir controversy or unite opinions."
+- Navigate through a selection of user-generated comments online to discern if they
+  resonate positively with the subject matter or reflect a critical stance that could
+  stir disagreement.
+- This task involves categorizing comments based on their sentiments toward a topic.
+  You will need to recognize nuances in expression that could signal either alignment
+  or opposition.
+- You will analyze online comments to categorize them as either expressing agreement
+  or disagreement. This requires a careful reading to identify when a comment might
+  provoke differing opinions.
+- Your task involves assessing responses from online users and categorizing them accordingly,
+  focusing on discernible attitudes that reveal either unity or division in thought.
+- You will classify public opinions based on their content, identifying if they are
+  likely to bring about disagreement or if they share a common viewpoint.
+- Analyze the tone of various comments and decide if they show alignment with others'
+  views or create space for disagreement. Your understanding of social dialogue is
+  crucial here.
+- The task requires you to assess comments and categorize them as either "agree" or
+  "disagree," considering factors such as potential toxic content and the presence
+  of conflicting opinions.
+- You will evaluate public discourse in comments, classifying them as either agreeing
+  or disagreeing with prevailing ideas. This requires sensitivity to the implications
+  of the language used.
+- You will receive various comments from the internet and your objective is to determine
+  whether each comment indicates agreement with the ideas presented or disagreement
+  based on its tone and content.
+- Assess public remarks for their stance on issues, identifying those that agree with
+  mainstream views and those that provoke controversy or debate.
+- Analyze the language used in online comments to decide if they advocate for a perspective
+  or challenge it. Consider the overall message to guide your decision.
+- Engage with public comments to see whether they reflect a consensus or conflict.
+  You will need to discern subtle cues in language that suggest a tone of agreement
+  or disagreement in social discourse.
+- In this task, you'll sift through various comments made by users online, classifying
+  them as either supportive positions or critical voices aiming to articulate opposing
+  views within social dialogue.
+- You'll be tasked with sifting through public commentary and assessing its tone.
+  The goal is to classify opinions based on whether they resonate positively (agreement)
+  or negatively (disagreement) with prevailing ideas.
+- "You\u2019ll analyze online commentary to identify overall sentiment, distinguishing\
+  \ between agreement with prevailing viewpoints and expressions of dissent that indicate\
+  \ potential controversy."
+- In this task, you will interpret comments and label them to reflect whether they
+  resonate positively or negatively with the topic at hand.
+- In this challenge, classify comments regarding their stance; whether they lean towards
+  agreeing with popular sentiments or expressing contrary opinions laden with possible
+  conflict.
+- Your role is to assess a selection of public comments to classify them as either
+  'agree' or 'disagree,' using context clues within the text to guide your judgment.
+- Analyze the given comments and classify them according to their expressed sentiments
+  towards specific topics. Recognize patterns that suggest agreement versus those
+  implying fallout.
+- In this task, you'll categorize comments from the public by discerning whether they
+  align with a viewpoint (agree) or challenge it (disagree), analyzing how people
+  express their opinions.
+- This task involves classifying public comments based on their sentiment. You need
+  to discern whether a comment aligns with or opposes a certain viewpoint.
+- You are required to interpret the meaning behind public comments and decide if they
+  convey a sense of agreement or disagreement, considering factors like controversial
+  statements and potential toxicity in the remarks.
+- In this task, you must interpret a variety of online expressions, determining if
+  they signify a collective agreement or provoke discord. Understanding public sentiment
+  is key.
+- The task entails dissecting user-generated comments to assess their alignment with
+  certain beliefs or facts. Evaluating context is key to understanding if sentiments
+  are supportive or hostile.
+- Interpret public discourse by categorizing expressions of agreement versus disagreement
+  found within online comments. This task demands understanding of social interactions
+  and argumentative cues.
+- Examine various comments for sentiment-oriented classification, identifying elements
+  that reflect either harmony with or hostility towards discussed topics in public
+  forums.
+- Your role is to interpret public feedback and label them as expressing either support
+  or criticism. Look out for emotional triggers that indicate disagreement, such as
+  negativity or insults.
+- In this task, you will be examining online comments to classify them as either agreeing
+  or disagreeing with the topic at hand based on their language and sentiment.
+- Engage with a series of comments aimed at exploring public opinion. Your role is
+  to discern if these sentiments are supportive or contrarian, staying vigilant for
+  signs of conflict or commonality in views.
+- You will analyze public commentary, determining where each sentiment falls in terms
+  of support for the ideas being expressed or opposition based on strong counterarguments.
+- You are to categorize online remarks as either supportive or critical towards specific
+  issues. Assess the language for indications of disagreement that might arise from
+  misunderstandings or controversial subjects.
+- The goal is to assess each comment for its sentiment, classifying it as either supportive
+  or contentious in nature.
+- You are tasked with distinguishing between agreeable and disagreeable sentiments
+  in comments. It's important to consider context as well as wording in your evaluation.
+- You are required to interpret online feedback as reflective of broader social attitudes,
+  differentiating between agreement and disagreement while considering potential societal
+  implications of those views.
+ds_kwargs:
+  path: Lots-of-LoRAs/task324_jigsaw_classification_disagree
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task324_jigsaw_classification_disagree
+user_prompt_template: '{task_def}
+
+
+  {problem}'

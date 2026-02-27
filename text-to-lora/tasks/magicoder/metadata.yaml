@@ -1,0 +1,566 @@
+assistant_prefill: ''
+descriptions:
+- In this task, your focus is on translating problem descriptions into executable
+  code. This requires analytical reasoning to break down the problems and implement
+  solutions that accurately reflect the tasks described.
+- You must demonstrate the ability to synthesize information from prompt descriptions
+  into logical coding structures. Implementing effective solutions requires not just
+  creativity but also precision in executing programming concepts correctly.
+- Your role is to create code snippets that conform to given specifications while
+  ensuring they are functional and optimized for performance. This includes handling
+  various data types and structures.
+- Your aim is to bring clarity and functionality to programming challenges through
+  well-designed code implementations. Emphasis is placed on structure, performance,
+  and correctness of the solutions you provide.
+- You will be working with various data types and structures in your coding tasks.
+  Understanding when and how to use them appropriately is crucial for successfully
+  implementing your solutions.
+- Construct a software component that can efficiently process input as specified in
+  the problem statement. Good debugging and testing practices will be beneficial.
+- In this task, you will apply your knowledge of programming concepts to design and
+  implement functions that solve specific problems related to data processing, algorithms,
+  or system design.
+- The task involves writing a function in a specified programming language to solve
+  a particular coding problem, demonstrating problem-solving skills and knowledge
+  of programming concepts.
+- The objective is to implement well-structured functions that perform specific calculations
+  or operations, demonstrating your understanding of coding principles and best practices.
+- This challenge pushes you to deliver precise coding solutions that effectively address
+  problems involving algorithms, data structures, and application logic across diverse
+  contexts.
+- The job at hand requires synthesizing information from the problem description into
+  well-written code, showing how inputs transform into desired outputs through proper
+  logic.
+- The goal is to develop code solutions for various programming scenarios, which may
+  include manipulating data structures, applying algorithms, or even handling web
+  requests. A clear understanding of the requirements is crucial for success.
+- The focus of this task is on developing functional code snippets that solve real-world
+  issues in software design and implementation. Familiarity with object-oriented programming
+  may be necessary for some tasks.
+- You are to interpret coding challenges and implement solutions using sound programming
+  principles while addressing any complexities presented in the requirements.
+- You are required to solve specific computing problems by constructing algorithms
+  and using data structures appropriately. The focus will be on accuracy and efficiency
+  in your implementations.
+- This task involves coding a script or function that accomplishes a defined goal.
+  You must demonstrate proficiency in programming concepts, such as loops, conditionals,
+  and data manipulation.
+- Solve real-world scenarios by building software components that meet explicit criteria
+  related to performance, data handling, or user interaction.
+- Focus on producing clean, maintainable code that meets the challenge requirements
+  accurately. Your solutions will reflect both technical skills and a good grasp of
+  problem-solving methodologies.
+- This task emphasizes your ability to translate requirements into functional code.
+  You will utilize logic and programming skills to implement various features or functionalities
+  effectively.
+- The job entails tackling software development challenges by implementing specific
+  functionalities as described in each prompt by leveraging your understanding of
+  programming languages and frameworks.
+- This task demands that you apply fundamental programming concepts such as variables,
+  control flow, and data manipulation to create solutions for given problems.
+- The objective is to leverage built-in libraries and frameworks to build robust solutions
+  for real-world scenarios, combining your coding skills with domain knowledge in
+  areas like web services or data processing.
+- The objective here is to showcase logical reasoning through code. Each task might
+  require different strategies depending on factors like language specifics or problem
+  domain (web development, data manipulation, etc.).
+- Here, you are asked to implement features in a software program using principles
+  of programming languages, focusing on both efficiency and clarity in your code structure.
+- The goal is to create code snippets that effectively solve defined problems. Your
+  implementations should consider edge cases, adhere to language syntax, and provide
+  functionalities as described in the prompts.
+- This endeavor focuses on sharpening your problem-solving abilities within a coding
+  environment. You'll be expected to navigate through various scenarios requiring
+  thoughtful consideration of coding logic.
+- Focus on implementing features that follow through with clearly defined specifications
+  while ensuring the output generated by your program meets user expectations effectively.
+- The assignment calls for leveraging your technical knowledge of programming languages
+  to create functions that provide accurate results based on defined parameters.
+- Embrace programming challenges that call for creativity and logical thinking as
+  you craft innovative solutions tailored to unique problems within various coding
+  frameworks.
+- You are tasked with writing code to solve specific programming challenges using
+  different languages. Each task requires understanding the problem and implementing
+  a suitable solution.
+- This task centers on developing practical coding solutions that address specified
+  technical requirements. You'll need to leverage your coding skills and problem-solving
+  abilities in different contexts across programming languages.
+- Your task involves writing code to solve specific programming problems, utilizing
+  various languages like Python, TypeScript, and C#. You must implement functions
+  or methods that meet specified requirements based on provided scenarios.
+- Your task is to write code that solves a programming problem by implementing a specific
+  function or script. This requires an understanding of the relevant programming language
+  and the ability to handle various input scenarios.
+- This task requires you to analyze a specified programming problem and create a solution
+  that adheres to the given requirements. Expect to utilize data structures and algorithms
+  effectively to solve the problem at hand.
+- In this task, you'll create code capable of addressing specific needs based on provided
+  scenarios. Effective problem analysis and a strong grasp of the chosen programming
+  language will help you achieve successful implementation.
+- Understand the logic required for processing input data according to business rules
+  or conditions and implement this logic consistently throughout your codebase.
+- Your implementation efforts should reflect a thorough understanding of each programming
+  language's nuances and capabilities while directly applying them to solve problems
+  as described in the input scenarios.
+- The assignment involves developing a software function that fulfills predefined
+  specifications. Problem-solving skills and familiarity with the specified programming
+  language are essential for success.
+- This task involves constructing algorithms and programming logic to accomplish defined
+  objectives, such as data extraction, environment setup, or function registration.
+- The goal is to develop a specific functionality using the provided programming tools
+  and libraries, reflecting an understanding of how these tools can be applied in
+  real-world scenarios.
+- This exercise requires careful reading of problem statements followed by generating
+  accurate coding solutions that fulfill those requirements effectively. An analytical
+  approach will aid in recognizing key elements for your implementations.
+- The main focus here is developing programs that adhere to set guidelines while efficiently
+  solving practical problems encountered in software engineering.
+- You will be constructing code solutions that require attention to detail while considering
+  performance implications for larger datasets or more complex scenarios.
+- Expect to act as a programmer solving real-world inspired problems by creating code
+  solutions tailored to specified needs. Successfully achieving this requires a balance
+  of technical skills with conceptual understanding of computer science principles.
+- You will need to write well-structured code that adheres to best practices in programming.
+  Your implementation should be efficient, maintainable, and free from errors through
+  thorough debugging and testing.
+- Approach each task by understanding the underlying problem statement clearly, and
+  deploy your coding expertise to craft appropriate solutions that demonstrate functionality
+  and efficiency.
+- The challenge also includes integrating different components or modules within a
+  larger system context. This requires not just coding skill but also an understanding
+  of system design and architecture.
+- Implement a solution that involves iterating through data and applying particular
+  logic or conditions to achieve the expected results. Understanding loops and conditional
+  statements is crucial.
+- The exercise requires you to create functions or classes in a coding environment
+  that effectively carry out designated tasks, reinforcing your programming and logical
+  reasoning skills.
+- In this assignment, you will tackle logical and practical programming challenges
+  that require applying your knowledge of syntax and algorithms in a particular programming
+  language.
+- This task demands critical thinking skills as you navigate through the requirement
+  details to discern what the task entails methodically before implementing any solutions.
+- This task requires you to develop code solutions that adhere to given problem statements.
+  You'll need to understand the underlying principles of programming in the specified
+  languages and create functional, efficient code.
+- Analyze the given specifications for coding tasks and produce clear, efficient solutions
+  in the specified programming language, demonstrating proficiency in software development.
+- You'll apply knowledge of data structures and algorithms as you work through implementing
+  solutions tailored to specific challenges posed in the task descriptions.
+- Each problem offered requires you to interact with different coding paradigms and
+  apply them effectively throughout your development process, pushing for clarity
+  and efficiency in your solutions.
+- The task requires you to create a systematic approach to generating desired outputs
+  based on specific inputs following the rules defined in the problem description.
+- Create a function or class that performs specific operations as described in the
+  programming problem. Your solution must be efficient and follow best practices for
+  the language in question.
+- Use problem-solving skills that encompass critical thinking and creativity in devising
+  solutions that are robust against potential errors or unanticipated inputs.
+- You will be working on a range of programming issues that involve creating functions,
+  managing data, or conducting operations based on input values. Your goal is to produce
+  correct and efficient code.
+- Expect to delve into problems that require you to create interfaces between user
+  interactions and backend processing. Understanding how different components of software
+  systems interact is key to successful implementations.
+- You will create algorithms that execute logic through bitwise operations or similar
+  advanced techniques. This requires an understanding of binary representations and
+  how they relate to mathematical operations.
+- You need to create software that meets certain criteria outlined in the given tasks.
+  This requires a solid understanding of programming languages and problem-solving
+  skills.
+- "Explore various algorithms for solving computational problems as they apply to\
+  \ your task\u2014be prepared to justify your choice of method based on efficiency\
+  \ and effectiveness."
+- Your task involves writing code to solve programming challenges using different
+  languages. You will need to demonstrate your understanding of algorithms, data structures,
+  and language syntax.
+- Participate in exercises that require you to devise algorithms or scripts designed
+  to perform distinct operations effectively while adhering closely to best practices
+  in software design.
+- The objective is to translate real-world processes into programmed solutions, requiring
+  you to think critically about how best to approach each requirement systematically.
+- The focus here is on writing well-structured code to solve defined programming problems.
+  You may work with various input types, implement logic, and test outputs against
+  expected results as part of your solution process.
+- You are tasked with creating scripts that automate tasks or manage data inputs in
+  specific formats, illustrating your ability to transform conceptual ideas into practical
+  executable code.
+- Your task involves developing a program in a specified programming language to solve
+  a given problem. You must understand the requirements and implement the solution
+  correctly.
+- Your work involves creating software solutions through coding patterns that align
+  with defined criteria from problem statements, demonstrating both creativity and
+  technical skill.
+- This task requires you to develop solutions in different programming languages.
+  You will be expected to showcase your coding skills while adhering to the provided
+  specifications and requirements.
+- This task requires you to analyze a programming problem and create a solution that
+  adheres to the specified requirements, highlighting your ability to apply programming
+  principles.
+- This task entails encoding business logic into functional code segments that will
+  automate tasks or calculate outcomes based on user-defined inputs. Critical thinking
+  is key here.
+- You are expected to build custom classes or functions based on provided specifications.
+  You should be comfortable using libraries or frameworks relevant to the programming
+  language in question.
+- You need to design a program that meets certain requirements outlined in the problem
+  description. This will involve choosing appropriate data structures and implementing
+  algorithms to process information correctly.
+- This task requires you to build or enhance pieces of software by writing code that
+  fulfills specified requirements. Understanding the programming language's syntax
+  and capabilities is essential.
+- Your goal is to create a functional piece of software that handles certain inputs
+  and produces expected outputs based on the problem statement. This requires analytical
+  thinking and programming skills.
+- Your objective is to build a software component that processes inputs and produces
+  outputs according to predefined rules. You will need to analyze the requirements
+  and translate them into code.
+- Your role is to bridge between mathematical concepts and programmatic implementations
+  through coding tasks that may involve calculations, data processing, and handling
+  different formats.
+- "You are tasked with writing a program that encompasses multiple operational elements\u2014\
+  from data input to output\u2014demonstrating comprehensive coding ability within\
+  \ the parameters described."
+- Work on coding exercises requiring careful interpretation of project requirements
+  and the ability to translate those requirements into functional code solutions.
+- You will be tasked with creating implementations that manage different scenarios,
+  such as error handling or data analysis. Each task will test your ability to think
+  critically and solve coding challenges.
+- The aim is to enhance your coding proficiency through the completion of targeted
+  programming exercises that involve building classes or methods according to defined
+  functional requirements.
+- Your responsibilities involve crafting software components by implementing design
+  patterns and principles that suit the specifications laid out in each task description.
+- Write code that integrates well with existing systems or frameworks if applicable.
+  Research may be necessary to utilize libraries or tools that simplify your implementation.
+- You will be addressing programming challenges by creating functions or methods that
+  perform certain tasks. These tasks could range from handling file operations to
+  managing user data in a specific way.
+- This task challenges you to write clean and functional code by interpreting detailed
+  problem statements. Each coding challenge tests different aspects of programming
+  skills, including logic development and error handling.
+- "Here, the focus is on creating scripts that interact with external systems or APIs.\
+  \ You\u2019ll need to handle requests and responses effectively while ensuring error\
+  \ handling mechanisms are in place."
+- You are expected to implement programming solutions based on scenarios that may
+  involve real-world applications, such as monitoring connectivity, processing files,
+  or managing user data transformations.
+- You are tasked with building software functionality that adheres to guidelines presented
+  in the prompt. Efficient coding and understanding of algorithms will be crucial
+  for achieving the desired results.
+- This task is about translating abstract problem statements into concrete code solutions
+  using languages like Python or TypeScript. Understanding data structures and control
+  flow will be crucial in your implementation.
+- "You\u2019ll need to document your code clearly, explaining how each part of the\
+  \ solution works. Clear documentation is vital for maintainability and for others\
+  \ who may work with your code later on."
+- You will create solutions for problems centered around algorithms, data manipulation,
+  or user interface components in a programming context. Clear thinking and logical
+  reasoning are crucial for success.
+- You are challenged to implement efficient code solutions that adhere to best practices
+  in software development, ensuring maintainability and functionality as specified
+  in the task details.
+- This task will test your ability to read and understand specification documents
+  or problem statements thoroughly. You must break down each requirement and implement
+  it step by step in your code.
+- Your mission is to translate detailed programming problems into functional code
+  solutions while ensuring robustness and scalability as needed by the various challenges
+  presented in the input case.
+- Finally, reflect on your code's performance after achieving a working solution;
+  consider enhancements or optimizations for future iterations based on user feedback.
+- Engage in programming by crafting snippets that fulfill expected outcomes based
+  on given input parameters, demonstrating proficiency with data handling semantics.
+- This project involves writing code to simulate an activity or solve a practical
+  problem, which entails understanding both the requirements and how to implement
+  them programmatically.
+- The objective is to write code that adheres to the requirements outlined in the
+  prompt. This may involve data manipulation, control structures, and potentially
+  using external libraries or modules.
+- You may be required to perform testing on your written solutions, which involves
+  both unit tests and integration tests, ensuring that all components work as intended
+  when combined.
+- Your job is to devise a programmatic solution to a defined problem, utilizing your
+  knowledge of programming concepts to handle tasks such as data storage, processing,
+  and output generation.
+- As part of this activity, utilize programming logic and syntax elements proficiently
+  while crafting responses that address the given computational problems effectively.
+- This task revolves around creating robust programs that fulfill defined criteria,
+  showcasing your capabilities in writing concise and effective code while also ensuring
+  adherence to best practices.
+- You'll be tasked with implementing software solutions that address specific challenges
+  in programming. This includes using industry-standard practices to ensure your functions
+  operate correctly and efficiently.
+- In this task, you must analyze a given problem description and translate it into
+  executable code. Your success will depend on your coding proficiency and familiarity
+  with the relevant programming languages.
+- Through this task, you will enhance your problem-solving capability by tackling
+  distinct programming challenges that focus on applying logic in designing algorithms
+  or managing data effectively within defined structures.
+- The task involves writing appropriate solutions to various programming problems.
+  You will need to demonstrate familiarity with specific programming languages like
+  Python or Rust while implementing functions and classes that achieve the desired
+  outcomes.
+- Your job is to create a utility function in code that effectively gathers information
+  from objects or arrays, showcasing your knowledge of object manipulation and array
+  processing within the programming language.
+- "You\u2019ll be tasked with composing functional pieces of code that align with\
+  \ provided descriptions. Effective debugging and testing methodologies may also\
+  \ be required as you develop these solutions."
+- Write a comprehensive implementation that meets the constraints specified in the
+  prompt, showcasing your understanding of how to manipulate data within programming
+  languages.
+- Your task involves solving programming problems by writing code that meets specific
+  requirements. You will need to implement functions or classes that handle various
+  coding challenges effectively.
+- Your challenge is to apply programming concepts to solve real-world problems by
+  designing efficient solutions. You must logically break down the problem and create
+  structured coded answers.
+- In this task, you are expected to explore libraries or frameworks specific to each
+  programming language, using them effectively to streamline your development process
+  and enhance functionality.
+- You will need to manipulate data structures effectively to reach a solution, possibly
+  using lists, dictionaries, or more complex structures as required by the problem.
+- You will be implementing algorithms or logic to tackle a defined computational challenge.
+  Familiarity with algorithms and data structures relevant to the task will be essential.
+- Extract insights from example inputs and expected outputs in order to clarify your
+  understanding of the problem space before implementation.
+- The assignment calls for you to implement code that correctly executes specific
+  tasks outlined in the question, ensuring that your solution is both functional and
+  efficient.
+- You'll be employing best practices in software development such as version control,
+  modular design, and code reviews as part of this task's requirements for efficient
+  collaboration and quality assurance.
+- This task requires you to write scripts or functions that automate processes or
+  perform computations based on defined input and output relationships.
+- The assignment involves engineering a functional piece of code to handle a specified
+  task, emphasizing logical thinking and the practical application of programming
+  techniques.
+- You are required to develop a code snippet that carries out operations on files
+  or data formats. This involves reading inputs and generating outputs while ensuring
+  correctness.
+- You are required to implement a program that effectively addresses a given computational
+  challenge, showcasing your familiarity with the programming constructs associated
+  with the chosen language.
+- Your role is to translate high-level requirements into functional code. This requires
+  a solid grasp of the programming concepts related to your chosen language.
+- Assess the problem at hand, identify key components, and design a solution that
+  accurately addresses the given requirements while considering edge cases.
+- Tackle programming tasks by systematically breaking down requirements and developing
+  structured code that reliably fulfills specified operational needs.
+- You will be designing classes or modules that encapsulate functionalities related
+  to the tasks outlined in the problem statements. This requires a good grasp of object-oriented
+  programming concepts.
+- This task is about creating modular, reusable code components for a software project.
+  You need to showcase your ability to design functions that can work across various
+  scenarios.
+- As part of this task, you'll navigate through several programming problems, applying
+  your knowledge of data handling, control structures, and potentially web frameworks
+  or libraries, depending on the specifics of each challenge.
+- You will have the opportunity to showcase creativity in programming by devising
+  unique solutions while adhering strictly to specifications provided within the problem
+  statements.
+- Craft a solution that performs a specified operation, such as data manipulation
+  or user interface interaction, ensuring that your implementation follows coding
+  best practices and is efficient.
+- Your responsibility is to ensure that your code is not only functional but also
+  maintainable and clear, making use of proper naming conventions and comments where
+  necessary.
+- Your assignment involves translating descriptive requirements into a working piece
+  of software by leveraging knowledge of various programming paradigms and effective
+  coding strategies.
+- You are expected to synthesize your coding knowledge to produce accurate solutions
+  for the given tasks while considering performance and usability aspects of your
+  implementations.
+- The task at hand requires you to construct functional code by deciphering the problem's
+  needs, orchestrating necessary logic flows, and utilizing appropriate data structures
+  effectively.
+- Employ your analytical skills to design and write code algorithms from scratch.
+  The goal is to illustrate how well you can solve practical challenges using programming
+  techniques effectively.
+- In this task, you will leverage knowledge from both theory and practice in computer
+  science to develop practical applications of algorithms in real-world situations
+  through coding challenges.
+- Engage in programming challenges where you will need to implement specific functionalities,
+  such as mathematical calculations, neural network design, or user profile management.
+- You'll tackle diverse programming problems that require a mixture of creativity
+  and technical knowledge. Successful implementations will depend heavily on correctly
+  interpreting the requirements laid out in each scenario.
+- The challenge requires you to write a program capable of processing data according
+  to specific rules. Critical thinking and problem-solving abilities will guide your
+  coding approach.
+- The crux of this task lies in developing functions aimed at specific outcomes based
+  on given scenarios. Balancing efficiency with clarity is essential when constructing
+  each piece of code provided in your responses.
+- This task emphasizes coding skill development, analytical reasoning, and the ability
+  to translate requirements into executable code effectively.
+- Dive into discussions on edge cases you might encounter during implementation and
+  devise strategies for handling them gracefully within your code.
+- Your role here involves building efficient code solutions for a variety of tasks,
+  encouraging mastery of language-specific syntax and algorithms while addressing
+  outlined goals.
+- Through this task, engage with complex logic challenges requiring an understanding
+  of state management, asynchronous behavior in programming, and accurately reflecting
+  functional requirements within your solutions.
+- You will engage with coding principles by forming solutions that integrate various
+  functionalities as dictated by specific scenarios laid out in the tasks.
+- Here, you are asked to implement functions that perform specific operations, such
+  as sorting, searching, and data manipulation. Understanding the underlying principles
+  of these operations is key to crafting effective solutions.
+- This task challenges you to extract meaningful information from structured data
+  or files using programming techniques. It involves reading data and transforming
+  it into a required format.
+- You must develop a code snippet that accurately implements features or functionalities
+  described in the problem statement, making use of programming constructs such as
+  functions and control flow.
+- This task challenges you to develop solutions that can handle edge cases or unexpected
+  inputs gracefully. Robust error checking and user input validation should be integral
+  parts of your approach.
+- The focus of your task is to implement functions or classes in programming languages
+  that encapsulate specific behavior. You'll be demonstrating your object-oriented
+  programming skills, as well as your understanding of abstraction.
+- "The task at hand challenges you to synthesize information from specifications into\
+  \ practical implementation through coding\u2014this might involve building applications\
+  \ or systems depending on outlined goals within each scenario provided."
+- You need to craft a solution that systematically processes user input and delivers
+  output based on logical conditions and data rules established through your coding
+  practices.
+- Your role is to convert problem statements into working code by understanding the
+  functionality required and leveraging the features of different programming languages.
+- You will engage with programming specifications that test your ability to understand
+  requirements, write coherent code structures, and implement logic that fulfills
+  the intended functionality of each problem.
+- Your job is to craft solutions involving core programming concepts like functions,
+  error handling, and data manipulation. Each task requires you to think critically
+  about how best to approach coding challenges.
+- This exercise tests your ability to analyze requirements and write effective code
+  snippets across various domains such as algorithm design, exception handling, or
+  data parsing.
+- You need to formulate a solution that effectively tackles a given coding problem
+  by applying logical reasoning and programming techniques.
+- You are challenged to create a solution for a problem that involves processing data
+  or performing calculations using a programming language. The solution must be efficient
+  and handle potential errors appropriately.
+- In this task, your focus is on creating a well-structured piece of code that fulfills
+  the requirements of a programming challenge, demanding analytical skills and programming
+  expertise.
+- Approach this programming task by breaking down the requirements into smaller, manageable
+  parts, then systematically tackle each part through coding.
+- Your task involves understanding the problem at hand and implementing an effective
+  programming solution that adheres to the constraints given, demonstrating both critical
+  thinking and technical expertise.
+- Your focus should be on implementing functionalities that meet given specifications
+  while ensuring clarity and efficiency in your code structure.
+- The task emphasizes coding proficiency and the ability to apply programming knowledge
+  effectively. You will create methodologies in various languages that solve particular
+  issues while ensuring clarity and maintainability.
+- The focus here is on writing robust code that complies with specific behavioral
+  expectations described in the prompts. You'll need to navigate common programming
+  constructs based on provided examples.
+- The task at hand requires writing code that interacts with external data sources
+  or file types. You will need to ensure your solution handles error scenarios gracefully
+  while delivering the desired results.
+- Your goal is not only to write functional code but also to ensure that it meets
+  specific performance criteria. Analyzing time complexity and optimizing your solutions
+  will be vital components of the task.
+- Your mission is to understand a set of coding challenges thoroughly and implement
+  precise solutions while demonstrating proficiency in the assigned programming languages.
+- Elevate your coding skills through the completion of specific tasks focused on application
+  development and the implementation of computational functions according to provided
+  narratives.
+- You'll be tasked with writing coherent code solutions that incorporate error handling,
+  efficient algorithms, and clear documentation to support usability and maintainability.
+- Your task is to write code that effectively addresses a specific programming challenge,
+  applying your knowledge of syntax and logic to create a functional solution.
+- Create a program that satisfies the operational requirements conveyed in the task
+  description, requiring you to engage with relevant libraries and frameworks as necessary.
+- Your task involves writing code solutions for various programming challenges. You
+  will implement functions or classes as specified in the problems.
+- The exercise at hand is creating logical flows through your code designs while solving
+  defined challenges effectively. Each response should clearly articulate how your
+  solution meets the problem's demands through careful coding practices.
+- Your goal is to take theoretical programming requirements and manifest them into
+  tangible results through competent coding while paying close attention to performance
+  and reliability.
+- You are challenged to translate problem descriptions into coded solutions. This
+  involves breaking down requirements into actionable steps and effectively utilizing
+  programming syntax.
+- Engage with coding scenarios that will require you to think critically about each
+  requirement so you can devise a suitable method or technique to achieve the desired
+  functionality through your implementations.
+- This task involves not only coding but also understanding requirements sufficiently
+  to apply appropriate logical structures and methods. Efficiently managing state
+  and data within the programs will be key.
+- Your focus should be on developing a robust code solution while maintaining clarity
+  and conciseness in your implementation, adhering closely to the stated problem parameters.
+- In this task, you will design an algorithm that manipulates data structures or performs
+  operations based on specific requirements. Attention to detail and algorithmic thinking
+  are essential.
+- Engage with foundational concepts of software development, such as input validation,
+  error handling, and output formatting while building your solution.
+- The objective is to write code that encapsulates specific behavior as described
+  in the task brief, emphasizing both correctness in execution and intuitive design.
+- Your responsibilities involve writing functions or classes in a specified programming
+  language that effectively solve problems presented in the input. You must understand
+  the problem context and apply relevant programming concepts.
+- A diverse approach will be beneficial in solving various types of programming tasks
+  that call for targeted methodologies across different disciplines within software
+  development. Proficiency in multiple languages can enhance your responses significantly.
+- This task involves constructing algorithms that can efficiently solve defined problems.
+  You'll use logical reasoning and mathematical principles where necessary to optimize
+  performance.
+- You need to construct a solution that not only resolves the problem but also maintains
+  good coding practices, indicating your software development knowledge.
+- Develop effective solutions to specific programming problems while exhibiting creativity
+  in problem-solving. Your understanding of the language's features will play a crucial
+  role in your success.
+- Engage in practical application of programming concepts by building functionalities
+  as outlined in the provided requirements. Testing and iteration are key components
+  of this process.
+- This undertaking will have you constructing targeted solutions within predefined
+  constraints, thus highlighting both your technical skills and capacity for logical
+  deduction.
+- As you write the code required for these tasks, you will analyze scenarios that
+  simulate real-world applications within software development contexts, allowing
+  for practical learning experiences.
+- This task requires you to create scripts or functions to automate routines or process
+  data. You'll need to employ logical thinking and problem-solving skills to achieve
+  the desired outcomes.
+- Your challenge involves coding solutions that manage inputs, outputs, and operations
+  based on provided use cases. You must ensure the logic in your programs aligns with
+  the intended purpose.
+- Your job is to create functions or classes that fulfill particular requirements
+  outlined in various programming scenarios. These solutions should demonstrate your
+  coding skills and problem-solving abilities.
+- This task challenges you to take a problem scenario and construct an appropriate
+  software solution in code, calling upon both creativity and technical skills in
+  programming.
+- You are tasked with implementing solutions for programming challenges, which often
+  involve creating functions that handle specific inputs and return expected outputs.
+  Understanding algorithms and data handling is necessary for this task.
+- Your task is to devise an algorithm that performs certain operations as outlined
+  in the problem statement, showcasing your ability to translate requirements into
+  executable code.
+- You will be creating custom functions or classes that perform clearly stated tasks,
+  demanding an understanding of programming concepts and best practices across multiple
+  languages.
+- You will write code that solves a defined problem, ensuring that your implementation
+  is efficient and meets all stipulated criteria in the task description.
+- Engage in a variety of programming assignments aimed at enhancing your ability to
+  articulate findings through code while solving practical issues presented in unique
+  scenarios.
+- Utilize your programming knowledge to handle various tasks, such as manipulating
+  HTML data, implementing caching systems, or building machine learning models.
+ds_kwargs:
+  path: ise-uiuc/Magicoder-OSS-Instruct-75K
+  split: train[:10%]
+response_field: solution
+system_message: ''
+user_prompt_template: 'Write a solution that appropriately solves the programming
+  problem.
+
+
+  Programming language: {lang}
+
+
+  Problem: {problem}'

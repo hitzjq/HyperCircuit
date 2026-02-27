@@ -1,0 +1,492 @@
+assistant_prefill: ''
+descriptions:
+- You are tasked with analyzing how actions linked to PersonX impact their perceived
+  traits or qualities as indicated by another piece of information.
+- This task requires you to critically evaluate whether an action from PersonX correlates
+  positively or negatively with a characteristic outlined in another phrase.
+- You interpret phrases to identify if, based on described events, an individual is
+  viewed positively, negatively, or neutrally by others.
+- You need to consider the implications of specific actions performed by PersonX.
+  Determine if these actions make PersonX appear as described in another part of the
+  scenario, focusing on societal judgment.
+- Evaluate various head and tail pairs to identify if the tail accurately describes
+  how PersonX would be viewed by others following the event depicted in the head.
+- This involves judging scenarios where PersonX's behavior may influence how others
+  see them, focusing on the potential for perceived traits such as selfishness or
+  generosity.
+- "This exercise revolves around determining if the behavioral cues in the contexts\
+  \ provided lead to conclusions about PersonalityX\u2019s traits based on how others\
+  \ interpret these cues."
+- Analyze brief scenarios depicting someone's actions, deciding how those representations
+  affect external views of their character or attributes.
+- "Your job is to interpret a sequence of actions involving PersonX and assess whether\
+  \ they result in a particular impression of PersonX\u2019s character, as described\
+  \ in a following phrase."
+- Analyze the relationships between events involving a character. Determine if one
+  event causes others to view that character in a specific way, based on the attributes
+  implied in the second phrase.
+- Think critically about two phrases where the first describes an action and the second
+  describes a trait. You must relate these based on societal interpretation.
+- The task involves analyzing pairs of statements where one describes an action and
+  the other describes a perception of a character. Your goal is to determine if the
+  action leads to the perception stated.
+- You need to discern the implications of given event patterns involving PersonX and
+  judge the likely perceptions that arise from those events.
+- Your task is to consider how various actions might shape public opinions about an
+  individual's character, using brief phrases as clues.
+- Your objective is to interpret events involving a central character and judge the
+  traits or attributes people might associate with them based on those events.
+- You need to consider how various actions attributed to PersonX could inform someone's
+  thoughts about their characteristics described in another phrase.
+- Your role is to interpret scenarios surrounding PersonX and judge if they would
+  be seen as embodying certain traits as a result of their behaviors during specified
+  events.
+- You will reflect on characters represented through specific scenarios, determining
+  if those scenarios suggest particular traits based on actions performed.
+- Analyzing behavioral phrases, your job is to discern whether observed actions will
+  categorize the individual as described in the ensuing text segment.
+- Evaluate various events where PersonX engages in activities, gauging whether these
+  lead society's perception to align with specific characteristics stated afterward.
+- In this task, you will interpret narrative scenarios revolving around characters.
+  You must infer whether a specific action influences how others view a character's
+  traits or behavior.
+- Evaluate short event scenarios involving PersonX's choices and analyze how those
+  choices may lead others to see them according to specific qualities articulated
+  in additional phrases.
+- "This task requires you to assess event descriptions and evaluate their implications\
+  \ on a character\u2019s reputation or persona as perceived by others."
+- Assess implications of actions within given phrases, focusing on the psychological
+  impact they may have on others' perceptions of an individual.
+- Determine if the action taken by PersonX in the first statement makes them appear
+  as described in the second statement, reflecting how others view him or her.
+- Delve into fictional but plausible situations involving actions and perceptions
+  about someone, analyzing whether one results in the other as expressed in the text.
+- You'll need to think critically about situations where an action is performed and
+  determine the way it reflects on the subject's identity or traits.
+- In this task, you'll analyze short narratives involving individuals and assess how
+  those narratives influence public perception regarding specific attributes or behaviors
+  of those individuals.
+- In this task, you're asked to discern if an event suggests a particular characteristic
+  of an individual based on how they act or respond to situations presented.
+- Your job is to analyze two phrases where PersonX is the focus and decide if the
+  first phrase leads to a specific perception described in the second phrase.
+- This task involves reasoning about events featuring PersonX and evaluating perceptions
+  that arise from those events. It's about linking behavior with societal views.
+- Assess how individual actions portrayed in brief phrases are likely to influence
+  public perception, identifying if they align with certain descriptors about the
+  individual.
+- This task challenges you to connect events centered around an individual to potential
+  persona aspects as reflected by societal perceptions.
+- In this task, you must interpret short phrases involving different actions taken
+  by PersonX. Your goal is to recognize whether these actions align with a specific
+  perception or attribute indicated in the subsequent phrase.
+- This is about identifying whether behaviors are likely to convey certain qualities
+  of an individual as seen by others in hypothetical scenarios.
+- Your objective is to categorize the impact of various actions depicted in short
+  phrases on how one might be viewed by others regarding specific traits or qualities.
+- The task requires drawing conclusions about a person's attributes based on their
+  actions. You must decide if the perceived attribute mentioned follows logically
+  from what was done.
+- The task centers around understanding human behavior and social perception. You
+  will assess whether an action by PersonX results in a perception that matches a
+  given description of their character or actions.
+- This task examines the impact of specific actions on reputations and perceptions,
+  requiring you to interpret whether an action aligns with characteristics presented
+  afterwards.
+- The focus here is on determining the narrative around PersonX based on their actions
+  in various situations, translating those into societal perceptions or judgments.
+- Analyze a given situation and determine if it leads to a specific impression of
+  a person, as described in another phrase.
+- "You will evaluate short phrases about an individual\u2019s actions and their resulting\
+  \ implications, deciding whether these actions lead to a particular impression or\
+  \ characteristic associated with that person."
+- This task requires you to assess a scenario where someone takes an action and translates
+  that into how they might be viewed by others regarding their personality.
+- Your objective is to correlate actions performed by someone with possible interpretations
+  of their character. You must identify whether descriptions match those interpretations
+  accurately.
+- You are analyzing interpersonal events, focusing on whether the actions of a person
+  create a particular image or reputation in the eyes of others.
+- "This task involves understanding the relationship between actions and social perceptions.\
+  \ You\u2019ll look at how certain behaviors shape the way individuals are viewed\
+  \ by others."
+- "Based on event descriptions, decide if they affect perceptions about a character\u2019\
+  s personality or traits. This requires an understanding of human judgment and social\
+  \ perception."
+- Dive into social judgment dynamics, contemplating how actions can illuminate particular
+  qualities about a person as seen by those around them.
+- This requires synthesizing information about PersonX's conduct in specific events,
+  followed by evaluating if those actions suggest particular qualities or reputations
+  attributed to them.
+- "This task focuses on whether described actions result in specific perceptions about\
+  \ a character\u2019s attributes as viewed by others. Your critical thinking plays\
+  \ an essential role."
+- Analyze brief narratives involving PersonX and decide how these narratives might
+  shape outside perceptions of their character or morality as indicated later in the
+  text.
+- You will analyze events involving generic participants and make determinations concerning
+  their projected attributes based on observed behaviors.
+- This task involves interpreting a scenario where PersonX is involved in an action.
+  You need to assess whether this action results in a specific persona or characteristic
+  attributed to PersonX.
+- The task centers on understanding causal relationships between someone's actions
+  and the resultant views formed by others regarding that person.
+- Judge whether certain actions taken by a person will affect how they are viewed
+  socially concerning their attributes or reputation.
+- Evaluate situations involving personal actions and deduce if they align with the
+  characteristics mentioned in another phrase about that person.
+- Analyze interactions between individuals based on provided statements to decipher
+  if one reflects back on the persona described in another.
+- "You\u2019ll analyze each event's outcome in terms of how it alters perceptions\
+  \ about the subject\u2019s characteristics in social interpretation."
+- "Scrutinize whether the context surrounding an individual\u2019s action reflects\
+  \ positively or negatively on their persona according to what is implied in a follow-up\
+  \ phrase."
+- You need to analyze situations where PersonX acts or engages with others and decide
+  if their actions reflect a certain character trait or perception.
+- Reflect on actions attributed to PersonX and analyze if they create an impression
+  that aligns or conflicts with specific characterizations described in accompanying
+  phrases.
+- You are tasked with weighing interpersonal dynamics, inferring whether actions taken
+  will lead an audience to view an individual in a particular light.
+- The task encourages critical thinking about how actions can influence reputations.
+  Will others see PersonX as characterized by the traits described in subsequent statements?
+- This task involves discerning whether particular behaviors are likely to shape public
+  perception of a person's qualities or character.
+- In this exercise, you will explore how specific behaviors of PersonX influence others'
+  perceptions. Determine if the details of each event create a match with the traits
+  or qualities mentioned afterward.
+- Delve into each scenario involving PersonX and ascertain if their behavior leads
+  observers to form certain opinions about them, considering cultural context and
+  common assumptions.
+- You will consider short phrases representing an event and the resulting impression
+  on PersonX. This requires understanding human behavior and how actions can shape
+  perceptions.
+- You will navigate through interpersonal scenarios involving PersonX and dissect
+  them to establish if they align with certain personal attributes as seen by others.
+- You need to evaluate whether an event involving a person influences how others perceive
+  their traits or characteristics.
+- In this task, you will evaluate scenarios to see whether the outcomes of specific
+  actions paint a picture of a person's character or attributes in the eyes of observers.
+- You are tasked with evaluating the relationship between actions and reputations.
+  Identify if an act performed by PersonX leads to a corresponding perception, whether
+  it be positive or negative.
+- Assess how an event related to PersonX might shape others' perceptions of them,
+  deciding if that perception aligns with what is mentioned in a separate phrase.
+- Dissect scenarios illustrating person-specific activities alongside traits or labels
+  attributed to them, establishing clarity between their connections.
+- Determine if an action performed by PersonX leads to an impression or perception
+  outlined in a corresponding statement about them.
+- Assess events in which PersonX is involved and determine whether their actions result
+  in specific attributes being assigned to them by those who witness or hear about
+  the event.
+- Examine the interplay of actions and perceptions about PersonalX through given scenarios,
+  deciding on the appropriateness of the conclusion drawn about them.
+- "The goal is to assess how specific actions influence the opinions others may hold\
+  \ about a person\u2019s character or traits."
+- The task highlights discerning connections between an individual's actions and societal
+  judgments about their traits, revolving around the persona attributed to PersonX
+  after observing events.
+- The task consists of determining whether certain actions by individuals will lead
+  observers to view them in specified ways, necessitating nuanced reasoning about
+  human behavior.
+- This task involves critical thinking to determine whether scenarios presented can
+  lead to specific interpretations about PersonX's traits according to external perceptions.
+- For each event, assess whether it positively or negatively affects how PersonX is
+  perceived by others, using your grasp of social dynamics and personal attributes.
+- Determine whether the behavior described leads to a perception of certain positive
+  or negative attributes associated with the individual involved in the event.
+- Reflect on the implications of specific actions performed by a character. Consider
+  how these actions might lead others to perceive them positively or negatively.
+- Engage with a task that probes into behavioral implications. As you review events,
+  consider how they relate to understanding the essence of a person involved.
+- Evaluate short descriptive phrases that encapsulate actions. You will determine
+  whether these actions align with personality traits or perceptions outlined in another
+  phrase.
+- You will evaluate short phrases that describe events involving a character. The
+  challenge is to decide if the event causes others to perceive that character in
+  the way described in the second phrase.
+- This evaluation involves looking at two short phrases regarding PersonX and deducing
+  whether one event influences how they are perceived concerning another.
+- Your objective is to reflect on hypothetical situations where actions of an individual
+  impact their portrayal by outsiders based on specific descriptors.
+- Determine if the described actions lead to a particular perception of PersonX, considering
+  social contexts and typical reactions from others regarding the event.
+- The goal is to discern the connection between a person's act and how it shapes their
+  image, reflecting the opinions and judgments of those around them.
+- By reviewing action phrases attached to perception descriptors, determine if they
+  create a meaningful connection impact on how PersonX is viewed by others.
+- Your role is to think about moral implications and social judgments based on fictional
+  actions performed by PersonX, determining if they conform to perceived attributes
+  afterward.
+- In this exercise, interpret given statements about what PersonX does and see if
+  those actions correlate with the traits mentioned in subsequent phrases.
+- Interpret short event scenarios about characters and classify whether their actions
+  lead to specific attributions from others regarding their traits or behaviors.
+- You need to connect someone's action (the Head) with how that action influences
+  others' perception of them (the Tail), requiring insight into interpersonal relationships
+  and societal norms.
+- You will be presented with scenarios involving a person's behavior, and from this,
+  you need to determine if such behavior aligns with the traits mentioned in accompanying
+  descriptions.
+- The objective is to examine statements about an individual's actions and decide
+  if those actions lead others to interpret them as having particular qualities.
+- Engage in assessing two phrases about PersonX; one describes an event while the
+  other describes potential traits associated with that event leading you to comment
+  on their relationship.
+- Here, you will explore how specific actions can change people's opinions about an
+  individual, needing to identify if those actions match a predefined characteristic.
+- You will analyze events to judge whether a person's behavior leads them to be viewed
+  in a particular light or not.
+- Your analysis should reveal whether various behaviors exhibited by PersonX correlate
+  directly with labels ascribed to their character according to an observer's viewpoint.
+- This task involves analyzing a scenario where a person's actions are described,
+  and you must determine how those actions affect others' perceptions of that person.
+- You are tasked with understanding brief event descriptions involving a character
+  and determining the social implications of those events on how others perceive them.
+- In this task, you are asked to evaluate a pair of events and determine if the first
+  event influences how PersonX is perceived in relation to the second event.
+- Here, you explore the relationship between a person's actions and how those actions
+  impact their perceived persona in any given situation.
+- This task involves evaluating brief events to determine how a central figure (PersonX)
+  is perceived by others based on those events.
+- Your role is to connect an event with its social implications, spotting whether
+  it reflects positively or negatively on a person's character as perceived by others.
+- Judge the connections between what PersonX does and how they may be perceived based
+  on statements that suggest particular attributes or traits related to those actions.
+- The task involves interpreting brief statements about an event involving PersonX,
+  focusing on whether this will lead others to view them in a specific manner, positive
+  or negative.
+- Evaluate how an action undertaken by PersonX influences public perception of their
+  character traits, requiring an understanding of social expectations and human reactions.
+- Identify if the first part of a statement about someone's actions correlates positively
+  with how they are perceived, as indicated in the second part.
+- By evaluating different contexts surrounding PersonX's actions, your focus will
+  be on assessing perceptions that emerge relating to their character attributes as
+  experienced by others.
+- You will look at events involving a main character and assess whether these events
+  influence how they are perceived by others as having certain qualities or characteristics.
+- Analyze the relationship between actions and perceptions linked to various participants
+  and classify whether each scenario leads to particular judgments about their characteristics.
+- In this activity, you're tasked with drawing connections between what PersonX does
+  and how it shapes public perception. The emphasis is on deducing societal judgments
+  related to their persona.
+- In this task, you evaluate a series of event pairs to determine how the actions
+  of a person influence others' perceptions of them.
+- Reflect on events that highlight personal behavior and discern if they result in
+  the impressions detailed in adjacent statements about individual traits.
+- Your job is to reflect on how someone's actions might create impressions that align
+  with certain traits mentioned in accompanying statements about them.
+- Analyze the given scenarios to decide whether the main character is seen in a specific
+  light due to their actions, reflecting how these actions might influence others'
+  opinions about them.
+- "Analyze interactions where one person\u2019s behavior leads others to form judgments\
+  \ regarding how that person may be regarded regarding character qualities."
+- "Reflect on how actions or decisions made by PersonX can shape others' views about\
+  \ them and decide if those views match what\u2019s presented in another description."
+- This task focuses on recognizing how specific behaviors can influence public perception
+  of character traits in social contexts.
+- Explore phrases that link behavior and perceived identity. You'll need to connect
+  dots between what is done and how it can be interpreted by others based on described
+  attributes.
+- Your mission is to determine if actions described will lead others to view characters
+  in specific ways, depending on the nature of the actions within various scenarios.
+- The task requires insight into human behavior and social perception, applying this
+  knowledge to assess character attributes attached to a scenario.
+- Your job is to interpret how an individual's actions may color others' opinions
+  of them, ensuring that you align your insights with provided descriptors.
+- Your analysis should focus on interpreting behaviors within presented phrases and
+  deciding what qualities appear relevant based on observers' perspectives.
+- Evaluate how specific interactions or events involving an individual reveal characteristics
+  that people might assign to that person based on their behavior.
+- For each pair of statements, determine if PersonX's conduct will evoke the sentiments
+  or labels expressed in the second phrase from observers.
+- This task requires you to connect the dots between a person's behavior and how that
+  behavior is perceived, focusing on emotional or moral attributes.
+- For this task, you will scrutinize interactions or actions attributed to PersonX,
+  assessing the potential impact on their portrayal by observers based on common interpretations
+  of similar situations.
+- This task requires you to assess how specific actions influence the perception of
+  a person and whether they embody certain qualities as perceived by others.
+- The task involves scrutinizing events that personify behaviors and attitudes, determining
+  if they reflect the character's traits as interpreted by others.
+- "This task requires you to think critically about situations involving PersonX's\
+  \ decisions. Analyze whether the outcomes suggest a particular view of PersonX\u2019\
+  s qualities or intentions as presented."
+- Here, you will analyze relational dynamics involving PersonX while considering how
+  their conduct may foster distinct public perceptions regarding their personalities.
+- You will delve into situational dynamics where PersonX acts in certain ways. Your
+  challenge is to detect if those acts resonate with any specific viewpoint that is
+  given later.
+- Evaluate head and tail statements to decide if the former appropriately leads to
+  perceptions outlined in the latter regarding someone's persona.
+- The essence of this task is to evaluate how particular actions associated with PersonX
+  are interpreted by others, focusing on the resultant judgments of character they
+  provoke.
+- "You are prompted to consider interactions or events involving PersonX and evaluate\
+  \ if those lead to a specific judgment or descriptor in others\u2019 eyes."
+- The task centers on identifying if a given action leads to a specific impression
+  of PersonX from an observer's perspective; this focuses on social and moral judgments.
+- Your focus in this task will be on drawing connections between specific actions
+  and the broader implications for a person's image within social contexts.
+- Consider two statements where the first describes an event and the second characterizes
+  an individual's persona. Your job is to link them based on social perception.
+- You must analyze events linked to a person and classify whether these events would
+  lead people to view them in a specific positive or negative light.
+- "Find out if an event positively or negatively defines PersonX's image according\
+  \ to prevailing perceptions\u2014effectively assessing traits through their conduct\
+  \ in those situations."
+- This analysis focuses on understanding how a person's choices or behaviors inform
+  others' opinions about them and whether they convey particular traits.
+- The task prompts you to connect actions with potential judgments from observers,
+  requiring a good understanding of social dynamics and perception influences.
+- Observe how different scenarios impact others' views about PersonX. Evaluate situations
+  where actions are performed and infer what this indicates regarding the individual's
+  characteristics they project.
+- Engage with event descriptions that indicate interactions centered around PersonX,
+  and analyze whether these imply a particular persona or attribute is recognized
+  by others.
+- Your focus will be on determining if specific behaviors linked to PersonX elicit
+  certain perceptions from others. This task examines social psychology concepts related
+  to behavior and character judgment.
+- You'll investigate various situations to ascertain if the subjects involved can
+  be viewed through specific lenses based on their actions.
+- In this task, you evaluate situations involving a subject and an action, determining
+  how the subject is perceived based on that action.
+- Through evaluation of event-based scenarios involving a central character, your
+  challenge is to ascertain whether these yield truthful representations of that person's
+  characteristics.
+- Analyze phrases that tell stories about individuals and decide if particular actions
+  result in perceived characteristics, requiring a blend of interpretation and social
+  reasoning.
+- Evaluate pairs of statements to see how an action affects the impressions formed
+  about a character. This demands an understanding of social cues and perceptions.
+- Your role is to analyze how actions undertaken by PersonX influence external perceptions
+  of them, marking whether these perceptions resonate with specific traits stated
+  afterward.
+- Engage in critical thinking about events where people's actions shape their public
+  image. This involves assessing nuances between behaviors and expected characteristics
+  shown.
+- You will assess interactions that include PersonX and conclude whether these interactions
+  signify how they could be viewed by someone else in terms of character traits or
+  attributes.
+- Engage with descriptions of events where you must deduce if actions taken by characters
+  result in certain perceived qualities, drawing on your comprehension of social dynamics.
+- In this exercise, you will interpret two linked phrases about an event involving
+  PersonX and judge if the persona described fits with the first action mentioned.
+- "Analyze events involving characters and predict how those actions correspond with\
+  \ subjective qualities expressed later, determining if there\u2019s alignment between\
+  \ action and perception."
+- Consider how an event involving PersonX can affect public perception. Decide if
+  that perception matches with what is specified in another accompanying statement.
+- Analyze how one specific event involving PersonX interacts with another statement
+  describing possible impressions of them, focusing on their perceived qualities.
+- You are to assess whether a certain action impacts how an individual is perceived
+  by others. If the outcome aligns with the characteristics stated, your assessment
+  should reflect that.
+- In this task, your aim is to determine if events related to PersonX contribute to
+  how they are seen by others, based on additional context provided.
+- Your task is to dissect statements about events involving PersonX and infer whether
+  these events inform a particular interpretation of their character provided in another
+  statement.
+- This task involves evaluating a scenario in which a person, represented as PersonX,
+  undergoes an action. You need to judge how this action affects the perception of
+  PersonX as described in another phrase.
+- Assess events involving individuals and determine if those events convey certain
+  feelings or attributes about them in the minds of others.
+- You will assess situations where PersonX takes certain actions and decide if these
+  actions define their character as described in a following statement. It involves
+  interpreting social dynamics and relationships.
+- The goal is to discern the connection between given actions and the resulting perceptions
+  about an individual in various scenarios. You will classify whether the perception
+  aligns with what others would think.
+- Analyzing the relationship between actions taken by PersonX and how those actions
+  are likely to be perceived by others forms the core of this task.
+- The task focuses on the relationship between behavior and perceived personality
+  traits, requiring you to judge if one influences how the other is understood by
+  others.
+- Your task is to evaluate a situation based on a brief event and determine how that
+  event shapes the perception of a person involved, focusing on their attributes.
+- You are required to evaluate events that depict PersonX and determine how these
+  actions shape others' perceptions of them. The focus is on inferring attributes
+  based on the given context.
+- You will examine a situation involving PersonX and two connected phrases to see
+  if the first phrase conveys a certain image or trait about PersonX in the context
+  of what is stated in the second phrase.
+- For each pair of statements about PersonX, you need to decide if the first statement
+  suggests that PersonX possesses the qualities or attributes mentioned in the second
+  statement.
+- Evaluate how an action linked to a subject might modify or affirm the perceptions
+  others have about that person.
+- Explore how individual activities lead others to make judgments about personal characteristics,
+  identifying if these perceptions are justified by the actions described.
+- The task requires you to consider events involving a central participant and determine
+  if these actions lead to specific descriptors about their personality or reputation.
+- Analyze each situation to understand if the events lead people to regard PersonX
+  in a certain light, focusing on emotional and character implications of those events.
+- "The exercise involves interpreting various scenarios involving PersonX\u2019s conduct\
+  \ and assessing whether such conduct aligns with specific perceptions represented\
+  \ in a follow-up phrase."
+- You will judge whether certain described actions will lead observers to attribute
+  specific traits to individuals based on their behaviors, showcasing your insight
+  into social interpretation.
+- Assess scenarios where someone's behavior could change their perceived identity
+  in the eyes of others, honing in on whether those perceptions match up with provided
+  descriptions.
+- You will interpret situations involving a person and conclude if their actions suggest
+  particular observable behaviors or characteristics acknowledged by others.
+- "In this task, investigate potential interpretations of PersonX\u2019s actions and\
+  \ relate them to attributes others may assign based on those behaviors. It's about\
+  \ perception versus reality."
+- Engage in evaluating descriptions of actions and their potential consequences on
+  how people perceive someone's nature or morality.
+- Think critically about interpretations of events connected to PersonX. You will
+  discern whether an action affects their persona as mentioned elsewhere.
+- "The task involves interpreting short phrases where you assess implications of one\
+  \ activity on others\u2019 perceptions of a character, requiring introspective and\
+  \ analytical skills."
+- The objective here is to explore the relationship between two statements about PersonX,
+  determining if one implies a perception described by the other.
+- Your role is to analyze two connected phrases, where the first describes an action
+  and the second conveys a perception, and decide if the action aligns with that perception.
+- Your role is to interpret events linked with PersonX and evaluate if they lead others
+  to view them in a manner described by a separate statement.
+- Consider how behaviors reflected in brief statements could cause a shift in perception,
+  determining if the description aligns with how persons are generally viewed after
+  such incidents.
+- The goal is to examine how others might label or view PersonX based on their actions.
+  Analyze if there is congruence between the action taken and the attribute assigned
+  afterward.
+- This task focuses on understanding behavioral cues within contexts. You will evaluate
+  whether certain actions compellingly define how others might see an individual.
+- You will assess different scenarios involving a character named PersonX and conclude
+  whether their actions will lead others to see them in a specific way described in
+  provided phrases.
+- Your task is to determine if an individual's behavior or circumstances portrayed
+  in statements correspond with specific qualities attributed to them as perceived
+  by others.
+- Your job involves interpreting actions attributed to a participant (PersonX), examining
+  whether these actions successfully correspond with perceptions outlined in another
+  phrase.
+- Reflect on how individual actions can reflect characteristics in social settings.
+  Your goal is to discern whether these actions align with specific perceptions ascribed
+  to PersonX.
+- This exercise requires evaluating action statements in relation to perception statements
+  to see if the former directly shapes the latter regarding how people judge the character
+  involved.
+- This task involves analyzing scenarios where a person, referred to as PersonX, engages
+  in certain actions. You must assess whether these actions lead others to perceive
+  PersonX in a particular way described in a second part of the scenario.
+- This task requires you to consider the context of actions taken by an individual
+  and decide if these actions depict them as the attributes mentioned.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1199_atomic_classification_xattr
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1199_atomic_classification_xattr
+user_prompt_template: '{task_def}
+
+
+  {problem}'

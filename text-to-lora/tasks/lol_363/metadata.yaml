@@ -1,0 +1,451 @@
+assistant_prefill: ''
+descriptions:
+- Your job will be to look into movie reviews and decide whether the sentiment behind
+  each sentence is one of praise or discontent.
+- Assess the emotional content of given sentences taken from movie reviews and determine
+  if the sentiment is optimistic or pessimistic.
+- The assignment involves reading expressions from film critiques and deciding if
+  they indicate satisfaction (positive) or dissatisfaction (negative).
+- Dive into provided sentences from film summaries, interpreting their emotion-oriented
+  content. Classify them as positive for favorable reviews or negative for critical
+  sentiments expressed by reviewers.
+- Your job is to analyze short statements regarding movies and give labels based on
+  whether the sentiments are favorable or unfavorable.
+- Engage with movie review sentences and analyze their emotional tone. You need to
+  correctly identify feelings of satisfaction or disappointment expressed by the reviewers.
+- Review the provided sentences from movie critiques and categorize them based on
+  their underlying sentiment, noting if they lean positively or negatively.
+- In this exercise, you will be categorizing sentences from movie reviews as either
+  expressing positivity or negativity. Your insights will contribute to understanding
+  viewer perceptions of different films.
+- Your responsibility is to evaluate sentences from film reviews to distinctly categorize
+  them as expressing either positive or negative feelings.
+- For each sentence provided, your goal is to identify the underlying sentiment by
+  deciding if it conveys a positive outlook or a negative critique.
+- Analyze each movie review sentence to classify its sentiment accurately, identifying
+  it as either positive or negative based on context and wording.
+- Your job is to analyze sentiment in movie-related sentences. You'll decide if the
+  opinions expressed are favorable or unfavorable.
+- The assignment entails sifting through phrases from reviews about films and identifying
+  if their sentiment is upbeat or downbeat.
+- Your assignment involves reading through provided sentences from movie reviews and
+  deciding if the sentiment is favorable or unfavorable. Look for indicators of sentiment
+  in the words and phrases.
+- You will engage with movie review sentences to classify their sentiments, distinguishing
+  between expressions of approval and disapproval.
+- The task at hand is to read sentences from movie reviews and classify them based
+  on their sentiment, indicating whether they reflect approval or disapproval.
+- Engage with sentences extracted from film criticism, focusing on their emotional
+  quality and deciding if they lean towards positivity or negativity.
+- This task focuses on determining whether various remarks made in film reviews project
+  a positive attitude or a negative one.
+- This task involves reflecting on your understanding of sentiment in writing by grouping
+  sentences into categories of affirmative or disapproving comments based on their
+  tone.
+- Your task is to sift through movie review sentences, analyzing their emotional content
+  so you can label them as containing positive sentiment or negative sentiment.
+- You will interpret the general sentiment of sentences selected from movie critiques,
+  identifying their emotional quality as either supportive or critical.
+- The objective is to interpret the tone of brief descriptions of films, labeling
+  them as either favorably inclined or critical in nature.
+- The objective of this task is to read and interpret sentences from film reviews,
+  identifying the sentiment as either supportive or critical.
+- The task requires discerning whether each sentence sourced from movie reviews has
+  an overall positive spin or a critical negative tone.
+- "You will sift through movie review statements and label them based on their sentiment\u2014\
+  are they complimenting or criticizing?"
+- 'You will encounter various sentences about films and must classify each one based
+  on its emotional tone: either positive or negative.'
+- 'You are tasked with the examination of movie review excerpts to classify them into
+  two camps: those that convey a positive sentiment and those that express negativity.'
+- Engage with film critique sentences and discern their emotional tone. Classify each
+  sentence as either expressing approval or disapproval.
+- Your job is to interpret the sentiment in movie review sentences. Decide if the
+  sentiment leans more towards a positive impression or a negative view.
+- Your responsibility is to discern the sentiment behind statements in movie reviews,
+  deciding if they reflect a positive or negative viewer experience.
+- Classify sentiments expressed in film reviews by evaluating if they reflect excitement
+  and approval or disappointment and critique.
+- You will explore diverse opinions expressed in movie reviews, making assessments
+  that classify sentiments based on the language used within the sentences.
+- You will read a series of sentences taken from movie reviews and classify each one
+  based on its sentiment, marking them as either positive or negative.
+- You will take a close look at various movie critique sentences and gauge their sentiment,
+  identifying which fall into positive or negative categories.
+- Your mission is to read and interpret brief critiques of films to decide if they
+  evoke positive feelings towards the films mentioned or not.
+- This task requires a careful examination of film review statements to classify their
+  sentiments as either favorable (positive) or unfavorable (negative).
+- The task is centered around dissecting sentences about films to evaluate their emotional
+  tone and classify each one as either positively reflecting enjoyment or negatively
+  pointing out flaws.
+- 'As part of this task, read through review sentences and categorize them into two
+  groups based on sentiment: positive or negative feedback.'
+- You will read through segments of film criticism and determine whether each expresses
+  a favorable opinion about the movie or conveys dissatisfaction.
+- In this exercise, you will identify and label the sentiments behind sentences taken
+  from reviewers' thoughts on movies as either highlighting strengths (positive) or
+  weaknesses (negative).
+- Your role is to evaluate movie reviews and classify sentences based on the sentiment
+  they convey regarding the films discussed.
+- Your goal is to assess the emotional attitude reflected in various movie review
+  sentences. Decide if the sentiment is positive, showing appreciation, or negative,
+  highlighting dissatisfaction.
+- Your challenge is to read through phrases in movie critiques and recognize whether
+  they reflect a good impression or a bad one.
+- "This task asks you to look closely at sentences originating from film reviews and\
+  \ classify them according to their emotional tone\u2014positive or negative."
+- Your assignment involves examining reviews and deciding if each sentence showcases
+  praise for the movie or points out its faults and flaws.
+- In this task, you will analyze sentences from movie reviews to determine their emotional
+  tone, classifying them as either positive or negative.
+- Assess the provided film review sentences for their emotional content, determining
+  if they communicate a friendly or an unfavorable sentiment.
+- You will categorize each given sentence from film critiques based on its emotional
+  tone, identifying it as either positive or negative.
+- You are entrusted with analyzing film review sentences for their emotional content
+  and labeling them as either expressing positivity or negativity.
+- Analyze the given excerpts from film critiques and decide if they reflect a favorable
+  or unfavorable opinion about the movie. Your classification will help in understanding
+  the overall sentiment of reviews.
+- Review the sentiments within quotes from films' assessments, marking them as expressing
+  positive appreciation or negative criticism.
+- Engage in evaluating sentences from movie critiques and making a judgment about
+  their sentiment. Recognize cues in the language that suggest either a positive outlook
+  or a negative impression.
+- For this task, assess each provided sentence for its emotional content to determine
+  if it resonates positively or negatively regarding the movie under discussion.
+- Classify sentences from movie reviews by evaluating their sentiment, determining
+  whether they convey a sense of enjoyment (positive) or disappointment (negative).
+- Analyze movie review snippets, determining whether they present a favorable or unfavorable
+  sentiment. Your goal is to identify and classify these sentiments accurately.
+- Your task is to review snippets from film critiques and identify their sentiment.
+  This involves discerning whether the language used suggests admiration or criticism.
+- This task requires you to discern the overall mood of given sentences from movie
+  critiques and label them accordingly.
+- You will be given various movie review statements, and you need to determine their
+  emotional weight by labeling them as either positive or negative sentiment.
+- This task involves evaluating movie review sentences to determine their sentiment.
+  You will classify each sentence as either positive or negative based on the emotions
+  expressed.
+- This task requires a careful reading of sentences from movie reviews to classify
+  their sentiments accurately. Determine whether each sentence shows a positive view
+  or a negative view of the film.
+- Work through provided film review sentences and evaluate their emotional tone, categorizing
+  them as either positive expressions of enjoyment or negative reflections of disappointment.
+- Assess the emotional undertones present in each movie review sentence. The analysis
+  will guide you in identifying whether the sentiment is favorable or not.
+- In this activity, you analyze excerpts from film reviews to ascertain whether the
+  sentiment expressed is one of positivity or negativity.
+- Your task involves understanding and interpreting emotions in film reviews, deciding
+  if they're expressing approval or disapproval.
+- Analyze the sentiments conveyed in sentences from various movie critiques and decide
+  if those sentiments are uplifting or adverse.
+- "Evaluate lines from movie critiques by assessing their sentiments\u2014whether\
+  \ they celebrate the film's qualities or critique its shortcomings."
+- The job is to interpret evaluations of films and determine the emotional stance
+  expressed in these written sentiments.
+- Engage with movie review texts to discern emotional sentiment, distinguishing between
+  uplifting impressions and unfavorable judgments.
+- You will review statements about films and need to classify them as either expressing
+  heartfelt approval (positive) or disappointment (negative).
+- You are tasked with evaluating sentences from movie critiques, categorizing each
+  as either positively received or negatively viewed based on the expressed sentiment.
+- In this task, you analyze descriptive sentences about movies and determine their
+  emotional impact, categorizing them as positive or negative feedback.
+- Your job involves classifying the emotional intensity of sentences extracted from
+  movie critiques, marking them as either carrying a positive vibe or a negative sting.
+- The task requires you to evaluate movie reviews and identify whether they convey
+  a positive or negative sentiment in their expressions.
+- Work with sentences derived from movie reviews to analyze their overall sentiment.
+  Distinguish between encouraging remarks and discontented observations.
+- This task involves reading film review sentences and deciding if they express a
+  positive feeling or a negative one.
+- You will read sentences from film critiques and decide if each one expresses a favorable
+  or unfavorable opinion about the movie.
+- Your task is to read movie review sentences and determine if they convey a positive
+  or negative sentiment.
+- You will examine film review sentences and judge their sentiment, indicating whether
+  they reflect a positive or negative viewpoint.
+- Examine each sentence derived from movie reviews to evaluate its sentiment, deciding
+  whether it reflects a favorable impression or an adverse opinion.
+- In this task, you assess the feelings expressed in movie reviews. You need to classify
+  whether the sentiment of each sentence leans toward positivity or negativity.
+- Your goal is to evaluate sentences from film critiques for their emotional content,
+  deciding if they convey a positive or negative sentiment.
+- Your role is to comprehend and classify the feelings expressed in sentences about
+  movies. Decide if they are favorable or unfavorable remarks.
+- You are tasked with examining snippets from movie critiques and categorizing them
+  according to their emotional tone. Identify whether each review is expressing approval
+  or disapproval.
+- Evaluate the feelings expressed in short snippets of film criticism, deciding if
+  they lean towards a positive appreciation or a negative criticism.
+- In this task, you analyze short excerpts from movie reviews and identify their expressed
+  feelings, which can either be affirming or critical.
+- Engaging with narratives surrounding films, your goal is to identify whether each
+  one reflects a predominantly optimistic or pessimistic attitude.
+- Your objective is to determine whether the emotional content of each provided review
+  sentence leans positively or negatively toward the film discussed.
+- Evaluate provided sentences from movie reviews for sentiment analysis. You'll determine
+  if they lean towards a positive outlook or reflect disapproval.
+- Your goal is to interpret the sentiment of sentences taken from movie reviews and
+  classify them accordingly as positive or negative.
+- This task involves analyzing movie review sentences to determine their emotional
+  tone, identifying whether the sentiment expressed is positive or negative.
+- In this task, discern the sentiment embedded in each sentence from movie critiques.
+  Mark them as either positive, reflecting enjoyment, or negative, indicating dissatisfaction.
+- The goal is to evaluate critique phrases about movies and categorize them based
+  on whether their tone suggests a favorable view or a less favorable one.
+- This activity focuses on parsing through opinions about films to classify them as
+  positive or negative based on the reviewers' sentiments expressed in their sentences.
+- You're tasked with evaluating snippets from critiques of films, categorizing them
+  based on whether they articulate positive feelings about a film or convey negative
+  impressions.
+- You will receive various sentences that describe movies, and your task is to judge
+  their sentiment. Distinguish between positive sentiments, which express approval,
+  and negative sentiments, which indicate criticism.
+- Here, you will engage with snippets of movie critiques, deciding whether their tone
+  is upbeat and complimentary or critical and negative in nature.
+- The assignment requires you to evaluate sentences taken from reviews of films, discerning
+  whether they are favorably or unfavorably expressing opinions.
+- Analyze language used in movie reviews to classify individual sentences according
+  to their emotional tone, identifying whether they reveal positivity or negativity
+  towards the subject.
+- Analyze the sentiments of movie reviews by identifying whether the language used
+  reflects a positive perspective or a negative critique.
+- In this task, you will assess the tone of individual sentences from film critiques
+  and categorize them as reflecting either a positive sentiment or a negative one.
+- The goal here is to assess the sentiment of sentences taken from movie reviews.
+  You will identify whether each sentence conveys a positive impression or a negative
+  one.
+- Your role involves interpreting sentiments in movie criticism, deciding if each
+  comment carries a positive vibe or reflects a negative critique.
+- In this task, you're asked to assess sentences from film reviews for their emotional
+  quality, classifying them by whether they're positive or negative.
+- Your task is to identify sentiments in short reviews, categorizing them as either
+  positively received or indicative of critique and negativity.
+- This task requires reviewing sentences about films and assessing the underlying
+  emotional tone, marking them as positive or negative based on your judgment.
+- The task involves analyzing sentences from movie reviews to determine their sentiment,
+  categorizing them as either positive or negative based on the emotional tone expressed.
+- You will be examining movie review sentences for their emotional quality and determining
+  if they reflect a positive attitude or a negative one.
+- In this task, you'll evaluate the sentiment expressed in film reviews. Determine
+  if each sentence carries a tone of appreciation or discontent.
+- You will assess sentiments expressed in movie review sentences, distinguishing between
+  those that reflect enjoyment and those that express dissatisfaction with the film.
+- In this task, your role is to interpret short reviews to unveil the underlying sentiments,
+  determining if each sentence reflects a sense of approval or disapproval about a
+  movie.
+- Analyze short excerpts from reviews to judge their emotional tone, distinguishing
+  between those that celebrate and commend films versus those that critique and disparage
+  them.
+- In this task, you are asked to evaluate sentences from movie reviews and determine
+  their sentiment, categorizing them as either positive or negative.
+- This task challenges you to analyze pieces of film criticism for sentiment, deciding
+  if a sentence leans toward positivity or negativity.
+- You will read sentences from critiques of films and judge their sentiment, labeling
+  them as either positive (POS) or negative (NEG).
+- You are presented with movie review comments, and your role is to discern their
+  emotion, classifying them as either conveying positivity or negativity.
+- The objective is to understand the emotions conveyed in sentences about movies and
+  classify them based on whether they are supportive or critical.
+- In this task, you assess the sentiment within movie review snippets, deciding if
+  the overall impression is favorable or unfavorable.
+- The objective is to interpret the mood of sentences from movie critiques and label
+  them accordingly as positive or negative.
+- In this exercise, you must interpret movie review sentences to gauge the overall
+  sentiment they convey. Determine if the sentiment is positive or negative based
+  on your comprehension of the text.
+- In this task, you will classify the sentiment in each provided sentence from film
+  reviews as either positive or negative based on its context.
+- The focus of this task is to read movie review sentences critically and define their
+  sentiment as either positive or negative. Understand the underlying attitudes toward
+  the films presented.
+- The task involves analyzing movie review sentences to determine whether the sentiment
+  expressed is positive or negative.
+- Examine the language used in various movie-inspired sentences to determine sentiment.
+  You'll need to distinguish hopeful perceptions from disparaging remarks.
+- Read sentences from critiques of films carefully, then classify each one based on
+  whether it reflects an affirmative sentiment or a critical one.
+- In this task, you will analyze movie review sentences to determine the sentiment
+  expressed. Classify each sentence as either positive or negative based on the language
+  used.
+- You are required to judge the sentiment of sentences extracted from movie critiques,
+  accurately labeling them as exhibiting positivity or negativity.
+- Examine sentences associated with movie critiques for clues about their emotional
+  tone. Categorize these snippets as representing a positive outlook or a negative
+  assessment of the films discussed.
+- In this task, assess the emotional aspects of selected sentences from film critiques.
+  Sort them into categories of positive and negative depending on how they express
+  feedback about movies.
+- In this activity, you evaluate sentences taken from movie reviews and identify whether
+  they express a favorable or unfavorable opinion.
+- Your task entails sifting through sentences from film critiques to determine their
+  sentiment. Analyze whether each sentence leans towards positivity or negativity
+  as it pertains to the movie experience.
+- You will examine sentences describing films and decide if the overall feeling conveyed
+  is positive or negative.
+- You need to assess the feelings expressed in different movie review sentences, categorizing
+  each as either positive or negative sentiment.
+- Read through the provided sentences from reviews and determine if they illustrate
+  a positive opinion about the films or a negative one.
+- This assignment involves classifying excerpts from movie reviews based on their
+  emotional connotations. Recognize whether each statement conveys a positive feeling
+  or conveys dissatisfaction.
+- You will determine the emotional flavor of sentences extracted from film reviews
+  by labeling them as either positive for praise or negative for criticism.
+- This activity challenges you to identify sentiment in film reviews. Each sentence
+  must be assessed to determine if it is optimistic or pessimistic about the film
+  being discussed.
+- Your challenge is to scrutinize sentences from cinematic reviews for their sentiments,
+  determining whether they show positive enthusiasm or negative disdain.
+- This task involves parsing through film review sentences and identifying whether
+  the sentiment is more optimistic or pessimistic in nature.
+- Your task is to analyze sentences from movie reviews and determine whether the sentiment
+  expressed is positive or negative.
+- Unpack the meanings behind different sentences about movies by classifying them
+  as expressing either positive sentiments or negative ones, contributing to overall
+  sentiment analysis in film.
+- You are provided with sentences from reviews of movies and must classify their sentiments,
+  focusing on whether they express approval or disapproval.
+- Interpret the various opinions shared in sentences from film reviews. Make clear
+  distinctions between those that are supportive and those that criticize.
+- In this exercise, your goal is to evaluate the sentiment of given movie review sentences,
+  labeling them as "POS" for positive feelings and "NEG" for negative perceptions.
+- This task requires you to interpret the attitudes expressed in movie reviews. You
+  will classify each sentence according to whether it reflects a positive or negative
+  stance.
+- Review and reflect on the sentiments encapsulated in sentences about films. Each
+  line will require classification into positive or negative emotional responses.
+- This task involves reading through movie reviews and assessing the author's feelings.
+  Classify each sentence as expressing either positivity or negativity.
+- "Engage with snippets of film critique to assess the tone being used; you need to\
+  \ decide if it\u2019s celebrating the film or critiquing it harshly."
+- This task entails assessing critique sentences from films, working to identify an
+  underlying sentiment that suggests either approval or discontent with the movie
+  being reviewed.
+- Your focus is on the emotional content of movie review sentences. You need to discern
+  whether they express approval or disapproval and categorize them accordingly.
+- This task involves identifying the sentiment expressed in sentences taken from film
+  reviews, distinguishing between those that have a positive outlook and those that
+  convey negativity.
+- "Your task is to interpret sentiments in sentences from movie reviews\u2014determining\
+  \ if they express a positive impression of a film or a negative one."
+- Your objective is to assess the sentiment conveyed in various movie review sentences
+  and assign labels based on whether the sentiment is upbeat or critical.
+- Your goal is to interpret movie review sentences for their emotional messages, deciding
+  which ones express a favorable opinion and which ones indicate dissatisfaction.
+- The objective here is to evaluate movie review excerpts and ascertain their sentiment.
+  Each sentence should be classified as either positive, indicating a good impression,
+  or negative, signaling disappointment.
+- You will assess various sentences to determine how they feel about a movie. Is the
+  comment uplifting or critical? Label each accordingly.
+- Assess the sentiment of movie reviews by categorizing each sentence based on its
+  positivity or negativity.
+- This task involves classifying statements from film reviews by identifying their
+  sentiment. Focus on capturing the essence of whether they are uplifting or critical.
+- The assignment involves examining language used in movie reviews to establish whether
+  the sentiments expressed are favorable (POS) or unfavorable (NEG).
+- The goal is to interpret the emotional tone of provided movie review sentences,
+  categorizing them as either positive or negative.
+- "You\u2019ll look at comments on movies and use your judgment to determine if they\
+  \ are expressing approval or disapproval."
+- The objective here is to examine a series of critiques and classify each sentence's
+  sentiment. Is it expressing approval, or is it disapproving?
+- Analyze the provided movie review sentences to gauge their emotional stance, categorizing
+  them based on whether they express a positive or negative sentiment.
+- Analyze whether the provided review sentences express enjoyable qualities (positive)
+  about films or highlight issues (negative).
+- Your job is to analyze phrases from film critiques and determine if they express
+  a sense of approval, categorizing it as positive, or indicate dissatisfaction, deeming
+  it negative.
+- Read and interpret movie review statements to classify them based on the sentiment
+  they convey. You must recognize whether the writer's attitude is positive or negative.
+- You are required to interpret and categorize sentences from movie reviews according
+  to their sentiments. Look for phrases that suggest approval or disapproval to make
+  your classification.
+- "Determine the sentiment of given movie review sentences, deciding if the writer\u2019\
+  s feelings lean towards enthusiasm or discontent."
+- This task requires you to interpret the sentiment in movie review sentences and
+  categorize them as either favorable or unfavorable.
+- Your role involves scrutinizing sentences from critiques of movies to differentiate
+  between enthusiastic endorsements and negative evaluations.
+- Examine various movie review sentences to infer their emotional tone. Classify each
+  statement as either expressing a positive sentiment or reflecting a negative viewpoint.
+- Analyze sentences extracted from movie reviews and identify whether the expressed
+  sentiment indicates a positive or negative reaction towards the film.
+- "Read the provided sentences from movie critiques and classify them based on their\
+  \ emotional tone\u2014either positive or negative."
+- Engage with the task of identifying whether movie review sentences lean positively,
+  showcasing enthusiasm, or negatively, pointing out flaws.
+- Your task is to interpret the sentiment in short movie review sentences, deciding
+  if they express a positive feeling or a negative impression.
+- "Classify movie review sentences by understanding and identifying their underlying\
+  \ emotional expressions\u2014good or bad."
+- You are tasked with interpreting the emotional tone of various film review sentences
+  by identifying whether each expresses positive feedback or criticism.
+- Your responsibility is to evaluate a selection of movie reviews by identifying the
+  emotional stance of each sentence. Determine if they express joy and satisfaction
+  or disappointment and critique.
+- The task requires an interpretation of sentiments in movie reviews, helping you
+  classify whether opinions are favorable or unfavorable.
+- You will read through several sentences taken from movie reviews and discern their
+  emotional character. The task revolves around identifying whether they are expressing
+  positivity or negativity regarding the films.
+- The mission is to decode the sentiment present in different sentences from film
+  reviews, categorizing them as either expressing praise or disappointment.
+- This exercise focuses on assessing movie reviews by determining whether each sentence
+  conveys a positive outlook or a negative reaction.
+- Your role is to discern the emotional stance of a sentence related to a film, indicating
+  whether it is full of praise or disappointment.
+- Your job is to sift through various movie review statements and label them according
+  to whether they provide a positive endorsement or negative critique of the film.
+- Delve into movie review snippets to ascertain their emotional stance, indicating
+  if they radiate positivity or exhibit negativity in tone.
+- Engage with short excerpts from film reviews, aiming to discern their overall sentiment.
+  Classify them in terms of positivity or negativity based on descriptive language
+  and tone.
+- The objective is to evaluate the feelings conveyed through sentences in movie critiques,
+  identifying whether the sentiment is optimistic (POS) or pessimistic (NEG).
+- Assess statements taken from film reviews for their emotional inclination. Classify
+  each sentence as reflecting either positivity or negativity.
+- This exercise challenges you to decode sentiments within movie review sentences,
+  deciding if they skewer positively or negatively based on their phrasing.
+- Analyze brief sentences from film critiques and classify their emotional tone as
+  either positive or negative.
+- You will read various sentences taken from film critiques and decide whether each
+  sentence conveys a favorable or unfavorable opinion about the movie.
+- Evaluate the emotional context of sentences from movie critiques and categorize
+  each as expressing either a positive view or a negative one.
+- Examine various reviews and their respective expressions to classify sentiments
+  as either optimistic or pessimistic, thereby contributing to a broader understanding
+  of audience reception.
+- "The challenge here is to discern the intentions behind various movie review sentences\u2014\
+  whether they aim to praise positively or criticize negatively."
+- The focus here is on understanding the emotional context of movie review sentences
+  and categorizing them based on their sentiment.
+- Analyze sentences derived from film reviews with a focus on their emotional content.
+  Classify them into positive or negative sentiments by interpreting the author's
+  feelings toward the movies discussed.
+- Review the given critiques of films and make judgments about their sentiments. Decide
+  whether each sentence communicates positive feelings or negative feelings.
+- This task requires you to sift through captured sentiments in movie reviews and
+  classify them into two categories based on their emotional stance.
+- The task centers on analyzing review sentences from films, making judgments about
+  their sentiment based on words and phrases that signal positivity or negativity.
+- The task involves analyzing movie review sentences to determine whether their sentiment
+  is positive or negative.
+- Assess the attitude conveyed in sentences related to movies. Group them as either
+  positive sentiments towards films or negative critiques.
+ds_kwargs:
+  path: Lots-of-LoRAs/task363_sst2_polarity_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task363_sst2_polarity_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

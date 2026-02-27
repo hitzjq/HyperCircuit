@@ -1,0 +1,448 @@
+assistant_prefill: ''
+descriptions:
+- Your job is to compare an Amazon product review with its summary to determine if
+  they align correctly, focusing on matching the overall sentiments and key information.
+- Analyze the relationship between a product review and its summary to confirm if
+  they convey the same message. This task tests your ability to synthesize information.
+- You are tasked with judging if a succinct overview successfully captures the sentiments
+  expressed in an individual's detailed review of a food product.
+- In this evaluation task, you will check for coherence between a food product review
+  and its digest version, sharpening your skills in textual analysis and interpretation.
+- In this task, you will evaluate whether a summary accurately reflects the main points
+  of a given product review, requiring attention to detail and comprehension skills.
+- You will read a food product review and its related summary, then assess if they
+  match in terms of meaning and sentiment.
+- In this task, check for alignment between how a user reviews a food item and how
+  that experience is summarized succinctly.
+- Given a food product review and its summary, you need to determine if they match
+  in meaning. This requires attention to detail and comprehension of the review's
+  main ideas.
+- Assess whether the points made in an Amazon product review are reflected in its
+  accompanying summary accurately. It leverages both reading comprehension and critical
+  assessment skills.
+- "Examine closely how well two pieces\u2014one detailed and one succinct\u2014echo\
+  \ each other's views on an Amazon food item, focusing on critical themes and impressions."
+- Read both the detailed feedback and its summary about an Amazon food item; decide
+  whether they reflect similar viewpoints regarding that item.
+- Assess whether the provided summary accurately reflects the main points of the related
+  food product review. It requires good reading comprehension and the ability to identify
+  key themes.
+- In this task, you'll look for correspondence between customer feedback on a food
+  product and the summarized statements associated with it.
+- You need to assess whether the summary reflects the key points and sentiments expressed
+  in the provided food product review.
+- Assess whether the provided summary matches the sentiment expressed in the product
+  review. This requires good reading comprehension skills and attention to language
+  details.
+- Determine if the summary succinctly captures both the sentiment and assessment made
+  by the reviewer about the food item.
+- This task requires you to identify if a provided summary truly reflects the feedback
+  expressed in an associated product review.
+- Evaluate a selection of product reviews against their summaries, focusing on whether
+  they share consistent opinions or differing sentiments about those products.
+- In this task, you will use your comprehension skills to compare written reviews
+  of food products with their one-sentence summaries, determining their alignment
+  or disparity.
+- Your job is to identify any mismatch between a food product's detailed review and
+  its overall summary to indicate if they are true to each other.
+- "The goal is to evaluate if a summary captures the essence of a reviewer\u2019s\
+  \ thoughts on a food product. Consider aspects like tone and key points mentioned."
+- Review and reflect on whether the given summary aligns well with or diverges from
+  the content outlined in an Amazon food product critique.
+- Analyze the provided review of an Amazon food product to decide if its summary captures
+  the main points made by the reviewer.
+- This task requires you to compare a review and its summary to decide if they communicate
+  the same idea or if there are discrepancies between them.
+- "Determine if there is harmony between a customer\u2019s detailed opinion of a food\
+  \ item and its brief summarization by examining key phrases and ideas."
+- You will need to review an Amazon product review and its summary to see if they
+  convey similar meanings. This task involves interpreting language nuances and sentiment
+  analysis.
+- The goal is to decide if a summarized statement accurately represents the sentiments
+  and details found in a customer review about a food product.
+- You need to evaluate a review for a food product against its summary, checking if
+  they align in meaning and content.
+- The activity involves matching assessments between customer reviews and their summaries,
+  ensuring that they reflect similar sentiments about food items purchased online.
+- For each pair of a product review and its summary, you must judge if the summary
+  correctly captures the essence of the review. This involves comparing ideas and
+  themes.
+- Your mission is to analyze whether the essence of the food product review matches
+  the provided summary statement.
+- Your role is to compare a detailed review of an item with a concise summary to see
+  if they are consistent in describing the user's experience.
+- Your task involves looking for discrepancies or agreements between customer reviews
+  of Amazon food products and their respective summaries.
+- Your goal is to determine if the summary accurately represents the feelings or opinions
+  shared in the product review. This task tests your ability to synthesize information
+  from both texts.
+- You will compare a review of a food product with a provided summary, assessing if
+  they convey the same message.
+- In this task, you'll be examining an Amazon food product review alongside its summary.
+  The challenge lies in identifying if both express the same sentiments and observations.
+- Your assignment is to contemplate whether a consumer's detailed thoughts about a
+  food product are mirrored by its concise summary, demanding attention to emotional
+  context and accuracy.
+- "You will read a review of a food product from Amazon and a corresponding summary.\
+  \ Your goal is to evaluate if the summary is a true representation of the review\u2019\
+  s content."
+- "Evaluate two pieces of information\u2014a detailed product review and its concise\
+  \ summary\u2014to decide if they communicate similar viewpoints regarding the same\
+  \ subject matter."
+- In this task, you will decide if the main points from a review of an amazon food
+  item harmonize with its brief summary statement.
+- Your task is to analyze how well a summary corresponds with the main ideas of a
+  food product review, necessitating attention to linguistic details.
+- "The goal is to determine if the summary effectively encapsulates the reviewer\u2019\
+  s experience and opinion regarding a specific food product."
+- You are tasked with identifying inconsistencies between an Amazon review and its
+  summary. It requires careful consideration of language and meaning.
+- "Analyze two pieces of text\u2014a review and its summary\u2014to identify whether\
+  \ they consistently express similar views on an Amazon food product."
+- In this exercise, your objective is to confirm or refute if the brief description
+  of a food product aligns with customer feedback, weighing their consistency against
+  variations in expressions.
+- Utilize your comprehension skills to evaluate if an Amazon product review and its
+  summary convey matching evaluations of the item.
+- Your task is to evaluate the relationship between a detailed review and a brief
+  summary, verifying if they describe the same product experience.
+- Assess the accuracy of a summary by checking it against the specific claims presented
+  in an Amazon review.
+- You are given a review of a food product and a summarization of that review. Your
+  goal is to assess if the summary is a true representation of the review's content.
+- You must analyze how well a summary aligns with the sentiments expressed in a customer
+  product review. Recognizing congruency or discrepancies is key.
+- You are asked to discern whether the brief summary mirrors or distorts the sentiments
+  expressed within an extensive review regarding an Amazon food product.
+- Assess the relevance and accuracy of a summary based on a food product review, determining
+  if both communicate the same underlying opinion.
+- The task involves comparing an Amazon food product review with its summary to determine
+  if they accurately align with each other.
+- You need to use critical thinking to assess if a brief overview accurately reflects
+  the detailed sentiments shared in the longer product review.
+- The goal here is to judge if the summary captures the essence of the associated
+  food product review, indicating whether it is true or false.
+- You are tasked with determining if a specific summary correctly encapsulates an
+  Amazon food product review. This demands critical thinking and comparison skills.
+- Your task involves determining if the essence of an amazon product review aligns
+  with the phrasing used in its summary statement.
+- Examine the relationship between a review and its summary, determining whether they
+  align or contradict each other in their messages.
+- Evaluate if a given summary accurately summarizes an Amazon review about a food
+  product. You'll need strong comprehension skills to assess the correlation between
+  them.
+- Engage in careful comparison of a product review with its accompanying summary to
+  ascertain their congruence.
+- Compare given food product reviews against their provided summaries to see if they
+  communicate alignment in sentiments and points made about the products.
+- Evaluate whether given summaries provide an accurate representation of customer
+  reviews regarding food products. Understanding the emotion behind words is essential
+  for this task.
+- Read through a food product review and its summary to decide if they align in meaning.
+  The task tests your ability to interpret text and discern essential information.
+- Your responsibility is to identify discrepancies or agreements between a detailed
+  customer review of a food product and its more concise summary statement.
+- Identify whether the summary truly reflects what is conveyed in the accompanying
+  food product review. This requires analytical skills to relate two pieces of text.
+- You are tasked with identifying if the sentiment or information presented in an
+  Amazon product review is accurately captured by its accompanying summary.
+- Assess whether the key ideas in the given food product review align with those expressed
+  in its summary.
+- Your role in this task is to discern if the essence of an online review aligns with
+  its given summary, focusing on consumer insights about food.
+- Analyze the relationship between an Amazon food product review and its summary.
+  You need to determine if they convey the same meaning or sentiment.
+- In this task, your focus is on reviewing summaries of customer feedback on food
+  products to see if they faithfully depict what was discussed in the full reviews.
+- "Your role is to scrutinize a food product\u2019s customer review alongside its\
+  \ summary for consistency in messaging, requiring thoughtful engagement with both\
+  \ documents."
+- This task requires you to delve into customer reviews and corresponding summaries,
+  ensuring that they echo each other in sentiment and substance.
+- "Your goal is to critically assess two pieces of writing\u2014a detailed review\
+  \ and its brief summary\u2014to uncover any mismatches between them."
+- "You will analyze a customer\u2019s feedback on a food product along with its summary,\
+  \ checking for consistency between the two statements."
+- "Your challenge is to scrutinize a consumer\u2019s review along with a summary to\
+  \ judge if they appropriately reflect each other\u2019s content concerning the food\
+  \ product."
+- Analyze the content of a product review against its summary, deciding whether they
+  convey the same message or not.
+- The objective is to analyze whether a summary accurately communicates the core message
+  of a food product review. You need to ensure that both texts convey similar information
+  and sentiments about the product.
+- "Evaluate if a given summary is an accurate representation of a customer\u2019s\
+  \ feedback about a product. This task relies on your ability to read critically."
+- "You have to discern if two related texts\u2014a review and its summary\u2014are\
+  \ in agreement regarding the discussed food item."
+- Examine if the provided summary accurately represents the thoughts shared in the
+  related review about a food item, focusing on matching themes and conclusions.
+- You will analyze both a detailed food product review and a summarized version to
+  ascertain if they carry forward similar messages about the product.
+- Your challenge is to confirm whether the essence of an Amazon product review is
+  captured correctly in its summary, requiring close reading of both texts.
+- Your job is to interpret both a verbose product evaluation and its concise summary
+  to verify if they align properly without contradictions.
+- In this activity, you analyze the relationship between a product review and its
+  summary to determine if they convey the same idea.
+- Compare and contrast an Amazon food review with its provided summary. Your role
+  is to assess their compatibility based on how well they articulate similar views
+  on the product.
+- Your objective is to match reviews of food products with their summaries, checking
+  for coherence between the longer feedback and its shorter paraphrase.
+- By examining each review and its simplified version, you will determine if they
+  echo similar thoughts on quality or taste regarding Amazon food products.
+- You are asked to validate whether each summary accurately represents the key points
+  made in its corresponding product review regarding food items.
+- You will verify if the summary given for a food product review faithfully represents
+  what was shared by the reviewer. Look for similarities in message and feelings toward
+  the product.
+- Your task is to assess whether the summary accurately reflects the content of an
+  Amazon food product review. This involves comparing the key points and sentiments
+  expressed in both.
+- Your assignment is to evaluate the connection between an Amazon review and its summary,
+  determining if they effectively match in content and intent.
+- Check if the sentiments conveyed in both provided texts are consistent with each
+  other, requiring critical engagement with their content and implications.
+- "In this exercise, check for consistency between a customer\u2019s opinion on a\
+  \ food item and the brief summary that follows it."
+- Compare an Amazon food product review with its summary to see if they match. This
+  involves looking for similarities in important aspects presented in both texts.
+- Your task is to evaluate whether a product review accurately reflects its summary.
+  This requires careful reading and comprehension of both texts.
+- You need to judge if the sentiments expressed in a food product review are accurately
+  reflected in the summary that accompanies it.
+- Your responsibility includes verifying whether facts portrayed in a product's review
+  align appropriately with insights offered in its shorter summary.
+- Compare and contrast an Amazon food product review with a written summary to identify
+  any discrepancies in messaging.
+- You need to evaluate if a summarized statement accurately reflects what has been
+  said in detail by a reviewer regarding their experience with a food item.
+- Your task involves reading a review for an Amazon food item and its summary, then
+  judging whether they convey compatible expectations and experiences.
+- Analyze if the sentiment expressed in a food product review is in agreement with
+  what is presented in its summary.
+- The task involves reading a customer review and its corresponding summary to check
+  for consistency in tone and message, which demands critical thinking and comprehension.
+- You are tasked with verifying the accuracy of a summary based on a product review,
+  assessing if both pieces convey complementary information.
+- Scrutinize pairs of customer reviews and their summaries on food items, assessing
+  for correspondence in meaning and satisfaction portrayed by the reviewer.
+- You will determine if the details in a product review align with the key points
+  presented in a summarized form.
+- Determine whether the summary aligns with the review's message, focusing on extracting
+  meaning accurately from both statements as part of your analysis.
+- In this task, you will examine how well a short summary aligns with a longer product
+  review, focusing on the accuracy of the sentiments expressed.
+- "Determine if the essence of an Amazon food product\u2019s review aligns with the\
+  \ provided summary. This requires clarity in thought and adeptness in comparing\
+  \ texts."
+- This task involves dissecting an Amazon review and its synopsis to check for alignment
+  or misalignment in how they describe product attributes and user satisfaction.
+- Your task is to assess whether a provided review of a food product accurately matches
+  its summary.
+- Weigh the information presented in a comprehensive food product review against its
+  summary to see whether they tell a consistent story about customer experience.
+- Evaluate if the summary you receive corresponds accurately with a food product review.
+  Focus on understanding the tone and main arguments of the review.
+- Your task is to determine whether a summary accurately reflects the content of a
+  food product review.
+- "You will need to check for congruence between an amazon food product review and\
+  \ its summary, concluding whether they truly reflect each other\u2019s content."
+- Examine whether the brief overview provided accurately corresponds to the detailed
+  impressions shared in a customer review of a food product.
+- You are to determine the validity of a summary based on a detailed review by checking
+  if it accurately distills the key elements of what was expressed by the reviewer.
+- Your task is to assess whether a provided review accurately reflects the main message
+  of its corresponding summary.
+- The objective is to confirm if the summary appropriately reflects the opinions and
+  experiences shared in the related food product review.
+- "Assess if the summary provided for a product review is truthful in reflecting the\
+  \ reviewer\u2019s opinion. This requires an understanding of context and nuances\
+  \ within the text."
+- Your role entails assessing product feedback summaries for their accuracy concerning
+  detailed reviews, focusing on reflective tone and conveyed messages.
+- Assess whether the sentiments in a product review are accurately summarized in the
+  related statement, indicating true or false based on compatibility.
+- "Review both texts\u2014the consumer feedback and its concise summary\u2014to ascertain\
+  \ if they represent compatible viewpoints on the same food product."
+- "Evaluate whether an Amazon review's summary is representative of the reviewer\u2019\
+  s overall opinion. This involves comparing key themes and emotions expressed in\
+  \ both texts."
+- Read both a food product review and its summary to understand if the two align in
+  their descriptions and conclusions.
+- Given each Amazon food product review with a corresponding summary, your job is
+  to determine whether the two reflect similar evaluations or opinions about the product.
+- Determine how well a summary reflects the information and sentiments presented in
+  a more elaborate review about a food product.
+- "You will be presented with reviews and summaries from Amazon. Your responsibility\
+  \ is to figure out if they accurately represent each other\u2019s information."
+- Your task is to evaluate a product review and determine whether its summary accurately
+  reflects the sentiments expressed in the review.
+- The task involves reading a review along with its summary, then deciding if both
+  statements match in sentiment and information about the product discussed.
+- In this task, you will determine if the contrasting statements between two texts
+  indicate different opinions, focusing on clarity of expression and sentiment alignment.
+- You are tasked with verifying the accuracy of a summary in relation to a given product
+  review. This involves evaluating if the summary encapsulates the main ideas and
+  sentiments expressed in the review.
+- Analyze the relationship between a product review and a brief summary, deciding
+  if they cohesively represent the same ideas. This involves reading for context and
+  subtle differences in meaning.
+- Determine if a review's broader commentary matches its succinct summary. Focus on
+  understanding the main ideas presented in both parts.
+- Analyze product reviews alongside their summaries to ascertain if they convey consistent
+  messages about customer experiences with specific food products.
+- You will assess if a summary appropriately encapsulates the essence of a food product
+  review. This requires understanding of both texts and the ability to highlight congruities
+  or discrepancies.
+- Analyze a pair of texts, focusing on how well a summary encapsulates or strays from
+  the core points made within a corresponding review.
+- The objective is to assess the accuracy of a summary in relation to an extensive
+  product review, determining if it encapsulates the main ideas effectively.
+- Examine an Amazon food product review alongside its summary to identify if they
+  communicate consistent information.
+- Your task is to assess whether an Amazon food product review accurately reflects
+  the provided summary. You will determine if the sentiments and details match closely.
+- Assess whether each summary corresponds accurately with the respective product review,
+  paying attention to key details and overall sentiment expressed.
+- Your job is to determine if a summary gives a correct overview of a food product
+  review from Amazon. You need to focus on matching core ideas presented in both.
+- Evaluate if the short summary aligns with the opinions and details provided in the
+  product review, noting any discrepancies or agreements.
+- The task entails reviewing customer feedback on food items alongside its summarized
+  statement, then deciding if they represent the same perspective.
+- Your objective is to compare a detailed review and its succinct summary to conclude
+  whether they share the same perspective about the product.
+- "Evaluate how well the summary matches up with the reviewer\u2019s comments and\
+  \ opinions about a particular food item."
+- The objective here is to find out if there is coherence or contradiction between
+  what is said in a review about a food product and its summarized version.
+- Assess whether there is congruence between what is said in a food product review
+  and the summarized statement that follows it.
+- Analyze a food product review against its summary to see if they are consistent.
+  The task emphasizes understanding nuances in language used in both texts.
+- Analyze the provided review alongside its summary, and conclude whether they are
+  in agreement or contradictory in their descriptions.
+- For each food product review, check if the summary conveys the same feelings or
+  opinions as described in the review itself.
+- Assess how well a given review aligns with its corresponding summary, focusing on
+  overall meaning and essential details of the user experience with the product.
+- In this task, you will compare a product review with its corresponding summary to
+  determine if they are aligned in meaning. This involves a careful analysis of key
+  points and emotional tone.
+- Evaluate the content of a review for a food item and see if the summary encapsulates
+  that content correctly, marking them as either matching or not.
+- Examine how well a quick summary communicates key points from a longer review about
+  food products. Accuracy in sentiment expression is crucial here.
+- "Your task involves evaluating two pieces of text\u2014a product review and its\
+  \ summary\u2014to see if they convey matching messages regarding a food item."
+- Examine the review provided for an Amazon food item and its summary. Determine if
+  they agree in terms of content and sentiment regarding the item.
+- Using comprehension skills, evaluate whether the summarized opinion of a product
+  matches what was discussed in the individual's review.
+- "You\u2019ll be challenged to find out if two presentations of feedback about a\
+  \ product agree with one another, demanding analytical thinking regarding consumer\
+  \ expression."
+- This task involves comparing a detailed customer review with a succinct summary,
+  focusing on whether the latter accurately reflects the former's main themes and
+  opinions.
+- Analyze the connection between a product review and its summary. Decide if they
+  represent the same opinion about the food item.
+- "You are required to verify if a brief statement correctly captures the essence\
+  \ of what is expressed in a customer\u2019s longer feedback on a food product."
+- Examine both the long-form customer opinion on an amazon recipe and its provided
+  highlight; your job is to see if they say essentially the same thing.
+- "Your job is to analyze two statements related to an Amazon food product\u2014one\
+  \ detailed and one concise\u2014to see if they coherently convey the same viewpoint."
+- Analyze the relationship between an Amazon food product review and its summary to
+  decide if they match in meaning.
+- Your job is to assess whether a brief summary genuinely reflects the content and
+  sentiment of a detailed product review. It requires critical reading and comprehension
+  skills.
+- In this task, you will analyze reviews alongside their summaries. You must discern
+  if the summaries truthfully reflect the feelings conveyed in the reviews.
+- Determine whether the sentiments expressed in a detailed product review align with
+  those stated in its summarized version.
+- Read through an Amazon food product review and its summary; your job is to identify
+  if the summary is a true reflection of the review's content.
+- You will engage in a comparison between a lengthy product evaluation and a succinct
+  summary, determining if they convey compatible messages or diverging opinions.
+- "Assess whether the reviewer\u2019s tone and intention align with what is stated\
+  \ in the summary by analyzing both texts thoroughly and objectively."
+- Evaluate whether the summary provided effectively represents the main points made
+  in a given food product review.
+- The objective is to judge if the summary correctly represents the sentiments expressed
+  in an Amazon review for a food item.
+- Engage with the nuances of consumer feedback as you determine if summaries truly
+  represent reviewers' experiences with various food products.
+- "The challenge here is to discern whether the impressions conveyed in a food item\u2019\
+  s review are mirrored properly in its short summary."
+- Your responsibility is to identify whether the sentiments of a food product review
+  and its summary are consistent or not, requiring careful consideration of wording
+  and meaning.
+- "The task requires you to recognize whether the essence of a user\u2019s review\
+  \ is mirrored in the given summary, indicating their compatibility."
+- The task involves verifying whether the information in a summary truly reflects
+  what is stated in a related review of a food product.
+- Compare an extensive review of a food item with its shorter summary, identifying
+  if they are consistent or contradictory in their messages.
+- Check whether a summary corresponds well with its related food product review by
+  comparing insights provided in both pieces of text for alignment.
+- Review the provided feedback about a food product alongside its summarized version.
+  Decide if they align in message and tone.
+- You are required to compare an amazon product review with its concise summary and
+  evaluate whether they provide matching insights or differing perceptions.
+- "Evaluate two statements\u2014the detailed product review and its concise summary\u2014\
+  to determine if they convey matching ideas about the user experience."
+- Evaluate the clarity and accuracy of a summary based on the details given in a corresponding
+  product review.
+- This task involves comparing a customer review about a food item with a summary
+  to see if they match in sentiment and information.
+- You will be tasked with discerning truth from falsehood based on whether the sentiments
+  expressed in a food product review align with those presented in its summary.
+- The objective is to verify whether a summary reflects the key points made in a food
+  product review on Amazon, honing your comparative reasoning skills.
+- Your job involves analyzing whether an overview of customer feedback aligns with
+  an in-depth review from Amazon. Consider both emotional tone and factual detail.
+- Scrutinize both a food product review and its summary, determining if they present
+  cohesive viewpoints or contradictory assertions.
+- You are tasked with verifying if a given summary accurately represents the thoughts
+  and feelings expressed in a corresponding product review.
+- Your responsibility is to synthesize information from both a product review and
+  its summary to evaluate their coherence and accuracy.
+- Your role is to compare a review about a food item with its summary to see if they
+  present a consistent message about the product.
+- The goal is to evaluate the consistency between a review of an amazon food product
+  and its accompanying summary, determining if they convey the same sentiments.
+- You need to examine the relationship between a product review and its summary. By
+  doing this, you must identify if the summary captures the essence of the review
+  accurately.
+- You need to compare a review of a food product with its brief summary. Judge if
+  they convey the same message or if they differ significantly.
+- You are engaged in confirming whether concise summaries uphold the essential themes
+  highlighted in extensive customer feedback, particularly concerning Amazon food
+  items.
+- Analyze how well a brief description aligns with the specific experiences shared
+  in a customer's detailed review of an Amazon food product.
+- The focus of this evaluation is on determining whether the impressions shared in
+  a food review are echoed accurately in its corresponding summary.
+- The task requires you to scrutinize an Amazon food review alongside its summary
+  for any mismatches in meaning or sentiment expressed, showcasing your analytical
+  abilities.
+- "Evaluate two related texts\u2014a customer review and its summary\u2014to check\
+  \ for coherence to ensure that they reflect similar evaluations of the same food\
+  \ item."
+- "You will evaluate pairs of text\u2014product reviews and their summaries\u2014\
+  to establish whether they convey matching thoughts about the products."
+ds_kwargs:
+  path: Lots-of-LoRAs/task590_amazonfood_summary_correction_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task590_amazonfood_summary_correction_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

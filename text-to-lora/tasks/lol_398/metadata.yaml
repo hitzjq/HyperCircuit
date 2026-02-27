@@ -1,0 +1,427 @@
+assistant_prefill: ''
+descriptions:
+- This task challenges you to discern emotions from social media posts. You'll categorize
+  each tweet as reflecting happiness or dissatisfaction based on contextual clues.
+- Consider the emotions behind a tweet and decide if the author's feelings lean towards
+  happiness or unhappiness.
+- Your job is to interpret user sentiments in tweets, focusing on distinguishing happy
+  expressions from unhappy ones.
+- Determine the emotional tone of a provided tweet by identifying cues that suggest
+  joy or unhappiness in the author's words.
+- Analyze the sentiment of given tweets to determine if the author is experiencing
+  happiness or dissatisfaction.
+- Determine the emotional state of the tweeter by analyzing their words for indications
+  of happiness or sadness.
+- "Your goal is to decode tweets by identifying their emotional essence\u2014deciding\
+  \ if they radiate happiness or denote unhappiness."
+- Dig into the nuances of tweet expressions to sort them by emotional tone, specifically
+  looking for signs of joy versus displeasure.
+- "This task involves interpreting social media expressions\u2014ascertain and categorize\
+  \ tweets into joyful feelings or those that suggest unhappiness."
+- Your task is to interpret the emotions reflected in tweets and classify them as
+  either expressing happiness or not.
+- Your task is to read a tweet and assess whether the author conveys joy or dissatisfaction
+  through their words.
+- You are required to interpret the emotions behind tweets, focusing on determining
+  whether they showcase happiness or some form of discontent.
+- For each tweet presented, evaluate the sentiments conveyed by the author. Classify
+  their emotions as either "Happy" or "Not happy" based on your interpretation.
+- You will review various tweets and classify their emotional tone as either positive
+  (happy) or negative (not happy).
+- Evaluate different tweets with regard to how they express emotion. Determine whether
+  they project a sense of happiness or convey disappointment.
+- You will analyze emotional cues in tweets, categorizing the written content as happy
+  or not based on your understanding of positive and negative expressions.
+- You are expected to analyze short expressions from Twitter and categorize them according
+  to their perceived emotional positivity.
+- In this task, you will evaluate tweets for their emotional tone, determining if
+  they convey happiness or not. Pay close attention to nuances in language that suggest
+  feelings.
+- In this task, you need to evaluate the emotional tone of a tweet to determine if
+  the author expresses happiness or not.
+- Identify and classify the feelings behind various tweets, focusing on whether they
+  communicate happiness or a lack of it.
+- Your job involves reading tweets and making judgments about whether they express
+  joy or unhappiness based on their content.
+- You will identify the emotional state behind various tweets, judging whether they
+  express happiness or are tinged with negativity. Consider the sentiment expressed
+  meticulously.
+- Read tweets critically to distinguish between happy expressions and unhappy sentiments
+  based on their language.
+- Your challenge is to interpret emotional indicators in tweets, deciding if they
+  represent a happy mood or an unhappy one.
+- Evaluate tweets for their emotional sentiment, deciding whether they convey joy
+  or disappointment from the author's perspective.
+- Read tweets and use emotional intelligence to judge if the author is expressing
+  feelings of happiness or frustration, making careful observations about their language.
+- This task involves interpreting tweets to decide if the author's sentiment is positive
+  (happy) or negative (not happy). Focus on the overall context given in the text.
+- The task is to explore how authors communicate their feelings through tweets and
+  classify them as expressing joy or unhappiness based on your interpretation.
+- Evaluate the sentiments expressed in tweets. Your goal is to identify whether the
+  author's emotion leans towards happiness or a more negative feeling.
+- Engage with social media content by evaluating the emotional quality of tweets.
+  You will determine if the sentiment conveyed is positive (happy) or negative (not
+  happy).
+- In this activity, you will interpret messages from tweets, forming an opinion about
+  the overall mood conveyed by the authors.
+- This task focuses on sentiment analysis of social media tweets. You will categorize
+  tweets based on whether they express joy or dissatisfaction in tone.
+- You will be assessing tweets to identify the author's emotional tone, focusing on
+  whether their expressions indicate happiness or sadness.
+- Scrutinize each tweet for clues about the author's mood. Decide if they are in a
+  cheerful state or if their tone suggests dissatisfaction.
+- Utilize your skills in sentiment analysis to evaluate tweets for their emotional
+  impact, classifying them into happy or not happy categories.
+- Assess various tweets for their emotional content. Your task is to judge whether
+  the author seems happy or not, based on their expressions and feelings.
+- Your task is to analyze emotional nuances within tweets. You'll determine if they
+  reflect a cheerful spirit or an underlying unhappiness, using critical reading skills.
+- Your job involves interpreting tweets to gauge whether they express feelings of
+  happiness or disappointment.
+- Use your understanding of emotional language to discern if each tweet expresses
+  happiness or portrays a sense of dissatisfaction.
+- Examine the content of each tweet to judge whether the author's mood is cheerful
+  or not.
+- Your task involves understanding and labeling the emotional aspects of tweets, specifically
+  focusing on identifying happiness versus sadness.
+- Analyze each tweet's message carefully, identifying whether it highlights positivity
+  and happiness or indicates a lack of it.
+- In this assignment, you will reflect on the emotions articulated in tweets and decide
+  if they indicate a state of happiness or otherwise, using context as your guide.
+- The goal here is to sift through social media expressions, analyzing their tone
+  to categorize them into joyful versus non-happy sentiments, informed by linguistic
+  cues.
+- Engage with each tweet's tone and content to judge whether it elicits a sense of
+  joy or reveals dissatisfaction.
+- Assess the mood of tweet authors by labeling their expressions as either happy or
+  not happy. Consider the language and themes present to guide your decision-making.
+- You will read a series of tweets and decide if the authors are in a happy mood or
+  not, using your understanding of language and emotion.
+- Read each tweet and determine whether the sentiment expressed indicates happiness
+  or a lack thereof. This assessment requires careful reading of the text.
+- You will identify and label feelings expressed in tweets, focusing particularly
+  on whether they communicate happiness or frustration.
+- Acknowledge the feelings conveyed in tweets and classify them as indicating joyfulness
+  or lack of happiness.
+- Carefully consider the words and sentiment used in a tweet to assess if it conveys
+  happiness or indicates negative emotions.
+- The focus of this task is on sentiment analysis; you'll interpret text through a
+  lens of emotional understanding to classify tweets appropriately.
+- "Examine each tweet closely and label them according to the author\u2019s emotional\
+  \ state, noting signs of joy or discontent."
+- Your assignment entails interpreting feelings behind social media updates. Recognize
+  positive sentiments versus negative sentiments in brief messages.
+- The challenge here is to interpret a tweet's message and decide if it conveys a
+  sense of happiness or a lack thereof.
+- Analyze a tweet to judge the author's emotional state regarding happiness, labeling
+  it appropriately based on the content.
+- "You are tasked with analyzing social media content to gauge joy or unhappiness\
+  \ in the author\u2019s words. Use your interpretative skills to derive conclusions\
+  \ from each tweet."
+- Your responsibility is to interpret the emotions behind tweets, identifying them
+  as either positive (happy) or negative (not happy).
+- "Assess tweets for their emotional content. You will evaluate the language used\
+  \ to decide if it reflects a sense of happiness or discontent in the author\u2019\
+  s expression."
+- "Your mission is to categorize tweets by their emotional content\u2014either as\
+  \ reflecting happiness or indicating an absence of it. Look for contextual clues\
+  \ in each message."
+- Your role involves reading tweets and making a judgment about whether they express
+  happiness or convey distress.
+- This task involves understanding social media expressions to identify whether the
+  sentiments expressed are joyful or not.
+- You are tasked with determining the happiness level of tweet authors by interpreting
+  their written sentiments.
+- Take a close look at each tweet's wording to discern its emotional message and determine
+  if it belongs to the happy category or not.
+- Identify and label tweets based on emotional indicators, distinguishing between
+  cheerful sentiments and more negative expressions.
+- The goal of this task is to evaluate the sentiment conveyed in each tweet and decide
+  if it reflects a happy outlook or an unhappy one.
+- Use your judgment skills to decipher the mood embedded in tweets. Classify each
+  tweet based on whether it articulates positive emotions or not.
+- You are tasked with assessing the emotional tone of a tweet, determining if the
+  author expresses happiness or dissatisfaction.
+- This task requires you to discern between happy and not happy sentiments in tweets,
+  utilizing contextual clues from the text.
+- For this task, you will analyze how the authors of tweets feel, classifying their
+  emotions as happy or not happy.
+- This task involves analyzing social media posts to gauge the emotional state of
+  the writer. You will label tweets as reflecting happiness or unhappiness based on
+  context and word choice.
+- Analyze the emotions conveyed in a tweet. Decide if the author's expression reflects
+  happiness or dissatisfaction.
+- The goal of this task is to interpret tweets to identify the feelings of the authors,
+  distinguishing moments of joy from those of sadness or discontent.
+- Focus on the emotional nuances in the tweets you analyze; determine if they represent
+  a happy mindset or reveal struggles with discontentment.
+- This task requires you to sift through brief messages and gauge the overall mood
+  of the author. Determine if they seem joyful or if they convey discontent.
+- Analyze the sentiment expressed in a tweet and label it as "Happy" or "Not happy"
+  depending on the content.
+- Task yourself with recognizing emotions in tweets and classifying them based on
+  positive (happy) or negative (not happy) feelings.
+- Read each tweet provided and categorize the author's feelings as either positive
+  (happy) or negative (not happy).
+- In this exercise, you'll analyze short snippets of text on social media to classify
+  the author's mood. Look for cues in their expressions to inform your judgement.
+- Your job is to evaluate emotional expressions in tweets, determining if they lean
+  towards happiness or sadness through your interpretation of their words.
+- Evaluate the emotional intent within tweets. You should discern the authors' feelings
+  by distinguishing between expressions of joy and sadness.
+- Inspect the language and emojis used in tweets to identify expressions of happiness
+  and contrast them with those that signal negativity.
+- "Analyze social media expressions in tweets, deciding which emotions dominate\u2014\
+  whether it's joyfulness or feelings of unhappiness."
+- For each tweet you encounter, take a moment to assess its emotional impact. Determine
+  if it showcases joyfulness or signals unhappiness overall.
+- Evaluate the emotional content of tweets to see whether the sentiment leans toward
+  happiness or discontentment.
+- This task involves analyzing tweets to assess the emotional state of the author,
+  focusing specifically on whether they express happiness or sadness.
+- The objective here is to interpret the mood conveyed in each tweet. Classify them
+  as "Happy" when joy is present or "Not happy" when it reflects disappointment or
+  negativity.
+- You must interpret the feelings conveyed in the tweet and classify them as either
+  happy or not happy based on your judgment.
+- Inspecting tweets for emotional sentiment is key in this task. Decide if they reflect
+  joy or negativity through phrasing and overall message conveyance.
+- Assess the feelings represented in the tweets and categorize them as expressions
+  of joy or as unhappy sentiments.
+- Assess the sentiment in each tweet by determining if it reflects a happy state of
+  mind or suggests some negativity.
+- Consider the overall message conveyed in each tweet and judge whether it leans towards
+  happiness or falls into a negative tone.
+- Focus on understanding how the author feels through their tweets and categorize
+  those feelings into two distinct groups based on cheerfulness.
+- The objective is to interpret emotional language in tweets, deciding if they represent
+  joyfulness or disappointment.
+- "Your aim is to interpret the sentiment within tweets, labeling them for their emotional\
+  \ implications\u2014whether they're in a state of happiness or conveying discontent."
+- You will read various tweets and judge the mood of the author. Use your understanding
+  of language and emotion to categorize them appropriately.
+- By reading and analyzing each tweet, your job is to classify them based on whether
+  they depict happiness or an absence of it through clever word use and sentiment
+  expression.
+- You'll be evaluating short written statements from social media for their emotional
+  content, focusing specifically on feelings of happiness.
+- Engage with the content of tweets by identifying sentiments, classifying them as
+  happy or not happy while considering the overall tone set by the author.
+- The goal is to identify whether the sentiment in a tweet is positive or negative,
+  categorizing it into happy or not happy.
+- Your objective is to interpret the emotional tone of a tweet, deciding if the author's
+  feelings can be categorized as happy or not happy based on their words and context.
+- Judge each tweet for its underlying sentiment, distinguishing between expressions
+  of happiness and those that indicate unhappiness.
+- You are tasked with identifying the overall sentiment in tweets and designating
+  them as expressing joy or a lack thereof.
+- Assess how authors feel in their tweets, and label their sentiments as "Happy" or
+  "Not happy."
+- The focus of this task is on recognizing and identifying emotional expressions in
+  written form via social media posts.
+- Scrutinize the tweets for clues about the authors' emotions, deciding if they are
+  happy or not based on context.
+- "Analyze each tweet carefully to assess its emotional intent\u2014determine if it\
+  \ communicates joyfulness or an opposing sentiment; this requires careful attention\
+  \ to detail in language usage."
+- You are asked to judge the emotional tone of tweets and categorize them according
+  to the author's happiness level. This demands an understanding of social language
+  cues.
+- Your evaluation will focus on identifying sentiments in tweets, aiming to conclude
+  whether these reflect happiness or not.
+- Analyze short Twitter messages to infer emotions. Your aim is to recognize whether
+  the author's tone suggests happiness or indicates they're not feeling well.
+- The task requires you to discern the mood reflected in a tweet, identifying expressions
+  of joy versus signs of unhappiness or neutrality.
+- In this activity, you need to read a provided tweet and make a judgment about the
+  mood of its author, categorizing it as "Happy" or "Not happy."
+- As you read, pay attention to how tweets articulate feelings, categorizing them
+  as joyful or sorrowful.
+- Review each tweet and judge the author's mood, deciding if it appears cheerful or
+  downcast.
+- Each tweet needs to be examined for emotion so that you can appropriately classify
+  it into two distinct categories related to happiness.
+- You will explore various tweets, applying your judgment to label them as conveying
+  happiness or lacking it based on their wording.
+- Review the provided tweets and assess whether they indicate a joyful sentiment or
+  express discontent. Your judgment will be based on the emotional language used.
+- Assess the positivity in tweets by identifying words or phrases that signal happiness
+  as opposed to those suggesting disappointment.
+- Your role is to interpret tweets for emotional context and distinguish between positive
+  and negative sentiments.
+- Your goal is to discern the author's emotional state from their tweets, labeling
+  them as "Happy" or "Not happy" accordingly.
+- In this assignment, interpret tweets to assess the emotional state of the writer,
+  deciding if their writing reflects a happy sentiment or not.
+- Your goal is to assess tweets based on their sentiment, identifying whether the
+  author feels happy or unhappy.
+- Evaluate the tone of various tweets, considering their context and language to identify
+  whether they express joyfulness or negativity.
+- Delve into the emotional undertones of tweets to recognize and label feelings of
+  joy versus feelings of unhappiness.
+- Examine the content of tweets to make a judgment about the author's emotional state,
+  specifically focusing on happiness.
+- You are tasked with reviewing tweets and categorizing them as either happy or not
+  based on the content and tone.
+- Your job is to evaluate the emotional tone of a tweet. Determine if the tweet reflects
+  happiness or sadness based on the words and sentiments expressed.
+- Analyze tweets for emotional content, determining whether they reflect an upbeat
+  attitude or negative feelings.
+- Engage with social media content and judge emotional states based on tweet content.
+  Decide if each author resonates with happiness or expresses distress.
+- Delve into the emotional implications of tweets by assessing whether they resonate
+  with happiness or reflect a different emotional state.
+- Your task is centered around understanding and categorizing emotional expressions
+  found in tweets, focusing on joyfulness.
+- This task requires you to delve into the emotional undertones of tweets and determine
+  their overall sentiment related to happiness.
+- "You will read a collection of tweets and make a decision about each one\u2019s\
+  \ positivity based on the language used by the author."
+- You need to read and reflect on the emotional context of tweets to decide if the
+  author is happy or expressing negative feelings.
+- Analyze a series of tweets to assess the author's emotional state. Classify each
+  tweet as expressing either happiness or not.
+- Evaluate the tone and context of each tweet, determining how the author feels in
+  terms of happiness or unhappiness based on their expressions and words used.
+- You will read a tweet and assess the overall mood of the author, categorizing it
+  as either "Happy" or "Not happy."
+- Read through tweets and analyze their sentiment to determine if they reflect a happy
+  disposition or indicate sadness. Consider word choice and underlying messages.
+- In this task, you will interpret sentiments from tweet messages. Identify whether
+  each author feels happy based on descriptive language or shows signs of distress.
+- "Interpret a variety of tweets to ascertain their emotional weight\u2014identifying\
+  \ whether they convey happiness or dissatisfaction. This requires understanding\
+  \ of emotional expression in text."
+- You are tasked with analyzing tweets for signs of enjoyment or uplifting sentiments
+  versus unhappy or critical tones.
+- Your objective is to categorize tweets based on their emotional content, evaluating
+  whether they express happiness or convey negative feelings.
+- This involves interpreting personal sentiments conveyed through tweets and labeling
+  them based on detected happiness levels.
+- Evaluate the emotional context of tweets to identify happiness expressed by the
+  author or lack thereof.
+- By analyzing a series of tweets, your job is to classify them based on their emotional
+  resonance, particularly in terms of happiness.
+- This task engages you in evaluating emotional nuances in tweets, focusing on happiness
+  as a specific emotional output.
+- Here, you are tasked with determining the emotional state expressed in tweet format.
+  Identify feelings of joy versus frustration by reflecting on how emotions are articulated.
+- Read and interpret the sentiments in tweets, labeling them accurately based on the
+  emotional content presented.
+- Evaluate each tweet's emotional tone, focusing on whether it conveys happiness or
+  dissatisfaction.
+- You need to evaluate the emotional tone of a tweet and determine if it reflects
+  happiness or not based on the text provided.
+- Assess tweets by considering word choices and context to label them according to
+  whether they express joy or disappointment.
+- Your task is to engage with tweets at an emotional level and label each one according
+  to whether it emits positivity or negativity in sentiment.
+- Analyze the language and sentiment expressed in given tweets to classify them as
+  happy or not happy according to your interpretation.
+- Engage in a sentiment analysis exercise by evaluating tweets and categorizing them
+  based on whether they express a positive state of mind or not.
+- Examine tweets for their emotional implications. You'll uncover whether they depict
+  a joyful mood or an unhappy state based on clues provided in the text.
+- This task challenges you to gauge authors' emotions expressed in tweets, focusing
+  on identifying moments of happiness versus unfulfilled feelings.
+- Your focus will be on examining tweets for their emotional content, categorizing
+  them into happy versus not happy based on cues present in the text.
+- Your task is to analyze a given tweet and assess the emotional state of its author,
+  specifically determining if they express happiness or not.
+- Analyze the content of the tweet to determine whether it conveys a positive or negative
+  sentiment.
+- Your task is to evaluate the sentiment expressed in a tweet, determining whether
+  the author feels happy or not based on the content and tone of the message.
+- Assess a series of tweets for their tone, discerning whether they reflect joy or
+  unhappiness based on the author's feelings.
+- The objective is to interpret a series of tweets and determine whether they convey
+  a sense of joy or discontent.
+- Read between the lines of each tweet to understand the emotional response of the
+  author. Are they conveying joy, or are they frustrated?
+- This task involves analyzing social media posts to express judgment about the author's
+  emotional state, specifically focusing on happiness.
+- Here, you will interpret the emotion behind tweets, using your understanding of
+  language cues to decide between happiness and sadness.
+- "You will be tasked with examining a tweet\u2019s language and mood to classify\
+  \ it as expressing happiness or negativity."
+- Your task involves reading tweets and making a judgment about their emotional content,
+  determining if happiness is present.
+- This requires you to examine the language and sentiment in tweets to ascertain whether
+  they express joyfulness or indicate otherwise.
+- Your task is to evaluate emotions expressed in tweets and classify them as either
+  happy or not happy.
+- Delve into the emotions behind each tweet to decide if the tone is uplifting or
+  dreary, marking them accordingly.
+- The aim here is to determine the sentiment behind each tweet, specifically focusing
+  on recognizing expressions of happiness.
+- Your job is to assess the feelings expressed in brief social media updates, distinguishing
+  between happy and not happy sentiments.
+- Your task is to analyze a tweet and determine the emotional state of the author,
+  specifically whether they are expressing happiness or discontent.
+- This exercise requires you to identify emotional cues in tweets, labeling them as
+  indicating happiness or reflecting dissatisfaction based on their tone.
+- Assess individual tweets for emotional context, reflecting on whether the author's
+  perspective is one of joy or distress.
+- Examine tweets for emotional cues. Your task is to ascertain whether the sentiment
+  conveyed is one of happiness or not, based on context and word choice.
+- The task at hand is to discern and label tweets that reflect happy sentiments versus
+  those that do not show happiness.
+- This task requires you to assess each tweet's emotional tone and label it accordingly
+  based on the author's expression.
+- For each tweet presented, your job is to interpret the feelings behind the words
+  and label the sentiment as either positive (Happy) or negative (Not happy).
+- Your role is to listen to what a tweet conveys emotionally, categorizing it into
+  feelings of happiness or not.
+- Your role is to read through tweets, analyzing them for happiness indicators while
+  disregarding any explanations behind your assessments.
+- Interpret the mood conveyed in various tweets to categorize them accurately based
+  on their positive or negative sentiments.
+- Analyze tweets for emotional context, focusing on the author's feelings, specifically
+  identifying if they are happy or expressing dissatisfaction.
+- Break down tweets to see if they express joyful sentiments or reveal unhappiness,
+  then label accordingly.
+- Dive into social media sentiment by evaluating tweets. Your role is to interpret
+  and classify emotional content as either happy or not happy, relying on your understanding
+  of tone.
+- In this task, you will process short written expressions on social media to gauge
+  if they reflect happiness.
+- Your responsibility is to gauge the emotional undertone of tweets and settle on
+  whether they represent happiness or lack thereof.
+- In this task, you evaluate tweets to uncover the author's emotional state, deciding
+  if it indicates happiness or an absence of it.
+- You will read through various tweets and decide if they convey a sense of happiness
+  or a lack of it.
+- You'll examine tweet content, interpreting whether it suggests that the author feels
+  happy or unhappy based on their phrasing and context.
+- Analyze written expressions in tweets and determine if they project a sense of happiness
+  or reveal feelings of unhappiness by interpreting word choice and context.
+- Your job is to interpret the emotional message of a tweet and categorize it as either
+  expressing happiness or not.
+- Your responsibility is to analyze the emotional context of given tweets to decide
+  if they indicate happiness from their authors.
+- Using your understanding of emotions, categorize tweets based on their tone, indicating
+  whether they reflect happiness.
+- Understand language nuances in tweets and assess their emotional implications. You'll
+  classify these expressions into joyful (Happy) and non-joyful (Not happy) categories.
+- Your task is to assess the emotional tone of a tweet and decide if the author expresses
+  happiness or sadness.
+- Your role is to determine the author's emotional stance in the tweet. Identify if
+  they feel happy and label it accordingly.
+- Read through each given tweet carefully, considering the wording and overall tone,
+  to conclude whether it expresses happiness or a lack of it.
+- You need keen observational skills to determine the underlying emotions expressed
+  in tweets, categorizing them distinctly as either Happy or Not happy.
+- Analyze tweets for emotional cues, determining if the author's message embodies
+  joy or reflects a negative sentiment.
+ds_kwargs:
+  path: Lots-of-LoRAs/task398_semeval_2018_task1_tweet_joy_detection
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task398_semeval_2018_task1_tweet_joy_detection
+user_prompt_template: '{task_def}
+
+
+  {problem}'

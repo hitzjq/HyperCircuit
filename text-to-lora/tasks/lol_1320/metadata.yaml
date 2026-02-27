@@ -1,0 +1,424 @@
+assistant_prefill: ''
+descriptions:
+- Your role is to match each provided country name with its designated TLD, highlighting
+  your knowledge of international domains.
+- This assignment focuses on pinpointing the exact TLD for countries as they appear
+  in web addresses, indicating your grasp of digital geography.
+- This task requires you to recall and list the TLD formats that follow the country
+  names, contributing to a fundamental aspect of web navigation.
+- Given a country, determine its respective TLD, which indicates the country code
+  used in web addresses. This involves understanding how domains are structured globally.
+- The objective is to deliver the correct domain suffix for given countries, highlighting
+  your knowledge of TLD conventions worldwide.
+- The task involves associating each country with its designated TLD as part of an
+  exploration into internet naming conventions and geographical identifiers.
+- Your role is to find the designated TLD for each mentioned country, which involves
+  comprehension of the correlation between nations and their unique web identifiers.
+- This task involves returning the specific TLD for a given country, which reflects
+  global internet classification standards.
+- Your job is to accurately match country names with their respective TLDs, which
+  are vital for creating internet addresses linked to those countries.
+- You are tasked with linking country names to their Top Level Domains, deepening
+  your understanding of global internet conventions.
+- Your assignment is to state the appropriate TLD for each country provided, deepening
+  your understanding of how online identities are shaped by geography.
+- For each country provided, your job is to recognize and return its unique web domain
+  ending, known as the TLD.
+- You are asked to uncover the correct TLD for a series of countries, furthering your
+  knowledge of international domain classifications in cyberspace.
+- This task involves identifying the Top Level Domain (TLD) that corresponds to a
+  specific country. You need to know the internet domain conventions related to various
+  nations.
+- Your goal is to match countries with their TLDs, which highlights an understanding
+  of how different nations are represented in the global online space.
+- This task requires you to identify and provide the appropriate TLD for each country
+  mentioned, reflecting your awareness of online national identities.
+- Determine and list the TLD for each specified country name, showcasing your knowledge
+  of how nations relate to their online identities.
+- You will be tasked with recognizing the TLD for different countries. This involves
+  connecting national designations with their respective internet domains.
+- The task is to provide an accurate TLD for various countries presented to you, indicating
+  your historical and current awareness of how nations are represented on the internet.
+- You will need to match country names to their corresponding internet domain extensions,
+  which follow the dot in web addresses.
+- Retrieve and state the TLDs associated with various countries; this highlights your
+  awareness of internet naming conventions.
+- The goal is to recognize what TLD corresponds to a particular country. Familiarity
+  with country codes and web address conventions will help in completing this task.
+- You will explore various countries and specify the TLD pertinent to each, contributing
+  to your knowledge of global internet practices.
+- This task involves recognizing the correct TLD for a listed country. Familiarity
+  with country codes used in domain names is necessary.
+- Engage in associating nation names with appropriate Top Level Domains; this exercise
+  relies on both factual knowledge and practical application regarding internet use.
+- The goal is to retrieve and present the appropriate TLD for various countries provided
+  to you, utilizing your awareness of global internet domains.
+- This task asks you to match country names with their respective TLDs, which helps
+  in recognizing patterns in internet domain naming conventions around the world.
+- This task involves matching each country with its respective TLD, showcasing your
+  understanding of international web standards and protocols.
+- You will be tasked with identifying the top-level domains that link directly to
+  country names, demonstrating an understanding of digital geography.
+- The objective is to state the appropriate TLD for each of the countries provided.
+  This requires awareness of internet standards and the coding used for each nation.
+- Your assignment involves matching country names to their respective TLDs, which
+  serve as identifiers for internet entities within those nations.
+- This task requires you to pinpoint the specific TLD for given countries. Knowledge
+  of how global web addressing works will be beneficial here.
+- This task involves knowing the TLDs for various countries and providing the correct
+  domain for each one.
+- Given a country name, your role is to recall or look up the TLD that identifies
+  that country on the internet, indicating an understanding of domain naming conventions.
+- You'll be tasked with responding to prompts about countries by supplying their assigned
+  TLDs; this highlights your familiarity with online domain systems.
+- Your challenge is to determine which Top Level Domain belongs to each given country
+  name, emphasizing both cultural and technical knowledge of domains.
+- You will delve into associating each provided country with its unique internet identifier,
+  facilitating a better understanding of national domains.
+- The assignment requires you to recall the TLD used in web addresses for various
+  countries, which reflects their unique online identity.
+- The objective is to connect different countries to their designated web domain extensions,
+  illustrating both geographic awareness and technical understanding of domains.
+- This exercise challenges you to recall relevant TLDs that correspond to countries,
+  which is vital for both geographic insight and online presence management.
+- You are tasked with recalling the official TLD for each country mentioned; this
+  is an essential part of online address systems.
+- Identify the appropriate internet suffix for various countries, demonstrating your
+  understanding of country-specific TLDs.
+- By examining country names, your role is to derive and present their corresponding
+  TLDs, aiding in geographical and digital awareness.
+- Here, your job is to provide the TLD for specified countries. An awareness of geographical
+  identifiers on the internet will assist you greatly.
+- The objective here is to provide the correct TLD for each country listed, which
+  requires attention to detail and knowledge of how country-specific domains are formatted.
+- Your task is to identify the Top Level Domain (TLD) associated with a specified
+  country name. This requires knowledge of country-specific internet domains.
+- Identify and return the internet TLD for the given countries. Understanding of how
+  each nation is represented in digital addresses is essential for this task.
+- Analyze the relationship between country names and their respective TLDs to enhance
+  your comprehension of web nomenclature around the world.
+- Identify the specific internet suffix tied to various countries. This requires recognizing
+  the relationship between country names and their digital representations.
+- You will be assigned multiple country names and need to determine their corresponding
+  TLDs. This involves recognition of coding practices used in web addresses.
+- Expect to draw upon your knowledge of country-specific internet domains as you identify
+  and state the correct TLDs for given countries.
+- This task entails recognizing and providing TLDs based on country names, which serves
+  as a foundational skill in digital literacy and web navigation.
+- You are working with country names and must pinpoint each one's unique top-level
+  domain. Recognizing geographical associations with internet domains is important
+  here.
+- Your task is to identify and provide the Top Level Domain (TLD) associated with
+  a given country name, which is essential for understanding internet domains.
+- The aim is to successfully identify the Top Level Domains corresponding to various
+  countries, refining your skills in understanding digital identity linked to geography.
+- This task asks you to identify the specific TLD that follows each country's name.
+  Understanding these domains is vital for navigating the internet effectively.
+- Your responsibility is to associate each country with its unique internet domain
+  extension. This requires some familiarity with global TLD assignments.
+- This exercise involves determining the TLD associated with various countries, which
+  are used to define their digital presence online.
+- Here, you will convert country names into their respective TLDs, showcasing your
+  understanding of global internet naming conventions.
+- You need to extract and state the TLD for each country given. This task involves
+  recalling standardized web domain codes used worldwide.
+- Your assignment involves matching country names with their respective Top Level
+  Domains, enhancing your knowledge of online addresses and geography.
+- In this exercise, you will be given country names and your goal is to state their
+  associated Top Level Domains, which are vital for web addresses.
+- Your task is to identify and provide the Top Level Domain (TLD) associated with
+  various countries based on their names.
+- The essence of this task is about connecting countries and their online identities
+  represented through distinct TLDs.
+- Your focus will be on converting the names of countries into their respective top-level
+  internet domains correctly.
+- The objective is to associate each provided country name with its correct web suffix.
+  Familiarity with internet standards and country codes will aid you in this process.
+- You will recognize and provide the specific TLD that corresponds to each given country,
+  which is vital for understanding internet addresses.
+- Determine the TLD associated with each provided country name, showcasing both your
+  knowledge of world geography and internet naming conventions.
+- In this exercise, you'll find the corresponding TLD for each country mentioned,
+  demonstrating your knowledge of how countries establish themselves online through
+  these codes.
+- In this activity, you will be given several country names and must state the corresponding
+  TLD, which is a specific part of web addresses.
+- This task focuses on connecting countries to their TLDs. It requires familiarity
+  with global internet standards and domain classifications.
+- Your responsibility is to find and state the TLD that corresponds to given countries,
+  an essential skill for navigating the world of web domains.
+- Your task is to identify the Top Level Domain (TLD) that corresponds to a given
+  country. This requires knowledge of internet domain endings associated with different
+  nations.
+- You will engage in a task where identifying a country's TLD enhances your understanding
+  of how websites are categorized based on nation-specific codes.
+- The challenge lies in correctly pairing national names with their assigned TLDs,
+  critical in digital communications related to those nations.
+- For each mentioned country, research or recall its TLD. Knowing how countries are
+  represented online is key to completing this task accurately.
+- The task involves identifying the specific Top Level Domain (TLD) associated with
+  a given country name. Knowledge of internet domain structures is essential to accurately
+  find this information.
+- Your task is to identify the internet country code top-level domain associated with
+  a given country name, utilizing knowledge of global internet domains.
+- You'll be tasked with providing the TLDs of specific countries, which involves understanding
+  international domain name conventions used on the web.
+- Match country names to their relevant website suffixes, which helps navigate online
+  spaces based on location.
+- In this task, you will determine and write down each country's TLD, helping you
+  appreciate how internet regulation aligns with national boundaries.
+- The purpose of this task is to leverage your knowledge of world countries and their
+  digital counterparts represented by TLDs.
+- In this challenge, you will connect each country name with its corresponding TLD,
+  illustrating how countries maintain their digital presence through unique domain
+  endings.
+- Identify and report each country's internet domain extension accurately, reflecting
+  a grasp of digital geography.
+- This activity requires you to identify and name the correct TLD for different countries,
+  emphasizing the connection between geographical data and online presence.
+- The task requires you to extract the top-level domains linked to various countries,
+  relying on your knowledge of geographical and digital associations.
+- Your challenge here includes identifying the correct TLD for each specified country,
+  enhancing your understanding of how nations are represented within cyberspace.
+- You'll be working with national identifiers as you provide the TLD that represents
+  each given country effectively.
+- You'll be identifying the TLD for a series of countries, which involves recalling
+  accepted domain endings based on geographical locations.
+- Your responsibility is to extract the correct TLD for listed countries, which involves
+  knowing how nations are represented online through their domains.
+- The objective here is to recognize and list TLDs that correspond with different
+  countries. Familiarity with international web address formats is essential.
+- Your expertise will be utilized to match countries with their official TLDs, an
+  important skill in navigating international web domains.
+- Your responsibility is to link each country name with its corresponding TLD, which
+  is crucial for web identification and internet navigation.
+- Your goal is to connect each country with its designated TLD, requiring an understanding
+  of global internet standards and geographic identifiers.
+- "Engage in a task that requires connecting country names to their designated Top\
+  \ Level Domains\u2014important knowledge for anyone interested in web development\
+  \ or geography."
+- This task focuses on linking countries to their respective internet domains, which
+  involves familiarity with country codes used in web addresses.
+- You are asked to recall and state the TLD associated with various countries. This
+  task helps improve your understanding of global web presence and identification.
+- Identify the correct TLD for each country name provided. This task involves recalling
+  the domain conventions used globally for different nations.
+- Your task involves associating each given country with its respective top-level
+  domain. This process enhances awareness of internet geography.
+- The goal of this exercise is to associate various countries with their Top Level
+  Domains, enhancing your comprehension of web addressing systems in relation to geography.
+- Engage in recognizing and providing TLDs that match the inputs of various country
+  names, reinforcing both tech-savvy knowledge and geographical awareness.
+- You are tasked with providing the proper domain suffixes that correspond with named
+  countries, emphasizing your knowledge of global internet usage.
+- "You will organize responses based on provided country names by matching them with\
+  \ their appropriate top-level domains\u2014an essential skill in understanding global\
+  \ web representation."
+- You need to provide the internet domain suffix for various countries, represented
+  as their TLD. This requires awareness of international domain naming conventions.
+- Engage with this task by recalling which TLD corresponds to each country name presented
+  to you.
+- Identify and return the TLD associated with each country name given. Knowledge of
+  internet regulations regarding country-specific domains will aid in this task.
+- This task requires awareness of TLD policies and conventions, as you will be identifying
+  domains for specific countries.
+- For each input country, your job is to extract and present the TLD associated with
+  it, emphasizing the significance of domains in the digital world.
+- Your job is to provide the correct internet domain extension for various countries.
+  This necessitates an understanding of how countries are represented online.
+- Your mission is to identify the correct Top Level Domain for countries given; this
+  demonstrates how well you understand global digital identifiers.
+- This activity centers around recognizing what TLD belongs to each country listed,
+  a useful skill in digital literacy and web development.
+- You will identify the TLD that represents specific countries in their internet domains.
+  This involves remembering national codes utilized around the world.
+- Connect each presented country with its appropriate TLD as you familiarize yourself
+  with international web standards.
+- Look up or recall the TLD of a specified country, a skill that integrates knowledge
+  of geographic designations with internet domain systems.
+- The focus of this task is to match country names with their respective internet
+  TLDs, essential for web domain registration.
+- In this task, ensure you successfully match each given country with its specific
+  internet TLD, reflecting your knowledge of cyberspace conventions.
+- In this task, you focus on identifying the specific TLD that aligns with each listed
+  country name, essential for accurate web navigation.
+- For each country provided, ascertain its top-level domain. Understanding how each
+  nation translates into internet language is key to completing this task.
+- You will receive the name of a country, and your job is to determine and provide
+  its corresponding internet TLD, which follows the format of a dot followed by letters.
+- Your task is to identify TLDs for given countries, emphasizing regional distinctions
+  in online identity formation.
+- The challenge is to translate country names into their respective TLDs, bridging
+  geographical knowledge with technical domain information.
+- "Discovering the TLD that follows a country\u2019s name is your mission. This pertains\
+  \ to understanding how each nation is represented on the internet."
+- Your role involves returning the TLD for each country presented. This links geographic
+  knowledge with technology in web addresses.
+- Determine the correct TLD associated with each country listed. This task tests your
+  understanding of the relationship between countries and their designated internet
+  domains.
+- Identify and output the proper TLD linked to a given country name. This requires
+  awareness of global standards in digital categorization.
+- Your responsibility is to provide the correct TLD for a series of countries. This
+  task tests your awareness of global internet structures.
+- The challenge is to accurately determine the correct TLD for several countries,
+  relying on your knowledge of internet domains and their geographical associations.
+- You will be tasked with connecting country names to their official TLDs, which serve
+  as identifiers for national domains on the internet.
+- Identify the specific TLD for each country listed, tapping into knowledge of both
+  geography and digital infrastructure in web development.
+- Identify the unique top-level domain for each given country, illustrating an understanding
+  of the relationship between nations and their digital representations.
+- The focus of this task is on recognizing each country's TLD based on its name, richening
+  your insight into how nations are represented online.
+- Your task is to identify the Top Level Domain (TLD) associated with a given country.
+- Your focus will be on associating each provided country with its recognized TLD,
+  crucial for understanding internet governance.
+- You will be determining and providing TLDs based on country names. This requires
+  familiarity with international domain standards and codes.
+- You will match countries with their respective TLDs, which highlights the relationship
+  between national identity and digital representation on the internet.
+- For each country mentioned, determine its corresponding Top Level Domain. This necessitates
+  an understanding of international domain assignments.
+- In this task, you will connect country names to their internet identifiers, specifically
+  the TLDs that characterize their web domains.
+- This task engages you in recognizing how nations communicate their presence on the
+  internet through unique TLDs.
+- This task requires you to know and list the TLD for different countries as represented
+  by the part of a URL that comes after the dot.
+- The objective is to match a country with its TLD, requiring knowledge of international
+  domain hierarchies and online classifications.
+- Examine the provided countries and provide their corresponding TLDs; this involves
+  comprehensive knowledge about web domain classifications related to geography.
+- You will be tasked with finding the TLDs associated with specific countries, which
+  reflects the elements involved in global internet domain categorization.
+- Your task is to identify the Top Level Domain (TLD) associated with a given country
+  name, which reflects its internet designation.
+- The task involves linking a list of countries with their appropriate domain suffixes,
+  essential for web identification.
+- Identify the correct TLD for each country you are presented with, which aids in
+  distinguishing websites by region.
+- This task tests your familiarity with national domain suffixes. Provide the correct
+  TLD based on the country input.
+- You will provide TLDs based on listed countries, which involves recognizing familiar
+  patterns in global domain structures related to internet use.
+- Your challenge is to determine which TLD matches each provided country name, using
+  knowledge about digital nomenclature and global usage.
+- You need to determine the appropriate TLD based on the provided name of a country.
+  This requires familiarity with the coding system used for internet addresses.
+- The objective is to retrieve the domain extension that follows each country's name
+  in web addresses.
+- Use your understanding of national resources and digital identifiers to identify
+  the TLD for each presented country.
+- In this task, you will explore the relationship between country names and their
+  official TLDs, aiding in internet navigation and identification.
+- Your task centers on determining the TLD corresponding to each country provided.
+  This engages you in both geographical literacy and technical understanding of web
+  addresses.
+- Your focus will be on mapping country names to their designated TLDs; this knowledge
+  is foundational in both geography and technology.
+- The task involves recognizing countries and their respective internet TLDs, demonstrating
+  your familiarity with web domains tied to specific nations.
+- Your responsibility is to provide the relevant TLD for each country's name listed,
+  which reflects your grasp of global internet structures.
+- For every country listed, provide its corresponding TLD. This exercise emphasizes
+  understanding how domains are structured globally.
+- Match each country name with the correct TLD. This requires knowledge of how various
+  nations employ unique domain endings online.
+- In this task, you will identify the domain suffix for each specified country, enhancing
+  your familiarity with how countries are represented in the digital space.
+- Given a country name, your goal is to find and state its associated TLD, which is
+  essential for understanding web addresses and their geographic origins.
+- Your task involves identifying the Top Level Domain (TLD) associated with various
+  countries based on their names.
+- For each country named, your job is to pinpoint the appropriate TLD. This demands
+  familiarity with country-specific internet regulations and domain codes.
+- Engage in a task where you translate national identities into their digital counterparts
+  through understanding and recalling each country's designated TLD.
+- For each country listed, find its unique TLD that appears after the dot in website
+  addresses, showcasing your geographical and technological knowledge.
+- In this activity, you match a country's name to its respective internet domain ending,
+  requiring an understanding of world geography and digital communication.
+- Engage in identifying the correct TLD for each mentioned nation, reinforcing your
+  understanding of how countries are represented in the digital space.
+- You are tasked with associating a list of country names with their respective Top
+  Level Domains, essential for website addressing internationally.
+- Match the countries with their respective TLDs accurately; this entails recognizing
+  established connections between sovereign states and their digital profiles.
+- Look up or identify the appropriate TLD corresponding to each country name. This
+  highlights important aspects of online identity and representation.
+- Link each country's name to its TLD to grasp how different regions establish their
+  identity on the internet.
+- You need to convert country names into their respective top-level domains, which
+  are crucial for website addresses.
+- You are required to determine the TLD for various countries, which is crucial for
+  understanding how online addresses are structured based on geographical designations.
+- By analyzing country names, your task is to list their respective TLDs. This involves
+  familiarity with international standards for internet domains.
+- The job entails linking given countries to their TLDs, reflecting both geographical
+  knowledge and understanding of web domain formats.
+- You need to demonstrate your understanding of global internet structures by providing
+  the correct TLD for each listed country.
+- This assignment entails determining the correct domain suffix associated with a
+  variety of countries, enhancing your understanding of international online presence.
+- You need to determine and provide the TLD for a specified country. Understanding
+  the relationship between countries and their online domain formats is essential.
+- Your role here is to pinpoint the unique TLDs that correspond to a list of countries,
+  showcasing your capability in recognizing global digital identifiers.
+- The focus here is on retrieving the correct TLD for countries listed. It's an exploration
+  of how nations are recognized in digital spaces.
+- The goal here is to link a country to its unique internet identity represented by
+  its TLD.
+- Match the mentioned countries with their respective TLDs. Familiarity with international
+  domain codes will be beneficial here.
+- Your challenge is to ascertain the appropriate internet domain for countries by
+  identifying their respective TLDs, enhancing your knowledge about global internet
+  usage.
+- "You will be working with geographic and digital information by linking countries\
+  \ to their unique TLDs\u2014a skill useful in both tech and global studies."
+- You are required to list the specific TLD that represents a given country, reflecting
+  knowledge of global internet naming conventions.
+- This task involves linking a variety of countries to their official web domain extensions,
+  an important aspect of international internet structure.
+- "This exercise involves identifying and providing the appropriate Top Level Domain\
+  \ for country names given\u2014perfect for building skills in international standards."
+- Your goal is to extract the TLD for a specified country. This involves recognizing
+  the connection between nations and their designated internet domain extensions.
+- "You need to find the specific TLD that follows the \u201Cdot\u201D in a web address\
+  \ for various countries. This requires knowledge of internet domain structures."
+- "The goal here is to determine the TLD tied to a country\u2019s name, which is crucial\
+  \ for understanding how internet domains are organized globally."
+- In this task, you must demonstrate proficiency in identifying the web domain endings
+  assigned to various countries, reflecting your grasp of country-specific internet
+  addressing.
+- Your assignment centers on identifying the unique domain suffixes that correspond
+  to specific countries, important for understanding online identities globally.
+- You will take a country name and output its TLD, which plays a crucial role in global
+  online identities.
+- You will need to determine the TLD associated with given country names. It's an
+  exercise in recognizing how different nations are represented online.
+- Develop your understanding of how geographical locations influence internet domain
+  suffixes by linking countries to their TLDs.
+- "For each provided country, determine its TLD\u2014a crucial aspect of digital geography\
+  \ that reflects national identity online."
+- You need to apply your knowledge of global internet domains to find out which TLD
+  corresponds with each given country name.
+- You are required to return the TLD for each country provided. This means knowing
+  how the internet reflects each country through its unique domain suffix.
+- Engage with the task of recognizing and stating the TLD that represents a nation,
+  enhancing digital literacy regarding global domains.
+- In this task, you will match each country mentioned to its respective top-level
+  domain. Understanding country codes and their significance is essential.
+- For every country listed, provide the corresponding top-level domain. This task
+  tests your knowledge of how countries are represented in website addresses.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1320_country_domain_tld
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1320_country_domain_tld
+user_prompt_template: '{task_def}
+
+
+  {problem}'

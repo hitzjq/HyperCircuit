@@ -1,0 +1,450 @@
+assistant_prefill: ''
+descriptions:
+- The task involves applying principles from abstract algebra to evaluate given statements
+  about mathematical structures and transformations.
+- The task involves applying concepts from abstract algebra to determine the validity
+  of mathematical statements or properties, such as field structure and subgroup characteristics.
+- Your role is to validate claims about properties associated with groups and rings
+  through careful analysis grounded in abstract algebra knowledge.
+- In this task, you're tasked with evaluating claims about algebraic operations and
+  theorems within abstract algebra, recognizing their truthfulness or falsehood.
+- The task requires you to evaluate paired statements related to properties of groups
+  and rings under the umbrella of abstract algebra, using logical reasoning.
+- Assess theories related to integral domains, homomorphisms, and polynomial rings.
+  Use your analytic skills to determine the correctness of provided claims or calculations.
+- Engage with the foundational ideas of abstract algebra by distinguishing true mathematical
+  statements from false ones.
+- Analyze various claims in the realm of abstract algebra that delve into group orders,
+  ideals, and bases, utilizing both theoretical knowledge and practical insights.
+- Evaluate statements that relate to group theory and function properties, using your
+  understanding of abstract algebra to guide your judgment.
+- Your task revolves around analyzing mathematical postulates used in abstract algebra
+  with an eye for logical consistency and theoretical correctness.
+- The task challenges you to apply your understanding of abstract algebra concepts.
+  Your reasoning skills will help evaluate the truth value of assertions about groups
+  and domains.
+- The task is centered around analyzing mathematical truths related to groups and
+  rings, necessitating a solid understanding of abstract algebra foundations.
+- Dive into a mathematical investigation where you must discern the correctness of
+  various theoretical assertions linked to abstract algebra concepts.
+- Engage with the essence of abstract algebra by evaluating propositions about mathematical
+  systems designed to generalize operations using symbols.
+- Delve into the intricacies of abstract algebra by assessing various propositions.
+  Your mathematical acumen will guide you in determining their validity based on theoretical
+  foundations.
+- This exercise focuses on assessing knowledge in abstract algebra. It involves interpreting
+  mathematical statements accurately and validating or refuting them using logical
+  reasoning.
+- Your knowledge of symbols and operations in abstract mathematics will be tested
+  as you analyze and validate assertions related to groups' properties.
+- Engage with the world of abstract mathematics by interpreting questions related
+  to polynomial computation and group theory, requiring careful logic and reasoning.
+- You'll need to navigate through assertions concerning groups and functions, using
+  your knowledge of algebraic principles to draw conclusions about their truthfulness.
+- The challenge here is to decipher statements related to groups, rings, and algebraic
+  structures, determining the accuracy of each while employing sound mathematical
+  logic.
+- Use your expertise in mathematical reasoning and abstraction to systematically evaluate
+  propositions related to key concepts within abstract algebra.
+- Test your comprehension of advanced algebraic theories through this task focused
+  on group theory assertions and their implications in abstract mathematics.
+- Engage critically with foundational principles in abstract algebra as you assess
+  various statements regarding groups, fields, and their relationships.
+- The focus of this task is on evaluating the accuracy of given mathematical propositions
+  based on your grasp of group theory within the realm of abstract algebra.
+- Use your understanding of algebraic fundamentals to make sense of complex ideas,
+  such as field extensions or group orders, through logical reasoning.
+- Engage with questions that explore relationships within algebraic groups and fields,
+  reflecting a need for critical thinking in mathematics.
+- Engage with statements that propose characteristics of algebraic structures, drawing
+  on your mathematical intuition to evaluate their correctness.
+- In this task, you are required to solve questions related to abstract algebra, applying
+  your knowledge of algebraic structures and concepts.
+- Engage with challenging questions that delve into the complexities of group theory,
+  focusing on statements about kernels, homomorphism behaviors, and group orders.
+- In this task, you will scrutinize mathematical statements within the context of
+  abstract algebra, leveraging your expertise in algebraic structures to arrive at
+  conclusions.
+- Evaluate abstract algebra statements by referencing fundamental concepts such as
+  symmetry, transitivity, substructures, and other relational properties among algebraic
+  entities.
+- The task is centered around evaluating expressions and properties related to abstract
+  algebra. You'll need critical thinking skills to navigate through the concepts presented.
+- Delve into abstract algebra concepts by scrutinizing given propositions for their
+  factual accuracy, fostering a deeper appreciation for the intricacies of mathematical
+  theory.
+- This is a theoretical exercise that requires you to reason about the nature of groups
+  and mathematical extensions based on established algebraic principles.
+- You will assess various mathematical propositions concerning abstract structures,
+  utilizing logical reasoning and established principles of algebra.
+- This task requires a critical mindset as you evaluate essential statements about
+  abstract algebra, determining which are true and which are not based on your understanding.
+- Analyze and solve abstract algebraic questions that might involve classifying structures
+  such as rings and fields based on specific conditions.
+- Your objective is to engage with abstract algebra questions that require you to
+  apply mathematical reasoning about groups and operations in a structured way.
+- Your role is to navigate through abstract algebraic assertions, using your knowledge
+  of group theory and associated rules to make informed evaluations.
+- Your mission is to dissect mathematical declarations regarding groups and rings,
+  determining their correctness based on algebraic principles.
+- This task requires you to analyze statements in abstract algebra, focusing on principles
+  such as group elements, fields, and homomorphisms, and decide if they are true or
+  false.
+- Engage with fundamental principles of abstract algebra to analyze and interpret
+  mathematical statements regarding groups, fields, or polynomials.
+- Analyze a series of logical statements tied to abstract algebraic notions; ensure
+  that each claim is scrutinized for its adherence to theoretical norms and definitions.
+- In this task, you must discern the accuracy of given statements related to abstract
+  algebra, ensuring a deep understanding of properties like kernels and characteristics.
+- Engage with mathematical assertions regarding abstract algebra and determine their
+  validity based on your knowledge of algebraic systems, including concepts like injectivity
+  and cyclic groups.
+- Interpret various statements related to fundamental algebraic concepts and validate
+  their truth against your mathematical knowledge in abstract algebra.
+- As part of this task, analyze assertions relating to the framework of abstract algebra,
+  where a deep understanding of groups and their properties will guide your assessment.
+- Find solutions by exploring core questions that delve into relationships among various
+  elements in the context of abstract mathematical constructs.
+- Delve into the principles of abstract algebra by assessing the accuracy of provided
+  statements involving groups and their characteristics.
+- Analyze the validity of given assertions about algebraic structures. You'll need
+  a good grasp of abstract algebra concepts to determine if the statements hold true.
+- The challenge is to analyze statements about algebraic ideals and operations, using
+  definitions and theorems from the field of abstract algebra to reach a conclusion.
+- The task centers around exploring truth values associated with algebraic principles,
+  needing a blend of factual recall and analytical reasoning skills.
+- This task challenges you to apply your knowledge of algebraic structures and properties
+  to validate or invalidate given assertions.
+- Dive into the principles of abstract algebra to assess provided statements about
+  groups, rings, and fields, determining their accuracy through careful consideration.
+- Examine statements about mathematical theories in abstract algebra, employing both
+  theoretical insights and practical examples to assess their accuracy.
+- Analyze questions focused on abstract algebra that will test your grasp of mathematical
+  structures and relationships between elements within those structures.
+- This task demands an understanding of complex algebraic properties to determine
+  if specific claims about mathematical groups and rings are accurate.
+- Explore the intricacies of abstract math by addressing questions that challenge
+  your understanding of the operational dynamics within various algebraic structures.
+- You will be working with concepts from abstract algebra, including fields and polynomial
+  rings. This requires familiarity with complex algebraic structures and operations.
+- Weigh the truth of statements rooted in abstract mathematics, utilizing your comprehension
+  of group theory fundamentals as a basis for logical decision-making.
+- The goal is to examine claims about mathematical objects in abstract algebra, which
+  may involve reasoning about ideals, homomorphisms, and irreducibility.
+- Tackle a variety of problems centered around the principles of abstract algebra,
+  where interpretation of mathematical assertions is key to determining correctness.
+- You'll be faced with assessing pairwise statements about abstract algebra theories;
+  critical analysis will be key in deciding their veracity based on established algebraic
+  facts.
+- The task focuses on understanding and validating complex statements within the structure
+  of abstract algebra, highlighting mathematical reasoning capabilities.
+- This task requires a solid understanding of abstract algebra concepts, as you'll
+  assess different claims to determine their validity.
+- Your mission is to investigate claims about abstract algebraic concepts, determining
+  whether they hold true according to established mathematical rules and theories.
+- The challenge lies in verifying the accuracy of fundamental concepts within abstract
+  algebra, such as injective functions or cyclic groups.
+- You will examine mathematical statements about abstract concepts used in algebra
+  and determine their truthfulness based on established algebraic principles.
+- The task calls for the application of theoretical knowledge to evaluate mathematical
+  claims related to cyclic groups and group operations in abstract algebra.
+- This exercise puts your grasp of abstract algebra to the test, as you will verify
+  the truth of various mathematical assertions.
+- Engage with theoretical questions that challenge your understanding of group theory,
+  ideal theory, and transformation properties within vector spaces.
+- This task involves applying your understanding of abstract algebra to assess the
+  truth of various mathematical statements related to groups and their properties.
+- You will leverage your understanding of algebraic structures and properties to evaluate
+  statements or solve for specific values in a mathematical context.
+- You will apply your theoretical knowledge of mathematics, particularly focused on
+  abstract algebra, to assess multiple statements for their validity in a rigorous
+  manner.
+- The task involves engaging with questions that revolve around fundamental concepts
+  in abstract algebra, requiring both theoretical knowledge and critical analysis
+  skills to draw conclusions.
+- The task involves solving questions related to abstract algebra, requiring knowledge
+  of algebraic structures and their properties.
+- Assess the logical consistency of claims made about group operations and ring properties,
+  drawing on foundational ideas in abstract algebra for clarity.
+- Engage with statements about group elements and polynomial equations in an abstract
+  algebra context, requiring a solid foundation in mathematical reasoning.
+- The task involves evaluating statements about abstract algebra to determine their
+  truthfulness based on mathematical principles.
+- The objective is to assess statements related to group theory and ring theory. This
+  requires critical thinking and an understanding of fundamental algebraic principles.
+- You are tasked with evaluating statements related to abstract algebra to determine
+  their validity based on mathematical principles and concepts.
+- The challenge lies in testing logical reasoning against principles of abstract algebra.
+  You should draw upon your theoretical knowledge to validate the claims made in each
+  statement.
+- The task involves evaluating statements about abstract algebra and determining their
+  truth values based on your understanding of mathematical concepts.
+- The objective is to analyze statements and questions about abstract algebra principles,
+  employing reasoning skills to identify truths based on mathematical theories.
+- This activity invites you to use your understanding of algebraic concepts to determine
+  the veracity of several important statements in mathematics.
+- This endeavor entails meticulously analyzing assertions about group properties and
+  field conditions in abstract algebra, enriching your understanding of these complex
+  concepts.
+- The task at hand calls for critical thinking about mathematical statements in abstract
+  algebra, focusing on concepts such as irreducibility, group orders, and properties
+  of group operations.
+- Your goal is to reflect on foundational concepts in abstract algebra while evaluating
+  the correctness of claims about relationships between elements in various algebraic
+  structures.
+- This task tests your grasp of abstract algebra principles, where you will assess
+  the validity of statements or compute properties of algebraic systems.
+- In this task, you will analyze propositions regarding algebraic structures and group
+  theory to assess whether they are true or false.
+- This task involves applying knowledge of abstract algebra to evaluate mathematical
+  statements regarding groups, rings, and their properties.
+- "You\u2019ll engage with complex ideas pertaining to groups and functions, evaluating\
+  \ them for their mathematical soundness within abstract algebra."
+- The goal is to determine the truthfulness of assertions regarding groups and rings
+  by employing your knowledge of abstract algebra principles and relationships.
+- Explore theoretical claims associated with abstract algebra; your challenge lies
+  in determining if these claims accurately reflect the core tenets governing the
+  discipline.
+- This task challenges your ability to discern the truth in advanced mathematical
+  statements by utilizing your advanced knowledge in abstract algebra concepts.
+- Engage with questions centered on the principles of abstract algebra, focusing on
+  the characteristics of various algebraic structures and their interrelationships.
+- This task requires critical thinking in abstract algebra, focusing on the properties
+  and relationships of algebraic objects such as groups and transformations.
+- This task requires familiarity with polynomial rings and the behavior of algebraic
+  operations, specifically focusing on operations within a specified set.
+- You need to demonstrate your understanding of abstract algebra by addressing statements
+  concerning group elements, orders, and properties, and making judgments about their
+  truth.
+- You will examine multiple statements regarding algebraic structures. Your goal is
+  to determine which statements are accurate based on your comprehension of the subject.
+- Investigate the correctness of assertions involving fundamental concepts in abstract
+  algebra by applying your understanding of mathematical principles.
+- Your task is to methodically explore the implications of various abstract algebra
+  principles through problem-solving techniques that align with mathematical reasoning.
+- Your challenge is to interpret various statements about algebraic systems, determining
+  their validity through logical reasoning and established mathematical rules.
+- Test your analytical skills by determining the correctness of statements concerning
+  groups and functions in the realm of abstract algebra.
+- Address mathematical inquiries focused on abstract structures within algebra, utilizing
+  theorems and principles to reach conclusions about their validity or outcomes.
+- Evaluate statements concerning the behavior of groups and rings under certain operations.
+  It requires familiarity with key abstract algebra theories and concepts.
+- This task calls for a clear understanding of abstract algebraic concepts, allowing
+  you to verify or refute claims about the structure and behavior of groups.
+- Delve into abstractions within mathematics, focusing on the structural characteristics
+  of groups, fields, or rings as you analyze provided statements or problems.
+- Your expertise in abstract algebra will be tested as you work through questions
+  about group properties, polynomial characteristics, and other algebraic phenomena.
+- The challenge lies in interpreting abstract algebra statements and testing them
+  against known theories and properties, helping you sharpen your critical thinking
+  skills in mathematics.
+- Engage with questions that require comparing and contrasting mathematical assertions
+  about group theory, focusing on homomorphisms and subgroup properties.
+- Investigate the truthfulness of various propositions drawn from abstract algebra,
+  requiring a nuanced understanding of mathematical relationships.
+- You will explore the relationships between different mathematical concepts in abstract
+  algebra, focusing on truth values assigned to specific statements.
+- Utilize your knowledge of polynomial functions and irreducibility criteria to determine
+  the correctness of statements regarding specific algebraic properties.
+- Your role is to scrutinize mathematical statements involving group orders and cyclic
+  subgroups within the framework of abstract algebra.
+- You will evaluate important concepts in abstract algebra by analyzing statements
+  related to group elements' behavior under various operations.
+- Explore abstract algebra through problem-solving scenarios that investigate relationships
+  among algebraic entities, demanding analytical skills.
+- In this task, you will explore assertions concerning abstract algebra concepts,
+  often involving insights into polynomial behavior or subgroup interactions.
+- This task involves evaluating mathematical concepts in abstract algebra, where understanding
+  the relationships between elements and operations is crucial.
+- You are challenged to analyze properties of finite fields and cyclic groups while
+  drawing on your understanding of fundamental algebraic theories.
+- Tackle various claims about sets, functions, and group characteristics in this thought-provoking
+  task related to abstract algebra.
+- Strengthen your understanding of structural properties in mathematics by evaluating
+  statements related to core themes in abstract algebra such as homomorphisms and
+  ideals.
+- Discover the truth in assertions regarding polynomial characteristics and field
+  theory through a careful analytical approach rooted in abstract algebra knowledge.
+- This involves applying concepts from abstract algebra to verify statements about
+  elements in groups or the nature of homomorphisms through logical analysis.
+- You will tackle problems that ask you to apply abstract algebra concepts, using
+  your skills to determine properties of mathematical objects.
+- This task requires you to critically assess and validate statements in the realm
+  of abstract algebra, utilizing fundamental principles related to groups and their
+  behaviors.
+- You will be examining statements that delve into various aspects of abstract algebra,
+  aiming to discern the validity based on mathematical logic and established properties.
+- This assignment emphasizes dissecting complex mathematical problems involving group
+  theory or polynomial functions, requiring both analytical skills and foundational
+  knowledge.
+- Engage in critical assessment by analyzing polynomials or group properties as stated
+  in algebraic questions to find the appropriate solutions using logical deduction.
+- Assess the truthfulness of propositions concerning linearity, injectivity, and cyclicity
+  through a careful application of abstract algebra concepts.
+- This exercise involves assessing mathematical statements related to abstract structures
+  like groups and rings. A firm grasp of theoretical concepts is essential.
+- In this examination of abstract algebra topics, apply your understanding of fundamental
+  concepts to navigate through mathematical statements and evaluate their correctness.
+- The focus here is on evaluating complex statements involving algebraic operations
+  and group characteristics, requiring knowledge ranging from basic definitions to
+  deeper theoretical implications.
+- This task requires you to investigate statements about algebraic entities, focusing
+  on whether they hold true under specific conditions defined by algebraic rules.
+- The focus is on discerning the truth of specific propositions related to abstract
+  algebra, necessitating a solid grasp of fundamental theorems and definitions in
+  the field.
+- You will be assessing specific statements in abstract algebra, focusing on their
+  truthfulness and implications within the broader framework of algebraic theory.
+- You must analyze various statements regarding the properties of algebraic structures
+  and identify which statements are accurate.
+- You will be tasked with understanding and evaluating linear transformations in relation
+  to vector spaces, making judgments based on established mathematical criteria.
+- Your task is centered around interpreting mathematical claims in abstract algebra
+  through a precise analytical framework that incorporates definitions and criteria
+  relevant to the subject.
+- You are expected to demonstrate an understanding of abstract algebra concepts by
+  evaluating the truth of statements or solving mathematical problems.
+- This task requires you to decipher mathematical claims pertaining to topics in abstract
+  algebra, which may include rings, fields, and group theory.
+- Engage with problems in abstract algebra by leveraging symbolic logic and your comprehension
+  of mathematical operations and fields.
+- This task involves applying theoretical knowledge from abstract algebra to make
+  judgments about mathematical relationships or characteristics.
+- Engage with assertions and problems from the area of abstract mathematics, requiring
+  an in-depth knowledge of algebraic concepts such as groups and rings.
+- Assess logical statements pertaining to specific properties of algebraic entities
+  like finite groups and Sylow subgroups as part of your exploration in abstract algebra.
+- Determine the veracity of various statements formulated from principles in abstract
+  algebra by drawing on your understanding of group theory and ring theory.
+- Analyze and work through fundamental algebraic ideas that underpin various mathematical
+  theories, honing skills required for problem-solving in abstract contexts.
+- "Investigate assertions built around key ideas in abstract algebra such as kernel\
+  \ properties and polynomial products\u2014this involves careful reasoning and mathematical\
+  \ insight."
+- You'll explore relationships between different algebraic elements and structures,
+  leveraging established rules and theorems to confirm or refute mathematical claims.
+- Dive deep into the intricacies of abstract algebra, testing your ability to distinguish
+  between true and false assertions concerning homomorphism kernels and group structures.
+- Your mission is to critically examine pairs of statements concerning algebraic definitions
+  and theorems, determining their accuracy through logical deduction.
+- Engage with theoretical questions in abstract algebra where you will decide the
+  truthfulness of different mathematical propositions based on your understanding
+  of algebraic systems.
+- In this task, you're challenged to think critically about abstract algebra concepts,
+  including kernel properties and rotations in dihedral groups.
+- Analyze questions that require a solid grasp of algebraic theories to arrive at
+  accurate conclusions about polynomials, roots of unity, or group properties.
+- You need to assess the validity of various assertions related to abstract algebra,
+  applying your knowledge of group theory and ring theory to make informed judgments.
+- Engage with mathematical concepts inherent in abstract algebra by analyzing the
+  relationships between elements in groups and rings as posed in various statements.
+- Navigate through questions in abstract algebra that demand critical thinking and
+  a solid foundation in mathematical logic to determine the best responses based on
+  established knowledge.
+- Explore abstract algebra concepts through questions that test your grasp of group
+  theory, field extensions, and homomorphisms, requiring analytical thinking and detailed
+  knowledge.
+- Analyze statements regarding algebraic structures such as groups and homomorphisms,
+  employing your knowledge of abstract algebra to determine which statements are true
+  or false.
+- The task involves understanding concepts from abstract algebra and applying that
+  knowledge to solve mathematical problems. You will need to think critically about
+  algebraic structures.
+- The objective is to critically assess claims related to groups, functions, and other
+  abstract algebraic elements, requiring deep mathematical insight.
+- The task requires deciphering and evaluating mathematical statements or problems
+  in the realm of abstract algebra, relying on theoretical knowledge.
+- Examine a series of mathematical claims and apply your knowledge of abstract algebra
+  to discern which ones hold true.
+- The task asks you to delve into concepts characteristic of abstract algebra, drawing
+  from both definitions and properties to validate or refute provided statements.
+- Task yourself with understanding intricate questions concerning group elements,
+  polynomial operations, and field characteristics in the framework of abstract algebra.
+- You will explore concepts in abstract algebra, evaluating statements about groups
+  and field extensions to identify their validity.
+- The focus is on discerning the validity of statements that explore the characteristics
+  of ideals, subrings, and direct products within rings.
+- Utilize your knowledge of algebraic theories to explore various properties of polynomials
+  and fields, identifying whether statements are correct based on established rules.
+- This task involves comprehending and interpreting mathematical statements about
+  algebraic concepts to ascertain their correctness through logical evaluation.
+- The objective is to analyze assertions involving mathematical structures in abstract
+  algebra, paying attention to their definitions and interrelationships.
+- You'll engage with a variety of statements pertinent to abstract algebra, making
+  educated assessments based on advanced knowledge of mathematical theories.
+- The focus is on analyzing statements and questions within abstract algebra, which
+  may involve cyclic groups, rings, and field characteristics.
+- "You\u2019ll need to utilize theoretical concepts from abstract algebra to discern\
+  \ the veracity of given statements about key properties and operations relevant\
+  \ to rings and fields."
+- Broaden your understanding of abstract mathematical concepts by dissecting statements
+  about groups, homomorphisms, and related structures within the discipline of abstract
+  algebra.
+- You will assess the truth values of statements related to abstract algebra concepts,
+  utilizing your understanding of rings, ideals, and linear transformations.
+- The focus here is on evaluating statements concerning properties of groups and fields.
+  Understanding core principles of abstract algebra is essential for completing this
+  task successfully.
+- Your job is to navigate through abstract algebra concepts to identify valid conclusions
+  from given statements or find specific mathematical solutions.
+- Your challenge is to apply principles from abstract algebra to different scenarios
+  involving rings, fields, and group theory.
+- Your focus will be on determining the truthfulness of specific assertions related
+  to group properties in abstract algebra.
+- Your task focuses on unraveling key concepts from abstract algebra such as cyclic
+  groups and roots of unity, demanding a synthesis of your knowledge for thoughtful
+  conclusions.
+- Investigate relationships within abstract mathematical frameworks based on given
+  statements about rings, groups, or polynomial equations for their logical consistency.
+- Your task involves reflecting on elements of abstract algebra from an analytical
+  perspective, focusing on how various properties interact within groups and rings.
+- This task invites you to critically review statements based on your knowledge of
+  key principles in abstract algebra, assessing them for truth or falsehood.
+- Your task is rooted in abstract algebra, requiring you to verify mathematical propositions
+  based on established properties and theories.
+- The task involves critical analysis of mathematical assertions in abstract algebra,
+  necessitating familiarity with definitions and theorems in the field.
+- Utilize your knowledge of abstract algebra to validate or invalidate statements
+  related to the interactions within different algebraic structures.
+- In this task, you must demonstrate your familiarity with abstract algebraic principles
+  by validating or invalidating specific mathematical statements.
+- This involves a close inspection of mathematical assertions within the realm of
+  abstract algebra, inferring their validity based on theoretical foundations.
+- Your work will revolve around high-level analysis of mathematical expressions and
+  theories, using your background knowledge in abstract algebra for accurate evaluation.
+- You need to critically evaluate assertions pertaining to abstract algebra, focusing
+  on groups and rings, their structures, and interaction rules.
+- In this task, you will explore properties of mathematical entities such as groups
+  and rings while deducing information or confirming the validity of certain assertions.
+- Assess different statements that pertain to the structure and rules governing algebraic
+  entities within abstract algebra, deciding on their correctness through analytical
+  thought.
+- Utilize your foundational knowledge of abstract algebra to evaluate complex statements
+  about groups, field extensions, and related mathematical theories.
+- You are tasked with verifying claims about abstract algebraic principles and analyzing
+  their implications within mathematical frameworks such as groups and rings.
+- In this exercise, apply logic and reasoning to tackle questions about the properties
+  of polynomial rings and their decompositions in relation to Eisenstein's criterion.
+- In this exercise, you will articulate your understanding of key concepts in abstract
+  algebra by evaluating whether given statements hold true within this mathematical
+  framework.
+- Engage your understanding of abstract algebra to evaluate statements relating to
+  algebraic structures and their properties, ensuring you analyze each one meticulously.
+- Evaluate propositions that involve intricate aspects of abstract algebra; this requires
+  a clear understanding of mathematical reasoning and group properties.
+- Assess whether provided statements about group and ring behavior align with established
+  principles in abstract algebra.
+- The task challenges you to critically assess claims associated with abstract algebra
+  while leveraging your comprehension of fundamental algebraic principles.
+ds_kwargs:
+  path: Lots-of-LoRAs/task664_mmmlu_answer_generation_abstract_algebra
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task664_mmmlu_answer_generation_abstract_algebra
+user_prompt_template: '{task_def}
+
+
+  {problem}'

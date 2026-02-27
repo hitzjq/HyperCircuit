@@ -1,0 +1,515 @@
+assistant_prefill: ''
+descriptions:
+- The goal is to extract event-laden words from texts systematically, allowing for
+  a clearer interpretation of narrative structure and important themes discussed.
+- Read the passage carefully and extract individual words that embody occurrences,
+  whether real or imagined. These words should encompass actions, conditions, or significant
+  descriptors.
+- "In this task, you'll scrutinize a passage for single-word representations of events\u2014\
+  anything that indicates action or key occurrences relevant to the context of the\
+  \ writing."
+- This task consists of identifying key action words within a written passage, illuminating
+  events that may be positive, negative, certain, or uncertain.
+- You are required to extract event words from a provided text. Focus on verbs, nouns
+  that indicate occurrences, and significant linking verbs to capture the essence
+  of actions taking place.
+- You will be interpreting passages to find noteworthy event-based terms, requiring
+  careful reading and comprehension of the underlying message conveyed in the text.
+- In this activity, you'll engage with text materials to extract references to events.
+  Both action-oriented words and significant nouns contribute to identifying what
+  occurrences are present.
+- In this task, you will sift through a passage and pull out words that capture important
+  events, either real or potential, as conveyed by the text.
+- With careful attention, read through the content for significant phrases that represent
+  isolated events; these will enhance understanding of both current and historical
+  contexts presented.
+- This task requires you to sift through a narrative and pinpoint key events. Look
+  for both verbs and relevant nouns that indicate what is happening.
+- Your focus will be on extracting words that represent happenings in the text provided.
+  Pay attention to both action-focused verbs as well as influential nouns that stand
+  out.
+- Your assignment involves reading passages and pinpointing distinct words that illustrate
+  various events. These may involve ongoing actions, historical facts, or potential
+  future developments.
+- "From the provided passage, extract words that represent events\u2014things that\
+  \ have happened, might happen, or are currently happening."
+- In this task, you will read a passage and find words that represent events, both
+  real and potential. These may include verbs, specific nouns, or forms of the verb
+  "to be."
+- For the upcoming text analysis, focus on seeking out words in the provided passages
+  that represent significant events through both verbs and meaningful nouns.
+- Analyze a text to pinpoint significant events. These can be verbs, nouns, or forms
+  of "to be," representing an occurrence or action relevant to the context.
+- You will need to extract significant occurrences from a given text. These occurrences
+  may include actions, states, or key moments captured as single words.
+- Engage with a contextually rich passage by isolating individual words that denote
+  occurrences, focusing on what is claimed to happen or has transpired.
+- "In this task, analyze a given passage to identify specific words representing events\u2014\
+  from actions and occurrences to static states\u2014that are significant within the\
+  \ narrative."
+- You'll be tasked with reading through texts and extracting relevant event indicators.
+  These may be action verbs or important nouns denoting an experience or occurrence.
+- Analyze a provided text to identify and list words associated with noteworthy events.
+  This exercise tests your ability to comprehend and distill information into key
+  terms.
+- Your objective is to process information in a passage and highlight key event descriptors
+  in word form. Be aware of both direct and implied actions when selecting these terms.
+- Your task involves parsing through narrative elements of the text to find indicative
+  terms related to actions that signify pivotal moments or changes.
+- The objective is to sift through a text to find single words that signify events.
+  Those words can be derived from actions (verbs) or relevant nouns indicating significant
+  phenomena.
+- The task requires you to dissect a passage to uncover various events described in
+  it. You need to look for words that encapsulate occurrences, whether past, present,
+  or potential future actions.
+- As part of this exercise, you'll evaluate a given passage and extract essential
+  words that represent events. Pay attention to the nuances of language as they relate
+  to actions and situations.
+- "You will read through the given text and identify words that signify events\u2014\
+  actions or situations that have happened or are anticipated. This involves understanding\
+  \ both the context and language."
+- The goal here is to identify and list out events mentioned in a piece of text. This
+  requires a careful reading to discern both actions and notable nouns that convey
+  events.
+- "Engage with the passage by identifying key words that spotlight notable occurrences\u2014\
+  which could range from decisive actions taken to potential outcomes implied in the\
+  \ text."
+- Scrutinize provided texts for single-word representations of crucial happenings,
+  facilitating your understanding of narrative flow and core event implications.
+- The task focuses on interpreting passages and identifying verbs and nouns that indicate
+  events, enhancing your ability to recognize key information from written material.
+- Through careful reading of the provided passage, identify essential actions or happenings,
+  reducing them to individual words that convey their significance in the narrative.
+- You need to go through a text and identify significant occurrences by picking out
+  single words that denote actions or important happenings within the narrative.
+- Your role is to closely examine a passage and extract meaningful event terms that
+  highlight important occurrences throughout the narrative, allowing you to understand
+  the overall story better.
+- This activity invites you to distill passages into their core elements by identifying
+  significant occurrences represented by single keywords related to incidents or states
+  of affairs.
+- Throughout this task, focus on extracting descriptive keywords that identify significant
+  occurrences within the text. Words representing actions offer insights into both
+  past occurrences and future possibilities.
+- The objective is to comb through written material and pick out singular words representing
+  notable occurrences or activities highlighted in the text.
+- Delve into a passage to discover important events. These can be represented by actions
+  or descriptions and should be articulated through single words.
+- This task has you interpret a passage to uncover and document key events. Your selected
+  terms should reflect actions, decisions, or notable occurrences from the text.
+- Engage with the provided text by searching for notable events. Your responses will
+  consist of words reflecting what has transpired or may transpire according to the
+  content presented.
+- Elucidate crucial terms from a narrative by focusing on language related to action
+  and change. Each identified event should provide insight into what has transpired
+  or may occur.
+- In this activity, you will analyze a given text to identify critical occurrences.
+  An event can be an action or a noteworthy noun, and it should reflect various situations,
+  both factual and hypothetical.
+- Examine the passage closely and isolate pivotal event terms. This process requires
+  comprehension of various sentence structures and their implications regarding actions.
+- You are tasked with finding significant events within a passage by highlighting
+  words that represent what happens, ensuring comprehension of the main ideas presented.
+- Identify crucial event words within a provided text that reflect actions taken or
+  situations described. This task challenges your analytical skills as you distill
+  information into individual words.
+- You will read a passage and identify key events mentioned within it, focusing on
+  single words that encapsulate actions or situations rather than descriptive phrases
+  or adjectives.
+- In this activity, you are tasked with determining significant occurrences within
+  a story or account. These could be verbs indicating actions or nouns representing
+  notable phenomena.
+- This task engages your analytical skills to discern meaningful events in texts,
+  asking for a clear identification of significant words representing those events.
+- Your mission is to read a piece of text and spot single words representing pivotal
+  events. This involves recognizing relevant verbs, nouns, and copulas while disregarding
+  less meaningful terms.
+- Your task is to read a passage and identify key events mentioned in it. Events can
+  be actions or significant occurrences described through words.
+- Engage with each passage to extract terms that encapsulate events. Look for any
+  instances of action as well as nouns that depict phenomena or situations occurring.
+- The goal is to examine a passage carefully and recognize all possible events within
+  it. Events can often be recognized as verbs or specific nouns that illustrate incidents.
+- Your challenge is to read and interpret the given passage by identifying vocabulary
+  associated with significant events. Focus on isolating those key terms that display
+  action-oriented meaning within the text.
+- Read through the passage with an eye for identifying singular terms representing
+  noteworthy actions. Recognizing such terms will help clarify the essence of what's
+  being communicated in the text.
+- The goal of this task is to identify significant single-word events within a passage
+  you've been provided. Look for language that signifies change, action, or important
+  developments over time.
+- In this task, extracting singular words representing movements or changes from provided
+  passages is essential. Your ability to comprehend contextual cues will guide your
+  selections.
+- "You\u2019ll need to analyze text passages closely to find meaningful event-related\
+  \ terms that represent occurrences described in various forms\u2014economically\
+  \ distilled into single-word representations."
+- You are tasked with reading carefully through a passage to find and list key event-related
+  words. This demands attention to verb forms and significant nouns reflective of
+  actions.
+- In examining a passage, your focus should be on extracting words that characterize
+  essential events. You will work with language elements that represent happenings
+  as depicted in the text.
+- Your challenge consists of reading through text passages to pinpoint impactful verbs
+  and nouns that signify key actions or happenings, forming a comprehensive list of
+  events.
+- You will study a given passage and compile a list of terms representing events.
+  This could involve recognizing both straightforward actions and broader occurrences
+  within the content.
+- The task requires you to interpret a segment of writing by identifying single-word
+  events that capture key actions or happenings. Your focus should be on understanding
+  what is conveyed through verbs and notable nouns.
+- "Your job is to sift through a passage and pull out words that signify events. These\
+  \ can be related to any aspect of time\u2014past, present, or future\u2014and should\
+  \ capture moments of significance."
+- You will assess a provided text for noteworthy events expressed through manageable
+  word choices. Highlighting these will require a nuanced understanding of language
+  used in diverse contexts.
+- This task requires you to extract meaningful occurrences from the provided text.
+  Be attentive to words that denote actions or noteworthy situations described in
+  the narrative.
+- Navigate through the given content to find essential events. These may derive from
+  verbs, nouns, or existential phrases within the narrative context.
+- Read the given narrative and select words that signal important happenings or occurrences.
+  This could include various grammatical forms like nouns or verbs.
+- The focus here is to derive single-word representations of events from a passage,
+  highlighting what is described as happening or as anticipated.
+- In this activity, you will scrutinize a passage for discrete words representing
+  different events. This requires extracting the essence of actions or situations
+  mentioned in the context.
+- The goal here is to read carefully and select vital words from a passage that signify
+  key events. Understanding context is crucial for selecting appropriate terms related
+  to significant actions.
+- This task involves reading through a passage and identifying various standout words
+  that convey events. Recognize verbs and significant nouns that elucidate these happenings.
+- This task challenges you to discover and articulate significant events captured
+  in prose, relying on your ability to discern critical action-oriented language.
+- This exercise involves interpreting text to determine primary events expressed through
+  single words. Understanding context is crucial as it directs which terms qualify
+  as noteworthy events.
+- The task entails reviewing the text and identifying various events represented by
+  single-word terms. These can encompass anything from transformations to interactions
+  between subjects.
+- This task involves reading a passage and identifying important events within it.
+  An event can be a verb or a noun and should represent something that occurred or
+  may occur.
+- You are required to find words in a passage that signify various events. Focus on
+  understanding the context where each word represents an action or important occurrence
+  within the narrative structure.
+- In this task, you will read a text and pinpoint single words that represent events.
+  These words could describe actions or noteworthy circumstances occurring in the
+  narrative.
+- This task challenges you to read a brief passage and extract prevalent events. You
+  must recognize terms that reflect what has occurred or might happen based on context
+  clues provided in the text.
+- You will be given text passages and must identify events, which include actions
+  or scenarios. Pay attention to descriptive terms that convey significant information.
+- You will evaluate a text and identify terms that express events, whether they are
+  current, past, or potential future actions. Understanding context and vocabulary
+  will assist in this identification.
+- Your goal is to extract single words from the text that represent events; these
+  could be actions, phenomena, or states of being crucial to understanding the passage.
+- Dive into the text provided and locate individual words that exemplify events taking
+  place or events suggested by the content you encounter.
+- Examine a passage for occurrences that stand out as events, identifying single-word
+  expressions that signify what has taken place or what might transpire.
+- The objective is to analyze a provided passage and pinpoint distinct events described
+  therein. Your focus should be on recognizing terms that indicate actions or significant
+  happenings.
+- Your focus will be on pinpointing relevant single-word representations of events
+  mentioned in passages, drawing connections between written words and their meanings.
+- In this task, you will sift through a passage to identify various events by pulling
+  out key terms that illustrate significant happenings.
+- Explore the provided passages for key terms that reflect events. This entails recognizing
+  actions, conditions, and relevant nouns indicative of happenings in the context.
+- Your objective is to identify and list key events from a narrative. Events can stem
+  from verbs or specific nouns and should not include adjectives or pronouns.
+- "Engage with the provided text by identifying words that express events\u2014these\
+  \ could be actions denoted by verbs or conditions described through nouns\u2014\
+  highlighting their significance."
+- Your challenge is to navigate through a given text and uncover essential events
+  captured by individual words. This may involve interpreting both direct actions
+  and pivotal states of being.
+- Explore the provided text while searching for impactful event indicators and collect
+  them in word form. Each term should illustrate an action with relevance to the narrative.
+- "You will engage with a textual passage and determine its events\u2014these can\
+  \ be instances of action or states indicated by various types of words used within\
+  \ the context."
+- Engage with the provided text by determining which words symbolize noteworthy events.
+  Consider both factual statuses as well as potential future occurrences represented
+  in the language.
+- For each passage you read, your job is to find words that depict an event. These
+  can be actions, states of being, or even notable nouns representing activities.
+- The goal is to decipher meaningful actions and moments embedded in the text by identifying
+  certain words. Consider both verbs indicating actions and nouns portraying events.
+- Analyze given texts to isolate words that convey events, taking into consideration
+  factual occurrences and hypothetical scenarios alike.
+- You will read passages and identify various events represented by specific words.
+  This involves recognizing verbs, important nouns, and key phrases.
+- Your objective is to extract significant one-word events from a provided text. These
+  events represent actions, conditions, or notable happenings mentioned in the passage.
+- Your task is to read a passage and identify significant events. An event can be
+  derived from actions, occurrences, or even nouns that represent activities or situations.
+- Examine the text carefully and find specific words that depict important actions
+  or situations. This requires you to distinguish between different types of information
+  within the passage.
+- Examine the given passage and extract key words signifying events that communicate
+  action or status. Both affirmative and negative terms are valid for this task.
+- "In this exercise, you\u2019ll be working with a passage to find words that describe\
+  \ events. This means identifying key moments captured in the writing, represented\
+  \ primarily by verbs or relevant nouns."
+- This task requires you to analyze a passage and pinpoint various events that occur
+  or are referenced. You should recognize these events by their representation through
+  specific words.
+- The task entails careful reading of a passage to extract key event-related words
+  that succinctly convey what has happened, is happening, or may happen according
+  to the text.
+- The goal here is to sift through a piece of writing and extract specific terms that
+  denote events, including both actions and conditions mentioned in the text.
+- In this activity, you'll navigate through passages looking for key events communicated
+  through specific words, ensuring you glean a comprehensive understanding of the
+  material.
+- Analyze the passage for critical phrases, then distill those into singular representations
+  of events. Words indicating various scenarios are at the heart of this extraction.
+- You will engage with a passage to find and compile words that signify important
+  events. This means recognizing both verbal actions and crucial nouns related to
+  the content.
+- In this activity, you will read passages and determine important words that signify
+  occurrences or actions, promoting a deep understanding of textual context.
+- This task involves reading a text passage and extracting significant events, which
+  can be verbs or relevant nouns. The aim is to pinpoint actions or occurrences mentioned
+  in the passage.
+- Analyze the given passage to find out events expressed in single words; these could
+  be verbs or significant nouns indicating happening situations.
+- In this challenge, you will interpret a text and isolate crucial words that describe
+  events. Focus on understanding the main ideas conveyed through action-oriented language.
+- "Your role is to extract single words from a passage that represent events\u2014\
+  things that have occurred, are occurring, or might occur. This requires good comprehension\
+  \ of the text."
+- Your task is to uncover events mentioned in a passage. Look for single words that
+  represent crucial happenings, whether they are factual situations or hypothetical
+  scenarios.
+- You will analyze textual information with the aim of extracting single-word events.
+  The emphasis is on identifying significant actions or occurrences related to the
+  subject matter discussed.
+- Read the passage carefully and look for words that capture actions or situations;
+  these words represent the events discussed in the text.
+- In this exercise, you will analyze a provided text and extract specific events that
+  are mentioned. Focus on words that convey actions or situations.
+- For this assignment, your focus will be on understanding a narrative to locate significant
+  events encapsulated by individual words. Consider both the actions described and
+  the nouns that convey these happenings.
+- The task requires careful analysis of a written passage to recognize single-word
+  implementations of presented events. You should distinguish these significant moments
+  effectively.
+- Your role here involves discerning important events from written content. This means
+  identifying key phrases or words that denote actions, activities, or conditions
+  within the narrative.
+- The task requires careful reading of texts with the aim of extracting discrete events.
+  Events can be derived from several types of words including verbs and notable nouns.
+- In this analytical exercise, identify succinct expressions of events from a running
+  text. Pay attention to anything that indicates change, action, or status in time.
+- Engage with the narrative provided and pinpoint significant action-oriented words.
+  Focus on deriving meaning from both standard verbs and relevant nouns reflecting
+  notable circumstances.
+- You will engage with text passages to extract words that denote actions or states,
+  focusing on terms that encapsulate critical events mentioned.
+- Analyze the given passages to pick out relevant events. These events may reflect
+  actions completed, ongoing situations, or potential future occurrences.
+- "Within the context of reading comprehension, your role is to extract essential\
+  \ event indicators\u2014words representing what happens or could happen\u2014while\
+  \ ignoring modifiers."
+- Your job is to sift through a written passage to find and list words that signify
+  events or actions. These can come from different parts of speech, highlighting the
+  dynamic nature of the text.
+- The task involves reading a passage and identifying key events represented by single
+  words. These events can stem from verbs or significant nouns that indicate actions
+  or occurrences.
+- Your challenge is to evaluate a passage for meaningful words that signify events,
+  whether these reflect actual activities or hypotheticals presented in the narrative
+  flow.
+- Your assignment involves going through a written piece and selecting terms that
+  express what is happening or has happened, making sure they reflect verbs or essential
+  nouns.
+- Your objective is to delve into written passages and extract important single-word
+  representations of occurrences that highlight actions and significant turning points.
+- The core of this task is about identifying verbs and select nouns that reflect key
+  occurrences from various texts, helping you express what takes place succinctly.
+- Your responsibility in this task is to identify and list events from a narrative.
+  Events might include actions taken in the past, ongoing situations, or future possibilities.
+- This task involves examining a written narrative to identify essential events expressed
+  through single-word choices. Look for both tangible actions and abstract concepts
+  presented as nouns.
+- "Look closely at the supplied passage to extract core event nouns and verbs\u2014\
+  words that encapsulate actions and milestones significant to the overall message."
+- Your goal is to extract important events from a given text. This requires understanding
+  the context and recognizing words that describe actions, situations, or states.
+- The emphasis of this exercise is on finding key terminologies within text passages
+  that represent active happenings, emphasizing words directly related to events.
+- This task requires you to extract single-word events from a passage, revealing things
+  that have happened, are happening, or could potentially happen.
+- You will engage with descriptive texts by identifying foundational events noted
+  within them. This exercise sharpens your skills in condensing information down to
+  core action verbs and meaningful nouns.
+- Engage with passages critically by isolating significant action-oriented or state-based
+  words that signify key events relevant to the content supplied.
+- You will analyze a written passage to find key events. Events are words that indicate
+  what has happened or will happen, relying on your understanding of language and
+  context.
+- "You are asked to highlight events from a passage. Events may pertain to actions\
+  \ taken by individuals or things that have happened or might happen, requiring you\
+  \ to reflect on the text\u2019s meaning."
+- The task involves reading a passage and identifying significant events mentioned
+  within it, focusing on key words that represent actions or occurrences.
+- "Evaluate a text for significant happenings and summarize them by identifying one-word\
+  \ representations of these events, regardless of their nature\u2014positive or negative."
+- Your assignment involves identifying major events within a passage by isolating
+  specific words that encapsulate actions or notable situations that emerge from the
+  text.
+- Your task involves reading a passage and identifying significant events described
+  within it. Events are typically represented by single words that convey actions
+  or occurrences.
+- This exercise emphasizes identifying meaningful occurrences as represented by single
+  words in the text, fostering skills essential for accurate reading comprehension
+  and analysis.
+- In this task, you will analyze a passage and pinpoint specific events that have
+  taken place or may take place. Focus on finding words that convey action or important
+  occurrences.
+- The main goal is to decode a passage for any clear events that are happening or
+  have happened. Understanding the context of each word will help in identifying these
+  events correctly.
+- In this task, you'll read a short passage and pick out words that capture essential
+  events, distinguishing these from other types of words like adjectives or pronouns.
+- In this task, you are tasked with identifying meaningful occurrences mentioned in
+  a text. Represent these occurrences as single words without additional modifiers.
+- "Your job is to extract single words from a passage that convey events\u2014whether\
+  \ factual or hypothetical\u2014that form the essence of what is being communicated."
+- In this task, you're expected to read carefully and isolate any terms within the
+  passage that signify events happening now or in the future as well as those recalling
+  historical occurrences.
+- "In this task, analyze the narrative provided and extract single-word representations\
+  \ of events. The selected terms should convey a clear understanding of actions stemming\
+  \ from the text\u2019s context."
+- By reading the given text, your mission is to pinpoint essential events, which can
+  be derived from action-based words or significant nouns that carry meaning related
+  to occurrences.
+- Your challenge will be to carefully read each passage and identify vital event words
+  that express something occurring or relevant activities through various types of
+  expressions.
+- In this exercise, your mission is to isolate significant one-word terms that indicate
+  an event within the passage. These could represent actions taken or situations occurring
+  throughout the text.
+- Your mission is to interpret a text to extract noteworthy event words that signify
+  any actions or occurrences relevant to the understanding of the passage.
+- The mission is to read through a given passage and pick out notable events conveyed
+  through specific terminology that encapsulate significant actions.
+- Scrutinize the provided text for core events represented by essential words, whether
+  they stem from verbs or nouns describing past or future happenings.
+- This task requires you to parse through a written segment, identifying pivotal events
+  expressed in single-word format, whether they belong to actions or significant occurrences.
+- The focus here is to sift through a passage and extract meaningful events. Events
+  can be expressed as verbs or certain nouns, and they represent actions or situations
+  described in the text.
+- Parse through a provided narrative to discern significant happenings. This includes
+  recognizing single-word indicators that point to actions in time and context.
+- You will be tasked with hunting for event-based terms within a passage, focusing
+  on those words that encapsulate pivotal moments whether factual or conjectural in
+  nature.
+- In this assignment, your goal is to uncover significant words within narratives
+  indicating various kinds of events, whether factual or hypothetical in nature.
+- Analyze the provided content for essential event words that depict notable occurrences
+  or activities. This involves recognizing various grammatical forms while focusing
+  on their significance in context.
+- This task requires you to distill the essence of a passage by finding words that
+  signify events, whether they are based on verbs or nouns.
+- Your focus should be on recognizing and isolating event-related terms within a furnished
+  text. Whether hypothetical, actual, positive, or negative, these words carry meaning.
+- You will dissect a written passage to identify specific terms representing key events
+  or actions. This process calls for attention to language detail and comprehension
+  of what constitutes an event in context.
+- Your role here is to extract standalone words from a passage that illustrate critical
+  events. Look for verbs and relevant nouns that highlight movement or change.
+- The objective is to identify specific events mentioned in a given passage. These
+  events may come from actions described by verbs or important nouns that signify
+  significant happenings.
+- The task involves analyzing a passage to identify key events that are expressed
+  in a single word, capturing actions or states relevant to what happens in the text.
+- You will engage with a passage to find one-word events that summarize actions taken
+  or anticipated. Be attentive to both explicit statements and implied circumstances.
+- You will engage with a piece of text and extract words that signify important events,
+  emphasizing the occurrence of actions or situations rather than descriptive elements.
+- Identify and list key events from the provided text. Focus on words that denote
+  actions, developments, or noteworthy occurrences within the context of the passage.
+- The objective is to sift through passages and highlight individual words representing
+  impactful actions or situations, relying on your comprehension of context.
+- The exercise focuses on interpreting text passages and isolating meaningful event
+  words. You need to be astute in distinguishing between verbs, nouns, and copula
+  verbs to find each event.
+- As part of the task, you examine a narrative passage to isolate important single-word
+  representations of events throughout the text. This requires careful reading and
+  comprehension of action-driven language.
+- Focus your reading on selecting impactful event-related words from a provided passage.
+  You will recognize both concrete situations and theoretical actions.
+- Your job is to identify important actions and occurrences described in a text by
+  extracting relevant words that encapsulate events.
+- Your mission is to peruse passages and highlight individual words that signify an
+  event occurred or is expected to happen during the narrative.
+- As you read through the provided passage, your task is to focus on extracting singular
+  words that illustrate critical events conveyed through the text.
+- Your task is to parse through a textual passage for notable events represented by
+  particular words. Mastering this requires an appreciation for contextual significance
+  in language use.
+- You will read through a provided text and pinpoint specific events that are factual
+  or hypothetical, which can include nouns denoting happenings.
+- Dive into the text and discover key terms that illustrate events, whether they refer
+  to tangible happenings or abstract situations discussed within the passage.
+- This task requires you to sift through a text and pinpoint essential events. Each
+  event should be articulated as a single word that captures the essence of what has
+  taken place or is projected to happen.
+- In this task, you need to locate and identify important event words in a passage.
+  This means analyzing how language conveys action, whether through verbs, nouns representing
+  incidences, or linking verbs.
+- In this task, you will read a passage and identify key events that are described.
+  Events can be actions, states, or occurrences indicated by verbs or nouns.
+- Your objective is to read a piece of text thoroughly and pinpoint significant event-related
+  terms. The focus should be on isolating those words that encapsulate critical actions
+  or happenings.
+- "The aim of this task is to locate event-related terms within a passage. By analyzing\
+  \ the context, you\u2019ll find significant points in time marked by specific words\
+  \ that indicate activity."
+- Your task is to read a passage and extract significant actions or events, framed
+  as single words. This requires a keen understanding of context and language.
+- Analyze the provided passage to find words that represent distinct events or actions
+  that occur or may occur. This involves recognizing verbs and relevant nouns that
+  signify these actions.
+- Engage with the provided passage by selecting words that encapsulate definitive
+  events. This requires an understanding of language nuances and the ability to recognize
+  significant actions or states.
+- The goal here is to determine crucial happenings in the text by selecting significant
+  words that reflect the essence of the described events.
+- The goal is to discern notable actions from a written piece, summarizing them in
+  one-word terms. This requires attentiveness to the verbs and relevant nouns present
+  in the text.
+- This task focuses on your ability to extract key words from narratives that represent
+  events. Look for any meaningful word related to activities or occurrences.
+- The goal is to analyze a passage and identify essential events that illustrate actions
+  or happenings. This includes understanding context and language used in the passage.
+- You will read a written passage and identify one-word expressions that highlight
+  events. This task tests your comprehension and ability to recognize key elements
+  that denote actions or happenings.
+- Your job is to read a provided passage and pinpoint significant happenings or occurrences
+  as single words, reflecting on both concrete and abstract ideas.
+- Identify and list words that exemplify essential events found in a piece of writing;
+  these can be derived from both actions and relevant nouns.
+ds_kwargs:
+  path: Lots-of-LoRAs/task388_torque_token_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task388_torque_token_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

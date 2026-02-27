@@ -1,0 +1,426 @@
+assistant_prefill: ''
+descriptions:
+- Analyze comments for their emotional tone. Your focus should be on identifying content
+  that promotes positivity, diversity, and hopefulness in social contexts.
+- You need to evaluate the sentiment of comments and judge whether they embody a positive
+  spirit or promote negativity, classifying them as either 'Hope Speech' or 'Not Hope
+  Speech'.
+- You need to read the provided remarks and classify them based on whether they express
+  hopefulness regarding equality and inclusion or not.
+- The objective is to discern which comments advocate for a hopeful view of life and
+  acceptance, differentiating these from those that are dismissive or critical in
+  nature.
+- Determine if the given statements reflect positive sentiments towards inclusiveness
+  or contain negativity that detracts from the idea of hope speech.
+- This task requires attention to the emotional impact of language in comments to
+  differentiate between those that inspire hopefulness and those that do not.
+- Judge each comment by its overall tone and intent, categorizing them into hopeful
+  speech or otherwise disregarding such sentiments.
+- In this task, you will analyze the emotional undertone of statements to see if they
+  align with a supportive view on social matters.
+- Categorize the readiness of given messages to uplift and celebrate diversity by
+  recognizing whether they express 'Hope Speech' traits or not.
+- Consider the context of remarks made in the comments to judge whether they encourage
+  equality and celebrate diversity.
+- Your task is to evaluate comments and classify them as either 'Hope Speech' or 'Not
+  Hope Speech.' Hope speech reflects positivity and encouragement related to equality
+  and inclusion.
+- Determine the nature of each comment by identifying whether it aligns with ideals
+  of hope, inclusion, or support.
+- Your task involves scrutinizing the text of each comment to decide if it builds
+  a positive narrative about diversity or if it presents negativity.
+- Analyze the tone of comments and categorize them as 'Hope Speech' or 'Not Hope Speech.'
+  Look for positive sentiments that advocate for equality and acceptance.
+- Your task is to evaluate comments and decide if they convey a message of encouragement
+  and support for diversity, or if they do not.
+- You will classify comments based on their alignment with messages of hopefulness
+  and equality. Reflect on the sentiment expressed in each statement for your classification.
+- This task requires critical analysis of comments to assess their alignment with
+  the principles of hope speech, identifying messages that are uplifting or supportive.
+- Analyze provided comments to classify them into categories of hopeful messages or
+  ordinary commentary that doesn't inspire positivity.
+- You will review comments and determine their classification as 'Hope Speech' or
+  'Not Hope Speech', focusing on the presence of encouraging messages.
+- Look for encouraging language in the comments, distinguishing between those advocating
+  for progress and those that detract from it.
+- Analyze various statements to see if they resonate with themes of hopefulness and
+  inclusion, categorizing them as either supportive ('Hope Speech') or dismissive
+  ('Not Hope Speech').
+- Determine if the messages in the comments reflect a sense of hope and encouragement
+  related to social inclusion, categorizing them as needed.
+- Analyze given comments to classify them as either 'Hope Speech' or 'Not Hope Speech'
+  based on their tone and content.
+- In this classification task, you must identify remarks that embody a spirit of optimism
+  about social issues compared to those that present a negative viewpoint.
+- Classify statements on their emotional tone, focusing on whether they convey supportive
+  messages related to hope and inclusion.
+- Interpret the given texts to classify them according to whether they communicate
+  a message of encouragement and support for diversity.
+- Classify the remarks based on their encouragement level towards social issues like
+  equality or inclusion versus those that lack such sentiment.
+- Review each comment carefully, focusing on themes related to encouragement and equality.
+  Your task is to classify them without explanation.
+- "Analyze given remarks and sort them into two categories that reflect their overall\
+  \ sentiment\u2014positive messages of hope or negativity that lacks such encouragement."
+- Engage with a variety of commentaries to pinpoint whether they resonate with themes
+  of hope and inclusivity or if they fall short of encouraging messaging.
+- You will sort comments into two categories based on their encouragement of acceptance,
+  inclusivity, and positivity regarding diversity.
+- Identify uplifting messages in the provided comments that reflect societal support
+  and unity; categorize them as either hope speech or otherwise.
+- Assess the tone and content of various remarks, classifying them as either uplifting
+  or not in terms of hope speech.
+- This assignment involves going through several comments to categorize them based
+  on their overall supportive tone towards equality and inspiration.
+- Read the comments closely and judge their messages by assessing whether they are
+  positive or negative towards themes of equality and support.
+- Your task is to evaluate whether comments provide inspiration and promote inclusivity
+  or whether they fall outside this classification.
+- Your task is to sift through varying opinions expressed in the comments and classify
+  them according to their hopeful or non-hopeful nature.
+- Engage in a thoughtful classification of comments, distinguishing those that foster
+  hope and affirmation from others that do not meet this standard.
+- This task is about discerning the message of various statements, determining if
+  they promote encouragement and understanding in society.
+- Analyze comments to determine if they embody positive and supportive sentiments
+  related to social issues or if they are dismissive and negative.
+- Analyze the given statements to classify them as either supportive and positive
+  or not, paying attention to the tone and message of each comment.
+- Analyze remarks to categorize them as hopeful or non-hopeful based on how they address
+  themes of support and encouragement for all individuals.
+- In this exercise, you will sift through expressions of opinion to classify them
+  based on their degree of hopeful encouragement regarding societal issues.
+- "Your task is to systematically classify comments based on their nature\u2014whether\
+  \ they inspire hope and respect for all individuals or not."
+- You will read through given comments and classify each one as either 'Hope Speech'
+  or 'Not Hope Speech', focusing on the themes of positivity, support, and inclusivity.
+- Your mission is to sift through comments, determining which ones convey a spirit
+  of hope for marginalized communities and which ones do not.
+- You will need to assess each comment and decide whether it serves as a beacon of
+  hope for societal issues or contributes to division.
+- The aim is to analyze user comments for elements of positivity and support related
+  to diversity, determining their classification as hopeful or not.
+- "Your focus is on the sentiment behind each statement\u2014deciding if it promotes\
+  \ a hopeful vision for society or not."
+- Your job involves categorizing comments based on their emotional tone and content
+  related to hope and support for equality. Identify them as 'Hope Speech' or 'Not
+  Hope Speech'.
+- Your task involves analyzing comments to determine if they promote a hopeful and
+  supportive message related to equality and inclusion.
+- Identify and separate comments based on whether they promote an encouraging atmosphere
+  for individuals from diverse backgrounds or not.
+- In this analytic task, interpret the emotional context of comments to determine
+  if they encourage a hopeful attitude towards societal issues relating to equality.
+- Interpret the content in each statement for its hopeful aspects versus those that
+  could be considered dismissive or negative about social issues.
+- Reflect on the core messages found in comments about societal issues. Determine
+  whether those messages foster hopefulness or indicate a lack of support.
+- The task requires you to determine if comments are supportive and inclusive. Identify
+  those that promote hope versus those that do not.
+- Read through the given statements and decide if they exude a sense of encouragement
+  or support towards societal acceptance and diversity issues.
+- Evaluate the provided comments with an eye for language that expresses hopefulness
+  and support for diversity versus those that fall short.
+- Engage with the remarks provided and determine their alignment with a hopeful outlook
+  or their deviation into negativity or conflict.
+- Assess each comment for its thematic focus on hope and inclusion, categorizing them
+  accordingly.
+- Identify whether the remarks made in the comments foster a positive dialogue about
+  inclusion and equality or if they exhibit harmful attitudes.
+- Identify whether each provided statement promotes hopefulness in terms of acceptance
+  and support, guiding your classification accordingly.
+- Interpret the comments to classify the presence of hopeful language that promotes
+  understanding and acceptance of diverse identities.
+- Use your judgment to classify remarks based on their contribution to a positive
+  conversation surrounding social equity issues.
+- You will be examining statements to identify those that promote encouragement and
+  positivity, categorizing them accordingly.
+- Assess comments critically for their potential to uplift social discourse through
+  positivity or whether they engage in negative rhetoric instead.
+- Consider whether each comment upholds or undermines the values of respect and support
+  for all, directing your classification accordingly.
+- Read each comment intently, filtering them based on their tone and message to classify
+  whether they inspire hope or reflect a more critical viewpoint.
+- Read through the provided statements to find out if they convey a message of hope,
+  positivity, or support for diversity. Assign them to 'Hope Speech' or 'Not Hope
+  Speech'.
+- Determine if a given piece of text expresses hope and positivity or if it leans
+  towards negativity or indifference. Your classification should reflect this judgment.
+- Review each statement and judge whether it encourages positive social dialogue or
+  contains negativity that undermines hope.
+- For this task, observe expressions of either hope and encouragement versus disappointment
+  or negativity, grouping them as needed.
+- Examine the sentiments expressed in the comments to classify them as either supportive
+  hope speech or as lacking positivity.
+- This task requires reading comments critically to identify their supportive nature
+  regarding equality and inclusion, determining whether they express hope.
+- Classify each remark as 'Hope Speech' if it contains elements of positivity and
+  support or 'Not Hope Speech' if it does not reflect these ideals.
+- Assess each statement carefully for themes of positivity or negativity concerning
+  societal acceptance and support for others.
+- Evaluate the comments to see if they align with the characteristics of 'Hope Speech,'
+  which includes positivity and encouragement regarding social issues.
+- Approach the comments with the intention of recognizing expressions of support for
+  equality, noting how they either inspire hope or fail to do so.
+- Your role is to interpret comments in terms of their encouraging nature, specifically
+  looking at themes of community and support for diverse identities.
+- Review the given remarks to differentiate between those that are hopeful and advocate
+  for inclusion versus those that do not align with a supportive stance.
+- This exercise involves discerning positive expressions in comments. You'll identify
+  whether they promote a hopeful outlook on equality and diversity.
+- You need to read various comments and determine if they express hopefulness and
+  support for diversity. This requires an understanding of positive language and themes
+  of equality.
+- Assess the positivity and encouraging nature of various statements to classify them
+  into two distinct groups related to hope speech.
+- Investigate each comment to see if it embodies a sense of positivity regarding societal
+  issues like equality, labeling them accordingly.
+- You will evaluate phrases to see if they express encouragement or positive sentiments
+  about diversity.
+- Parse through the statements carefully to categorize them based on their advocacy
+  for equality versus opposition or indifference.
+- Look at the essence of each statement to label it accurately as either uplifting
+  and positive or lacking that quality.
+- Classify comments based on their content by determining if they embody supportive
+  messages about diversity, inclusion, or equality.
+- Examine the language used in each comment, searching for signs of optimism or uplifting
+  sentiments regarding societal issues; classify accordingly.
+- This task requires you to discern the uplifting nature of comments in light of social
+  issues, marking those that convey hope and support.
+- Your job is to identify speeches of optimism that advocate for love and acceptance,
+  distinguishing them from comments that may undermine these values.
+- Examine the phrasing of each comment, identifying uplifting and positive messages
+  versus those that lack encouragement. Classify them accurately.
+- The focus here is on distinguishing between messages that can motivate and uplift
+  individuals versus statements that may discourage progression towards inclusiveness.
+- Determine whether discussions within the comments enhance hopefulness concerning
+  social equity or divert into negative discourse.
+- Your evaluation will categorize remarks into hopeful affirmations of diversity or
+  more negative assessments that do not promote an inclusive dialogue.
+- Review the comments critically to differentiate those that feature a constructive
+  message from those that do not offer hope or support.
+- Your task is to identify whether a given statement is considered 'Hope Speech' or
+  'Not Hope Speech' based on definitions of positivity and inclusivity.
+- Your task involves sensing the underlying message of each comment to either affirm
+  its hopeful intent or label it as not aligning with positive social values.
+- You will be assessing how well each comment aligns with values of encouragement
+  and social justice. Detect whether the sentiment leans towards hopefulness or negativity.
+- Examine the comments carefully, identifying whether they convey a hopeful outlook
+  or contain negative or discouraging elements.
+- In this exercise, you're tasked with evaluating social commentary for expressions
+  of hope and support. Classify them based on whether they reflect an encouraging
+  message.
+- Analyze the comments to identify positive language that embodies hope speech, juxtaposing
+  it against negativity or indifference.
+- Evaluate the positivity in each provided comment, deciding if they contribute to
+  a message of hope or do not align with such an outlook.
+- This task requires reflection on the nature of supportive speech as you evaluate
+  whether various comments promote a hopeful narrative toward inclusion.
+- Your job is to categorize comments based on whether they exhibit uplifting support
+  for diversity or lack such hopeful messages.
+- Analyze comments for elements of hopefulness and supportiveness while also recognizing
+  language that may exclude or criticize.
+- Examine statements and categorize them based on whether they foster positivity and
+  support for marginalized groups.
+- Review comments carefully to identify whether they contribute positively to discussions
+  about diversity or detract from them.
+- Sort through the input taking note of messages that inspire positivity around equality
+  while distinguishing them from those that do not resonate in that way.
+- Your role is to gauge the positivity in every comment and classify them appropriately
+  as supportive of hope or lacking such meaning.
+- Your role is to identify words and sentiments that align with hope speech, focusing
+  on messages that empower individuals and communities.
+- Examine commentary pieces to decide whether they present an encouraging view on
+  equality, diversity, and inclusivity or if they deviate from that focus.
+- The objective is to discern which comments embody messages of hope and support for
+  diversity, and which do not.
+- Reflect on the essence of each comment in relation to themes of inclusion and positivity,
+  designating them into appropriate categories based on that assessment.
+- Investigate the commentary provided, categorizing them based on their hopeful nature
+  or their negativity regarding social themes.
+- You will evaluate comments to identify whether they reflect positivity, encouragement,
+  and inclusivity, categorizing them accordingly.
+- Assess the intent behind each comment and label it as either promoting hope, diversity,
+  and inclusion or not fitting that definition.
+- Each comment must be evaluated for its tone with respect to optimism about inclusion;
+  your goal is to classify them correctly based on this criterion.
+- Determine if the content of each comment fosters a feeling of hopefulness or if
+  it diverges into negative or judgmental sentiments.
+- You'll be classifying remarks by observing their language for signs of hope, support,
+  and inclusivity.
+- Determine if the comments embody a message of hopefulness that aligns with advocating
+  for diverse perspectives and experiences.
+- Your focus is on understanding comments about social issues and measuring their
+  tone. Decide whether each fits into the category of 'Hope Speech' or 'Not Hope Speech'.
+- Your responsibility is to distinguish between uplifting messages about equality
+  and those that might be divisive or discouraging.
+- Evaluate the text for expressions of positivity, encouragement, or advocacy for
+  equality versus those that might convey hostility or rejection.
+- Examine statements for their substance, determining if they reflect hopefulness
+  and advocate for equality or are dismissive in nature.
+- Evaluate various expressions to see if they convey an uplifting message about equality
+  and diversity, or if they lack this spirit.
+- Judge the tone of the comments to see if they encourage understanding, acceptance,
+  and support for various identities, matching them to the right category.
+- You will be classifying comments about personal experiences or opinions, using criteria
+  of positivity and supportiveness as your guide.
+- "You must judge comments on their emotional messaging\u2014whether they uplift people\
+  \ or are critical. Categorize them as hopeful speech or not."
+- Classify the given statements by recognizing those that foster hope and support
+  for diverse communities versus those that do not reflect such sentiments.
+- Analyze each comment for its underlying message, distinguishing between supportive
+  dialogue and negative discourse.
+- Your evaluation should focus on whether the comments inspire a sense of unity and
+  acceptance among different communities.
+- Review the sentiments expressed in every comment, determining if they evoke a hopeful
+  outlook or reinforce negativity and exclusion.
+- Examine the provided statements for an underlying message of encouragement while
+  focusing on values like equality, diversity, and community support.
+- The assignment is to sort statements into categories based on their promotion of
+  optimistic values tied to social equality.
+- Identify whether the comments foster a sense of support and positivity regarding
+  social issues, or if they fall outside of that scope.
+- "Classify comments by assessing their underlying sentiments\u2014whether they advocate\
+  \ for positivity and inclusion, or if they carry a different message altogether."
+- Review the comments critically to decide if they embody supportive messages about
+  equality and inclusion or fail to deliver such feelings.
+- You will need to gauge the sentiment behind each statement to determine if it aligns
+  with the principles of hope speech related to inclusivity.
+- Identify nuances within comments that may indicate a hopeful outlook on diversity
+  or those that exhibit a lack thereof.
+- This task asks you to assess the emotional resonance of comments, determining whether
+  they express optimism and inclusivity or if they convey skepticism and negativity.
+- Your objective is to identify comments that offer an optimistic perspective and
+  classify them as hope speech compared to those that don't.
+- Identify which sentiments express upliftment regarding social issues, classifying
+  them accordingly as hope speech or otherwise.
+- Determine whether the comments provided promote hope and positivity surrounding
+  themes of equality and inclusion, or if they lack these qualities.
+- Evaluate each comment's content to see if it aligns with promoting hope, focusing
+  on its message about inclusivity and positivity.
+- Gauge the positivity in the provided comments in relation to societal attitudes
+  towards inclusion. Classify them based on that assessment.
+- Evaluate the language used in the comments to see if they reflect an optimistic
+  view on social issues or if they are contrary to uplifting discourse.
+- Assess each comment for its tone and message, classifying it as being uplifting
+  and supportive or as lacking in those qualities.
+- Classify the provided comments based on their underlying messages. Decide if they
+  are expressing hope or support for equality, or if they are dismissive or negative.
+- Your role is to discern whether comments convey messages of hope and support for
+  diverse groups. This involves recognizing encouraging language.
+- Investigate how sentiments in the statements align with principles of positivity,
+  inclusion, and diversity while sorting them into two defined categories.
+- "Analyze content to assess its overall tone\u2014whether it inspires and uplifts\
+  \ individuals or expresses doubt and criticism. Classes should reflect your findings."
+- Determine if the provided comments reflect an encouraging attitude towards acceptance
+  and inclusion, or if they are dismissive and negative.
+- Analyze the emotional content of comments provided, focusing on distinguishing between
+  those that foster a sense of hope and community versus others that do not.
+- Your role involves reviewing text for themes of encouragement, positivity, and support
+  for equality, determining if they qualify as hope speech.
+- Test your ability to discern positive language within statements by identifying
+  whether they reflect hope or negativity. Categorize accordingly.
+- You are tasked with categorizing information as either promoting hope and support
+  for diversity or falling short of these ideals, thus lacking positive affirmation.
+- Analyze how each comment either promotes a hopeful perspective on inclusivity or
+  presents a tone that does not align with such values.
+- In this task, you will classify statements based on their tone and content, looking
+  for those that inspire hope and kindness versus those that do not.
+- The task involves evaluating comments to determine if they promote positivity and
+  inclusiveness, categorizing them as either hope speech or not hope speech based
+  on specific criteria.
+- In this task, focus on identifying content that is uplifting and promotes inclusivity.
+  Classify comments based on whether they embody a hopeful message.
+- Evaluate each comment for its intent and tone. Decide if it conveys hope and unity
+  or if it expresses negativity instead.
+- Your role involves distinguishing between comments that inspire positivity and unity
+  versus those that don't align with these values.
+- The task involves analyzing comments to determine if they promote hope and positivity
+  regarding social issues or if they do not.
+- Classify comments into two groups based on their message's nature. Look for expressions
+  of optimism and support for equality in your analysis.
+- Examine the provided statements and classify them based on whether they express
+  encouraging and supportive sentiments related to equality and inclusion.
+- Your task is to evaluate comments and decide if they promote hope, equality, or
+  inclusion based on specific criteria for 'Hope Speech'.
+- You are tasked with distinguishing between supportive statements that embody hope
+  versus critical remarks that discourage unity and inclusiveness.
+- "Your assignment is to classify comments according to their sentiment \u2014 identifying\
+  \ those that are inspired by hope and connection versus those that lack positive\
+  \ affirmation."
+- Review each comment for hints of encouragement and acceptance, categorizing them
+  into either affirming hope speech or dismissive statements.
+- Navigate through the provided texts to label their classification accurately based
+  on whether they advocate for hope and inclusivity.
+- "Analyze each remark\u2019s content to understand if it supports a culture of hopefulness\
+  \ concerning equality and diversity or presents a critical perspective instead."
+- The goal is to identify statements that promote hope and inclusivity versus those
+  that do not fit this definition.
+- Examine each statement for expressions of support toward equality and inclusion,
+  categorizing them according to their positive impact.
+- You are tasked with identifying commentary that reflects hopefulness and support
+  for inclusivity in society, contrasting them with comments lacking positive intent.
+- Classify comments based on their tone and content, focusing on whether they raise
+  uplifting themes related to equality, diversity, or support.
+- You are tasked with filtering comments into two categories based on their positions
+  toward hope, positivity, and inclusion against those that do not support these ideals.
+- 'Analyze comments to determine if they promote encouragement, equality, and support.
+  Classify them accordingly into two categories: ''Hope Speech'' or ''Not Hope Speech''.'
+- Your job is to sift through comments to decide which ones convey hopefulness and
+  support for societal issues.
+- Your responsibility is to read through various comments and identify whether they
+  convey encouraging and supportive messages related to equality and diversity.
+- In this task, you will analyze various comments and determine if they fit the criteria
+  for 'Hope Speech', which is characterized by supportive messaging about diversity
+  and encouragement.
+- Classify remarks by evaluating their contributions to a positive conversation around
+  societal issues, focusing on whether they embody hope or negativity.
+- Scrutinize each statement for language that either promotes inclusiveness or expresses
+  negative attitudes towards certain groups.
+- Analyze the comments provided to identify their tone and intent, deciding if they
+  fall under the category of hope speech or not.
+- Your job is to discern between comments that uplift and empower versus those that
+  do not provide a positive outlook, focusing on the ideas of equality and community
+  support.
+- Assess each comment to see if it contains themes of encouragement, positivity, or
+  support for marginalized communities, labeling them accordingly.
+- Your role is to navigate through a set of comments to classify them accurately as
+  'Hope Speech' or 'Not Hope Speech' based on their uplifting or negative content.
+- Your objective is to sort comments based on whether they inspire hope and engage
+  in conversations about inclusion and diversity.
+- Your task is to evaluate comments and categorize them as either 'Hope Speech' or
+  'Not Hope Speech', focusing on their encouraging and supportive nature.
+- Evaluate the language used in various comments to ascertain if they represent a
+  hopeful perspective or fail to do so.
+- Sort through various comments with the goal of evaluating their alignment with hopeful
+  speech focused on diversity and societal encouragement.
+- Assess the meaning behind the comments and decide if they align with themes of support
+  and encouragement. Then classify them into the appropriate category.
+- Your role is to assess each comment for its tone and message, deciding if it aligns
+  with the ideals of hope speech or if it falls outside that definition.
+- This task involves assessing comments to see if they inspire hope and promote acceptance
+  or if they lack positivity. You need to have an understanding of what constitutes
+  encouraging language.
+- Your task is to evaluate comments based on their tone and content. Identify whether
+  the comments convey hopefulness and positivity related to equality and inclusion.
+- Your job is to classify comments based on whether they are supportive and encouraging,
+  reflecting either hope speech or its absence.
+- Your task is to evaluate comments and determine whether they express a positive
+  and supportive message related to hope, equality, or inclusion.
+- Review statements carefully, noting those that convey encouragement towards equality.
+  Only classify those that truly communicate a hopeful sentiment.
+- Your task requires distinguishing between comments that uplift and those that are
+  critical or negative in their expression toward social topics.
+- Review the provided commentary thoroughly to classify them based on their encouragement
+  of an inclusive society versus exclusionary perspectives.
+ds_kwargs:
+  path: Lots-of-LoRAs/task679_hope_edi_english_text_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task679_hope_edi_english_text_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

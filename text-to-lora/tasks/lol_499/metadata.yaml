@@ -1,0 +1,419 @@
+assistant_prefill: ''
+descriptions:
+- The objective here is to read through a provided list and extract all the numbers.
+  After gathering these numbers, you will calculate their sum.
+- In this task, you're presented with a variety of inputs in list form. Discover which
+  of those inputs are numbers and then carry out addition to find the resulting total
+  sum.
+- Analyze the elements of the list, filter out the numerical ones, and calculate their
+  combined sum.
+- In this activity, you should separate numeric figures from non-numeric content within
+  a given array and compute their combined value.
+- "You\u2019re required to take an input list that includes various characters and\
+  \ numbers, select only the numerical entries, and then calculate the sum of these\
+  \ selected values."
+- Your focus here is on locating all the numeric data within an array of mixed content
+  and aggregating it into one figure.
+- Your challenge is to evaluate an input list and pinpoint all numeric figures. The
+  next step is to sum these numbers to arrive at the final output.
+- This task involves analyzing a list to identify any numeric values, and then performing
+  an addition operation on those numbers to find their cumulative total.
+- For this challenge, you will examine a given list for any numbers present and calculate
+  the sum of those numeric values.
+- The task requires your attention as you sift through list inputs to find numerals.
+  Add these discovered values together for a single sum.
+- In this task, you need to examine a list and find all the elements that represent
+  numbers. The goal is to calculate the total by summing these numerical values.
+- The objective is to filter through a list of various elements and aggregate the
+  total of all numerical entries found within.
+- Examine the contents of a list filled with various characters, identify all numerical
+  elements among them, and calculate their sum.
+- The objective here is to search through a list, pinpoint numeric content specifically,
+  and return their combined value through summation.
+- You'll take on the responsibility of finding all numbers embedded in a diverse input
+  list and calculating their total as part of this analytical task.
+- This task requires you to sift through a list to find numbers. Once identified,
+  you will add them together for a final total.
+- Your task is to analyze an input list, filter out the numerical values, and compute
+  their sum. This involves understanding which elements are numbers.
+- You have a mixed list that contains different kinds of values. Your task is to locate
+  numeric digits within it and calculate their total by summing them up.
+- From a mixed input of characters and digits, identify all elements that are numbers
+  and calculate their total.
+- You'll need to carefully assess a list filled with different characters to pinpoint
+  numbers and then sum these values accurately.
+- Your duty is to analyze a given collection of mixed elements where you'll identify
+  numerical values specifically, then compute the total of these findings.
+- Examine the contents of a list filled with strings of various kinds. Determine which
+  strings can be converted into numbers and find their total through addition.
+- For this task, examine a list and pick out the elements that represent numbers.
+  Once identified, you will calculate the total by summing these numeric entries.
+- You'll need to process a provided list by isolating numerical entries from others.
+  Once identified, the final step involves calculating their cumulative sum.
+- Your objective is to extract numbers from a list and determine their combined value
+  by performing a summation.
+- You will be given a mixed list of elements. Your responsibility is to isolate the
+  numeric entries and compute their sum for the final value.
+- Your goal is to sift through a given list and extract all elements that represent
+  numbers. Following that, you will add them together to find their cumulative total.
+- In this challenge, focus on an input list where you must filter out non-numeric
+  items. Your end goal is to calculate the summed total of the identified numbers.
+- In this project, focus on extracting any numerical entries from an assortment of
+  text elements in the given list, tallying them for your result.
+- Your objective is to sift through a given list and identify numbers among other
+  non-numerical elements. Then, calculate the sum of these numerical values.
+- In this exercise, your responsibility is to locate all numerical values within a
+  mixed list and determine their cumulative sum.
+- Identify the numbers in the provided list and calculate their total sum.
+- Engage with an input array to discover which components are numeric; once identified,
+  add those figures together for your final answer.
+- Your task involves reviewing a list containing mixed data types. You will find all
+  numeric elements, then perform an addition operation on them to obtain their total.
+- Your goal is to determine which entries in a given list are numeric strings and
+  find their total by summing them up.
+- Scan the list for any items that are numbers and compute their aggregate value.
+- Your job is to sift through a provided list and extract all items that can be categorized
+  as numbers. After identifying them, you'll add these numbers together to find their
+  cumulative value.
+- Your goal is to find all numerical entries in a list and add them together to get
+  a single total.
+- Analyze the contents of a provided list, extract any numerical items, and calculate
+  the overall total of these numbers.
+- This task asks you to filter through an assortment of items in a list, identifying
+  and summing only those that are numeric.
+- You need to analyze an input list consisting of various characters and numbers.
+  Your goal is to find all the numeric items and add them together.
+- You must review a provided list, filter out non-numeric characters, and compute
+  the sum of all the numeric values you discover.
+- The task involves reviewing a collection of strings and isolating the elements that
+  represent numbers. The final step is to calculate the total of these numbers.
+- In this task, you will analyze a list of items to identify which ones are numerical
+  values, and then you will compute the total sum of these numbers.
+- Your assignment involves analyzing a range of characters within an input list with
+  the intent to separate any numerical entries, culminating in the calculation of
+  their summed value.
+- Your assignment involves a list containing various characters. You need to pinpoint
+  every number within this list and find their cumulative sum.
+- Explore an input list that contains various character types and focus on summing
+  only the numeric parts for a final result.
+- You will be provided with a collection of elements. Your goal is to extract the
+  numerical items and compute their sum.
+- This task requires you to examine a list containing various characters and numbers.
+  Your goal is to find the numeric entries and sum them up.
+- The task is centered around recognizing which elements in a list are numbers and
+  performing arithmetic addition on them.
+- You will take an array of mixed items and gather all the numerical values in order
+  to calculate their sum.
+- Engage with the provided list by identifying number entries amongst other characters,
+  then proceed to total them for the expected answer.
+- Look at the provided items in the list, identify which ones represent numerical
+  values, and then perform an addition operation on those numbers.
+- This task requires you to identify and extract all numeral values from a given list
+  and subsequently sum them up for a final answer.
+- This task requires you to review a selection of items in a list. You need to recognize
+  which ones are numbers and then consolidate these into a single sum.
+- The focus here is on isolating numbers from a group of strings and compiling their
+  total value through summation.
+- This assignment entails reviewing a list for numbers only, then summing those numbers
+  to arrive at a final result.
+- Here you will examine elements contained within a list, isolate those that are numbers,
+  and derive their total through summation.
+- The task requires diligence in surveying a diverse set of items in a list. Focus
+  on identifying all numeric values present and summing them up.
+- For this task, filter through a collection of entries in a list to pinpoint numerical
+  values, after which you will calculate their overall sum.
+- This task involves analyzing a mixed list of strings and numbers, and your objective
+  is to total all the numerical entries found.
+- In this exercise, you will deal with lists by locating any number values present
+  and then aggregating their total.
+- Take input from a mixed character list where only some entries are numbers. Your
+  job here is to locate those numbers and perform an addition on them.
+- The focus of this task is to navigate through a collection of items, find every
+  number among them, and determine what their total is when added together.
+- This task involves reviewing a set of entries within a list. Identify which ones
+  are numeric and perform an addition operation on those to find their total.
+- You are tasked with reviewing a set of mixed inputs and filtering out the numbers
+  before calculating their sum.
+- Your task involves discerning numeric values from a mixed list of characters and
+  letters. Once you've pinpointed all the numbers, you will add them together.
+- This assignment asks you to filter through an assortment of items in the list to
+  locate numeric entries, compile them, and find their overall sum.
+- You will be given a list that contains letters and numbers. Determine which of those
+  entries are numeric, and add them together for your answer.
+- As part of this exercise, you'll be given lists containing different character types.
+  Your role involves isolating and summing any numeric entries present.
+- In this task, you are invited to assess a list mixed with different data types.
+  Your job is to identify which elements are numerical and then sum them together.
+- This assignment involves identifying all the numerical entries within a specified
+  list and deriving the total sum of those numbers.
+- Your objective is to discern numbers from other types of data in a list and return
+  their sum as a result of your calculations.
+- This task involves examining a mixed list of values, filtering out all non-numeric
+  elements, and calculating the sum of the remaining numbers.
+- This activity centers around recognizing and summing only numerical elements from
+  an input list that includes letters or symbols. Your final output will be the total
+  sum.
+- This task requires you to identify numbers in a provided list of strings, ignoring
+  letters and symbols, and sum them to produce a single numerical result.
+- Your assignment involves filtering through an array filled with various characters
+  and numerics. Identify what can be summed up as numbers for your final answer.
+- This assignment involves working with a mixed-content list. You're expected to discern
+  which entries are numerical and then sum them for your result.
+- Focus on recognizing numbers among mixed data in a list and compute their sum as
+  your final output.
+- You are tasked with evaluating a list of mixed content. Seek out the numeric entries,
+  sum them up, and arrive at a final total.
+- You will be presented with a list that features both letters and numbers; your job
+  is to find the numbers exclusively and calculate their collective sum.
+- In this assignment, your goal is to identify and sum all numeric values from a given
+  list. This will require attention to detail as you navigate through various characters.
+- The goal here is to navigate through a list containing both letters and numbers.
+  From this, you will sum only those entries that are numeric.
+- Your role is to investigate an assortment of items in a given input list. Extract
+  only the numbers from this assortment and find their combined total.
+- The challenge here is to recognize which elements in a list are numbers, then perform
+  addition on these identified numbers for an accurate total.
+- Your job here is to process an input list by identifying all the numerical components
+  among non-numerical ones, ultimately arriving at their combined total.
+- Your task requires recognizing numeric entries within a larger list and totaling
+  these amounts for a final figure.
+- Your task is to sift through a list to find numeric entries and add them together.
+- Focus on analyzing a diverse input list by extracting numeric strings. Your final
+  output will be the total from summing these numeric values together.
+- Parse through an input array containing letters and numbers, isolate what's numeric,
+  and perform addition on those values for your final answer.
+- This task requires you to sift through a list and find all the numbers present,
+  summing them up for the final total.
+- Look through the provided list for numerical representations, then add those values
+  together to produce the total amount.
+- Your objective is to receive a diverse set of inputs, isolate those that are numerical
+  in nature, and find their total value through addition.
+- Focus on identifying digits within a mixed collection of characters in order to
+  calculate a cumulative sum of just the numbers.
+- Your task is to extract numerical values from a list of mixed elements and then
+  calculate their total sum.
+- In this exercise, you must discern numerical items among various inputs and sum
+  them up accurately.
+- Here, you need to process a provided list, pulling out any digits present within
+  it and finding their overall sum once identified.
+- Here, you'll encounter a list that may contain both strings and numbers. Your responsibility
+  is to filter out the numbers and calculate their total worth.
+- Explore the input data set for numbers in string format, convert these strings to
+  actual numbers, and provide their sum.
+- You will be working with a list that includes both letters and numbers. Your mission
+  is to find all the numeric elements and determine their total.
+- Your challenge is to filter out numeric entries from an input list and effectively
+  calculate the aggregate of these values.
+- You are tasked with browsing through an ensemble of strings in search of numeric
+  representations. Once you spot them all, calculate their overall sum as your response.
+- You are tasked with identifying numbers within an inputted list filled with assorted
+  characters. Once you find them, you will need to sum them up.
+- Seek out all numeric elements situated within a list, perform addition, and produce
+  the resulting sum.
+- In this activity, you're expected to filter for numerical entries in an input collection
+  and provide a sum based on those findings.
+- You will analyze a provided input list with different types of entries. The aim
+  is to identify number entries and then compute their sum in order to demonstrate
+  basic mathematical skills.
+- You will work with a list where you need to discover all the elements that are categorized
+  as numbers, adding those selected items together for the final result.
+- In this task, you will work with a list of items and identify all the numeric elements.
+  Your goal is to calculate the total sum of these numbers.
+- In this task, you'll analyze a list populated with various types of data. You must
+  pinpoint numeric values and compute their sum accurately.
+- Examine a series of mixed entries, locate any that are numbers, and find their cumulative
+  total.
+- Given a mixed list containing various data types, you need to extract and sum only
+  the numeric entries to get a single total.
+- You are tasked with finding all number elements within a given list and performing
+  addition on them to yield one total.
+- The challenge here is to take a mixed array of data types and sort through it for
+  numeric values. This culminates in a summation of all identified numbers.
+- Extract numerical data from an assortment of mixed entries; calculate the overall
+  addition of these figures.
+- Your task is to sift through a list of items and pick out which ones are numerical.
+  Once identified, you will add these numbers together to arrive at the sum.
+- The job entails examining an assortment of list items for numerical characters while
+  discarding others, culminating in a summation of the identified numbers.
+- Analyze a given list consisting of different character types, discern which items
+  are numerals, and then calculate the sum of those identified numbers.
+- Scan a diverse array of inputs for numeric types and perform addition on those identified
+  items to find the total.
+- In this task, you will analyze a list of mixed data types and extract only the numerical
+  values to find their total sum.
+- This task revolves around selecting numeric characters from an assortment of items
+  in a list and summing them up accordingly.
+- This task involves analyzing a list of mixed items to locate numeric entries. You'll
+  then perform an arithmetic operation to sum these values, showcasing your ability
+  to work with data.
+- The task involves identifying numerical elements from a given list and calculating
+  their total sum.
+- In this activity, you'll engage with an input list. Focus on finding all numerical
+  components and computing their aggregate value.
+- Examine the input list for numerical strings, convert them to numbers, and sum them
+  up to achieve the final result.
+- You are given an assortment of elements in a list format. The objective is to identify
+  which of these elements are numerical and compute their sum accurately.
+- Your job is to scrutinize a list filled with numerous items and extract any that
+  are numbers, finally calculating the aggregate of these figures.
+- You will look through an input list to pick out any numbers and then add them together.
+- The goal here is to take a list filled with random characters and numbers, find
+  all the numeric entries, and calculate the overall sum.
+- In this task, focus on activities that involve searching for numerical values in
+  a provided list and adding them together.
+- Evaluate the input list to extract numeric elements, and then carry out a summation
+  of those numbers.
+- Work through a list to isolate numeric values, then compute the sum of those identified
+  numbers.
+- Here, you will process an input list primarily to identify which entries are numerical
+  and then compute their total sum.
+- In this task, you'll evaluate an input that combines letters with numbers. The goal
+  is to exclusively pick out the digits and derive their total value through summation.
+- You are required to differentiate between numeric and non-numeric characters in
+  a list and combine the numeric values into a single total.
+- Your challenge is to go through a collection of items in a list and find those that
+  are numerical in nature. The final step involves summing these identified numbers.
+- You must navigate through a varied list of elements determining which are numbers,
+  then sum them up as your resolution for this task.
+- The goal is to analyze a collection of items in a list, isolate those that are numbers,
+  and find their overall sum.
+- This activity requires you to look at a list and locate all number-like entries.
+  Then, you will combine these numbers through addition to obtain a single total.
+- In this challenge, you need to filter out the numeric data from a provided list
+  and compute their sum to yield a single output number.
+- You're required to look through a mixed-entry list, find all items that are numerical
+  in nature, and total them into one comprehensive figure.
+- Review elements in a given array; filter for digits only and compute their cumulative
+  sum as your result.
+- This task entails parsing through a series of items in a list. Isolate the numbers
+  from the rest of the content and compute their total value.
+- This task involves scanning through an assortment of characters and identifying
+  which ones represent numbers, ultimately adding them together.
+- Your role in this task is to evaluate a collection of elements within a list format.
+  Extract any components that are numerical, and find their cumulative sum.
+- The focus here is on extracting numerical values from a combination of items listed
+  together. You will then proceed to compute the total sum of these identified figures.
+- For this task, you will navigate an input list, picking out elements that are numerical
+  in nature, and summing them to find their collective value.
+- In this exercise, your focus is on a list containing various types of items. Your
+  goal is to find all number elements amongst them and determine the total through
+  addition.
+- You'll need to work with a set of data represented as a list. This task includes
+  extracting number values from the list and calculating their total sum.
+- For this task, filter through a provided array of characters and digits; isolate
+  the digits and perform an addition operation on them.
+- You will be looking at an input list that mixes different types of elements. Your
+  main job is to spot the numbers and add them up at the end.
+- This challenge asks you to filter out non-numeric items from a list and calculate
+  the sum of the remaining numerical values.
+- This task revolves around identifying numeric entries hidden within a mixed list,
+  followed by performing addition on these particular elements to achieve a sum total.
+- Take the input consisting of various characters; your job will be to discern which
+  of these are numbers, followed by calculating their aggregate value.
+- You will analyze a supplied list for its components. Locate any entries that are
+  numbers, then sum these values together for the final result.
+- Your mission is to scavenge through the provided list for numbers. Once found, your
+  next step will be calculating their total by adding them together.
+- Here, you are tasked with inspecting several entries in a list to discern numeric
+  values only, then compile those into a single summed total.
+- You are tasked with inspecting an assortment of items in a given list for numerical
+  data. The goal is to determine which ones qualify as numbers and add these values
+  up.
+- In this analytical task, comb through the elements within a list to discover any
+  numeric representations. Upon collection of these numbers, proceed to calculate
+  their aggregate total.
+- In this exercise, you will sift through a list to find all numbers and compute their
+  cumulative value.
+- In this exercise, you will go through an array of mixed data types to locate all
+  instances of numbers, subsequently calculating their aggregate total.
+- 'The objective is straightforward: go through a list that combines letters and numbers,
+  extract only the numerical sections, and find their collective sum.'
+- In this assignment, you are required to evaluate a list and extract all numerical
+  entries, followed by computing their sum to yield a single total.
+- 'In this activity, your objective is clear: identify numerical values within a provided
+  array of elements and calculate the sum of those values.'
+- You will work with a list where elements are primarily non-numeric. Identify the
+  numbers in the list, and compute their combined total.
+- Find all strings that represent numbers from the provided inputs and calculate their
+  combined value through straightforward addition.
+- In this exercise, you will receive an array containing various elements. You need
+  to locate the numbers among them and add them up.
+- Your objective is to examine an assortment of items in a list, pick out only those
+  that are numbers, and then determine their combined sum.
+- Analyze a given list and focus on recognizing numeric entries. Your objective is
+  to sum these values for an overall total.
+- Look for numerical values within the input list, then determine the overall sum
+  of these numbers.
+- Delve into an input sequence to find numbers only, then add these figures for your
+  final answer.
+- Your task is to sift through a list of mixed elements and identify which ones are
+  numerical values. After that, you will calculate the total sum of these numbers.
+- Your mission is to extract only the numerical data from the input provided and compute
+  the total amount represented by those numbers.
+- Your mission is to parse through a diverse array of items in a list, isolate the
+  numeric elements, and calculate their total sum.
+- You need to examine a list and calculate the sum of all numeric items found within
+  it, ignoring any non-numeric entries.
+- Examine an input list carefully to gather all number entries, then execute a summation
+  to obtain their total value.
+- You will evaluate a list that includes both letters and numbers. The specific goal
+  is to isolate the numeric components and sum them up.
+- This task challenges you to extract numeric data from a list filled with diverse
+  elements, summing all identified numbers into one final value.
+- The main goal is to find all instances of numbers in an input list and add them
+  up to find the total amount.
+- In this task, you'll seek out digits within an assortment of items and perform addition
+  with those numbers.
+- Your task is to sift through a list of items, identifying which ones are numerical
+  values and then calculating their total sum.
+- Analyze the provided list to identify and sum all numeric entries, disregarding
+  any non-numeric data.
+- This task challenges you to scan a list for numerical content only. After identifying
+  these numbers, your aim is to compute their total through addition.
+- The assignment requires careful analysis of input data, specifically targeting numeric
+  entries for the purpose of calculating their sum.
+- Tasked with analyzing a provided list, you will extract numerical elements and compute
+  their sum as the result.
+- From a given collection of items, your job is to locate all items that are digits
+  and find their total by adding them together.
+- In this task, you are required to identify numbers within a list and calculate their
+  total sum. It requires knowledge of recognizing numerical values in various formats.
+- Examine the diverse entries in an input list closely for any numbers present. After
+  recognizing them, your responsibility is to calculate their overall sum.
+- The task involves reviewing a collection of items in a list. From this collection,
+  isolate all numerical entries and calculate their total.
+- This exercise asks you to delve into a list that features both letters and numbers.
+  Extract all numeric data before compiling their total amount.
+- Review the contents of a provided list, extract all numerical components, and compute
+  their total for a final result.
+- Look at a mixed-input list and focus on extracting numerical values. Your final
+  aim is to sum these extracted numerals for a consolidated result.
+- In this activity, you will be given a collection of items. Your mission is to identify
+  all items classified as numbers and add them together to find the overall sum.
+- Review a collection of values where some are numbers; your job is to add all numeric
+  values together.
+- In this exercise, your focus will be on extracting numerical values from an array
+  and calculating their total without including any non-numeric items.
+- You need to discover all instances of numbers within an input list and determine
+  their cumulative sum through addition.
+- You will be presented with a variety of entries in a list format. Scrutinize them
+  for numbers exclusively and perform a summation of those figures.
+- Identify which elements in a list are numeric, then proceed to calculate the overall
+  sum of these numbers.
+- The assignment involves tallying up all the numbers in a given collection and producing
+  their sum.
+- Analyze a mixed-content list to locate elements that are solely numbers. Once identified,
+  perform an arithmetic operation to find their total value.
+- 'Your duty here is straightforward: review an input list, find numeric entries,
+  and compute their aggregate value in one go.'
+ds_kwargs:
+  path: Lots-of-LoRAs/task499_extract_and_add_all_numbers_from_list
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task499_extract_and_add_all_numbers_from_list
+user_prompt_template: '{task_def}
+
+
+  {problem}'

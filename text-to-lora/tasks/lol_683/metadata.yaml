@@ -1,0 +1,456 @@
+assistant_prefill: ''
+descriptions:
+- Interpret various sections of privacy policy texts with a focus on uncovering stated
+  intentions behind gathering user information.
+- Tasked with analyzing passages from privacy policies, your objective is to extract
+  the intended use of sensitive information, looking for clear directives within the
+  text.
+- Analyze snippets from privacy policies to identify the described purposes of user
+  information collection and provide a clear answer based on the given text.
+- Assess the shown text from a privacy policy to identify any specific purposes associated
+  with the collection of personal information mentioned.
+- Your job is to sift through excerpts from privacy policies to uncover what specific
+  uses, if any, are articulated regarding user information collection.
+- Your objective is to explore relevant parts of privacy policies, extracting explicit
+  mentions regarding how user data is planned to be utilized by third parties or organizations.
+- Scrutinize excerpts from various privacy policies and draw out explicit statements
+  detailing how user information is planned to be used or managed.
+- The goal is to review sections of privacy policies and summarize the specified objectives
+  for collecting user information as described in those texts.
+- In this task, you're tasked with interpreting legal language found in privacy policies
+  to determine explicit purposes for data collection as articulated in the text.
+- Your task is to read a segment of privacy policy text and determine the purpose
+  for which user information is collected or used. Knowledge of privacy policies is
+  essential.
+- You are tasked with scrutinizing parts of privacy agreements to convey the purposes
+  of user data collection clearly.
+- This task focuses on understanding privacy policies by analyzing excerpts to determine
+  how user information is intended to be used, based directly on the text.
+- Your task is to analyze a section of privacy policy text and determine the specific
+  purpose for which user data is collected or used.
+- The task involves closely examining provided portions of privacy policy content
+  to retrieve information regarding intended uses for collected data or its management.
+- "Break down sections of privacy policies to reveal explicit uses of personal information\
+  \ as outlined in those texts\u2014recognizing instances where such insights are\
+  \ absent."
+- Analyze the provided privacy policy excerpt to identify specific purposes for data
+  collection. You'll need to evaluate the text carefully to extract relevant information
+  about user data usage.
+- Review a section of a privacy policy and summarize its intent regarding user information
+  usage. Understanding the structure of such policies will aid in your assessment.
+- Scrutinize excerpts from privacy policies to ascertain specific reasons provided
+  for gathering personal information from users as per their statements.
+- Analyze sections of privacy policies for clues about the reasons behind data collection
+  practices, focusing on any clear statements related to user information use.
+- "Interpret segments of privacy policies, focusing on determining their precise objectives\
+  \ for collecting user data based on what\u2019s explained in the excerpt."
+- "Look into provided portions of privacy policies to articulate their respective\
+  \ intentions regarding user data utilization, highlighting when those intentions\
+  \ aren\u2019t clear-cut."
+- Your task is to read a segment of privacy policy text and determine the specific
+  purpose for which user information is gathered. This requires an understanding of
+  language and context.
+- Identify and express the reasons listed within excerpts of privacy policy texts
+  concerning user data collection, focusing on accurately reflecting what's presented
+  in each snippet.
+- Analyze specified parts of privacy policies to draw conclusions about their purpose
+  in gathering personal information or observing when it remains undefined.
+- Investigate snippets from various privacy policies to find out the purposes indicated
+  for collecting personal information, navigating through potentially ambiguous phrases
+  properly.
+- Read through the provided privacy statements and highlight how they specify using
+  collected user data, identifying particular uses mentioned in them.
+- Your job is to sift through segments of privacy policy texts that may explain how
+  user information will be used, honing your analytical reading skills on legal verbiage.
+- The challenge involves identifying stated purposes within snippets of privacy policy
+  text regarding user information collection, where precision in reading will be necessary.
+- Review the text from a privacy policy and pinpoint the reasoning behind collecting
+  user data. If the purpose isn't clearly mentioned, you'll classify it accordingly.
+- The goal is to extract from privacy policy excerpts the intended use of user data,
+  making sure to reference only the information stated in the text.
+- Identify and articulate the purposes cited in privacy policy fragments regarding
+  how personal information may be collected and used by organizations.
+- Analyze the provided privacy policy text to extract information about how user data
+  is utilized. You need to identify explicit mentions of its purpose.
+- Review the provided sections of privacy policies to find out why user data is collected,
+  making sure to pay attention to specific wording that defines these purposes.
+- Dive into selected sections of privacy documents to identify and clarify any stated
+  uses for collecting personal information from users.
+- Delve into privacy policy text and extract any explicit purposes outlined for the
+  gathering of user information, if available in the text.
+- Examine various portions of privacy policy texts and discern what they reveal regarding
+  the collection and utilization of user information.
+- Evaluate short texts derived from privacy policies to clarify how user information
+  is to be utilized or if such a purpose is not provided.
+- "It\u2019s your responsibility to find and articulate the outlined uses of user\
+  \ data within given segments of privacy policies."
+- From segments of privacy policies, pinpoint what reasons are given for gathering
+  user data, distinguishing between clearly stated purposes and vague references.
+- The goal is to comprehend quotations from privacy policies and directly relate them
+  to the purposes of data collection as specified in the text.
+- In this exercise, read privacy policy excerpts and summarize their stated intentions
+  regarding user data collection, ensuring clarity and accuracy in your findings.
+- Scrutinize parts of privacy policies to derive clear explanations regarding the
+  usage intentions associated with personal data collection.
+- You will review sections of privacy agreements to discern what user information
+  is used for, based on explicit descriptions found within the text.
+- Analyze statements from privacy policies to discern what purposes are articulated
+  for user data collection efforts.
+- Extract and specify the purpose of information collection from a given text in a
+  privacy policy. This requires comprehension of legal language and data usage contexts.
+- Comprehensively analyze fragments of privacy policies where user data collection
+  practices are discussed, concentrating on accurately capturing outlined objectives
+  based on what is presented.
+- Engage with fragments of privacy policies to discern the purposes behind user data
+  collection. Your ability to analyze textual detail will be essential here.
+- This task requires you to carefully read sections of privacy policy texts and identify
+  any stated reasons for collecting user information, striving for precision in your
+  response.
+- Your role is to interpret segments of privacy policies in order to clarify the intended
+  use of personal information, ensuring thorough comprehension of context and intent.
+- This task consists of identifying any directly mentioned reasons for collecting
+  personal information within privacy policy excerpts.
+- Your objective is to identify clearly stated purposes for user information that
+  appear in privacy policy excerpts. Attention to detail is crucial in discerning
+  vague or unspecified intentions.
+- Review segments of privacy policies to clarify the purposes for which data is gathered,
+  responding with relevant terms from the text.
+- In this task, you will evaluate snippets of privacy policies and derive what user
+  data is collected for. If no clear purpose is stated, you must indicate that as
+  well.
+- Read the given sections from privacy policies carefully and note what reasons are
+  listed for collecting user information. Clarity in legal language interpretation
+  will be beneficial.
+- You are tasked with inspecting passages from privacy policies to reveal how organizations
+  state they intend to use user information collected.
+- Analyze paragraphs from privacy policies with an eye for recognizing explicit purposes
+  of user information as indicated in the texts.
+- Your role involves interpreting segments from privacy policies and summarizing intended
+  uses for collected information, allowing you to navigate legal language effectively.
+- Your role is to sift through privacy policy excerpts and expose the explicit purposes
+  for which user information is being gathered.
+- Evaluate segments of privacy policies with a focus on extracting clearly defined
+  purposes for collecting user data while noting when no specifics are communicated.
+- "The focus here is on understanding references within privacy policy statements\
+  \ related to the collection\u2014interpreting their declared uses of personal user\
+  \ information."
+- Your job involves parsing through given text from privacy policies to identify any
+  stated justifications for collecting user information.
+- Critically assess sections of privacy policies to identify any legitimate purposes
+  for which personal information may be utilized according to the guidelines.
+- Check the provided privacy policy excerpts and pinpoint the stated purposes behind
+  user data collection, focusing on key phrases within the text.
+- Your challenge is to interpret guidelines in privacy policy excerpts and outline
+  any specific reasons given for the collection of personal information about users.
+- The objective here is to investigate parts of stated privacy practices and denote
+  any clear objectives regarding the gathering of user data as indicated in the text.
+- Assess specific parts of a privacy policy to clarify how and why user information
+  is collected. This task calls for careful reading and comprehension skills.
+- You will examine excerpts of privacy policies to identify the reasons for data collection,
+  ensuring you accurately capture the intent described in the text.
+- Your focus will be on differentiating between clearly stated reasons for data use
+  versus instances where no purpose is defined in the policy text.
+- Your role is to interpret specific parts of privacy policies to uncover the intentions
+  behind collecting user data and formulate an appropriate response based on those
+  interpretations.
+- Analyze snippets from privacy policies to pinpoint how organizations declare they
+  will handle user information, emphasizing any specific uses indicated.
+- Analyze a given section of a privacy policy to extract the stated reason for using
+  user data. If no clear purpose is mentioned, indicate it as 'Not Specified'.
+- Engage with short sections of privacy texts to identify purpose-driven phrases regarding
+  user information collection that are explicitly expressed within them.
+- You will read excerpts from various privacy policies and identify any declared purposes
+  for data usage, or determine if such purposes are not specified.
+- Read the provided privacy policy excerpts, then identify and state the reasons for
+  data collection mentioned in the text.
+- "This task requires you to closely interpret privacy policy sections and clarify\
+  \ how user data is utilized according to what\u2019s outlined in those texts."
+- Analyze provided excerpts from privacy policies to identify how user data is utilized,
+  focusing on the stated purposes.
+- You will review given snippets of privacy policies to extract and articulate the
+  stated purposes behind gathering user data.
+- Examine the provided portions of privacy policies and determine the stated purposes
+  related to the collection and use of personal data.
+- Engage with passages from privacy policies and extract the purposes for which personal
+  data is handled or collected by organizations based on their own disclosures.
+- The goal is to interpret privacy policy texts and reveal the motivations behind
+  collecting user details as specified within those texts.
+- Interpret snippets of privacy policy documentation and summarize the usage intentions
+  for user data, as explicitly mentioned within those documents.
+- Analyze provided policy text to find out how and why user data is being collected,
+  focusing solely on specified purposes.
+- The objective is to interpret parts of privacy policies to uncover the reasons behind
+  user information collection, noting the specific purposes mentioned.
+- Your task is to read a fragment of a privacy policy and identify the specific reasons
+  for collecting user information mentioned within it.
+- Scrutinize portions of privacy policy texts with the aim of determining how user
+  information is utilized, paying close attention to any direct indicators provided
+  in the text.
+- Examine provided pieces of policy text to articulate and cite the reasons for collecting
+  personal data. Responses should reflect what is specifically mentioned.
+- This task requires you to interpret snippets from privacy documents and pinpoint
+  the reasons behind collecting user information as specified in the text.
+- Review snippets of privacy documentation for insights into how organizations express
+  their reasons for collecting user data, centered on what's explicitly stated in
+  those texts.
+- Review the provided privacy policy text and extract the purpose behind collecting
+  user information, keeping an eye out for explicit details mentioned.
+- Examine parts of a privacy policy to determine the intended use of user information,
+  focusing solely on what is explicitly stated.
+- Focus on the language used in privacy policies, and determine what uses are outlined
+  for user information according to the text.
+- Identify and extract the reasons given for collecting user information in privacy
+  policy excerpts. If a purpose isn't clearly defined, respond with 'Not Specified'.
+- Interpret brief passages of privacy policies to uncover what user information is
+  gathered for and how it will be used, as indicated by the text itself.
+- You need to interpret segments of privacy policy text to clarify the objectives
+  behind user data collection practices, using your critical reading skills to find
+  specific purposes.
+- Read segments of privacy policies to ascertain the motivations for collecting information
+  from users as described in the text.
+- Scrutinize excerpts from privacy policies and articulate the purposes mentioned
+  for collecting user data. A good understanding of common practices and terminology
+  in this field will aid you.
+- Focus on specific parts of privacy policies to extract information about why user
+  data is being collected, paying close attention to details.
+- In this task, you will scrutinize excerpts from privacy policies to pinpoint how
+  user data is intended to be used according to the language used in those excerpts.
+- Review selections from various privacy policies and identify how they communicate
+  the intended uses of user information.
+- Review provided lines from privacy policies to determine exact purposes specified
+  for collecting personal information, aiming for precision in your response.
+- Delve into given privacy policies and extract precise reasons for collecting user
+  data, noting when such purposes are omitted or unclear.
+- You need to critically assess parts of privacy policy documents to identify why
+  an organization collects user data. Understanding legal language may assist in this
+  analysis.
+- Analyze portions of privacy policy text with a focus on determining the reasons
+  why user data is gathered, utilizing your familiarity with definitions commonly
+  found in such policies.
+- Read and interpret fragments from various privacy policies to establish the purposes
+  outlined for user information collection, ensuring you reflect what is explicitly
+  mentioned.
+- You will analyze sections of privacy policies to extract the intended purposes behind
+  the collection and use of user data.
+- Investigate selected parts of privacy policies to extract specific reasons for data
+  use, considering both explicit and implicit claims about user information handling.
+- "Your role involves pinpointing the stated intentions regarding user data usage\
+  \ as described in snippets from privacy policies\u2014indicating when such details\
+  \ aren\u2019t mentioned."
+- You will examine snippets of privacy policy documents and determine the intended
+  uses of user information based on the content provided.
+- Look at instances of privacy policy text and identify if there are declared reasons
+  for collecting user information. If not, clearly note that.
+- Read and analyze parts of privacy policy texts with a focus on extracting specific
+  purposes or intentions relating to user data usage, where applicable.
+- Determine from sections of privacy policies what purposes exist for collecting user
+  data, highlighting any mentions directly referred to in the text.
+- Your task is to sift through privacy policy details and highlight exactly why user
+  information might be needed or utilized.
+- Analyze specified parts of privacy policy texts with an aim to uncover directives
+  pertaining to why user data is collected or utilized according to what's stated.
+- "Your responsibility is to evaluate portions of privacy policies and pinpoint what\
+  \ the organization collects user information for\u2014whether it\u2019s analytics,\
+  \ advertising, or more."
+- Your objective involves determining the specific uses or goals related to user information
+  as articulated in the privacy policy snippets offered.
+- Read sections of privacy policies and highlight the reasons given for collecting
+  information from users, paying attention to direct mentions in the text.
+- Assess passages from privacy policies to ascertain the defined purposes relating
+  to the collection of user information, honing in on phrases that reveal such intents.
+- Scrutinize parts of privacy policies to determine the motivations behind user data
+  collection, contrasting clear explanations with general or ambiguous phrases.
+- Evaluate brief passages from privacy policies and determine the clearly articulated
+  intentions behind the collection and application of user information.
+- Focus on evaluating privacy policy sections, identifying specific intentions or
+  categories listed regarding how personal information will be used or processed by
+  entities.
+- Analyze segments of privacy policies to extract the purposes for which user data
+  is collected, ensuring you directly reference the text provided.
+- Your task involves interpreting privacy policy language to clarify how personal
+  information is used and for what purposes that are detailed in the text.
+- Examine excerpts from privacy policies to identify how user information is utilized
+  according to the specified terms within the text.
+- "Focus on understanding various privacy policy excerpts, extracting any outlined\
+  \ purposes for which user data is collected or recognizing when such details aren\u2019\
+  t provided."
+- Engage with segments of privacy policy content by identifying explicit mentions
+  of how or why personal information is gathered from users, aiming for clarity in
+  your extraction process.
+- In this task, you'll examine excerpts from privacy policies to determine how and
+  why user information will be utilized according to the text.
+- Evaluate snippets from privacy documents to discover any stated purposes for data
+  gains by companies or websites.
+- "Evaluate selected excerpts from various privacy policies with the aim of identifying\
+  \ articulated reasons for collecting personal information\u2014an analytical mindset\
+  \ will serve you well here."
+- Your mission involves examining parts of privacy policy texts closely to recognize
+  any articulated purposes related to gathering user information and responding in
+  keeping with those findings.
+- This task centers on elucidating the specified reasons for user data collection
+  as outlined in portions of privacy policy text, with a focus on faithful interpretation.
+- In reviewing privacy policy excerpts, your goal is to identify and clarify how user
+  information may be utilized based on the definitions provided in the text.
+- Delve into privacy policy statements to discern the intentions behind data collection.
+  Aim to provide concise and accurate purposes as specified in the text.
+- Review excerpts from privacy policies, concentrating on identifying how personal
+  information will be employed according to what is written therein.
+- Extract and articulate the specific intentions behind gathering user data from provided
+  parts of privacy policies, relying solely on what is stated there.
+- Your focus will be on analyzing excerpts from privacy policies to discern the purposes
+  that underpin the collection of user data as explicitly mentioned.
+- This task requires you to interpret privacy-related content and clarify how user
+  information is utilized, selecting the respective purpose from the provided information.
+- Analyze selected fragments from privacy policies and seek out clear declarations
+  regarding how organizations plan to use collected user information.
+- The task is centered on investigating statements within privacy policy texts regarding
+  how user information may be utilized. Understanding common purposes in such documents
+  is helpful.
+- Through reading selections from privacy policies, your goal is to identify specific
+  uses for collected data as mentioned in the text. This may rely on both implied
+  and explicit language cues.
+- Comment on and summarize what is stated in privacy policy texts about the collection
+  of user data, focusing specifically on any outlined objectives behind this practice.
+- Assess the content of privacy policies to find out the declared purposes for which
+  personal information is obtained by the service, taking care to note any that remain
+  unspecified.
+- You will be tasked with distilling the essence of privacy policy excerpts by identifying
+  the specific uses for user data outlined in those policies.
+- Your goal is to sift through portions of privacy texts to uncover and state the
+  specific purposes for which an entity collects user data as outlined within those
+  sections.
+- Gather insights from snippets of privacy policy texts to clarify the purpose behind
+  personal data collection efforts stated therein, marking any moments of ambiguity.
+- The goal is to carefully interpret privacy policy excerpts, identifying what each
+  text states about data usage intentions.
+- In this task, you focus on confidently summarizing the intentions behind data collection
+  as mentioned in privacy guidelines.
+- Engage with privacy policy documents in order to identify and articulate the reasons
+  for which companies collect user data, based on textual evidence.
+- Your task is to read and understand segments of privacy policies and identify how
+  user information is utilized based on the provided text.
+- Your task is to analyze segments of privacy policies and pinpoint the specific purposes
+  for which user information is collected.
+- In this activity, your role is to read excerpts from privacy policies and determine
+  how they specify that user data will be used based on their content.
+- Evaluate the content of privacy policies, looking for direct mentions of what user
+  information is collected for.
+- This task requires you to interpret policy texts and pinpoint the specific objectives
+  for which personal information is gathered.
+- Your task involves reading a snippet of a privacy policy and pinpointing the specific
+  purpose for collecting user information as stated in the text provided.
+- Analyze the details within excerpts of privacy policies and draw conclusions about
+  their intent regarding information collection, conveying these findings succinctly.
+- Assess snippets of text from privacy policies to discover any declared reasons for
+  the collection and use of personal data.
+- The task requires you to understand and summarize the reasons for data collection
+  based on provided excerpts from privacy agreements.
+- Spot and summarize the reasons mentioned in snippets of privacy policies concerning
+  why user data is collected or used as articulated in those statements.
+- Your role here is to delve into parts of privacy texts to extract meaningful insights
+  about data usage intentions articulated by the policy.
+- "In this task, you\u2019re called upon to parse through privacy texts and isolate\
+  \ each purpose tied to user data collection, ensuring you adhere strictly to what\u2019\
+  s mentioned."
+- Examine the information in privacy policies to specify the goals or reasons for
+  gathering user data.
+- Identify how user data will be used based on the information outlined in the privacy
+  policies presented to you.
+- Examine sections of privacy policies to uncover the reasons for data collection.
+  This involves critically evaluating the wording and context presented.
+- Investigate provided excerpts from privacy policies to pinpoint and disclose any
+  purposes given for collecting user information.
+- In this task, your mission is to pinpoint explicit uses for collected user data
+  as detailed in buried clauses of privacy statements you review, requiring acute
+  attention.
+- Review segments of privacy policies and identify what user information is being
+  collected for, highlighting purposes like advertising, analytics, or other detailed
+  uses.
+- You are tasked with reading snippets from privacy policies and determining the specific
+  purposes for which user information is utilized, relying strictly on textual evidence.
+- Delve into fragments of privacy policies where user data collection practices are
+  discussed. Extracting or indicating purpose based on text will be central to your
+  task.
+- Investigate specific wording in privacy policies to reveal underlying reasons behind
+  user data collection while discerning cases where clarity is lacking.
+- Determine the intentions behind user information collection by analyzing related
+  excerpts from privacy policies. Your interpretive skills are key to decoding this
+  content.
+- Your responsibility involves reviewing provided excerpts from privacy policies to
+  ascertain any listed purposes related to user information collection.
+- Your job is to interpret snippets of privacy policy text and recognize the stated
+  purposes for gathering personal information, or acknowledge if they are not directly
+  outlined.
+- Extract meaningful insights from portions of privacy policies regarding the use
+  of collected user data, ensuring that your identification of purposes aligns with
+  what is expressed in the text.
+- You will interpret fragments of privacy texts and determine whether a purpose for
+  data collection is made clear or remains unspecified.
+- Analyze the given privacy policy excerpt to extract the specific purpose for which
+  user data is collected, focusing on any stated intentions within the text.
+- Your role involves dissecting privacy policy language to pinpoint the stated aims
+  of user information collection, enabling informed insights into data usage.
+- This task involves reading privacy policy fragments and pinpointing the stated use
+  of collected user information, relying on your understanding of data privacy practices.
+- You are required to extract and clarify the intentions behind user data collection
+  mentioned in privacy policy snippets, focusing on understanding how user information
+  will be used.
+- Your objective is to dissect segments of privacy policy text to discern the specific
+  purposes for which personal data is gathered from users.
+- This task requires you to delve into snippets of privacy policy language to uncover
+  the motivations for gathering user information stated in each section.
+- Your role is to scrutinize policy wording about data collection practices to uncover
+  stated purposes. Familiarity with data privacy norms will enhance your analysis.
+- Take a close look at segments of privacy policies and derive meanings concerning
+  the motives for collecting user information as mentioned in those sections.
+- Examine policy statements to clearly articulate the underlying reasons behind using
+  or gathering user-specific data.
+- Your assignment is to carefully read sections of privacy policies and highlight
+  any mentioned uses or goals behind collecting user data.
+- Analyze privacy policy statements and specify the intent or justification for collecting
+  user information, while indicating if no clear purpose is presented.
+- Ascertain the aims behind collecting user information as per outlined terms in privacy
+  policies you analyze, while being vigilant for non-specific language.
+- The assignment involves interpreting parts of privacy policies to find out why user
+  data is being collected. It's crucial to distinguish between specified purposes
+  and vague descriptions.
+- Engage with bits of privacy statements to extract purposes behind user information
+  collection. Careful reading is essential to accurately identify these intentions.
+- Your job is to evaluate privacy policy statements to identify and clarify how user
+  information is being utilized or collected.
+- You will need to distill key phrases from privacy policies that explain why user
+  information is collected or stored.
+- Your mission is to interpret parts of privacy policies and clarify what user data
+  is intended for, as specified in the content.
+- Determine and state the reasons for user information collection mentioned in short
+  passages of privacy policies, emphasizing clarity and accuracy in your conclusions.
+- This task involves reading excerpts from privacy policies and determining the reasons
+  for collecting user information based on the provided text.
+- Carefully examine sections of privacy policies to disclose specific expectations
+  regarding user data utilization, necessitating comprehension and interpretation
+  of nuanced language.
+- The task is to dissect given privacy policy text sections with precision to identify
+  any outlined purposes concerning user data collection and utilization.
+- Review pieces of policy documents so you can identify clear reasons behind collecting
+  user data, focusing solely on each excerpt's content.
+- Seek out clear descriptions within privacy policies that elaborate on data collection
+  purposes while also noting any instances where such information is labeled as unspecified.
+- You will examine snippets of privacy policies to discern the rationale behind collecting
+  user details. Identifying clear statements will guide your response.
+- Your job involves scrutinizing snippets of policy texts to isolate the explicit
+  purposes associated with user information collection.
+- Your task is to read sections of privacy policy text and extract the specific reasons
+  for which user information is collected, if mentioned.
+- Your task is to examine excerpts from privacy policies and determine the specific
+  reasons for collecting user data as stated in the text.
+ds_kwargs:
+  path: Lots-of-LoRAs/task683_online_privacy_policy_text_purpose_answer_generation
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task683_online_privacy_policy_text_purpose_answer_generation
+user_prompt_template: '{task_def}
+
+
+  {problem}'

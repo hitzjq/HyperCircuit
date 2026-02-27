@@ -1,0 +1,516 @@
+assistant_prefill: ''
+descriptions:
+- In this task, you will evaluate short excerpts and categorize them into two groups
+  based on their portrayal of stereotypes.
+- The goal is to classify each passage as either a stereotype that simplifies a group's
+  traits or an anti-stereotype that defies common assumptions.
+- You will be tasked with identifying narratives in brief texts. Your focus should
+  be on discerning whether they conform to stereotypes about specific demographics
+  or provide contrasting viewpoints.
+- Analyze brief statements regarding particular social identities to discern if they
+  express conventional stereotypes or instead offer perspectives that reject those
+  generalized views.
+- You will be presented with snippets of text that depict certain behaviors or characteristics;
+  your role is to identify if these fit into the framework of overgeneralizations
+  or if they push back against such notions.
+- In this task, you are asked to assess narratives focusing on specific groups and
+  categorize them either as stereotypical views or non-stereotypical views.
+- Evaluate each passage to see if it conveys stereotypical beliefs about a certain
+  group of people, or if it counters those beliefs with an anti-stereotypical perspective.
+- The job involves scrutinizing short passages for underlying messages about people's
+  behaviors in relation to their group identity, classifying them as either stereotype-driven
+  or oppositional in nature.
+- You will look at various statements regarding social groups and decide if they express
+  a stereotypical notion or an anti-stereotypical perspective that undermines such
+  notions.
+- Examine the meanings behind passages that present general beliefs about groups,
+  assessing whether they depict a stereotype or a view that opposes typical notions.
+- This exercise involves evaluating brief writings for underlying biases, determining
+  if they serve to stereotype certain groups or present a dissenting view that counters
+  these stereotypes.
+- By examining short pieces of writing, you will need to discern their alignment with
+  societal beliefs about specific demographics. Understanding both stereotypes and
+  counter-narratives is essential.
+- Your job is to identify the underlying message in each passage, determining whether
+  it perpetuates stereotypes or acts against them as an anti-stereotype.
+- Examine the provided text to assess whether it supports a generalization about a
+  group or if it stands in opposition to that stereotype.
+- 'Analyze the provided texts to classify them into two categories: those that reinforce
+  common stereotypes and those that challenge or contradict them.'
+- Engage critically with each presented idea to discern if it supports typical assumptions
+  about groups of people or introduces a counter-argument against such generalized
+  beliefs.
+- The task involves analyzing short passages to identify whether they represent a
+  stereotype or an anti-stereotype. Understanding social attitudes and beliefs about
+  different groups is essential.
+- Understand the context and content of passages that represent perceptions of certain
+  groups, then categorize them based on whether they align with common stereotypes.
+- This task involves reading and interpreting short texts, where you need to determine
+  whether each passage adheres to stereotype conventions or provides an anti-stereotypical
+  viewpoint.
+- The aim is to interpret brief statements and discern if they convey typical stereotypes
+  or counter-stereotypes, requiring critical thinking about societal beliefs.
+- You are tasked with reviewing snippets of text for narratives that either conform
+  to established stereotypes or actively work against them, aiming to make accurate
+  classifications.
+- You'll engage in classifying brief discussions around groups of people by discerning
+  which ones align with stereotypical assumptions versus those offering different
+  insights.
+- Your job is to read short passages and categorize them as either stereotypes or
+  anti-stereotypes based on their portrayal of specific groups of people.
+- In this evaluation, you'll read about various traits associated with groups and
+  classify the passages based on whether they reflect stereotypes or provide anti-stereotypical
+  views.
+- The task here is straightforward; you'll need to sift through texts, identifying
+  and classifying them as either reinforcing societal stereotypes or as providing
+  a more inclusive perspective.
+- You are required to interpret brief narratives about social identity and decide
+  if they convey over-generalized beliefs or if they present a more nuanced understanding
+  that contradicts common stereotypes.
+- Your task is to read a passage and determine whether it expresses a stereotype or
+  an anti-stereotype regarding a specific group of people.
+- Your role is to sift through narratives discussing different demographics and assess
+  whether they classify as stereotypical assumptions or defy those assumptions.
+- The mission is to assess samples of expression concerning social identities, categorizing
+  them as either conforming to accepted stereotypes or breaking from those molds by
+  illustrating anti-stereotypical concepts.
+- The task consists of assessing short written pieces that either reinforce generalized
+  views of groups (stereotyping) or present nuanced perspectives that directly oppose
+  those views (anti-stereotyping).
+- Your task is to read a short passage and determine whether it expresses a stereotype
+  or an anti-stereotype related to a social group.
+- Your job is to scrutinize the passages for hints at general attitudes toward people
+  from specific backgrounds, aiming to sort them into stereotype or anti-stereotype
+  categories.
+- In this activity, you will evaluate short texts and classify them as either stereotypes,
+  which reflect generalized beliefs about groups, or anti-stereotypes, which contradict
+  those beliefs.
+- Interpret passages to find out if they support a common stereotype about a demographic
+  or represent an anti-stereotype that defies that stereotype.
+- This task revolves around interpreting condensed narratives focusing on specific
+  social groups and appraising whether they reproduce stereotypical beliefs or contest
+  those notions convincingly.
+- You will evaluate passages that depict different perspectives on social groups and
+  decide if they reinforce stereotypes or provide counterexamples.
+- Examine the supplied passages for themes related to group perceptions. Determine
+  if the statements made tilt towards stereotypes or present an alternative viewpoint,
+  deeming them as anti-stereotypes.
+- "Your job is to read through given passages and categorize them based on their alignment\
+  \ with cultural beliefs about particular groups\u2014deciding if they reinforce\
+  \ or resist stereotypes."
+- Your role is to differentiate between statements that perpetuate stereotypes and
+  those that offer an alternative perspective, known as anti-stereotypes.
+- You will analyze a given statement about a group and classify it as either reinforcing
+  common stereotypes or challenging such assumptions.
+- You will sift through short descriptions and determine if they encapsulate a broad
+  assumption about a group of people or challenge those assumptions instead.
+- You are expected to evaluate textual passages for overarching themes about groups
+  of people, identifying whether the content supports generalized views or contradicts
+  them with nuanced representations.
+- "Your focus is on interpreting writings for underlying themes that either reflect\
+  \ societal clich\xE9s about certain groups or challenge those beliefs entirely."
+- This task requires you to interpret short statements and determine if they convey
+  conventional stereotypes or present anti-stereotyping ideas. Saavy recognition of
+  social cues is beneficial.
+- "The challenge is to identify the nature of brief passages in relation to societal\
+  \ groups\u2014recognizing whether they reinforce stereotypical frameworks or embody\
+  \ ideas that push against such generalizations."
+- The task involves interpreting short texts for their implications about societal
+  perceptions and judging whether they conform to stereotypes or reject them.
+- As you engage with the material, classify statements according to whether they reflect
+  oversimplified notions about groups of people or go against these mainstream perceptions
+  with anti-stereotypical remarks.
+- Each passage presents a scenario involving social stereotypes; your goal is to identify
+  whether these representations are stereotypical or go against established norms.
+- This task encompasses the analysis of concise narratives where you'll judge if they
+  embody typical patterns of thought regarding certain groups or push against those
+  thought patterns with alternative perspectives.
+- Read each passage carefully and decide if it presents an over-generalized belief
+  about a group or if it provides a narrative that counters common stereotypes.
+- Analyze short excerpts for their thematic content and classify them based on whether
+  they echo established stereotypes or convey an alternative narrative that debunks
+  those views.
+- You will identify and sort passages based on their alignment with stereotypes or
+  their role in countering those narrow perspectives.
+- Your task is to read statements and determine if they reflect over-generalizations
+  about particular demographics or if they contest such notions effectively.
+- The objective is to evaluate snippets of information for their characterization
+  of people from different backgrounds and ascertain their classification as either
+  stereotype or anti-stereotype.
+- In this task, you will work with short texts that discuss ideas about characteristics
+  of groups, and you must sort these ideas into either stereotypical or anti-stereotypical
+  categories.
+- Read each provided passage thoughtfully and judge its message regarding societal
+  beliefs about individuals from various backgrounds, categorizing it accordingly.
+- "The task is to carefully read through short narratives and classify them according\
+  \ to their alignment with societal perspectives on various demographics\u2014either\
+  \ as stereotypes or anti-stereotypes."
+- Interpret the provided excerpts for their portrayals of social groups and classify
+  them as either perpetuating stereotypes or presenting anti-stereotypes.
+- Analyze brief descriptions that communicate ideas about specific groups, classifying
+  them into stereotype or anti-stereotype categories based on their messages.
+- "You will classify passages based on whether they uphold traditional views about\
+  \ groups\u2014as stereotypes\u2014or challenge those ideas as anti-stereotypes,\
+  \ fostering discussion around societal norms."
+- Analyze the content of short writings that relate to societal stereotypes. You must
+  categorize them according to whether they embody common beliefs about groups or
+  challenge those beliefs.
+- This task requires you to evaluate short passages for stereotypes, which are generalized
+  views about groups of people, and anti-stereotypes, which counter those generalizations.
+- Analyze the provided text to identify if it reinforces a generalization about a
+  specific group of people or if it challenges such generalizations.
+- Determine how each passage aligns with societal beliefs about specific groups by
+  distinguishing between stereotypical attitudes and those that counteract such stereotypes.
+- Analyze brief narratives for their portrayal of individuals within certain groups
+  and determine if these portrayals reflect ingrained stereotypes or present alternative
+  viewpoints.
+- Assess short pieces of text to determine if they reflect established societal beliefs
+  about particular groups or if they offer an alternative perspective that goes against
+  those beliefs.
+- In this activity, you need to interpret short writings to judge whether they support
+  a misleading generalization about a group or if they push back against it.
+- In this task, you will be analyzing text snippets that reflect common beliefs about
+  various groups, deciding if each passage expresses typical stereotypes or serves
+  as an anti-stereotype. Awareness of cultural narratives is crucial.
+- You are tasked with identifying messages in short writings concerning social groups.
+  Determine if they reflect over-generalized beliefs or challenge those norms.
+- This activity involves interpreting statements about various groups and deciding
+  if they reflect exaggerated beliefs (stereotypes) or ideas that oppose these beliefs
+  (anti-stereotypes).
+- You will read various passages and decide whether each one supports a prevailing
+  stereotype or presents an anti-stereotype, showcasing different perspectives about
+  certain groups.
+- Examine the provided passages for implications about societal norms related to specific
+  groups and render judgments on whether they fit into stereotype or anti-stereotype
+  categories.
+- The task at hand is to read through statements regarding different communities and
+  identify whether they perpetuate common misconceptions or counter them.
+- The objective of this task is to classify given passages according to whether they
+  endorse stereotypes or offer anti-stereotypes, necessitating an understanding of
+  societal constructs regarding identity.
+- You are to examine brief statements that may express over-generalized beliefs about
+  certain people and classify them accordingly as stereotype or anti-stereotype.
+- 'Read passages sharing insights on characteristics attributed to various groups
+  and classify them into two distinct categories: those that support stereotypes and
+  those that refute them.'
+- Assess short pieces of text by evaluating their stance on perceptions about societal
+  groups and deciding their relevance to either stereotypical beliefs or opposing
+  views.
+- This task focuses on classifying passages that either reinforce or challenge common
+  stereotypes about various demographic groups. Critical thinking about bias and fairness
+  plays a key role.
+- Your focus will be on short descriptions that either promote generalized beliefs
+  regarding certain demographics or refute them. Skill in critical reading will assist
+  your classifications.
+- You are given the challenge of reading passages and identifying whether they showcase
+  conventional stereotyping patterns or oppose these patterns through an anti-stereotypical
+  lens.
+- "You are tasked with reading passages that reflect societal views, determining if\
+  \ they perpetuate stereotypes or go against them. Insight into cultural clich\xE9\
+  s is crucial for success."
+- In this task, you'll examine short passages to ascertain whether they uphold typical
+  assumptions about a group or counteract them. Familiarity with cultural narratives
+  will aid in your judgments.
+- You will critically analyze brief narratives that discuss social identities to ascertain
+  whether they perpetuate stereotypes or disrupt such generalizations through their
+  content.
+- 'The challenge here is to evaluate texts and sort them into two categories: stereotypes
+  or anti-stereotypes. You''ll need to think critically about the language used and
+  its implications on societal views.'
+- 'You will be classifying textual examples that relate to social beliefs about different
+  demographics into two categories: stereotype or anti-stereotype.'
+- Read the provided passages carefully. Your task is to identify if they showcase
+  an over-generalization about a group (stereotype) or if they contradict such generalizations
+  (anti-stereotype).
+- You must analyze brief narratives to discern whether they align with societal preconceptions
+  about groups or provide contrary viewpoints to those ideas.
+- The goal is to carefully review each passage and discern whether it reinforces prejudiced
+  views about a demographic or reflects a view that challenges those biases.
+- "In this task, you need to read short descriptions and classify them as stereotypes\u2014\
+  which are misleading assumptions\u2014or as anti-stereotypes that disprove these\
+  \ assumptions."
+- Your objective is to interpret excerpts depicting various individuals and judge
+  whether they reflect stereotypical thinking or provide fresh insights that contradict
+  standard beliefs.
+- Your role is to distinguish between stereotypical and anti-stereotypical narratives
+  in given texts. A good grasp of social norms and cultural conversations is necessary
+  for accurate classification.
+- Identify whether the passages reflect negative generalizations about certain groups
+  of people or if they present enlightened viewpoints that challenge these perspectives.
+- Your task is to analyze passages for underlying messages about specific groups of
+  people to identify whether they reflect stereotypes or anti-stereotypes.
+- For each passage, determine if the content reflects a common stereotype associated
+  with a specific group or if it presents a counter-narrative that challenges prevailing
+  perceptions.
+- "This task involves identifying the nature of presented ideas in short passages\
+  \ as either stereotypes\u2014over-simplified beliefs\u2014or anti-stereotypes, which\
+  \ contest these notions."
+- You'll be assessing text inputs for societal implications, distinguishing between
+  reinforcing negative stereotypes and advocating for broader understanding through
+  anti-stereotypes.
+- By reading the provided excerpts, you'll classify the statements as reflecting problematic
+  assumptions (stereotypes) or as presenting alternative viewpoints that challenge
+  these assumptions (anti-stereotypes).
+- Delve into each statement provided and decide its congruence with established perceptions
+  of various demographics, identifying it as either a stereotype or an anti-stereotype.
+- This task requires you to critically review brief narratives and differentiate between
+  stereotypical representations and those that undermine such simplified views.
+- In this activity, your analytical skills will help you pinpoint stereotypes versus
+  anti-stereotypes portrayed in excerpts discussing various identities and social
+  roles.
+- In each case, determine if the passage embodies simplified beliefs about a certain
+  group of people (stereotype) or offers a more complex understanding that contradicts
+  these views (anti-stereotype).
+- Read through the selected phrases and decide if they align with typical societal
+  attitudes toward certain groups (stereotypes) or if they present fresh perspectives
+  that resist these stereotypes (anti-stereotypes).
+- Your job is to read and classify snippets of text based on their portrayal of people;
+  categorizing them as either stereotypes or anti-stereotypes.
+- The goal here is to read given passages and distinguish whether they depict typical
+  stereotypes related to certain demographics or whether they portray perspectives
+  that reject these stereotypes.
+- Interpret the content and recognize the underlying attitudes toward groups of people,
+  determining if they align with stereotypes or oppose them.
+- The objective here is to assess how certain groups of people are portrayed in the
+  text. Classify whether the passage reinforces typical stereotypes or presents a
+  counter-narrative.
+- You will be given short passages that express views about different groups of people.
+  Your job is to classify these passages into two categories, identifying whether
+  they represent a stereotype or challenge commonly held beliefs.
+- You'll review passages that encapsulate perceptions about various demographics.
+  Your challenge is to distinguish between generalizations (stereotypes) and opposing
+  views (anti-stereotypes).
+- You will analyze brief texts conveying societal views. Determine whether each text
+  reflects an entrenched stereotype or provides an anti-stereotypical perspective
+  that defies conventional beliefs.
+- "You will be evaluating short pieces of writing for classification purposes\u2014\
+  deciding whether the sentiments expressed lean towards conventional categories or\
+  \ counteract them with alternative perspectives."
+- You will read brief passages and decide if they convey over-generalized beliefs
+  about particular social groups or if they counter those beliefs.
+- Analyze the written content for underlying messages about race, gender, or socio-economic
+  status and indicate if it embodies common stereotypes or provides contrary viewpoints.
+- Your focus will be on engaging with brief literary excerpts, classifying them according
+  to their adherence to traditional stereotypes versus their representation of anti-stereotypical
+  ideas.
+- Your job is to identify how the passages frame ideas about different communities
+  and decide if these frames uphold stereotypes or challenge them.
+- This activity consists of reviewing snippets that contain descriptions of people
+  and determining if they reflect well-known stereotypes or if they present alternative
+  perspectives that challenge those norms.
+- You must read and interpret short descriptions, identifying and labeling them as
+  either reinforcing stereotypes associated with certain groups or as anti-stereotypes
+  that oppose such views.
+- Reflect on the messages conveyed in the excerpts provided and categorize them according
+  to their representation of societal views towards specific groups, distinguishing
+  between stereotype and anti-stereotype.
+- In this assignment, examine concise passages that address individuals from various
+  backgrounds, determining if their portrayal aligns with common stereotypes or represents
+  narratives that challenge those assumptions.
+- This task involves reading short passages and determining whether they reinforce
+  a common stereotype or present an opposing viewpoint known as an anti-stereotype.
+- Engage with snippets of text to judge whether they align with conventional stereotypes
+  or counter them, reflecting an understanding of social narratives.
+- You will evaluate each passage and decide if it exhibits a generalized view of a
+  group (stereotype) or counters such beliefs (anti-stereotype).
+- 'Analyze the given passages to classify them into two categories: those that represent
+  common stereotypes and those that challenge those stereotypes.'
+- This task requires you to read and interpret short passages that indicate views
+  on gender, race, or other group characteristics, deciding if they align with stereotypes
+  or serve as anti-stereotypes.
+- In this exercise, you are tasked with reflecting on social attitudes portrayed in
+  text, categorizing them as either supportive of stereotypes or presenting anti-stereotypical
+  perspectives.
+- Consider the implications of the provided texts and label them as representing either
+  harmful stereotypes about people based on their identity or as positive anti-stereotypical
+  sentiments.
+- This task involves reading a passage and determining whether it reflects a stereotype
+  or an anti-stereotype. You'll need to analyze the content based on common beliefs
+  about groups.
+- Provide your insight on various passages by determining if they convey generalized
+  beliefs about people of specific backgrounds or if they counter such restrictions
+  with broader perspectives.
+- "In this exercise, you will categorize brief narratives based on their portrayal\
+  \ of groups\u2014deciding whether they perpetuate stereotypes or offer an opposing\
+  \ viewpoint that defies those stereotypes."
+- Analyze the statements provided regarding certain social groups, deciding if they
+  exemplify traditional beliefs or challenge those notions effectively.
+- Your role in this exercise is to classify given passages based on their portrayal
+  of people in stereotypical ways versus non-stereotypical portrayals that offer a
+  broader understanding.
+- You'll be engaging in a classification activity where you'll discern if a passage
+  reflects over-generalized views about a group or provides a contrasting perspective.
+  Empathy and insight into diverse experiences will enhance your analysis.
+- You are tasked with identifying whether passages promote an over-simplified belief
+  about a group or introduce a notion that contradicts that stereotype.
+- Evaluate each passage's content to classify whether it aligns with typical stereotypes
+  held about certain groups or if it presents a more nuanced perspective that counters
+  those views.
+- Consider the messages in the passages you encounter and classify them based on whether
+  they embody stereotypes typically associated with certain demographics or oppose
+  those beliefs.
+- Reflect on brief excerpts and classify them by evaluating whether they contribute
+  to or counter common societal stereotypes related to race, gender, age, or other
+  characteristics.
+- Read each statement to establish whether it depicts a simplified belief about a
+  certain community or challenges that belief by presenting an anti-stereotype.
+- Engage with the material by pinpointing messages regarding social identity portrayed
+  in passages, sorting them into the categories of stereotype or anti-stereotype.
+- In this task, you will assess a passage and determine whether it reflects a stereotype
+  or an anti-stereotype, which challenges common beliefs about certain groups.
+- Your task revolves around discerning the implications of language in each passage,
+  leading you to classify them as perspectives that either uphold or challenge societal
+  stereotypes.
+- Examine the content of each passage and classify it as representing a stereotype,
+  which is a simplified belief, or as an anti-stereotype, which opposes simplistic
+  views on the group mentioned.
+- Analyze the underlying themes in specified passages that describe groups of people
+  to discern if they should be labeled as stereotypes or anti-stereotypes.
+- The focus here is to discern the nature of statements made about certain demographics
+  in the given passages, determining if they embody stereotypes or go against them.
+- You'll encounter writing that reflects societal concepts tied to different groups.
+  Your mission is to identify whether the provided narrative embodies stereotype notions
+  or pushes against them as anti-stereotypes.
+- Your job is to analyze passages that convey ideas about different groups of people
+  and categorize them based on whether they reinforce or oppose existing stereotypes.
+- Review the passages carefully to categorize them as perpetuating stereotypes or
+  presenting an alternative understanding, known as anti-stereotypes.
+- For this task, you need to assess brief quotes or passages and classify them based
+  on whether they reinforce generalizations about social groups or contest them.
+- 'You will evaluate brief excerpts and classify them into two categories: stereotypes,
+  which imply broad assumptions about groups, or anti-stereotypes, which contest those
+  views.'
+- This task involves understanding societal perceptions by evaluating passages that
+  either uphold stereotypes or challenge them as anti-stereotypes.
+- Examine the content for indications of stereotypes and classify accordingly, focusing
+  on whether each statement represents biased beliefs or opposing ideas.
+- Your mission is to examine phrases regarding different groups and classify them
+  as either reinforcing stereotypes or representing anti-stereotypical ideas.
+- "Utilize your understanding of societal beliefs as you classify passages according\
+  \ to whether they reinforce clich\xE9s associated with social groups or present\
+  \ alternatives that inspire change."
+- Read each passage carefully and identify if it portrays an overgeneralized idea
+  about a group (stereotype) or if it contradicts such views (anti-stereotype).
+- This task requires you to discern between stereotypical descriptions and those that
+  present a counter-narrative, showcasing diversity in behaviors, attitudes, and abilities.
+- Examine passages that describe behaviors or traits of particular groups, discerning
+  whether they maintain stereotypes or offer an alternative perspective.
+- This task requires critical thinking to assess the messages in various passages
+  regarding social perceptions of different groups, recognizing stereotypes and anti-stereotypes.
+- "Read the provided passages closely, and decide if they exemplify a stereotype\u2014\
+  a simplistic view of a group\u2014or an anti-stereotype that contradicts such views."
+- The objective of this task is to read passages and recognize the underlying messages,
+  deciding if they reinforce preconceived notions about a group or challenge those
+  expectations.
+- Analyze the provided text to decide if it reinforces a common stereotype or presents
+  an idea that counters such generalizations about a particular demographic.
+- This task involves interpreting excerpts that relate to societal perceptions of
+  groups and recognizing whether they align with typical stereotypes or oppose them.
+- Your role is to identify whether each passage you read expresses an over-simplified
+  judgment about a group or presents an alternative viewpoint that defies such assumptions.
+- The task involves interpreting passages to recognize whether they illustrate typical
+  prejudices or challenge those misrepresentations.
+- The task at hand involves critically reading and interpreting text excerpts that
+  express either generalized beliefs about groups or ideas that counteract those generalizations.
+- You will read brief texts and classify them based on their content regarding common
+  beliefs about certain groups. This requires awareness of societal stereotypes and
+  the ability to recognize nuanced perspectives.
+- The goal here is to analyze provided information to identify if it reinforces common
+  stereotypes or illustrates concepts that reject such viewpoints.
+- You need to determine whether each passage reinforces common stereotypes about specific
+  groups of people or offers a view that opposes such generalizations.
+- Engage with text excerpts that deliver either reinforcing ideas about social groups
+  or present contrasting views, and categorize them appropriately based on their implications.
+- Your mission is to dissect the language in given passages and recognize the presence
+  of stereotypes or their opposites, known as anti-stereotypes.
+- 'You will classify brief texts into two categories based on societal beliefs about
+  certain groups: those that align with stereotypes and those that challenge them.'
+- This evaluation requires you to interpret short texts and indicate whether they
+  reinforce societal stereotypes or challenge those views instead.
+- This classification task requires you to discern passages that carry common misconceptions
+  about groups or challenge those misconceptions, using your understanding of public
+  perception and cultural context.
+- Read and interpret passages carefully to deduce whether they conform to common societal
+  beliefs about certain demographics or provide a refreshing alternative viewpoint.
+- This exercise invites you to engage with language reflecting societal norms and
+  expectations about various demographics. Discern which narratives perpetuate stereotypes
+  and which ones break away from them.
+- Analyze the messages contained within the offered texts to designate them as either
+  stereotypic or as challenging those stereotypes through the concept of anti-stereotypes.
+- Analyze the given text and classify it as either a stereotype, which is a generalized
+  belief, or an anti-stereotype, which challenges those beliefs.
+- Your responsibility is to assess whether the passages align with generalized beliefs
+  about specific groups or contradict those beliefs. A nuanced understanding of social
+  issues will help guide your decisions.
+- You are tasked with analyzing passages regarding various social groups to assess
+  if they embody stereotypical views or provide a fresh angle that contradicts standard
+  beliefs.
+- Your task is to read a short passage and determine whether it expresses a stereotype
+  or an anti-stereotype about a particular group of people.
+- This task requires you to sift through succinct texts for evidence of either endorsing
+  harmful stereotypes or articulating progressive ideas contrary to those widespread
+  views.
+- Engage with passages expressing cultural attitudes towards different people. Decide
+  which ones propagate stereotypes and which ones refute these simplified views.
+- You need to determine if the information in the passage exemplifies a stereotype
+  related to race, gender, age, or abilities, or if it provides an opposing viewpoint.
+- Your assignment is to read and evaluate short pieces of writing, classifying them
+  as either upholding negative stereotypes or representing ideas contrary to those
+  stereotypes.
+- Your task is to read passages critically and categorize them based on their portrayal
+  of social stereotypes versus their opposition to such oversimplified ideas.
+- In this task, you will evaluate passages that describe behaviors or characteristics
+  associated with specific groups. Your aim is to classify each passage as either
+  a stereotype or an anti-stereotype.
+- The task requires you to interpret statements concerning groups of people and judge
+  whether they conform to stereotypes or challenge them with anti-stereotypical ideas.
+- Your task is to interpret short excerpt passages and classify them as either reinforcing
+  common stereotypes about a group or illustrating anti-stereotypical beliefs that
+  counteract those views.
+- The task involves reading brief passages and determining whether they represent
+  common stereotypes or challenge those stereotypes.
+- "Engage with short texts and classify them based on their messages about social\
+  \ identity\u2014whether reinforcing stereotypes or providing anti-stereotypical\
+  \ insights."
+- You will be analyzing snippets of text to pick out statements that either adhere
+  to or reject commonly held stereotypes about specific demographics.
+- Your focus will be on discerning between stereotypical portrayals, which are often
+  one-dimensional, and anti-stereotypic messages that provide a more nuanced view.
+- The objective is to identify if the passage reflects an oversimplified belief about
+  a group of people or presents an idea that contradicts those beliefs.
+- Assess the text critically to decide if it embodies a generalized view of a demographic
+  or disputes such stereotypical notions.
+- You will read brief texts and determine whether they express a stereotype or an
+  anti-stereotype. Stereotypes may reinforce common misconceptions about particular
+  groups.
+- Your task is to evaluate short passages and determine if they reflect a stereotype
+  or an anti-stereotype regarding certain groups of people.
+- "Delve into the meanings implied by each excerpt, categorizing them based on their\
+  \ representation of social groups\u2014either adhering to longstanding stereotypes\
+  \ or opposing them."
+- Evaluate descriptions in the given texts to determine if they present a narrow vision
+  influenced by stereotypes or if they convey broader, countering ideas.
+- Review each provided text for its stance on stereotypes, classifying it according
+  to whether it promotes traditional views or offers ideas that stand against those
+  views.
+- The aim here is to examine short descriptions for their portrayal of people. Assess
+  whether they lean towards stereotypical notions or present contrary viewpoints.
+- Your job is to categorize shorter pieces of writing based on their portrayal of
+  groups, identifying if they reinforce negative perceptions or challenge existing
+  stereotypes. A firm grasp on sociocultural dynamics is key.
+- Your job is to analyze the messages behind the passages and categorize them based
+  on whether they uphold common stereotypes about certain demographics or oppose them.
+- Consider the content of each passage, focusing on its implications for how certain
+  groups are perceived in society, to determine if it exemplifies a stereotype or
+  an alternative viewpoint.
+ds_kwargs:
+  path: Lots-of-LoRAs/task316_crows-pairs_classification_stereotype
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task316_crows-pairs_classification_stereotype
+user_prompt_template: '{task_def}
+
+
+  {problem}'

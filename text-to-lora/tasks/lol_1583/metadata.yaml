@@ -1,0 +1,417 @@
+assistant_prefill: ''
+descriptions:
+- This activity tests your ability to identify connections between objects and components,
+  unraveling their inherent structures logically.
+- You need to identify whether an object features a certain part. This requires familiarity
+  with various objects and their relevant components.
+- Engage in discerning factual connections between an object and its function by determining
+  if a particular part is present.
+- Examine the relationship between names of objects and their suggested parts to ascertain
+  the correctness of inclusion.
+- Tasked with determining whether objects have specified parts, you will utilize your
+  understanding of common items and their associated attributes.
+- This assignment asks you to affirm or deny the presence of distinct parts within
+  various objects, invoking your familiarity with how such items typically function.
+- Explore whether certain components belong to described objects, focusing on factual
+  knowledge about their designs and operational features.
+- The objective is to decide if a named object has a listed part, needing an understanding
+  of what those objects generally entail.
+- Your objective is to analyze given pairs of objects and parts to confirm if the
+  object has that part included within it.
+- This task involves deducing whether an object includes a designated part, utilizing
+  your knowledge of various physical items and their elements.
+- In this task, you must examine a pair consisting of an object and a part to ascertain
+  their compatibility in terms of assembly or function.
+- Use your knowledge about various items to determine if an object includes a specific
+  part, thus understanding its structure better.
+- Your goal is to identify the presence or absence of a part in an object. This requires
+  familiarity with the physical structures or features of different items.
+- In this task, you will ascertain whether particular parts are connected to specific
+  objects, requiring attentiveness to the details of their construction.
+- Consider each object and its named part, determining whether they relate as a component
+  to host relationship. Understanding general anatomy of objects is key here.
+- You will explore connections between specified items and their elements, determining
+  if these parts form essential aspects of those objects.
+- Identify if an object can be associated with a particular part by understanding
+  standard elements that make up common items.
+- Your objective is to verify if an object has a designated part by relying on your
+  existing knowledge of how everyday things are constructed.
+- Reflect on common household or common-use items and ascertain if they possess specified
+  parts through simple deduction.
+- Assess whether an object possesses a certain part by understanding the typical features
+  and structures of that object.
+- Examine relationships between objects and parts, identifying if the stated part
+  is factually part of the listed object.
+- You will need to identify relationships between objects and their components, confirming
+  if the queried part is included in each object examined.
+- Assess the relationship between an object and a part to conclude whether the part
+  is included in the object.
+- You are tasked with investigating whether particular parts are part of broader object
+  classifications, based on your existing knowledge or intuition about their features.
+- You must find out if particular parts form a part of given objects. Reflect on your
+  observations and knowledge about common items in answering this.
+- "Explore whether specified parts belong to given objects by using your general awareness\
+  \ of each item\u2019s structure and use."
+- The task requires determining if a specific object includes a certain part as one
+  of its components. You need to use your knowledge of objects and their characteristics.
+- This task requires you to judge the inclusion of parts in objects, leveraging knowledge
+  of everyday items and their components.
+- The task challenges you to recognize if an object contains a specific component,
+  tapping into your memory of its usual features and functionalities.
+- The task entails verifying if certain specified parts exist within various objects,
+  encouraging exploration into common physical assemblies and uses.
+- Determine whether the given object possesses the mentioned part, requiring knowledge
+  of the object's structure and function.
+- In this activity, you assess the relationship between objects and their various
+  parts, determining the inclusion or exclusion of these parts.
+- You need to decide if an object has a given component as part of its design. This
+  requires some level of knowledge about various items and their uses.
+- Your job is to determine if objects contain specific elements based on their perceived
+  characteristics in relation to known structures and functionalities.
+- You are tasked with checking for the presence of specific parts in objects; it calls
+  for consideration of what comprises those objects in reality.
+- Your task is to evaluate whether a specific object contains a certain part. This
+  requires a basic understanding of the object's structure and components.
+- In this activity, analyze whether various objects include particular features by
+  considering common associations and their known components.
+- The goal is to identify the relationship between certain objects and their components,
+  requiring comprehension of diverse item functionalities.
+- You must establish if certain components are inherent to particular objects by assessing
+  your understanding of their functionalities.
+- You need to evaluate whether typical parts are found in given objects. This requires
+  critical thinking and familiarity with everyday items.
+- Your role involves verifying if specified features belong to identified objects,
+  which may require prior knowledge of various items.
+- In this task, evaluate whether a named object possesses a particular part. Use your
+  knowledge of objects and their typical parts for accurate assessments.
+- The objective is to confirm whether a chosen object has a particular part, which
+  encourages critical thinking about physical items and their functions.
+- Evaluate whether the part mentioned is a component of the given object by analyzing
+  its design and functionality.
+- This task entails judging whether an object includes a particular part based on
+  your general knowledge of its structure.
+- Identify whether specific parts exist within various objects, leveraging your understanding
+  of how those objects are built or used.
+- You will be presented with statements about objects having certain parts, and you
+  must evaluate the truth of these statements based on your understanding of the objects
+  in question.
+- The task involves determining whether a given object includes a specific part, based
+  on knowledge of various objects and their components.
+- This exercise requires you to consider a list of objects alongside a specified component
+  and determine their relationship regarding presence or absence.
+- Delve into inquiries that explore connections between various objects and their
+  components, identifying matching parts accurately.
+- Assess whether certain parts belong to the specified objects by using your knowledge
+  of how various items are constructed or operated.
+- You need to determine the presence of specific parts in various objects. This involves
+  a clear understanding of how different items are constructed and what they include.
+- Determine if an item has a particular part as described in the input. Familiarize
+  yourself with various objects to make informed judgments.
+- Determine if the mentioned part belongs to the identified object, using your knowledge
+  about the characteristics of different items.
+- This is about identifying which elements are fundamental to different objects and
+  verifying if they inherently possess those parts.
+- Your mission is to evaluate if an object includes the described component. Use your
+  reasoning skills based on typical characteristics of different objects.
+- For each inquiry about an object's parts, evaluate and confirm if the object includes
+  the specified feature or not.
+- You will be determining the presence of specific parts within different objects,
+  leveraging your familiarity with their typical components.
+- You will be given pairs of objects and parts, and your goal is to conclude if the
+  object indeed has that part.
+- Engage with inquiries that link objects to their characteristics, determining if
+  specified parts are part of those objects or not.
+- The objective is to check if an object features a specific part within its structure.
+  This demands practical knowledge regarding how items are generally composed.
+- You will evaluate whether an object contains a specified part and respond accordingly.
+  This requires familiarity with various objects and their components.
+- In this task, you will examine pairs of objects and parts, establishing whether
+  the objects include those parts based on your understanding.
+- Assess whether an object indeed comprises the specified part. This task calls for
+  a clear understanding of types of objects and their functions.
+- Determine the inclusion of specified components in identified objects; this requires
+  analytical thinking about form and function.
+- In this task, you will determine the inclusion of specified parts within several
+  objects. Knowledge about anatomy or structure is beneficial for accurate assessments.
+- Analyze the compatibility between an object and a part, drawing from your knowledge
+  of various objects and what they should contain.
+- You are tasked with deciding if an object has a specific part. Think about the common
+  characteristics and functionalities of the objects mentioned.
+- Your role is to recognize whether an object includes a specific part, promoting
+  analytical skills related to everyday things and their functionalities.
+- Your task is to evaluate whether a specified part is present in a given object based
+  on your knowledge of that object's components.
+- The challenge involves investigating whether an object contains a stated component,
+  necessitating insight into the nature and functionality of common objects.
+- Your job is to analyze the relationship between an object and a component. You should
+  consider whether that component is typically associated with that object.
+- Analyze the relationship between objects and their respective parts to determine
+  if one can be found within the other.
+- The goal is to reflect on the relationship between objects and their components,
+  using reasoning to conclude if the part is present.
+- Your objective is to determine whether a certain object consists of a specified
+  part. Consider your familiarity with how different objects are constructed.
+- You will be tasked with identifying whether a specific part is inherent to an object,
+  drawing on what you know about typical structures or functions.
+- You are asked to confirm if distinct parts are components of specific objects. It
+  requires close attention to detail and a clear mental picture of each item.
+- Examine each statement about an object's components to clarify whether the described
+  part is indeed found within that object.
+- You will analyze whether an object incorporates a specific part, utilizing both
+  practical reasoning and conceptual understanding of different objects.
+- The goal is to assess if an object includes a given part. This task tests your understanding
+  of both the object and the part in question.
+- Your role involves identifying if a specified component is part of an object's makeup
+  by relying on informed judgment about everyday items.
+- The objective is to evaluate claims about objects having specific parts. Knowledge
+  about the functionality and construction of everyday items will aid in making these
+  determinations.
+- For each instance, you must establish if the identified part belongs to the given
+  object. This involves recalling details about the anatomy of common items.
+- Your focus will be on assessing the completeness of certain objects by checking
+  for their relevant parts within given examples.
+- Engage in discerning whether distinct objects encapsulate specific components vital
+  for their operation or identity.
+- The challenge is to make determinations about parts and their relation to whole
+  objects based on predefined knowledge areas.
+- Your role involves verifying the presence or absence of specified parts in defined
+  objects. Consider typical examples from your experience with various items.
+- Analyze the compatibility of objects with specified parts, making judgments based
+  on common knowledge of how items are typically constructed.
+- Your job is to evaluate if different objects possess specified elements, requiring
+  both attention to detail and comprehension of common item layouts.
+- You will identify if identified parts are essential to specific objects, drawing
+  on your understanding of both functional and structural aspects.
+- The goal is to identify if objects include specified parts. Consider how familiar
+  you are with what these objects commonly consist of.
+- This task is about analyzing relationships between objects and parts. Consider whether
+  the identified component is a standard feature of each likely object.
+- You are tasked with checking if each object has an associated part, which involves
+  applying your knowledge of item characteristics.
+- This task focuses on discerning whether a given part is present in an object, relying
+  on your awareness of practical item designs.
+- The task involves confirming or refuting whether specific parts belong to particular
+  objects. This relies on an understanding of physical items and their attributes.
+- You are required to ascertain if the mentioned part is a component of the given
+  object. This involves understanding how objects are made and what they include.
+- The goal is to decide if certain parts are integral features of various objects
+  based on your knowledge of their functions and designs.
+- In this task, assess whether an object has a specific part based on your comprehension
+  of typical characteristics and uses for that type of object.
+- Your job is to consider various objects and their essential parts, concluding whether
+  the given object includes the queried part.
+- "For this activity, you\u2019ll check if specific objects contain particular parts,\
+  \ relying on your background knowledge of different materials and designs."
+- Your assignment is to explore whether certain objects possess particular components,
+  requiring analytical thinking regarding structures.
+- You will analyze statements regarding parts of objects to confirm or deny their
+  existence based on your familiarity with their characteristics.
+- Utilize your knowledge about various items to confirm if they possess specific features
+  associated with them.
+- Determine if an object incorporates a designated part by applying your knowledge
+  of its characteristics and functions in real-world scenarios.
+- The challenge here is to evaluate whether an object includes a specified part, considering
+  your knowledge of these items and their respective functions.
+- Your task is to determine the existence of features in specified objects, focusing
+  on their conventional parts or components.
+- This task requires you to evaluate whether a specified object contains a particular
+  part. You will assess your knowledge of objects and their components.
+- This task challenges you to conclude if certain parts are inherent in given objects,
+  leveraging your understanding of functionality and components.
+- This exercise tests your ability to recognize whether certain characteristics and
+  parts belong to various objects based on prior knowledge.
+- The task entails checking if a certain part belongs to an object. Understanding
+  how different objects are structured or what they typically include is key.
+- For every question posed about an object's parts, apply your knowledge to affirm
+  or refute the existence of that part in the object.
+- You will be making judgments about the relationship between various pieces and the
+  items they may belong to through reasoning based on typical characteristics.
+- You must answer whether specific items have certain components, which necessitates
+  familiarity with common objects and their design.
+- This task focuses on recognizing relationships between objects and their components.
+  You will verify the presence of particular parts in different items.
+- Your role is to identify if an object has a certain component or feature. You must
+  draw on your familiarity with everyday items and their typical parts.
+- Your job is to inspect an object's attributes to confirm if it includes the specified
+  component or not.
+- Evaluate questions about objects and their attributes, focusing on whether the part
+  in question is a component of that object.
+- Your job is to confirm if an object possesses a particular part. This requires familiarity
+  with the object's structure and function.
+- Your role here involves determining if an object possesses a given part based on
+  your insights into these items and their elements.
+- Determine the presence of a specified part within an object by recalling its design
+  and function.
+- You will check if an item has a certain component, drawing from your understanding
+  of objects and how they are composed.
+- You are tasked with verifying whether certain parts are included within specified
+  objects, leveraging your understanding of how things are built or function.
+- Engage in assessing relationships between objects and their parts by confirming
+  whether the part belongs to the specified object.
+- Assess if an object is associated with a particular component and decide its presence
+  based on your general knowledge of various items.
+- Your objective is to analyze if an object possesses a particular part. This requires
+  some familiarity with the features associated with each item.
+- The focus is on deciding whether objects contain mentioned parts, testing your knowledge
+  about their construction and elements.
+- The task involves determining whether a specific object contains a given part or
+  component. You will decide if the relationship between the two is valid.
+- Use your understanding of different objects to ascertain if they have certain parts,
+  making yes or no judgments about their composition.
+- Your task is to verify if a certain part is included in an identified object, enhancing
+  your comprehension of physical associations.
+- In this task, you'll evaluate whether a given object contains a specified part,
+  relying on your understanding of various items and their functions.
+- You will analyze queries that ask if an object includes certain parts. Understanding
+  the relationship between objects and their components is key to completing this
+  task.
+- Use critical thinking to assess if certain parts are characteristic of specified
+  objects, based on your comprehension of everyday items.
+- Determine if an object includes a specific part by assessing its structure and function.
+  This requires familiarity with various items and their characteristics.
+- This task requires you to assess whether certain objects contain specific components,
+  enhancing your understanding of how various items are constructed.
+- In this evaluation, you will consider whether a specific part exists within an object,
+  drawing on your knowledge about various tools and constructions.
+- This task challenges you to match various objects with their respective attributes.
+  Understanding what makes up an object is essential for success.
+- Explore the relationship between a given object and its parts, establishing if the
+  specified features are integral to the object's composition.
+- The focus of this task is on discerning whether an object has a particular component.
+  Reflect on what you know about these items' typical attributes.
+- You are asked to identify if a specific part is present in an object. This requires
+  analytical skills and an understanding of how different objects are built.
+- This exercise involves testing your knowledge about objects and their components
+  to answer questions about their parts' existence.
+- Your responsibility is to identify if specified components are integral to certain
+  objects, relying on your understanding of how these items are built or function.
+- You are challenged to ascertain the presence or absence of specific components in
+  various objects, which necessitates some understanding of their functions.
+- This task requires you to assess whether various objects include certain parts.
+  Think about the characteristics and components of each object when making your decision.
+- This assessment involves evaluating whether common parts are integral attributes
+  of different objects, drawing from your practical experience with them.
+- The objective here is to evaluate whether specific components are present in various
+  defined objects through logical analysis concerning their typical use.
+- The objective is to clarify whether specified components belong to certain objects,
+  tapping into your awareness of everyday items and their attributes.
+- The task at hand is to assess various objects and decide if they possess a given
+  part. This requires not just recognition but also knowledge of common item constructions.
+- This task entails evaluating whether specific components are essential features
+  of various mentioned objects.
+- The goal is to identify if a specific component exists within a mentioned object,
+  relying on your understanding of common attributes of various items.
+- This task asks you to analyze whether a particular part belongs to a given object,
+  based on your knowledge of the respective item's structure and purpose.
+- The task requires you to check if a particular part can be found in an object, based
+  on what you know about the typical features of that object.
+- Assess if an object, mentioned alongside a part, possesses that part as one of its
+  integral elements.
+- This task involves determining if a specific object contains a certain part, requiring
+  knowledge about the common characteristics of various items and components.
+- Engage in evaluating object-part relationships by validating if certain components
+  belong to designated items, enhancing categorical reasoning skills.
+- Here, you assess item-part relationships, deciding if an object has a designated
+  part based on your understanding of their typical features.
+- In this task, figure out if specific parts belong to given objects by considering
+  how those items are generally formed or function.
+- In this task, you will assess if an object includes specified elements, drawing
+  upon your awareness of the physical properties of common items.
+- The task involves discerning if certain parts belong to specific objects. Utilize
+  your understanding of everyday items and their parts for your evaluation.
+- The focus is on validating the presence or absence of a component within an object,
+  requiring thoughtful consideration of everyday objects.
+- This involves asking whether an object includes a specific feature and using reasoning
+  about common structures and functionalities of those objects.
+- Analyze pairs of objects and parts for confirmation on their coexistence, drawing
+  upon your knowledge of typical object attributes.
+- The task centers on assessing the inclusion of part in an object. You must critically
+  evaluate your knowledge of various objects to arrive at the correct decision.
+- "In this task, you evaluate whether a specified object contains a given part, using\
+  \ your knowledge of the object\u2019s components."
+- This task challenges you to match objects with their relevant parts, fostering an
+  understanding of how different things work together.
+- Assess whether named parts are intrinsic to identified objects based on their design
+  and function through logical reasoning.
+- You will investigate whether given parts are integral to specified objects, using
+  your comprehension of items' structure and mechanics.
+- This task asks you to evaluate the existence of a part within an object, requiring
+  you to draw upon your experiences and knowledge of various familiar items.
+- This activity requires you to evaluate object-part relationships critically, relying
+  on your insight into their standard configurations.
+- Engage in a process where you verify the existence of a part within an object through
+  your understanding of the object's typical designs.
+- Your objective is to ascertain whether the stated part is included in the object
+  by referring to widely accepted characteristics of both.
+- Your task is to identify if a specified object contains a certain part as one of
+  its components.
+- Investigate questions about objects to establish whether they can be associated
+  with particular features or elements consistently.
+- The focus is on identifying the relationship between objects and their components,
+  exercising analytical thought based on existing knowledge.
+- Conduct assessments on objects and their respective parts, deciding if a connection
+  exists between them according to established facts.
+- Your challenge is to analyze pairs of objects and components to determine if those
+  components are foundational to the object's design or function.
+- Analyze the given object to check for the presence of a named part, reflecting an
+  understanding of that object's attributes.
+- Approach each question by linking an object with its possible parts, deciding on
+  the existence of those components logically.
+- You must decide if a specific part can be found in an object based on your knowledge
+  of its typical characteristics and structure.
+- Respond to questions about whether certain objects include specific parts, calling
+  for comprehension of object anatomy.
+- Given a pair of object and part, deduce whether that specific object includes said
+  part based on your knowledge.
+- This task revolves around recognizing connections between objects and parts. Evaluate
+  whether common knowledge supports the idea that these parts exist within the given
+  items.
+- Assess whether various objects incorporate specific components by thinking critically
+  about their physical properties and associations.
+- "Conclude whether specified objects contain particular components as described in\
+  \ queries, leveraging your understanding of various items\u2019 structures."
+- In this exercise, you'll be looking at different items and determining if they contain
+  specified parts. It tests your knowledge of how these objects are made or function.
+- You will be tasked with confirming or negating the presence of parts in objects
+  through reasoning based on your familiarity with them.
+- Explore the concept of components by determining if certain elements are found with
+  specific objects, examining how we understand physical items.
+- Assess the existence of certain parts within specified objects accurately. Understanding
+  how things are typically built will aid in your evaluation process.
+- Your role is to analyze different objects for their included parts, drawing upon
+  an understanding of their typical assembly or design.
+- In this evaluation, you consider whether objects possess certain characteristics,
+  based on what is generally known about them.
+- You will be faced with deciding whether items contain particular parts, prompting
+  you to combine observation skills with comprehension of object functionality.
+- In this challenge, recognize whether specific parts are included in particular objects.
+  It tests both recognition and recall regarding what constitutes those objects.
+- This task involves determining the existence of a specific part within a given object,
+  testing knowledge of object-component relationships.
+- "You need to examine items and their components to see if the stated part is present\
+  \ in the object. Use your comprehension of the item\u2019s nature."
+- Investigate whether parts are fundamental to the structure of provided objects based
+  on how they are generally recognized.
+- In this task, you will determine if the specified object has a specified part. This
+  involves using your knowledge of the object's characteristics.
+- Determine if an object does indeed have a specified component. You'll need to think
+  about how things are typically assembled in the real world.
+- This task involves answering yes or no to whether an object includes a certain component.
+  You should use your knowledge of everyday items to make this determination.
+- This task tests your ability to recognize the parts associated with different objects,
+  determining their relevance in functioning mechanisms.
+- In this task, identify if an object has a designated part. Your answer should reflect
+  knowledge about the anatomy or structure of common things.
+- Decide if a listed object contains a specified part, relying on your understanding
+  of how these objects are constructed or function.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1583_bless_meronym_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1583_bless_meronym_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

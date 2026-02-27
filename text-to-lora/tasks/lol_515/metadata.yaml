@@ -1,0 +1,459 @@
+assistant_prefill: ''
+descriptions:
+- Review each sentence carefully to determine if changing a noun or verb has led to
+  an awkward construction that does not convey meaning smoothly.
+- Utilize your understanding of language and sentence structure to judge if a noun
+  or verb has been improperly substituted in the given examples, leading to an unnatural
+  phrasing.
+- "You will analyze given sentences to check for replacements of nouns or verbs. If\
+  \ the substitution makes the sentence sound awkward, you\u2019ll label it accordingly."
+- This task challenges you to pinpoint areas in sentences where a substitution may
+  have occurred with nouns or verbs, assessing if those changes lead to unnatural
+  language.
+- In this task, you will judge sentences based on whether they maintain coherence
+  or sound strange due to the substitution of a key noun or verb.
+- The goal is to pinpoint alterations made within sentences involving nouns and verbs,
+  determining whether they maintain an original feel or sound misplaced after changes.
+- Review the provided sentences and identify whether a single noun or verb has been
+  swapped for a different word. Your judgment on the natural flow of the sentences
+  will guide your classification.
+- You are tasked with inspecting language constructs for subtle transformations that
+  could affect their perceived coherence and fluidity.
+- For this task, you need to read a sentence and decide if it contains a word that
+  has been swapped out for another of the same type, which may create confusion or
+  awkwardness.
+- You will examine sentences to see if subtle changes have been made to key words,
+  which may result in awkward or unnatural phrasing.
+- You are tasked with identifying whether a sentence retains its authenticity after
+  a noun or verb swap. If it feels off, label it as changed; otherwise, consider it
+  original.
+- Use your understanding of language to discern whether selected nouns or verbs in
+  given sentences have been altered, affecting their natural soundness.
+- "You\u2019ll engage in a careful reading process, deciding if any swapped words\
+  \ disrupt natural expression in each sentence provided."
+- You will evaluate sentences to detect changes in a noun or verb that disrupt the
+  flow of the sentence. Label each sentence according to its naturalness.
+- You need to determine whether a given sentence maintains its original quality or
+  if a swap of an important word has made it sound strange.
+- The goal is to evaluate sentences for any substituted key terms and decide if these
+  substitutions render the sentences awkward and unnatural.
+- You will evaluate sentences for any unnatural sound caused by substituting nouns
+  or verbs while maintaining grammatical consistency.
+- "Evaluate sentences based on alterations in single nouns or verbs. Determine if\
+  \ these modifications make their respective sentences sound awkward, which would\
+  \ categorize them as \u201CChanged.\u201D"
+- Examine each provided sentence closely to decide if there are substitutions for
+  nouns or verbs that disrupt the flowing nature of the expression, then categorize
+  them accordingly.
+- "The goal is to inspect each provided sentence and determine whether a substitution\
+  \ of a noun or verb makes it sound unintelligible or awkward, thereby marking it\
+  \ as \u201CChanged\u201D."
+- This task challenges you to identify if a single word change in a sentence disrupts
+  its overall smoothness and clarity, requiring keen attention to detail.
+- Focus on understanding how swapping out single nouns or verbs can create awkwardness
+  in sentences, requiring your analytical skills.
+- Your job is to assess whether any nouns or verbs in given sentences have been substituted
+  with different words of the same type, causing the sentences to sound awkward.
+- Analyze each sentence carefully to spot any replacements of nouns or verbs that
+  lead to unnatural expressions. Identifying these changes is key to understanding
+  language use.
+- The objective is to assess sentences for any instances where a word swap (specifically
+  with nouns and verbs) has rendered them awkward or unnatural.
+- You will review sentences to find instances where nouns or verbs have been replaced
+  by other words. Understand how these shifts can change the overall sound of the
+  sentence.
+- Your job consists of analyzing sentences for altered nouns or verbs, determining
+  whether these changes disrupt their intended meaning and ease of reading.
+- "The focus here is on linguistic evaluation\u2014deciding if the replacement of\
+  \ words maintains the sentence's natural quality or makes it awkward."
+- You will be looking at sentences closely to see if replacing a word with another
+  has made it less coherent, while ensuring the same grammatical role is maintained.
+- The focus here is on sentences where you will discern if a substituted noun or verb
+  disrupts the natural flow of the text, indicating an alteration from the original.
+- Your mission is to judge whether specific substitutions in sentences make them sound
+  odd. Identifying such instances correctly is crucial for understanding their structure.
+- This task involves analyzing sentences to determine if a noun or verb has been changed,
+  resulting in an unnatural structure.
+- The task encourages you to explore how changing a single noun or verb in a sentence
+  impacts its naturalness, helping evaluate linguistic integrity.
+- Inspect each sentence critically to identify any instances of substituted words
+  that lead to awkward phrases. Make your determination based on how natural the sentence
+  sounds.
+- Evaluate sentences for changes that affect their overall readability. Focus on whether
+  any replacements have resulted in a less coherent expression.
+- You need to read the provided sentences closely and decide whether any words have
+  been incorrectly replaced in a way that disrupts natural language flow.
+- The primary focus is on linguistic accuracy; discern when word substitutions result
+  in sentences that feel out of place or forced in their structure.
+- The job involves critical judgment of sentences, focusing on whether singular nouns
+  or verbs have been replaced and how it affects readability.
+- "Assess various sentences for changes in key grammatical components \u2014 specifically\
+  \ nouns and verbs \u2014 discerning how these changes influence the overall readability\
+  \ and naturalness of the text."
+- Review and judge each sentence, focusing specifically on changes that involve replacing
+  nouns or verbs. Measure how these changes affect overall clarity and fluidity.
+- Your task involves analyzing language usage in certain sentences, specifically looking
+  for nouns or verbs that have been swapped in an awkward manner.
+- Your focus should be on determining structural integrity in sentences through careful
+  observation of potential unnatural word changes.
+- Your task is to judge the effectiveness of word choices in sentences, discerning
+  if they remain original or have been altered in ways that feel clumsy.
+- The task requires an understanding of sentence structure and word function, as you
+  discern whether minimal word changes lead to unnatural expressions.
+- Engage with sentences and assess if they exhibit unnatural characteristics caused
+  by the change of a single noun or verb. Your evaluation skills will be tested here.
+- Delve into each provided sentence and ascertain if any adjustments made by substituting
+  words alter their overall coherence and grammatical flow.
+- Consider each provided statement to identify whether word alterations result in
+  an unnatural reading experience, particularly focusing on parts of speech.
+- Analyze sentences for changes made to single nouns or verbs. Your focus should be
+  on how these changes affect the overall sentiment and readability of the text.
+- You will analyze sentences to judge whether a single word has been swapped in a
+  way that sounds unnatural, helping to identify if the original meaning is compromised.
+- The task invites you to examine sentences critically, spotting unwanted changes
+  in nouns or verbs that create an effect of awkwardness.
+- "The task involves evaluating sentences to determine if a noun or verb has been\
+  \ changed to another word of the same type. You\u2019ll assess how these changes\
+  \ affect the naturalness of the sentence."
+- "Focus on recognizing any disruptions caused by substituted words in many sentences\u2014\
+  especially where nouns and verbs are concerned\u2014through close reading."
+- This task involves scrutinizing sentences to check for unnatural wording caused
+  by replacing nouns or verbs. Your judgment will inform whether they maintain their
+  original form or not.
+- Examine sentences to see if replacing a single noun or verb creates a feeling of
+  awkwardness, which would mean that the sentence has been changed from its original.
+- The challenge lies in discerning whether replacements of single words have compromised
+  sentence coherence, especially in terms of noun and verb usage.
+- In this task, you'll determine if specific words in the sentences have been changed
+  improperly, affecting how natural the sentences sound.
+- You are tasked with evaluating sentences to determine if a noun or verb has been
+  replaced with an inappropriate alternative that makes the sentence sound awkward.
+- Review each sentence thoughtfully, focusing on whether modifications in key linguistic
+  parts lead to any loss of fluency or meaningfulness.
+- The task requires you to evaluate sentences and decide if a word has been replaced
+  with another that has the same part of speech, affecting the sentence's naturalness.
+- Your job is to scrutinize sentences for instances where a word has been changed,
+  leading to unnatural phrasing. This involves a good understanding of sentence structure.
+- In this task, you need to discern whether specific words have been replaced in a
+  way that disrupts the normal structure of the sentence.
+- The aim is to notice subtle shifts in word choice within sentences that lead to
+  unnatural constructions, dealing primarily with nouns or verbs.
+- This task requires you to discern whether replacements in a sentence lead it to
+  feel awkward, labeling it accordingly based on your perception.
+- This exercise involves scrutinizing sentences for modifications that involve swapping
+  specific parts of speech and determining their effect on sentence clarity.
+- As part of this task, you will investigate whether alterations involving key parts
+  of speech cause sentences to become less smooth or incoherent compared to their
+  original form.
+- Engage with sentences that may contain poorly substituted words. Your judgment will
+  reveal if they remain coherent or have turned awkward.
+- Assess each given sentence to find out if any substitutions of nouns or verbs result
+  in awkward phrasing. Classify them as either unchanged or modified based on this
+  evaluation.
+- This task requires you to scrutinize sentences for potential substitutions of key
+  words. Assess whether these substitutions maintain the sentence's fluidity or lead
+  to unnatural expressions.
+- You will be engaging with sentences that may have undergone small changes. Your
+  goal is to identify these changes and assess their effect on clarity.
+- "Look at each given sentence and note any substitutions made with nouns or verbs\
+  \ that may interfere with natural language flow, categorizing them as \u201COriginal\u201D\
+  \ or \u201CChanged.\u201D"
+- "Here, you\u2019ll analyze language by focusing on word choices within sentences,\
+  \ determining if any changes have undermined their usual natural flow."
+- This task requires careful reading of sentences to identify if a noun or verb was
+  swapped with a different word from the same part of speech, leading to potentially
+  awkward phrasing.
+- This exercise involves examining sentences for any odd phrasing stemming from noun
+  or verb substitutions. A successful identification showcases your understanding
+  of language structure.
+- You will evaluate sentences to determine if a noun or verb has been replaced with
+  a different word of the same type, affecting the sentence's clarity and naturalness.
+- Evaluate the integrity of sentence meanings by focusing on single-word alterations
+  and deciding whether they preserve the original intent or compromise clarity.
+- Your role is to assess whether the original meaning of sentences is preserved when
+  nouns or verbs are replaced, affecting their overall coherence.
+- Evaluate sentences for potential disruptions due to changed nouns or verbs. This
+  requires an understanding of how language works and what makes sentences feel right
+  or wrong.
+- Engage in evaluating whether a noun or verb being replaced within a sentence results
+  in it sounding unimpressive or strange compared to its original form.
+- "The objective is to review each sentence carefully and determine if a change has\
+  \ occurred in specific parts of speech, which may disrupt the sentence\u2019s natural\
+  \ rhythm."
+- Each provided sentence needs scrutiny for unnatural shifts involving nouns and verbs,
+  where such shifts might lead to confusion or awkwardness.
+- Your job is to examine sentences and identify if any nouns or verbs have been changed,
+  leading to an unnatural construction or maintaining the original meaning.
+- Your mission is to detect if any shifts in word choice have led to an odd-sounding
+  construction while keeping an eye on grammatical correctness.
+- In this exercise, you will judge sentences based on possible modifications of key
+  nouns and verbs. The aim is to see if such changes disrupt natural expression.
+- The task asks you to look closely at a sentence and judge whether any noun or verb
+  has been changed for another word that fits its part of speech, impacting the naturalness
+  of the phrase.
+- This task requires you to assess each sentence for potential changes in meaning
+  due to noun or verb replacement. Label the sentences based on their original soundness.
+- The focus here is on language in context. Consider whether switch-ups in key words
+  compromise the naturalness of each offered sentence.
+- Evaluate changes made to individual components in sentences by analyzing how swapping
+  nouns or verbs impacts linguistic harmony, resulting in your corresponding classification.
+- In this task, you must evaluate how a noun or verb change affects the quality and
+  clarity of sentences, marking them as original or changed accordingly.
+- Your task is to identify whether certain substituted words in the provided sentences
+  result in awkward phrasing. Classes should reflect the naturalness and coherence
+  of each expression.
+- This task entails scrutinizing sentences for any awkward replacements of nouns or
+  verbs, determining how they impact the overall flow and meaning.
+- "You\u2019re evaluating the structure of sentences for any shifts caused by swapping\
+  \ out specific parts of speech\u2014deciding if they still sound natural or have\
+  \ become flawed."
+- Work through each sentence carefully and identify any unnatural substitutions of
+  nouns or verbs. Decide whether the original structure remains intact or not.
+- Analyze each sentence for key changes involving nouns and verbs that might make
+  it seem odd. Label these sentences based on their naturalness after your analysis.
+- Read each sentence closely and identify if any single noun or verb replacement makes
+  it sound strange or out of place, then categorize your finding.
+- You will work with sentences and decide if specific changes to nouns or verbs have
+  impacted their readability in an undesirable way.
+- Your mission is to inspect each sentence for potential word replacements and assess
+  if these alterations disrupt the normal flow of language.
+- Analyze the given sentences critically, looking for shifts in meaning introduced
+  by noun or verb substitutions that may lead to discomfort in reading.
+- Carefully examine the sentences provided and decide if the alteration of a single
+  noun or verb disrupts the natural flow of the sentence.
+- You need to analyze sentences for any alterations in the nouns or verbs. Your goal
+  is to decide if the sentence remains coherent or has been distorted due to word
+  substitution.
+- The task involves evaluating sentences to determine if a key noun or verb has been
+  replaced with another word of the same type, assessing whether this change makes
+  the sentence feel unnatural.
+- Carefully review each sentence to judge if any word replacements render it less
+  fluent or logical. Differentiate between original and altered forms.
+- Examine each input sentence meticulously for transformations that might compromise
+  clarity or create an unnatural tone.
+- You will analyze given sentences to check if one noun or verb has been replaced
+  with an alternative. Your decision will hinge on whether the change makes the sentence
+  sound awkward or unusual.
+- The objective is to inspect sentences for potential changes in wording. Nouns or
+  verbs replaced with similar parts of speech will indicate whether the sentence remains
+  intact or has become strange.
+- Reflect upon sentences and identify any shifts that disrupt their natural rhythm,
+  categorizing them as either original or changed based on this judgment.
+- You are tasked with determining whether specific words in a sentence have been replaced.
+  Your focus will be on how these changes potentially render the sentence unnatural.
+- Assess each sentence critically to ascertain if there are instances where word replacements
+  cause it to sound less natural than intended.
+- Your task is to examine sentences critically for changes made to individual nouns
+  or verbs and judge if these changes create an unnatural expression in context.
+- Your role includes verifying if nouns and verbs in provided sentences have been
+  substituted in ways that impact their natural coherence, signaling either authenticity
+  or alteration.
+- The task involves judging whether specific verbs or nouns have been altered in a
+  way that makes the given sentence feel incoherent, thus labeling them accordingly.
+- You will read sentences and decide whether a change in a noun or verb makes the
+  sentences feel awkward or unusual. Your judgment is key to identifying these alterations.
+- This task requires an analytical approach to language. You will judge if changing
+  certain parts of speech results in any unnatural-sounding sentence constructions.
+- This task requires you to discern whether replacing specific nouns or verbs alters
+  the intended meaning and flow of a sentence, making it unusual.
+- Your assignment is to review sentences to spot any unnatural tweaks made by substituting
+  a noun or verb with another word of similar type, affecting readability.
+- Analyze the grammar and flow within sentences to identify possible replacements
+  of nouns or verbs that disrupt natural language. Your role is to classify them based
+  on their soundness.
+- This task asks you to examine text critically for subtle alterations to nouns and
+  verbs that compromise naturalness, allowing you to label each instance based on
+  your assessment.
+- This task requires careful examination of sentence integrity as it relates to substituted
+  nouns or verbs, assessing whether such modifications hinder clarity.
+- The goal here is to recognize alterations in phrases due to noun or verb changes.
+  Consider how these changes impact sentence clarity upon review.
+- In this assignment, focus on identifying alterations within sentences that disrupt
+  their natural sound due to a change in nouns or verbs.
+- This task asks you to judge sentences by spotting changes in key words. Determine
+  if those changes result in awkwardness within the text.
+- You will assess sentences for word changes. If a noun or verb appears replaced by
+  a different one, making the sentence sound odd, label it as such.
+- Read through each given sentence and use your judgment to identify whether any word
+  changes contribute to an unnatural tone in the writing.
+- Your analysis will involve spotting whether any nouns or verbs in a sentence have
+  been swapped out, leading to an awkward phrasing.
+- Scrutinize provided sentences for any instances where an altered noun or verb results
+  in unnatural expression, classifying them based on your assessment.
+- Examine sentence integrity by looking for altered nouns or verbs and determine if
+  those changes result in an awkward sentence structure that deviates from standard
+  language use.
+- Assess classic sentence structures for any substitutions made in key nouns or verbs
+  which render them less natural in speech or writing.
+- You need to judge each sentence based on whether it retains its natural flow after
+  a word replacement that keeps the part of speech the same.
+- "Look closely at each sentence to see if any key nouns or verbs have been replaced\
+  \ with others that don\u2019t fit well, indicating unnatural construction."
+- This task requires you to evaluate sentences for substitutions of single nouns or
+  verbs. Your goal is to identify whether the sentence feels awkward due to these
+  changes.
+- Engage with the task by identifying instances where unnatural substitutions of nouns
+  or verbs might distort normal sentence structure and flow.
+- Your role is to determine if given sentences retain their natural quality despite
+  alterations made to key nouns or verbs.
+- Review sentences meticulously for individual word replacements that have been made
+  to nouns or verbs. Your judgment regarding their naturalness will inform whether
+  they are marked Original or Changed.
+- You must read each sentence carefully and identify any substitutions that lead to
+  awkward phrasing, labeling them appropriately based on their naturalness.
+- You'll make judgments on whether changing specific words alters the normal flow
+  of the sentence, impacting its overall meaning and clarity.
+- Scrutinize sentences closely for any replaced words, particularly focusing on nouns
+  and verbs. An unnatural result indicates a change has occurred.
+- You will judge whether specific words in a sentence appear naturally or have been
+  unnecessarily altered, particularly focusing on nouns and verbs.
+- The objective is to discern if the natural flow of sentences has been disrupted
+  by a replacement of nouns or verbs, evaluating their readability.
+- This task involves scrutinizing sentences to identify word substitutions that affect
+  their natural rhythm and coherence.
+- Analyze given sentences to spot whether a word swap has occurred, making note of
+  whether the sentence still feels natural or not.
+- The objective is to assess if any nouns or verbs in a sentence have been swapped
+  with other words that share the same grammatical category, causing an unnatural
+  reading experience.
+- The task involves assessing a sentence to determine if a specific noun or verb has
+  been substituted with another word of the same type, altering its natural flow.
+- "Delve into the specifics of each sentence, assessing whether there\u2019s been\
+  \ a change in nouns or verbs that leads to awkward phrasing, labeling them appropriately\
+  \ based on your assessment."
+- Determine if specific words in a sentence have been exchanged with synonyms that
+  impact overall clarity and fluidity. Mark sentences as either original or changed.
+- Assess various sentences to see if a substitution of nouns or verbs creates awkwardness;
+  your judgment will determine their classification.
+- Engage with each sentence to find out if an alteration in an essential noun or verb
+  makes the expression seem strange or forced compared to its natural form.
+- As you read each sentence, determine if the substitution of a key noun or verb leads
+  to an odd phrasing, categorizing the results as original or changed.
+- The task is to analyze given sentences and judge their naturalness based on whether
+  specific words have been swapped out with synonyms that match in part of speech.
+- Your role is to critically analyze sentences and identify instances where a noun
+  or verb may have been altered in a way that affects the naturalness of the expression.
+- Evaluate provided sentences for the presence of unnatural alterations caused by
+  replacing nouns or verbs, highlighting your linguistic insight in the process.
+- This task requires you to evaluate sentences for unnatural replacements of single
+  nouns or verbs, which can affect how the sentence reads.
+- Your task involves examining sentences to determine if a noun or verb has been replaced
+  with a different word of the same type, which makes the sentence sound awkward or
+  unnatural.
+- In this task, you are required to evaluate if there is unnatural wording within
+  a sentence due to substitutions. Focus on nouns and verbs that might have been altered.
+- Examine each statement critically for word changes that result in unnatural structures
+  while preserving their grammatical roles.
+- Your responsibility is to judge whether any changes made to a noun or verb in provided
+  sentences compromise their readability or overall sense.
+- Your role is to judge sentences by identifying whether alterations have made them
+  sound strange or hard to understand.
+- Evaluate sentences for any unnatural sounds resulting from replacing key nouns or
+  verbs. Label each accordingly, using your linguistic intuition and knowledge.
+- Look at provided sentences and use your language skills to identify if there are
+  alterations in nouns or verbs that lead to awkward phrasing.
+- Engage thoughtfully with each sentence and detect if any replacement results in
+  a jarring effect, suggesting that the original sentiment has been modified significantly.
+- Analyze given sentences to see if any word substitutions have disrupted their normal
+  structure, labeling them accordingly.
+- Analyze given sentences to see if a single noun or verb has been substituted with
+  another word while keeping the same part of speech. Identify whether the sentence
+  feels natural or not.
+- Read through the sentences carefully to determine if swapping out a noun or verb
+  causes any dissonance, signaling that the original meaning has been compromised.
+- Your task is centered around language observation; analyze whether a given sentence
+  remains coherent after potential word changes are made.
+- Analyze sentences carefully for any subtle changes in nouns or verbs that might
+  make them feel unnatural or awkward in context.
+- Your job is to distinguish between original sentences and those that have become
+  strange due to replacing nouns or verbs. The analysis should be based on linguistic
+  familiarity.
+- This task focuses on distinguishing sentences that sound awkward due to the replacement
+  of nouns or verbs with different words.
+- Analyze given sentences to spot replacements of nouns or verbs that lead to unnatural
+  phrasing, labeling them accordingly.
+- Engage with passages to uncover whether simple substitutions of action or subject
+  words lead to less natural expressions within complete thoughts.
+- In this assessment, you will look for instances where a specific noun or verb in
+  the sentence has been replaced, affecting its overall coherence. Classify each case
+  accordingly.
+- Determine whether a sentence remains true to form or if it has suffered from awkward
+  replacements of nouns or verbs. Your judgment will indicate its authenticity.
+- Your job is to judge sentences based on whether a word change results in a less
+  natural or coherent statement, focusing on nouns and verbs.
+- Engage with the task of critically analyzing each sentence presented, focusing on
+  how alterations to nouns or verbs can lead to awkwardness in expression when they
+  deviate from convention.
+- Your task is to evaluate a sentence and determine if a noun or verb has been substituted
+  with a different word of the same kind, resulting in an unnatural expression.
+- Delve into sentence structures and judge their integrity by spotting any awkward
+  substitutions of nouns or verbs; classify each instance according to your evaluation.
+- "You\u2019re tasked with judging sentences based on their naturalness, particularly\
+  \ looking out for changes in nouns and verbs that may render them awkward or unusual."
+- "Your task is to evaluate sentences for any unnatural substitutions of nouns or\
+  \ verbs. Determine if these changes impact the sentence\u2019s clarity or flow."
+- You need to analyze sentences critically for any replacements of key verbs or nouns
+  that may alter their intended meaning or comfort level.
+- The task involves assessing sentences for inappropriate word swaps affecting grammatical
+  structure. Identify which sentences remain original and coherent versus those that
+  have been changed.
+- The goal is to evaluate a given sentence and decide if any words have been swapped
+  in a way that makes it sound weird. Pay special attention to nouns and verbs.
+- Assess each provided sentence for instances where a noun or verb has possibly been
+  substituted, determining if the resulting phrase retains its natural flow.
+- Focus on the structure of sentences to identify any instances where a noun or verb
+  has been substituted improperly. Consider how these changes impact the clarity of
+  meaning.
+- The objective is to scrutinize sentences closely for unnatural word swaps that could
+  hinder comprehension or make the sentence sound odd.
+- Your job involves scrutinizing sentences for any unnatural substitutions of nouns
+  and verbs. A shifted word that disrupts the flow marks the sentence as altered.
+- The challenge lies in determining whether a sentence contains strange substitutions
+  that disrupt its flow. Focus on whether nouns or verbs have been effectively altered.
+- The task requires you to assess sentences for any potential awkwardness caused by
+  substitutions of key parts of speech, directing you towards recognizing seamlessness
+  in language use.
+- In this task, you will inspect sentences for unnatural changes resulting from replacing
+  nouns or verbs with other words while maintaining their grammatical category.
+- Assess the provided sentences for any substitutions of nouns or verbs. Consider
+  whether such changes make the sentences sound awkward or if they remain coherent.
+- Look for evidence of word substitutions within given sentences, evaluating how such
+  changes might detract from their normal construction.
+- The task involves assessing sentences to determine if a noun or verb has been switched
+  with another of the same kind, resulting in unnatural phrasing.
+- "Investigate if a single word substitution within a sentence\u2014specifically a\
+  \ noun or verb\u2014has created an awkward phrasing. Categorize each instance based\
+  \ on this judgment."
+- This task focuses on linguistic judgment, requiring you to assess how changes made
+  to specific words in sentences influence their fluency and clarity.
+- Your objective is to analyze linguistic transitions within sentences, focusing primarily
+  on whether the adjustments disrupt their natural sound.
+- Evaluate sentences for unnatural word choices and replacements, particularly focusing
+  on how they affect the overall fluidity of the statement.
+- You will need to critically assess whether replacing particular nouns or verbs affects
+  the smoothness of the sentences, indicating they have been altered inappropriately.
+- Examine the sentences given to see if a noun or verb has been altered. If the change
+  makes the sentence sound odd, note it as altered.
+- This task involves looking at sentences for substituted words that belong to the
+  same part of speech and assessing the impact on the sentence's naturalness.
+- Evaluate provided sentences for substitutions of single words that may affect overall
+  clarity, categorizing them based on their naturalness of expression.
+- You will read sentences and decide if a key noun or verb has been altered in a way
+  that impacts the flow and logic of the sentence.
+- The task challenges you to discern between original and changed sentences based
+  on the awkwardness brought by substitutions of notable words.
+- Evaluate each sentence to see if a modification has taken place with a noun or verb,
+  ensuring you consider how that impacts both meaning and fluency.
+- You will be tasked with scrutinizing sentences for potential replacements of nouns
+  or verbs. The goal is to recognize changes that lead to an unnatural phrasing.
+ds_kwargs:
+  path: Lots-of-LoRAs/task515_senteval_odd_word_out
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task515_senteval_odd_word_out
+user_prompt_template: '{task_def}
+
+
+  {problem}'

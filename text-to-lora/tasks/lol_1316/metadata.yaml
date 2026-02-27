@@ -1,0 +1,443 @@
+assistant_prefill: ''
+descriptions:
+- You are required to take a given series of characters and create a new string by
+  eliminating duplicates. The end result should maintain the original order of unique
+  characters from the input.
+- The goal here is to refine a string by eliminating repeated characters. Essentially,
+  you want to produce a condensed version of the original string.
+- You need to analyze the given string and create a new version that contains each
+  character only once, maintaining their first occurrence order.
+- Given a set of characters in a string, your job is to ensure that each character
+  appears only once in the final output.
+- This task requires you to differentiate between unique and repeating characters
+  in a string, returning a version that retains only the first occurrence of each
+  character.
+- In this exercise, you'll examine strings carefully to weed out any repeated letters.
+  The focus is on crafting a final string free of duplicates.
+- Your job is to transform the input string by removing any characters that appear
+  more than once, ensuring that only the first occurrence is kept.
+- You are required to process a given string by removing duplicates, allowing only
+  the first occurrence of each character to remain.
+- "This task involves sorting through an array of characters, filtering out excess\
+  \ instances and returning an unblemished version containing each one\u2019s first\
+  \ appearance only."
+- "Engage with input strings and refine them by removing redundant character instances\
+  \ while ensuring each character\u2019s first occurrence is preserved in order."
+- This task consists of eliminating any instances of repeated letters in a character
+  string, resulting in an output where every letter is distinct.
+- You will process strings by identifying all the unique characters within them and
+  forming a new string devoid of any repeating elements.
+- This task involves processing a sequence of characters to create a version without
+  duplicates. You are required to maintain the order of first appearances.
+- Engage with character strings by identifying which ones repeat and eliminate those
+  redundancies from your final answer, highlighting uniqueness throughout.
+- For each character sequence supplied, your mission is to identify and remove all
+  duplicates so that only one instance of each character remains.
+- This exercise challenges you to review character sequences, working towards a concise
+  result that offers each character precisely once in its formation.
+- You need to refine a string by scanning it for duplicates and constructing a shorter
+  version that retains each character only once, akin to summarizing information concisely.
+- Your task is to process a given string by eliminating any characters that appear
+  more than once, leaving only the first occurrence of each character.
+- Your activity will involve narrowing down a jumble of letters into their singular
+  forms, ensuring no duplicates clutter your final result.
+- Engage with input strings where your aim is to produce outputs void of any repeating
+  characters, reflecting only the first instance encountered for each.
+- Your mission is to tidy up strings by removing any characters that show up more
+  than once, leading to an output that features distinct entries only.
+- Your responsibility is to filter out duplicates from strings effectively, leaving
+  behind only one instance of each character based on their initial appearance.
+- In this activity, you need to generate a new string from the provided input that
+  reflects only unique mentions of each character present in it.
+- In this job, you'll work with strings and focus on uniqueness. Identify any characters
+  that show up more than once and remove them, ensuring each one appears just once.
+- Your role involves tweaking strings by discarding repeat occurrences of any character
+  they contain, resulting in streamlined outputs full of uniqueness.
+- You will process a series of character strings with the aim of simplifying them
+  into versions free from duplicates while keeping their initial arrangement intact.
+- Your task is to take a string of characters and eliminate any repeated characters,
+  returning only unique characters in the order they first appear.
+- The goal here is to review a string and produce a result that features each character
+  only one time, effectively filtering out repetitions without rearranging them.
+- Your objective here is to curate a string by identifying and removing any repeated
+  characters throughout. Focus on ensuring that only one instance of each character
+  remains.
+- In this task, you will deal with strings by eliminating duplicates. The final result
+  should maintain the order of characters from the input without repeats.
+- The task at hand requires you to examine a string and return it in such a way that
+  no two identical characters coexist in your final result.
+- You will take a collection of characters and refine it by excising duplicates. Your
+  output must be unique while preserving the order of first occurrence.
+- This task requires the careful examination of character strings and producing filtered
+  outputs devoid of duplicities for clarity and simplicity.
+- Your assignment is to analyze a string of letters and symbols, then produce another
+  string that removes all duplicate entries while maintaining the sequence of the
+  original characters.
+- This involves careful editing of a string where your goal is to catch any duplicate
+  characters before producing a neat output that showcases only one occurrence of
+  each character.
+- In this activity, the objective is to read through a set of characters and reformulate
+  it so that every letter appears just one time in the result.
+- You will work with strings and focus on eliminating any repeating characters, resulting
+  in a new string that contains only distinct characters from the original.
+- The objective is to obtain a new string from the given input by filtering out duplicates
+  while keeping the original order of first appearances.
+- "This task requires sorting through strings of characters and paring them down to\
+  \ their essence\u2014unique characters presented without repetition."
+- You will engage with strings of various characters and execute a deduplication process,
+  generating an output with all redundant instances removed.
+- This task requires attention to detail as you process a given string to filter out
+  duplicate letters or symbols, ensuring that each character appears only once in
+  your final output.
+- You are required to process a given string by removing any repeated characters,
+  ensuring that each character appears only once in the resulting string.
+- Engage with strings that may have repetitive elements, working to create new versions
+  that highlight only distinct characters. Pay particular attention to preserving
+  their original order throughout this transformation.
+- This assignment entails taking strings with potentially repeating characters and
+  providing an edited version where all duplicates are removed. Retain the first appearance
+  of each character in your response.
+- The objective is to clean up a string of characters by filtering out any instances
+  of repeated characters, producing a refined version with unique entries.
+- This task centers on inspecting a sequence of characters and removing any redundancy,
+  culminating in a modified string that does not repeat any character.
+- Your challenge is to remove any duplicated characters from an incoming string while
+  ensuring that the remaining characters appear in their original sequence.
+- Your job is to take an assortment of characters from a string and return a version
+  where each character appears only once, maintaining the order from the original
+  input.
+- You need to examine a string and produce another string that contains only unique
+  characters from the original, ignoring any repetitions.
+- The task expects you to process an input string and produce a cleaned version that
+  features each character just once.
+- Your job is to transform an array of characters into a distinct representation by
+  discarding any duplicates found within the original string.
+- Your task is to take a string and eliminate any repeated characters, returning a
+  new string that contains each character only once.
+- Your responsibility is to evaluate a given string and streamline it by cutting out
+  repeated characters, arriving at a cleaner representation as your answer.
+- Your goal is to take a given string and provide a new string that contains only
+  unique characters, removing any repetitions.
+- In this task, the emphasis is on transforming an input character sequence into one
+  that features only unique elements while maintaining their initial order.
+- In this exercise, transform an input string into one that has no repeating characters.
+  Keep track of which characters have already been included.
+- This task revolves around enhancing strings through character uniqueness; you'll
+  systematically remove repetitions to ensure clarity and precision in your final
+  output.
+- The task involves taking a string of characters and identifying any duplicate characters
+  within that string, which must then be removed to create a unique character sequence.
+- This task involves examining a series of characters and extracting only those that
+  appear uniquely. Strive to maintain their given order while excluding duplicates.
+- Your role is to reorganize provided strings by detecting and removing duplicates,
+  emphasizing distinctiveness among characters for better legibility in the output.
+- The objective here is to clean up a string by ensuring that every character appears
+  just once, effectively making it more concise.
+- This task challenges you to transform a raw character input into an organized output
+  where no characters are unnecessarily duplicated.
+- You need to analyze the input string and filter out duplicates so that each character
+  is represented only once.
+- Here, your role involves scanning through character strings for repetitions, allowing
+  you to format the output with each character appearing just once in its initial
+  order.
+- Given a mix of letters and symbols, your objective is to identify and remove duplicates,
+  resulting in a string where each character shows up only once.
+- In this task, you are required to tidy up strings by eliminating all duplicate elements.
+  Keep an eye on the sequence as you craft an output highlighting only unique characters.
+- In this exercise, you must analyze strings and produce a revised version without
+  duplicate characters. The goal is to capture each unique character in their original
+  order from the input.
+- You should process the input string, identifying repeated characters and removing
+  them so that your output displays each character only once as it first appeared.
+- "The task centers around understanding how to process and transform text by removing\
+  \ redundancy\u2014specifically, any characters that appear more than once."
+- This task challenges you to refine a set of characters by removing any redundancies.
+  Your output should consist solely of unique characters, sequenced as they originally
+  appeared.
+- You will be provided with a string, and your objective is to filter out duplicate
+  characters, providing an output that shows each character only once.
+- Your job entails transforming an input string by filtering out any recurring characters
+  to ensure that only first occurrences are included in the final output.
+- This task is about refining strings by parsing through them and ensuring that every
+  character appears once without duplication in your output.
+- Your task is to take a string of characters and eliminate any repeating characters
+  to create a new, unique string.
+- In this task, you will refine a given string by deleting repeated characters and
+  returning only those that show up for the first time.
+- You need to transform the provided string by filtering out duplicate characters
+  so that your final output showcases only distinct characters.
+- The challenge is to filter through a string and produce an output that excludes
+  any repeated characters while preserving their original sequence.
+- Your main challenge is to examine strings for any character redundancies and return
+  an edited version containing solely unique instances in their proper order.
+- This task involves working with strings where you'll need to eliminate any repeated
+  characters from the input while leaving unique ones intact.
+- You need to analyze an input string and generate an output that showcases each character
+  only one time, effectively eliminating any additional instances.
+- The purpose of this task is to take an input string and cleanse it by eliminating
+  duplicate characters. Focus on creating a new string that showcases unique instances
+  of each character.
+- Expect to process strings containing different letters or symbols, focusing on eradicating
+  any repetitions in order to achieve a streamlined output.
+- This task requires you to transform a string by removing any characters that are
+  repeated, resulting in a new string of unique characters.
+- You are tasked with refining strings to ensure clarity and uniqueness by stripping
+  away any duplicate characters within them.
+- Your task focuses on the refinement of a character string, where you will remove
+  all redundant characters, resulting in a clean list of unique symbols.
+- You will work with strings filled with various characters, removing any redundant
+  ones in the process. Your end result should reflect only unique characters, arranged
+  as they were first provided.
+- You are tasked with cleaning up a series of characters from which you will need
+  to derive a version with no duplicates present at all.
+- Your task is to process a string of characters by eliminating any duplicate characters,
+  which means each character should appear only once in the output.
+- The goal of this task is to take a set of characters and return a revised version
+  that contains no duplicates, maintaining the original order of first appearances.
+- The objective is to revise provided strings such that any duplicate characters are
+  removed, resulting in an efficient version reflecting only singular occurrences.
+- "You\u2019ll handle strings in this task by inspecting them for repeated characters,\
+  \ then crafting an output that contains only those that are distinct and in order."
+- This task challenges you to identify and extract unique characters from a string
+  while disregarding duplicates, generating a streamlined output.
+- Your role is to clean up the given string by identifying and removing any duplicate
+  characters, resulting in a fresh output.
+- As part of this task, you will delve into character sequences, filtering out any
+  instances of duplication and arriving at a unique final result.
+- The goal is to process the provided string by removing any duplicate characters
+  while maintaining the order of first appearances.
+- In this activity, you will take a string and simplify it by removing duplicate characters.
+  The output should be a unique character sequence from the original.
+- The task is about modifying a given string by filtering out any repeating characters,
+  ensuring that your response reflects uniqueness and order.
+- You will be tasked with creating a cleaned-up version of a string, focusing solely
+  on retaining unique characters and discarding any duplicates.
+- Your task is to process character strings so that each letter appears only once.
+  This requires identifying and removing duplicates while keeping the first instance
+  intact.
+- The objective here is to extract unique elements from a string of characters. Only
+  the first occurrence of each character should remain in the output.
+- The goal is to analyze the provided character string and produce a cleaned-up version
+  free from repeating elements, concentrating on unique occurrences.
+- This task involves taking a string and ensuring that no character repeats. You must
+  craft a result that lists each character just one time.
+- The challenge here is to manipulate a string so that each character is represented
+  only once, without changing the order of their first appearances.
+- "In this exercise, you are challenged to improve the quality of character strings\
+  \ by eliminating repetitions\u2014fostering clarity through concise representation\
+  \ of unique elements."
+- Here, you will manipulate strings composed of various characters to ensure that
+  each appears only once, enhancing clarity by reducing redundancy.
+- You will handle strings composed of various characters, working to create an output
+  that consists solely of unique symbols or letters from the input.
+- In this exercise, you focus on reducing a collection of characters into a streamlined
+  version by eliminating any redundancy found within it.
+- You will work with strings of characters and will need to filter them to create
+  a new string that features only unique characters, discarding any duplicates.
+- Your mission is to process a character set by filtering out duplicates, thereby
+  ensuring the integrity of each distinct element within the string.
+- Your objective is to process a given string to eliminate any characters that appear
+  more than once, while keeping the order of the remaining characters intact.
+- This requires skill in string manipulation. You'll identify and discard duplicate
+  characters within an input string to produce a version that comprises unique elements.
+- You are tasked with modifying a string of characters, focusing on keeping each character
+  singular, thus enhancing the clarity of the information presented.
+- This task requires you to manipulate a string by removing repeating characters and
+  outputting a refined version that contains unique characters only.
+- Your assignment involves taking a long string and making it more concise by dropping
+  any repeated characters, thereby emphasizing uniqueness in the result.
+- Your job is to receive a character sequence and produce a cleaned version of it
+  by removing all duplicate characters in the order they first occur.
+- You are tasked with creating a new string from the provided input by discarding
+  any duplicate letters, ensuring that the original sequence is preserved as much
+  as possible.
+- You will be given strings filled with characters, and your task is to reduce them
+  by removing any multiples. Aim for a clean output that shows only the first occurrence
+  of each character.
+- "This task emphasizes processing strings effectively. You\u2019ll remove duplicates,\
+  \ ensuring that every character appears just once in the final version."
+- This task involves refining a character string by filtering out duplicates to ensure
+  each character appears only once in the output.
+- You will work with a character string to produce an output where no character appears
+  more than once, keeping the initial order intact.
+- The exercise is about sifting through strings of characters to eliminate redundancy,
+  ultimately producing a clean output that highlights only unique characters.
+- The task at hand is to process a list of characters in such a way that each character
+  appears only once in the result, discarding repeats.
+- You will work with strings to remove repetitions of characters. Your goal is to
+  return a cleaner version of the input with unique characters.
+- The task involves analyzing a string of characters and identifying any duplicates.
+  You need to generate a new string that retains only the first occurrence of each
+  character.
+- The challenge involves taking a provided string and simplifying it by stripping
+  away duplicate letters, making it concise and unique.
+- Engage with strings of text by detecting redundancy in their characters and creating
+  an enhanced version with unique entries that correctly reflect the original order.
+- You need to modify character strings by sifting through them and keeping only distinct
+  letters while discarding repetitions. Be attentive to the order of these unique
+  letters as they appear.
+- You are required to simplify a provided string by deleting duplicate characters.
+  Each character should be unique in your final output.
+- You will be working with strings, specifically aiming to extract distinct characters
+  from the input while disregarding any that repeat within that string.
+- The goal is to analyze and rewrite given character strings, ensuring all duplicates
+  are filtered out. Ensure your results capture the unique essence without altering
+  their original order.
+- In this task, focus on modifying strings by stripping away duplicate symbols or
+  letters and crafting outputs consisting entirely of unique entries.
+- This task entails filtering through character strings to remove duplicates, ultimately
+  delivering an output that consists strictly of non-repeating characters.
+- The focus here is on the transformation of character sequences by removing duplicates
+  to create an efficient representation without redundancy.
+- The objective is to reformulate a given string into one free of duplicates, ensuring
+  that you're left with a collection of unique characters only.
+- In this task, you will examine strings for repeated characters. You'll need to create
+  an output that retains the sequence of first appearances while discarding duplicates.
+- In this task, you will work with a series of letters and symbols, where your goal
+  is to remove all instances of characters that appear more than once.
+- The objective is to take an input string brimming with characters and reshape it
+  so that each character appears only once, in their original sequence.
+- This task requires you to handle character strings, focusing on eliminating duplicates
+  so that each character occurs only once as you create your final output.
+- Your role here is to distill a non-unique character sequence into one where every
+  character stands alone without duplication, all while maintaining their initial
+  order.
+- Your objective is to generate a modified version of the input string where duplicate
+  characters are excluded, preserving their original sequence.
+- You will be presented with strings that may contain repeated characters. Your task
+  is to create a version of the string where each character is listed only once.
+- The challenge is to streamline a string of text by detecting duplicates among its
+  characters and returning a variant that showcases these characters just once.
+- The task requires you to take a string packed with characters and refine it by excising
+  duplicates to yield a list where every character is unique.
+- You need to examine a sequence of characters and create a new string that consists
+  solely of distinct characters from the original, preserving their initial order.
+- You will be working with character strings where your primary responsibility is
+  to clean up the input by removing repeat instances of any given character.
+- Here, you are expected to refine a string by eliminating duplicate characters while
+  ensuring that the appearance and order of the remaining characters are preserved.
+- In this task, you will look at a sequence of letters and remove any duplications,
+  ultimately producing a concise string that presents each character just once.
+- In this exercise, you will simplify a character string by eliminating duplicate
+  characters while maintaining their original sequence for clarity.
+- You need to simplify a character string by eliminating all duplicate entries. The
+  goal is to return a result that features each character only once, preserving the
+  order of first appearances.
+- This task involves processing a string to remove any repeated characters. You will
+  condense the string into a new version that contains each character only once, keeping
+  the first occurrence of each.
+- Your objective is to distill a character string down to its unique elements. Focus
+  on retaining the first instance of each character while discarding subsequent duplicates.
+- In this task, you are asked to transform a jumbled string into something neater
+  by reversing duplicates while keeping track of the sequence of characters.
+- You will focus on refining text data by identifying and discarding duplicate symbols
+  in the given string, resulting in a composition of solely unique characters.
+- You need to parse through a character string, removing any instances where characters
+  appear more than once while keeping the first appearances intact.
+- This task asks you to refine a string by extracting unique characters and dropping
+  those that repeat within the same input.
+- You will be given strings composed of various characters, with the aim of refining
+  them into a new string where each character appears just once.
+- In this task, you will assess a string of letters and symbols, performing the function
+  of deduplication to yield a cleaner version devoid of repeated characters.
+- The focus of this task is on character strings, where you will be tasked with simplifying
+  them by ensuring no character repeats within the final result.
+- You are tasked with modifying an input string to eliminate any character repetition,
+  yielding a distinct sequence of characters.
+- You will perform character analysis on given strings to filter out excess identical
+  letters and compile a clean and distinct version of each input string.
+- This task involves analyzing a string to identify and remove duplicate characters,
+  ensuring that each character appears only once in the final result.
+- You are tasked with cleaning up a string of characters by ensuring that each character
+  appears only once. This involves identifying and removing duplicates.
+- In this task, you are required to process a string by identifying and eliminating
+  any duplicate characters within it.
+- You will be evaluating strings and refining them by stripping away duplicate characters,
+  presenting a version that captures only the unique ones.
+- "The focus here is on processing strings effectively\u2014removing redundant characters\
+  \ so that only distinct ones remain in your final response."
+- This task requires you to analyze a given string of characters and return a modified
+  version that excludes duplicate entries while preserving the original order.
+- In this task, you will transform a string by removing all repetitive characters.
+  The challenge lies in ensuring that each character is only represented once while
+  maintaining their initial order.
+- In this assignment, the challenge lies in discerning which characters in the input
+  appear multiple times and eliminating those repetitions from your final output.
+- The aim is to modify an input character sequence into one where no character is
+  duplicated, thus yielding a neatly ordered and concise outcome.
+- Your responsibility includes filtering out duplicate letters from strings to form
+  new strings composed solely of unique characters without altering their sequence.
+- Your objective is to refine a string by stripping away any duplicate letters or
+  symbols. Focus on preserving the sequence in which unique characters appear.
+- This task requires you to analyze the characters in a given string and return them
+  in their unique form, free from repetitions.
+- You are required to clean up given strings by removing any repeating characters,
+  resulting in a tidy output where each character is represented just once.
+- Your challenge involves working with character strings to eliminate unnecessary
+  repeats and provide an orderly representation of what's left after filtering out
+  duplicates.
+- In this task, your aim is to distill strings down to their individual components
+  by erasing duplicates. What remains should be a clean lineup of unique characters
+  presented in the initial sequence.
+- The mission is to evaluate a character string and carry out the removal of repeated
+  entries, crafting an output that reflects individuality among the characters.
+- This task requires you to analyze a string and create a new version that contains
+  each character only once in the order they first appear.
+- This task involves taking a possibly repetitive string and transforming it into
+  a clean format where duplicates do not exist.
+- You will revise a character collection by removing duplicates, ensuring that every
+  character exists only once in your final result.
+- This task involves analyzing a string of characters to identify and eliminate duplicate
+  characters, producing a unique character string as the final output.
+- "This exercise is about editing strings for uniqueness\u2014you're tasked with eliminating\
+  \ duplicated letters while maintaining their order from the input."
+- You will work with a series of characters in a string, and your job is to simplify
+  it by discarding any characters that recur.
+- The focus here is on taking an unordered mixture of characters and distilling it
+  down to just the essential unique components, discarding redunancies.
+- You are invited to take part in a text processing exercise where your main focus
+  is to create a version of the input without duplicated letters.
+- Your assignment is to streamline the provided character string by purging it of
+  all duplicated entries, showcasing only unique ones.
+- In this assignment, your role is to ensure that a string contains no duplicate characters
+  by sifting through it and retaining only one instance of each character.
+- You need to review the provided character string and generate an output where duplicates
+  are removed, showcasing each letter only once as it first appears.
+- Your challenge is to take a string and return a version of it that consists solely
+  of the unique characters in their original order, without any duplicates.
+- The task requires discerning distinct characters in a string and presenting them
+  in their original sequence but without any duplicative appearances.
+- Engage with a character sequence where you will extract essential uniqueness by
+  stripping away any repetitions, yielding a streamlined version of the input string.
+- This activity focuses on sifting through a collection of characters to isolate those
+  that appear just once, generating an output that reflects minimal repetition.
+- You are tasked with creating a simplified version of each input string by omitting
+  duplicate characters but keeping the order intact.
+- The activity involves taking a lengthy string of characters and simplifying it by
+  repackaging it so that each character occurs only one time.
+- Your role is to examine character sequences and produce an output where no duplicates
+  exist. The final result should include only one instance of each character, following
+  their initial arrangement.
+- This exercise involves manipulating character strings to eliminate redundancy. Your
+  goal is to output a string that highlights only unique characters.
+- Your challenge here is to examine a series of characters, stripping away copies
+  and crafting an outcome that reflects only distinct letters from the input.
+- The goal here is to parse through a given string and extract each character uniquely,
+  omitting any duplicates in order to generate an accurate output.
+- The task focuses on refining an input string by sifting through it and erasing all
+  but one instance of any repeated characters.
+- You'll take on the challenge of revising a string by pinpointing duplicates and
+  adjusting it to keep each character represented just a single time.
+- The goal in this activity is to take given strings and return versions stripped
+  of repeated characters, ensuring clarity and uniqueness in the results.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1316_remove_duplicates_string
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1316_remove_duplicates_string
+user_prompt_template: '{task_def}
+
+
+  {problem}'

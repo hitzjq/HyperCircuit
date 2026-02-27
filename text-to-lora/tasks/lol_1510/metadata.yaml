@@ -1,0 +1,465 @@
+assistant_prefill: ''
+descriptions:
+- Explore relationships presented in phrases that connect two words, focusing on understanding
+  their interaction within a specified framework of lexical categories.
+- The task entails evaluating phrases for word pair connections and then identifying
+  their relationship based on logical associations.
+- For each phrase you encounter, you must discern and extract two words and clarify
+  the relationship between them using standard linguistic terminology.
+- You will analyze phrases that illustrate relationships between pairs of words. Extract
+  the words and define how they relate using appropriate lexicon terms.
+- The task involves identifying and articulating the relationship between two given
+  words based on their meanings or associations.
+- Your competency in discerning language nuances comes into play as you delineate
+  how two terms interact based on their contextual descriptions provided to you.
+- You will evaluate a phrase that links two words and determine how they relate to
+  each other. The task requires you to categorize the relationship using predefined
+  types, reflecting your understanding of lexical semantics.
+- Dissect phrases that describe how two words are interconnected, determining the
+  nature of their relationship and articulating it accurately.
+- You will engage with phrases that relate two concepts linguistically, focusing on
+  understanding their association through terms like 'PartOf' or 'HasA'.
+- You will sift through descriptive phrases to pinpoint related words and classify
+  their connection, whether they're synonyms, antonyms, or belong to another category.
+- You will extract essential data from linguistic phrases about how two terms relate,
+  categorizing these interactions based on known semantic relationships.
+- Your task is to identify two words from a given phrase and determine the lexical
+  relationship that exists between them.
+- Read the phrase carefully, pick out the two key words mentioned, and determine the
+  type of connection that logically links them based on linguistic relationships.
+- In this task, you must focus on word pairs and their interconnections as indicated
+  by descriptive phrases. Your goal is to extract and articulate the nature of these
+  relationships in a structured manner.
+- Given a descriptive phrase, pinpoint the two key words involved and categorize their
+  relationship, ensuring clarity and accuracy in your extraction.
+- You will need to interpret phrases that outline connections between words, categorizing
+  those relationships appropriately by referencing established lexical classifications.
+- "You\u2019ll examine pairs of related terms described in given phrases. Your role\
+  \ is to define the type of relationship that exists between these words accurately."
+- Analyze provided statements about word relationships and extract both terms along
+  with their relationships as categorized by a specific set of lexical frameworks.
+- In this exercise, you will dissect word pairings mentioned in descriptive phrases
+  to accurately outline their relationships. This involves navigating linguistic categories
+  effectively to express these ties.
+- A key part of this task is interpreting the relationship expressed between two words
+  in a sentence, then accurately categorizing that relationship based on established
+  definitions.
+- This task seeks to analyze phrases that highlight word relationships, requiring
+  an understanding of lexical categories and their interactions.
+- You will glean insights from descriptive phrases about the connections between terms,
+  classifying these into well-defined relationship types.
+- Your task entails discerning the relationship between two words described in phrases
+  and classifying this relationship according to specified categories of lexical connections.
+- The task involves interpreting relationships in language; identify pairs of words
+  from a description and categorize their relationship accurately based on linguistic
+  rules.
+- "In this exercise, you will be interpreting phrases about word connections. It\u2019\
+  s key to understand various lexical relationships in order to categorize these pairings\
+  \ accurately."
+- In this task, you will be tasked with identifying key words in a statement and discerning
+  the type of relationship that exists between them.
+- Focus on dissecting the phrase to find out how two words are linked and express
+  that link using predefined lexical relationships.
+- You will evaluate relationships indicated by phrases about pairs of words, aiming
+  to determine how they are conceptually tied together. This requires an appreciation
+  for semantic nuances in language.
+- This task requires close analysis of descriptive phrases focused on word relationships.
+  You need to extract relevant terms and clarify their lexical connections for effective
+  completion.
+- You will read provided phrases that indicate relationships between words. From these
+  phrases, your job is to pinpoint the relevant pair and clarify their connection
+  type.
+- "Utilize your understanding of lexical relationships to examine phrases and extract\
+  \ two words along with the type of relationship they share, like \u2018synonym\u2019\
+  \ or \u2018antonym\u2019."
+- The task involves identifying and articulating the lexical relationship between
+  two words based on a provided phrase, requiring an understanding of language and
+  word meanings.
+- The focus is on extracting meaningful connections between pairs of words, recognizing
+  the nature of their relationship based on predefined categories.
+- "In this exercise, identify key terms from given linguistic phrases and accurately\
+  \ convey the relationship between those terms based on specific types such as \u2018\
+  made of\u2019 or \u2018entails\u2019."
+- Examine the input statement to discern the relationship between two terms and express
+  this relationship in a standard format.
+- You are required to read a phrase that explains how two words relate to each other
+  and succinctly describe that relationship in terms of established types, like synonymy
+  or antonymy.
+- The task focuses on understanding linguistic relationships by extracting them from
+  phrases and classifying them into defined types.
+- The task involves recognizing and interpreting the relational dynamics between pairs
+  of words described in provided phrases, requiring linguistic insight.
+- You will need to interpret complex phrases that illustrate how words relate. Your
+  job is to pinpoint these words and state their relationship clearly.
+- In this task, you will interpret descriptive phrases to connect two words through
+  recognized lexical relationships and articulate them concisely.
+- This task challenges you to identify both words from a phrase as well as describe
+  how they relate to each other, requiring strong familiarity with language semantics.
+- The goal is to dissect sentences describing word associations. Participants must
+  pinpoint the words involved and classify their relationship, exemplifying language
+  processing skills.
+- The task is centered on distilling information from phrases that articulate word
+  relationships. You are required to pinpoint both the words involved and the specific
+  nature of their relationship type.
+- Your task is to interpret a phrase that describes how two words are connected and
+  identify the specific relationship between them.
+- Analyzing phrases to distinguish word pairs and their corresponding relationships
+  like 'Synonym' or 'HasProperty' is the primary focus of this task.
+- You need to analyze phrases that describe how two words relate to each other and
+  clearly state those relationships in a structured format.
+- In this activity, you'll analyze a set of word pairs described in phrases and determine
+  the nature of their relationship based on recognized lexical categories.
+- The focus here is on analyzing phrases that articulate relational meanings between
+  two words. Your challenge is to identify these connections accurately while applying
+  predefined relational categories.
+- The objective is to distill complex phrases into clear descriptions of word relationships,
+  leveraging your understanding of language and connections.
+- Engage in an exploration of word relationships as described in phrases, extracting
+  essential elements and specifying their interaction based on recognized semantic
+  relationships.
+- This exercise involves distilling complex phrases into a simple statement that captures
+  key word pairs along with their lexical relationship.
+- Analyze the provided phrase to extract two words and determine how they are related
+  within a specific lexical framework.
+- You will be examining phrases to uncover how two words interact, labeling that connection
+  correctly according to established relational categories.
+- The task involves deciphering a sentence about word associations and conveying which
+  two words are involved along with their relational context.
+- Analyze given phrases to extract two related words along with the type of relationship
+  that exists between them, such as whether one word is a kind of another or if they
+  have similar meanings.
+- The task consists of reading descriptions involving pairwise word relationships
+  and extracting the relevant words while identifying the nature of their connection.
+- "Identify and extract key terms from provided phrases while determining what kind\
+  \ of lexical relationship\u2014like part-whole or synonym\u2014exists between them."
+- This activity focuses on identifying lexical relationships; your aim is to extract
+  meaningful pairs from contextually rich phrases while accurately labeling their
+  connections.
+- Actively decode phrases that describe how two words are related, clarifying their
+  connection by selecting appropriate categories for representation.
+- The goal is to recognize and clarify relationships between pairs of words as expressed
+  in specific sentences, using correct terminologies to define these links.
+- Your task is to interpret phrases about word relationships. You will identify the
+  main words and classify their connection using proper lexical terminology.
+- Your objective is to take a descriptive phrase and break it down to reveal two words
+  and the nature of their relationship, using predefined categories.
+- The task requires you to parse a phrase for a relationship between two keywords
+  and categorize that relationship using specific terms.
+- Your skill in critical reading and vocabulary application will be tested as you
+  analyze relationships between word pairs drawn from descriptive phrases.
+- This task involves identifying and extracting key words from a phrase that describes
+  their lexical relationship. Understanding different types of relationships like
+  synonyms and antonyms is crucial.
+- Your role is to determine the relationship type between two words from a given phrase
+  and express this relationship succinctly.
+- The task involves identifying and clarifying the relationship between two words
+  based on a given phrase. You'll analyze the phrase to uncover the connection and
+  describe it using specific relationship types.
+- Your role is to comprehend descriptive statements about word connections and succinctly
+  express the relationship alongside the respective terms.
+- This task requires you to dissect a statement, identifying key words and categorizing
+  the nature of their relationship using established linguistic terms.
+- The challenge involves extracting pairs of words along with their descriptive relationships
+  from phrases. This requires a strong grasp of lexical meanings and classifications.
+- You will parse through phrases that explain how two words are related, focusing
+  on significant relationship types such as 'PartOf' or 'MemberOf'.
+- Your duty is to interpret pairs of words in context, discern the specific nature
+  of their connection, and communicate that succinctly.
+- Extracting words from descriptive phrases, classify their relationship using terminology
+  reflecting semantic connections common in linguistics is required for this task.
+- This work entails identifying the nature of connections described in relation to
+  various word pairs, necessitating familiarity with linguistic categorization principles.
+- Identify pairs of words mentioned in descriptive phrases, categorizing their relation
+  according to specified types such as 'MadeOf' or 'Synonym'.
+- Your role is to examine descriptive phrases that outline relationships between two
+  words. Identify these words and classify how they relate according to defined categories.
+- You will analyze a provided phrase to find two words and determine how they relate
+  to each other. This requires knowledge of lexical relationships such as 'IsA' or
+  'Antonym'.
+- Your responsibility is to break down phrases that depict how two words interact
+  lexically. Identifying the proper relationship will require analytical thinking.
+- For each given phrase, pinpoint two associated words and describe how they relate
+  to one another according to accepted lexical categories.
+- The aim is to identify and succinctly express the relationships found in phrases,
+  emphasizing clarity in distinguishing between different types of relations.
+- This activity requires you to focus on relationships expressed in phrases involving
+  words, determining how they are interconnected lexically through classification.
+- Your objective is to read through explanations containing word relationships and
+  condense them into a clear statement showing how the words are connected.
+- Extract meaningful pairs of words from a given phrase, identifying the nature of
+  their relationship based on specified categories like 'Antonym' or 'PartOf'.
+- Task yourself with interpreting language that connects word pairs through various
+  relational descriptions, striving to articulate these links with clarity and precision
+  using appropriate terms.
+- Examine given phrases for their relational content, pulling out two words and defining
+  the type of connection they share based on established linguistic categories.
+- Extract meaningful connections between pairs of words from descriptive phrases,
+  focusing on establishing how they relate to each other in various contexts.
+- The objective is to dissect phrases that describe relationships between pairs of
+  words, recognizing their lexical ties. This process demands careful consideration
+  of the nuances of language and meaning.
+- This task involves relating pairs of words based on contextual descriptions, identifying
+  connections such as synonymy or part-whole relationships. A keen eye for detail
+  is necessary for successful completion.
+- The goal is to extract word pairs from provided descriptions and articulate their
+  connection clearly using designated relational descriptors.
+- Your task is to identify the lexical relationship between two given words based
+  on their contextual description.
+- Investigate linguistic phrases for pairs of words that demonstrate specific types
+  of relationships, then express those relationships succinctly.
+- This involves investigating the meanings conveyed in phrases about word relationships,
+  simplifying them into recognized lexical relationships.
+- Interpret relationships highlighted in phrases and present them clearly by identifying
+  the two related words alongside their corresponding type of connection.
+- The task involves identifying and expressing the lexical relationships between two
+  given words, using specific types of relations such as 'HasA' or 'IsA'.
+- The task involves carefully reading statements about word relationships to isolate
+  key terms and classify how they relate in a structured manner.
+- You must examine linguistic phrases to discern the relationships between words.
+  The relationships include classifications such as 'HasA' or 'IsA'.
+- This task focuses on extracting specific relationships between two terms, which
+  requires knowledge of vocabulary and the ability to categorize the nature of their
+  connection.
+- Your objective is to unravel the meanings presented in phrases concerning pairs
+  of words. By identifying their connections through various relations, you demonstrate
+  your understanding of lexicon use.
+- Your task involves interpreting linguistic phrases that convey relationships between
+  words and categorizing those relationships based on established typological classes.
+- Seek out and define connections between word pairs as derived from descriptive phrases,
+  categorizing those connections into types like 'IsA' or 'PartOf'.
+- Your job is to read a phrase and pull out the words it discusses along with the
+  specific relationship connecting them, such as if one word is a synonym or an antonym
+  of the other.
+- Your job is to take phrases depicting word relationships and translate them into
+  clear expressions that highlight the nature of those connections.
+- The objective is to derive the connection between two terms presented in a phrase,
+  identifying the type of relationship and labeling it according to accepted classifications.
+- This assignment revolves around identifying word relationships based on contextual
+  sentences, requiring a solid understanding of language semantics.
+- For each phrase that describes a relationship between words, your job is to pinpoint
+  the words and clarify their connection using defined categories.
+- Engage with statements that describe relational dynamics among term pairs, requiring
+  you to recognize and specify the form of relationship linking them based on your
+  linguistic knowledge.
+- You will be presented with phrases that define relationships between words. Your
+  responsibility is to pull out those words and clarify how they are related.
+- Examine phrases that outline relationships between pairs of words, then extract
+  these terms along with their lexical relationship defined by specific categories.
+- At the heart of this task is exploring word associations. You will identify pairs
+  of words and define how they relate to one another according to lexical standards.
+- The aim is to derive significant word pairs from provided phrases while accurately
+  categorizing their type of connection based on linguistic principles.
+- The task calls for an examination of linguistic phrases to unveil the relationships
+  inherent between specified pairs of words.
+- In this task, you will take a given phrase and determine how two words interact
+  linguistically. Recognizing different types of relationships is essential for accurate
+  classification.
+- Utilize your understanding of language relationships to decode phrases by extracting
+  pairs of words and establishing their connection.
+- Explore descriptive phrases about word associations and determine both the words
+  involved and their specific lexical relationship type that fits within defined categories.
+- Analyze descriptions that define connections between pairs of words. Extract both
+  words while categorizing their relationship using appropriate terminology.
+- Your goal is to decode expressions that show how one word relates to another and
+  label that connection according to specific categories.
+- The task requires identifying two key terms from a relationship statement and categorizing
+  what type of relationship they share based on given types.
+- Your responsibility is to distill complex relationship phrases to simple pairs of
+  words and articulate their specific lexical ties as per outlined categories.
+- You need to analyze statements that detail how words connect, labeling these relationships
+  accurately to reflect their lexical significance.
+- You are required to extract and clarify the connection between pairs of words as
+  described in a specific context, focusing on the nature of their relationship.
+- Your task is to identify two words from a given phrase and establish the type of
+  relationship that exists between them, such as whether one is a part of the other
+  or if they are synonyms.
+- Identify and clarify the lexical relation between two words based on a descriptive
+  phrase, categorizing the connections into predefined types like 'HasA' or 'Synonym'.
+- You will need to assess phrases for their implied meanings and identify how the
+  words within them interact or relate, categorizing these connections appropriately.
+- You will interpret phrases that outline how two words are connected, extracting
+  essential components to clarify their relationship. It calls for a good grasp of
+  vocabulary and relational dynamics in language.
+- The assignment entails examining phrases that depict how two different terms are
+  linked, culminating in a clear expression of their lexical relationship according
+  to specific categories.
+- The goal is to analyze a phrase that describes how two words relate to one another,
+  and then to summarize that relationship with the correct terms.
+- Your job is to analyze and extract relationships from descriptive language involving
+  word pairs, categorizing them into established lexical types for clarity.
+- This task requires you to assess phrases describing relationships involving two
+  terms and condense your findings into a concise representation that highlights their
+  lexical connections.
+- In this task, your focus is on extracting meaningful connections between pairs of
+  words based on their described relationships, which can include types like synonyms
+  or antonyms.
+- This task tests your ability to comprehend and convey relationships between two
+  terms based on given descriptions, honing your skills in lexical analysis.
+- You will interpret relationship descriptions between two terms and format these
+  relationships in an established manner based on their context.
+- The objective is to take a phrase and summarize the relationship between the two
+  key terms it highlights, categorizing that relationship appropriately.
+- This requires you to scrutinize the interaction between specified words in given
+  sentences, categorizing those interactions appropriately.
+- This exercise emphasizes comprehension of word relationships, requiring you to look
+  at sentences and extract relevant terms alongside their corresponding relational
+  label.
+- Your challenge is to translate descriptive phrases about words into precise lexical
+  relationships by identifying the component terms and the type of association between
+  them.
+- Focus on understanding how two words are described in relation to one another through
+  given phrases, aiming to capture the essence of their connection in a concise format.
+- The activity involves interpreting descriptions of how one word relates to another
+  and synthesizing this information into a clear relational format.
+- You'll be tasked with uncovering the connection between pairs of words from descriptive
+  phrases. Recognizing synonyms, antonyms, and other relational types is crucial for
+  success.
+- You will be tasked with parsing out pairs of words from relationship descriptions
+  and interpreting their connections using established semantic frameworks.
+- You will break down a descriptive phrase to extract two related words and characterize
+  their connection using established relationship types, showcasing your understanding
+  of vocabulary dynamics.
+- The main emphasis here is on identifying how pairs of words are related within descriptive
+  phrases and summarizing that relationship cleanly.
+- You will analyze phrases that describe connections between words. The objective
+  is to extract the relevant words and determine their relationship type.
+- The task involves understanding linguistic relationships from descriptive phrases.
+  Extract essential pairs of words along with an appropriate relational term specifying
+  how they connect.
+- Engage with phrases describing word dynamics to extract relevant terms and articulate
+  their relationship based on criteria like 'is a' or 'has property'.
+- This task entails evaluating phrases to identify two words and clarifying their
+  relationship type, which is vital for understanding language connections.
+- You are expected to analyze relationships between terms mentioned in provided phrases
+  and categorize them into designated types like 'Synonym' or 'PartOf'.
+- The emphasis here is on understanding how two concepts are associated in language.
+  You will extract key terms from descriptions and clarify their lexical relationship
+  type.
+- This task challenges you to identify and extract key vocabulary from sentences that
+  illustrate different types of relationships, enhancing your understanding of word
+  connections.
+- Delve into the phrase to uncover two words and categorize their connection using
+  one of the accepted relational types.
+- "In this task, you\u2019ll parse sentences about word relations, focusing on identifying\
+  \ two key terms and expressing the nature of their relationship succinctly."
+- This task asks you to extract meaningful connections from descriptive language involving
+  two terms. You will specify the type of relationship that exists between them, drawing
+  on your linguistic insight.
+- Your challenge is to interpret phrases that describe word relationships and accurately
+  specify what those connections are by selecting appropriate terms.
+- Your role is to scrutinize given word pairs within phrases and classify the type
+  of relationship that exists between them based on various semantic categories.
+- Tasked with identifying word pairs within descriptive contexts, you will classify
+  their relationships according to established linguistic types like 'Antonym' or
+  'IsA'.
+- The task focuses on discerning relationships between pairs of words based on descriptive
+  phrases. It includes knowledge of various lexical categories to classify the relation
+  correctly.
+- The task revolves around understanding the relationships between terms as illustrated
+  in phrases. You must extract these terms effectively along with their linking relationship.
+- The focus here is on extracting pairs of words along with an appropriate descriptor
+  that illustrates how those words relate to one another.
+- Your task is to extract and articulate the connections indicated between word pairs
+  in sentences, focusing on predefined relationship types in linguistics.
+- You will evaluate provided relational phrases to uncover pairs of words and categorize
+  how they are semantically related in a predefined manner.
+- Your role is to discern and summarize the relationships between two words based
+  on provided contextual phrases, determining the correct type of relationship.
+- Analyze phrases for related word pairs and articulate their lexical relationships
+  based on given classification systems, which describe how they interconnect.
+- Find the two significant words in the provided phrase and classify their relationship
+  according to predefined categories such as 'has a' or 'is part of'.
+- The objective is to extract two keywords from a sentence while classifying their
+  relationship correctly within established lexical frameworks like synonyms or antonyms.
+- You'll need to articulate clear connections between words based on relational description
+  provided in given phrases, effectively representing linguistic ties.
+- The task centers on recognizing relationships between pairs of words indicated within
+  certain phrases, requiring both comprehension and classification abilities in linguistics.
+- Your goal is to dissect phrases that express the connection between two words, recognizing
+  their relational type while maintaining clarity regarding each term's role.
+- You will analyze descriptions of word relations to extract essential information
+  about how words connect or relate in meaning.
+- In this task, you will interpret statements about word relationships and formulate
+  a concise expression that conveys the connections accurately.
+- Your responsibility is to analyze given phrases and determine the nature of the
+  relationship between words, using a set list of descriptors.
+- The objective is to extract and clarify the connections implied in a description
+  of two words, noting whether they are synonyms, antonyms, or part of a larger category.
+- Given a relationship statement about two words, your duty is to pinpoint each word
+  and specify the nature of their connection as defined by relational types.
+- Read statements about word associations, extract the related words, and classify
+  their connection based on defined categories like 'HasA' or 'IsA.'
+- In this activity, you will extract pairs of words and determine the specific lexical
+  connection that links them, focusing on relationships like 'is a', 'part of', or
+  'made of'.
+- In this task, you analyze relational phrases to extract pertinent word pairs alongside
+  their lexical connections, articulating these clearly.
+- From a sentence explaining word relationships, identify the involved words and clarify
+  their connection using specific relationship types.
+- The focus is on extracting meaningful word pairs from given relationship phrases
+  while correctly identifying the nature of that connection in linguistic terms.
+- Parse provided sentences for pairs of connected terms, focusing on summarizing their
+  relationships using predefined types for clarity.
+- This task asks you to process descriptions that illustrate how two words are related.
+  Identifying the correct type of relationship is essential.
+- You will interpret sentences that describe how words relate to each other and then
+  highlight the relationship along with the associated words.
+- This involves analyzing descriptions of how two words relate to each other. You
+  need to extract those words and specify their relationship category based on linguistic
+  definitions.
+- Engage with phrases that define relationships between words, extracting specific
+  terms and their interactions. Understanding various relational categories is essential
+  for accurately conveying these connections.
+- This task requires you to break down a phrase into its essential components by identifying
+  the two words and determining the nature of their relationship.
+- This activity is centered on identifying meaningful associations in language, articulating
+  them clearly through a structured format.
+- Look closely at sentences describing how concepts relate, identify the key terms
+  within those sentences, and determine the precise nature of their connection.
+- Analyze descriptive text to find two significant words and explain the nature of
+  their relationship according to established categories.
+- Distill information from descriptive phrases to understand how two terms relate
+  to each other, then articulate this relationship concisely.
+- The task requires you to parse descriptive relationships between words and express
+  them succinctly using established connection categories.
+- Engage with phrases describing word relationships; your task is to pull out each
+  word correctly while identifying their connection type clearly.
+- You'll be extracting crucial information about word pairings reflected in phrases,
+  summarizing this in terms of recognizable relationships.
+- In this challenge, you are asked to derive allegations about how two words correspond
+  according to given textual phrases and synthesize these understandings into classified
+  relationships.
+- Your challenge is to read through relationship descriptions and determine both the
+  relevant word pairs and their appropriate classifications.
+- This exercise involves breaking down expressions that detail how two terms are associated.
+  Your ability to label these relationships accurately is paramount for completion.
+- The task involves analyzing a phrase to identify two words and the specific relationship
+  expressed between them. Understanding lexical relationships is key.
+- Your goal is to extract the words from a descriptive phrase and classify their relationship
+  according to a predefined set of categories relevant to lexical semantics.
+- Analyze descriptive statements about word relations, focusing on identifying and
+  expressing how one term relates to another. Familiarity with different kinds of
+  relationships enhances this task's complexity.
+- Work with phrases detailing Word A's relationship to Word B; identify these terms
+  and assign their correct semantic category based on relational dynamics.
+- Your responsibility is to extract relevant terms from a description and appropriately
+  classify how those terms interact or relate to each other.
+- The focus here is on understanding how two words connect in meaning or category.
+  You should rely on your knowledge of different relational types to complete the
+  task.
+- Analyze the provided relationship description and extract the relevant words along
+  with their specific connection, such as whether one word is a type of another or
+  represents an opposing concept.
+- "This task involves evaluating descriptive statements about words, stripping them\
+  \ down to their essential components\u2014word pairs and relationships."
+ds_kwargs:
+  path: Lots-of-LoRAs/task1510_evalution_relation_extraction
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1510_evalution_relation_extraction
+user_prompt_template: '{task_def}
+
+
+  {problem}'

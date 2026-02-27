@@ -1,0 +1,441 @@
+assistant_prefill: ''
+descriptions:
+- You'll be tasked with examining the contents of a string to see if it includes a
+  certain character, reporting your findings succinctly.
+- In this task, you will need to analyze a string and establish whether or not it
+  includes a designated character.
+- Assess whether a given character exists in the provided string by performing a straightforward
+  check.
+- Engage in a simple search within a string, tasked with finding out if a designated
+  character can be found inside that string.
+- You need to evaluate whether a specified character can be found within a string,
+  producing either a positive or negative response based on your assessment.
+- This task centers around confirming the existence of one character amidst several
+  others in a provided textual input.
+- You are tasked with investigating whether a selected letter appears anywhere within
+  a longer string of characters.
+- Your task involves scouring through an input text for evidence of a specified letter
+  or symbol. Confirming its presence will complete your assignment.
+- Your task is to determine whether a specified character is found within a given
+  string. This requires a basic understanding of string manipulation and character
+  searching.
+- Challenge yourself to detect if an indicated character resides within a complex
+  string of text. Your findings should confirm or deny its presence.
+- You will be tasked with identifying the occurrence of a specified character within
+  a given string. This process involves systematic checking against each element of
+  the string.
+- Your duty is to verify if a certain character appears in a provided string. This
+  requires focus on details within the text.
+- The task at hand involves determining the existence of specific characters within
+  various strings, reflecting your attention to detail and logical thinking.
+- Check if a certain character exists in a provided string. This requires basic string
+  manipulation skills and an understanding of how to search through text.
+- The job here is to assess if a certain character appears in a provided string, which
+  requires familiarity with how strings function in programming or textual analysis.
+- The focus here is on identifying if an individual character is contained in a sequence
+  provided as input, which requires careful consideration and verification processes.
+- Your responsibility in this exercise is to evaluate a string with an accompanying
+  character to find out if that character is included in the string content.
+- You are required to find out whether a specific character is part of a larger string.
+  This demands both methodical checking and comprehension of sequences of characters.
+- Employ your analytical skills to check for the presence of one character in each
+  given string. A careful assessment will lead you to the right conclusion.
+- Your mission is to check the presence of a specific character in a string and indicate
+  if it's found or not through an appropriate numerical value.
+- You need to verify if a character exists within a longer string, which involves
+  basic string searching skills.
+- You need to perform a check on a series of characters to establish whether one specific
+  character is present or not.
+- 'The objective is clear: determine whether a particular character is included within
+  the boundaries of presented textual data via careful examination.'
+- Your assignment here revolves around determining if a specific letter is part of
+  a longer string. This process involves careful examination of both elements given.
+- You are required to investigate whether a certain character manifests within the
+  confines of a given string, responding accordingly based on your observation.
+- Scrutinize the provided sequence of characters for a certain letter, providing insight
+  into your findings based on what you observe.
+- Your task is to simply confirm whether or not a certain specified character can
+  be found among the letters in another sequence.
+- Your job is to inspect a supplied string and see if a specified character can be
+  found in it. The result should indicate whether the character is there or absent.
+- You need to perform a search operation within a string looking for an exact character.
+  This involves careful examination of each part of the string.
+- This task involves scrutiny and checking for the inclusion of one specific character
+  within an arbitrary arrangement of letters in a string.
+- You will analyze a string to find out if it contains a certain character. This process
+  involves examining the string character by character.
+- "The objective is to analyze a string for the occurrence of a specified character.\
+  \ It\u2019s a simple search task."
+- Review the provided sequence of characters and determine if it contains a certain
+  character. This requires an understanding of string contents and structure.
+- This task challenges you to quickly spot whether an individual character is part
+  of a larger group of characters in the string.
+- "The goal here is to discern whether two items\u2014a string and a character\u2014\
+  correspond in terms of presence, focusing on textual analysis skills."
+- In this exercise, you will explore a string to find out if it includes an assigned
+  character, requiring careful attention to detail.
+- Your job involves looking through a string to find out if a certain character is
+  included. A simple yes or no response based on your findings is needed.
+- Engage in the task of checking for the inclusion of one character within another
+  sequence, requiring attention to detail as you look through each part.
+- This task asks you to identify if a designated character is part of an input string.
+  Understanding how strings are constructed will enhance your analysis.
+- Dive into the task of identifying whether certain characters reside within given
+  strings as part of an exploratory analysis exercise.
+- The goal here is to review a provided string and see if a designated character is
+  contained within it. You will ascertain this presence and return a corresponding
+  numeric value.
+- Your role here is to inspect and determine whether a specified letter can be found
+  within the context of a longer string. Your judgment on this matter is vital.
+- The focus of this assignment is on searching through strings to find out if they
+  contain certain individual characters.
+- For this task, you are tasked with scanning a string to confirm the presence of
+  a designated character.
+- You are tasked with checking the presence of a given character in a string. This
+  requires you to closely inspect the entire string for the character's occurrence.
+- "In this task, you\u2019ll need to evaluate if an assigned letter exists among characters\
+  \ in an input string, rewarding acute listening and assessment capabilities."
+- In this exercise, you will be looking for a specific character within a longer piece
+  of text and making a determination based on your search.
+- Focus on scanning through a sequence of characters to see if one designated letter
+  can be found. This is an exercise in thoroughness and detail-oriented searching.
+- The task involves searching for a particular character in a string. You must evaluate
+  whether that character appears at least once in the provided text.
+- Check a given string to see if a particular character appears in it. This requires
+  attention to detail in your comparison.
+- The assignment involves performing a check on an input string for the existence
+  of one particular character, calling for your capabilities in logic and observation.
+- Engage with the task of identifying if a given character appears in a provided string,
+  using logical reasoning to reach your answer.
+- "You are required to find out if a certain character is included in a provided sequence\
+  \ of letters. It\u2019s an evaluation of text-based awareness."
+- Look at the provided string and check for the presence of a certain character. It
+  involves some basic logic assessment.
+- You'll engage with strings and evaluate them for specified characters, demonstrating
+  your ability to detect elements within textual data effectively.
+- In this exercise, you'll check for the occurrence of a particular character in a
+  given string, indicating whether it appears or not.
+- This inquiry requires you to look closely at both a string and an individual character,
+  assessing whether that character can be located within the confines of the provided
+  text.
+- Your goal is to assess the contents of a string and ascertain whether it contains
+  a targeted character or not.
+- You will be engaging in an evaluation process that requires checking if one character
+  exists inside another set of characters. This highlights your skills in searching
+  formations within strings.
+- This task requires you to inspect a string for a designated character. You will
+  conclude whether the character is found or absent.
+- Monitor the input string as you look for the presence of an identified character,
+  requiring careful examination of each letter.
+- "You\u2019re tasked with examining strings and identifying if particular characters\
+  \ are found within them\u2014a basic yet essential skill in text analysis."
+- In this task, focus on identifying if one particular character can be found amidst
+  several characters in a larger string, leading to a clear yes or no answer based
+  on your findings.
+- The task involves confirming whether or not a particular character can be found
+  in a text-based input.
+- Examine the contents of a string carefully and determine if it holds a specific
+  character or not.
+- Your goal is to examine if a specified letter can be found within another set of
+  letters (the string). You'll need to look through all the characters present.
+- Look at the given string and check for the specific character mentioned. You will
+  conclude whether this character exists within the string.
+- This task assesses your ability to find out whether a certain character is included
+  in a provided string of text.
+- The task at hand is to determine the presence or absence of specific characters
+  within strings provided to you, utilizing thorough reading abilities.
+- Your job is to look through a string and see if you can find a specific character
+  within it.
+- Assess whether a designated character can be found amidst the characters of a given
+  string. Your outcome should reflect its availability or lack thereof.
+- Assess whether a chosen character is embedded within a provided string, making use
+  of your analytical skills to provide an accurate response.
+- Your task is to determine if a specific character exists within a given string.
+  This involves searching through the string and making a binary decision based on
+  the presence of the character.
+- "Your job here is to scrutinize two components\u2014a string and a letter\u2014\
+  to ascertain if the letter appears in the sequence provided by the string."
+- Analyze the input by searching through the characters in a string to see if a particular
+  one is present. You will derive your answer based on this search.
+- The task requires you to search through a given string for a certain character.
+  Determine whether that character is included in the text.
+- You are required to determine the presence of a single character in a given sequence
+  of letters and symbols.
+- In this challenge, you are presented with a string and tasked with identifying whether
+  it includes a certain character, leading to either confirming its existence or denying
+  it.
+- Analyze the provided characters in the input and assess whether the specified character
+  appears in the given context.
+- You are tasked with examining a string to see if it contains a certain character.
+  The goal is to either confirm its presence or absence based on your assessment of
+  the string.
+- In this task, you are required to assess a string alongside a character to see if
+  the character exists in the string. The outcome should reflect its presence or absence.
+- The assignment requires you to look through a string and check for the presence
+  of a particular character. Understanding how to analyze strings will help you complete
+  this task.
+- Determine if a given character can be found in a provided sequence of letters. You
+  will simply state whether the character is part of this sequence or not.
+- Your focus will be on reading through text and identifying if it contains one particular
+  character, which relies on your observation skills.
+- This task challenges you to determine if a specified character can be located in
+  a string, necessitating careful examination and logical deduction.
+- Engage in a simple yet crucial task where you assess whether a character shows up
+  in a provided string through methodical examination.
+- In this task, you'll explore whether a specific character can be located in a surrounding
+  text. This includes skills in searching and recognizing patterns.
+- Your goal is to check for the existence of a particular character in a given string,
+  which challenges your ability to inspect and interpret strings effectively.
+- Your task involves examining a string and determining whether a specific character
+  is included within it.
+- You are tasked with checking for the existence of a single character within a larger
+  sequence of text. The result will show whether that character appears at all in
+  the text.
+- Your role is to scrutinize a given string for the occurrence of a specified character,
+  testing your observation skills.
+- You are tasked with discovering the presence or absence of a specified character
+  within any given string, emphasizing analytical thought processes in handling strings.
+- In this exercise, you will assess whether a certain character is contained within
+  a string. A simple yes or no response should indicate its presence.
+- This activity involves looking into the elements of a string to check for the occurrence
+  of one particular character, guiding you toward an evaluative conclusion.
+- "You\u2019ll engage in examining a sequence of characters to see if one particular\
+  \ character is present. This requires methodical inspection."
+- Your assignment is to inspect a text string for the presence of certain characters,
+  which involves careful reading and an understanding of string structure.
+- This assignment focuses on identifying whether a given character is part of a specified
+  string. You'll determine if it shows up in the sequence of letters and symbols.
+- The focus of this task is on strings and characters. You need to check the string
+  for the specified character and determine if it's part of that string.
+- Your objective is to analyze a string and identify if it includes a specified character.
+  You must determine yes or no based on your examination.
+- Evaluate the contents of the input string and determine if the specific character
+  you were given shows up in that text sequence.
+- This activity involves evaluating a character sequence and determining the presence
+  of one specific target character within it.
+- You will inspect a string and identify whether it contains a specified character.
+  This recognization task drives home your attention to detail in pattern recognition.
+- The focus here is on identifying the presence or absence of a specified character
+  in a given collection of letters.
+- The goal here is to scrutinize a string and ascertain if a certain character is
+  present. You'll provide an output reflecting this check.
+- In this activity, you will verify if a particular character is part of a string.
+  Your findings will help determine its existence.
+- You need to conduct a search within a string for a specified character and return
+  whether or not it is found. This involves careful consideration of each element
+  in the string.
+- The objective involves scanning through a string to check for the presence of one
+  character, leading you to either confirm its existence or deny it.
+- "In this task, you will need to explore a string and check for the appearance of\
+  \ a particular character. It\u2019s about thorough investigation and attention to\
+  \ detail."
+- In this activity, you will evaluate a string of text and check for the presence
+  of a particular character. This involves comparing the character against each element
+  of the string.
+- Your role involves determining if a defined character appears in a provided text.
+  This exercise requires you to consider each individual element within the string
+  critically.
+- Investigate a string to find out if it contains a specified character. This is an
+  exercise in text analysis.
+- In this activity, you need to assess if a designated character exists within a supplied
+  string. It involves scanning the text for the target character.
+- Check the inclusion of a specified character in a provided string. This requires
+  basic familiarity with string manipulation concepts.
+- You need to authenticate the presence of a certain character within a lengthy series
+  of letters. It requires analytical skills and careful attention to detail.
+- You will verify if a certain character appears in a long string of text. The task
+  hinges on analyzing the content for that individual character.
+- Your assignment is centered around detecting if a specific character appears in
+  the context of an input string. Look closely at every part of the string for this
+  task.
+- The task requires analyzing a string for the inclusion of a particular character.
+  You will conclude whether it is present based on your findings.
+- The assignment is to evaluate whether a particular character shows up in the specified
+  string.
+- This task entails checking for the inclusion of a particular character in a provided
+  string. You must decide if the character exists in that sequence of letters.
+- This task requires you to verify if a particular character can be found in a provided
+  string. It tests your ability to analyze text for specific elements.
+- Tasked with verifying the presence of particular characters within strings, you
+  will engage in fundamental text evaluation.
+- Investigate the composition of a given string to find if it includes a certain designated
+  character. The focus is on confirming its existence.
+- Your task involves examining text to see if one designated character appears somewhere
+  within it. This analysis is essential for completing the task.
+- "Here, you will search for a single character within a longer sequence of letters\
+  \ and symbols. It\u2019s about finding connections or confirming absence."
+- The objective is to identify if a character is part of a certain string by checking
+  each letter within the sequence.
+- "This task requires checking for one specific element\u2014a letter\u2014within\
+  \ another comprehensive element\u2014a string\u2014allowing for clarity regarding\
+  \ each component's relationship."
+- Your task is to determine if a specific character exists within a provided string.
+  You will check each character in the string to confirm its presence.
+- In this task, you need to assess whether a given character can be found in a string
+  of text. This requires careful observation and an understanding of string analysis.
+- You will be given a string and a character. Your goal is to check if that character
+  appears in the string at least once.
+- Analyze the provided string to check for the occurrence of a specific character
+  and report the result accordingly.
+- This task consists of analyzing strings to see if they contain certain characters,
+  allowing you to report binary results on their presence or absence.
+- In this exercise, you will analyze a string and determine if it contains an indicated
+  character. This task tests your attention to detail and understanding of text.
+- You need to evaluate a string and identify if a certain character is present or
+  absent.
+- The exercise consists of checking for the inclusion of a specified character inside
+  another collection of characters. It challenges your problem-solving and evaluation
+  skills.
+- Using your skills in pattern recognition, you'll identify if a designated character
+  is part of an input string and communicate that finding clearly.
+- Your job is to check a string for the existence of a specific character. This involves
+  careful scrutiny of the characters in the string.
+- Your task is to determine whether a specific character is found within a given string.
+  You will assess the presence or absence of the character and respond accordingly.
+- You must check if one particular character can be found within a longer string.
+  This task tests your ability to effectively search through textual data.
+- You are given an input consisting of a string and a single character. Your task
+  is to verify if that character is part of the input string.
+- This exercise requires you to investigate the presence of a single character within
+  a larger body of text. Assessing each part of the string is essential.
+- Assessing strings for their content can involve checking for specific letters or
+  characters. This assignment focuses solely on identifying one such character's presence.
+- Your job is to inspect a string for a specific character and confirm its presence
+  or absence. This requires a straightforward evaluation of the text provided.
+- In this task, you will analyze a string for the presence of an individual character,
+  making use of your skills in text evaluation.
+- The focus of this task is to verify the inclusion of a character within a string,
+  necessitating basic problem-solving skills and knowledge about strings.
+- In this challenge, your focus will be on determining if a designated character can
+  be found within a supplied string. This necessitates an understanding of how characters
+  are represented in strings.
+- In this exercise, assess a combination of letters (the string) alongside one specific
+  letter (the target) to conclude whether that target letter exists within the larger
+  grouping.
+- Engage in checking if a selected character exists within the confines of an inputted
+  string by conducting an examination.
+- The objective is to check for the presence of a character within a specific sequence
+  of letters and symbols. Accurately identify whether it is there or not.
+- You need to determine if a specific character exists within a given string. This
+  requires checking each character of the string against the specified character.
+- You are asked to evaluate if a particular character can be found in a sequence of
+  characters provided as input. This requires analytical thinking and attention to
+  the details within the string.
+- Investigate strings meticulously to discover if particular characters are present,
+  reflecting your comprehension of text processing.
+- The task involves investigating whether a specific letter exists among the characters
+  of a given string. Your response will indicate its presence either way.
+- For this task, you are given a string and a character. Your goal is to find out
+  if the character can be found anywhere in the string.
+- Look through the content of a given string and determine if it contains a specified
+  single character. Careful scrutiny will lead you to the answer.
+- Your task is to determine whether a specific character appears within a given string.
+  You'll need to evaluate the string carefully and check for the presence of the character.
+- The challenge is to assess whether a certain character is part of the provided text
+  string. Analyze it systematically to arrive at your answer.
+- The objective here is to evaluate whether a provided character belongs to a specified
+  string. You'll need to employ basic string searching techniques for this task.
+- In this activity, evaluate if an individual character exists within a longer string
+  of text. The output should reflect its status as either present or absent.
+- In this task, you will assess a string to see if it contains a particular character.
+  It requires careful examination of the string's content.
+- This task calls for you to analyze a string and recognize whether a specific character
+  is present. Determining presence or absence is key here.
+- This task involves examining a string of characters and verifying if a designated
+  character is included. You'll need to think critically about the contents of the
+  string.
+- This task involves examining a string to determine if a specific character appears
+  within it. You need to identify the presence of the character and provide a binary
+  response.
+- You are asked to evaluate a string and see if it includes a particular character.
+  This involves searching through the string systematically.
+- You are required to search through a string to detect the existence of a certain
+  character.
+- Use your analytical skills to investigate if specific characters are part of the
+  provided strings in this exercise.
+- Your objective is to conclude whether or not a certain character shows up within
+  a larger collection of characters. This activity hones your abilities in comparative
+  analysis.
+- You will analyze and search through strings created from various characters to see
+  if they include one particular letter you are looking for.
+- "You\u2019re required to investigate whether a designated character exists within\
+  \ a provided string, which involves simple comparison skills."
+- Your challenge is to analyze and search through text strings for specific characters,
+  honing your skills in attention and detail orientation within language data.
+- In this task, you will analyze a string and identify if a specified character is
+  present. Your focus will be on locating the character within the text.
+- Your mission is to check for the existence of a character given along with a string.
+  This involves straightforward searching and matching of elements.
+- The task involves examining a string of characters to see if a specified character
+  appears within it.
+- Your assignment is to check if a specific character exists in given text. It tests
+  your ability to pick out important details amidst other content.
+- For this task, determine if the specified character exists in the larger text represented
+  by the given string. Ensure you evaluate each carefully for accurate confirmation.
+- Evaluate whether a designated character exists in a given set of characters, testing
+  your abilities in pattern searching within textual content.
+- 'The objective is straightforward: check if a single letter exists inside the supplied
+  text. This calls for sharp observation of textual details and accuracy in reporting
+  your findings.'
+- "Here, you\u2019ll explore whether an individual character lies within the characters\
+  \ of another given string. The verification process must be precise and succinct."
+- The objective is to realize if an indicated letter exists among various characters
+  arranged in a certain order in the input string.
+- The task involves scanning through a string to determine whether it contains a specific
+  character. You should look closely at each element in the provided text.
+- Your job is to analyze a given string and check for the existence of a certain character.
+  You will indicate whether the character can be found in that string or not.
+- You need to verify the occurrence of a single character in a string. This involves
+  inspecting each part of the string to see if the character appears.
+- The challenge here is to inspect a sequence of characters and check for the existence
+  of a particular one among them.
+- You are tasked with checking if a specific character resides in a provided body
+  of text. The results will indicate if there is any match at all.
+- This task requires you to look through a given set of characters and determine if
+  a particular character is included within it.
+- You will be tasked with searching through a string to find out if a specific character
+  exists within it, highlighting skills in pattern recognition and analytical reasoning.
+- The challenge here is to check if an individual character exists within a given
+  series of characters. It tests your ability to navigate and assess textual data
+  effectively.
+- Identify whether a specified character appears in a supplied string by checking
+  each section of it. Your skills in pattern recognition will be utilized here.
+- Your task is to analyze a string and determine if a specific character exists within
+  it, returning a binary value based on the presence of that character.
+- In this task, you will check whether a specified character appears within a larger
+  collection of characters in the form of a string. Attention is key here.
+- The focus here is on checking strings for specific characters, utilizing analytical
+  skills to determine their presence accurately.
+- You must investigate whether a certain character exists in a provided collection
+  of characters, indicating your success based on its presence or lack thereof.
+- Examine the input string carefully to find out if the designated character is included.
+  This task calls for attention to detail and basic comprehension of strings.
+- In this challenge, you must determine the existence of one specific letter within
+  an entire string. All aspects of the string are available for your examination.
+- The goal of this exercise is to verify if a particular character is part of a given
+  string. Employ logical reasoning to make your determination effectively.
+- "Here, you\u2019re asked to inspect whether a specific character occurs in a given\
+  \ string. Your response will indicate whether it\u2019s present or not through a\
+  \ simple response."
+- You are to explore whether an individual letter exists inside a given text string.
+  Effective detail-oriented examination will yield your results.
+- You will be given a string and a character, and your task is to verify if that character
+  can be found in the string. This requires attention to detail and careful reading
+  of both elements.
+- "In this task, you'll analyze the elements of one string against specified criteria\u2014\
+  whether an individual character exists\u2014which necessitates detail-oriented scrutiny."
+- The aim is to explore whether a specific letter can be found in an input string,
+  relying on your analytical skills to search efficiently.
+- Your responsibility is to identify if a designated character appears in a specified
+  string. Use your analytical skills to confirm its presence or absence.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1189_check_char_in_string
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1189_check_char_in_string
+user_prompt_template: '{task_def}
+
+
+  {problem}'

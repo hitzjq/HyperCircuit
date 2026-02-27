@@ -1,0 +1,417 @@
+assistant_prefill: ''
+descriptions:
+- You should summarize what you read into an effective title, capturing the essence
+  of the message conveyed in the article.
+- Generate a headline for the provided article text that reflects its key points succinctly.
+- "Create a short, informative title based on an article\u2019s substance, aiming\
+  \ to reflect its most important undertaking or discovery."
+- You are required to summarize the essence of an article into a catchy title, ensuring
+  you highlight the key points.
+- This task requires you to extract the core message from an article and formulate
+  it into an informative headline.
+- "Develop a punchy title that represents the article\u2019s main topic, ensuring\
+  \ it captures readers' interest."
+- Capture the main message of the article in a headline, making sure it is both informative
+  and engaging to readers.
+- You will read a passage and create a title that encapsulates its primary focus while
+  being attention-grabbing.
+- This task requires you to synthesize information from articles into clear, compelling
+  headlines that accurately represent the content.
+- The objective is to distill the information in an article into a brief headline
+  that highlights the most important details.
+- You will read brief excerpts from articles and generate appropriate titles that
+  capture the essence of the text. Your aim is to produce clear and informative headlines.
+- The goal is to distill the information in the article into a concise and compelling
+  headline that reflects the main ideas discussed.
+- Your goal is to read and interpret the article text, then generate a fitting headline
+  that captures its essence clearly.
+- Read through the article text and formulate an engaging title that reflects its
+  content and significance.
+- From the provided content, create an attention-grabbing headline that accurately
+  represents the central theme or event discussed in the article.
+- Your challenge is to distill important information from an article into a gripping
+  headline, emphasizing key events or insights.
+- Based on the details in the text, generate a sensible and engaging headline that
+  conveys the gist of what is happening in the article.
+- You are tasked with creating an informative and engaging title from an article,
+  highlighting its most important aspects.
+- Your task requires you to blend journalism skills with creativity to turn article
+  content into engaging headlines.
+- Read through the provided article and create a concise title that effectively communicates
+  its main issue or event.
+- Assess the main elements of an article text and formulate a concise and relatable
+  headline for it, ensuring it expresses key aspects clearly.
+- In this task, take article text and boil it down into punchy, meaningful titles
+  that convey the essence of what you've read.
+- Analyze the text and create an engaging title that conveys the core message of the
+  article.
+- Your task involves summarizing an article through a well-crafted title that reflects
+  its core ideas and attracts audience interest.
+- You need to read through a snippet of an article and produce a fitting headline
+  that conveys the core message in an impactful way.
+- Read through the article's content and craft a headline that effectively conveys
+  its primary subject matter while engaging an audience.
+- "In this task, you\u2019ll take text from news articles and craft headlines that\
+  \ summarize the content effectively. Focus on clarity and relevance to engage potential\
+  \ readers."
+- Your goal is to summarize the content of an article by crafting a headline that
+  highlights the essential information or news featured within.
+- You will extract the essential information from the article text and articulate
+  it in the form of a concise headline, ensuring it reflects the overall message.
+- Generate concise titles for news stories based on their text, highlighting key facts
+  or themes in your headlines.
+- In this role, you will create concise titles for article summaries. It demands a
+  sharp eye for detail and the ability to communicate effectively through minimal
+  wording.
+- Read carefully through the article to formulate an exciting title that mirrors its
+  content in just a few words.
+- "The objective is to encapsulate the article\u2019s main ideas into a compelling\
+  \ title that accurately represents its content."
+- You need to analyze a piece of text and create a short title that captures the essence
+  of the article.
+- Summarize the given article by producing an engaging and informative headline that
+  quickly communicates what it's about.
+- Sift through the details of an article to produce a succinct title that underscores
+  its focal point and engages potential readers.
+- Your responsibility is to distill the essential information of an article into an
+  attention-grabbing headline.
+- Your task is to identify critical information within an article and convert it into
+  an engaging headline that encapsulates its message.
+- Analyze the provided text and summarize its main idea into a title that reflects
+  key themes and information.
+- Your task is to read a given article and create a concise and engaging title that
+  captures the main idea.
+- Your task is to analyze the content of news articles and create a concise headline
+  that captures the main idea.
+- Produce a title for each given article, driving home its key points while ensuring
+  clarity and interest.
+- In this task, you'll create a headline that encapsulates the primary focus of an
+  article, requiring careful reading and comprehension.
+- Read through the article's text and create a headline that communicates its primary
+  focus while grabbing attention.
+- Craft a compelling headline from an article, focusing on conveying its central theme
+  or message in just a few words.
+- Your task is to create a catchy headline based on a given article text, summarizing
+  its main idea effectively.
+- Using the provided article text as a guide, formulate a headline that succinctly
+  summarizes the topic and context of the writing.
+- Your assignment involves extracting the essence of an article's content and transforming
+  it into an impactful headline.
+- The goal is to review an article and write a headline that effectively communicates
+  what the article is about.
+- Crafting concise, relevant headlines from articles calls for distilling their message
+  into engaging titles that inform potential readers quickly.
+- Identify crucial information in the article text and create headlines that clearly
+  convey this information to readers.
+- Craft a headline based on the article, focusing on summarizing its primary focus
+  with clarity and precision.
+- Your task is to read the provided text and create a concise headline that captures
+  the main idea of the article.
+- The job requires you to synthesize information from an article into a short headline
+  that reflects the key topic. This necessitates a good grasp of summarization and
+  writing skills.
+- The job entails reading article excerpts and crafting precise titles that capture
+  the main message, utilizing your skills in summarization and efficient communication.
+- The objective is to write headlines that succinctly summarize articles while maintaining
+  reader interest and clarity.
+- You need to read a provided article and distill its essence into a short and effective
+  title.
+- Produce a compelling headline that encapsulates the major themes of an article,
+  making sure it is both concise and informative.
+- Analyze the content of the given text and come up with a succinct title that conveys
+  the primary message or event.
+- You must read, understand, and then summarize an article by creating a brief headline
+  that represents its core idea.
+- Analyze the provided text and generate a suitable headline that effectively represents
+  its primary focus and content.
+- Consider the core message of the provided text and formulate a title that succinctly
+  represents what the article is about.
+- Read the article content and distill it into a impactful headline that highlights
+  the most significant elements.
+- Summarize each article into a compelling title that not only informs but also engages
+  potential readers.
+- Take the provided article text and generate an appropriate headline that conveys
+  the main story effectively and succinctly.
+- Your job is to distill the information from an article into a brief and engaging
+  headline.
+- The task involves extracting essential information from an article and turning it
+  into a coherent headline for quick comprehension.
+- From a detailed paragraph of discussion, generate a precise headline that communicates
+  the main point effectively to potential readers.
+- You must analyze the article's content and create a relevant title that reflects
+  its key themes and events.
+- "Formulate a powerful headline based on an article\u2019s content, focusing on clarity\
+  \ and relevance to engage potential readers."
+- The goal is to formulate a succinct title for an article, ensuring it conveys the
+  primary theme clearly.
+- Read the article and write a title that succinctly reflects its primary focus or
+  storyline.
+- Your objective is to generate a headline for an article, highlighting its most important
+  details in a few words.
+- Your assignment is to read an article and produce a concise headline that mirrors
+  its main points without losing context.
+- This task involves generating a concise title that encapsulates what the article
+  discusses, based on your reading of it.
+- You are required to distill an article into a catchy headline that reflects its
+  essence, making it attractive to readers.
+- Develop a sharp and focused headline from the details in an article, ensuring it
+  resonates with potential readers.
+- Your job is to articulate the main idea of the given text into a clear and concise
+  headline that readers can easily understand.
+- You need to translate the details in an article into a brief and intriguing headline
+  that draws attention.
+- Craft a summarized headline for the given article text, focusing on capturing its
+  primary narrative or announcements.
+- Your role is to construct a brief title for each article that highlights its most
+  important points or events.
+- Based on the text of an article, your challenge is to craft a relevant and intriguing
+  headline that conveys what the article is about.
+- You will synthesize information from an article into a brief title that effectively
+  communicates its primary focus.
+- Your task involves creating concise and engaging headlines for various articles
+  based on their content. This requires understanding the main ideas and summarizing
+  them effectively.
+- You will generate impactful headlines from text excerpts, focusing on creativity
+  and precision in distillation of information to capture reader interest.
+- Your job is to take the core message of an article and translate it into a headline
+  that is both informative and engaging.
+- Assess the main ideas of an article and produce a headline that effectively represents
+  those ideas in a limited number of words.
+- Analyze the content of the provided article and generate a concise title that captures
+  its essence.
+- The task requires you to synthesize the article's content and produce a succinct
+  title that conveys its primary concern or event.
+- Your goal is to summarize an article by crafting a headline that is clear and engaging.
+- "Synthesize the information from the article into a compelling headline that clearly\
+  \ communicates what it\u2019s about to potential readers."
+- Your task is to create a concise and engaging headline that captures the essence
+  of a given article's content.
+- You are tasked with transforming article texts into succinct headlines, which involves
+  identifying central themes and conveying them accurately in a title format.
+- Your responsibility is to analyze content and create corresponding headlines that
+  are both appealing and descriptive, maintaining the essence of the original text.
+- For each article given, your job is to generate an engaging and precise headline
+  that summarizes its main topic.
+- You will generate appropriate titles for various articles by identifying their primary
+  themes or events. Clarity and relevance are key in this summarization exercise.
+- Your role is to articulate the main points of an article in the form of a headline
+  that is direct and informative.
+- Read through an article's information and articulate a precise and appealing headline
+  that represents its content accurately.
+- Your job consists of interpreting article texts to produce engaging headlines that
+  encapsulate essential information concisely, appealing to an audience's curiosity.
+- Here, you will review snippets of articles and condense them into succinct titles,
+  ensuring that they highlight the key developments or themes presented in the text.
+- The task is about transforming an article's contents into a compelling headline
+  that is informative yet succinct.
+- Your task is to read a short article and create a concise headline that summarizes
+  its main point.
+- Your task is to take complex information from an article and condense it into a
+  direct, attention-grabbing title without losing meaning.
+- Develop headlines that reflect the main themes of articles, using strong language
+  to engage potential readers.
+- Produce a headline for the text you receive, ensuring it conveys the key message
+  in a compelling way.
+- Focus on the important aspects of an article and formulate them into a straightforward,
+  newsworthy headline.
+- Crafting a title from given articles means understanding their core content and
+  rephrasing it into something catchy yet informative.
+- For this task, you'll analyze articles and distill their main points into catchy
+  headlines. Your output should clarify the article's main focus in just a few words.
+- You will be tasked with capturing the essence of an article in a brief title, focusing
+  on clarity and impact to draw attention.
+- Your task is to read an article and come up with a concise headline that summarizes
+  its main point.
+- Analyze the provided text, then create a headline that highlights the most newsworthy
+  aspect in an engaging way.
+- Your responsibility is to extract essential ideas from an article and present them
+  as a clear, interesting title.
+- You are tasked with transforming a text excerpt into a compelling title that summarizes
+  its key points or events.
+- In this task, you will evaluate an article's content to create a relevant title
+  that summarizes its most critical aspects.
+- Your job is to take an article's content and generate a compelling title that encapsulates
+  its gist and significance.
+- Your role is to distill the information in an article into a brief and impactful
+  headline that conveys its core message.
+- Your task involves synthesizing information from an article to create an accurate
+  and engaging title reflecting its contents.
+- Your task is to read an article and create a catchy headline that summarizes its
+  main point.
+- Read through the article and craft a suitable title that encapsulates its key message
+  in just a few words.
+- Develop an engaging title for the article text that captures its main focus while
+  being brief and to the point.
+- You need to extract the key theme from an article and formulate a catchy headline
+  that reflects its content.
+- This task involves generating headlines for articles based on their content, focusing
+  on key information.
+- Based on the provided article content, your task is to come up with a title that
+  summarizes its topic concisely.
+- Given an excerpt from an article, you will need to summarize it into a succinct
+  and provocative headline that captures its significance.
+- From the provided text, generate a headline that highlights the most important points
+  or themes discussed.
+- Formulate a title by selecting essential details from the article, making sure it
+  is both informative and appealing to readers.
+- For this task, your objective is to derive clear, compelling headlines from text
+  passages, focusing on the main ideas presented without adding any unnecessary details.
+- You will extract key information from an article and turn it into a short, powerful
+  headline that signifies its most important aspects.
+- For each article text, distill the main points into a brief, clear headline that
+  will draw readers' interest.
+- Your responsibility is to summarize news articles into concise titles by identifying
+  their core messages. Skillful writing and comprehension are necessary for success
+  in this task.
+- Analyze the content of the article and produce a brief title that summarizes its
+  key events or messages in a compelling way.
+- You need to summarize the important elements of the text into an appealing headline,
+  making sure to keep it sharp and focused.
+- Engage with the provided text to synthesize a clear and catchy title summarizing
+  what is necessary for understanding it quickly.
+- Generate a clear title from the article provided, highlighting its central theme
+  while remaining appealing to readers.
+- Analyze the information presented in an article and provide a bold headline that
+  conveys its key developments in a succinct form.
+- Generate a clear, focused headline for the text, emphasizing its central theme or
+  significant developments mentioned.
+- Transform detailed insights from an article into a catchy title, ensuring it accurately
+  reflects what has been discussed within.
+- Your mission is to interpret an article and craft a relevant headline that highlights
+  the most important facts or narratives presented.
+- Create an informative and captivating title based on the main points of the article
+  you are given.
+- Analyze the provided article text carefully and create a clear headline that encapsulates
+  its main ideas in just a few words.
+- Your responsibility is to produce a headline based on an article, ensuring it conveys
+  the most salient points succinctly.
+- Work with the provided article text to craft a concise and intriguing title that
+  captures reader interest while summarizing key points.
+- Tasked with reading an article, your goal is to formulate a succinct title that
+  encapsulates fundamental takeaways from the text.
+- Summarize the main idea of the article into a clear and informative headline that
+  encapsulates what the piece is about.
+- Invent a succinct title for the provided text, highlighting its key theme or event
+  while remaining interesting to readers.
+- The challenge involves interpreting articles and transforming their meanings into
+  effective headlines that convey important narratives succinctly.
+- Synthesize the key information from the text provided and craft it into a focused
+  and descriptive headline.
+- Your focus will be on generating a title that effectively encapsulates the main
+  story or theme discussed in the accompanying text.
+- Create a headline from the text you are given, emphasizing the most significant
+  details in a way that invites further reading.
+- Utilize your understanding of the text to formulate a concise title that details
+  the topic or story without unnecessary length.
+- Your skill lies in condensing complex articles into punchy headlines that accurately
+  reflect their themes while attracting reader interest.
+- You will analyze provided text and generate a brief, attention-grabbing title that
+  captures the essence of the content.
+- Create headlines from articles by extracting their main ideas and expressing them
+  in an accessible format.
+- The task at hand is about taking written content from articles and forming succinct,
+  engaging headlines that convey the essential points to potential readers.
+- The task requires you to develop a headline that encapsulates the core information
+  presented in the given text.
+- Condense the information from an article into a short, compelling headline that
+  reflects its primary topic.
+- Analyze the details in an article and produce a clear and catchy title that encapsulates
+  its main message.
+- Generate a concise yet descriptive headline for the article that conveys its main
+  message clearly and attractively.
+- The task involves creating a title for an article based on its content, ensuring
+  it accurately reflects the subject matter.
+- You will distill complex article texts into straightforward headlines. This involves
+  understanding what information is most significant for potential readers to know
+  at a glance.
+- Your task is to read a given article and create a concise and engaging headline
+  that captures the main point or theme of the text.
+- The task involves summarizing an article into a meaningful title that highlights
+  its main discussion or event, appealing to potential readers.
+- Transform the content of an article into an informative headline that summarizes
+  the essential information.
+- Read through news articles and produce attention-grabbing headlines that reflect
+  the core content succinctly.
+- Your challenge is to craft impactful headlines from articles, focusing on clarity
+  and emphasis on main ideas.
+- Summarize the key points of an article by producing a fitting headline that encapsulates
+  the critical aspects of the writing.
+- Read through the article content and produce a relevant headline that encapsulates
+  its subject matter effectively.
+- The task calls for you to extract key information from an article and present it
+  as an effective headline.
+- Tasked with interpreting articles, your goal is to generate headlines that succinctly
+  capture their essential messages.
+- The objective is to translate the content of an article into a short title that
+  mirrors its themes and intrigues readers.
+- Create a succinct title for an article by identifying its core themes and presenting
+  them in a catchy manner.
+- Create a headline for the article that effectively sums up its content, conveying
+  the most critical information succinctly.
+- The goal is to condense an article down to its essence by devising a fitting title
+  that reflects its overall message.
+- Read through the provided article and generate an appropriate title that reflects
+  its key themes.
+- Condense the essence of an article into a brief headline, highlighting key events
+  or information presented in the text.
+- Assess the content of given articles and create sharp, informative headlines that
+  encapsulate their essence.
+- This assignment requires you to extract crucial insights from written articles and
+  convert them into captivating headlines that represent the main topics effectively.
+- Your role is to read provided articles and formulate briefs that serve as effective
+  titles. This requires the ability to condense information while retaining essential
+  details.
+- The objective is to generate a headline for a given article, focusing on the central
+  theme and crucial details.
+- Craft a simple yet effective headline based on the details in each article, summarizing
+  what it covers.
+- From the provided article text, you need to craft a straightforward title that summarizes
+  the topic effectively.
+- You will summarize the main ideas of an article into a catchy headline that draws
+  attention.
+- The objective is to read an article's text and produce a clear title that reflects
+  its core subject matter and engages readers.
+- In this task, you are required to summarize an article by creating an impactful
+  headline that resonates with its primary themes.
+- Generate a title for an article by extracting its main themes and presenting them
+  in a clear and eye-catching manner.
+- Your job is to summarize the essence of a given article into a fitting title that
+  draws attention.
+- Focus on creating informative yet intriguing headlines based on given articles,
+  aiming to attract interest while summarizing essential details.
+- Capture and rephrase the main message of an article into a tidy headline that conveys
+  what readers should know at a glance.
+- Your job is to transform the content of the article into a compelling title that
+  draws attention while remaining true to the text.
+- Your aim is to synthesize the main points of an article into a concise headline
+  that communicates its subject matter.
+- Analyze the provided text and develop a relevant headline that summarizes its primary
+  discussions or findings.
+- Review the provided text and summarize the key points in a catchy headline that
+  reflects the article's message.
+- The task is to interpret an article and summarize it into a well-crafted headline
+  that effectively reflects its significance.
+- Your mission is to read through provided texts and generate succinct titles that
+  summarize each piece's principal messages.
+- The task involves summarizing articles into headlines that reflect their core messages
+  clearly. You'll need to discern important facts and present them concisely.
+- You will summarize news articles into headlines that effectively capture what the
+  story is about in just a few words.
+- Take the text of an article and turn it into a concise headline that effectively
+  summarizes what readers can expect.
+- Create an effective title for an article by synthesizing its main arguments or events
+  into a single, impactful line.
+- Generate a suitable title for the provided text that captures its essence effectively.
+- From the given article, generate a headline that effectively summarizes its main
+  theme or significant developments in a creative manner.
+ds_kwargs:
+  path: Lots-of-LoRAs/task288_gigaword_summarization
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task288_gigaword_summarization
+user_prompt_template: '{task_def}
+
+
+  {problem}'

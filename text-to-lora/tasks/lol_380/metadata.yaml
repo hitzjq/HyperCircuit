@@ -1,0 +1,469 @@
+assistant_prefill: ''
+descriptions:
+- Your responsibility here is to read a given text, then assess whether the information
+  provided answers affirmatively or negatively to a posed question. Make sure to base
+  your conclusion entirely on the passage.
+- You are tasked with reading informative passages followed by questions that demand
+  straightforward answers. This assesses both your understanding and analytical skills
+  concerning the content.
+- The objective is to read a passage carefully and evaluate whether a specific statement
+  about it is true or false. Your response must directly reflect the information given.
+- Your role is to deduce answers from specific pieces of writing and succinctly indicate
+  agreement or disagreement with statements presented in the form of questions.
+- Your task involves reading a provided passage and then answering a yes or no question
+  related to that passage. You'll need to extract relevant information to inform your
+  response.
+- Your job consists of interpreting passages correctly and immediately answering whether
+  certain statements drawn from them are valid or not.
+- The aim is to use insight gained from reading passages toward answering specific
+  yes/no questions regarding their content validity.
+- This exercise tests your ability to interpret written material and respond accurately
+  based on the details outlined within it.
+- You'll be reviewing passages and resolving simple yes/no questions that hinge on
+  the information presented within them.
+- This assignment requires close reading skills as you address whether specific queries
+  align with the meanings conveyed through concise written passages.
+- "You\u2019re expected to ascertain factual relationships presented in brief narratives\
+  \ and respond appropriately regarding their truthfulness."
+- Review the details in the passage carefully, as your response should reflect your
+  understanding of what was stated in relation to the question asked.
+- Your task is to read a provided passage and answer a yes/no question based on its
+  content. You need to extract relevant information to determine if the statement
+  in the question is true or false.
+- The purpose of this task is for you to interpret written material thoroughly and
+  determine factual accuracy regarding yes/no questions posed about it.
+- This task prompts you to assess textual content critically and determine if statements
+  align with that content by answering yes or no based on your comprehension of the
+  material.
+- Through this exercise, your ability to comprehend written materials will be evaluated
+  as you answer yes or no questions based only on what's provided in the texts.
+- The objective is to use critical reading skills to assess details from a text and
+  logically deduce the answer to a yes/no inquiry.
+- Engage with a snippet of text and determine if the information presented supports
+  or contradicts the posed question. This requires synthesizing details from the passage.
+- Read through specified passages and determine the truthfulness of statements based
+  on what you've read. Your answers should reflect your understanding of the material
+  presented.
+- This task requires you to interpret a short piece of writing and determine the validity
+  of a statement based on that writing.
+- Your mission is to listen closely to the details in a passage and confirm if an
+  assertion about it is correct with a simple affirmative or negative.
+- You are presented with informative writing followed by pointed questions. The objective
+  is to ascertain whether these inquiries can be answered affirmatively or negatively
+  using information from the passage.
+- The task involves reading a passage and answering a question that is directly related
+  to the information contained within that passage.
+- The assignment requires you to connect your reading comprehension skills with critical
+  thinking, enabling you to confirm or deny statements based on textual evidence.
+- Read the provided material carefully, then use that understanding to decide if the
+  query relates correctly to the details discussed within it.
+- "You\u2019ll explore a small piece of writing and respond accordingly based on its\
+  \ content. Your answer should reflect your understanding of whether certain assertions\
+  \ are substantiated by what you've read."
+- Your role is to closely analyze textual content, which will serve as the basis for
+  answering inquiries that require binary responses regarding accuracy.
+- "You\u2019ll analyze given passages, identify key details, and plainly respond to\
+  \ questions derived from those passages regarding their veracity or accuracy."
+- In this activity, your comprehension skills will be tested as you read passages
+  and discern the truthfulness of specific yes or no questions related to them.
+- This challenge involves processing written content and responding thoughtfully about
+  its implications through simple, binary answers.
+- You are required to extract information from a provided text and respond to a yes/no
+  question regarding the passage's content.
+- This exercise involves extracting key points from provided readings and applying
+  them directly to affirm or deny allegations made in subsequent questions regarding
+  those texts.
+- The main focus here is on reading comprehension as you evaluate passages of writing
+  before providing correct yes or no responses relating to their specifics.
+- You will need to assess a provided passage and use its content to decide the validity
+  of a yes or no question asked about it.
+- Your role is to read a given text thoroughly and respond accurately to a yes/no
+  question that is directly related to that text's content.
+- This task tests your ability to read critically and evaluate whether certain assertions
+  can be affirmed or negated using textual references from provided passages.
+- As you engage with the text, your goal is to identify key points that allow you
+  to confidently answer yes or no questions regarding the information given.
+- Your role involves absorbing information from passages provided to you and judiciously
+  answering related yes or no questions based on your interpretation of that written
+  content.
+- Get ready to summarize key concepts from short passages and use them as evidence
+  in your yes/no responses.
+- Evaluate the details of a short written excerpt and respond accordingly when asked
+  if certain statements are true or not based on that excerpt.
+- This task requires you to engage with a short piece of writing and deliver a concise
+  yes or no answer regarding a related question. The answer should reflect your comprehension
+  of the material.
+- Your challenge is to discern whether passages support certain claims through straightforward
+  yes/no answers, necessitating attentive reading and comprehension skills.
+- The objective of this task is to analyze passages critically and determine if certain
+  questions can be confirmed based on textual evidence alone.
+- In this exercise, you must assess the facts contained in a passage and determine
+  whether they support or contradict the statement posed in the associated yes/no
+  question.
+- You are required to interpret factual information from a written work and use that
+  understanding to respond to specific inquiries related to that content.
+- You will need to comprehend a written passage and address whether certain statements
+  derived from it are true. Your final output will be in the form of yes or no.
+- Engage with short readings that culminate in clear yes/no questions; you will need
+  to establish whether their assertions align with the text's information.
+- You will read an informational passage followed by a direct question reflecting
+  its content. The challenge lies in harnessing your understanding of the text to
+  formulate an appropriate response.
+- This task centers on comprehension of textual materials; you will determine whether
+  statements made in questions are corroborated by the provided passages.
+- Your task is to extract meaning from the given passage and determine whether the
+  claim made in the accompanying question holds true based on that information.
+- This task requires you to extract information from a short text and respond to a
+  yes or no question that relates directly to that text.
+- The task requires synthesizing information presented in passages to accurately address
+  simplified questions concerning that information.
+- The task involves discerning whether specific declarations regarding a passage hold
+  true by synthesizing its core ideas.
+- Your job is to confirm or deny statements posed in questions by drawing upon and
+  interpreting key points from an accompanying passage.
+- This exercise requires you to engage with passages of text and evaluate corresponding
+  statements by responding with either yes or no, demonstrating comprehension.
+- Your objective is to sift through the details in the given text in order to engage
+  with subsequent questions that require straightforward yes or no responses.
+- Evaluate textual passages closely and provide answers to queries regarding their
+  accuracy, rooted in your understanding of what was discussed within those texts.
+- You will analyze short texts and then ascertain whether they provide enough evidence
+  to answer related yes/no questions with confidence.
+- By reading the provided text, your goal is to ascertain whether the information
+  supports a particular statement, leading to a simple affirmative or negative answer.
+- Your task entails deciphering important facts within a passage in order to respond
+  appropriately to binary questions derived from that text.
+- You will analyze brief texts, focusing on their content, so you can effectively
+  evaluate true or false statements about them.
+- In this exercise, interpreting passages correctly leads you to provide accurate
+  yes or no answers regarding questions linked closely with their information context.
+- You will need to evaluate questions in relation to a passage, drawing conclusions
+  based on the facts presented in the text.
+- In this activity, you will read through a brief passage and provide an answer to
+  a yes or no question based on what you've understood from it, emphasizing comprehension
+  skills.
+- Your task is to evaluate a given excerpt and answer whether a specific claim about
+  it is correct or not. This requires careful reading and attention to detail.
+- You are tasked with understanding a brief passage and answering a specific yes/no
+  question about it. Focus on identifying clear facts in the text to guide your response.
+- The objective here is to comprehend a passage and determine whether a statement
+  based on it is true or false. Your answer will be either "yes" or "no."
+- This task involves analyzing a text and answering a straightforward question about
+  it. You need to focus on the details in the passage to accurately respond with either
+  "yes" or "no."
+- In this task, you're expected to interpret textual information to provide precise
+  answers regarding claims made about what you've read.
+- In this task, you will be given passages followed by questions. Your responsibility
+  is to answer those questions satisfactorily by extracting relevant insights from
+  the readings.
+- Your role is to extract relevant information from a provided passage in order to
+  accurately respond to a binary question about it.
+- This task requires you to read and comprehend a text, then use that understanding
+  to answer whether a certain statement is confirmed by the passage's contents.
+- You'll be engaging in close reading of specific passages, followed by responding
+  affirmatively or negatively to questions reflecting that content. Insight into the
+  details matters significantly.
+- This task requires you to understand a piece of writing and decide if specific claims
+  made in a question are supported by that text.
+- The assignment requires you to digest a selection of writing and respond affirmatively
+  or negatively to a question about it, ensuring your answer correlates with the passage's
+  information.
+- Engage with text by reading attentively, then using understanding gleaned from it
+  to inform your answers to straightforward yes/no inquiries.
+- As part of this exercise, you will read a selection and evaluate its content before
+  confirming or denying statements posed in subsequent questions.
+- Utilize your reading skills and critical thinking to navigate through a text and
+  ascertain the validity of claims presented in subsequent questions.
+- Your task involves reading a passage and answering a yes/no question based on the
+  information provided. It requires comprehension skills to extract relevant details.
+- You will need to synthesize information from a short narrative or description and
+  use that understanding to affirm or refute a specific query related to that text.
+- Your task is to read a passage and determine the truth of a question based on the
+  information provided in that passage.
+- The task involves analyzing a written passage to determine if a specific statement
+  or claim is true or false based on the details given.
+- The objective here is to read a selected text and respond accurately to a yes/no
+  question that follows. You should ensure your answer aligns with what is conveyed
+  in the passage.
+- Here, you are tasked with extracting informative elements from a passage in order
+  to accurately respond to questions requiring binary answers.
+- In this task, you will evaluate the content of a passage to confirm or deny the
+  accuracy of a related question.
+- Here, you will work with brief texts followed by direct questions regarding their
+  meaning. Your understanding of the provided information will guide your answer choice.
+- This assignment asks you to process written material carefully and formulate a yes
+  or no response to questions about it, reflecting your interpretative capabilities
+  regarding textual content.
+- Your task involves reading comprehension, where you are required to derive answers
+  from given passages and respond simply with yes or no based on your understanding
+  of the texts.
+- In this task, focus on reading passages thoroughly and evaluating them against yes/no
+  questions that test your ability to extract factual information from the text.
+- For this task, you will evaluate a written excerpt and respond to a corresponding
+  yes or no question, which requires you to pay attention to specific details within
+  the text.
+- The goal here is to draw direct connections between statements in a text and specific
+  yes/no questions based on that information.
+- You are required to read a passage carefully and then assess whether a yes or no
+  question can be answered based on its content. Pay attention to critical details
+  in the text.
+- You will read a short passage and use the details within it to answer a yes/no question
+  accurately.
+- The objective here is to read and comprehend a passage before answering a yes or
+  no question that tests your knowledge of its content. Focusing on the critical information
+  is essential.
+- This activity requires reading comprehension skills as you assess passages and respond
+  clearly to yes/no inquiries drawn from their content, interpreting the material
+  effectively.
+- For this assignment, you will interpret an excerpt and respond appropriately to
+  a yes/no question that relates to its content, ensuring that your answer aligns
+  with what is stated in the text.
+- You will analyze a short text and answer a straightforward question regarding its
+  content, focusing on clarity and accuracy.
+- In this activity, your task is to discern facts from a provided text and then respond
+  accurately to questions that inquire about that information. Reading critically
+  enhances your responses.
+- You are asked to analyze a given passage and determine the truth of a yes/no question
+  derived from it, demonstrating your reading comprehension abilities.
+- In this task, you will read a passage followed by a yes or no question. Your role
+  is to determine whether the statement in the question is true based on the information
+  provided in the passage.
+- This task revolves around reading a passage and accurately answering a question
+  that relates directly to the information in the text. It assesses your ability to
+  grasp key concepts.
+- You need to extract pertinent information from the provided passage in order to
+  confirm or deny assertions posed in yes/no questions.
+- In this exercise, you will read a short text and respond to a related yes or no
+  question. This assesses your ability to understand and interpret written information.
+- This activity involves extracting critical insights from written passages so that
+  you can accurately address related yes or no inquiries.
+- In this activity, you will read a passage that contains specific information, then
+  answer whether the statement in the following question accurately reflects that
+  information.
+- In this task, you analyze narrative content while addressing queries linked to that
+  content, confirming your understanding of its implications through your responses.
+- In this task, you will evaluate the information in a given passage to determine
+  whether the statement in the accompanying question is true or false.
+- The objective of this task is to determine if certain statements about the content
+  of a passage are true or false, based on your understanding of the material presented.
+- The focus of this task is to read and comprehend a passage, followed by answering
+  whether a specific statement is true or false based on that text.
+- Gather insights from a written excerpt, then determine through logical reasoning
+  whether the given question aligns with the facts stated therein.
+- You are tasked with interpreting a passage of text and providing a clear yes or
+  no answer to a related inquiry. This entails considering relevant facts mentioned
+  in the excerpt.
+- You will be presented with a text followed by a question that seeks a confirmation
+  or denial based on that text. Analyzing the passage carefully will help you find
+  the correct answer.
+- This task involves reading a passage and answering a yes or no question based on
+  the information presented. It requires comprehension and critical thinking to identify
+  factual responses.
+- You need to comprehend a provided passage and then decide if the answer to the question
+  relates accurately to its contents by saying yes or no.
+- The focus here is on understanding passages of written information and using that
+  understanding to answer straightforward yes or no questions.
+- Your job is to interpret a text and provide a response that reflects whether a claim
+  made in the question aligns with the text's information.
+- The goal is to read selected pieces of information carefully and then use that understanding
+  to respond accurately to true-false type queries regarding their content.
+- This task requires you to engage with a passage of information, deriving facts from
+  it to answer a yes/no question accurately.
+- Engage with passages of text and evaluate their content critically, using this comprehension
+  to validate or negate statements framed in subsequent questions.
+- In this exercise, you will read a short text and respond to a question about it
+  with either "yes" or "no." Understanding the main ideas of the passage is crucial
+  for providing an accurate answer.
+- In this activity, you will read a short excerpt and assess whether certain propositions
+  align with the information provided in that excerpt.
+- As part of this challenge, read passages thoroughly and determine responses based
+  on them. Your answers should reflect factual elements derived from the given text.
+- This task challenges you to read thoroughly and gauge whether certain assertions
+  are valid according to the details expressed in a passage.
+- In this task, you will analyze a passage of text and answer a yes or no question
+  related to its content. You need to extract the relevant information from the passage
+  to determine the appropriate response.
+- You will be provided with a short passage followed by a yes or no question. The
+  goal is to assess whether you can accurately determine the answer based on the given
+  information.
+- You must carefully consider the context of the passage in order to accurately determine
+  whether a statement is supported by the text.
+- You will need to read a concise passage and critically engage with it to affirm
+  or refute the statement made in the following question.
+- The goal of this task is to evaluate the information given in a passage and directly
+  answer a question about it with a simple yes or no, relying only on the text for
+  your insights.
+- In this activity, you're required to parse through written material and validate
+  particular assertions by determining their truth value through simple responses.
+- The goal here is to understand the information conveyed in a passage and then evaluate
+  if a specific question posed about that passage can be answered affirmatively or
+  not.
+- You'll be tasked with interpreting the information in a passage and deciding if
+  the answer to a question is yes or no. This tests your ability to derive conclusions
+  from written content.
+- Your mission is to interpret the meaning within a given text and provide an answer
+  to whether certain claims made in questions correspond with that text.
+- "You\u2019ll be tasked with interpreting written material and discerning truthful\
+  \ answers related to it through clear yes/no responses."
+- Your job is to read a given excerpt and assess whether specific claims about the
+  text are true or false based on what you've read.
+- You will be reading a short narrative and answering simple yes/no questions derived
+  from its content, using only the facts presented.
+- You need to analyze a given passage and decide whether a specific statement about
+  it is true or false.
+- The assignment involves examining a passage to gather facts, followed by responding
+  to a related yes or no inquiry. Effective reading skills are essential for this
+  task.
+- This task involves interpreting a short passage and responding to a yes/no inquiry
+  that relates to the details within it. It requires critical reading and comprehension
+  skills.
+- The task consists of reading comprehension, where you must read a passage and then
+  answer a yes or no inquiry about that content, highlighting your understanding of
+  the material.
+- You will evaluate a passage of information and succinctly respond with an affirmative
+  or negative answer to a pertinent question. Close attention to detail is crucial
+  for success.
+- The challenge consists of analyzing textual passages to answer specific yes or no
+  questions accurately. Focus on identifying critical points in the text is necessary
+  for success.
+- "This task involves processing sentences in a passage to address direct questions\
+  \ about it. You\u2019ll summarize your findings with a simple yes or no response."
+- You are given a brief written passage and a specific question that requires a yes
+  or no answer. To succeed, focus on the key details within the text.
+- In this role, you're invited to dissect passages for evidence relevant to posed
+  queries, allowing you to formulate concise yes or no answers based on analysis.
+- You will be given a short passage containing information and a related question.
+  The challenge is to derive an answer from the text, indicating if the question's
+  assertion is correct.
+- You will be given excerpts that convey specific details, along with questions that
+  prompt you to decide on their truthfulness based on what you've read.
+- In this task, you will engage with a written passage and assess if it supports or
+  contradicts a posed yes/no question.
+- "The focus here is on interpretation\u2014carefully consider the material presented\
+  \ and identify whether the statement from the question holds true according to that\
+  \ content."
+- In this task, you analyze a brief text and answer a yes or no question that relates
+  to its content. This requires careful reading and retention of important details.
+- Your goal is to assess the content of a passage and respond appropriately to a question
+  concerning it. Understanding the passage is key to determining the correct answer.
+- Engage deeply with each passage and relate its content back to specific inquiries.
+  Your proficiency in understanding written details is essential for success here.
+- Read the provided passage carefully and answer a yes/no question by referring only
+  to the details included in that passage.
+- You will analyze a provided text and respond to a yes/no query by extracting relevant
+  information from the text to form your answer.
+- Engage with passages that contain specific information, and leverage that knowledge
+  when formulating straightforward responses to yes/no questions.
+- The goal here is to leverage your understanding of written material to accurately
+  respond to factual questions about its content while keeping your answers succinct.
+- This task challenges you to analyze a short excerpt and respond to a related yes
+  or no question, using only the information from the passage.
+- You'll interpret brief written content and engage with questions about it. Your
+  conclusions should strictly follow logical deductions made from the passage.
+- Read through the provided content carefully, then deduce whether the accompanying
+  question can be accurately answered as "yes" or "no."
+- This task involves comprehension as you read through a piece of writing and answer
+  a binary question derived from it, underlining your ability to glean information
+  effectively.
+- You'll be working with concise texts, aiming to validate or refute particular claims
+  by relying solely on the information provided.
+- The objective is to examine the content in each passage and apply that understanding
+  by either confirming or denying claims made in related questions.
+- You are required to read a passage and respond to a yes or no question about it.
+  This task tests your comprehension skills by focusing on specific details from the
+  given text.
+- Your role here is to comprehend a passage fully and answer direct questions about
+  it without needing additional information or context.
+- You will read a provided passage and then respond to a related question with a simple
+  yes or no. This task focuses on accurately recalling details from the text.
+- Your task involves interpreting information presented in a passage and then deciding
+  if the answer to a subsequent yes or no question is true based on that information.
+- You will need to analyze content from a passage in order to resolve whether a particular
+  assertion posed in a subsequent question can be answered as true or false.
+- This task entails reading carefully through a short excerpt and critically evaluating
+  whether the answer to a posed question is 'yes' or 'no.'
+- Your task is to read a passage and then address a yes/no question based on the information
+  contained within that passage.
+- Your task is to read a passage and respond to a yes or no question based on the
+  information provided in that passage.
+- This task asks you to evaluate statements based on a provided text. You'll need
+  to determine if specific claims made in the questions are supported by the details
+  in the passage.
+- The task consists of reading through specific information provided in a brief text,
+  then concluding with either an affirmative or negative response to related questions.
+- In this task, your focus is on literacy skills as you read passages and respond
+  accurately with yes or no based on their content.
+- This task challenges you to comprehend a brief narrative and provide simple affirmative
+  or negative responses to questions about it.
+- You will be tasked with carefully reading paragraphs of information and providing
+  short answers related directly to those readings, which assess your understanding
+  of local facts or claims.
+- The goal is to read and understand a provided passage and respond with a concise
+  yes or no answer to a queried statement, requiring clarity of thought regarding
+  the text's facts.
+- The assignment focuses on assessing written passages for clarity of information.
+  You must determine if statements made in subsequent questions are affirmed by what
+  you've read.
+- The task centers around extracting key details from a passage and using them to
+  confirm or deny statements posed as questions.
+- Your objective is to interpret a written passage and provide a yes or no answer
+  to a question derived from it. This involves understanding the main ideas and facts
+  presented in the text.
+- You are tasked with digesting passages of information effectively and assessing
+  whether they provide support for claims made in related yes/no queries.
+- Analyze the provided text to determine if it supports the given yes/no question,
+  demonstrating your comprehension skills.
+- In this activity, you will review a brief excerpt and answer a question concerning
+  its content. Your response must reflect an understanding of the material read.
+- Extract key pieces of information from a passage in order to provide an informed
+  yes or no answer to a related question.
+- Your main objective is to determine the accuracy of statements presented in questions
+  by referencing specific details found within corresponding passages.
+- In this activity, you will interpret a short passage and formulate your answer to
+  a yes or no question concerning that text. The accuracy of your answer hinges on
+  your understanding of the material.
+- You will be given a brief passage followed by a yes or no question, for which you
+  need to provide an answer rooted in the reading comprehension of the text.
+- This activity asks you to engage with a written passage and establish whether specific
+  statements made in questions hold true according to that text.
+- This involves understanding and using information from a text to validate or refute
+  a related inquiry, determining its truthfulness.
+- You should focus on understanding the main ideas in the passage to accurately answer
+  questions about its content.
+- Your goal is to assess a written passage and respond to a yes or no question that
+  pertains to its content. This task requires careful reading and comprehension skills.
+- Based on the supplied passage, your challenge is to interpret the information correctly
+  and answer whether a certain claim is accurate.
+- In this exercise, you must analyze a written piece and then assess whether a statement
+  posed as a question aligns with the facts laid out in the text.
+- Look closely at the provided material and assess it against questions that seek
+  confirmation of specific facts or assertions made within it.
+- Your goal is to assess the information in a brief text and ascertain the validity
+  of a question posed about it.
+- You will be tasked with discerning information from various written excerpts and
+  must respond accurately to questions reflecting that content's accuracy.
+- This requires you to synthesize information from texts in order to answer inquiries
+  with confidence about their correctness in relation to what you've read.
+- Assess passages for comprehension and logic, then confidently reply to simple questions
+  about their content based on your analysis.
+- You will engage with a passage of text and must answer questions regarding its context
+  with simple yes or no responses. This task evaluates how well you can draw conclusions
+  from reading material.
+- Here, you will engage with a short text and subsequently answer a yes or no question
+  based on it. This process emphasizes your understanding of the written word.
+- This involves analyzing text and matching it against posed questions to arrive at
+  straightforward answers of either "yes" or "no." It tests your comprehension skills
+  as well as your ability to recall details.
+- You will be engaging with passages that require careful reading, followed by brief
+  assessments of specific statements related to those texts.
+ds_kwargs:
+  path: Lots-of-LoRAs/task380_boolq_yes_no_question
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task380_boolq_yes_no_question
+user_prompt_template: '{task_def}
+
+
+  {problem}'

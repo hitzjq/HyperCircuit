@@ -1,0 +1,435 @@
+assistant_prefill: ''
+descriptions:
+- Your job is to analyze pairs of words and classify their relationship. This requires
+  recognizing different semantic relationships, such as whether one word is a subtype
+  of another or a part of it.
+- Determine how two words are related by identifying which specific linguistic relationship
+  they share, such as being from the same category or expressing characteristics.
+- Your role is to assess the semantic relationship between each pair of words. This
+  involves categorizing them into defined relationships like coordinate or random.
+- Engage in an analytical process where you'll determine the nature of the relationship
+  between concept and relatum based on linguistic definitions and contextual meanings.
+- The task involves determining the relationship between two words, where one is a
+  concept and the other is a relatum. You need to classify their relation into specific
+  categories based on their meanings.
+- Engage in a semantic analysis where you deduce the relationship between two terms,
+  utilizing your understanding of categories like attributes, classes, or events.
+- Your task involves identifying relationships between words in pairs by applying
+  established concepts from semantics and language studies.
+- You will evaluate a given pair of words to uncover the type of relationship they
+  share, whether they represent categories, components, characteristics, or unrelated
+  terms.
+- This task requires you to classify the relationship between a 'concept' and a 'relatum'
+  based on established linguistic categories, enhancing your vocabulary knowledge.
+- You are tasked with understanding and identifying how two words convey different
+  types of relationships in language, ranging from parts of a whole to descriptive
+  qualities.
+- Your task is about understanding how concepts are linked through language, and you
+  must identify these links accurately according to defined relations.
+- In this task, you will analyze a pair of words to determine the relationship between
+  them. You need to identify how they are connected conceptually.
+- By examining word pairs, you will deduce the nature of their relationship within
+  specific linguistic frameworks that emphasize categories like hypernyms and meronyms.
+- The task consists of identifying the type of association that exists between two
+  words through analytical reasoning about language and meaning.
+- Analyze the linkage between a 'concept' and a 'relatum', determining if they share
+  a direct connection, belong to the same class, or have a more specialized relation.
+- Your objective is to explore the meaning of pairs of words and categorize their
+  relationship according to predefined linguistic terms and definitions.
+- The objective is to classify the relationship between two words according to established
+  linguistic categories, requiring a solid understanding of word meanings and connections.
+- The goal of this task is to classify how two words are related by identifying whether
+  they belong to the same class, one is part of another, or if they describe an event.
+- Your focus will be on determining how two words relate to one another by classifying
+  them into defined semantic categories such as event or attribute.
+- This task involves classifying word pairs into predefined relational categories
+  that explain how the two words are meaningfully related.
+- Engage with the meanings behind word pairs by determining how they relate semantically.
+  You'll need to differentiate various types of relationships inherent in language.
+- The task at hand asks you to reveal relationships between pairs based on linguistic
+  principles. Understand each word's role relative to the other within language conventions.
+- Analyze two words to uncover their relationship. You may classify them into categories
+  like general versus specific, component versus whole, or descriptive versus subject.
+- You will explore the connections between two given words, identifying how they interact
+  within the context of language and meaning.
+- You will engage in semantic reasoning to uncover how two words interact, whether
+  as similar concepts, hierarchical elements, or descriptions of one another.
+- In this task, you must use your knowledge of word meanings and relationships to
+  classify the type of link that exists between two provided words.
+- Analyze two related words to categorize their connection. This requires familiarity
+  with various semantic relationships and an ability to recognize how words interact
+  in meaning.
+- The objective is to discern the relational dynamics between a concept and a relatum
+  by categorizing their connection and applying your understanding of semantics.
+- In this task, focus on using your understanding of semantics to break down the relationships
+  encapsulated in each pair of words provided.
+- You will classify relationships between word pairs into categories that depict their
+  positions within a semantic framework, considering nuances in meaning.
+- Analyze pairs of words to determine how they are related, using specific categories
+  of relationships like hypernyms, meronyms, and attributes.
+- "In this exercise, you'll interpret pairs of words and determine what kind of relationship\
+  \ exists between them\u2014like whether they represent actions, categories, or attributes."
+- Explore the connections between pairs of words by identifying whether they represent
+  a part-whole relationship, a broader category, or a shared semantic class.
+- Your job is to analyze pairs of words and identify how they are related to each
+  other. Different types of relations include categories such as part-whole and general-specific.
+- Assess two given words for their semantic ties, determining if they represent a
+  broader category, specific instance, part of a whole, or if they are unrelated.
+- "Explore how two terms interact within a linguistic framework by classifying their\
+  \ relational dynamics\u2014whether they're components, categories, attributes, or\
+  \ unrelated concepts."
+- "You\u2019ll be classifying how two words relate semantically, requiring a thoughtful\
+  \ exploration of their meanings and interactions in language."
+- You need to investigate the relationship between a pair of words by identifying
+  how they connect semantically. This requires an understanding of language and context.
+- The objective is to examine pairs of words and articulate the link between them,
+  which can reveal insights into their meanings and uses in language.
+- Your task involves interpreting word connections by determining if they share semantic
+  grounds or if one encompasses the other in some way.
+- You will evaluate connections between a given 'concept' and its corresponding 'relatum',
+  identifying their relationship type using specific terminology.
+- The task requires a deep understanding of semantic relations to classify how a concept
+  relates to its relatum across defined types such as co-hyponym and attribute.
+- This involves carefully evaluating pairs of words to explore their meanings and
+  categorize how they work together on a semantic level.
+- This task challenges you to identify the connection between two given words. Understanding
+  language relationships helps clarify their meanings and classifications.
+- You will evaluate pairs of words to establish their relationship type, which can
+  include general categories, shared attributes, or actions associated with the concept.
+- In this analytical task, classify the connection between two given words by applying
+  concepts from linguistics and semantics to reach conclusions about their relational
+  status.
+- Your challenge is to determine and label the nature of relationships present in
+  pairs of words through semantic connections within defined categories.
+- Engage with word pairings by recognizing unique relational characteristics that
+  define how one term functions relative to another in semantic structure.
+- This task requires a nuanced understanding of words and their meanings. You'll classify
+  relationships based on associations like events, attributes, or categorical similarities.
+- This task requires you to consider pairs of words and assess their semantic relationship.
+  Think about how they relate in terms of hierarchy, description, or belonging.
+- You will assess pairs of terms to uncover their relationships based on various classifications,
+  expanding your comprehension of language structure.
+- Explore the meanings of pairs of words and categorize the nature of their associations
+  by identifying if they illustrate specific linguistic relationships.
+- The task involves analyzing pairs of words to determine their semantic relationship,
+  requiring an understanding of concepts and how they are related to other terms.
+- The task involves examining two words, a concept and a relatum, and determining
+  the type of relationship that exists between them based on specific categories.
+- You will evaluate pairs of words to generate a classification that accurately reflects
+  their linguistic relationship as defined by specific categories.
+- You'll be analyzing word pairs to extract meaningful connections and indicate how
+  these terms relate within structured linguistic frameworks.
+- Your goal is to identify how one word relates to another. This requires an understanding
+  of concepts like categories, parts, attributes, and events within language.
+- The job requires a firm grasp of word meanings and relationships as you classify
+  how two words are linked within a semantic structure.
+- The job is to scrutinize paired concepts and assess how they interact within a semantic
+  framework through classification.
+- This task involves classifying two words based on their semantic relationship, which
+  could be familial, attributive, or entirely unrelated depending on their meanings.
+- The goal is to explore semantic relationships by identifying how one word relates
+  to another within various categories.
+- Determine how one word connects to another through rich semantic analysis. Utilize
+  your understanding of language dynamics to categorize their relationship.
+- Your goal is to analyze pairs for any meaningful connections. Consider if they share
+  a class, represent part-whole relationships, or express qualities or actions.
+- Your job is to determine the type of relationship that exists between a pair of
+  words by considering their definitions and possible connections in language.
+- The task requires you to analyze pairs of words and determine the specific relationship
+  between them based on semantic categories.
+- The goal is to identify and categorize how two words relate conceptually using predefined
+  relational types common in semantics.
+- Investigate the meanings behind pairs of words and classify their relationship according
+  to well-defined linguistic categories based on shared or distinct characteristics.
+- Engage in the exploration of relational semantics by determining how two terms interact
+  with each other, using linguistic categories as your guide for classification.
+- Your focus will be on pairs of words as you work to define the kind of relational
+  connection they have in linguistic terms. Recognizing these connections offers clarity
+  in meaning.
+- You will delve into the meanings of two words to determine their specific association
+  or relation in a structured classification system.
+- "Utilize your understanding of language and semantics to classify pairs of words\
+  \ based on their relational nature\u2014identifying similarities and differences\
+  \ effectively."
+- The objective is to discern and label the type of relationship that exists between
+  a given pair of words based on their meanings in a structured way.
+- Assessing relationships between word pairs involves identifying the nature of their
+  connections through cognitive reasoning about language use and structure.
+- This task requires you to examine word pairs and classify the nature of their relation
+  using specialized linguistic categories.
+- Engage with word pairs to logically deduce how they relate to one another, enhancing
+  your critical thinking regarding linguistic relationships.
+- You are tasked with identifying the kind of relationship that exists between two
+  words, utilizing knowledge about language semantics and properties like part-to-whole
+  or descriptive links.
+- In this task, you will explore the meanings of pairs of words. Understanding concepts
+  like hypernyms and meronyms will help you categorize their relations accurately.
+- "Delve into word relationships by determining what connection they share\u2014be\
+  \ it an attribute, part-whole relationship, or mere randomness."
+- The goal here is to assess how two given words relate to each other, whether as
+  general terms, specific instances, parts of each other, or through other relationships.
+- You will analyze pairs of words to determine how they are semantically connected,
+  whether by type, association, or specific characteristics.
+- You'll use your comprehension of vocabulary to evaluate pairs of words and identify
+  their type of relation based on established semantic principles.
+- In this task, you will determine if the connection between two words falls into
+  any recognized semantic relationship, ensuring a clear understanding of their meanings.
+- Your objective is to evaluate the connection between two words and label that connection
+  using concrete linguistic terms that highlight their relationship.
+- You'll be taking a closer look at word pairs to uncover their relational dynamics.
+  A strong grasp of vocabulary and word functions will aid your classification process.
+- The task involves examining pairs of words to determine the specific relationship
+  between them based on semantic categories.
+- This task demands a semantic analysis of word pairs to establish their intrinsic
+  relationships based on linguistic principles.
+- This activity involves assessing how two words relate in terms of semantics. Determine
+  whether one is an instance of a broader category or simply coincidental in meaning.
+- The objective is to articulate how two words relate in semantic terms. By identifying
+  whether they share attributes or belong to the same category, you can classify them
+  accordingly.
+- This challenge invites you to categorize word relationships by analyzing pairs for
+  attributes like membership, classification, or descriptive qualities.
+- "Your goal is to explore how two given terms relate to one another\u2014detecting\
+  \ hierarchies, attributes, events, or any random ties that may exist between them."
+- This task challenges you to think critically about the meanings and roles of words
+  in relation to each other, identifying if they are co-related, part-whole pairs,
+  or merely coincidental.
+- The task involves identifying the relationship between two given words based on
+  their meanings.
+- The task consists of analyzing two key terms to determine their relationship type,
+  which can range from part-whole relationships to descriptive attributes.
+- "The goal is to classify how two terms connect through their meanings\u2014looking\
+  \ for shared attributes, categories, or roles within language frameworks."
+- Identify and classify the connections found between word pairs based on their shared
+  meanings or contextual relevance within specified relational categories.
+- You will be provided with two words and must identify their relational dynamics.
+  Consider aspects like classification, part-whole relationships, or descriptors.
+- This task requires you to explore the dynamic interactions of words by relating
+  them through different specified linguistic types based on their meanings.
+- Explore the nuances of word relationships by analyzing given pairs and classifying
+  them according to established linguistic categories.
+- In this exercise, you will analyze pairs of concepts and relatum words with an emphasis
+  on their meaning-based relationships, categorizing them into established types.
+- "The exercise involves categorizing relationships between word pairs\u2014whether\
+  \ they represent shared domains, parts of each other, or simply unrelated terms."
+- Explore the relationships between word pairs by labeling them according to well-defined
+  categories that signify various types of semantic connection.
+- The focus here is on understanding and defining the association between two words,
+  utilizing knowledge about language structure and meaning.
+- This task tests your ability to categorize relationships between words effectively,
+  using logic and an understanding of linguistic classifications.
+- Analyze given pairs of words to determine their relationship, such as whether one
+  is an attribute of the other or if they belong to the same class.
+- This task encourages you to investigate how two words interact within the realm
+  of language, leading you to categorize their relationship correctly.
+- "You will systematically categorize how two words relate by drawing on your knowledge\
+  \ of language relationships\u2014whether they include actions, categories, or attributes."
+- This task emphasizes linguistic analysis as you must determine how disparate terms
+  relate within established archaics of language use.
+- Analyze given word pairs to derive their relationships, which can deepen your knowledge
+  of how language reflects real-world connections and definitions.
+- This task centers around understanding the intricate bonds between pairs of words.
+  You'll categorize these links using concepts from language theory and semantics.
+- This task involves examining a pair of words to classifying their relationship into
+  specific categories such as superclasses, parts, or actions, highlighting your grasp
+  of word meanings.
+- Your role is to classify the relationship between a concept and a relatum into distinct
+  categories, which represent various types of connections in language.
+- Engage with pairs of words to uncover and define the nature of their relationship
+  within a linguistically established framework.
+- You are challenged with recognizing how a concept relates to its relatum. This involves
+  an understanding of different linguistic categories and relationships.
+- "Examine word pairs carefully to deduce what type of relationship exists\u2014consider\
+  \ elements like belongingness, categorization, parts versus wholes, etc."
+- You are tasked with determining the nature of the connection between two words,
+  which requires creativity in understanding language relationships and terminology.
+- Your challenge lies in analyzing pairs of words for their relational context. This
+  requires both knowledge and intuition about language semantics to make accurate
+  classifications.
+- Examine each pair of words for underlying connections that express broader semantic
+  themes, categorizing them intelligently based on their intrinsic relations.
+- Assess two provided words for their relational structure. Your analysis should highlight
+  how they connect or diverge in meaning according to specified classifications.
+- This activity involves discerning the type of relationship between pairs of words
+  based on context and meaning in language.
+- Your task will involve critical thinking and understanding of language nuances as
+  you categorize word pairs according to their relational attributes.
+- This task requires an understanding of language relationships, as you will classify
+  how one word describes or connects to another using established semantic concepts.
+- This task assesses your ability to connect concepts through classification, exploring
+  how different terms might share attributes or belong to distinct categories.
+- Your job is to differentiate and describe the connections between pairs of words
+  by applying concepts from semantics and morphological relationships in language.
+- In this task, you will explore the connections between words to see if they share
+  similarities, if one is a broader category of the other, or if they describe an
+  action linked to the concept.
+- Delve into word pairs and uncover the nature of their interaction or connection,
+  being mindful of various types of relationships like parts and whole or characteristics.
+- This task consists of identifying semantic relationships between two words based
+  on their meanings. You should consider various types like hypernyms and attributes.
+- The focus is on understanding the semantic nuances that connect various concepts,
+  labeling them accordingly based on their relationships.
+- This involves classifying the connections between a concept and its corresponding
+  word by recognizing different forms of relations such as co-hyponyms or events.
+- Analyze word pairs to uncover the nature of their relationships, considering various
+  linguistic categories that describe how one term relates to another logically.
+- Your objective is to examine two given words and categorize the type of relationship
+  they share, such as whether one word defines or describes the other.
+- Analyze word pairs to establish whether they share attributes, belong to different
+  categorical classes, or are unrelated in meaning.
+- You are tasked with discerning whether two words align as synonyms, if one is a
+  subtype of the other, or if they have no meaningful connection at all.
+- This task focuses on discerning relationships between pairs of words to classify
+  them as belonging together or displaying specific relational characteristics.
+- This exercise requires analyzing semantic connections in language by determining
+  how specific words relate to each other using clear classifications.
+- "The task requires examining how one word connects with another in terms of meaning.\
+  \ You\u2019ll categorize the relationship into predefined types based on their linguistic\
+  \ associations."
+- This task challenges you to think critically about word relationships and categorize
+  them into established linguistic classifications based on their interactions.
+- The task entails classifying relationships between words based on established semantic
+  principles, requiring an understanding of language dynamics.
+- The objective is to review pairs of concepts thoroughly and distinguish whether
+  they belong together under a certain relationship type based on their meanings.
+- The task is focused on exploring word relationships and includes identifying concepts
+  like hypernyms, meronyms, or attributes.
+- The activity involves discerning intricate relationships between terms by assigning
+  a specific label that reflects their association in language.
+- You'll be engaged in exploring linguistic connections between words. This involves
+  thinking critically about how one term may describe or define aspects of the other.
+- This task challenges you to discern the nature of the connection between word pairs
+  using your knowledge of language structures and concepts. It invites deep reflection
+  on semantics.
+- You need to evaluate pairs of concepts to clarify if they depict hierarchical relationships,
+  characteristics, or any form of connection that can be classified.
+- This task revolves around identifying relationships in word pairs. You'll categorize
+  them based on specific definitions related to language structure and meaning.
+- You will explore semantics by defining relationships between concepts and related
+  terms based on a series of designated relational types.
+- With each word pair presented, your task is to discern how they fit together semantically.
+  This may involve identifying categories or acknowledging unrelated terms.
+- Determine the relationship between two terms by classifying them into specified
+  categories based on their meanings and connections in language.
+- The objective here is to discern how two terms relate to each other, requiring knowledge
+  of linguistic categories like hypernyms, meronyms, and events.
+- This task focuses on evaluating the interplay between two terms. Reflect on how
+  they fit within categories like co-hyponyms, attributes, events, or random associations.
+- Analyze given concepts and their corresponding relatum to categorize their connection
+  according to predefined relational terms.
+- You will explore the relationship between pairs of words and classify them according
+  to established linguistic definitions. Your focus should span different types of
+  connections.
+- You need to identify how two words connect in terms of meaning, using predefined
+  relationships like hypernym, meronym, and attribute.
+- Engage with pairs of terms to analyze their linkage based on predefined linguistic
+  classifications, unlocking deeper insights into word associations.
+- "Evaluate word pairs by determining their interaction type\u2014determining if they\
+  \ share qualities, represent parts of one another, or fit into different categorical\
+  \ hierarchies."
+- This task tests your ability to interpret word pairs meaningfully and accurately
+  categorize their relationship into distinct classifications based on semantic understanding.
+- You will engage with word pairs, seeking to understand their semantic links and
+  how they fit into different categories of relationships.
+- Your role is to discern the relationship between two terms, deciding if one acts
+  as a broader category, part, attribute, or another type of connection to the other.
+- Reflect on the semantic connection between concepts and relata by identifying their
+  relationship type from options like co-hyponym or hypernym.
+- "Your task is to discern connections between two words and categorize them accordingly\u2014\
+  think critically about their definitions and interactions in language."
+- In this task, your focus is on understanding and classifying the manner in which
+  two words relate to each other semantically and contextually.
+- The task centers around discerning the relationship type of two words by utilizing
+  knowledge of linguistics and semantics.
+- The task invites you to assess pairs of words for relational context. You are required
+  to identify whether they share category similarities or are distinct concepts.
+- Explore the connections between two terms by evaluating their meanings. You will
+  classify the relationship using knowledge about categories, parts, or actions.
+- This task requires you to analyze word pairs and classify the nature of their relationship,
+  revealing how they interact within the realm of language.
+- You will classify how two terms relate based on descriptors such as category membership
+  or functional interactions in a given context.
+- You will evaluate pairs of words to uncover their relational dynamics, focusing
+  on connections that reveal how words associate in context.
+- The job requires you to articulate the relationship connecting two terms based on
+  several recognized patterns in linguistics and semantics.
+- Analyze and interpret the connections between word pairs, striving to understand
+  how each term relates to the other within the rules of linguistic categorization.
+- Evaluate pairs of words for their relational characteristics, assessing whether
+  they connect as parts, attributes, events, or if they have unrelated meanings.
+- You will investigate pairs of words to establish if they share commonalities or
+  distinctions. Identify if one word belongs to the realm of the other or if they
+  are disparate concepts.
+- Your goal is to classify how each concept relates to its respective word through
+  various forms of hierarchical or associative relationships in language.
+- In this challenge, you'll evaluate word pairs to classify their relationship correctly,
+  using linguistic principles that highlight their significance in context.
+- You will analyze pairs of words in order to uncover and label their relational dynamics
+  according to established linguistic terminology and concepts.
+- Under this task, you'll sort pairs of words according to their inherent relationships,
+  using established language frameworks to guide your conclusions.
+- Engage with the meanings of two words and classify their relationship, which can
+  vary from being attributes to indicating co-hyponyms or part-to-whole connections.
+- This task requires you to evaluate two provided words and classify their relationship
+  in various categories, focusing on semantic connections between them.
+- In this task, you will consider word pairs and decipher their connection, embracing
+  various types of semantic relations such as part-to-whole or event-based interactions.
+- Your task involves identifying the semantic relationship between two words, where
+  one word is the concept and the other is the relatum.
+- Engage in interpreting pairs of words to find out if they belong to the same category,
+  one is part of the other, or if they fulfill different roles in language.
+- You will need to analyze pairs of words and classify the nature of their connection,
+  identifying specific relationships like part-whole or category-instance.
+- Explore the dynamics between paired words to uncover their relationship types, using
+  your knowledge of language mechanics and semantic theory.
+- The task focuses on revealing the nature of the association between two words, requiring
+  you to think carefully about their meanings and how they relate linguistically.
+- "Focus on deciphering how one word can describe or relate to another in various\
+  \ ways\u2014whether as a category, part, characteristic, or activity within language."
+- You will classify connections between word pairs that can range from part-to-whole
+  associations to broader category definitions based on established linguistic criteria.
+- Your task revolves around interpreting word pairs and categorizing them based on
+  how they interact or relate within a semantic framework.
+- With pairs of words presented, your goal is to identify whether they share a specific
+  type of relationship, drawing from categories such as part-whole or quality descriptors.
+- The goal here is to explore the connections between pairs of words, determining
+  whether they share similarities, one is a type of the other, or if they're unrelated.
+- This task highlights the importance of understanding language semantics by asking
+  you to classify and relate concepts through defined relationships.
+- The objective is to distinguish between various types of relationships in language
+  by assessing how two given terms interact or relate conceptually.
+- Your task includes examining and distinguishing between types of relationships that
+  can exist between two words, highlighting their respective meanings and relevance.
+- You are expected to differentiate between several concepts linked by meaning, determining
+  each one's relational context in the process.
+- Here, you are given two words and must categorize the nature of their relationship.
+  This requires a solid understanding of language semantics and contextual meanings.
+- Your objective is to discern the type of relationship that exists between a given
+  concept and its relatum, drawing from various linguistic categories.
+- This task involves determining the type of relationship between two words, where
+  one is the concept and the other is the relatum.
+- Identify whether the two provided words can be linked through categories such as
+  part-whole relationships, descriptions, or similarities in semantic meaning.
+- In this task, you need to analyze two words to determine their semantic relationship.
+  This involves categorizing the nature of the connection based on established linguistic
+  principles.
+- In this task, assess pairs of words for their meanings and classify them according
+  to the type of relationship they portray within linguistic frameworks.
+- In this task, you will identify different types of relationships between keywords
+  based on their meanings and how they might interact conceptually.
+- The task revolves around discerning relationships in paired words through careful
+  analysis and understanding of their meanings and classifications within language
+  use.
+- This task requires you to classify the relationship between two words based on their
+  meanings and how they connect to each other within language.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1418_bless_semantic_relation_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1418_bless_semantic_relation_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

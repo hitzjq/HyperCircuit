@@ -1,0 +1,463 @@
+assistant_prefill: ''
+descriptions:
+- "The objective here is straightforward: manipulate a provided list by identifying\
+  \ its extremes\u2014the highest and lowest numbers\u2014and return that list after\
+  \ performing their position swap."
+- You will be given a list containing distinct integers. Your mission is to uncover
+  which number is largest versus which is smallest, perform a swap between them, and
+  report back with your new list.
+- Your engagement with this task involves adjusting an integer array so that after
+  identifying both max and min values, they will trade positions effectively.
+- "You will manipulate an integer sequence by locating both extreme values\u2014max\
+  \ and min\u2014and interchanging their positions within the sequence to achieve\
+  \ a new arrangement."
+- In this exercise, your role is to analyze an array containing unique integers for
+  its maximum and minimum values so that you can effectively swap their positions
+  in achieving an updated array.
+- Your job is to adjust the order of a list of distinct integers by identifying the
+  maximum and minimum elements and switching their locations.
+- "In this task, you must identify two specific integers in a given list\u2014the\
+  \ highest and the lowest\u2014and rearrange them by swapping their locations."
+- You will analyze a list of integers by determining which is the highest and which
+  is the lowest, then you will exchange their positions.
+- The task requires you to identify the largest and smallest numbers in a given list
+  of integers and exchange their places to create a new sequence.
+- This task is about processing a list of integers, specifically by finding the highest
+  and lowest values and switching their places within that list.
+- You must alter an array comprised of unique integers by finding both its maximum
+  and minimum points, executing a position swap between those two values as instructed.
+- "You\u2019ll be tasked with adjusting an organized list by locating both its greatest\
+  \ and smallest elements and then returning this array with those two elements exchanged."
+- You are given a collection of unique numbers, and you must find the highest and
+  lowest value within that collection before switching their locations in the list.
+- For this task, take a list of unique integers, identify the smallest and largest
+  elements, and swap them to create a new list arrangement.
+- You need to manipulate an input list composed of unique integers by identifying
+  the maximum and minimum elements and swapping their respective places.
+- You will be dealing with lists that contain unique integers. The goal is to identify
+  the maximum and minimum values so that you can swap their spots.
+- The goal is to rearrange a set of unique integers by locating both the highest and
+  lowest numbers in that set and switching their respective positions.
+- In dealing with this list of unique integers, your challenge is to switch the maximum
+  element with the minimum one, altering their arrangement.
+- The task requires you to manipulate a list of integers by identifying and swapping
+  the maximum and minimum values within that list.
+- In this task, your goal is to adjust the order of a list by switching the locations
+  of its highest and lowest numbers.
+- This activity requires you to manipulate an array of unique integers to switch the
+  positions of its maximum and minimum elements.
+- You are required to manage a list of different integers by finding both the maximum
+  and minimum values, followed by exchanging their positions within that list.
+- The goal of this task is to manipulate a given array of unique integers by determining
+  which number is the highest and which is the lowest, and then exchanging these two
+  elements' positions.
+- Your task is to rearrange a list of unique integers by determining the positions
+  of the largest and smallest elements, followed by swapping them.
+- The objective is to update a list of unique integers by rearranging it, specifically
+  by moving the maximum value to the position of the minimum value and vice versa.
+- Tasked with processing a unique set of numerical entries, your job is to identify
+  both ends (maximum and minimum) and exchange their positions accordingly.
+- You need to analyze a list of unique integers by identifying both the maximum and
+  minimum values, then adjust their positions within the list through swapping before
+  returning it.
+- Here, you'll encounter a set of unique integer values. Your task is to switch the
+  position of the largest value with that of the smallest value.
+- In this task, you are given an integer list where you must perform a swap between
+  its largest and smallest elements to generate a new list.
+- You are tasked with reordering a list of numbers by finding the highest and lowest
+  values, then switching their spots within the list.
+- This task focuses on modifying an array of unique integers by switching the positions
+  of its largest number with its smallest number based on your identification.
+- "You are tasked with manipulating an array of distinct integers to replace the maximum\
+  \ value with the minimum value\u2019s position and vice versa within that same array."
+- This task requires you to handle a collection of unique integers, identifying both
+  extremes (the largest and smallest) in order to alter their positions in the sequence.
+- You need to manipulate a list of unique integers by finding the maximum and minimum
+  values, and then swapping their positions within the list.
+- You will work with a set of unique integers where you must find the elements that
+  are maximum and minimum, then rearrange them by swapping their positions.
+- The objective here is to reflect changes in an integer list by finding its maximum
+  value and minimum value, then performing a position swap between these two numbers.
+- You are required to identify the maximum and minimum numbers in a given list of
+  unique integers and swap their locations to create a new ordered list.
+- You're asked to work with an array of unique numbers, where your primary responsibility
+  is to identify the largest and smallest values before swapping them.
+- You are required to identify the highest and lowest numbers in a given list and
+  then switch their places, resulting in a new arrangement of integers.
+- Your assignment is to review a list containing only unique integers, determine which
+  one is the largest and which one is the smallest, and swap their positions efficiently.
+- This task focuses on manipulating lists of unique numbers by swapping their max
+  value with their min value, showcasing basic array manipulation skills.
+- Here, you'll take a set of unique integers and adjust their order by swapping the
+  elements that are the largest and smallest.
+- You will be provided with a list of distinct numbers and tasked with switching the
+  locations of the largest and smallest numbers within that list.
+- "You\u2019ll be given a distinct number set where your job is to uncover its extremes\u2014\
+  the largest number and the smallest\u2014and facilitate an interchange within their\
+  \ placements in that set."
+- For this task, locate the most significant (maximum) and least significant (minimum)
+  integers from a provided list and perform a positional swap between them.
+- The objective here is to manipulate a series of integers by obtaining their maximum
+  and minimum elements, which you will then place in each other's original positions.
+- Your challenge is to interact with a series of unique integers where you must discover
+  the extremes (highest and lowest) and swap them around.
+- The task consists of analyzing a list of unique numbers, pinpointing the maximum
+  and minimum values, then replacing their positions within that list.
+- You will process lists of distinct numbers, searching for both maximum and minimum
+  values to replace their places for an adjusted numerical sequence.
+- In this activity, you'll take a collection of unique integers, find both the largest
+  and smallest numbers, and switch their respective spots in the list.
+- This exercise involves working with unique integers, where you will find the largest
+  and smallest values, then switch their positions to produce an altered list.
+- In this operation, you will handle distinct integers where your mission is to identify
+  the largest and smallest numbers for swapping them in position within that list.
+- "This task calls for identifying extremes within a list of distinct integers\u2014\
+  specifically, switching the positions of both the maximum and minimum values presented."
+- In this assignment, you will take a sequence of distinct integers and exchange the
+  positions of its largest and smallest numbers.
+- In this task, you should evaluate a provided list of distinct integers, pinpointing
+  the largest and smallest numbers for positional exchange within that list.
+- You are required to process a list of numbers by locating the maximum and minimum
+  values. Once identified, switch their places in the list and output the result.
+- You need to identify the largest and smallest numbers in a list of unique integers
+  and swap them to update the sequence.
+- You need to manipulate a list of distinct integers by switching the places of the
+  highest and lowest numbers found in the list.
+- In this task, you will work with a set of unique numbers, determining which is the
+  largest and which is the smallest, then rearranging them by swapping their indices.
+- This task demands that you interact with an array of unique numbers by discovering
+  which number is highest, which one is lowest, and then interchanging these two numbers'
+  positions.
+- Your task is to change the arrangement of a list consisting of unique integers by
+  identifying the maximum and minimum values, followed by exchanging their places
+  in the array.
+- Engage with a list filled with unique numbers, and perform a simple operation where
+  you switch the places of the greatest and least integers.
+- Your task is to take a list of unique integers and identify the maximum and minimum
+  values, then swap their positions in the list.
+- "In this assignment, your mission is to swap two important elements\u2014namely,\
+  \ the maximum and minimum integer\u2014from an array of distinct numbers."
+- "In this challenge, you will be swapping two important elements in an array\u2014\
+  specifically, the maximum and minimum unique integers\u2014so that they exchange\
+  \ their respective spots."
+- Your challenge involves assessing an assortment of integers where no repeats are
+  present. Find out which integer is largest versus minuscule, then rearrange them
+  through a straightforward swap.
+- This task requires you to rearrange a list of unique integers. Identify the maximum
+  and minimum numbers in that list, swap them around, and provide the new arrangement.
+- This exercise tasks you with taking a unique integer list, finding its highest and
+  lowest numerical values, and exchanging them in your response.
+- Your assignment is to process a series of unique integers. You must find the maximum
+  and minimum numbers within the list and exchange their locations.
+- Your job here is to handle an array of numbers by determining which one is at its
+  greatest value and which one sits at its least value; switching these values will
+  fulfill your goal.
+- The task involves manipulating a list of unique integers to exchange the position
+  of the largest and smallest values, producing a modified version of the original
+  list.
+- You are to manipulate an array by locating its maximum and minimum integer values.
+  After determining their positions, exchange them in the array for a new configuration.
+- Your challenge is to evaluate a collection of distinct integer values to exchange
+  their places based on identifying which one is at its maximum versus its minimum
+  value.
+- This task invites you to assess a collection of distinct integers by pinpointing
+  the maximum and minimum values for a position swap.
+- This task involves taking a given list of distinct integers and performing a swap
+  between the largest and smallest elements, returning the modified list.
+- In this task, you will process a group of distinct integers by spotting their highest
+  and lowest values. After finding them, perform a swap operation between these two
+  values.
+- 'Your assignment is based on numerical manipulation: given a set of unique integers,
+  find their maximum and minimum values, then switch them around in the list.'
+- Your goal is to analyze a list of unique numbers by locating the maximum and minimum
+  values, then switching their places within the sequence.
+- 'You are tasked with rearranging a set of unique integers through a simple operation:
+  finding the maximum and minimum numbers and swapping their places in the array.'
+- "This task involves identifying both extremes in a set of unique integers\u2014\
+  the maximum and minimum values\u2014then swapping those two elements before returning\
+  \ an updated list."
+- Your role is to work with a list of unique integers, identifying the minimum and
+  maximum, and returning a version of the list with these two swapped.
+- You will engage with a series of distinct integers, where you must locate the highest
+  and lowest numbers and adjust their positions accordingly.
+- "You are tasked with reviewing a list of unique integers for maxima and minima.\
+  \ Once identified, your job is to interchange these two numbers\u2019 placements\
+  \ in the original list."
+- This challenge involves examining a list of unique integers, determining which ones
+  are at maximum and minimum levels, and switching their locations accordingly.
+- In this challenge, you're given an array of unique integers, and your task is to
+  identify the highest and lowest values, which you'll then exchange within the list.
+- The aim here is to alter the order within a list of integers by recognizing which
+  number holds the maximum value versus which holds the minimum value, before swapping
+  their positions for output.
+- In this operation, your task consists of discovering maximum and minimum elements
+  in a sequence of integers to perform a position swap between them.
+- You will be given an array of unique integers and must identify both the highest
+  and lowest values to execute a positional swap between them.
+- You are tasked with manipulating a list of distinct integers by switching the positions
+  of the maximum value with the minimum value in order to return an updated list.
+- This exercise involves dealing with a group of different integers, where you need
+  to identify the largest and smallest numbers, then swap them.
+- This task involves manipulating an array containing unique integers; you will find
+  both extremities by identifying the largest and smallest values before switching
+  them around.
+- Your goal is to take a list of distinct integers, locate the largest and smallest
+  integers, and return the list with those two integers in their swapped positions.
+- This task requires you to process a list of unique integers, ensuring that you exchange
+  the places of the largest and smallest numbers within that list.
+- This task involves working with a list of distinct numbers. Your goal is to find
+  the maximum and minimum values and exchange their positions in the list.
+- "You will be working with a selection of distinct integers while your goal is to\
+  \ find both extremes\u2014the lowest and highest numbers\u2014and completely swap\
+  \ their locations."
+- In this challenge, you're required to locate the largest and smallest integers in
+  a list of distinct values, then swap their places for an altered arrangement.
+- You will be provided with a list of integers; your objective is to find the maximum
+  and minimum numbers and exchange their places in the list.
+- The task involves analyzing a collection of unique integers, determining the maximum
+  and minimum values, and then switching their positions within the list.
+- This task requires numerical analysis where you'll identify extreme values within
+  a series of integer data points, culminating in swapping their respective locations
+  in that series.
+- In this activity, you will analyze a list of different integers to determine which
+  is the greatest and which is the least, afterward swapping these into a new arrangement.
+- The assignment entails modifying an ordered list of distinct integers by finding
+  its minimum and maximum elements and switching their respective positions.
+- The focus here is on a list of unique numbers where you must find the minimum and
+  maximum values, performing a swap to adjust their positions amongst the other values.
+- The challenge involves taking a list of distinct integers and modifying it so that
+  the largest number replaces the smallest one and vice versa.
+- Your job is to modify a list of different integers by identifying both the maximum
+  and minimum values, and then repositioning them in the opposite locations.
+- You will employ your skills in data manipulation by locating the smallest and largest
+  integers within a set, followed by swapping these out for one another in the arrangement
+  provided.
+- The assignment requires identifying the largest and smallest integers from a list
+  and swapping them so that their previous positions are altered within that list
+  structure.
+- Your task is to take a list of unique integers and identify the smallest and largest
+  numbers in the list. Then, swap their positions and return the modified list.
+- You will be working with an array comprised of unique integer values. Your job is
+  to identify which among them holds the maximum value versus which has the minimum
+  value, then switch their respective places.
+- This task requires you to manipulate a list of unique integers by identifying the
+  highest and lowest values, then swapping their positions.
+- Your job is to inspect a series of unique numbers to determine which one is max
+  and which one is min before swapping these two elements in place for an updated
+  version.
+- This task involves modifying an array of unique numbers by identifying which is
+  largest and which is smallest, then changing their places in the sequence.
+- Your mission is to review each integer in a list, pinpoint the highest and lowest
+  among them, and switch where they are found.
+- The objective is to take a collection of unique integers and carry out a specific
+  swap operation between the highest and lowest numbers present in that collection.
+- You need to process an array of unique integers and find the highest and lowest
+  numbers to exchange their positions, rearranging the list accordingly.
+- This task involves calculating the maximum and minimum values from a series of unique
+  integers, necessitating their exchange within the original list format.
+- The goal is to revise a sequence of unique numbers by discovering which is largest
+  or smallest, then performing an exchange between these two identified values.
+- This exercise requires you to process an input list made up of unique integers,
+  with the central task being to exchange the places of the maximum integer with that
+  of the minimum integer.
+- The goal here is to navigate through a sequence of unique numbers, pinpoint the
+  largest one along with the smallest one, and flip their locations in the collection.
+- In this task, your assignment is to examine a list of integers, locate the largest
+  and smallest numbers, and effectively swap their positions in that sequence.
+- The challenge involves handling unique integer lists where your responsibility is
+  to find out which number is maximum, which is minimum, and then perform a swap in
+  their locations.
+- The task involves analyzing a list of unique integers. You need to locate both the
+  maximum and minimum values and swap them.
+- Engage in an exercise of number manipulation where you will find and switch the
+  locations of the maximum and minimum elements within a given list of unique integers.
+- The goal is to rearrange a list of integers, specifically by swapping the maximum
+  and minimum values so that they occupy each other's original positions in the list.
+- You will work with a list of distinct integers. The goal is to locate the biggest
+  and smallest numbers and switch their positions in the list, returning the modified
+  version.
+- In this challenge, you will work with a collection of distinct integers. The goal
+  is to swap the largest and smallest elements in the list.
+- This activity involves taking a given set of unique integers and rearranging them
+  by exchanging the maximum number with the minimum number based on their positions.
+- "In this exercise, you will modify a list of integers by finding the extreme values\u2014\
+  both the maximum and minimum\u2014and interchanging them."
+- In this activity, you will need to perform a simple transformation on a set of unique
+  integers by swapping the positions occupied by maximum and minimum values.
+- The task at hand is to take a range of distinct integers and perform an operation
+  where you exchange the places of the maximum and minimum elements.
+- "You're required to adjust a sequence of unique integers by finding both extremes\u2014\
+  the highest and lowest numbers\u2014and converting their locations in the array."
+- You will be tasked with finding the highest and lowest values in a sequence of distinct
+  integers and swapping them to create a modified version of the original list.
+- Your responsibility is to review a series of unique whole numbers. Pinpoint the
+  largest number as well as the smallest one, swap their positions, and return the
+  adjusted series.
+- Your responsibility is to rearrange elements within a list by interchanging the
+  positions of its greatest and least values among unique integers.
+- The task calls for you to take a set of unique numbers, find the maximum and minimum
+  values, and then rearrange them by swapping their spots.
+- This task involves a sequence of integers where your objective is to switch the
+  places of the maximum and minimum elements.
+- This challenge involves transforming a list of distinct integers. You need to figure
+  out which number is at its peak and which one is at its lowest point, then adjust
+  their places.
+- You will be tasked with identifying and swapping the positions of the maximum and
+  minimum numbers within a set of unique integers presented in a list format.
+- "You\u2019re required to handle lists of different integers, pinpointing their maximum\
+  \ and minimum values, to produce an updated ordered list after they are swapped."
+- This task requires you to manipulate a list of unique integers by identifying the
+  highest and lowest values and swapping their positions.
+- Your job is to examine a list of unique integers to find out which ones are the
+  biggest and smallest, then swap their places.
+- You'll be engaging with an array filled with unique integer values; your job is
+  to locate the highest and lowest entries before swapping their respective places.
+- In this activity, you need to assess an array of unique integers, identify its smallest
+  and largest elements, and perform a swap to rearrange them accordingly.
+- "Your challenge is to process an array of unique numbers by finding both extremes\u2014\
+  the highest and lowest\u2014and swapping them in the final output."
+- For this task, you have a series of unique integers and your job is to locate the
+  max and min elements, then perform a swap between them to update the list.
+- The focus here is on modifying an integer array by determining its extremities (maximum
+  and minimum) and executing a swap operation based on those findings.
+- This task involves manipulating a list of unique integers by identifying the largest
+  and smallest numbers and swapping their positions within the list.
+- Your job is centered around manipulating a set of unique integers by determining
+  their maximum and minimum values and swapping those two elements.
+- This task involves modifying a given list of unique integers by locating the maximum
+  and minimum numbers and performing a swap between them.
+- This task centers around the concept of manipulating numerical data in a list by
+  swapping its maximum and minimum values, requiring attention to detail.
+- The job is to modify a provided list of unique integers by interchanging the maximum
+  value with the minimum value.
+- In this procedure, you will examine a set of unique integers, determine which ones
+  are largest and smallest, and output a new arrangement based on their swapped placements.
+- "This is an exercise in numerical manipulation. You need to find two specific integers\
+  \ \u2014 one being the largest and one being the smallest \u2014 then switch them\
+  \ in your provided list."
+- In this exercise, you are required to transform a list of unique numbers by finding
+  the largest and smallest elements and exchanging their positions.
+- The challenge here is to revise a series of unique integer elements by exchanging
+  their highest value with the lowest value present in that collection.
+- "In this exercise, you\u2019ll engage with a list of unique integers, focusing on\
+  \ swapping the elements that represent the highest and lowest values."
+- This task centers around identifying contrasting values (the highest and lowest)
+  from a selection of unique integers, followed by executing a swap between these
+  values in their listing.
+- Your role in this task involves taking a series of different integers, pinpointing
+  which one holds the maximum value against which one holds the minimum value, followed
+  by switching those two values.
+- "Your challenge is to find two key numbers in an array of unique integers\u2014\
+  its maximum and minimum value\u2014then interchange those two items' positions in\
+  \ that array."
+- The goal is to take any given list of integers, find out which number is the greatest
+  and which is the least, and then adjust their positions in that list accordingly.
+- Tasked with manipulating a series of unique integers, you'll determine which is
+  largest and which is smallest before exchanging their positions in the original
+  arrangement.
+- Given a sequence of unique integers, your objective is to find the maximum and minimum
+  values, then exchange their places to create a new arrangement of the list.
+- The assignment calls for manipulating a sequence of unique whole numbers. Discover
+  both the maximum as well as minimum elements within that sequence and execute a
+  swap action between them.
+- In this task, you will manipulate a list of unique integers by swapping the positions
+  of the largest and smallest values.
+- This activity revolves around sorting out a selection of unique integers. Locate
+  their maximum and minimum numbers within that selection, then exchange their places
+  before providing your answer.
+- This task centers on manipulating an array of unique integers; your objective is
+  to find and flip the positions of its highest and lowest entries.
+- In this task, you will work with a collection of unique integers. Find the highest
+  and lowest elements in the collection, swap their locations, and present the updated
+  collection.
+- This task asks you to work with a collection of distinct integers to find the high
+  and low points before interchanging their respective positions within that collection.
+- 'The goal here is straightforward: identify the extreme elements (maximum and minimum)
+  in a list of unique integers, then swap their places.'
+- Your assignment involves adjusting a list of distinct integers. First, find the
+  element with the greatest value and the one with the least value, then replace their
+  spots.
+- You will work on modifying an array by locating its highest and lowest values. Your
+  goal is to switch these values' places while maintaining the order of other numbers
+  in the list.
+- You will work with a list of distinct integers, focusing on locating the highest
+  and lowest numbers, then rearranging them accordingly.
+- The aim here is to transform a series of non-repeating integers by switching the
+  locations of their maximum and minimum values, yielding an updated list.
+- In this exercise, work with a list containing unique integers. Identify where the
+  maximum and minimum values are located, then swap those numbers around in your response.
+- This task requires you to analyze a list of distinct numbers, find out which one
+  holds the maximum value and which one holds the minimum value, and then exchange
+  their places.
+- You will work with a list of unique integers where your objective is to change their
+  arrangement by swapping the highest value with the lowest one.
+- The objective here is to take a given set of unique integers, identify both ends
+  of their values (the greatest and least), and reorder them by switching their places.
+- The aim is to modify an array of unique integer values by identifying which one
+  is largest and which is smallest, then swapping their locations.
+- In this task, you'll need to assess an integer list for its extreme values (the
+  highest and lowest), then swap these two numbers as part of your output.
+- The focus here is on arranging numeric data; you'll need to locate specific extremities
+  (the max and min) in a set of unique integers before repositioning them.
+- In this challenge, your role is to transform an array of distinct numbers by finding
+  the highest and lowest among them, switching their locations within that array.
+- You are given an assortment of unique integers, tasked with finding their highest
+  and lowest points in terms of value, and performing a swap.
+- The primary focus of this task is to take a collection of unique numbers, recognize
+  the minimum and maximum integers, and then update their positions through a swap
+  in the list.
+- In this exercise, you need to interact with an array of integers by locating the
+  extremes (the maximum and minimum) and swapping these two values in their respective
+  positions.
+- In this task, you need to analyze a series of unique numbers, find the largest and
+  smallest, and interchange them for a reordered output.
+- 'The objective here is simple: given a collection of unique numerical values, pinpoint
+  both highest and lowest ones, execute a position swap on them, and yield the new
+  collection.'
+- You'll be working with a series of unique integer values where you will need to
+  handle them by determining which one is largest and which one is smallest before
+  swapping them.
+- This exercise focuses on reordering an array of distinct integers by identifying
+  its largest and smallest components. After locating these numbers, perform a swap
+  operation between them.
+- This task entails taking a list of non-repeating integers, pinpointing both the
+  maximum and minimum integers, and returning the revised arrangement after swapping
+  their places.
+- The goal of this task is to process a group of distinct integers by locating the
+  minimum and maximum, then switching their locations in the list.
+- You will analyze a list containing unique numerical values with the specific goal
+  of relocating both the maximum value to where the minimum value was and vice versa.
+- You need to evaluate a list filled with unique integers, locate the largest and
+  smallest values, and then reposition them within that list.
+- "For this task, you are required to find the extremities within a sequence of unique\
+  \ integers\u2014the max and min\u2014and then intersperse them by swapping their\
+  \ positions within that sequence."
+- The assignment involves manipulating a collection of unique integers, emphasizing
+  finding both ends (maximum/minimum) and replacing them within the given structure.
+- This task requires you to analyze a collection of distinct integers to find the
+  extreme values (the max and min) and return a new list reflecting those values'
+  swapped positions.
+- "Find both ends (the largest and smallest values) from a collection of unique integers.\
+  \ Your role then is to switch these particular integers\u2019 locations in the list."
+- In this exercise, you'll work with a series of unique numbers, swapping the largest
+  and smallest values to modify the arrangement of the list.
+- "In this task, your aim is to reconstruct an arrangement of unique integers by assessing\
+  \ which value stands at each extreme\u2014maximum and minimum\u2014and swapping\
+  \ these two accordingly."
+- This task requires you to utilize skills in numerical analysis as you identify the
+  max and min elements in a list, proceeding to switch their locations accordingly.
+- The task requires you to manipulate a list of integers by finding the maximum and
+  minimum values, and then exchanging their positions in the list.
+- "This assignment involves evaluating a list for its extreme values\u2014the largest\
+  \ and smallest\u2014and strategically switching their positions for an updated arrangement."
+ds_kwargs:
+  path: Lots-of-LoRAs/task1151_swap_max_min
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1151_swap_max_min
+user_prompt_template: '{task_def}
+
+
+  {problem}'

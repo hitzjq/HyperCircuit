@@ -1,0 +1,445 @@
+assistant_prefill: ''
+descriptions:
+- In this task, you need to judge if there is a match between an argument made on
+  a debate topic and an accompanying keypoint that tries to summarize it.
+- You will evaluate whether specific statements (keypoints) align with and summarize
+  arguments on given topics, testing for thematic consistency.
+- The goal is to examine how well a keypoint matches an argument related to a debate
+  topic, focusing on whether it captures the argument's essence.
+- In this task, you will consider a stated argument linked to a debate topic and judge
+  whether a keypoint effectively summarizes that argument.
+- Your task is centered on understanding rhetoric in debates, where you establish
+  whether arguments are summarized appropriately by the proposed keypoints.
+- "For each debate topic, you need to judge if the keypoint is aligned with the argument,\
+  \ ensuring it conveys the argument\u2019s meaning."
+- Navigate through the connections between a debate topic, an argumentative statement
+  about it, and an associated summary keypoint to determine alignment in understanding.
+- Perform an analysis that checks how well each keypoint aligns with its corresponding
+  argument within identified debate themes.
+- "Analyze each pair of statements\u2014an argument and its related keypoint\u2014\
+  to see if they connect logically within their respective debate framework."
+- Engage with content that juxtaposes arguments against chosen topics and see how
+  well summarizing points fit within those argumentative structures for truthful representation.
+- Your task is to assess if a keypoint accurately reflects and summarizes the argument
+  made within a given debate topic.
+- Review an argument linked with a debate topic and question whether the corresponding
+  keypoint faithfully outlines its core message.
+- Appraise how well the keypoint conveys what is expressed in an argument surrounding
+  a specific topic in discussion.
+- Analyze how well a provided statement captures the essence of an argument within
+  a debate context, assessing its accuracy against the original point made.
+- "Your objective is to assess if there\u2019s harmony between an argumentative point\
+  \ raised and its corresponding summarizing statement within debate discourse."
+- The challenge lies in discerning whether the proposed keypoint accurately encapsulates
+  the essential elements of an existing argument on the topic.
+- Review an argument and its related keypoint to see if they present a cohesive understanding
+  of the debate issue, checking for accurate reflection of ideas.
+- The objective here is to determine if provided keypoints correctly reflect the essence
+  of arguments put forth regarding society's debated subjects.
+- Evaluate whether a specific keypoint is in agreement with an argument within the
+  context of a debate, confirming its relevance and accuracy in representing what
+  the argument conveys.
+- Determine if the given keypoint aligns with the argument's intent and accurately
+  summarizes its main idea regarding a specified debate topic.
+- Your job is to examine an argument tied to a debate topic and see if a given keypoint
+  captures its meaning appropriately and relates accurately to the central idea expressed.
+- Analyze claims made in an argument relative to a shorter keypoint, deciding if it
+  faithfully conveys what was stated about a specific issue or idea.
+- Your task is to determine if the essential ideas presented in an argument are echoed
+  succinctly by a corresponding keypoint about a given topic.
+- "Consider how an argument\u2019s main messages are represented in a keypoint, evaluating\
+  \ their compatibility based on relevant themes in the context of a debate."
+- For each scenario, assess whether the keypoint conveyed relates clearly to and summarizes
+  the given argument about a certain topic.
+- Determine whether the provided keypoint is consistent with and summarizes the overarching
+  idea of its linked argument.
+- Engage with a debate topic, its argument, and a specific keypoint. Your task is
+  to determine if the keypoint appropriately reflects and summarizes what the argument
+  asserts.
+- The goal is to identify whether a keypoint effectively reflects the core message
+  of the given argument about the debate subject.
+- Analyze the connection between an argument and a keypoint to determine if they align
+  in meaning within the context of the given debate topic.
+- Your assignment is to investigate if a particular keypoint aligns well with an argument
+  on a debate topic, determining its accuracy in reflecting the main discussion point.
+- Analyze how well the given keypoint correlates with the central claims made in the
+  associated argument to derive its truthfulness.
+- This task requires you to think critically about an argument and see if a provided
+  keypoint correctly summarizes its main aspects concerning the specified debate topic.
+- Explore the relationship between an argument presented in a debate and a corresponding
+  keypoint, confirming if they are in agreement or mismatched in meaning.
+- Your task is to evaluate a debate argument and determine if a given keypoint accurately
+  reflects the argument's main idea about a specific topic.
+- This task invites you to consider how closely an argument aligns with its summarizing
+  statement and whether it conveys related meanings in context.
+- Your work entails verifying whether each keypoint appropriately captures and reflects
+  what an argument means within its debate context.
+- Assess if the provided keypoint captures the essence of the argument made regarding
+  a specific topic of debate.
+- Confirm whether the extracted keypoint aligns in meaning with an argument put forth
+  about a controversial issue.
+- "Here, you\u2019ll engage in logical reasoning by examining debate arguments alongside\
+  \ keypoints to assess their congruence in meaning and context."
+- Assess whether there is consistency between an argument's intent and a summarizing
+  keypoint within their respective debate framework. Analyze their coherence.
+- This exercise requires you to scrutinize an argument in light of a broader topic
+  and evaluate whether a keypoint captures that argument's main message accurately.
+- Engage in evaluating whether a specific keypoint conveys an accurate summary of
+  an argument made about a debate subject, highlighting critical ideas involved.
+- "For each debate topic, analyze the relationship between an argument and a keypoint,\
+  \ judging if the keypoint faithfully represents the argument\u2019s message."
+- Examine an argument in the context of a debate and judge if the keypoint correctly
+  encapsulates its main idea.
+- Your task is to scrutinize a debate point and its associated keypoint to decide
+  if they align in meaning and relevance to the topic at hand.
+- This task is about determining if an assertion about a debate topic effectively
+  captures the main idea of an associated argument, focusing on coherence and relevance.
+- Your task is to corroborate whether an assigned keypoint is in alignment with an
+  existing argument within a defined debate topic, thus showing comprehension of both
+  components.
+- You'll be tasked with verifying if a key point is consistent with and accurately
+  represents an argument made in a debate, all while considering the specific topic
+  at hand.
+- The task involves analyzing how well a provided keypoint mirrors an argumentative
+  statement on a social issue, confirming if it aligns with the discussed topic's
+  theme.
+- Your role is to investigate whether an argument's message is effectively summarized
+  by a following keypoint within a certain debate context.
+- You will evaluate if a keypoint summarizing an argument aligns with the context
+  of a stated debate topic. This requires understanding both the finer details of
+  the argument and its broader implications.
+- Assess if a stated keypoint is a true summary of an argument concerning a debate
+  topic, considering how they connect to each other.
+- Your job is to analyze how well a keypoint represents an argument made within a
+  specific debate context, checking for correctness and relevance.
+- This task requires you to make judgments about the congruence of an argument and
+  a related summarizing statement regarding a debated issue.
+- "Review how two statements\u2014a supporting argument and its corresponding keypoint\u2014\
+  relate to one another in discussing a particular debate issue. Understand their\
+  \ interconnections clearly."
+- Judge if the provided keypoint encapsulates the core idea of the associated argument
+  regarding a debate subject.
+- You need to determine the relationship between an argument and a keypoint concerning
+  a debate topic, verifying if the keypoint correctly represents the argument's main
+  idea.
+- Determine if the keypoint serves as an accurate synopsis of the argument presented
+  for consideration in the debate topic.
+- Your role is to ascertain whether the keypoint you receive corresponds to the argument
+  in a precise manner, focusing on their thematic connection.
+- Your task is to evaluate a debate topic along with an argument and a keypoint, ensuring
+  that the keypoint accurately reflects and summarizes the argument presented.
+- Assess whether the relationship between a debate topic and its argument supports
+  the validity of a keypoint as a summative expression of that argument.
+- The objective is to verify whether the keypoint you receive corresponds with and
+  properly summarizes the main idea of the associated argument linked to a particular
+  topic.
+- Analyze an argument in relation to a debate topic and judge whether the provided
+  keypoint captures its true meaning without overlooking important details.
+- The task is about cross-referencing an argument and its summarizing keypoint within
+  the context of a set debate issue. Determine if they resonate together logically.
+- You'll need to discern whether each presented keypoint matches up with its associated
+  argument accurately while maintaining focus on their interconnected themes.
+- Engaging with debate topics, you must evaluate whether corresponding arguments are
+  accurately summarized by the related keypoints given.
+- Your task involves critically assessing if the keypoint provided effectively conveys
+  and matches the explanation or rationale given in the related argument about a debatable
+  issue.
+- Critically evaluate whether an assertive statement serves as both a mirror and concise
+  summary of what the argument is trying to communicate in its respective debate.
+- Your role is to identify whether a short keypoint effectively encapsulates an argument
+  addressing a specific debate theme, ensuring clarity and relevance.
+- Analyze how effectively a given statement (keypoint) embodies and corresponds with
+  an argument related to pressing societal issues discussed in debates.
+- You are tasked with interpreting the content of debates by confirming how well arguments
+  and their corresponding keypoints are aligned thematically.
+- Engage in critical thinking to decide whether an assertion rightly captures and
+  paraphrases what an argument posits regarding a debated topic.
+- Your job is to verify the relationship between an argument and a keypoint within
+  the context of a debate topic, focusing on their consistency.
+- Critically assess whether each keypoint aligns with its associated argument's assertions
+  within different controversial topics, ensuring clarity of understanding.
+- The task challenges you to decide if a given keypoint effectively summarizes an
+  argument while relating to a broader debate topic. A clear alignment indicates a
+  "True" response.
+- Analyze the dialogue between a debate topic and its associated arguments, then evaluate
+  if the provided keypoint corresponds well with that relationship.
+- In this task, you will compare an argument against a keypoint in relation to a debate
+  topic. Analyze if the keypoint captures the essence of the argument.
+- Examine an argument on a controversial topic and verify if a keypoint summarizes
+  it correctly and aligns with its message.
+- Tasked with examining argumentative texts paired with specific keypoints related
+  to public debates, your challenge is to ascertain their mutual relevance and accuracy.
+- Assess if a given summary accurately reflects an argument's standpoint on a particular
+  topic, focusing on ensuring it remains true to what is expressed.
+- Your task is to analyze a debate topic, an argument, and a keypoint. Determine if
+  the keypoint accurately summarizes the argument in the context of the topic.
+- Analyze arguments and their related keypoints in various debates, checking for their
+  coherence and alignment in meaning.
+- Determine if a brief statement (the keypoint) effectively condenses and reflects
+  upon an associated argument within the context of an existing topic.
+- You must analyze if the relationship between an argument and its keypoint holds
+  true within the context of the provided debate topic, focusing on their thematic
+  connection.
+- You are to review an argument against a background topic while checking if the key
+  point supports or encapsulates the essence of that argument.
+- "Assess how well a keypoint reflects and summarizes an argument regarding a particular\
+  \ issue. This requires understanding both components\u2019 implications."
+- The goal here is to analyze how well each keypoint represents its corresponding
+  argument within various debated issues and topics.
+- The task involves assessing a connection between a debate statement, its supporting
+  argument, and a summarizing keypoint. Check for coherence between these elements.
+- Assess the connection between an argument about a controversial issue and a proposed
+  keypoint, deciding if the keypoint is an accurate summary of the argument.
+- This activity centers around determining whether summarized points adequately reflect
+  arguments made within various topics discussed in debates.
+- Analyze whether a given keypoint aligns with the argument for a specified debate
+  topic, determining its correctness in capturing the essence of the argument.
+- "You will analyze arguments for various debate topics and check if given keypoints\
+  \ correctly reflect those arguments\u2019 meanings and implications."
+- Your responsibility is to ascertain whether an identified keypoint is a valid representation
+  of an accompanying argument within a stated debate context.
+- Determine whether an identified keypoint accurately reflects the argument made about
+  a debate topic. This requires critical thinking and comprehension skills.
+- Scrutinize if a concise statement can be seen as correctly expressing and summarizing
+  what an argument claims concerning a debated issue.
+- Determine the accuracy of a keypoint by checking if it encapsulates what an argument
+  conveys in relation to a given debate subject.
+- Your job is to verify if the provided keypoint accurately embodies what an argument
+  expresses, ensuring it reflects fully within its debated context.
+- Evaluate if a given keypoint aligns with an argument on a specified topic. You need
+  to recognize if the keypoint encapsulates the argument's main idea accurately.
+- You will analyze arguments and accompanying keypoints related to various debate
+  topics, assessing their alignment in meaning and context based on the statements
+  provided.
+- In this exercise, you will assess if a provided keypoint correctly summarizes the
+  essence of an argumentative statement related to a debate topic.
+- Examine a given debate topic along with an argument and a keypoint. Your role is
+  to assess whether the keypoint corresponds correctly with the argument's meaning
+  in the provided context.
+- Your role involves investigating a debate statement, its supporting argument, and
+  a proposed keypoint to see if they fit together logically in meaning and intent.
+- You need to assess whether a particular keypoint aligns with an argument presented
+  on a debate topic, ensuring it encapsulates the argument's meaning effectively.
+- Your task is to evaluate whether a keypoint accurately reflects and summarizes an
+  argument related to a debate topic.
+- Investigate whether a keypoint can be considered a precise summary of an argument
+  in relation to a broader debate subject, ensuring it captures vital meanings effectively.
+- Your task focuses on matching arguments with their respective keypoints, determining
+  if they encapsulate the same sentiment or idea on controversial issues.
+- In this exercise, you will determine if a keypoint accurately characterizes the
+  reasoning behind an argument in the context of a set debate topic or viewpoint.
+- "You will review a debate topic, an associated argument, and a keypoint to see if\
+  \ the keypoint accurately summarizes the argument\u2019s stance."
+- For this task, you will compare arguments concerning contentious issues with associated
+  keypoints, establishing whether those points accurately summarize the arguments
+  made.
+- Evaluate how closely a keypoint relates to and summarizes an argument within various
+  topical discussions, interpreting their alignment well.
+- You must assess whether the argument makes sense when compared to the keypoint and
+  if they convey the same message regarding the debate topic.
+- You are expected to judge the relationship between arguments presented on specific
+  topics and their associated keypoints for accuracy and coherence.
+- Your challenge is to connect an argument's ideas with a succinctly stated keypoint,
+  ensuring they resonate with one another regarding their respective topics.
+- Assess whether a provided keypoint is a valid representation of the given argument
+  on a specific debate topic, ensuring it encapsulates the meaning of the argument
+  succinctly.
+- Your task involves evaluating if a keypoint succinctly reflects and summarizes an
+  argumentative stance on a debate subject.
+- Your responsibility is to connect a debate topic to its argument and decide if the
+  pinpointed keypoint aligns with and accurately reflects what the argument conveys.
+- Your task involves evaluating a debate topic, an argument presented for or against
+  it, and a keypoint related to that argument. You must determine if the keypoint
+  accurately reflects and summarizes the argument's essence.
+- Your role is to analyze if a given keypoint matches and effectively sums up an argument
+  pertaining to a debate discussion.
+- Examine the relationship between an argument and a keypoint to see if the keypoint
+  appropriately represents what the argument conveys about the topic discussed.
+- Your objective is to validate if a keypoint aptly summarizes an accompanying argument
+  in context with the specific debate issue presented.
+- Assess whether a concise statement accurately encapsulates and matches what is being
+  argued regarding specific debates, ensuring clear thematic representation.
+- Assess if the stated keypoint reflects and summarizes what an argument suggests
+  in relation to its associated debate topic. Identify similarities and differences.
+- Interpret how effectively a provided keypoint captures the nature of an associated
+  argument tied to a debate theme, indicating whether they are coherent in context.
+- The goal here is to explore relationships between arguments and keypoints in debates,
+  verifying whether each keypoint faithfully captures the significance of its argument.
+- Your responsibility is to ascertain whether a keypoint can be deemed as an appropriate
+  summary of the provided argument in a debated issue.
+- You will contemplate if a keypoint effectively mirrors an argument's stance on a
+  debate topic, ensuring that you grasp the underlying concepts presented.
+- In this activity, you will analyze the relationship between a debate argument and
+  a keypoint, confirming if the keypoint summarizes the argument appropriately within
+  the topic context.
+- Your task is to evaluate the relationship between a given argument and a keypoint
+  in the context of a specific debate topic. Determine if the keypoint accurately
+  reflects and summarizes the argument.
+- Analyze the relationship between a discussion point, an argument, and a summarized
+  keypoint to determine their alignment.
+- The task is aimed at identifying if the brief statement effectively summarizes and
+  aligns with the main themes conveyed in the respective arguments regarding sensitive
+  topics.
+- Determine if a statement about a debate topic summarizes an argument comprehensively
+  and accurately.
+- Your role is to critically evaluate whether each keypoint appropriately reflects
+  the core idea of its associated argument in response to ongoing debates about various
+  issues.
+- Determine if the presented keypoint provides an accurate encapsulation of the main
+  idea expressed in an argument about a specific debate subject matter.
+- Analyze an argument connected to a debate topic and evaluate if the keypoint correctly
+  illustrates its main message.
+- Investigate if there is a match between the argument and the keypoint regarding
+  its summarization of that argument within the debate.
+- You must evaluate how well a keypoint corresponds with an argument within the framework
+  of a specified debate subject.
+- In this task, you will validate if particular central ideas presented as keypoints
+  accurately capture the main arguments within specified debating contexts.
+- You'll need to interpret whether there is a logical match between an argument presented
+  on a certain topic and its summarizing keypoint, focusing on underlying meanings.
+- Analyze an argument connected to a debate topic along with an associated keypoint.
+  Your goal is to verify if they correspond accurately in terms of meaning and context.
+- Analyze an argument within a debate topic and assess whether a provided keypoint
+  correctly represents the core idea of that argument.
+- In this task, consider whether the keypoint correctly encapsulates what an argument
+  conveys regarding a specific debate topic and how they are related.
+- Your job involves judging how well a keypoint complements an argument, checking
+  for a clear connection that conveys the primary message of the debate topic.
+- Critically evaluate how well a given keypoint matches an argument about a debate
+  topic. Your assessment should focus on whether it captures the essential aspects
+  of that argument.
+- "Your task involves critically thinking about how well a keypoint matches up with\
+  \ an argument\u2019s claim in order to conclude its relevance to the debate topic."
+- Investigate the alignment between a debate issue, its reasoning, and a salient point
+  drawn from it. Assess if that point succinctly encapsulates what is conveyed in
+  the reasoning.
+- For each debate topic, assess if the keypoint correctly captures the essence of
+  the associated argument and supports or contradicts it.
+- Evaluate whether the stated keypoint aligns with and represents the argument made
+  on a particular debating theme.
+- Evaluate the coherence between an argument related to a debate and a keypoint, ensuring
+  the keypoint aligns with and accurately reflects what the argument suggests.
+- You will be tasked with identifying if a given keypoint correlates with an argument
+  effectively within the broader theme of a discussed issue or debate topic.
+- Your task is to evaluate whether a keypoint accurately reflects and summarizes the
+  argument provided in relation to a specific debate topic.
+- Your challenge is to discern whether a keypoint matches an argument related to a
+  specific debate topic, focusing on capturing its essence without deviation.
+- Evaluate whether provided statements about arguments are consistent and accurately
+  depict their essence while tied to specific debate topics.
+- In this task, you need to judge if a summarizing point correctly captures what is
+  expressed in an accompanying argument within a debate setting.
+- Read through an argument related to a specific topic and see if the corresponding
+  keypoint accurately gives insight into that argument.
+- Your assignment involves comparing a keypoint to an argument on a given topic and
+  deciding if they relate in a way that accurately conveys the argument's message.
+- Your role is to judge if the provided assertion encapsulates accurately and strengthens
+  understanding of an argumentative point raised in relation to a topical issue.
+- You will determine if the keypoint presented gives a correct representation of the
+  argument's essence concerning a specific debate issue.
+- "Determine if the keypoint sufficiently aligns with and encapsulates the primary\
+  \ content of an argument, adhering to the discussion\u2019s context."
+- Your task involves determining if the keypoint sufficiently represents the argument
+  made for a given debate issue.
+- This task involves examining a statement made about a debate topic and deciding
+  if a related keypoint appropriately summarizes that statement.
+- Determine whether the provided keypoint effectively captures the essence of an argument
+  related to a specific debate topic.
+- Assessing whether keypoints accurately capture arguments is your main task, focusing
+  on how well they represent the central message of discussion topics.
+- "Delve into an argument based on a particular debate theme and examine whether its\
+  \ corresponding keypoint accurately represents that argument\u2019s core message."
+- Assess if there is consistency between the argument and the keypoint within the
+  context of a debate, determining if they effectively relate to one another.
+- Review an argument related to a specific debate topic, along with a corresponding
+  keypoint. You need to assess if the keypoint serves as an accurate summary of that
+  argument.
+- Review each argument paired with its respective keypoint for any debate topic, establishing
+  if there's coherence in meaning between them that warrants agreement.
+- "In assessing debates, you\u2019ll decide if keypoints effectively mirror and summarize\
+  \ arguments related to various topics, which requires careful reading and critical\
+  \ thinking."
+- Your objective is to critically analyze the relationship between a provided argument
+  and its corresponding keypoint, assessing their alignment within the context of
+  the given topic.
+- Analyze how well the keypoints relate to their corresponding arguments in an ongoing
+  debate, focusing on matching ideas accurately.
+- In this task, assess how well each keypoint connects back to its corresponding argument
+  within a debate framework and judge its relevance in summarizing that argument.
+- Weigh the argument against its corresponding keypoint to conclude whether they are
+  compatible in expressing views on a particular issue or topic.
+- Identify if the keypoint correctly distills the main idea presented in an argument
+  about a specific issue, ensuring they function cohesively together.
+- "In this analysis exercise, determine if the assertion is a relevant reflection\
+  \ of the argument\u2019s essence within the framework of the given debatable issue."
+- In your analysis, you will compare debate arguments with summarizing keypoints to
+  judge their accuracy and relevance concerning the assigned topics.
+- Evaluate whether a keypoint matches an argument about a debate topic, ensuring that
+  it reflects what the argument claims.
+- You will need to analyze if a given keypoint encapsulates the main idea presented
+  in an argument about a contentious subject.
+- The focus of this task is to analyze if a statement correctly relates to or summarizes
+  an argument in light of its associated debate topic.
+- This task requires you to examine connections between topics and arguments, evaluating
+  whether certain points genuinely reflect the claims being made.
+- Examine arguments associated with various topics to confirm if the accompanying
+  keypoints correctly summarize their essential meanings.
+- Review the given argument and assess if it corresponds to the main idea presented
+  in the keypoint related to a debate topic.
+- Evaluate how effectively each given keypoint summarizes or relates to its respective
+  argumentative statement in different debatable subjects by checking for coherence.
+- The goal is to examine whether the keypoint aligns with the argument's message and
+  accurately conveys its meaning in relation to the debate topic.
+- Evaluate how well an expressed viewpoint on a debate subject connects with its mentioned
+  keys points. Determine if these elements hold together in summarizing their core
+  arguments effectively.
+- Examine provided arguments alongside their respective keypoints for debate topics
+  and determine if those points correctly represent or summarize what each argument
+  conveys.
+- Evaluate whether the keypoint matches and comprehensively encapsulates the argument
+  in relation to a specific debate topic. Look for clarity and relevance in their
+  connection.
+- In this task, you need to check if a statement serves as an appropriate summary
+  for an argument related to its designated debate topic, focusing on coherence and
+  accuracy.
+- Analyze the relationship between a debate topic, its supporting argument, and an
+  associated keypoint. Identify if the keypoint truly captures the argument's essence.
+- In this task, you will assess if a keypoint effectively encapsulates an argument
+  related to a particular debate issue, judging their relevance and accuracy.
+- Consider whether the keypoint accurately reflects and summarizes what the argument
+  is stating, focusing on its relevance to the given topic of discussion.
+- Your task is to determine whether a keypoint accurately reflects an argument within
+  the context of a specific debate topic. This requires understanding the nuances
+  of both the argument and the keypoint.
+- You need to evaluate whether a given keypoint aligns with an argument related to
+  a specific debate topic. Consider if the keypoint reflects the main idea of the
+  argument.
+- Assess the relevance of a keypoint concerning an argument under a specific debate
+  topic and check for congruence in meaning.
+- Evaluate if the provided keypoint corresponds well with the argument, encapsulating
+  essential points about the debate topic in question.
+- "You\u2019ll evaluate arguments against their respective keypoints to see if they\
+  \ convey matching ideas relevant to ongoing discussions in society."
+- Your job is to figure out if the statement summarizes correctly and aligns with
+  what is expressed in an argumentative context about specific subjects.
+- In this task, you evaluate whether a keypoint accurately reflects and summarizes
+  the argument made in relation to a specific debate topic.
+- The objective here is to match up arguments with keypoints in debates, ensuring
+  that the keypoints provide an accurate reflection of the points being made.
+- Your role is to determine if the provided keypoint accurately represents and summarizes
+  the argument concerning a particular topic, ensuring they are contextually aligned.
+- "Your responsibility is to identify if there\u2019s accuracy in how well the keypoint\
+  \ aligns with the underlying argument of the debate topic provided."
+- In this task, thorough analysis is required as you assess whether a keypoint logically
+  aligns with its respective argument in given discussions.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1285_kpa_keypoint_matching
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1285_kpa_keypoint_matching
+user_prompt_template: '{task_def}
+
+
+  {problem}'

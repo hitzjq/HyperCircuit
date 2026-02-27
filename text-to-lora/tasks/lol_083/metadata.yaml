@@ -1,0 +1,471 @@
+assistant_prefill: ''
+descriptions:
+- This exercise requires you to employ skills in understanding context as you navigate
+  through facts depicting movements, leading you to identify one character's place.
+- Evaluating a passage full of people's movements, your job is to derive the latest
+  position of an individual by analyzing their reported activities throughout the
+  narrative.
+- Your task is to synthesize information from events narrated in a passage so that
+  you can answer where a specified individual currently is.
+- The challenge here is to read through a collection of statements and use them to
+  track the final whereabouts of an individual named in a question.
+- "Scan through provided details about multiple characters\u2019 locations over time\
+  \ to identify the current spot of one individual mentioned."
+- This task prompts you to read through a collection of actions involving several
+  people and determine the latest setting for a given individual based on that information.
+- Your job is to follow along with people's movements in a passage and identify where
+  a particular individual has ended up.
+- "Your task is to sift through text that describes people\u2019s movements to ascertain\
+  \ the final position of a given individual."
+- Your objective is to sift through a set of actions to discern the current whereabouts
+  of a named person, using the last known action reported in the passage.
+- You need to analyze given facts about people's movements in order to pinpoint where
+  someone is currently located.
+- The objective is to read through the provided text that outlines multiple locations
+  visited by different people and then specify where one particular person is currently
+  located within that context.
+- The job at hand demands connecting multiple events and inferring from them to find
+  out where an individual is situated at the end of those actions.
+- You will analyze textual narratives detailing movements and arrive at an informed
+  conclusion regarding where an individual can be found presently.
+- Read through a passage describing characters' movements and determine the current
+  location of one specific character mentioned in the query.
+- Your job is to extract information about the locations of individuals from a given
+  narrative and determine the most recent place mentioned for a specific person.
+- Your job is to extract information from a set of sentences about people's activities
+  and indicate where one named person has traveled last.
+- Involves discerning from written content about personal movements to systematically
+  clarify and report the whereabouts of one specified character.
+- "This task challenges you to use deductive reasoning skills as you follow and interpret\
+  \ reportings of several people's journeys to determine one person\u2019s location."
+- Your goal is to read a brief story, identify the latest activities of various people,
+  and pinpoint where a specific individual is situated.
+- Your mission is to analyze details shared in a narrative and identify which location
+  corresponds to a person's most recent activity or movement.
+- "Your aim is to read through descriptions of different characters\u2019 actions\
+  \ and extract information that allows you to answer where one individual has ended\
+  \ up."
+- In this task, you will be required to follow along with multiple characters and
+  figure out where one specific person is located, using contextual clues from their
+  actions.
+- Utilize your comprehension skills to interpret a sequence of facts and locate an
+  individual based on their most recent movement mentioned in the text.
+- The task entails deciphering movements made by different persons in several contexts
+  and clarifying where one queried individual can be found based on recent activities.
+- You are tasked with tracking the movements of various characters to accurately state
+  where one individual is based on the sequence of events.
+- You will analyze a passage of events and answer questions about the location of
+  people mentioned, focusing on their most recent positions.
+- Your mission is to dissect narratives concerning multiple characters' locations
+  over time. Use this understanding to reveal where one character is positioned at
+  present.
+- The task requires you to focus on a descriptive text about various characters moving
+  throughout different places, and from that, you must ascertain where one specific
+  character is located.
+- This activity consists of deducing an individual's current position based on sequential
+  events described in a passage, focusing on their most recent action or location
+  provided in the facts.
+- This task requires you to track movements of several individuals in different settings.
+  You must use the latest events from the text to identify where a particular person
+  is located.
+- The challenge involves interpreting a description of several actions to pinpoint
+  the most recent location of a named individual.
+- Analyze the provided passage that lists movements by various people and respond
+  to a specific inquiry about a person's last known location with accurate information
+  based on that passage.
+- You are tasked with reading through statements about people relocating among various
+  places and answering one specific question about an individual's location at the
+  moment described.
+- Examine the given facts about various individuals' movements and ascertain where
+  one particular person is at the end of those facts.
+- This involves piecing together information from a description of movements to figure
+  out where someone is positioned at that moment in time.
+- "The task asks you to combine information across narratives about people\u2019s\
+  \ journeys and find out exactly where one specific person has ended up."
+- Your task is to read a passage containing facts about people and their movements,
+  and then locate a specific person based on the information given.
+- Your mission involves compiling facts concerning multiple people's movements to
+  determine and state the exact location of one specific person mentioned in those
+  details.
+- Your task is to deduce the latest location of a person mentioned in a series of
+  events provided in a passage.
+- You must consider multiple statements outlining characters' locations and actions,
+  aiming to clarify the position of one specified individual at a particular moment.
+- You need to interpret a narrative that describes actions taken by different people
+  within various rooms or places. From this, answer the question regarding the current
+  whereabouts of a specified person.
+- You will extract details from a narrative to find out where a particular person
+  is, using the sequence of their movements.
+- Examine the given details about people's actions and specify the current location
+  of one individual mentioned in the text.
+- You will be analyzing clusters of facts relating to different individuals' interactions
+  with their surroundings and using this information to ascertain where a particular
+  person has traveled last.
+- You will analyze a text that details movements of individuals and answer where a
+  specific person is located according to the latest updates in the passage.
+- "Identify the recent location of an individual by scrutinizing related facts from\
+  \ a passage that chronicles various persons\u2019 movements."
+- The goal is to determine the most recent place occupied by a person by analyzing
+  the sequence of actions mentioned in the passage.
+- Your responsibility is to discern the last known position of an individual mentioned
+  in a sequence of events. This involves tracking movements as recorded in the narrative.
+- You will be interpreting details from writings that capture actions involving several
+  individuals in order to answer about one person's whereabouts.
+- In this task, contextual facts reveal movements; you need to track one person's
+  locations and provide their latest whereabouts as requested.
+- Identify and summarize movements derived from a specific text, closely focusing
+  on what has occurred to establish where an individual is currently located.
+- You are expected to extract key locational data about an individual based on prior
+  events narrated in a passage discussing several people's travels.
+- Engage with narratives describing movements between various locations and determine
+  the endpoint for an individual mentioned in your query.
+- Work through factual scenarios involving character movements, honing your reasoning
+  skills to clearly articulate the current position of someone mentioned.
+- This task consists of reconstructing locations from actions described in a passage
+  and determining the final place associated with one person based on their last movements.
+- The focus of this activity is on tracking moves made by individuals and answering
+  where one of them can be found based on the most recent evidence in the text.
+- This task requires you to sift through information about various individuals' movements
+  to identify where a named person currently is.
+- Examine a list of movements between diverse spaces by different individuals, focusing
+  on determining the latest position of one specified individual following all factors
+  presented.
+- This task involves determining the final position of a specified individual by interpreting
+  a set of sequential actions outlined in a text.
+- "The task involves reading a passage and extracting a person\u2019s most recent\
+  \ location based on provided information."
+- You will summarize findings from a passage that tracks the movements of people and
+  indicate where one designated person can be found.
+- Your role is to follow the interactions and travels of people described in the passage
+  to discern where a particular individual is located now.
+- Review the text describing several people's locations over time and logically deduce
+  where a certain individual is currently based on their last recorded location.
+- Using context clues from an event list, find out and state where a certain person
+  can be found according to their last mentioned activity.
+- The objective is to assemble information as it pertains to different people's movements,
+  allowing you to resolve where one particular individual has arrived.
+- "As part of this exercise, you will keep track of characters\u2019 transitions through\
+  \ spaces and conclude the last known position of a mentioned person based on available\
+  \ details."
+- Analyze the provided text to determine the last known location of a named individual
+  from a series of events described in the passage.
+- Analyze the narrative provided about movements and responsibilities, then clarify
+  where a named person has ended up based on that information.
+- Read through interactions and actions described; your goal is to find where someone-specific
+  has ended up according to the flow of events.
+- "Examine factual details within a passage, focusing on various characters\u2019\
+  \ locations over time, to resolve where one character has gone."
+- In this task, you'll engage with a scenario that involves multiple characters moving
+  between places and identify one person's latest location from the narrative.
+- You will parse through information concerning several characters' movements and
+  pinpoint one individual's location at the end of that sequence of events.
+- Engage with descriptive narratives that outline actions taken by various persons
+  so you can accurately report on the location of one individual.
+- You will engage with details about people shifting from one place to another throughout
+  a passage. The objective is to find out where specifically one individual is located
+  now.
+- Given a scenario with multiple people and their activities, your job is to summarize
+  the current location of one individual by referencing the facts provided earlier
+  in the passage.
+- Review narrative elements outlining movement patterns among characters to locate
+  accurately where one person concluded their journey at the end of events provided.
+- This task focuses on synthesizing information from provided statements to establish
+  the latest known location for a given person.
+- Use information from the context that illustrates transitions among different points
+  to articulate where a certain individual has been recently last noted.
+- Evaluate statements that discuss various locations and moves made by individuals,
+  using that information to provide an answer about one particular person's current
+  situation.
+- This job entails listening closely to details about people changing locations within
+  a story. You must accurately convey where one specific person currently is based
+  on those transitions.
+- This task entails interpreting a series of statements about people's actions to
+  ascertain where one specific person is located at the end of those actions.
+- "This task requires you to read through statements about individuals\u2019 locations\
+  \ and determine, based on the last mention, where a particular person currently\
+  \ resides."
+- This involves examining a sequence of events in text form and choosing the location
+  of a specified person based on their most recent action.
+- You will explore descriptive log entries that chart various locations encountered
+  by different characters, helping you determine how far along the events have progressed
+  before asking about one of them.
+- In this exercise, you need to combine your understanding of narrative details with
+  analytical skills to identify where a specific person ended up after following the
+  facts presented in the passage.
+- You will be engaged in a textual analysis where tracking individuals' actions leads
+  you to ascertain the location of a specific person at any given time.
+- The aim here is to process related facts about different paths taken by individuals
+  and realize where someone ultimately lands by referencing the ongoing narrative.
+- The task focuses on extracting relevant details from provided cinematic-like accounts
+  of human movement, leading to the completion of identifying one person's current
+  position among others described.
+- You will need to comprehend the flow of information provided in the passage and
+  ascertain where a person is located after following their interactions.
+- You will process information about characters shifting between different places
+  within a narrative. The task requires you to find out where one character has ended
+  up following all their described actions.
+- You will look through a passage of text that shares various movements of individuals
+  and determine the ending location of a specified character.
+- Delve into passages describing actions of characters and point out the whereabouts
+  of particularly named individuals at their last noted position.
+- By interpreting descriptions of movements and locations, your goal is to clarify
+  where an individual is located without ambiguity based on the facts provided.
+- Listen closely to the movements described in the text to deduce an individual's
+  current whereabouts based on factual statements.
+- You will read a passage and identify where a specific individual is located based
+  on their movements described in the text.
+- This exercise involves following the movements described in a passage and articulating
+  where one particular person finds themselves after all stated actions.
+- This task requires you to interpret textual data about various movements among individuals
+  and respond directly regarding where one distinct person has arrived at after traveling
+  through those locations.
+- "Partake in an analysis aimed at tracking the journey of individuals through diverse\
+  \ settings. Your job is to map out one individual\u2019s most recent whereabouts\
+  \ based on documented facts."
+- Your task is to extract information about a person's latest location from a provided
+  narrative of events.
+- The task requires you to read through a narrative that outlines actions taken by
+  individuals and deduce the most recent location of one named person.
+- "The focus is on logical reasoning as you piece together information on people\u2019\
+  s movements to answer a specific question about someone's current whereabouts."
+- Interpret passages that outline changes in location for several people, concentrating
+  on tracking down where one specific person ultimately resides after all activities
+  listed.
+- You will read a narrative of events to find out the current whereabouts of a given
+  person by referencing their movements in the passage.
+- Your task is to sift through action statements regarding multiple individuals and
+  accurately pinpoint the final destination of one person's journey.
+- You will interpret a passage containing information about different people's activities
+  and deduce where a certain person is at the present time, based on the last mention
+  of their location.
+- Your job is to follow the storyline presented in the passage and deduce the current
+  spot of someone based on the latest actions described.
+- Your task is to determine the latest location of a specific person based on a series
+  of factual statements presented in a passage.
+- You are provided with a factual account of individuals moving through different
+  spaces. Your challenge is to denote where a targeted person is currently situated
+  within those spaces.
+- The objective is to take facts from a passage about people traveling through different
+  places and deduce the current location of one specific person.
+- By analyzing a series of movements, your role is to identify and state where a named
+  person is located after all described actions take place.
+- The task requires you to follow a storyline of actions taken by different individuals
+  and respond to a question about one person's present location.
+- Your responsibility is to analyze presented facts about various locations and find
+  out specifically where one person is situated at the present moment.
+- "Using provided information about various people\u2019s activities, you are to find\
+  \ out where one specific person is last known to be."
+- You will analyze a narrative that describes different individuals and their movements.
+  The goal is to pinpoint the final whereabouts of a named individual after considering
+  all presented facts.
+- In this task, you analyze events that give insight into characters' movements over
+  time and provide a clear answer regarding where a particular individual is currently
+  residing.
+- Read through an account describing various personal relocations in order to deduce
+  the most current place associated with one distinct individual mentioned.
+- Review descriptions of individual movements within a text and extract the most recent
+  location for a specified person.
+- Here, you need to examine passages detailing movements of various people and determine
+  where a certain person ended up after all mentioned actions.
+- "You\u2019ll take on the challenge of dissecting movement patterns within a text\
+  \ and respond to queries regarding where an individual can currently be found based\
+  \ on those movements."
+- The objective here is to trace through event narratives, spotting changes in location,
+  ultimately determining one character's present place.
+- Track one individual's travels throughout a provided narrative, and conclude with
+  their latest physical location based on their described activities.
+- In this activity, you're invited to piece together snippets from passages detailing
+  movement sequences to clarify an individual's present whereabouts at any point in
+  time.
+- This task requires you to determine the final whereabouts of an individual by examining
+  their movements as detailed within a passage.
+- In this task, you'll be given a narrative about several characters, and you must
+  identify the location of one individual by reviewing their movement history.
+- By examining recorded actions of various characters, your job is to clarify where
+  one individual can be found at the conclusion of those actions.
+- "In this activity, you will analyze a series of statements about individuals\u2019\
+  \ travels to different locations and respond to a query regarding where a specific\
+  \ person is located."
+- From a collection of events, ascertain which location applies to one specific individual
+  by considering where they last moved to within that context.
+- "The activity focuses on digesting narrative information related to people\u2019\
+  s locations over time. You will find and report where a particular person has ended\
+  \ up after all specified transitions."
+- Your task is to read a passage containing facts about various people and their locations,
+  then determine where a specific person is based on the latest information provided.
+- Your objective is to extract specific information from a series of events described
+  in a passage. You must identify where a particular person is located at the end
+  of those events.
+- The task involves reading a passage that details the movements of various people
+  and then identifying the latest known location of a specified individual based on
+  the information provided in the text.
+- Assess descriptive passages that outline the movements of people through various
+  spaces, then identify which space or area contains your subject as per the last
+  actions mentioned.
+- In this task, determine the latest whereabouts of a named individual by referencing
+  facts in a provided narrative.
+- You need to track the movements of multiple characters in a story and provide the
+  current location of one specific character.
+- This exercise requires you to sift through information about different locations
+  occupied by characters in order to find out where one person currently resides.
+- The task involves advancing through various reported actions in a passage to identify
+  a character's final whereabouts after all movements are accounted for.
+- Engaging with a text that narrates movements among several persons, your mission
+  is to piece together clues that lead you accurately to find out where one named
+  person resides currently.
+- Process the information in a passage about different people moving around, and find
+  out where one particular person is at the end of that narrative.
+- Follow the narrative flow regarding various characters' journeys and deduce the
+  location of one defined character after all actions are considered.
+- Consider a series of statements regarding individuals' travels, and focus on discerning
+  one person's last known place as per the details provided.
+- Engage with sequential data about different persons moving in different locations
+  and find the specific destination of one designated character mentioned in the inquiry.
+- "Your goal is to sift through movement descriptions in order to pinpoint someone\u2019\
+  s final resting place based on chronological actions discussed."
+- "The task is centered around information retrieval from a text passage concerning\
+  \ individuals\u2019 movements, ultimately requiring you to recognize and provide\
+  \ the latest position of one identified individual."
+- You will interpret a collection of statements regarding locations of several individuals
+  and conclude where one named person has ended up.
+- Your assignment consists of summarizing various locations mentioned within a text
+  and then correctly identifying where a specified character resides at the moment
+  described.
+- The goal here is to interpret statements regarding various people's activities and
+  infer the final whereabouts of a specific individual whose name has been called
+  out in questioning.
+- Your challenge is to draw conclusions from a narrative passage about movement and
+  identify a person's most recent location based on what you read.
+- Using a set of facts about various characters, your task is to answer a question
+  regarding the current whereabouts of one person by referencing their last recorded
+  position in the text.
+- Your job is to track the movements of people described in a passage and identify
+  the location of a particular individual at the end of those movements.
+- Examine the information provided in the passage to accurately pinpoint where a specific
+  person is stated to be at the end of the events described.
+- You will be given a collection of events that show how individuals move around various
+  locations, and your job is to find and report where one named individual is after
+  all mentioned sequences.
+- Discover and depict where an individual resides at the conclusion of various interactions
+  by synthesizing information about what has transpired in related passages.
+- "Your role is to enable effective tracking of character movements within a storyline,\
+  \ pinpointing an individual\u2019s location by analyzing relevant details from the\
+  \ text."
+- Analyze a set of facts about individuals' movements and determine where a specified
+  person currently is based on those facts.
+- You will analyze a description that tracks various people's movements, and your
+  goal is to find out where a specified individual currently is.
+- You'll need to synthesize the information from a passage that outlines where individuals
+  have gone. Your aim is to find out the most recent place occupied by the person
+  asking for their location.
+- Given a context with various facts about locations, your role is to find the current
+  whereabouts of a specified person by referencing those facts.
+- The task involves reading a passage that contains various factual statements about
+  people and their movements. You need to find and provide the most recent location
+  of a specified person based on the details in the passage.
+- The focus here is on critical reading and comprehension, as you will extract information
+  that reveals where someone currently resides after multiple actions.
+- Your goal is to interpret a set of facts about various individuals and identify
+  the latest location of one of them as posed in the question.
+- The task involves evaluating facts concerning the transitions of various people
+  and using that data to answer a question about the current situation of one listed
+  individual.
+- Based on sequences of movement presented in a text, your assignment is to identify
+  and report the current location of a designated individual.
+- Utilize the information from a storyline to clarify the location of a specific person
+  at the end of the events described.
+- Read through a set of events concerning several people and evaluate the latest activity
+  to determine where one specified person has ended up.
+- Examine the given passage containing sequences of actions to identify and report
+  back on the last known position of a featured character.
+- Get an understanding of character movements detailed in a paragraph, then compile
+  that understanding into locating one person precisely as per their recent activities.
+- Your role requires synthesizing information from provided details on activities,
+  carefully deciding and stating where a particular person can be found in that context.
+- Immerse yourself in a storyline filled with movements and activities as you work
+  to identify the latest location of a particular individual mentioned in your reference
+  material.
+- Review the narrative carefully to trace a character's movements and answer a question
+  about their most recent location using clues from the text.
+- In this activity, you will read through a sequence of events and answer where a
+  specific individual is by referencing the latest information provided in the passage.
+- You are asked to follow the described actions of characters in a scene and find
+  out where a specified person is last reported to be.
+- You will analyze a series of sentence-like facts about individuals moving between
+  different locations, and your goal is to find out the current location of a person
+  named in a question.
+- Task yourself with scrutinizing movement narratives about various characters, then
+  pinpoint precisely where one named character has ended up based on sequential cues
+  in the text.
+- Analyze a series of actions to conclude where an individual has ended up, focusing
+  on their latest stated position.
+- This task involves reading about different people's travels and pinpointing the
+  final location of a named individual.
+- "Here, you will assess a list of facts detailing various individuals\u2019 travels\
+  \ and determine the ending location of the person asked about in the question."
+- This task involves identifying a person's latest location based on a narrative describing
+  their movements. You'll extract information to pinpoint where someone is at any
+  given moment.
+- The task consists of reviewing events involving several people and identifying one
+  person's ultimate location based on those events.
+- This assignment presents you with situations outlining people's travels through
+  various areas, culminating in the necessity for you to establish one named person's
+  latest revealed location from these accounts.
+- The assignment requires you to synthesize information from presented facts about
+  individuals' locations and provide the latest known place for one person.
+- Your task is to sift through narrative details concerning individuals' locations
+  and, upon being asked about one specific person, find and state their latest known
+  place.
+- Given a storyline detailing movements among multiple characters, your role is to
+  pinpoint the location of one character at the end of these movements.
+- "You\u2019ll encounter a description of actions involving different people; your\
+  \ role is to determine where one particular person is located after the listed actions."
+- Engage with factual descriptions detailing people's actions and determine how those
+  actions relate to answering questions about someone's present location.
+- "The task challenges you to take factual statements about people\u2019s movements\
+  \ and determine from that information where an individual stands as far as location\
+  \ is concerned."
+- The task is to extract the latest location of a specified person based on a series
+  of events described in a passage.
+- "Your aim is to navigate through descriptive accounts of individuals\u2019 movements\
+  \ and summarize where one specific character can be found after considering all\
+  \ changes outlined in the narrative."
+- This task emphasizes logical deduction from given facts, where your goal is to find
+  out where a selected person has traveled last.
+- By examining movements gathered within a short story format, you are tasked with
+  determining where a particular character can be found at any given moment outlined
+  in the description.
+- "Your role is to interpret movement narratives in text to identify and declare the\
+  \ current state of affairs for one specified individual\u2019s location."
+- This task focuses on interpreting movements and transitions among different people
+  in a passage to determine the current whereabouts of one specific person.
+- Work through stories about individuals' actions; your task is to reveal where one
+  specific person is based on their last reported activity within that account.
+- Given a narrative, your job is to recognize the last known whereabouts of a certain
+  individual based on their described movements.
+- You will interpret a sequence of events involving different individuals and specify
+  the final location of one by answering accordingly.
+- You will engage with narratives detailing the activities of several people and pinpoint
+  the present location of a specific person as outlined in the passage.
+- The task involves tracking individuals as they move through different places, requiring
+  you to locate one person's final destination based on the provided context.
+- This task challenges you to follow the movements of people detailed in a passage
+  and pinpoint the last location of a named individual based on the events described.
+- The assignment involves reviewing factual movements of individuals within various
+  settings detailed in a passage. Your goal is to identify one person's final destination
+  from those details.
+- The objective is to extract relevant data from a narrative to pinpoint where a particular
+  individual has ended up after a sequence of movements.
+- Analyze movement patterns within provided statements to discern the latest position
+  of someone named in a directed question.
+ds_kwargs:
+  path: Lots-of-LoRAs/task083_babi_t1_single_supporting_fact_answer_generation
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task083_babi_t1_single_supporting_fact_answer_generation
+user_prompt_template: '{task_def}
+
+
+  {problem}'

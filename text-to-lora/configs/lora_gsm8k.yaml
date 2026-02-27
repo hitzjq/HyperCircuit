@@ -1,0 +1,27 @@
+batch_size: 8
+train_ds_names:
+  - gsm8k
+epochs: 10
+eval_ds_info:
+  gsm8k:
+    descriptions:
+      - PLACEHOLDER
+exp_setup: lora
+grad_accum_steps: 1
+logging_freq: 100
+lr: 0.00003
+max_grad_norm: 1.0
+model_dir: models/Mistral-7B-Instruct-v0.2/
+neftune_noise_alpha: 5
+save_freq: 5000
+seed: 42
+skip_eval: false
+target_modules:
+  - q_proj
+  - v_proj
+sft_mode: completion
+equally_weight_sample: false
+use_per_task_emb: false
+use_one_hot_task_emb: false
+warmup_frac: 0.1
+save_to_base_model_dir: true

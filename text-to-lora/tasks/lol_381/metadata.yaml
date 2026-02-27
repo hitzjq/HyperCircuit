@@ -1,0 +1,458 @@
+assistant_prefill: ''
+descriptions:
+- Based on the provided information, think critically to construct Yes/No questions
+  that align with the context of the passage and can be answered affirmatively or
+  negatively.
+- Your job is to distill information from the given text into concise questions, allowing
+  for straightforward Yes/No answers.
+- Engage with the content of the passage and develop a clear Yes/No question based
+  on facts or details outlined within.
+- Your task is to read a passage and create a relevant Yes/No question based on the
+  information presented.
+- Analyze each passage critically to produce Yes/No questions that succinctly cover
+  significant aspects of its content for easy understanding.
+- Review the text carefully and develop concise Yes/No questions that highlight important
+  elements discussed within it.
+- Your task involves distilling key details from a passage into concise Yes/No questions
+  that relate directly to its content.
+- The task at hand involves analyzing a provided text and generating Yes/No questions
+  that address its primary themes or facts. Ensure your question reflects something
+  answerable within the passage.
+- From the provided passage, your goal is to develop a Yes/No question that is clear
+  and concise, allowing for a straightforward affirmation or negation based on the
+  passage.
+- The task involves generating simple Yes/No questions based on a reading passage,
+  capturing essential facts for clarity and understanding.
+- Your task is to read a provided passage and create a Yes/No question that can be
+  directly answered based on the content.
+- Using your reading skills, produce simple Yes/No questions that apply directly to
+  the material presented in a passage you've just read, highlighting your understanding
+  process.
+- Analyze what is laid out in the provided text, then match those ideas to formulate
+  a concise Yes/No question reflecting one of the main topics discussed.
+- After reading the provided text, your job is to construct a Yes/No question that
+  relates to its content and can be answered with a simple affirmative or negative
+  response.
+- Your goal is to interpret relevant information from a passage and express it in
+  the form of answerable Yes/No questions.
+- Generate a Yes/No question derived from key points within the passage, which someone
+  would be able to respond to based solely on that information.
+- Your job is to interpret a passage and craft appropriate Yes/No questions that reflect
+  its content. Your questions should be straightforward and should allow for easy
+  answers based on the text.
+- The goal is to take the information from the given passage and turn it into a clear
+  Yes/No question, ensuring it aligns with the details shared.
+- Read through the provided text carefully, then create pertinent Yes/No questions
+  that can be clearly answered by its contents.
+- Generate succinct Yes/No questions from the passage, concentrating on details or
+  issues presented therein for an informative response.
+- Create questions based on the passage that can be answered affirmatively or negatively,
+  ensuring they are rooted in what is explicitly stated in the text.
+- Transform key statements and facts from the passage into questions that invite binary
+  responses (Yes or No), reflecting accuracy and understanding of the material.
+- Examine the given text closely and produce several Yes/No questions that relate
+  directly to the information contained within. This involves critical reading and
+  summarization skills.
+- Formulate effective Yes/No questions by closely examining a passage for crucial
+  points that can lead to binary responses based on its content.
+- The mission is to transform insights gleaned from a passage into simplistic Yes/No
+  questions relevant to its subject matter.
+- Your task is to transform statements or facts from a passage into either affirmative
+  or negative queries, allowing for simple yes or no responses.
+- Engage with a passage by producing Yes/No questions based on its contents. You should
+  focus on specific statements or ideas present in the text that lend themselves to
+  binary questioning.
+- Look for factual statements in each passage and convert them into questions that
+  can elicit 'Yes' or 'No' answers, focusing on clarity and accuracy.
+- After reading the given text, your task is to come up with one or more Yes/No questions
+  that accurately summarize or inquire about important facts presented in the content.
+- Read through the given material and create possible Yes/No questions based around
+  its content, ensuring they are specific to the details of the passage.
+- Create clear, concise Yes/No questions from passages you read, reflecting nuanced
+  comprehension of their content while ensuring that they are answerable based on
+  what is written.
+- Analyze the passage to develop potential Yes/No questions. These questions must
+  have answers that are directly derived from the text.
+- The goal of this task is to come up with Yes/No questions derived from a provided
+  passage. This requires you to comprehend the information well enough to extract
+  meaningful queries that can be answered based on what you've read.
+- Construct Yes/No questions from a passage, emphasizing clarity in how they relate
+  to the textual information provided.
+- Engage with the provided text and derive thought-provoking Yes/No questions that
+  can directly reference facts mentioned within it.
+- Your role here is to delve into the passage's content and construct up-to-the-point
+  Yes/No questions that clarify insights and encourage further thought on what has
+  been shared.
+- The goal is to interpret the content of a given passage and come up with relevant
+  Yes/No questions that reflect its main points.
+- Your objective is to translate insights acquired from a passage into simple Yes/No
+  format inquiries while retaining accuracy concerning the material's content.
+- Your task is to read a passage and create a Yes/No question that can be answered
+  based on the information provided.
+- You will synthesize information from a passage into Yes/No questions. Your understanding
+  of the main ideas will guide your questioning for clarity and directness.
+- "Analyze the text provided carefully and come up with succinct Yes/No questions\
+  \ that revolve around its main ideas or important facts, making sure they logically\
+  \ follow from what\u2019s written."
+- Your focus will be to interpret a short piece of writing to generate related Yes/No
+  questions. Ensure your inquiries are specific enough that they can be accurately
+  addressed using details from the initial text.
+- Generate questions that can be answered with a simple yes or no, derived from the
+  information found in the given text.
+- Using the information in the passage, create meaningful Yes/No questions that accurately
+  reflect its content and context.
+- Dig through each reading selection to identify possible Yes/No inquiries, paying
+  attention to important details worthy of being questioned.
+- Use your comprehension of the text to devise explicit Yes/No questions whose answers
+  lie within the details encompassed by the passage.
+- Based on the information in the passage, your job is to come up with a Yes/No question
+  that summarizes or clarifies its main points.
+- Your job is to generate appropriate Yes/No questions from a passage. This tests
+  your understanding of the text and evaluates your ability to encapsulate information
+  as questions.
+- Read the provided excerpt and construct a Yes/No question that can be accurately
+  answered using that information.
+- Formulate an appropriate Yes/No question from the given passage, focusing on clarity
+  and directness in relation to its content.
+- Create relevant Yes/No questions from passages by identifying important themes or
+  statements made within the text and turning them into inquiries.
+- You are to review the provided passage and come up with clear and precise Yes/No
+  questions that directly relate to the details mentioned in it.
+- Using the information from the passage, formulate a Yes/No question that relates
+  to main ideas or details. Your ability to distill key points into questions is crucial
+  for this task.
+- Review the passage closely and derive a relevant Yes/No question that can be answered
+  by the information presented in it.
+- Your responsibility is to distill the essential information from the passage and
+  turn it into an accessible Yes/No question.
+- From the given text, derive a meaningful Yes/No question that can easily be answered
+  by recalling specific details from the reading.
+- Your role is to summarize points from the passage into clear Yes/No questions that
+  highlight significant aspects of the narrative.
+- Analyze the passage and produce a Yes/No question that is directly answerable based
+  on the information contained within it.
+- Based on the given text, create Yes/No questions that encapsulate essential ideas
+  in an interrogative format, ensuring they are straightforward to answer.
+- From your reading of the passage, develop one or several Yes/No questions that could
+  help clarify important elements contained within it.
+- You need to analyze the passage and generate one or more Yes/No questions that can
+  directly relate to its content.
+- Your task is to read a passage and create Yes/No questions based on its content.
+  Focus on the main points and details to generate questions that can be directly
+  answered by the passage.
+- Analyze the provided passage and generate suitable Yes/No questions that can be
+  answered using the details within. This task tests your ability to summarize information
+  in a question format.
+- Summarize your understanding of a passage by forming relevant Yes/No questions derived
+  entirely from its contents, ensuring clarity in your queries.
+- Carefully extract themes and facts from each passage to formulate simple Yes/No
+  questions that genuinely relate to what has been written.
+- Using your comprehension skills, develop appropriate Yes/No questions derived from
+  the main ideas in an assigned reading passage.
+- Based on the reading material, produce simple and direct yes or no questions which
+  pertain to the essential themes and details of the passage.
+- For this assignment, closely review the passage provided, then create several Yes/No
+  questions that someone could answer based simply on information contained within
+  it.
+- Based on your understanding of the given material, build concise questions that
+  demand only yes or no answers, pertaining directly to what was discussed in the
+  passage.
+- As part of this task, you'll read through a passage and pinpoint salient details
+  to create an answerable Yes/No question related to those details.
+- Your task involves generating reflective Yes/No questions based on provided texts,
+  ensuring they capture key ideas and information stated in those passages.
+- In this task, focus on distilling the information from a written piece into clear
+  Yes/No questions. Highlighting essential facts will help frame your inquiries successfully.
+- From the details contained in the passage, your responsibility is to construct clear
+  Yes/No questions that can be confidently answered based on what's presented.
+- The task requires you to interpret the given information and construct simple Yes/No
+  questions which are factually supported by the content of the passage.
+- Your task is to read a passage and formulate a Yes/No question that can be directly
+  answered by the information provided in that passage.
+- Formulate responseable binary questions about the passage which demand either "yes"
+  or "no," relying solely on the information contained within it.
+- Using your comprehension of the passage, create a Yes/No question that is both relevant
+  and rooted in the content shared in the text.
+- Analyze the passage and produce questions that can be answered affirmatively or
+  negatively, focusing on the key details mentioned.
+- Your task involves crafting a Yes/No question derived from key points mentioned
+  in the text, ensuring it can be easily answered from that content.
+- Based on the content of the passage, develop questions that inquire about specific
+  information, expecting straightforward yes or no answers from the text.
+- Focus on interpreting a passage and generating suitable Yes/No questions that someone
+  could answer by referring directly back to what was provided.
+- Based on a short passage, create Yes/No questions that relate to its contents. Your
+  skill in understanding and interpreting information will be essential for this task.
+- Analyze the information in the provided text and create a question that can be answered
+  with a simple yes or no based on that information.
+- Create succinct Yes/No questions from the content of a given passage, ensuring that
+  each question directly relates to specific facts presented.
+- Begin by analyzing a provided passage, then develop correspondingly appropriate
+  Yes/No questions that reflect its factual evidence.
+- Use critical thinking skills to interpret the provided passage, and generate a Yes/No
+  question that embodies its main ideas.
+- Read through the textual material, then create factual Yes/No questions concerning
+  its main points, ensuring that they can be answered with certainty using only what
+  you have read.
+- Generate insightful Yes/No questions by analyzing key statements within the provided
+  text. These should capture important concepts in a straightforward manner.
+- Utilize your understanding of the passage to produce accurate and relevant Yes/No
+  questions that connect logically with key aspects discussed in it.
+- Read the passage closely and use its content to develop straightforward Yes/No questions
+  that can effectively gauge understanding of the material.
+- Task yourself with summarizing significant points from the passage by crafting one
+  or more Yes/No questions that align with those details.
+- The goal is to create a Yes/No question from the provided text, focusing on aspects
+  that are explicitly stated or implied within. It requires an understanding of textual
+  nuances.
+- Create clear Yes/No questions from a text, ensuring that they are understandable
+  and can be answered using the facts mentioned in the passage.
+- This task involves synthesizing information from a passage into concise Yes/No questions
+  that encourage comprehension checks regarding the material.
+- You will analyze a text and develop a series of Yes/No questions that relate to
+  the information presented. It's important to ensure your questions are clear and
+  answerable with a simple yes or no response.
+- As part of this task, read a short passage and create multiple Yes/No questions
+  that someone can answer using information from that text. This will test both your
+  comprehension and your ability to recognize key details.
+- Synthesize details from a passage into coherent Yes/No questions which reflect a
+  thorough engagement with the material presented.
+- For this task, read through the provided information and create Yes/No questions
+  that can accurately test knowledge of the material presented.
+- Analyze the passage provided and formulate questions that inquire about its content,
+  specifically in a way that can be responded to with "yes" or "no."
+- You will take a written passage and identify important details to construct relevant
+  Yes/No questions about the information presented.
+- The task involves transforming descriptive content from the provided text into effective
+  Yes/No questions, ensuring they correspond closely with what has been stated.
+- Your role is to read a short text carefully and then create simple Yes/No questions
+  based on it. This task tests how well you understand and can express ideas clearly
+  in question form.
+- Engage with the material and generate straightforward yes or no inquiries focusing
+  on confirming details from within the text's context.
+- Extract pertinent information from the given text and pose questions in a Yes/No
+  format that relate specifically to its themes or assertions.
+- From an informative passage, derive concise Yes/No questions relevant to its content.
+  Your reasoning and interpretation will play crucial roles in this process.
+- Generate a simple yet relevant Yes/No question based on insights drawn from reading
+  the given passage.
+- Read a given excerpt carefully, then create one or more Yes/No questions that can
+  be directly answered based on the text. This emphasizes comprehension and critical
+  thinking.
+- From a detailed reading of the given passage, create direct Yes/No questions that
+  reflect essential information conveyed through the text.
+- "From the given passage, devise a question that seeks a binary response\u2014either\
+  \ affirmative or negative\u2014drawing only from what is stated in the text."
+- The goal is to transform narrative content into interrogative form by forming Yes/No
+  questions that address key points within the passage.
+- Engaging with the passage, you will need to derive a Yes/No question that encapsulates
+  pertinent facts or assertions found within it. This will showcase your comprehension
+  skills.
+- The task requires you to make sense of a passage and create related Yes/No questions
+  that accurately reflect its content while ensuring they are easy to understand.
+- The task involves creating clear Yes/No questions by drawing on the specific information
+  in a passage. Be attentive to the text's finer points for meaningful inquiry.
+- Your assignment involves reading a passage and generating relevant Yes/No inquiries
+  based strictly on its contents.
+- The task involves distilling the main concepts of the passage into a concise Yes/No
+  question that accurately reflects its content.
+- Engage with the text to develop a Yes/No question that captures important themes
+  or facts, ensuring it can be straightforwardly answered based on what you've read.
+- Your task involves crafting Yes/No questions derived from a particular passage.
+  Focus on making them directly answerable with reference to the provided content.
+- Read through the provided text carefully, then create a Yes/No question that accurately
+  reflects an aspect of the content discussed in that passage.
+- The task involves interpreting a given text and generating straightforward questions
+  that can be affirmed or denied according to the passage's information.
+- You will interpret a passage and design Yes/No questions that are factual and informative,
+  reflecting the contents accurately.
+- Your assignment is to distil insights from the passage into a Yes/No question, focusing
+  on details that are explicitly stated or strongly implied.
+- Read and comprehend the provided passage, then create interrogative statements that
+  seek confirmation or denial of facts mentioned within it.
+- The task requires you to read through the passage and express one or more key aspects
+  as a Yes/No question that can be directly inferred from it.
+- Through thoughtful reading of the passage, devise relevant Yes/No questions addressing
+  specific claims or ideas presented therein, showcasing your ability to comprehend
+  and question content.
+- Create a list of Yes/No questions that can be answered by extracting meaning directly
+  from a provided passage, showcasing comprehension of its themes.
+- Synthesizing key points from a passage into concise Yes/No questions is your primary
+  objective, facilitating clear communication of those ideas.
+- Your responsibility is to interpret the passage and generate one or more Yes/No
+  questions that could be answered using details found in the text.
+- Your mission is to read an informative passage and develop You will generate several
+  concise Yes/No questions based on various aspects of what you've understood from
+  the text's details.
+- From the information in the passage, create a concise Yes/No question that captures
+  a main point or detail.
+- Your task is to read a passage and formulate a Yes/No question that can be clearly
+  answered with information from that passage.
+- Transform information from a passage into concise Yes/No questions accurately reflecting
+  its content and supporting easier comprehension of key ideas.
+- Your job involves taking information from the text and transforming it into clear,
+  answerable Yes/No questions, helping to clarify critical themes or points discussed.
+- By interpreting important passages, create effective Yes/No questions designed to
+  elicit answers that demonstrate understanding and comprehension of the text's subject
+  matter.
+- Analyze the text to identify its core elements, then proceed to create relevant
+  Yes/No questions that someone could answer using only those elements.
+- Transform information from a text passage into direct Yes/No questions. This requires
+  clarity in understanding key messages within the content to properly pose the questions.
+- Using the details from a passage, your aim is to create relevant Yes/No questions.
+  These should reflect significant points made in the text and be straightforward
+  for someone to answer.
+- From the passage given, your task is to derive key concepts and form questions that
+  can be answered with a simple Yes or No, demonstrating your comprehension of the
+  material.
+- Your aim is to create succinct Yes/No questions by interpreting passages, ensuring
+  your queries are straightforward yet relevant to their themes.
+- "Read the supplied passage carefully and formulate one or more Yes/No questions\
+  \ that can be answered based on that text\u2019s information."
+- "You will need to extract information from a passage and craft corresponding Yes/No\
+  \ questions, making sure they are derived from what you\u2019ve read."
+- Analyze the passage carefully and formulate a straightforward Yes/No question based
+  on significant facts or conclusions drawn within the text.
+- This exercise asks you to take a reading passage and formulate potential Yes/No
+  questions that are closely tied to its content. Think critically about what information
+  could lead to such inquiries.
+- Generate Yes/No questions from the given passages, making sure that your questions
+  can be directly answered by the information included in those passages.
+- Extract pertinent information from the passage to generate a clear Yes/No question
+  that reflects an understanding of its content.
+- Examine a given passage to generate Yes/No questions. Ensure that each question
+  can be supported by information contained within that passage.
+- Your objective is to take insights from a passage and create clear Yes/No questions
+  that reflect its main themes or facts, tapping into your analytical reading capabilities.
+- Focus on extracting essential concepts from the passage to come up with a relevant
+  Yes/No inquiry based on clearly conveyed ideas in the text.
+- From a supplied text, your aim is to create inquiries in the form of Yes/No questions
+  which highlight main ideas or details described in the content.
+- Construct clarifying Yes/No questions based on critical analysis of a passage. Each
+  should relate closely to its content for clarity.
+- Engage with the provided text by generating meaningful Yes/No questions that closely
+  align with the subject matter discussed within it.
+- Your task is to scrutinize the given passage and extract relevant information to
+  model as Yes/No questions. These questions should effectively prompt answers reflecting
+  true or false states.
+- Review and interpret the passage carefully, then generate a related Yes/No question
+  that can guide someone in understanding its contents better through a simple inquiry.
+- You will need to interpret a passage and derive understandable Yes/No questions
+  that are directly related to its content, reflecting both comprehension and articulation
+  skills.
+- For each provided passage, formulate a question that can be answered with a simple
+  'Yes' or 'No', reflecting the content of the text.
+- Your task is to read a passage and create a Yes/No question based on the information
+  presented. This requires comprehension skills and the ability to extract relevant
+  details.
+- You will be given a short text, and your role is to generate questions that can
+  only be answered with "yes" or "no," relying solely on the details from the passage.
+- Identify significant aspects of the passage and compose a suitable Yes/No question
+  that allows for straightforward answering based on those details.
+- Given a short text, you are to formulate a Yes/No question that reflects key points
+  from the passage, showcasing your understanding and interpretation of the content.
+- You will extract key themes or facts from a passage and turn them into Yes/No questions.
+  Make sure these questions are answerable using only information presented in the
+  text.
+- The task requires you to read comprehension passages and derive simple affirmative
+  or negative queries that reflect their meanings accurately.
+- The objective is to extract information from a passage and turn it into a concise
+  Yes/No question, relevant to the details shared in that text.
+- From each passage provided, derive questions that can be answered with 'Yes' or
+  'No', ensuring they are based on facts contained within the text.
+- Your role is to read through a passage and produce corresponding Yes/No questions.
+  Be sure that each question captures key elements of the text, allowing for clear
+  yes or no answers.
+- Your task is to read the provided passage and create a Yes/No question based on
+  the information contained within. This requires careful reading and comprehension
+  of the text.
+- Synthesize information from the passage into a straightforward Yes/No question that
+  addresses an important concept or detail presented.
+- Examine the provided text closely and develop one or more Yes/No questions centered
+  on its core messages. This requires both analytical and creative thinking skills.
+- Assess the text provided and develop answerable Yes/No questions that address significant
+  aspects of it. This exercise emphasizes comprehension and critical thinking abilities.
+- In this exercise, you will analyze a provided text and formulate a Yes/No question
+  that reflects the information contained within the passage.
+- You are required to produce clear and direct Yes/No questions based on the context
+  and details of the given excerpt, reflecting comprehension of its ideas.
+- This exercise invites you to extract meaning from a given text by generating relevant
+  Yes/No questions related to its content. Each question should serve as an inquiry
+  into the material presented.
+- You will be tasked with generating Yes/No questions from a given passage. This involves
+  understanding the material thoroughly to ensure your questions are relevant and
+  can be clearly answered.
+- Your task is to read a passage and create a Yes/No question based on its content,
+  ensuring that the question can be answered directly from what the passage states.
+- Translate findings from the provided text into a succinct Yes/No question that someone
+  could easily respond to based on their understanding of it.
+- Review the given text and formulate a relevant Yes/No question that captures key
+  details from the passage.
+- Analyze the reading material closely and produce questions that can verifiably be
+  answered with either yes or no, based on your interpretation of the text.
+- Your objective is to distill information from the passage into a concise Yes/No
+  question, capturing the essence of what has been discussed.
+- Read through the provided passage and come up with relevant Yes/No questions. This
+  assesses your ability to extract meaningful insights from textual information.
+- Analyze a passage for its meaning and create appropriate Yes/No questions that can
+  be derived from that meaning. This emphasizes both comprehension and summarization
+  abilities.
+- You will generate a Yes/No question that can be directly answered with 'yes' or
+  'no' by interpreting key information from the provided text.
+- In this activity, you'll read a given passage and then produce relevant Yes/No questions.
+  Consider the key themes and facts within the text as you formulate your questions.
+- Read the passage attentively and construct a Yes/No question that touches on significant
+  points mentioned in it. Ensure that your question can be definitively answered using
+  the text.
+- Generate a relevant Yes/No question based on the details provided in the given text.
+  The question should reflect the content accurately.
+- Read through the passage carefully and generate relevant Yes/No questions that can
+  be answered purely from the text, without requiring any outside knowledge.
+- Based on what you read, formulate a Yes/No question that is simple and directly
+  relevant to information found in the text.
+- Interpret the key elements of the passage and use them to generate a relevant Yes/No
+  question for which an answer can be derived directly from the text.
+- After absorbing the information from the text, your task is to create an effective
+  Yes/No question that accurately corresponds to what you've read.
+- Analyze the given passage and formulate a Yes/No question that reflects its content.
+  The question should be answerable solely based on the details shared in the passage.
+- Formulate Yes/No questions that are answerable based on the context of a provided
+  passage. This task requires analytical skills to identify main ideas and frame them
+  correctly.
+- Your goal is to extract key details from the passage and frame them as distinct
+  Yes/No questions for which the answers can be found within the text itself.
+- Use the details from a passage to craft direct yes or no inquiries, focusing on
+  key elements that can be tested for accuracy.
+- Interpret the passage and craft a Yes/No question that reflects crucial elements
+  from the text, ensuring it is answerable with a simple yes or no.
+- Evaluate the information presented and generate straightforward questions requiring
+  yes or no responses anchored firmly in factual context.
+- From the given passage, formulate a Yes/No question that accurately reflects the
+  content, ensuring the question is relevant to what has been written.
+- Your task is to read a provided passage and create a Yes/No question that can be
+  answered based on the information within that text.
+- Based on your reading of a passage, create insightful Yes/No questions that reflect
+  its main points and can be confirmed or denied based on that text.
+- Generate relevant Yes/No questions based on a given text. The task focuses on how
+  well you can comprehend and summarize important details into question form.
+- You will evaluate a passage for significant concepts, then transform those ideas
+  into a series of Yes/No questions. This requires careful reading and comprehension
+  skills.
+- Distill essential details from the passage into coherent Yes/No questions, keeping
+  them relevant to what has been discussed without introducing external knowledge.
+- For this activity, read a given paragraph carefully and then create several derivative
+  Yes/No questions about it. The aim is to form inquiries that can be readily answered
+  based on what you learned from reading.
+- Your job is to take essential points from a passage and craft them into effective
+  Yes/No questions that reveal insights about the information in it.
+ds_kwargs:
+  path: Lots-of-LoRAs/task381_boolq_question_generation
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task381_boolq_question_generation
+user_prompt_template: '{task_def}
+
+
+  {problem}'

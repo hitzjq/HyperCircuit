@@ -1,0 +1,428 @@
+assistant_prefill: ''
+descriptions:
+- In essence, you will be tasked with identifying a term that serves as an umbrella
+  for the given word, showing its larger context.
+- Consider what larger group the provided term falls under, enabling you to express
+  these associations through appropriate hypernyms.
+- This exercise involves recognizing how specific concepts fit within broader categories,
+  requiring vocabulary knowledge and classification skills.
+- You will receive a specific noun and are tasked with generating its hypernym, which
+  is the overarching category it belongs to.
+- You will need to provide a word that serves as an overarching descriptor for the
+  given concept. This requires an understanding of language hierarchy and meaning.
+- Your job is to generate a term that describes a class or group that the input word
+  fits into, showcasing your knowledge of word meanings.
+- For each provided word, identify and produce a broader term that would classify
+  or describe it as part of a larger group.
+- The focus here is on expanding your lexical knowledge through linking items to more
+  generalized categories through hypernym generation.
+- Your mission is to articulate broader concepts for presented words, highlighting
+  your understanding of language structure and semantic relationships between terms.
+- The focus here is on identifying commonalities among distinct items and articulating
+  them through superordinate language.
+- The goal here is to replace each specific term with its more general equivalent,
+  which tests both your knowledge of vocabulary and ability to categorize information
+  effectively.
+- You will be working on linking words with their respective hypernyms, thereby enhancing
+  both your lexical depth and understanding of language structures.
+- The focus here is on deducing what overarching term could appropriately describe
+  or classify the presented word within its context.
+- Analyze the provided concept word and determine a general term that belongs to the
+  same category. Think about how different words can represent a common idea.
+- The aim is to synthesize knowledge of language structure by turning specific terms
+  into wider categorizations seamlessly.
+- You will be generating a term that is more inclusive than the provided word, indicating
+  a broader classification. This requires knowledge of vocabulary and conceptual associations.
+- The aim here is to think abstractly about words. For each given word, identify its
+  broader counterpart that might be used in more general discussions.
+- "Through this task, you\u2019ll explore the relationship between words by converting\
+  \ specific concepts into broader categories, enhancing your vocabulary skills."
+- For every concept word provided, determine its hypernym by thinking about how this
+  word fits into larger classifications. A solid grasp of semantics is needed for
+  this task.
+- Engage in vocabulary exploration by associating specific words with their respective
+  higher-level counterparts in terms of meaning.
+- The task consists of creating a broader term that can encompass the specific word
+  given. This demands an understanding of language categories.
+- Think about how words are organized and generate their overarching terms for each
+  concept you receive, using your knowledge of language relationships.
+- This task focuses on generating words that can represent larger groups or categories
+  related to the input words. It aims to explore linguistic connections.
+- In this task, you will take individual words and translate them into more general
+  terms, showcasing your understanding of language relationships.
+- The aim is to demonstrate your grasp of language by providing broader classification
+  words for specific examples presented to you.
+- This activity focuses on linking specific concepts with their broader counterparts,
+  allowing for a deeper exploration of vocabulary relationships.
+- This task challenges you to expand your vocabulary by associating specific items
+  with their more general definitions or categories.
+- The objective is to distill various concept words down to their broader terms, thereby
+  illustrating your ability to see how language can be organized into categories.
+- You need to find and express a general category or concept that includes the specific
+  word provided.
+- Your challenge is to transform detailed words into general ones by summarizing them
+  as broader categories, utilizing your understanding of language structure.
+- You will identify a superordinate word related to the concept given, highlighting
+  your ability to connect terms by their meanings.
+- Analyze the specified term and come up with its more generalized form through knowledge
+  of vocabulary connections and linguistic structures.
+- You are tasked with defining a more abstract concept for each given word by finding
+  its hypernym. This requires insight into how different terms can relate hierarchically.
+- You are asked to think beyond the specific term given and identify a general word
+  that represents the overarching category it fits into.
+- The task requires you to think of a broader term that encompasses the given word,
+  identifying its hypernym.
+- Each input requires you to think critically about the relationship between words
+  and classify them under appropriate overarching themes.
+- Your task is to identify and provide a broader category name for a given word. This
+  means understanding how terms relate to one another in terms of generalization.
+- The goal is to find a term that captures the essence of a given concept in a general
+  way, highlighting your ability to categorize ideas linguistically.
+- Your task is to identify a broader category that encompasses a given specific word.
+  This involves understanding the relationships between words and concepts.
+- The assignment involves generating hypernyms for specific words. This means identifying
+  a broader term that holds meaning beyond the specific example given.
+- Your mission is to simplify words by finding their hypernyms, thus enriching your
+  understanding of the language's structure.
+- The task requires generating hypernyms for specific input words; this helps illustrate
+  the hierarchy and structure within language effectively.
+- The focus here is on analyzing the input word in order to generate a hypernym, which
+  is a term representing a higher level of abstraction.
+- Your challenge is to extract the wider meaning of a word by pinpointing its hypernym.
+  This requires critical thinking about language and meaning.
+- Your task here is to reverse Engineer vocabulary by pinpointing terms that can broadly
+  encompass various instances of more narrow words.
+- Convert the specific input word into a term that describes its broader classification.
+  This requires critical thinking about vocabulary and the relationships between words.
+- Anticipate uncovering broader connections within language as you respond to prompts
+  with their appropriate hypernyms.
+- Identify and provide a commonly accepted broader term for the given concept, using
+  your knowledge of language and meaning.
+- The objective is to analyze a term and recognize what larger group it belongs to.
+  This can involve thinking about features or characteristics shared among similar
+  words.
+- Engage in this task by connecting individual concepts with their larger category
+  names to form higher-level associations.
+- Given a specific term, your role is to think of a more inclusive or overarching
+  word that captures its essence. This task revolves around semantics and understanding
+  word hierarchies.
+- Your focus is on taking a specific word and determining its general counterpart,
+  showcasing your understanding of language structure.
+- Your role is to think categorically and produce a more inclusive term for each provided
+  word, demonstrating your grasp of word relationships.
+- The objective is to transform a specific concept into a broader idea by generating
+  its hypernym. This will test your linguistic skills and understanding of word classifications.
+- You will encounter specific words and must derive their more generalized categories,
+  highlighting your ability to see connections between concepts.
+- You will engage in identifying hypernyms for given concept words, requiring an understanding
+  of how language categorizes different entities and ideas.
+- The goal is to produce a word that encapsulates the essence of the given concept
+  by referring to its hypernym.
+- Your role is to pivot from the detail of individual words to the generality of hypernyms
+  that can describe various instances of those words.
+- Your task will involve identifying and articulating broader terms for specific words
+  that exist in the vocabulary. Strong language comprehension is key to this endeavor.
+- You'll be focused on lexical relationships, specifically identifying terms that
+  encompass the meaning of another, showcasing your command of language.
+- The goal is to find a single, broader term for each given example that accurately
+  summarizes what the original concept belongs to within broader categories of meaning.
+- The objective is to find a word that has a wider meaning and categorizes the specific
+  word presented to you.
+- "You will be tasked with finding a hypernym\u2014a more general term\u2014that accurately\
+  \ represents a specific word provided to you. Understanding relationships between\
+  \ words is essential."
+- Derive generalized terms from specific examples through an understanding of linguistic
+  hierarchy and relationship dynamics within language constructs.
+- Your responsibility is to derive an umbrella term that encapsulates the concept
+  represented by each word given. This involves understanding categories and hierarchies
+  in language.
+- The focus is on deducing hypernyms for specific words, identifying more inclusive
+  terms that represent larger categories or groups.
+- This task requires you to think of a superordinate word that describes a category
+  which includes the given concept word.
+- By considering the specific word presented, you must generate a more inclusive term
+  that encapsulates its meaning within a larger context.
+- The task at hand is to think of a word that is broader than the given input. You
+  should understand how terms relate in terms of specificity and generality.
+- You will connect individual words to their wider classifications by determining
+  an appropriate hypernym for each concept provided.
+- Examine each concept given and derive its hypernym. This will require careful consideration
+  of the meanings associated with the words provided.
+- Analyze the concept you receive and provide its hypernym, which involves recognizing
+  how words relate to one another in terms of specificity.
+- This task involves recognizing the hierarchical relationship between words by finding
+  the superordinate term that captures the essence of the provided concept.
+- For every word presented, generate a superordinate term that encompasses its meaning.
+  This requires knowledge of language and vocabulary.
+- The task requires discernment and insight into linguistic hierarchies as you work
+  to generalize specific concepts into broader classifications.
+- Given a specific concept, generate a hypernym that shows its category or class.
+  This involves recognizing how different terms fit into larger groups.
+- Your task involves taking a specific word and identifying a broader category to
+  which it belongs, which is known as a hypernym.
+- This challenge requires you to think critically about language relationships and
+  deduce an inclusive term that pertains to the specified word.
+- The goal is to take a word and provide a broader classification for it. You will
+  need to think about how the given word fits within larger categories of things.
+- This exercise is about recognizing how words can be grouped under more general categories,
+  necessitating a grasp of vocabulary and semantic relationships.
+- Find a general term for the specific item given. This requires an understanding
+  of how different words fit within larger categories in language.
+- Your focus will be on distilling specific terms into their broader, more generalized
+  forms. This helps demonstrate your understanding of language and classification.
+- You are required to discern how specific words fit into larger categories by finding
+  hypernyms that capture their essence in broader terms.
+- The goal is to identify common themes among various concepts by finding overarching
+  terms that can describe them collectively.
+- Your mission is to refine your understanding of language relations by providing
+  broader terms for specific words, capturing their general essence.
+- Produce a broad term that can classify or describe the input word adequately. This
+  emphasizes both vocabulary skills and cognitive association abilities.
+- Given a term, your goal is to create a general term that encapsulates it, representing
+  a higher level of classification.
+- Use your knowledge of language and categories to discover an umbrella term that
+  includes the specific word given in each instance.
+- Engage with a word by providing its superordinate term, which signifies its broader
+  meaning or class. Understanding the nuances of language will be essential for this
+  task.
+- Engage your linguistic skills to extract more comprehensive terms from given specific
+  words, thereby enhancing your semantic grasp.
+- The task focuses on linguistic categorization; view the specific word through the
+  lens of general terms that can embrace its essence.
+- Identify and articulate a broader term that signifies a group or category under
+  which the indicated concept can be classified.
+- The challenge here is to take a detailed term and express it in a broader context
+  by generating its hypernym. This requires analytical thinking about language relationships.
+- The task requires you to identify a broader category word that encompasses the meaning
+  of a given concept word.
+- Determine a term that represents a larger conceptual framework into which the input
+  word fits, illustrating your understanding of lexical relationships.
+- This is about understanding relationships in language; find words that serve as
+  superordinates for the provided examples.
+- For any given word, your job is to think of a general term or concept that encapsulates
+  its meaning and classification within a larger context.
+- You will be provided with a specific word, and you need to generate a more general
+  term that encompasses its meaning.
+- You need to provide a hypernym for each word presented, reflecting your grasp of
+  vocabulary and the connections between terms.
+- This exercise tests your ability to categorize words correctly by recognizing which
+  terms can serve as hypernyms for those provided.
+- Engaging with this task requires you to understand vocabulary hierarchies so that
+  you can relate concept words to their broader counterparts.
+- Engage in identifying hypernyms from given terms. This requires you to leverage
+  your vocabulary knowledge and sense of categorical connections within language.
+- Identify what larger class or category the given concept belongs to. This requires
+  insight into word meanings and relationships.
+- This activity asks you to connect specific words with their corresponding general
+  terms, exercising your ability to navigate and understand linguistic categories.
+- This activity asks you to derive a broader classification for the input word, demonstrating
+  your capacity for linguistic categorization.
+- Accept the task of transforming particular words into general categories, thus demonstrating
+  your understanding of linguistic hierarchies within language.
+- The task challenges you to think of encompassing words that describe shared characteristics
+  among various specific terms, reflecting your grasp on taxonomy in language.
+- You will be given specific words, and your job is to think of a general term that
+  fits as a parent category for each one.
+- You are tasked with exploring word relationships by identifying suitable hypernyms
+  for given terms. Doing this requires linguistic analysis and creative thinking.
+- Your job is to consider the input word and generate a superordinate term that relates
+  to it, indicating broader themes or categories in language.
+- The goal here is for you to express the relationship between words by finding broader
+  terms that can describe certain concepts effectively.
+- This task offers an opportunity to explore relationships within language limits
+  by transforming words into their broader, more inclusive forms.
+- "You\u2019ll be given conceptual words and your responsibility is to derive terms\
+  \ that encompass those concepts under wider classifications."
+- This task focuses on semantic analysis where you will identify a general term that
+  represents the specific meaning of the provided word.
+- Explore the relationship between words by identifying a more general term that fits
+  under each provided hypernym. Skill in recognizing linguistic categories will be
+  vital for this process.
+- You will be engaged in a process that links individual terms with overarching categories,
+  promoting semantic awareness in vocabulary usage.
+- Your task is to identify a general term that encompasses the meaning of the provided
+  word. This involves recognizing broader categories related to specific concepts.
+- Focus on conceptual relationships in language by finding a hypernym for the word
+  given. This means identifying a term that covers more ground than the original word.
+- Utilize your knowledge of semantic relationships as you evaluate concept words,
+  striving to provide an intuitive hypernym for each example given.
+- Reflect on the nuances of vocabulary as you derive broader terms that encapsulate
+  many specific examples effectively.
+- You will explore the relationship between words by pinpointing hypernyms that cover
+  multiple instances of specific terms given.
+- The task challenges you to connect the provided concept with its corresponding broader
+  category. It requires linguistic comprehension and categorization skills.
+- Your role is to summarize each focused word with a related general term that identifies
+  its larger category, reflecting your linguistic knowledge and analytic capabilities.
+- For each provided term, determine a general term that captures its essence. This
+  calls for linguistic insight and familiarity with descriptive language.
+- You will be generating hypernyms, which will help expand your vocabulary and understanding
+  of how different words interact in terms of meaning.
+- In this exercise, generate a hypernym for each given word. This entails recognizing
+  how terms can fit into larger groups based on shared attributes or characteristics.
+- The task at hand involves conceptualizing how certain words relate to broader ideas,
+  allowing you to express these relationships through appropriate hypernyms.
+- The objective here is to demonstrate your understanding of language by generating
+  more general terms that relate to the specific words given.
+- Prepare to define broad categories by associating them with more specific words
+  presented to you in this task, demonstrating your expertise in vocabulary and classifications.
+- You will be asked to find a more general term for a provided word. This involves
+  identifying the category or class that the word belongs to within the language.
+- Engage with vocabulary by being tasked to provide broader names for specific items,
+  requiring insight into how different words relate to each other hierarchically.
+- You are to discern and articulate a more expansive category that aligns with the
+  definition of the presented word.
+- "In this task, you will be working with specific words and determining their hypernyms\u2014\
+  words with more general meanings that can represent them."
+- Analyze the given words and generate a term that serves as a generalization or overarching
+  descriptor for them.
+- Your job is to convert a concept word into its corresponding broad category term,
+  showcasing your familiarity with language and the connections between different
+  words.
+- "Here, you\u2019ll need to employ your linguistic expertise to relate specific words\
+  \ with their more generalized forms responding directly to each concept\u2019s category."
+- You need to derive a word that represents a category to which the provided word
+  belongs, showcasing your vocabulary skills.
+- This exercise cultivates your understanding of language relationships by asking
+  you to generate broader terms that include the specificity of a given word.
+- This task involves generating a more generalized term for a given word. You need
+  to think about what larger class or group the specific term represents.
+- Evaluate specific nouns and derive broad terms that define their higher classifications,
+  showcasing your linguistic aptitude and conceptual understanding.
+- You will analyze a provided concept and determine an overarching category word that
+  could include it, showcasing your understanding of hierarchy in language.
+- For each word you are given, your mission is to express its belonging within a larger
+  context by generating its hypernym.
+- Connect the dots between specific terms and their more comprehensive categories
+  through the identification of hypernyms.
+- Your challenge is to extract from the presented word a more generalized expression
+  or classification, showcasing your grasp of language nuances and relationships.
+- Your assignment is to determine an overarching term that generalizes the provided
+  concept word, showcasing your knowledge of linguistic categorization.
+- You will be asked to generate a hypernym, which is a word that represents a general
+  category for a specific term provided.
+- You will analyze a specific term to uncover its broader classification, finding
+  terms that represent wider categories within language, which highlights your vocabulary
+  skills.
+- Your challenge involves identifying connections in language where specific instances
+  are linked back to their general categories.
+- Your objective is to recognize and articulate the connection between terms based
+  on their hierarchical structures in language.
+- Engage in the challenge of providing hypernyms for a list of terms, focusing on
+  your ability to recognize patterns and categories within language effectively.
+- In this exercise, your focus should be on linking related concepts by identifying
+  their more general terms or hypernyms.
+- The objective here is to transition from a specific word to its more general counterpart
+  by thinking in terms of classification.
+- Utilize your linguistic acumen to transform individual concepts into broad classifications
+  by generating suitable hypernyms.
+- You will be evaluating terms through a lens of hierarchy, seeking to broaden their
+  meanings by recognizing fitting hypernyms.
+- You will receive a word, and you need to find a term that represents a broader classification
+  of that word. This requires understanding the relationship between specific items
+  and their general categories.
+- Your task is to identify a broader category word that encompasses the given concept
+  word. This requires an understanding of language and how words relate to each other.
+- "Embrace the task of generating hypernyms\u2014words with broader meanings\u2014\
+  when given certain terms that belong within them, fostering a deeper grasp of vocabulary."
+- Your task is to find a more general word that describes the given concept. This
+  involves understanding language and the relationships between words.
+- Think critically about the concept provided and formulate an answer by identifying
+  what larger group it signifies or belongs to.
+- The goal of this task is to generate a more inclusive term for the provided word,
+  effectively categorizing it within its larger group.
+- This task challenges you to identify and articulate a broader term that can define
+  or classify the given word within its wider linguistic family.
+- Your goal is to extract a general term from a specific word, identifying what larger
+  group it belongs to. Familiarity with language structures and categories will help
+  you accomplish this.
+- You will explore the relationship between specific terms and their broader classifications,
+  showing your familiarity with various concepts.
+- Identify a broader category term for the word provided, showcasing your knowledge
+  of vocabulary and word hierarchies.
+- You need to analyze the meaning of each provided term and express it through a more
+  generalized concept, capturing the essence of its category.
+- This activity emphasizes lexical knowledge by asking you to identify broader conceptual
+  ties between words through their hypernyms.
+- The aim is to take a specific word and provide a related term that encompasses it
+  within a wider category. This involves thinking about language hierarchy and organization.
+- When provided with a concept word, your role is to explore its meaning and generate
+  a superordinate term that encompasses it.
+- "In this task, you\u2019ll receive a specific term and must generate a word that\
+  \ describes a category to which the term belongs. This tests your vocabulary and\
+  \ comprehension skills."
+- Through this task, develop your linguistic insight by pairing individual terms with
+  suitable categories that reflect their general meanings.
+- This task challenges you to recognize and create connections between specific items
+  and the larger categories they belong to in language.
+- Engage in an exploration of language as you find a term that serves as an umbrella
+  covering the meaning of the input word.
+- This exercise challenges you to unpack the meaning behind specific concepts by linking
+  them to their more inclusive counterparts in vocabulary.
+- Your responsibility involves finding and stating an inclusive term that conveys
+  the essence of the initial concept provided in the task.
+- Your mission is to derive an umbrella term for the given concept word, enhancing
+  your vocabulary knowledge and linguistic connections.
+- The essence of this task is finding and articulating wider concepts that can encompass
+  or represent the idea embodied in each provided word.
+- In this task, delve into language classification by identifying superordinate terms
+  for given concepts, allowing you to explore how meanings interact.
+- You are asked to describe a concept by finding its hypernym. This means identifying
+  a term that has a wider application or meaning.
+- "You\u2019ll be tasked with producing a hypernym that groups together similar concepts\
+  \ under a broader header, indicative of your vocabulary knowledge."
+- "You\u2019ll explore semantic relationships in language by producing hypernyms for\
+  \ specified terms, requiring you to understand and categorize words effectively."
+- Your task is to articulate a hypernym for given terms, exploring the hierarchical
+  nature of vocabulary within language use.
+- This task involves understanding language relationships, specifically how one word
+  can represent a larger category to which it belongs.
+- Your task is to identify a broader category word, known as a hypernym, for a given
+  specific concept.
+- Your goal is to find a term that encompasses the meaning of the provided word, allowing
+  you to see how it fits into a larger idea.
+- You are asked to derive a superordinate term for each prompt word, effectively categorizing
+  it within a wider linguistic framework.
+- Analyze the provided words and provide their general counterparts. This task emphasizes
+  your ability to conceptualize and categorize linguistic elements.
+- Use your understanding of language categories to transform detailed terms into their
+  broad classification forms for better insight.
+- Identify terms that signify general categories based on provided conceptual words.
+  Utilize your understanding of language classification to fulfill this task.
+- Generate a hypernym for the provided word. You need to think about what larger group
+  or category the word belongs to.
+- Your responsibility is to navigate through language to uncover broader descriptors
+  for specified concepts, demonstrating your understanding of semantic relationships.
+- For each given concept word, find a hypernym that represents a more general category.
+  This involves recognizing relationships between words and their meanings.
+- Find terms that categorize specific concepts into more expansive meanings, showcasing
+  your skill in associating language elements with their larger classifications.
+- For each concept word, think of a term that represents a larger classification.
+  This requires familiarity with language and synonyms.
+- This task involves identifying a broader category or concept related to a given
+  word, helping to understand its general classification.
+- This task requires you to connect words through their linguistic relationships,
+  pinpointing terms that fulfill a categorizing function.
+- Your task is to capture the essence of a less general word by providing its broader
+  counterpart, showcasing your understanding of language classification.
+- You will be given a specific word and must come up with a more abstract term that
+  captures the essence of it. This requires understanding the relationships between
+  words.
+- You are tasked with producing a higher-level label for a specific term, emphasizing
+  your understanding of hierarchies in language.
+- The objective here is to enrich your vocabulary by identifying terms that represent
+  not just individual examples but also broader classifications within the language
+  framework.
+- For each input word, your job is to think of a more general term that can describe
+  or include that word. This requires categorization skills and vocabulary knowledge.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1582_bless_hypernym_generation
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1582_bless_hypernym_generation
+user_prompt_template: '{task_def}
+
+
+  {problem}'

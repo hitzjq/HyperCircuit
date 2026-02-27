@@ -1,0 +1,472 @@
+assistant_prefill: ''
+descriptions:
+- Your role involves interpreting a statement along with its explanation. Evaluate
+  their consistency to determine the truthfulness of the initial claim.
+- Evaluate pairs of statements and explanations to discern if the latter confirms
+  or undermines the claims made in the former.
+- You are tasked with determining the truth of various claims based on supplementary
+  explanations. This involves comparing and contrasting two pieces of information.
+- Your focus will be on judging the accuracy of a statement by comparing it against
+  an explanation. Understanding how these two pieces relate is key to your assessment.
+- This involves scrutinizing a fact against an explanation. Your role is to identify
+  whether the explanation reinforces or negates the claim made in the statement.
+- This task entails scrutinizing an assertion paired with clarifying details to decide
+  if the assertion holds truth or is contradicted by that description.
+- "The task is to analyze pairs of sentences where one asserts a fact and the other\
+  \ provides context. You\u2019ll label them accurately by determining their correspondence\
+  \ in truthfulness."
+- Analyze a statement in light of an explanatory sentence. Decide if the explanation
+  confirms or contradicts the statement, exercising discernment and logical assessment.
+- Engage in a truth evaluation process where you compare statements with provided
+  explanations to conclude if each statement is validated or disproven.
+- The task focuses on linking assertions with contextual explanations, prompting you
+  to discern logical coherence between them. Your evaluation will categorize each
+  instance as true or false.
+- Evaluate statements within a framework of supporting explanations, determining their
+  validity based on confirmation or contradiction found in those explanations.
+- The focus here is on evaluating written assertions against elaborating details.
+  You should establish whether those details substantiate or disprove the main statements.
+- This task requires you to make distinctions between true and false claims based
+  on explanations provided for specific statements. Logical reasoning will aid you
+  in this evaluation.
+- You are tasked with evaluating a statement against an explanation to determine its
+  truthfulness. This involves understanding the context and verifying claims based
+  on provided information.
+- You need to determine if a statement is true or false by referencing an explanation.
+  This process involves understanding both elements clearly and comparing their meanings.
+- Review each statement alongside its explanation and decide its truth value based
+  on how well they correspond with each other, focusing on logical coherence.
+- The goal is to evaluate whether claims presented in statements are validated or
+  disproved by attached explanations. This requires careful consideration of both
+  pieces of information.
+- "This task challenges you to validate statements by leveraging explanations that\
+  \ provide context or elaboration\u2014assess if they match or contradict each other."
+- You will evaluate statements based on accompanying explanations, focusing on understanding
+  whether the explanation supports or refutes the given assertion.
+- Analyze combinations of statements and additional information to establish whether
+  claims are backed up with adequate support or are proven false.
+- Here, you will encounter a claim and supporting details. Your task involves judging
+  if the details support or undermine the validity of the claim made in the statement.
+- This task requires critical thinking as you judge the accuracy of statements in
+  light of additional information provided in explanations.
+- Evaluate how well an explanatory comment supports or undermines a specific declaration
+  about an entity or concept to establish factual correctness.
+- You will explore how a statement stands in light of further details offered in an
+  explanation, determining its validity based on whether these details support it.
+- Through critical analysis of both statements and their explanations, identify whether
+  claims made are substantiated or challenged by further context. Your judgments hinge
+  on establishing logical connections clearly.
+- The task involves validating statements by referencing further knowledge provided
+  in explanations. Decipher whether these explanations enhance or detract from the
+  original statements.
+- You need to discern the truth of a statement based on additional information provided
+  in an explanation. Identify if this information corroborates or contradicts the
+  initial claim.
+- You will read a statement and an accompanying explanation, then decide whether the
+  statement is accurate according to the information in the explanation. This requires
+  critical thinking and comprehension skills.
+- You will assess a claim and its associated explanation to decide if they are compatible,
+  marking the statement as true if it holds, or false if contradicted.
+- Assess and judge statements by juxtaposing them with explanations, identifying confirmations
+  or contradictions within that information.
+- Connect insights from provided explanations back to initial statements, deciding
+  whether these relations confirm or challenge the truth of those claims.
+- This task revolves around logical evaluation of claims in light of explanations
+  given. You'll work with nuanced information and be tasked with understanding its
+  relation to the assertions made.
+- Determine truthfulness by verifying if the explanations affirm or challenge the
+  claims made in the statements presented to you.
+- The objective of this task is to determine if a given statement is true or false.
+  You will rely on a provided explanation to make your judgment.
+- You will engage with assertions about various subjects, using specified explanations
+  as a context for judgment. This analysis requires discernment and sound reasoning
+  skills.
+- This task revolves around assessing factual assertions and their defenses through
+  deeper contextual information represented by explanatory notes.
+- In this exercise, you need to analyze a statement and an explanation. Your goal
+  is to conclude whether the statement holds true as supported by the explanation.
+- You will consider statements related to various topics and refer to explanatory
+  details that clarify or contradict those statements as part of your evaluation.
+- In this process, you'll interpret statements through corresponding clarifications,
+  labeling them accordingly based on their truthfulness related to the provided context.
+- This task requires you to read a statement and an explanatory note, then judge if
+  the statement is supported or contradicted by the explanation provided.
+- Your job is to interpret statements alongside their explanations, judging their
+  validity based on coherence and confirmation provided in those explanations.
+- This task entails verifying statements by referencing explanations that provide
+  context or additional knowledge. You need to make informed judgments about their
+  truthfulness.
+- You are given a fact and an accompanying explanation. Use critical thinking to assess
+  whether the fact is supported or contradicted by the explanation.
+- In this task, you'll blend comprehension of constructs and nuances in language while
+  deciding whether mentioned truths align with supporting information.
+- In this task, you will evaluate a statement based on an explanation provided. You
+  need to determine if the explanation supports or contradicts the statement's claim.
+- Analyze a statement alongside its explanation to determine its truthfulness. You'll
+  need to be skilled at identifying supportive or contradictory information.
+- "The goal is to verify a statement's truthfulness by examining an explanation. If\
+  \ the explanation upholds the statement or doesn\u2019t contradict it, you label\
+  \ it as true; otherwise, it is false."
+- In this task, focus on judging the validity of a statement by considering an explanation
+  that provides additional context; you must determine if the statement stands true
+  or false.
+- The task involves evaluating a statement using an accompanying explanation to determine
+  its truthfulness. You need to assess if the explanation supports or contradicts
+  the statement.
+- Through this activity, assess how well an explanation either validates or invalidates
+  a given statement. This exploration encourages thorough understanding and analytical
+  thinking.
+- Read through a proclamation and its corresponding explanation, then use your reasoning
+  skills to identify any discrepancies or confirmations between them.
+- Assessing statements against their explanations involves understanding context and
+  content nuances, enabling you to classify them as true or false effectively.
+- Evaluate a given claim alongside additional detail to judge its accuracy. Your focus
+  is to see how well the explanation substantiates or undermines the claim.
+- This task requires you to read a statement and its accompanying explanation, then
+  judge if the statement can be considered accurate or not based on the details provided.
+- In this task, your judgment hinges on the relationship between a statement and an
+  explanation. Decide if the context provided confirms or disputes the assertion made
+  in the statement.
+- Your job is to carefully review statements and their explanations, then conclude
+  whether the statements are substantiated or invalidated by what is explained.
+- You need to critically evaluate the relationship between a statement and an explanation
+  to ascertain if the premise holds true. This involves understanding how information
+  connects logically.
+- In this task, you will review a statement paired with an explanation. Your objective
+  is to judge the validity of the statement by considering the content of the explanation.
+- The assignment calls for careful consideration of a claim and its context, assessing
+  whether the additional information aligns with or contradicts the initial assertion.
+- This task requires careful consideration of how well explanations resonate with
+  accompanying statements, guiding your true/false evaluations.
+- Determine if various statements stand up under scrutiny when matched with supporting
+  details. Each judgment should reflect your understanding of their logical connection.
+- "Your challenge is to make a judgment about a statement\u2019s accuracy using an\
+  \ accompanying explanation that clarifies key details. This requires careful reading\
+  \ and thoughtful interpretation."
+- Your role involves checking the accuracy of statements using accompanying explanations
+  as evidence. An analysis of both elements will lead you to your conclusion.
+- You will interpret a provided statement's validity with respect to clarifying information
+  in an accompanying explanation. Understanding both perspectives is key to your judgment.
+- Your role involves sifting through provided statements and explanations, judging
+  their accuracy based on logical connections between them.
+- "As part of this evaluation, you\u2019ll consider how well an explanation substantiates\
+  \ or refutes a statement\u2019s claim, making logical deductions based on that relationship."
+- You will be tasked with comparing a factual statement to an explanation that provides
+  context. Determine if the context affirms or challenges the accuracy of the statement.
+- Your objective is to discern the validity of a statement by examining the accompanying
+  explanation. The evaluation will hinge on whether the explanation aligns with or
+  disputes the statement.
+- Analyze pairs of statements and explanations where your insight into logical reasoning
+  will help determine if each claim can be deemed true or false.
+- In this exercise, focus on determining the factual validity of a given claim by
+  checking it against elaborative details that either support or refute its accuracy.
+- Compare a given assertion with a subsequent clarification to evaluate if the assertion
+  remains valid. Critical reading is essential for this task.
+- In this exercise, you will encounter a statement followed by an elaboration. Analyze
+  these components for coherence to judge their factual integrity accurately.
+- Your task is to evaluate the truthfulness of a given statement based on accompanying
+  information. You must determine if the explanation supports or contradicts the statement.
+- This task involves analyzing a statement alongside an explanation. Assess whether
+  the explanation confirms or negates the statement to provide your judgment of its
+  truthfulness.
+- Analyze each statement and its paired explanation to conclude whether the statement
+  is supported or disproven by the additional information.
+- "In this task, you'll face claims followed by descriptive explanations. Determine\
+  \ if those descriptions confirm the claims\u2019 validity or challenge them altogether."
+- Engage in logical reasoning by correlating statements with provided explanations
+  to see if they align correctly or not.
+- You will need to judge statements based on further information provided in explanations.
+  An effective analysis will help you decide on the truthfulness of the original claim.
+- Engage in a process where you weigh statements against explanatory details. Decide
+  on their truth status based on how well they correlate with each other.
+- You will need to analyze whether statements are accurate by referencing the information
+  given in explanations; clarity in evaluating supporting versus conflicting details
+  is essential.
+- The exercise invites you to connect a factual statement with an elaborating explanation.
+  You will find out whether the explanation solidifies or challenges the assertion
+  made in the statement.
+- The objective here is to read a statement and its explanatory note, then assess
+  if they match up in terms of truthfulness based on what you learn from the explanation.
+- Your task involves evaluating statements based on accompanying explanations to determine
+  their truthfulness.
+- The goal is to determine the truthfulness of a statement based on detailed insight
+  from an explanation, establishing whether the statement is supported or negated.
+- Your role is to analyze statements and their accompanying explanations to decide
+  whether the statements hold true or are false. This requires careful consideration
+  of the details presented.
+- In this task, you will evaluate a statement against an explanation that provides
+  additional information. Your job is to determine the accuracy of the statement based
+  on that explanation.
+- Assess pairs of statements and explanations for truthfulness. The challenge lies
+  in discerning when an explanation validates or invalidates a claim.
+- Examine statements in light of their explanations, determining if each statement
+  is confirmed or disproven by that explanation.
+- Your task involves evaluating statements against provided explanations and determining
+  their truthfulness based on whether the explanations support or contradict the statements.
+- In this task, you'll use critical thinking skills to decide if statements align
+  with additional knowledge given. Confirmations and contradictions found in the explanations
+  will guide your judgment.
+- Engage with statements and their detailed explanations to make a judgment on their
+  truthfulness. Assess alignment and discrepancy to arrive at a conclusion.
+- You will be presented with statements and explanations. Your role is to analyze
+  these interactions to see if they align, leading you to label each case as true
+  or false.
+- Each exercise requires you to judge if a statement is accurate based on further
+  information. The correctness hinges on whether the explanation validates or challenges
+  the assertion made.
+- This task involves critically analyzing statements in light of respective explanations
+  to establish their veracity. Clear reasoning is essential for accurate judgement.
+- In this exercise, focus on analyzing statements supported by explanations. You need
+  to establish whether each statement stands up against the information provided.
+- In this task, consider a statement and related explanatory information. Decide whether
+  the statement holds true based on how well it corresponds with the provided explanation.
+- The primary goal of this activity is to assess statements through clarifying commentary.
+  You must differentiate between facts and misconceptions effectively.
+- Review a proposition with its explanatory context to discern factual accuracy. This
+  entails carefully assessing how well both aspects share common ground.
+- The objective of this task is to analyze statements alongside their explanatory
+  counterparts and conclude whether the former remain credible against any potential
+  contradictions presented.
+- The goal of this task is to evaluate and classify whether a statement is true or
+  false using an associated explanation to aid your decision.
+- You will be tasked with determining if a statement aligns with or deviates from
+  an accompanying explanation, requiring strong analytical capabilities and attention
+  to detail.
+- Your assessment must rely on the logical consistency between a statement and its
+  related explanation, marking them as true or false accordingly.
+- Your task is to evaluate the truth of a given statement based on a provided explanation.
+  Analyze both closely to determine if they align or contradict each other.
+- In this exercise, you will read a statement and an explanation. Your role is to
+  decide if the statement remains valid in light of the new information presented
+  in the explanation.
+- Your assignment includes evaluating specific statements against elaborate explanations,
+  determining if they affirm or negate the original assertions based on logical analysis.
+- "Utilize critical assessment skills as you read through statements paired with detailed\
+  \ explanations, which can either support or dispute what\u2019s claimed."
+- Your role is to examine claims and their accompanying justifications, determining
+  if they align logically. This requires critical thinking skills to navigate underlying
+  meanings.
+- Analyze connections between a given assertion and its respective explanatory note,
+  labeling each scenario as either true or false based on how well they mesh together.
+- You will encounter statements that may or may not be true, paired with explanations
+  shedding light on them. Your job is to discern their correctness through careful
+  analysis.
+- Here, you will be tasked with considering assertions in light of additional insights
+  offered by explanations. You are encouraged to explore the definitions of truth
+  as presented through these arguments.
+- Your objective here is to scrutinize the relationship between a statement and its
+  explanatory details, making judgments about truthfulness based on logical connections
+  observed.
+- Your challenge is to judge statements for their truth value by measuring them against
+  contextually rich explanations that either support or challenge them.
+- Examine statements against supporting explanations to ascertain if they hold true
+  or false. This requires analytical thinking and comprehension skills.
+- The goal is to assess whether a specific statement holds true when compared to additional
+  knowledge. You'll need to determine if the explanation confirms or contradicts the
+  statement.
+- In this exercise, you will discern if initial claims are accurate by interpreting
+  details revealed in related explanations, which require analytical scrutiny.
+- Your objective is to confirm the reliability of statements through careful evaluation
+  of explanations aimed at proving their authenticity or invalidity.
+- The task requires a thoughtful analysis where you discern whether statements find
+  validation in complementary explanations, prompting decisions of truth or falsehood.
+- Examine a statement's claim alongside an explanatory note, determining its accuracy
+  based on whether the latter can substantiate or negate what was said.
+- Engage in logical reasoning where you judge whether a particular statement can coexist
+  with an insightful explanation, providing clarity into its truthfulness.
+- Your task involves determining the legitimacy of various statements by weighing
+  them against relevant explanations, thereby honing your analytical skills in comprehension
+  and reasoning.
+- Understand and distill complex relationships between assertions and elaborative
+  explanations as you assess their correctness in this analytical task.
+- Engage with statements and their explanations, focusing on reasoning to ascertain
+  whether each statement holds true considering its accompanying elaboration.
+- This exercise requires you to synthesize information from provided descriptions
+  and ascertain whether they affirm or negate a specific assertion made earlier.
+- The task involves evaluating a statement against an explanation, determining whether
+  the statement is accurate or not based on the provided information.
+- Critical reading and comprehension are crucial in this task, as you'll decide if
+  statements are valid based on clarifying explanations that could either support
+  or undermine them.
+- Reflect on both a statement and its clarification, deciding if they resonate together
+  or stand in conflict. Your decision will hinge on understanding their respective
+  meanings thoroughly.
+- You will be tasked with discerning the truth of a statement by comparing it to an
+  explanation, marking it as true if they align and false if they conflict.
+- Your task is to explore statements and their related explanations, determining their
+  factual accuracy by identifying confirming or contradicting information.
+- Analyze a statement alongside its explanation to decide if the statement is true
+  or false. You'll assess whether the explanation verifies the claim made in the statement.
+- "You will read each statement paired with an explanation, then conclude whether\
+  \ what\u2019s stated holds up against what the explanation indicates."
+- The task requires critical thinking and comprehension skills as you navigate through
+  statements and explanations to assess their truth values.
+- The task entails dissecting statements alongside supplementary explanations; your
+  job is to use thoughtful analysis to determine whether given claims hold true under
+  scrutiny.
+- Your objective is to fact-check statements by referencing additional explanations.
+  Determine if the provided details affirm or negate the assertions made in the statements.
+- The goal is to judge the accuracy of a statement compared to an explanation. Use
+  logical reasoning to confirm whether the explanation either supports or disproves
+  what is stated.
+- "Your role involves looking at assertions along with clarifying details. The aim\
+  \ is to identify whether those details uphold or dismiss the assertion\u2019s correctness."
+- Draw upon your comprehension skills to sort through factual claims and supporting
+  details, determining the validity of each assertion presented.
+- "As part of this task, you\u2019ll be reviewing statements against detailed explanations\
+  \ to identify whether the claims presented can be classified as true or false based\
+  \ on the additional information given."
+- This activity involves analyzing relationships between statements and their corresponding
+  explanations. Your judgment will rely on clear reasoning about their accuracy.
+- You are asked to critically examine a statement in light of further clarification
+  provided in an explanation, marking it as either true or false depending on their
+  consistency.
+- The task requires you to understand a claim about a topic and evaluate it against
+  additional information provided. Your judgment should reflect whether the explanation
+  validates or rejects the statement.
+- Investigate each statement using its associated explanation to ascertain whether
+  it is truthful; this requires critical thinking about confirmation and contradiction.
+- In this task, you're tasked with determining whether provided statements are truthful
+  based on contextual explanations that either confirm or negate them.
+- Analyze pairs of statements and explanations where one provides clarity on the other.
+  Your job is to determine if they maintain coherence and truthfulness with each other.
+- Examine the truth of assertions against explanations that offer further understanding,
+  making a judgment on their validity based on this relationship.
+- Engage with statements paired with explanatory notes, using reasoning skills to
+  conclude whether the statements stand true or not based on these clarifications.
+- "Evaluate statements about various topics using corresponding explanations. It\u2019\
+  s essential to know how to interpret information effectively for accurate evaluations."
+- Engage with a statement and its corresponding explanation, using reasoning skills
+  to evaluate if the statement can be accepted as correct or should be viewed as incorrect.
+- Assess statements by utilizing accompanying explanations that either validate or
+  refute those statements. This requires analytical reading.
+- This task asks you to think critically about whether provided explanations validate
+  or contradict certain statements made about various topics.
+- Examine the link between a factual assertion and its elaboration to establish if
+  what was stated aligns with additional context provided.
+- Analyze each statement alongside its further exposition to see if they coincide.
+  Confirming consistency leads to labeling it true, while discrepancies result in
+  labeling it false.
+- Your duty is to evaluate assertions through their explanations, marking them true
+  if supported and false when contradicted by additional context.
+- The task requires you to compare a factual claim with supplementary information
+  and conclude whether the initially stated fact is correct or incorrect based on
+  that information.
+- The objective is to decipher if statements about different subjects hold true when
+  paired with specific explanations that clarify the facts.
+- The assignment calls for you to sift through a given assertion and related insights
+  to ascertain the truth value of the original claim through analytical reasoning.
+- You are tasked with discerning whether a given statement is accurate by analyzing
+  an explanation that offers context or additional facts. This involves critical thinking
+  and comprehension.
+- Assess whether a given statement is correct by comparing it with an explanation
+  that provides relevant context or information.
+- Analyze how explanations clarify or contradict statements, allowing for a clear
+  determination of their truth status based on context.
+- You need to analyze the relationship between a statement and its explanation, deciding
+  if the explanation supports or contradicts the statement.
+- "This task asks you to analyze how well an explanation backs up a certain assertion.\
+  \ You\u2019ll decide if the assertion is accurate based on this analysis."
+- This task challenges you to ascertain the truthfulness of statements based on contextual
+  explanations, emphasizing your ability to navigate complex information effectively.
+- "Judge the validity of a statement based on its corresponding explanation, determining\
+  \ if there\u2019s enough support for it to be considered true or if it\u2019s shown\
+  \ to be false."
+- This task involves assessing whether a given statement is accurate based on further
+  information provided in an explanation. You must identify if the explanation affirms
+  or rejects the statement.
+- The task is to evaluate whether a given assertion is true or false by using additional
+  context from an explanation. This demands logical reasoning skills to make your
+  judgement.
+- You will analyze whether given statements maintain their claimed truth when examined
+  through the lens of supplementary explanations that accompany them.
+- In this assignment, assess a statement's validity against an explanation. Determine
+  if the explanation supports or refutes the statement as you analyze their relationship.
+- You're tasked with identifying consistency between statements and supporting information,
+  fostering logical assessments of their veracity.
+- This work challenges you to make judgments about statements based on clarifying
+  information that can uphold or dismantle their validity.
+- Your role here is to assess if a statement can be deemed true or false, relying
+  on an accompanying explanation as your guide for evaluation.
+- In this task, you assess the validity of a statement by comparing it against an
+  accompanying explanation. You determine whether the statement is supported or contradicted.
+- You will assess pairs of statements and explanations, identifying if the information
+  given confirms or disproves what is claimed in the statement.
+- The objective here is to critically examine whether a statement is valid by juxtaposing
+  it with an explanation that offers further insight.
+- In these evaluations, determine if explanations provided serve as sufficient justification
+  for claims made in statements surrounding various topics, leading your assessment
+  towards truth or falsehoods.
+- You must read both a statement and an explanation that provides more context, then
+  determine if the original assertion holds true when measured against the new information.
+- "Your job is to analyze a given statement and explanation to identify if they align.\
+  \ A true label means the statement is confirmed; false means it\u2019s disproven."
+- In this exercise, you determine the truth of a claim by referencing an explanatory
+  text that elaborates on the subject. Your analysis will help decide if the claim
+  stands as true or false.
+- Engage in identifying contradictions and confirmations by evaluating how well an
+  explanatory note correlates with its preceding assertion to conclude its truthfulness.
+- Your mission is to determine the veracity of various statements through critical
+  analysis of provided explanations, assessing their coherence with each other.
+- "You\u2019ll need to use reasoning skills to compare statements against relevant\
+  \ explanations, ultimately judging each one as true or false depending on their\
+  \ relationship."
+- In this task, you analyze a statement alongside its explanatory context to form
+  a judgment about its truthfulness. This requires discerning nuance and understanding
+  implications.
+- For each statement presented, you need to judge its accuracy using the supplied
+  explanation. Decide if the explanation proves the statement correct or not.
+- You are required to assess whether a proposed statement stands as true in light
+  of additional context and reasoning provided by an explanatory sentence that accompanies
+  it.
+- Your objective is to evaluate a claim based on the information provided in a related
+  explanation. You will judge the truthfulness of the claim accordingly.
+- The challenge here is to decide if assertions about certain entities are correct,
+  using provided explanations as references in your analysis.
+- Your job is to analyze a statement in relation to a supporting explanation. You
+  must decide if the statement is accurate or not, relying solely on the details given.
+- You will be provided with a statement and an accompanying explanation. The challenge
+  is to judge the validity of the statement based on the clarity and content of the
+  explanation.
+- In this exercise, you assess truth claims by comparing a statement against an explanation.
+  Understanding how each reflects on the other is key to reaching a correct conclusion.
+- Your role involves checking whether each statement aligns with accompanying explanatory
+  content, requiring careful consideration of context and meaning.
+- Engage in reasoning to evaluate how well an explanation confirms or disputes a statement.
+  You will derive conclusions based on the logical connections between these two pieces
+  of information.
+- These pairs consist of statements and their corresponding explanations. Your responsibility
+  is to assess if the explanations reinforce the truth of each statement.
+- Use deductive reasoning skills to assess whether complementary explanations support
+  or negate specific assertions presented in each case.
+- This exercise demands an evaluative approach where you will determine the credibility
+  of a statement based on further elaboration provided in an explanation.
+- This exercise asks you to balance claims with clarifying detail, making judgments
+  about their truth based on how effectively they align or clash.
+- Your task includes weighing a given assertion against an informative background,
+  leading you to classify it as true if supported, or false if challenged by the explanation.
+- Your responsibility is to interpret a statement through its explanatory lens, deciding
+  on its truthfulness by weighing both pieces of information together.
+- You are asked to analyze a given statement and its related explanation, deciding
+  whether the statement is accurate based on that explanation. This requires critical
+  thinking and comprehension skills.
+- Your task assesses whether a given assertion holds true based on supplementary information.
+  Engage with the content critically to make an informed judgment.
+- This task entails making judgments about factual statements supported by additional
+  explanatory content. Your ability to interpret and analyze this information is crucial.
+- This involves discerning the relationship between a specific claim and an explanatory
+  passage to validate whether the claim is accurate or refuted.
+- "The task involves confirming or refuting a statement based on supplementary information\
+  \ provided in an explanation. You\u2019ll assess whether the explanation supports\
+  \ or undermines the claim."
+ds_kwargs:
+  path: Lots-of-LoRAs/task403_creak_commonsense_inference
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task403_creak_commonsense_inference
+user_prompt_template: '{task_def}
+
+
+  {problem}'

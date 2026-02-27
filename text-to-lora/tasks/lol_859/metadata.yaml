@@ -1,0 +1,413 @@
+assistant_prefill: ''
+descriptions:
+- The task at hand is to read through a passage and create meaningful questions that
+  encourage exploration of its themes or subjects.
+- Leverage comprehension of a short text to generate relevant questions that draw
+  attention to important features or actions within it.
+- Take a brief context and translate it into questions that will help you gain insight
+  into the main objects and their relationships as described.
+- Your objective is to distill the essence of the passage into question form, emphasizing
+  its significant elements.
+- Your role involves generating inquiries derived from a passage's content, emphasizing
+  what needs further clarification or detail exploration.
+- Take a close look at the context and extract potential questions that address the
+  key elements described within it. This promotes thoughtful examination.
+- Your responsibility involves interpreting a brief narrative and producing relevant
+  queries that represent its main points effectively.
+- From the text provided, create interesting and informative questions based on its
+  content. Ensure your inquiries are clearly related to what was said.
+- Your task involves reflecting on narrative texts and crafting questions around central
+  themes or characters based on their actions.
+- Generate inquisitive statements that pertain specifically to the events or objects
+  mentioned in the context shared with you.
+- From a specific context, your role is to devise questions that encapsulate its main
+  ideas. This will involve critical thinking and summarization skills.
+- Reflect on the context to extract primary elements and create insightful questions
+  based on them.
+- Review the passage and formulate questions that align with its themes. This requires
+  an ability to break down information effectively.
+- You should think of relevant inquiries from a snippet of text, aimed at understanding
+  its main points.
+- Synthesize questions from the context provided, focusing on understanding which
+  items or actions are being discussed.
+- Build a set of relevant questions that would encourage discussion or clarification
+  about the mentioned topics in the context.
+- The goal is to read a contextual description and come up with insightful questions
+  that probe deeper into the content.
+- Investigate the context provided and craft coherent questions that reveal its key
+  information. Strong analytical skills will be beneficial here.
+- Use your reasoning skills to come up with inquiries that draw attention to important
+  aspects of a given narrative.
+- Generate inquiries that can help illuminate aspects of the provided narrative or
+  description. Extract information effectively to frame your questions.
+- Construct questions based on the information located in a given context, ensuring
+  they relate directly to its core components.
+- Think critically about the context and formulate questions that would help someone
+  understand it better.
+- "Examine the context closely and generate questions that relate to its content.\
+  \ You\u2019ll need a good grasp of wording and inquiry."
+- Examine the context thoroughly and convert its contents into easy-to-understand
+  questions that ensure engagement with the material.
+- The objective here is to ask questions related to the details found in a passage.
+  This skill involves summarizing and extracting information skillfully.
+- Look at the context carefully and develop concise questions that pertain to significant
+  topics mentioned in the text.
+- Identify core ideas in a passage and convert them into precise questions. This will
+  challenge your comprehension and analytical skills.
+- Create meaningful questions based on the context supplied. This task requires identifying
+  important elements within the passage to frame relevant inquiries.
+- Analyze the text and create questions that seek to clarify or gather information
+  about key elements described within it.
+- Look for key components of the passage and articulate them into questions aimed
+  at enhancing understanding.
+- Draw upon what is presented in the text to develop meaningful questions that reflect
+  its core ideas or subjects.
+- Generate questions that highlight key details mentioned in the given text. This
+  will require careful consideration of the passage's content.
+- Take the main points from the provided text and transform them into questions that
+  seek deeper understanding of those points.
+- The task involves coming up with insightful questions based on a descriptive scenario.
+  Identify key points in the text to guide your question formation.
+- Your task is to read a descriptive passage and come up with relevant questions.
+  Think about what details can stimulate curiosity or further discussion.
+- Use critical thinking to interrogate the passage and derive inquiries that will
+  stimulate further discussion or thought about its contents.
+- From the supplied information, your goal is to devise questions that address what
+  is happening in the described scenarios.
+- Create questions from a snippet of text, focusing on uncovering specifics about
+  the main elements or activities referenced within the content.
+- Formulate questions that pertain to the actions or items featured in the context,
+  ensuring they are relevant and clear.
+- Analyze the context of a short passage and come up with questions that stimulate
+  curiosity about the details within it.
+- Engage with the provided context by forming interrogative sentences aimed at unraveling
+  further details about what is stated.
+- Based on what you read, formulate questions that pertain to significant items or
+  actions within the passage. This requires careful attention to detail.
+- Using a snippet of information as a basis, create targeted questions that encourage
+  exploration and clarify key components mentioned.
+- Develop insightful questions based on a brief narrative by focusing on what can
+  be learned or highlighted through inquiry.
+- Develop a series of questions that reflect your understanding of the given passage.
+  This involves identifying significant points worthy of inquiry.
+- Use the details from the context to generate specific questions, aiming to uncover
+  the significance of the items or actions mentioned.
+- Your job is to transpose informative content into queries that can further explore
+  or clarify what's described within a passage.
+- Your role is to interpret a written passage and devise questions that draw attention
+  to what is being acted upon or manipulated within it.
+- Formulate insightful questions from the provided passage, focusing on items, actions,
+  or scenarios presented in the text for better understanding.
+- Examine the description provided in a passage and come up with queries that aim
+  to clarify the objects or events mentioned.
+- Generate thoughtful questions based on specific details within a passage to explore
+  its narrative or thematic significance more thoroughly.
+- Identify significant details from a short text and craft questions that encapsulate
+  those details in a clear manner.
+- Using the outlines given in a passage, derive questions that seek clarity on the
+  subjects or objects featured within.
+- Develop questions from a passage that help clarify or explore its content further.
+  Concentrate on objects, actions, and intentions of characters.
+- Read the passage carefully, then devise questions that uncover what is mentioned.
+  This helps deepen comprehension and retention of the information.
+- Identify essential components in a provided context and pose questions about those
+  elements. This enhances understanding of the material being analyzed.
+- Formulate relevant questions that explore the main activities or objects discussed
+  in the supplied text.
+- Utilize critical thinking to identify interesting facets of the passage and formulate
+  questions around those points.
+- Analyze the context and generate questions that prompt further exploration of its
+  contents.
+- Articulate inquiries centered around the key themes and subjects within the provided
+  writings.
+- Analyze a brief narrative and create questions that lead to deeper understanding
+  of its content and implications.
+- The goal is to formulate questions that reflect the main elements of the information
+  presented in a passage. Use comprehension skills to extract essential details.
+- Read the passage closely and think about what questions arise from it. Your goal
+  is to create inquiries that highlight significant components of the context.
+- Produce inquiries that target essential aspects drawn from a description, enhancing
+  engagement with its content.
+- Based on a brief passage, your responsibility is to construct questions that encompass
+  what is happening or what is being referred to within that context.
+- Based on the contents of the paragraph, your aim is to identify and write down appropriate
+  questions that highlight important features.
+- Formulate contextual questions that arise from understanding the contents of a passage.
+  Highlight significant aspects through your question creation.
+- Examine the details shared in a context and think critically to produce thoughtful
+  questions that explore those details further.
+- Read closely and formulate inquiry-based questions that seek to uncover crucial
+  details about the content of the passage shared.
+- Your task involves extracting information from a given context to create insightful
+  questions. This practice encourages deeper engagement with the text.
+- Your task is to generate questions based on information found in a provided context.
+  Focus on identifying the key elements mentioned.
+- Generate clear and concise questions based on outlined contexts to unravel their
+  primary themes or subjects.
+- Sift through a brief passage to formulate concentration-producing questions regarding
+  core details mentioned.
+- Your exercise is to analyze a passage and ask questions that would effectively explore
+  its essential elements or themes presented.
+- From a brief passage, generate clear questions that reveal the significant components
+  or activities discussed.
+- From a specified context, derive questions that pertain to the actions and objects
+  discussed. Highlight objects or tasks in your inquiries.
+- Investigate the context given and construct questions that help clarify or expand
+  on what is described, focusing on key aspects.
+- Your assignment involves structuring questions that reflect important aspects of
+  the given information.
+- The challenge is to extract meaningful questions from descriptive text, emphasizing
+  what it describes.
+- The objective here is to think critically about the details in the passage and produce
+  questions that accurately capture those details.
+- You need to think critically about a passage and generate questions that extract
+  the key information presented.
+- Your role is to create questions reflecting the important items or actions mentioned
+  in the provided information.
+- Your job is to derive questions from the context that will elicit information about
+  the items or actions described.
+- From a brief description, generate questions aimed at understanding the significant
+  points raised regarding actions or objects.
+- Synthesize information from a passage into question format, emphasizing elements
+  related to what is being moved, stacked, or rolled.
+- The task requires you to extract and inquire about elements highlighted in a specific
+  scenario provided.
+- Analyze the provided context and construct inquiries that would clarify what is
+  being discussed.
+- Formulate inquiries that highlight the main elements described in the context of
+  a given passage.
+- Identify important facts or elements from a given text and ask questions about them.
+  This approach fosters better understanding and retention of knowledge.
+- Analyze the contextual information and produce questions that emphasize what is
+  described or occurring within that context.
+- Engage with the details in the passage to generate straightforward questions that
+  probe into its main ideas.
+- Your task is to develop questions based on a provided passage, focusing on the details
+  mentioned within it.
+- The task is to distill essential information from the context into question form,
+  reflecting what the subjects are attempting to do.
+- Review the information given and craft questions that prompt others to explore those
+  specific concepts or items mentioned.
+- Your role involves taking descriptive content and turning it into inquiries. This
+  requires understanding the relationships and actions presented in the text.
+- "Analyze the context deeply to devise investigative questions, helping others navigate\
+  \ through the details of what\u2019s described."
+- From a narrative segment, craft questions that clarify, seek further information,
+  or encourage analysis of key items or actions described.
+- Your task is to create questions that relate directly to the details found in a
+  given context.
+- Analyze the passage and identify aspects that can generate questions. Your aim is
+  to highlight important elements through thoughtful questioning.
+- Your task is all about question generation; read closely and think about what inquiries
+  would best reveal deeper insights about the content.
+- Using the provided context, create relevant questions that highlight specific details
+  or themes present. Your aim is clarity through questioning based on what you read.
+- From a concise description, generate questions that bring out various aspects of
+  the provided content, showcasing your analytical abilities.
+- From the given passage, you will need to create relevant questions that inquire
+  about the actions or items described.
+- Your task is to read a passage and come up with relevant questions based on the
+  information provided.
+- Develop precise questions from given contexts to enhance clarity about the subjects
+  or activities depicted in those passages.
+- Formulating insightful questions based on a provided text requires careful attention
+  to detail and an understanding of what information is significant.
+- Your objective is to distill information from a narrative into targeted questions
+  that engage with its subject matter effectively.
+- The challenge lies in interpreting descriptive passages to cultivate questions that
+  reveal more about the happenings and items involved.
+- Your task is to come up with questions based on a given text. The questions should
+  focus on the main ideas or details presented in the passage.
+- Formulate direct questions based on a short passage, honing in on important elements
+  or actions to ensure understanding of the material.
+- Interpret short texts and formulate questions centered on extracting key information
+  regarding what is described therein.
+- Consider what information stands out in the context, and use that to frame appropriate
+  inquiries.
+- Based on the provided context, you need to generate questions that inquire about
+  specific details mentioned.
+- Review the narrative provided and create clear questions that address what is being
+  discussed, pulling out essential themes or objects.
+- Your role is to generate inquiries about a text segment, focusing on identifying
+  objects or actions highlighted within it. Pay attention to specifics for clarity.
+- From brief descriptions, create inquiries aimed at uncovering further insights into
+  the actions or items being discussed. Utilize critical thinking skills.
+- Formulate meaningful questions from a given context. This involves identifying important
+  items or actions mentioned in the passage.
+- Engage with the provided context and formulate questions that draw from its content.
+  The focus should be on capturing essential facts clearly.
+- Consider what the passage conveys and formulate questions that pertain to its critical
+  elements, aiding comprehension of the main ideas.
+- Identify key elements from the provided context and create relevant questions that
+  explore what is happening in the text.
+- Your task involves identifying key elements from a short context and asking relevant
+  questions to highlight them.
+- Analyze the information in a given passage and formulate inquiries that reflect
+  important aspects of that information.
+- Generate inquiries from a passage that effectively capture its main ideas. Focus
+  on what is being described or explained throughout the text for precision.
+- By analyzing the narrative, your aim is to create clear-cut questions that pertain
+  to the actions described in the text.
+- Read the given context and come up with questions that reflect the information presented.
+  This requires comprehension and the ability to extract key points.
+- Analyze a short text and create relevant questions driven by curiosity about its
+  content, focusing on capturing crucial facts or ideas.
+- Create inquisitive prompts based on specific details from a passage, focusing on
+  gathering information about key subjects or activities mentioned.
+- Analyze what is provided in a short passage to devise thoughtful questions about
+  it. Your focus should be on comprehension and clarity.
+- Build inquiries around key elements of given passages. Aim to encapsulate what is
+  important for understanding those contexts better.
+- Take the information provided in a context and transform it into thought-provoking
+  questions that clarify or expand upon what is stated.
+- You are tasked with formulating questions that pertain directly to the content of
+  a passage. Emphasis should be placed on understanding what key items are being discussed.
+- Read through the provided information and devise targeted questions that reveal
+  important insights about what is discussed. This demonstrates analytical skills.
+- From the information in a provided context, your task is to ask questions that highlight
+  the central objects or actions.
+- Extract and interpret details from the text to create meaningful questions. Focus
+  on what captures the essence of the described situation or objects.
+- Using the information in a given context, generate straightforward questions that
+  reflect important aspects of what you've read. Clarity is essential.
+- Develop inquisitive questions that stem from a brief contextual description, aiming
+  to highlight what is pertinent in that setting.
+- Engage with the text to formulate questions that encapsulate what is being described
+  or conveyed.
+- Synthesize information from a short context into meaningful questions that reflect
+  its essential content and themes for better understanding.
+- Focus on extracting key themes or items from a short piece of text to generate meaningful
+  questions related to those observations.
+- Investigate the details presented in a context and formulate questions aimed at
+  extracting meaningful insights.
+- Your challenge is to interpret a given passage and ask thoughtful questions that
+  clarify or elaborate on its details.
+- Identify key actions or items in a passage and formulate clear, concise questions
+  that address those critical pieces of information.
+- Focus on encapsulating the main ideas in a text by crafting thoughtful questions
+  about what is detailed there.
+- Using the context provided, formulate pertinent questions that delve into what is
+  being described. Focus on extracting significant items or actions mentioned.
+- Extract key elements from a passage and develop questions that seek further clarification
+  on those components.
+- Use your comprehension of the passage to design questions that effectively highlight
+  and extract information from it.
+- Your assignment is to design questions that probe into the details given in a text.
+  Look for important nouns and verbs to inspire your queries.
+- Use the details in the passage to construct questions that are direct and pertinent.
+  This task tests your understanding and ability to convey key information.
+- Task yourself with reading a passage thoughtfully and creating relevant inquiries
+  that pertain directly to its content, showcasing your engagement with the material.
+- Generate probing questions that delve into the specifics of what was mentioned in
+  a given context or scenario.
+- Construct inquiries that explore and reflect upon the central themes illustrated
+  within a short descriptive passage.
+- Explore the details of a narrative or description and articulate questions that
+  capture its essence.
+- Interpret the information provided and craft questions that distinctly capture the
+  items or events discussed.
+- The objective is to analyze a descriptive scenario and provide questions that illuminate
+  what is being portrayed therein.
+- Translate the information in the passage into questions. Focus on specific items
+  or activities mentioned for clarity and precision.
+- Based on the context provided, create inquiries that capture the main elements discussed
+  in the passage.
+- Create concise questions focused on the subjects mentioned in a short narrative
+  or passage.
+- Transform the description provided in the context into question formats that could
+  elicit more detailed responses.
+- Engage with a contextual description and create questions that are directly related
+  to its significant components.
+- Take snippets of information from a context and craft relevant questions that pertain
+  to those details. Ensure your questions express curiosity about the narrative.
+- Read the information carefully and come up with questions that explore the main
+  subjects or activities taking place in the context.
+- Using your comprehension skills, generate questions from a text focusing on main
+  topics or points brought out in the description, encouraging critical thinking.
+- Reflect on the passage's content and create pertinent questions surrounding it,
+  aiming to illuminate the main points being discussed.
+- Your task is to create questions that reflect the key elements described in a given
+  passage.
+- "Generate inquiries pointing toward significant elements in a provided text. This\
+  \ requires understanding what\u2019s important within the context."
+- The objective is to carefully consider a given text and produce relevant questions
+  that test understanding of its core elements.
+- From the information given in a passage, develop questions that reflect the main
+  points. This involves understanding and summarizing the content effectively.
+- Your job is to create precise and focused questions based on specific elements found
+  in a given context or scenario.
+- Focus on identifying notable items or actions described in the passage, and turn
+  those into clear questions.
+- Your task involves creating questions based on a provided text passage. You should
+  focus on relevant details within the context to formulate your inquiries.
+- Your job is to extract information from a short narrative and devise questions around
+  that information, keeping them straightforward and clear.
+- Focus on the content of a passage and design questions that delve into what specific
+  things are being discussed.
+- Create questions designed to prompt discussion about the details shared in the context
+  of an event or activity.
+- Extract important facts from a brief narrative and convert them into questions highlighting
+  what an individual is attempting to achieve.
+- Your job is to uncover information by devising questions based on the text. This
+  requires you to think creatively about what can be asked.
+- You will be creating inquiries from descriptive passages, necessitating that you
+  grasp essential details and articulate them as questions.
+- The challenge is to construct questions from a passage's content, concentrating
+  on important elements described therein, which aids in comprehension.
+- The goal is to extract information from a short text and turn it into clear, concise
+  questions that reflect the content.
+- Create questions related to the content of a given text. Look for important items
+  or actions mentioned and formulate inquiries around them.
+- Analyze the details in a given passage and compose questions that seek to clarify
+  its content. This will help in highlighting important aspects.
+- "Use your comprehension skills to form questions from the passage\u2019s details,\
+  \ focusing on what stands out in the text."
+- Read the provided passage carefully, then think critically to formulate a relevant
+  question about the information presented.
+- Your role is to question the content of a passage by focusing on the primary subjects
+  or actions it describes.
+- Analyze the context provided and formulate questions that seek clarification or
+  information regarding what is happening or being referenced.
+- Your task is to create questions based on the details provided in a specific passage.
+  This requires you to identify key elements and concepts presented in the text.
+- "Take note of significant details from a passage and construct intriguing questions\
+  \ that can enhance someone\u2019s understanding of the situation described."
+- Work with descriptive content to construct simple, direct questions concerning the
+  objects and actions presented within it.
+- Read a brief passage and devise questions that prompt responses regarding the main
+  subjects or activities discussed.
+- Read through a provided context and formulate questions that dig deeper into the
+  information presented. Pay attention to all significant elements mentioned.
+- Focus on extracting actionable items from the passage and framing them into direct
+  questions that address those items.
+- Develop questions about key aspects mentioned in a textual passage. This involves
+  being attentive to details while ensuring your inquiries are informative and relevant.
+- Utilize the information contained in a passage to come up with relevant questions
+  aimed at understanding more about the described scenario.
+- Analyze the context and derive specific inquiries from it, ensuring your questions
+  capture the key elements mentioned.
+- Your job is to interpret a passage and formulate questions aimed at extracting relevant
+  information about the items or actions involved.
+- Develop inquiries that reflect an understanding of what is summarized in the text,
+  aiming to delve deeper into those specifics.
+- Explore the details in the passage and create questions that effectively prompt
+  reflection on its main points or items.
+- Your task is to generate relevant questions based on information found in a provided
+  passage. Focus on identifying key details.
+- Your task is to generate questions based on the details provided in a short passage.
+  It requires careful reading and comprehension of the context.
+- Formulate pertinent questions about objects or actions mentioned, aiming for clarity
+  and alignment with the provided context.
+- From the provided details in a text, create questions that encapsulate the core
+  activities or items mentioned, prompting further exploration of the content.
+ds_kwargs:
+  path: Lots-of-LoRAs/task859_prost_question_generation
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task859_prost_question_generation
+user_prompt_template: '{task_def}
+
+
+  {problem}'

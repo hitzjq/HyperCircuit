@@ -1,0 +1,458 @@
+assistant_prefill: ''
+descriptions:
+- Determine which of two completions shares a similar stylistic approach with a specific
+  prompt concerning narrative voice and expression.
+- Use your sense of tone and style to find out which response fits more naturally
+  with the prompt you have been given.
+- Analyze the tone, word choice, and sentence structure of a prompt and choose the
+  completion that conveys a similar style.
+- Your task is to evaluate two samples of writing in relation to a prompt, focusing
+  on which completion uses similar language traits and tone as expressed in the original
+  text.
+- Observe how each completion aligns stylistically with a given prompt. Focus on capturing
+  nuances in language that showcase whether each response matches or diverges from
+  this style.
+- You will be reviewing a prompt and two generated responses, with a focus on identifying
+  which response reflects the prompt's emotional tone and stylistic choices.
+- Evaluate both completions for their alignment with the character of the initial
+  prompt, focusing on informal language versus formal expressions.
+- Analyze the given text prompt alongside two nuanced responses to find out which
+  option offers a similar linguistic character and phrasing.
+- You will be given a prompt and two responses. The goal is to pick the response that
+  shares a similar vibe and language style with the prompt.
+- Your task is focused on stylistic analysis; you need to select which of the two
+  completions better mirrors the demeanor and expression found in the given prompt.
+- This task involves matching the tone and structure of two different completions
+  with that of a provided prompt, requiring insight into effective communication styles.
+- This task centers on identifying cohesive writing styles by examining two options
+  following a prompt and selecting the more compatible one.
+- The goal is to identify which completion best matches the original style of the
+  given prompt, requiring an appreciation for linguistic style and expression.
+- Analyze how well each completion captures the colloquial or formal nuances present
+  in the prompt's language.
+- Given a specific style expressed in a prompt, determine which of the two completions
+  emulates that style more accurately through its language use.
+- You will examine the style of a prompt along with two associated completions, aiming
+  to match the tone and approach found in the original text.
+- Analyze the provided prompt alongside two completions. Identify which completion
+  maintains a similar tone and style to the prompt in order to choose the most compatible
+  one.
+- This task involves deciding between two answers in response to a given prompt. You
+  need to consider which completion maintains a similar tone and style to that of
+  the prompt.
+- Compare a prompt with two different completions, paying attention to elements like
+  grammar and diction to find the more stylistically aligned response.
+- Compare a prompt with two distinct responses, emphasizing stylistic similarity.
+  Decide which response resonates more closely with the original wording.
+- Determine which of two response options conveys a tone and structure that matches
+  the style of the initial prompt.
+- Evaluate two responses in light of a particular prompt to find out which completion
+  aligns better with its informal or formal nature.
+- Assess which among two completions shares greater stylistic traits with the prompt
+  by examining elements such as coherence, vibe, and grammatical choices.
+- By studying both responses, establish which completion maintains continuity with
+  the language style of the presented prompt.
+- In this task, you must choose between two completions by analyzing how well each
+  one reflects the style established by the original prompt.
+- Analyze the differences between a prompt and two completions to see which one retains
+  the same tone and mood as the original text. This requires a keen eye for detail
+  and familiarity with various writing styles.
+- This task asks you to judge two completions based on how well they reflect the style
+  of an initial prompt. Look for similarities in wording, grammar, and overall expression.
+- Your task involves comparing a given prompt with two responses to determine which
+  response matches the style of the prompt.
+- Your goal is to discern which of two completions aligns more closely with a provided
+  prompt in terms of style. Consider aspects such as colloquial language versus formality
+  when making your decision.
+- Explore linguistic similarities by examining a set of prompts and their possible
+  responses, identifying which completion aligns closely with style portrayed in the
+  prompt.
+- Identify the completion that most closely resembles the prompt in terms of its tone,
+  mood, and choice of words, reflecting similar emotions or sentiments.
+- Your task is to determine which of the two completions echoes the voice and mannerisms
+  showcased in the prompt.
+- "Choose between two text completions based on how closely they mimic the original\
+  \ prompt\u2019s linguistic style, paying attention to mood and wording."
+- In this exercise, you'll assess two responses to determine which aligns more closely
+  with the tone and style of a specific prompt. A keen eye for detail in language
+  is essential.
+- Analyze both candidate responses in relation to a given prompt and determine which
+  one upholds its original style through familiarity in wording and expression.
+- Your role involves sifting through language choices in a prompt and completions
+  to find out which captures its specific voice or informal nature better.
+- Your goal is to discern stylistic similarities between a prompt and two provided
+  completions, selecting the one that feels more cohesive.
+- The objective is to determine how closely each completion reflects the vibe of the
+  prompt while focusing on their respective language nuances and styles.
+- This exercise requires you to discern the stylistic similarities between a prompt
+  and two completions. Pay attention to informal versus formal language and the emotional
+  tone.
+- The task focuses on discerning the stylistic similarities between a prompt and provided
+  completions. This involves recognizing informal speech patterns and colloquialisms.
+- You are tasked with determining which of two responses best mirrors the tone of
+  a given prompt. This involves assessing word choice and overall writing fluidity.
+- You will review a short text against two variations to conclude which one aligns
+  better with the original in terms of stylistic approach and narrative voice.
+- The objective here is to determine which of the two completions aligns better with
+  the prompt's voice and style, focusing on aspects like diction and sentence structure.
+- You are tasked with ensuring that selected responses maintain harmony with the natural
+  flow and character of a presented prompt, emphasizing stylistic elements.
+- Review the provided choices carefully to identify which completion mirrors the conversational
+  style of the given prompt while considering vocabulary and syntax.
+- Your task is to match one completion with a provided style from a prompt by evaluating
+  their similarities in tone, diction, and sentence flow for coherence.
+- You need to judge the similarity in style between a set of responses based on how
+  well they imitate the tone and structure of the preceding text.
+- The objective is to align one of the provided responses with the direct stylistic
+  intention of the original prompt.
+- Identify the completion that harmonizes with the essence of a prompt based on factors
+  such as tone and grammar.
+- Identify which response more accurately represents the feeling, attitude, and expressiveness
+  found in the original prompt's wording.
+- Examine both completion options in light of a supplied prompt, determining which
+  response captures its essence through appropriate tone and language choice.
+- Your responsibility is to discern which of the two completions matches the prompt's
+  voice more effectively. Focus on aspects like word choice and sentence structure.
+- Analyze a prompt and two potential responses to select the one that best mirrors
+  the original tone and style.
+- For each prompt, decide which of two responses captures its essence in terms of
+  language and style attributes.
+- Refine your judgment skills by selecting between two completions based on how well
+  they echo the voice and attitude found in an example provided at first.
+- Select the completion that reflects the same voice and manner as the prompt provided.
+  Pay attention to word choice, grammar, and overall tone.
+- "Your goal is to match a completion\u2019s tone with that of a specific prompt by\
+  \ selecting the response that best reflects its style and attitude."
+- Choose between two completions by assessing their relatability to a particular style
+  established by an opening statement or question.
+- This task asks you to compare a prompt with two generated responses based on style
+  criteria. Your focus should be on consistency in language and expression.
+- Evaluate a prompt against two different completions to select the one that maintains
+  a consistent voice. Understanding nuances in writing style will aid in this selection
+  process.
+- Evaluate a prompt alongside two responses to find the one that reflects the same
+  tonal qualities and informal or formal characteristics as the original prompt. This
+  requires insight into stylistic similarities.
+- The goal here is to identify which given response fits best with the provided prompt's
+  style. This requires an evaluation of grammatical structure, vocabulary, and overall
+  tone.
+- Your job is to assess the style of a prompt and choose between two completions that
+  best echo its tone and word use. Think about how casual or formal each response
+  feels.
+- This activity involves selecting the response that feels most similar in style to
+  the prompt provided, judging it based on grammatical structure and word selection.
+- In this task, you need to evaluate two different text completions against a prompt
+  to pick one that exemplifies similar expressiveness and stylistic features.
+- In this task, you will compare a given prompt with two completions, focusing on
+  identifying which completion maintains a similar style. Attention to detail in language
+  and expression is key.
+- You need to determine which completion most closely reflects the style used in the
+  original prompt, paying attention to the nuances of how language is used in each
+  piece.
+- "Evaluate which completion is more in tune with the provided prompt\u2019s stylistic\
+  \ choices, including tone and phrasing."
+- In this activity, you'll strategically compare a prompt against two alternate completions
+  to select which response maintains stylistic consistency, taking into account various
+  linguistic elements.
+- Evaluate the similarities in style between a given prompt and its two completions,
+  paying special attention to consistency in language and tone throughout the text.
+- Consider both responses critically in order to select one that resonates most closely
+  with the engaging style of the prompt.
+- Critically approach two suggested continuations of a thought in relation to their
+  similarity in style to an original passage indicated by the prompt.
+- In this exploration of writing quality, you'll need to discern subtle differences
+  in style between a provided statement and its potential follow-up completions.
+- Your task is to evaluate two different completions based on how well they match
+  the style of a given prompt, considering factors like tone, word choice, and grammar.
+- Your task is to evaluate two completions against a given prompt and determine which
+  one best matches the tone and style of the prompt.
+- In this task, focus on understanding which answer best reflects the rhythm and style
+  initially established by a prompt.
+- By examining a prompt alongside two options, you will identify which one has comparable
+  stylistic features, considering aspects like word choice and sentence structure
+  throughout.
+- Your job entails comparing text outputs based on their stylistic alignment with
+  an initial prompt. This requires you to think critically about language use and
+  presentation.
+- The task requires you to evaluate the thematic coherence between a prompt and its
+  two associated responses regarding their stylistic presentation.
+- In this task, you are asked to pick one of two completions that strikes a similar
+  chord with a given casual or formal prompt.
+- Your mission is to select a response that feels most consistent in style with a
+  prompted statement, considering expressions and casualness.
+- The challenge lies in discerning which completion holds more stylistic similarity
+  to the provided prompt. Analyze tones, forms of address, and consistency in voice.
+- The task consists of comparing two different continuations of a thought expressed
+  in a prompt, paying close attention to how well they match in style and tone.
+- Engage with a prompt paired with two completions; choose the one that appropriates
+  its style effectively. Attention to linguistic details will be invaluable during
+  this task.
+- Assess both completions for their adherence to the tone set by the prompt. Select
+  the one that feels most natural within that stylistic framework.
+- You will be comparing a specific writing style in a prompt with two potential continuations,
+  aiming to find out which one closely imitates that original voice and tone.
+- You need to compare a prompt with its two alternative completions and select the
+  one that best reflects the prompt's unique style, including its informal or formal
+  elements.
+- You need to analyze a prompt and two responses, picking the one that best maintains
+  the same style as the prompt. Look for similarities in language and mood.
+- Assess the stylistic elements of a prompt and two possible completions. Choose the
+  one that echoes the same emotional and linguistic quality.
+- In this activity, you will compare two language completions against a prompt and
+  decide which one reflects the same style. Pay attention to formality and expression.
+- Analyze provided text snippets where you'll identify which completion aligns most
+  closely in style with an original prompt, requiring thoughtful consideration of
+  language usage.
+- Engage in comparing styles within text by assessing how closely two options correspond
+  with the nature of an initial prompt. Fluency in different forms of expression will
+  benefit this analysis.
+- In this activity, you evaluate two different responses to determine which one feels
+  more aligned with the original style of the prompt. Consider the language and tone
+  used.
+- Your task involves assessing two completions provided after a prompt. You'll need
+  to identify which completion matches the style and tone of the prompt more closely.
+- Your task is to evaluate two written completions and determine which one matches
+  the style of a provided prompt, considering aspects like tone and choice of words.
+- You are tasked with selecting a completion that retains the same voice as an initial
+  statement, requiring sharp awareness of linguistic subtleties.
+- Dive into a comparative analysis of writing styles where you'll need to recognize
+  which of two completions captures the essence of an original prompt most authentically.
+- You need to engage in a comparative analysis of a prompt with two completions, centering
+  your decision-making on their adherence to similar stylistic features.
+- Your goal is to discern which completion shares a similar narrative style or tone
+  with the prompt, enabling you to make an informed choice based on stylistic alignment.
+- Evaluate a prompt alongside two possible completions and determine which one retains
+  the same casual or formal style as the prompt.
+- Your task is centered on discerning stylistic matching through a comparative exercise
+  that asks you to identify which response feels truest to an original statement or
+  question.
+- Evaluate both completions for their stylistic synergy with the prompt. Reflect on
+  aspects like word choice, tone, and how they relate back to the original statement.
+- The focus here is on recognizing stylistic elements shared between a prompt and
+  its completions. Analyze both responses for their alignment in terms of casualness
+  or formality.
+- Evaluate prompts against their textual responses, concentrating on capturing similarities
+  in voice, creating an awareness of linguistic styles prevalent in different contexts.
+- Compare the linguistic characteristics of a prompt against two different answers
+  to see which answer retains a closer resemblance in style.
+- "You\u2019ll compare two generated texts to see which aligns more closely with the\
+  \ original prompt's style, taking into account phrasing and sentence construction."
+- The challenge is to choose between two responses based on their alignment with the
+  tone and language style of the provided prompt.
+- "Engage critically with two answer options by determining which better encapsulates\
+  \ the informal or emotional context set by the initial prompt\u2019s tone."
+- The goal is to identify which of the two completions reflects the same tone and
+  language style as the initial prompt.
+- Your role is to scrutinize a language model's outputs for stylistic consistency
+  with a given prompt and select the better match based on tone and diction.
+- The goal is to understand how different pieces of text relate stylistically. Assess
+  both completions, focusing on their tone relative to the prompt's feel.
+- You are required to compare two response options that follow a given prompt. The
+  goal is to select the one that best resembles the tone and expression found in the
+  prompt.
+- "Engage with a creative writing assessment where you distinguish between two different\
+  \ styles of responses based on an initial prompt\u2019s vibe."
+- You need to compare a prompt with two potential responses and determine which response
+  maintains a similar style to the prompt. This requires an understanding of informal
+  language and expression.
+- This task asks you to select a completion based on its stylistic alignment with
+  a prompt. Understanding different tones and language choices will guide your selection.
+- Review a prompt and two options to find out which one reflects the same writing
+  style. Pay attention to how words are used and the overall vibe of the text.
+- Assess two outputs against a prompt to find out which response matches it best stylistically.
+  Take note of choices in language that reflect similar emotions or attitudes.
+- You are tasked with choosing between two responses based on how closely they mirror
+  the prompt's style in vocabulary and formality.
+- Your goal is to find out which response reflects a similar stylistic approach found
+  in the initial context by concentrating on grammatical and tonal factors.
+- Reflect on the atmosphere and word choice of the given prompt, then choose which
+  completion embodies that style more accurately.
+- The goal is to analyze language use and stylistic elements within pairs of responses
+  to choose one that seamlessly integrates with the given prompt's overall feel.
+- The task requires you to weigh two different endings against a shared prompt, selecting
+  the one that harmonizes with its stylistic characteristics most effectively.
+- You will be tasked to find the completion that resonates in style with a provided
+  prompt, examining elements like vocabulary and overall tone used in both.
+- Analyze and judge the stylistic relationship between a given prompt and two potential
+  responses, concentrating on their tones, grammar, and lexical choices.
+- You will review stylistic elements in both provided answers while keeping in mind
+  how they relate back to an initial driving prompt.
+- You will evaluate the stylistic aspects of a prompt and determine which of the two
+  completions shares a similar feel. Consider nuance in wording and emotional delivery.
+- You will assess two options by comparing their stylistic match with a provided prompt.
+  A strong sense of language subtleties will assist you in distinguishing between
+  them.
+- The task involves analyzing a prompt and two potential completions to determine
+  which completion matches the style of the prompt. It requires an understanding of
+  tone, word choice, and grammatical structure.
+- The goal is to determine which of the two completions is more stylistically aligned
+  with the given prompt. Consider elements like grammatical structure and emotional
+  tone.
+- The activity revolves around identifying stylistic parallels; compare a prompt with
+  two outputs to select one that carries forth its established writing style clearly
+  and convincingly.
+- Analyze a prompt written in a specific style and evaluate two possible completions
+  to find out which one is stylistically consistent with it.
+- Your task is to evaluate two responses based on how closely their style matches
+  a given prompt. Consider tone, word choice, and sentence structure.
+- Analyze the similarities in style between a prompt and two potential follow-ups,
+  focusing on how well each completion matches in tone and expression.
+- Analyze a prompt alongside two potential completions to see which one fits the casual
+  or formal style established in the prompt. This requires a keen eye for language
+  nuances.
+- The task requires you to select one completion that resonates more closely with
+  a given prompt, reflecting its essence in tone and narrative style.
+- Your objective is to discern which completion carries forth the same stylistic essence
+  as indicated by the prompt, focusing on its language characteristics.
+- In this engaging task, you will critically evaluate how closely each provided completion
+  identifies with the stylistic hallmarks of an introductory prompt.
+- The task is to pick which completion reflects the same writing style as given in
+  the prompt, considering factors like emotional tone and grammar usage.
+- Your task is to evaluate two different completions in relation to a given prompt,
+  focusing on matching their stylistic elements.
+- Determine which of the two offerings aligns better with the initial statement's
+  manners, reviewing aspects like word choice and sentence flow.
+- Dive into evaluating two responses in relation to a prompt, prioritizing stylistic
+  correspondence over factual content.
+- Your role is to focus on tone and language use in a prompt and then determine which
+  completion shares those characteristics more closely.
+- You need to assess two language model completions in relation to a provided prompt,
+  focusing on their stylistic similarity.
+- Determine which completion aligns best with the given prompt based on aspects like
+  tone, sentence structure, and overall writing style.
+- Compare a prompt with two completions, selecting the one that shares a similar tone
+  and style. This requires sensitivity to the intricacies of language and expression.
+- Analyze the characteristics of a prompt alongside two possible completions, and
+  decide which response aligns most closely in terms of style, tone, and diction.
+- You need to examine both responses through the lens of style when compared to a
+  casual or upbeat prompt. Consider how closely they align in terms of feel and expression.
+- Your role is to analyze both completions concerning their stylistic adherence to
+  a given prompt, ensuring they reflect similar tones.
+- Your job is to compare two written responses and select the one that best matches
+  the casual or formal nature of the given prompt.
+- You need to choose between two completions based on how well they reflect back on
+  the original prompt in terms of wording style and tone consistency.
+- Assess the vibe of a prompt against two suggested completions to identify which
+  completion captures the same style in its word choice and sentence flow.
+- Your aim is to pick out which completion best follows the tonal lead set by a particular
+  prompt through careful analysis.
+- Your role entails discerning between two alternatives based on how closely each
+  maintains or reflects the cohesive tone set by an initial prompt.
+- This task requires you to select one of two options based on how well each option
+  fits with the stylistic attributes of a prompt. Think about emotional intonation
+  and phrasing.
+- You need to determine which of the two completions shares a similar vibe with the
+  prompt, considering factors like word choice and sentence structure.
+- You are asked to discern stylistic similarities in language by identifying which
+  completion complements the essence of the provided prompt.
+- Your job is to discern which of two completions better fits the style established
+  by the given prompt, based on factors such as tone and sentence structure.
+- In this task, you need to identify which of the two completions fits the informal
+  and colloquial style of the prompt. Analyze how they align in terms of expression.
+- Identify the completion that resonates with the voice of a provided prompt by examining
+  its word choice, grammatical structure, and overall emotional tone.
+- Analyze how closely each completion resembles the prompt in style, focusing on factors
+  like expression, vocabulary, and overall formality.
+- Your task involves detecting stylistic parallels between a prompt and its two potential
+  completions, emphasizing your ability to discern tone and colloquial features.
+- Assess how well two completions match the provided prompt in terms of voice and
+  writing style before selecting one that aligns best.
+- The challenge lies in selecting between two completions based on their stylistic
+  affinity with a provided prompt. You'll need to critically assess language choices
+  and tone while making your choice.
+- You'll evaluate two responses based on their language style compared to a given
+  prompt, emphasizing how well they fit within the same communicative framework.
+- Your job involves comparing a casual or formal prompt with two completions and deciding
+  which completion maintains a similar stylistic approach.
+- This task involves making a judgment about language style; you must select the completion
+  that matches the informal or formal feel of the given prompt.
+- The objective is to analyze a provided prompt alongside two completions and identify
+  which completion aligns more closely with the prompt's stylistic features, such
+  as language choice and sentence structure.
+- The focus is on pinpointing which completion shares the same writing characteristics
+  as the original prompt. This requires keen insight into style and structure.
+- In this exercise, you'll compare a prompt with two completions to discern which
+  has a closer stylistic resemblance, focusing on overall tone and grammatical choices.
+- Navigate through a language selection process where you weigh alternatives based
+  on their resemblance to an original style found in a given sentence, underscoring
+  your critical thinking skills in text analysis.
+- This task involves comparing the length, structure, and voice of two language model
+  outputs in relation to a given prompt to find the best stylistic match.
+- This task involves determining which among two available options best captures the
+  essence of the style presented in the given prompt, demanding an analytical approach
+  to language and tone.
+- The task focuses on identifying which completion aligns best with the stylistic
+  elements of a given prompt, weighing factors like formality, tone, and structure.
+- Your responsibility involves scrutinizing two completions for their compatibility
+  with a defined prompt's mannerisms and linguistic choices.
+- You are tasked with selecting the completion that best mirrors the style of a given
+  prompt. This necessitates careful consideration of language usage and sentence construction.
+- Engage in critical thinking about style as you analyze a prompt alongside two potential
+  completions; identify which one upholds that unique characteristic most effectively.
+- Carefully assess the tone and language of a prompt and its two suggested completions
+  to find the completion that echoes that style most closely.
+- Your responsibility is to select the progression that conforms stylistically to
+  an informal or colloquial prompt when comparing two responses, based on their linguistic
+  features.
+- The task involves evaluating two completions of text and discerning which one closely
+  aligns with the style of a provided prompt. Familiarity with tone and word choice
+  is essential.
+- Assess the tone and language of a prompt and its two completions to identify which
+  one maintains a comparable style.
+- This task requires you to assess language nuances and select the completion that
+  resonates most with the prompted style, whether it be colloquial, formal, or something
+  in between.
+- Evaluate how well each completion mirrors the original prompt's tone and structure,
+  selecting the one that appears more cohesive with it.
+- Analyze a prompt and its completions to identify which completion maintains a similar
+  style, focusing on aspects like grammar, tone, and sentence structure.
+- Your task involves evaluating two text completions based on how closely they match
+  the style of a given prompt. This requires attention to tone, vocabulary, and overall
+  writing style.
+- Engage in an analysis of stylistic alignment by selecting a completion that mirrors
+  the informal or formal aspects exhibited in the provided prompt.
+- The task requires careful consideration of language styles in a prompt and its two
+  completions; pick the one that best matches in terms of expression and syntax.
+- Evaluate stylistic elements in writing by discerning which completion aligns more
+  closely with the nuances present in an initial prompt.
+- The objective is to select a completion that resonates similarly in style with a
+  specific prompt, evaluating nuances such as word choice and overall expression.
+- You'll examine the stylistic elements of a prompt and assess two completions for
+  their alignment. Skills in language comprehension and figurative expression will
+  be valuable here.
+- Identify which response better mirrors the tone and language of a provided prompt
+  by examining both completions closely for stylistic consistency.
+- Your job is to explore how closely each completion aligns with the prompt's demeanor,
+  considering flexibility in language, phrase usage, and sentence rhythm.
+- This task involves selecting one completion out of two based on its stylistic compatibility
+  with a prompt. Focus on how each response conveys the same vibe.
+- You will review a prompt and two potential responses, deciding which one feels more
+  like the prompt in terms of style and language.
+- Your role is to match one of two responses with its corresponding prompt based on
+  stylistic coherence. Understanding different tones of voice will help clarify your
+  decision.
+- Your mission is to pinpoint stylistic parallels by examining wording and expression
+  between a prompt and its respective completions.
+- Your task is to evaluate how well each completion reflects the same stylistic choices
+  present in the prompt. Familiarity with different writing styles will aid your decision-making
+  process.
+- This task revolves around evaluating two different pieces of writing for their stylistic
+  agreement with an earlier statement or question, focusing on emotional expression
+  as well.
+- In this task, you will compare a prompt with two completions and pick the one that
+  reflects the same conversational style.
+- Your responsibility is to gauge how well each completion reflects the character
+  of the prompt by inspecting consistency in their stylistic elements.
+- Analyze both completions through the lens of stylistic consistency with the given
+  prompt, focusing on tone and expression.
+ds_kwargs:
+  path: Lots-of-LoRAs/task140_detoxifying-lms_classification_style
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task140_detoxifying-lms_classification_style
+user_prompt_template: '{task_def}
+
+
+  {problem}'

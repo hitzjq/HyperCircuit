@@ -1,0 +1,545 @@
+assistant_prefill: ''
+descriptions:
+- "You\u2019re required to assess two sentences where one serves as context for the\
+  \ other. Determine if they logically support or contradict each other or remain\
+  \ independent in meaning."
+- Delve into an evaluation of two connected sentences by determining if one logically
+  derives from the other, contradicts it outright, or simply shares no relevant implications.
+- Engage with premises and hypotheses by analyzing them for informational consistency.
+  Your aim is to articulate whether one enhances clarity about another's validity
+  or throws doubt on it.
+- This assignment involves reading and interpreting premises alongside corresponding
+  hypotheses. You must discern what type of logical relationship exists between them.
+- Determine how different sentences interact by critically assessing their meanings
+  and relationships for clarity in logical reasoning.
+- "Your objective in this task is to critically engage with two sentences\u2014one\
+  \ containing information and another making an assumption\u2014to see if there\u2019\
+  s agreement, disagreement, or an unclear relation."
+- "Investigate and classify how two statements relate\u2014confirming each other's\
+  \ ideas, opposing them directly, or presenting an unrelated perspective within their\
+  \ context."
+- Engage critically with contextual statements and their corresponding hypotheses
+  in this task. Examine whether they demonstrate agreement, dispute one another directly,
+  or fall into an inconclusive relationship.
+- "Evaluate how hypotheses correlate with premises through logical analysis. Determine\
+  \ whether they support each other\u2019s claims or if there is a contradiction between\
+  \ them."
+- 'Analyze the connection between two sentences: one describes a fact while the other
+  makes an assertion. Discern whether they agree with each other or contradict each
+  other in meaning.'
+- You will read a premise followed by a hypothesis and decide if the hypothesis logically
+  follows from the premise, contradicts it, or has no clear connection.
+- 'Engage with premises and hypotheses to distinguish among three possible states
+  of relationship: does one support or enforce ideas presented in another?'
+- Here you will evaluate two sentences for logical coherence. The goal is to see if
+  one sentence lends support to the other, directly opposes it, or remains indifferent.
+- "In this task, you'll be assessing semantic connections between statements to decide\
+  \ if one entails the other, negates it, or if there\u2019s a neutral stance."
+- "You will assess the relationship between two sentences\u2014the premise and the\
+  \ hypothesis. The job is to see if one implies the other, contradicts it, or if\
+  \ they are unrelated in meaning."
+- The goal is to assess whether the hypothesis follows logically from the premise,
+  counters it, or sits somewhere in between based on the information given.
+- In this task, assess whether the ideas presented in the hypothesis derive from or
+  oppose those in the premise while remaining open to neutral interpretations.
+- In this exercise, you will judge the relationship between a main statement and a
+  related claim. You need to categorize if the claim reinforces, opposes, or stands
+  apart from the main statement.
+- In this activity, you analyze a premise and a hypothesis to assess whether the latter
+  supports, opposes, or is neutral regarding the former.
+- "Here, you need to identify if the hypothesis builds upon information from the premise,\
+  \ rejects it entirely, or if their meanings don\u2019t overlap at all."
+- You are required to assess the meaning of a premise in relation to a hypothesis.
+  Determine if the hypothesis adds information, opposes it, or if they are simply
+  unrelated.
+- "You will be provided with a factual sentence and a speculative one. The aim is\
+  \ to identify if there\u2019s a logical connection between them\u2014whether one\
+  \ leads to the other, opposes it, or neither."
+- 'Your task is to judge the connection between two statements: whether one implies
+  the other, directly opposes it, or if their relationship is neutral.'
+- "Evaluate the logical interplay between a premise and a hypothesis. Decide if there\u2019\
+  s support, contradiction, or neutrality present in their connection."
+- Your responsibility is to analyze the interplay between a factual premise and its
+  corresponding hypothesis. You will label their relationship based on whether they
+  confirm each other, oppose each other, or fall outside of direct relevance.
+- The task challenges you to think critically about a pair of sentences that convey
+  information differently. Decide on their logical standing as supportive, oppositional,
+  or irrelevant.
+- Your task is to discern the logical dynamics between a premise and hypothesis by
+  determining if one reinforces or refutes the other.
+- Engaging in logic reasoning here requires you to discern relationships within paired
+  statements. Differentiate whether they imply coherence with one another or diverge
+  significantly in meaning.
+- You will assess two sentences where one is presented as a basis for comparison.
+  Your objective is to discern their logical relationship.
+- 'Determine how a given hypothesis relates to its premise by classifying their relationship
+  into one of three categories: entailment, contradiction, or neutrality.'
+- In this structured inquiry task, examine pairs of statements where one provides
+  informative content while another makes assertions about that content. Formulate
+  your understanding of their interrelations as confirming, challenging, or irrelevant.
+- This task involves critical thinking as you interpret the meaning of statements
+  and decide how they relate to one another logically.
+- The challenge here is rooted in analyzing language and concepts to clarify the logical
+  interaction between two sentences presented together.
+- The task involves evaluating a premise and a hypothesis to determine their logical
+  relationship. You must assess whether the hypothesis suggests agreement, disagreement,
+  or indifference to the premise.
+- This task focuses on evaluating claims made about presented information. You must
+  identify whether those claims support what was stated in the premise, run counter
+  to it, or lack direct relevance altogether.
+- You will review two connected sentences and analyze their relationship; specifically
+  if one sentence confirms the truth of another, denies it or does neither.
+- The task involves two statements where you need to investigate their logical relationship.
+  Assess whether the hypothesis confirms, denies, or stands apart from what is expressed
+  in the premise.
+- "Consider a premise alongside a hypothesis and determine how directly they interact\
+  \ concerning truthfulness; do they endorse each other\u2019s claims or take opposite\
+  \ views?"
+- The task involves comparing two sentences to determine their relationship. You need
+  to ascertain whether one implies or contradicts the other, or if they do not influence
+  each other at all.
+- "This task involves scrutinizing a premise followed by a hypothesis. Your goal is\
+  \ to discern whether the claim made in the hypothesis supports, contradicts, or\
+  \ simply doesn\u2019t align with the stated premise."
+- Your role in this task is to review both a primary sentence and its linked statement
+  critically. Identify how they relate in terms of supportiveness or contradiction
+  vs. neutrality.
+- This task involves analyzing a premise and a hypothesis to determine their logical
+  relationship. You must decide if the hypothesis supports, contradicts, or is unrelated
+  to the premise.
+- 'Your objective is to analyze two sentences: one providing a basic statement (the
+  premise) and the other making a claim (the hypothesis). You must decide whether
+  the claim is supported, opposed, or unrelated to the statement.'
+- This task involves analyzing a premise and a hypothesis sentence to determine their
+  logical relationship. You need to identify if the hypothesis supports, contradicts,
+  or is unrelated to the premise.
+- The task at hand focuses on understanding the implications behind statements and
+  categorizing them correctly based on their interrelations.
+- This task requires critical thinking as you look at two sentences. You should figure
+  out whether the second sentence supports, contradicts, or is indifferent to the
+  initial sentence's information.
+- This task challenges you to use logical reasoning to interpret a premise in order
+  to determine its correlation with a related hypothesis.
+- You will be tasked with interpreting a premise and a supporting claim to see how
+  they interact, considering if they agree, oppose each other, or are unrelated.
+- In this challenge, interpret two interconnected sentences critically. Determine
+  if the hypothesis under consideration strengthens, negates, or sits apart from the
+  context established by the premise.
+- This activity involves examining a premise sentence alongside a hypothesis sentence.
+  Determine if they share a confirmatory relationship, if one contradicts the other,
+  or if they are unrelated assertions.
+- The task entails assessing and critically interpreting how stated propositions correlate
+  with each other. It involves discernment around implications or discrepancies based
+  on their respective contexts.
+- In this analytic task, examine how an assertion interacts with another statement.
+  Clarify whether it enhances understanding of the premise or presents contradictions.
+- "Evaluate paired statements regarding their logical compatibility. This requires\
+  \ careful consideration of language cues that signal whether ideas affirm or negate\
+  \ each other\u2019s meanings."
+- Evaluate how a given claim connects logically with its associated statement. Consider
+  whether there's an implication that broadens understanding or if it challenges with
+  contradictions.
+- Analyze linguistic statements concerning their relational dynamics where hypotheses
+  may imply agreement with premises, challenge them directly, or hold no significant
+  relation at all.
+- The focus here is on evaluating textual relationships by reading a premise statement
+  and responding to how accurately the following hypothesis represents that premise.
+- The task involves reviewing a premise and hypothesis pair for coherence. You will
+  classify their relationship into one of three categories based on their logical
+  connections.
+- Your task involves two sentences where one serves as a foundation and the other
+  as a potential conclusion. Analyze if the second sentence logically stems from the
+  first, opposes it, or if their relationship is uncertain.
+- In this task, you analyze a statement (premise) and another statement (hypothesis)
+  to determine their relationship. You need to figure out if the hypothesis supports,
+  opposes, or is unrelated to the premise.
+- In this task, you must explore the connection between a premise and a hypothesis.
+  Identify if the hypothesis logically aligns with, contradicts, or is indifferent
+  to what the premise asserts.
+- You will analyze a premise and a hypothesis to determine if they align in meaning,
+  oppose each other, or if their connection is inconclusive.
+- This task requires critical thinking and understanding of logical implications.
+  You must identify whether a hypothesis is supported by, contradicts, or has no clear
+  relationship with a given premise.
+- In this exercise, you will judge whether the hypothesis is an extension of the premise,
+  directly opposing it, or if it stands independently.
+- Analyze how well the hypothesis aligns with the premise by determining if it confirms,
+  disputes, or remains indifferent to the claims made.
+- Examine the relationship between given sentences and decide if one supports (entails),
+  refutes (contradicts), or has no clear connection (neutral) with the other.
+- Analyze how a hypothesis relates to the information provided in the premise. Determine
+  if it confirms, contradicts, or remains neutral regarding the premise's content.
+- 'In this exercise, you are tasked with evaluating the connection between two sentences:
+  a premise and a hypothesis. Your goal is to classify their relationship as implying,
+  opposing, or being unrelated to each other.'
+- Your role is to examine two statements, where one (the premise) provides context
+  and the other (the hypothesis) asserts an opinion. Classify their connection in
+  terms of consensus, contradiction, or neutrality.
+- Analyze a premise along with its corresponding hypothesis to evaluate the logical
+  implications. You need to identify if they correspond positively, negatively, or
+  if there's no connection at all.
+- "Here, you'll assess two related sentences\u2014one key detail and one assertion\u2014\
+  to gauge whether the assertion supports, refutes, or remains ambiguous in relation\
+  \ to the detail provided."
+- In this task, the focus is on comparing two sentences. You need to determine if
+  the second sentence is a logical consequence of the first, contradicts it, or has
+  no clear relationship.
+- Engage in a logic-based evaluation where you'll compare two sentences for their
+  compatibility and decide if they reinforce each other, oppose each other, or neither
+  applies.
+- This task requires you to assess the relationship between a given premise and a
+  hypothesis. You need to decide if the hypothesis supports, conflicts with, or is
+  unrelated to the premise.
+- In this exercise, you will judge how closely related a given hypothesis is to its
+  corresponding premise. Consider if it reinforces the premise's message, counters
+  it, or stays impartial.
+- "In this task, interpret two related statements with an eye for logic; figure out\
+  \ if they agree with each other\u2019s meanings, oppose them outright, or fall into\
+  \ neutrality."
+- This task involves understanding how different sentences relate in terms of their
+  truth value. Determine whether one statement hints at something true about another
+  or opposes it entirely.
+- Your focus will be on discerning relationships in textual statements. Determine
+  if they are confirming each other's truths, conflicting outright, or remaining neutral
+  without influencing each other.
+- "The task involves discerning how one statement interacts with another. You need\
+  \ to recognize if there\u2019s an implication, opposition, or neutrality in their\
+  \ meanings."
+- The task involves critical analysis of sentences by determining if the subsequent
+  hypothesis logically follows from its precedent premise, contradicts it, or remains
+  indifferent.
+- "Analyze two statements carefully to classify their relationship\u2014whether one\
+  \ can be seen as evidence of another's truthfulness, directly negates it, or remains\
+  \ neutral altogether."
+- "In this analysis task, you will look at a given premise alongside a hypothesis.\
+  \ Determine how these statements relate in terms of implication\u2014whether one\
+  \ confirms or denies what the other asserts."
+- This exercise requires careful examination of a premise and its associated hypothesis.
+  You'll categorize their logical relationship as one that entails, contradicts, or
+  remains neutral.
+- The goal of this exercise is centered around assessing relationships between statements.
+  Identify whether a hypothesis expands on, refutes, or remains neutral toward the
+  claims made in the premise.
+- "This task requires you to interpret how one piece of information relates to another\
+  \ by establishing if there\u2019s an agreement, opposition, or indifference in their\
+  \ meanings."
+- This task involves reading two sentences and deciding how they connect. You will
+  evaluate whether one implies the other, stands in opposition, or does not have a
+  clear link.
+- "This task demands attention to detail as you evaluate pairs of sentences. Analyze\
+  \ their meanings and determine how they interact with each other logically\u2014\
+  through support, contradiction, or neutrality."
+- "In this exercise, focus on relationships between given pairs of statements. You\
+  \ will determine if they are logically linked through implication or opposition\u2014\
+  or whether they simply do not intersect."
+- This task contains examining two statements for their narrative consistency. Your
+  role is to clarify how the second statement interacts with or differs from the meaning
+  of the first.
+- In this task, you'll explore whether a proposed idea logically arises from factual
+  information provided earlier. Your assessment will classify these relationships
+  as entailment, contradiction, or neutrality.
+- Use your analytical reasoning skills to decode the relationships between presented
+  premises and hypotheses. Clarify if one asserts certainty about the other or casts
+  doubt onto it.
+- The aim of this task is to investigate and classify the relationship between a statement
+  and its hypothesis. You should determine if they reinforce each other, contradict
+  each other, or are unrelated.
+- Your task is to dissect statements and form judgments on whether they logically
+  assert support for each other or clearly oppose one another.
+- "In this interactive evaluation task, your objective is to explore and categorize\
+  \ relationships between premises and hypotheses based on their argumentative structure\u2014\
+  whether they confirm one another\u2019s validity or present contradiction."
+- In this task, you have to discern whether the information in the hypothesis is supported
+  by or goes against the premise provided. It tests your ability to analyze statements
+  for logical consistency.
+- Assess pairs of statements for logical relationships. Decide if one implies another
+  positively, contradicts it outright, or simply lacks a clear connection based on
+  their content.
+- The objective is to interpret how well a hypothesis reflects or diverges from a
+  given premise. This may require deep understanding and critical thinking about both
+  statements.
+- "Focus on two propositions and determine if they are aligned in thought\u2014does\
+  \ one suggest truth of another, deny it outright, or leave their statuses unclear?"
+- Evaluate a premise and a hypothesis to identify how they interact. You'll determine
+  if the hypothesis is implied by the premise, negates it, or falls somewhere in between.
+- This exercise revolves around evaluating logical connections between statements
+  and determining whether information in the hypothesis reinforces, conflicts with,
+  or remains indifferent to that in the premise.
+- "Focus on determining how two provided sentences interact based on their meanings.\
+  \ Establish whether they reinforce each other\u2019s statements or stand as contradictions\
+  \ or neutral assertions."
+- You will be presented with a statement and a claim about that statement. Your job
+  is to determine if the claim supports, contradicts, or is irrelevant to the statement
+  presented.
+- Examine pairs of sentences for their logical compatibility. Decide if one enhances
+  understanding of the other, sharply opposes it, or offers no definitive link.
+- The task consists of interpreting relationships between given statements. You'll
+  need to conclude whether the second statement logically follows from the first,
+  directly opposes it, or has no definitive connection.
+- 'You''ll be tasked with comparing two sentences: one outlining details about a subject
+  and the other making an inference. Identify if these statements imply support, opposition,
+  or neutrality.'
+- The task asks you to compare a premise with a hypothesis. You're tasked with interpreting
+  their meaning and determining their logical relationship.
+- This task requires you to critically examine a given premise and hypothesis sentence
+  pair. Your focus will be on establishing whether the hypothesis logically follows,
+  contradicts, or remains neutral with respect to the premise.
+- Engage in an analysis of a premise followed by a hypothesis statement. The goal
+  is to classify whether the second statement validates, opposes, or lacks relevance
+  to the first one.
+- This task requires evaluating how two sentences are interconnected. You need to
+  analyze if the hypothesis drawn from the premise is consistent, opposing, or uncertain
+  based on its content.
+- The task requires you to read a premise and a hypothesis carefully and decide how
+  they relate to each other. You should think about if one statement leads to, challenges,
+  or remains neutral regarding the other.
+- Identify and analyze the nuances in meaning between a premise and its hypothesis.
+  Determine if they support one another, conflict, or exist independently of each
+  other.
+- Your job is to assess whether a hypothesis logically follows from a premise, contradicts
+  it, or if the relationship is neutral, drawing on your reasoning skills.
+- This task involves analyzing a given premise and a related hypothesis to determine
+  their logical relationship. You need to assess whether the hypothesis logically
+  follows from the premise, contradicts it, or is neutral in relation to it.
+- "Analyze connections between premises and hypotheses systematically. Your evaluation\
+  \ should focus on classifying them as either supportive of each other\u2019s positions,\
+  \ opposing views, or lacking any direct relevance."
+- You will analyze the connection between a given premise and a hypothesis statement,
+  deciding if one validates, refutes, or is unrelated to the other.
+- The objective is to examine a premise against a related hypothesis. Your conclusion
+  should reflect whether the relationship illustrated is supportive, contradictory,
+  or neutral.
+- "This evaluation centers around understanding how two propositions interact in terms\
+  \ of truth value\u2014identifying support for one another versus outright contradiction\
+  \ or neutrality."
+- This evaluation focuses on understanding linguistic relationships between sentences.
+  You will identify if one statement follows from another, contradicts it, or is unrelated.
+- In this exercise, you will analyze linguistic structures of hypotheses and premises.
+  The aim is to identify whether they align logically as supportive statements or
+  serve as oppositional claims.
+- Your mission is to assess two statements for their logical interconnection. You
+  need to conclude whether they complement each other, oppose each other, or are neutral
+  in relation.
+- Assessment of this nature will require understanding implication versus contradiction
+  in written statements. Define whether they substantiate one another's claims or
+  stand apart wholly.
+- "Your role is to categorize how closely tied two sentences are\u2014whether one\
+  \ affirms another's insight, lies in conflict with it, or neither confirms nor denies\
+  \ its ideas."
+- "You are tasked with identifying logical connections between two given statements\u2014\
+  determining if the second one logically follows from the first, counters it, or\
+  \ stands independently."
+- This assignment involves reasoning skills where you analyze two related statements.
+  Your focus should be on exploring how one statement correlates with or challenges
+  the information in another.
+- You will interpret provided sentences and classify their logical relations based
+  on how they interact with each other's meanings or implications.
+- The task requires you to evaluate the relationship between two sentences, determining
+  if one implies, contradicts, or is unrelated to the other.
+- In this task, you will evaluate how a hypothesis relates to its premise. You will
+  decide if it strengthens the premise, is in conflict with it, or does not clearly
+  relate to it in terms of logic.
+- Your challenge here is to analyze pairs of sentences for their supportive or opposing
+  nature. You need to think about how well the hypothesis fits with or contradicts
+  the stated premise.
+- The task requires you to determine if a hypothesis logically derives from a given
+  premise, directly opposes it, or lacks a specific relationship. Assess each connection
+  critically.
+- Investigate the logical ties between two statements by assessing whether one leads
+  to the conclusion of the other, counters it, or holds no significant connection.
+- Your job is to evaluate two statements by determining whether they affirm each other's
+  truth, negate one another, or possess no discernible link.
+- Analyze statements and deduce the nature of their connectivity. Your goal is to
+  ascertain whether one acknowledges or contradicts another's declaration or remains
+  neutral.
+- 'In this task, you compare two statements: one is factual, and the other proposes
+  a potential assertion. Your task is to decide if they align, contrast, or remain
+  unrelated.'
+- "Employ reasoning skills to navigate through premises and hypotheses, establishing\
+  \ whether they affirm each other\u2019s truths or present contradictions."
+- Here you need to analyze the nature of logical connections between premises and
+  hypotheses. Your goal is to know when one asserts something known from another that
+  may not be strictly accurate.
+- Look into varying relationships between descriptive premises and suggestive hypotheses
+  in this exercise. Classify their interaction based on agreement indicated by entailment,
+  opposition marked by contradiction, or neutrality highlighting an absence of significance.
+- "This task emphasizes critical interpretation of language. You'll evaluate how two\
+  \ sentences relate in terms of agreement, contradiction or neutrality regarding\
+  \ each other\u2019s claims."
+- The objective here is to interpret relationships between pairs of sentences that
+  present information versus assertions. You will evaluate whether the assertion properly
+  reflects, contradicts, or remains indifferent to the provided information.
+- Your assignment involves examining both a premise and a hypothesis. You will determine
+  their relationship, focusing on implications, contradictions, or neutrality throughout
+  your analysis.
+- "You are tasked with understanding connections between two sentences - one offering\
+  \ factual content and the other making claims about it. Determine if these claims\
+  \ validate each other\u2019s messages or exist separately without conflict."
+- In this task, you will evaluate two sentences to understand their connection. The
+  goal is to classify whether the second statement confirms, denies, or has no bearing
+  on the first statement.
+- This challenge requires you to scrutinize a pair of sentences for their logical
+  relationships. Choose among options indicating if one sentence affirms, denies,
+  or stands alone in relation to another.
+- The objective is to analyze pairs of sentences and classify their relationship,
+  understanding the nuances of entailment and contradiction based on the context provided.
+- Assess premises and hypotheses in this task to understand their logical connections.
+  Your goal is to infer whether one leads to another, negates it entirely, or holds
+  an ambiguous stance toward it.
+- This task involves comparing a premise and hypothesis pair. You will classify the
+  nature of their relationship by deciding if one contradicts the other, supports
+  it, or is simply unrelated.
+- "Evaluate a premise and its accompanying hypothesis for logical coherence. Decide\
+  \ whether there\u2019s an agreement in thought, a direct opposition, or if they\
+  \ remain irrelevant to one another."
+- In this task, you'll examine how a given hypothesis relates logically to its corresponding
+  premise. Determine if one reinforces the other, stands in contradiction, or exists
+  as a separate idea altogether.
+- "Engage with pairs of sentences in order to classify their relational dynamics\u2014\
+  understanding implications versus contradictions within context is essential here."
+- Your objective is to evaluate the connection between a premise statement and a hypothesis.
+  This requires critical thinking to ascertain whether the hypothesis reflects, opposes,
+  or has no relevance to the premise's content.
+- "You\u2019ll work with paired sentences where one provides an assertion and the\
+  \ other poses an interpretation of that assertion. Your job is to classify this\
+  \ interpretation correctly based on logical reasoning."
+- In this exercise, you will assess the link between a descriptive sentence and an
+  implied conclusion. Identify whether the conclusion logically follows, contradicts,
+  or stands indifferent to the description.
+- Your role involves breaking down the meaning of two given sentences and judging
+  their relationship based on logical principles.
+- "Analyze two related sentences to pinpoint how they connect\u2014whether one implies\
+  \ the other, one goes against it, or they don\u2019t affect each other at all."
+- In this activity, you're tasked with examining a hypothesis in relation to a premise.
+  Determine whether the hypothesis suggests consistency with, conflict against, or
+  neutrality towards the given premise.
+- Engage with statements that are connected in meaning. Your objective is to discern
+  if the second statement supports, contradicts, or remains neutral about the first
+  statement's truth.
+- "Assessing how two statements interact with each other forms the crux of this task,\
+  \ requiring you to identify their logical standing\u2014supportive, conflicting,\
+  \ or neutral."
+- This task centers around analyzing sentence pairs where you must define how the
+  second relates to the first in terms of confirmation, contradiction, or neutrality.
+- Assess a statement based on another statement you are provided with. Your job is
+  to identify if the second statement draws from, opposes, or remains neutral to the
+  content of the first statement.
+- "You engage with propositions and evaluate their meanings to classify how they relate\u2014\
+  whether implying agreement, contrasting sharply, or being unrelated."
+- Assess the logical implications between a premise and hypothesis statement. Are
+  they in agreement, in contrast, or do they hold no clear relationship?
+- "You will read a main statement and a secondary statement, then analyze how they\
+  \ connect\u2014whether one suggests the other, denies it, or leaves it uncertain."
+- Your job is to evaluate a relationship between two statements. You will decide whether
+  one statement logically follows from the other, opposes it, or if they are unrelated.
+- 'You will be presented with statements that need evaluation in terms of their logical
+  coherence. Your objective is to categorize their relationship into one of three
+  types: support, contradiction, or neutrality.'
+- You'll be looking at a statement about a subject and another that may or may not
+  relate to it. Your goal is to classify the second statement based on its logical
+  relationship with the first.
+- Your mission in this task is to dissect two sentences for their relational quality,
+  requiring an understanding of logical propositions and interpretations.
+- Examine the content of two related sentences to conclude if one logically supports
+  the other, contradicts it, or lacks any definitive association.
+- You will investigate the relationship between a provided premise and its hypothesis
+  by discerning whether the latter implies acceptance of the former, challenges it,
+  or remains indifferent.
+- Your objective is to compare and contrast a premise against its associated hypothesis
+  phrase. Identify if it strengthens the premise's truthfulness, disputes it, or remains
+  neutral.
+- Analyze sentences presented as premises and hypotheses for their logical connections.
+  Identify whether the hypothesis validates the premise, outright denies it, or remains
+  ambiguous regarding its truth.
+- The objective here is to critically examine a premise and a hypothesis to assess
+  whether the latter logically follows from the former, contradicts it, or presents
+  a neutral stance.
+- 'Examine the connections between two sentences and categorize their relationship
+  into three possible types: support, contradiction, or neither.'
+- You are required to engage in a logical evaluation of sentence pairs to clarify
+  whether one implies the other, contradicts it, or stands apart contextually.
+- The activity revolves around characterizing the connection between two sentences
+  where you classify them as either supportive, opposing, or neutral toward each other.
+- You will encounter pairs of sentences where one provides context or information
+  (the premise) and the other makes a statement about it (the hypothesis). Determine
+  their logical relationship by identifying if the hypothesis fits, refutes, or stands
+  apart from the premise.
+- "In this analysis-focused task, you will discern possible connections between premises\
+  \ and hypotheses regarding their truthfulness relative to each other\u2014entailing\
+  \ by implication or presenting contradictions."
+- Your job is to interpret information from a premise and relate it to a hypothesis.
+  You need to discern if the hypothesis is implied by, contradicts, or is neutral
+  toward the information in the premise.
+- This task involves evaluating the relationship between a premise statement and a
+  hypothesis statement to determine if the latter supports, contradicts, or is unrelated
+  to the former.
+- The goal of this task is to interpret how a premise relates to a hypothesis. You'll
+  evaluate if the hypothesis claims support an idea in the premise, directly oppose
+  it, or present neutral information.
+- "This task involves applying analytical reasoning skills to evaluate how sentences\
+  \ relate semantically\u2014either aligning in truthfulness or opposing each other."
+- "Engage in deductive reasoning by exploring the logical relationship between premises\
+  \ and hypotheses\u2014categorizing them as supportive statements, contradictory\
+  \ assertions, or neutral comments."
+- Analyze a pair of sentences to identify if one indicates support for the other,
+  presents conflicting information, or is independent of the first statement's meaning.
+- This exercise focuses on evaluating how two given statements interact logically.
+  You must determine if they are in agreement, opposed, or if neither is affected
+  by the other.
+- Assess linguistic relationships by examining given sentences and concluding whether
+  they affirm one another's claims, negate them, or are unrelated tangentially.
+- In this task, you need to evaluate the relationship between a premise and a hypothesis.
+  Determine if the hypothesis suggests a contradiction, aligns with, or is neutral
+  regarding the information in the premise.
+- 'Reflect on two different statements: the first providing context as a premise and
+  the second drawing conclusions as a hypothesis. Classify how these relate based
+  on conformity, contradiction, or neutrality.'
+- "This task involves comparing two sentences \u2014 a premise and a hypothesis \u2014\
+  \ to classify their relationship as entailment, contradiction, or neutrality."
+- This task includes scrutinizing a fundamental statement and its related claim. Make
+  sure to consider whether they mutually support each other, contradict in meaning,
+  or have no direct connection.
+- For this task, you're tasked with understanding two linked sentences. Your objective
+  is to recognize whether one statement logically entails the other, negates it, or
+  is neutral.
+- You are tasked with evaluating a sentence to determine its relationship to a given
+  statement, identifying whether it supports, contradicts, or is unrelated to the
+  premise.
+- Your task is to interpret two statements and establish their logical connection.
+  Gauge whether the second statement is an affirmation of, a denial of, or simply
+  connected neutrally with the first.
+- "Your role involves critical analysis of two textual statements for their relationship\
+  \ dynamics. Assess if they provide mutual support, stand opposed, or remain discrete\
+  \ without influence on each other\u2019s meaning."
+- Your role includes examining a premise and its corresponding hypothesis for logical
+  consistency and determining if they express agreement, denial, or indifference.
+- Examine how well hypotheses align with premises by utilizing logical deduction skills
+  to classify for entailment, contradiction, or neutrality.
+- "You will be presented with a factual statement and an interpretative claim. Evaluate\
+  \ how these two are connected \u2013 if they agree, disagree, or fall somewhere\
+  \ in between."
+- Your goal is to understand the implications of a given premise in relation to a
+  hypothesis sentence and categorize their logical connection.
+- Engage with pairs of statements to discern whether they establish support for one
+  another's validity, stand in disagreement, or lack a coherent relationship.
+- "Your analysis should capture whether two pieces of information endorse each other\u2019\
+  s validity, oppose each other directly, or lack further connections altogether."
+- In this evaluation task, analyze statements regarding their truthfulness and logical
+  flow. Recognize whether one confirms, refutes, or neither affects the original premise.
+- Evaluate the connections between premises and hypotheses by categorizing them as
+  either supporting each other, contradicting one another, or being unrelated.
+- "In this task, focus on understanding logical relations between two statements\u2014\
+  determining if one clarifies or enhances another\u2019s meaning or diverges entirely."
+- You'll need to think critically about two connected sentences and decide if one
+  inherently endorses, rejects, or simply exists alongside the other.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1385_anli_r1_entailment
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1385_anli_r1_entailment
+user_prompt_template: '{task_def}
+
+
+  {problem}'

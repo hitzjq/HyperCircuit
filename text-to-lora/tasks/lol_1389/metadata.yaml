@@ -1,0 +1,447 @@
+assistant_prefill: ''
+descriptions:
+- You need to understand the flow of a story or instructional content and select an
+  option that naturally extends or wraps up the idea presented.
+- Your role is to synthesize information from short narratives and choose an ending
+  that captures its essence while making sense within its structure.
+- In this task, your job is to select the most fitting ending for a presented scenario,
+  ensuring it resonates well with the established context. Carefully considering how
+  ideas connect is crucial.
+- "Given a description, find the answer that seamlessly continues the thought or action.\
+  \ It\u2019s about recognizing logical progressions within the text."
+- Your task is to evaluate narrative fragments or instructional texts alongside multiple
+  endings, selecting the one that continues the flow of thought most effectively.
+- Analyze sentences and their flow. Your focus should be on discerning how well each
+  suggested ending fits in developing ideas initiated in the earlier part of the text.
+- Immerse yourself in the context, and from there, evaluate the options to find the
+  one that aligns with the tone and content previously laid out.
+- The objective is to read through a description and select an appropriate ending
+  that captures the essence of what was presented, requiring attention to detail.
+- Your job is to analyze a scenario and select the ending that best fits with the
+  details of the story. This requires careful consideration of the relationships described.
+- The assignment is to determine which of the provided endings rounds out a given
+  narrative effectively. This necessitates an understanding of flow and logical progression.
+- You will evaluate various conclusions based on a specific situation. Carefully consider
+  the implications and tone of each option to make your selection.
+- Your role is to decide on an appropriate conclusion for an excerpt, relying on comprehension
+  of the narrative flow and potential developments.
+- Your job is to take a narrative fragment and recognize which ending logically completes
+  it, thereby showcasing your ability to draw connections between ideas.
+- You will analyze a scenario presented in the context and determine which of the
+  suggested conclusions would fit best, based on your understanding of the situation.
+- Engage with the context by determining which provided option provides the most relevant
+  or accurate completion based on what you've read.
+- Your task is to read a given context and select the most suitable continuation from
+  the provided options, ensuring it matches the theme and logic of the context.
+- You are required to evaluate a given scenario and select an ending that complements
+  the story or situation being described, demonstrating your ability to connect ideas.
+- The aim here is to interpret a passage and find an ending that enhances its meaning.
+  This process will require you to engage with the text actively.
+- Your assignment focuses on linking narrative elements; you must choose an option
+  that enhances or appropriately concludes what has already been established in the
+  context given.
+- For each context, identify which option best completes the text. This requires comprehension
+  and an ability to see how different endings tie back to what has been stated.
+- You need to analyze a provided scenario and choose an appropriate closing statement.
+  This requires comprehension skills and the ability to connect ideas logically.
+- This task challenges you to choose an appropriate follow-up statement from various
+  options provided after reading an introductory sentence, relying on thoughtful reasoning
+  regarding content flow.
+- In this exercise, your goal is to bring coherence between given premises and potential
+  conclusions through selection based on appropriateness and relevance.
+- Your responsibility is to dissect a situation and conclude it appropriately by selecting
+  an ending that feels like a natural progression of the story.
+- Engage with a brief narrative and determine which of the suggested ends best closes
+  out or ties together the information presented in it.
+- This task challenges your ability to connect ideas presented in a scenario to corresponding
+  conclusions that best encapsulate what has occurred in the context.
+- The task invites you to explore scenarios and determine the best logical path forward
+  as indicated by the options, relying heavily on comprehension of sequential thought.
+- You are to examine a context and select an ending that aligns with its message.
+  This requires attention to detail and contextual understanding.
+- This task involves interpreting a scenario and selecting the best ending that makes
+  sense with the provided details. Understanding context clues is essential.
+- Your responsibility is to match a context with an appropriate conclusion. Evaluate
+  the options based on coherence and relevance to achieve this.
+- The goal here is to assess a context and choose an option that naturally completes
+  the story. Skills in coherence and narrative flow are necessary.
+- The task involves synthesizing information from the context and evaluating different
+  potential conclusions based on logical relationships and thematic consistency.
+- This activity entails reviewing a situational setup and picking out an appropriate
+  concluding statement that feels natural within the established framework.
+- You are required to think critically about how various phrases relate to one another
+  in the context given and identify the conclusion that fits most naturally.
+- Think critically about storytelling elements presented, then determine which option
+  enhances understanding or provides resolution to those elements.
+- The objective is to read through snippets of information and determine which proposed
+  conclusion naturally extends or completes the narrative. A good understanding of
+  the subject matter will be beneficial.
+- The task requires you to read a context carefully and pick out an ending that seamlessly
+  integrates with the storyline established in the passage.
+- Your goal is to synthesize information from the provided pieces within a context
+  by recognizing which ending complements or resolves the statements made previously.
+- This exercise involves understanding a brief description and discerning which suggested
+  completion best aligns with the flow of events described.
+- "This task focuses on reading comprehension; you\u2019ll need to understand the\
+  \ context well enough to choose an ending that integrates smoothly with it."
+- This is about exploring text interpretatively; see how well you can bridge connections
+  between setups provided in a prompt and logical conclusions drawn from them.
+- Engage with a specified setting and make an informed choice about how the scenario
+  may progress, emphasizing your ability to synthesize details and anticipate outcomes.
+- Your mission is to interpret scenarios and predict their outcomes by selecting from
+  provided endings. This will require analytical skills to piece together clues effectively.
+- "Your role is to interpret a narrative scenario accurately, then choose the option\
+  \ that provides the clearest continuation or conclusion based on what you\u2019\
+  ve read."
+- In this activity, you will evaluate an excerpt and decide which of the suggested
+  endings complements it best. This involves interpreting the meaning and intent of
+  the context.
+- Here, you'll assess a description and determine which option serves as a suitable
+  conclusion based on context clues, challenging your reasoning abilities.
+- You will work with a brief snippet of text to determine the most fitting follow-up
+  statement, using analytical skills to assess how well it aligns with what was presented.
+- Engage with a brief narrative to assess which option aligns best with it. This requires
+  comprehension of the context and its themes.
+- Focus on understanding textual contexts and envisioning how they would logically
+  extend, guiding your selection towards the most sensible conclusion.
+- This task requires you to discern the best suitable ending from multiple options
+  following a specific context, relying on your understanding of logical flow in communication.
+- Your role is to read a passage and identify which option serves as the most fitting
+  conclusion. This task involves synthesis of ideas and comprehension of key details.
+- This task focuses on understanding a brief context and identifying which proposed
+  ending makes the most sense in terms of consistency and relevance.
+- Your task is to read a provided context and select the most fitting ending from
+  a set of options, drawing on your understanding of narrative coherence.
+- This task involves synthesizing information from a given narrative and choosing
+  the option that would naturally or effectively conclude that narrative arc, requiring
+  insight into textual relationships.
+- In this exercise, you will interpret parts of a story or situation and align them
+  with endings that enhance the overall coherence of the narrative.
+- Your task is to read a given context and select the most suitable ending from the
+  provided options. This requires understanding the context and determining what conclusion
+  best fits.
+- Interpret a brief description alongside several ending statements, selecting one
+  that harmonizes with or enhances the message presented in the initial context. Understanding
+  narrative flow is key.
+- You need to critically assess a context and select an ending that enhances its meaning
+  or continues its trajectory in a logical manner.
+- Analyze situational dynamics described in a short narrative, then identify an option
+  that logically concludes or extends those dynamics in a meaningful way.
+- You will be tasked with selecting the correct concluding statement for a specific
+  scenario. This involves recognizing how different options relate to the main idea.
+- You are asked to make sense of a narrative context by selecting an appropriate ending
+  that enhances or completes the story being told.
+- You are tasked with reading a given scenario and selecting the most appropriate
+  conclusion from a set of choices. This requires comprehension skills and an understanding
+  of how different statements relate to the context.
+- You will need to assess a scenario followed by various possible outcomes, identifying
+  which outcome appropriately addresses or completes the theme set up by the context.
+- Evaluate a given situation and consider how each possible ending interacts with
+  it, ensuring you select one that enhances or completes what has been started.
+- You will read through context presented in excerpts, then evaluate which option
+  brings closure or enhances understanding of that context.
+- You need to evaluate a situation presented in a statement and choose the most fitting
+  completion from various alternatives. It is essential to assess how well each choice
+  aligns with the initial passage.
+- The objective is to read closely and choose among several possible conclusions,
+  ensuring your choice makes sense within the framework of what has been presented.
+- The task is centered around evaluating contextual clues and using them as guidance
+  to highlight an ending that presents a harmonious conclusion.
+- Your task is to analyze a given context and identify the most fitting conclusion
+  from a set of choices, ensuring it logically follows from the information presented.
+- Your role involves interpreting narratives while considering logical flow; it's
+  important to discern how well each concluding option transitions from the preceding
+  text.
+- This task requires you to comprehend a brief narrative and identify which of several
+  options serves as the best continuation, enhancing your skills in critical reasoning.
+- In this task, you will combine reading comprehension with logical reasoning to choose
+  an appropriate statement that concludes a given scenario effectively.
+- Your responsibility includes making sense of interactions or events described, leading
+  you to choose an appropriate follow-up that completes the idea effectively.
+- You are expected to derive meaning from a textual context and sift through options
+  to select the one that best encapsulates what follows from what you've read.
+- Your challenge is to interpret a narrative lead-in and recognize which of the provided
+  endings logically follows. This calls for strong comprehension abilities and clarity
+  of thought.
+- It involves synthesizing details from a description to arrive at an ending that
+  fits well with observable actions or narratives laid out beforehand.
+- In this task, you must analyze the provided information and choose an extension
+  that best fits within the context, exercising creative thinking and understanding
+  of narrative flow.
+- Reflect on how different endings align with established themes in textual contexts.
+  The focus is on making logical connections based on continuity and relevance.
+- Review the insights presented in the situation and select which choice wraps up
+  the story or instruction in a coherent manner, reflecting on what was described
+  before.
+- Interpret a scene or scenario, and identify which suggested ending enhances or resolves
+  the narrative. This requires an understanding of character actions and motivations.
+- This task centers around contextual analysis. Evaluate all hints within the narrative
+  to find a fitting end that resonates with what preceded it.
+- The goal is to distill information from a description and identify which response
+  enhances or brings closure to that information meaningfully.
+- Read through a descriptive context, then deduce which of several endings makes the
+  most sense within that description, reflecting your ability to comprehend and synthesize
+  information.
+- You need to assess a short narrative or instruction and discern which ending is
+  most congruent with it. Clarity in understanding is key for proper selection.
+- The task requires thoughtful consideration of presented scenarios where you identify
+  which given responses effectively encapsulate or extend upon what was set up in
+  earlier lines.
+- You will evaluate several suggested conclusions and identify the one that best fits
+  the preceding narrative or instruction. This demands analytical thinking and good
+  comprehension skills.
+- The goal here is to interpret scenarios correctly, guiding your choice based on
+  thematic coherence and clarity among various concluding options.
+- This task requires you to grasp the essence of what has been narrated so far and
+  select an ending that adds clarity or further meaning to it.
+- In this task, assess the relationships between sentences by determining which response
+  logically extends the given context, highlighting analytical thinking.
+- Assess how different conclusions can complement or enhance the initial context you
+  read. The aim is to find that one option where everything aligns naturally.
+- You will examine a context and consider its meaning, ultimately choosing the conclusion
+  that aligns best with the theme and intent of the passage provided.
+- Analyze a context and select the most appropriate ending from several choices, focusing
+  on how well each option resonates with the setup provided.
+- The challenge entails carefully reading contextual setups followed by an evaluation
+  of different conclusions, leading you towards identifying the most fitting one.
+- This task involves deciphering text patterns and relationships; you will determine
+  how plausible each conclusion is in relation to its initiating content.
+- You need to evaluate a scenario presented to you and select the best closing statement
+  that aligns with the given information. Understanding coherence in writing is key.
+- Your goal is to gauge which ending aligns with the context in mind, demanding a
+  judgment of relevance and appropriateness based on your reading skills.
+- In this assignment, reading comprehension skills are essential as you identify which
+  proposed endings resonate with the themes or points raised in each context.
+- In this exercise, you'll analyze how different endings relate to the initial context
+  provided, assessing their appropriateness based on clarity and logical flow.
+- You will evaluate a short description and select an ending that brings clarity or
+  resolution to the narrative presented, which involves interpreting implicit meanings.
+- This involves interpreting a given passage and identifying which option serves as
+  the most coherent continuation of the narrative.
+- Review each context carefully, using your analytical skills to discern which suggestion
+  ties best with the main plot or idea.
+- As you read through each setup, consider which option logically completes it while
+  maintaining coherence and clarity based on what was previously shared.
+- This task involves understanding a preliminary description and then selecting an
+  appropriate conclusion that aligns with the given context, requiring you to think
+  critically about coherence.
+- Read through a contextual setup and choose an ending that seamlessly integrates
+  with it, reflecting an understanding of narrative structure.
+- You will be examining content closely and deciding on an ending that not only fits
+  but also enhances the original statement's intent, necessitating creative thinking.
+- Engage with a storyline, thinking critically about its progression, to select an
+  option that offers a logical closure or continuation to what has been presented.
+- The core task is to read through contextual information and thoughtfully decide
+  which proposed ending fits best according to how stories typically develop.
+- Identify how best to finalize provided contextual details by selecting concluding
+  statements that align logically; this task involves both reasoning and comprehension
+  abilities.
+- Your task revolves around making sense of a written context and selecting an ending
+  that logically follows from it, showcasing your analytical reasoning skills.
+- Read through a contextual prompt and select an ending that effectively summarizes
+  or furthers the discussion. Attention to detail and insight into the topic are essential.
+- Your role here is to read through a scenario's details and identify which potential
+  completion aligns best with what has been established, enhancing your logical reasoning
+  skills.
+- Test your ability to identify logical conclusions by choosing an option that best
+  expresses what follows from a given premise in various text scenarios.
+- This task requires you to connect the given context to its most suitable conclusion,
+  ensuring that it maintains logical consistency and thematic relevance.
+- This task tests your reading comprehension as you evaluate the context given and
+  deduce which option represents a logical continuation or conclusion.
+- Through careful reading, engage with narrative clues within contexts and weigh them
+  against various options, ideally choosing an ending that promotes clarity and relevance.
+- "In this task, you need to consider how each option could narratively develop or\
+  \ conclude a scene you\u2019ve read about, leaning on your interpretation skills."
+- You will interpret a brief narrative or instructional text and select an option
+  that effectively wraps up or adds to it, measuring your text analysis skills.
+- You need to analyze a setup statement followed by possible conclusions, then make
+  an informed choice about which conclusion aligns best with the overall message and
+  intent.
+- During this assessment, analyze various potential endings against a backdrop narrative
+  and select one that complements or concludes it cohesively.
+- Analyze the given context carefully and determine which of the endings best completes
+  the thought or action described, requiring you to think critically about continuity.
+- This task requires comprehension of a scenario followed by selecting the conclusion
+  that fits best in terms of continuity and clarity of thought.
+- The objective is to discern the most logical ending for each presented situation,
+  using your critical thinking skills to match details accurately with the original
+  context.
+- The task involves evaluating a given context and selecting the most fitting conclusion
+  from the provided options, requiring critical reading and comprehension skills.
+- Examine a brief scenario and assess potential conclusions for coherence and contextual
+  relevance to identify the most fitting option.
+- You will read a brief narrative and determine which of the suggested endings aligns
+  best with the narrative's progression. Attention to detail is crucial for this task.
+- You will engage with textual information, analyzing its structure, then ensuring
+  you pick an ending that ties everything together seamlessly.
+- Analyze the provided information and choose an ending that logically follows from
+  the initial context. Understanding narrative flow will be essential for this task.
+- Your responsibility is to interpret short contexts coherently and recognize which
+  supplied ending aligns closest with them, showcasing your analytical thinking.
+- The task involves reading a context and determining the most appropriate conclusion
+  that logically follows from it, utilizing comprehension and inferencing skills.
+- Your job here is to thoughtfully consider each ending option in relation to the
+  context provided, allowing your reasoning skills to guide your final choice.
+- The job at hand requires you to interpret a snippet of writing and select an appropriate
+  concluding statement that maintains coherence with the main idea.
+- Engaging with these contexts involves understanding sequential logic; your goal
+  is to find how each offered conclusion fits into or expands upon what has been introduced.
+- Read through a scenario and evaluate various endings to find the one that best fits
+  or completes the story, leveraging your comprehension skills on narrative structures.
+- The task entails reading a story fragment and evaluating different possible endings
+  to find out which one complements the existing information effectively.
+- This task requires you to connect ideas within a context to a potential ending,
+  showcasing your ability to infer meaning and predict outcomes based on information
+  presented.
+- You need to read a situation carefully and deduce the most fitting completion from
+  various suggestions, honing your skills in assessment and logic.
+- You are tasked with reading a context and determining the most suitable conclusion
+  that logically follows based on the information provided.
+- You will be evaluating how different suggested endings align with the themes and
+  actions described previously in the text, requiring analytic thinking.
+- By analyzing sequential information, you must discern which conclusion is most logical
+  when related back to earlier parts of the provided context.
+- Analyze a brief context and consider how it might logically conclude with one of
+  several suggested endings, testing your narrative insight.
+- The task involves evaluating several potential conclusions to a narrative, where
+  you must discern which option encases the essence of the given statement effectively.
+- The objective here is to navigate through different endpoints for a narrative string
+  and determine which selection brings cohesion and clarity to the context provided.
+- Analyze a descriptive context carefully, then identify which proposed ending best
+  encapsulates or expands upon the central ideas discussed in that context.
+- Your focus should be on discerning which proposed ending resonates most strongly
+  with the behaviors or events initiated within the context shared earlier.
+- Use your understanding of plot development or instruction sequences to pick an option
+  that logically completes what has been stated in the preceding text.
+- Engage with segments of text where you think about narrative cohesion; your challenge
+  lies in linking a context with an appropriately fitting continuation.
+- Delve into the context provided, considering what makes sense as an appropriate
+  conclusion, while filtering through alternative endings that do not align well.
+- Engage with a short piece of text, using your comprehension skills to choose the
+  most logical completion from various alternatives presented to you.
+- Assess the relationship between the context and closure options available. Your
+  aim is to pick an ending that enhances or clarifies what was initially presented.
+- Weave together information from the context with potential conclusions, identifying
+  which one best encapsulates or elaborates on what has just been communicated.
+- In this activity, pay attention to the context you've been given, then decide which
+  of several options serves as the best logical culmination of that context.
+- In this task, you will review a brief narrative and evaluate multiple options to
+  find the one that logically concludes or follows from the initial setup.
+- This involves interpreting a scenario or instruction and selecting the ending that
+  makes the most sense, reflecting your ability to synthesize information from different
+  parts of the text.
+- You are tasked with linking a given piece of text to its best possible conclusion,
+  drawing on an awareness of context clues and narrative development.
+- Your task is to comprehend a situation described in text and identify which option
+  completes or continues that scenario in a sensible manner.
+- You need to analyze a piece of text and determine which statement best summarizes
+  or follows it logically, demonstrating your understanding of narrative flow.
+- You will evaluate several possible completions for a narrative setup, using your
+  understanding of coherence and thematic elements to guide your choice.
+- You need to assess a situation in a text and choose the ending that completes the
+  thought best, ensuring it aligns well with the earlier content.
+- Analyze a context related to a specific topic, then identify which of the suggested
+  conclusions fits best. This task demands critical thinking and context analysis.
+- You need to assess how well each potential ending fits with the original context
+  by considering both content and intent conveyed through the initial description.
+- Your challenge is to synthesize information from a context and select an ending
+  that complements it seamlessly. This requires both analytical skills and attention
+  to detail.
+- The task challenges you to think about how specific scenarios might logically evolve
+  based on additional suggestions provided, requiring both comprehension and inferential
+  skills.
+- Use your understanding of flow and coherence in storytelling to derive which possible
+  ending accurately reflects potential developments presented in the opening context.
+- The task involves picking the conclusion that feels like a natural progression from
+  what you've read, emphasizing your grasp of logical sequencing in narratives.
+- You'll be working with contextual clues to deduce the best ending option for a given
+  scenario, requiring you to think cohesively about how different statements interact.
+- In this task, you must analyze a context and identify the conclusion that best supports
+  its overall theme or message. You're required to draw connections between ideas.
+- Review the scenario you've been given, then draw upon your understanding of narrative
+  coherence to select the most appropriate ending among various options.
+- Your job is to read a short excerpt and select the best completion from several
+  suggestions, testing your interpretive skills and understanding of coherence in
+  writing.
+- Reflect on the context provided and match it with an appropriate closing statement,
+  demonstrating your ability to synthesize ideas and recognize relevant details.
+- For this task, analyze a provided context and assess the options for their relevance
+  and suitability as an ending. This involves interpreting text and making connections.
+- The task at hand requires evaluating potential endings for coherence with preceding
+  information, ensuring you grasp the implicit message conveyed in the context.
+- Consider various endings provided for a scenario and determine which one encapsulates
+  or continues that thought effectively based on character actions and descriptions.
+- Your responsibility is to examine a context and thoughtfully determine what response
+  fits best, honing your skills in deductive reasoning and understanding.
+- The aim is to assess given contexts critically and determine which options logically
+  develop them further, showcasing your understanding of thematic continuity.
+- This task involves reading a context and determining the most appropriate way to
+  conclude or continue that context. It requires comprehension and critical thinking
+  skills.
+- Your mission is to sift through multiple endings based on their relevance and appropriateness
+  in connection with a defined context, honing in on narrative alignment.
+- In this exercise, you'll be synthesizing information from a scenario to discern
+  which conclusion makes the most sense based on what is already known.
+- This task asks you to connect a backdrop with potential outcomes. Your goal is to
+  see which option fits well with what has been presented and why it matters.
+- Assessing provided information and determining which ending logically completes
+  the narrative is crucial. The task requires you to connect ideas thoughtfully.
+- In this task, you assess various suggested conclusions for their relevance to a
+  defined context, utilizing both comprehension skills and judgment in coherence between
+  ideas.
+- This activity centers on discerning logical outcomes based on preliminary statements,
+  calling for sharp comprehension skills as well as sound judgment.
+- You will engage with narrative closure by evaluating how different endings tie into
+  or develop themes introduced within the selected context.
+- Read a brief scenario and critically assess each available option to ascertain which
+  one provides the best sense of closure or continuation for the narrative.
+- "Engage in an interpretation of situations followed by evaluating possible endings\
+  \ where you\u2019ll decide on the one that best fits the initial context you've\
+  \ read."
+- Analyze an outlined scenario to ascertain which conclusion resonates most accurately
+  with it, applying reasoning centered around logical story continuity.
+- The challenge lies in assessing several options and identifying the one that best
+  reflects or aligns with the initial premise described in the text.
+- Your objective is to merge comprehension skills with reasoning as you choose the
+  best finish for a given context, ensuring it aligns perfectly with preceding narrative
+  elements.
+- Your objective is to understand a described situation thoroughly before judging
+  which provided conclusion suits it best, reinforcing your interpretation skills.
+- Engaging with text requires picking an ending that resonates with the established
+  context, prompting you to analyze how well each option connects.
+- "In this exercise, you will read a situation described in detail and then decide\
+  \ which of several proposed endings corresponds best with that context\u2019s information."
+- Your job is to interpret a brief narrative and find the best possible ending among
+  several options, ensuring it logically follows the information provided.
+- The focus here is on interpreting a scenario and matching it with an ending that
+  makes sense within that framework, which calls for both analytical and contextual
+  awareness.
+- This exercise involves reviewing a given text and choosing the best option for how
+  it should end. Your assessment will depend on your ability to infer meaning from
+  context.
+- "By interpreting a brief narrative, you\u2019ll ascertain which option represents\
+  \ a fitting resolution or continuation, leveraging your comprehension of stories."
+- You will interpret a context and select an option that reinforces or clarifies its
+  message. Critical thinking about narrative coherence is important here.
+- The goal is to assess a narrative and find its optimal conclusion from several choices.
+  You will need to think critically about the flow of information presented.
+- Your role is to sift through potential conclusions for a given narrative and figure
+  out which option best completes or makes sense in relation to the preceding information.
+- This task entails engaging with descriptive content to assess which concluding statement
+  best encapsulates or elaborates on what has been highlighted previously.
+- You are tasked with identifying the most suitable ending for a narrative segment,
+  emphasizing your ability to connect ideas logically.
+- Your task is to read a given scenario and determine the most fitting conclusion
+  or outcome from a selection of options based on context clues.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1389_hellaswag_completion
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1389_hellaswag_completion
+user_prompt_template: '{task_def}
+
+
+  {problem}'

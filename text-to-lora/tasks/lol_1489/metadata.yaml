@@ -1,0 +1,432 @@
+assistant_prefill: ''
+descriptions:
+- The task involves analyzing tweets to classify them as sarcastic or non-sarcastic,
+  focusing on implied meanings and emotional undertones.
+- Classify each tweet as either sarcastic or non-sarcastic, relying on your ability
+  to interpret humor, irony, and social cues present in the language.
+- Engage with Twitter content by classifying language as either ironic (sarcastic)
+  or earnest (non-sarcastic), utilizing context clues and common expressions in modern
+  communication.
+- "You need to classify each provided tweet by identifying its tone\u2014whether it\
+  \ is meant to be understood as sarcasm or if it carries a non-sarcastic meaning."
+- Your objective is to classify tweets by detecting sarcasm within their content.
+  This involves understanding how language can express contradictory meanings.
+- Examine tweets for sarcasm, looking for phrases that twist normal meanings in a
+  humorous or critical way. Understanding social cues will aid in your classification.
+- You will evaluate the intent behind tweets to distinguish between sarcastic language
+  and direct communication.
+- Analyze tweets to identify the underlying tone, focusing on whether they convey
+  sarcasm as their main feature.
+- Read through the provided tweets and assess their emotional undertone, categorizing
+  them based on whether they reflect sarcasm or authenticity.
+- The goal is to evaluate tweets and decide if they are sarcastic. Pay attention to
+  phrases and expressions that imply a humorous or ironic twist.
+- Interpret several tweets to identify their sarcastic undertones. Recognizing exaggeration
+  or contrasting statements will help you classify them correctly.
+- Examine the provided tweets to determine their emotional tone, categorizing them
+  as sarcastic or non-sarcastic based on the words used and their implications.
+- You are required to classify given tweets based on their tone, determining if they
+  are intended as sarcastic remarks or sincere expressions.
+- Engage in classifying tweets by determining their sarcasm level. Knowing how language
+  can convey double meanings will help in making nuanced judgments.
+- Your task involves classifying tweets based on their emotional tone, identifying
+  whether the statements are sarcastic or not.
+- You will analyze tweets to judge their emotional context, focusing on whether the
+  language used is meant to convey sarcasm or not.
+- Your mission is to interpret tweets and label them accurately as sarcastic or non-sarcastic.
+  Analyzing word choice and context will be key to making the right distinction.
+- The task involves analyzing English tweets to determine whether they express sarcasm
+  or not, requiring an understanding of tone and context.
+- Your focus will be on analyzing tweet content for subtle signs of sarcasm, enabling
+  you to determine the true intent behind the words spoken.
+- Label the tone of each tweet you are given, deciding if it uses sarcasm to convey
+  its message or not.
+- Evaluate the style of writing in tweets to discern between a sarcastic approach
+  and a direct message delivery.
+- The challenge is to discern sarcasm in tweets. Recognizing irony and contrasting
+  statements will help you successfully navigate this task.
+- Identify the tone of various tweets by determining if they are sarcastic in nature.
+  Your analysis will rely on detecting ironic statements and contrasting meanings.
+- Your mission is to interpret tweets critically for tone classification. Identify
+  signs of sarcasm, often found in exaggeration or contradiction in statements.
+- Differentiate between sarcastic and non-sarcastic tweets by analyzing how tone and
+  intent shape the underlying message of each post.
+- You will read tweets and determine whether they contain sarcasm or not. This requires
+  understanding the nuances of language and tone.
+- Read through provided tweets and categorize them based on their sarcasm level, which
+  relies on your perception of social interactions expressed in text.
+- Delve into the meanings behind tweets to identify their tone. Determine if the authors
+  are being sarcastic or sincere based on their phrasing and content.
+- You are tasked with interpreting quick posts on social platforms, assessing whether
+  they convey ironic commentary or sincere thoughts, enhancing your reading comprehension
+  of public dialogue.
+- You will analyze social media posts to classify them as sarcastic or sincere. Look
+  for contextual hints that reveal a different meaning than the literal one.
+- Analyze a collection of short statements from social media to ascertain their sincerity
+  versus sarcasm, enabling a deeper understanding of informal communication styles.
+- Engage with written messages to identify subtle signs of sarcasm. This requires
+  a good grasp of wordplay, irony, and social cues within the text.
+- Engage with the language used in each tweet, evaluating for signs of sarcasm compared
+  to sincere expressions, using your understanding of conversational cues.
+- In this activity, you'll read tweets closely, judging their tone as either sarcastic
+  or genuine. Your ability to interpret language nuances plays a significant role
+  in your success.
+- Engage with tweets by classifying their tone; this involves judging whether a post
+  employs sarcasm as a stylistic choice versus a straightforward message.
+- Focus on categorizing each tweet according to its sarcastic content. Understanding
+  cultural references and humor will enhance your ability to identify appropriate
+  tones.
+- 'In this task, you will read tweets and classify them into two categories: sarcastic
+  or non-sarcastic. Understanding the subtle nuances of language is essential here.'
+- For each provided tweet, identify if it employs sarcasm, which means saying something
+  that contrasts with the literal meaning.
+- Assess tweets for their use of irony, determining if they are sarcastic expressions
+  or genuine sentiments.
+- Analyze tweets to determine whether they are meant to be taken seriously or sarcastically.
+  Understanding cultural references and humor can enhance your accuracy.
+- Your job is to determine if tweets are sarcastic, which involves understanding nuances
+  in language that imply a different meaning than what appears on the surface.
+- You will process several English tweets, aiming to distinguish those that are sarcastic
+  from those that convey a genuine message, honing your interpretive skills.
+- This exercise involves evaluating tweets for their emotional tone. You should identify
+  whether a statement has a sarcastic undertone or if it is presented sincerely.
+- You will read tweets and decide whether they are sarcastic or straightforward. Look
+  for hints that suggest the author is being ironic or playful.
+- Engage with the text of tweets to classify them based on sarcasm. Look for indications
+  like irony that suggest an underlying criticism or humor.
+- 'You will examine specific tweets and categorize them into two groups: sarcastic
+  or non-sarcastic. This requires careful attention to the meaning behind the words
+  used.'
+- This task requires you to judge whether a tweet uses irony or straightforward expression.
+  Pay close attention to phrases that suggest humor or contrast.
+- Read through tweets and judge whether they lack sincerity (sarcastic) or convey
+  clear sentiments (non-sarcastic), using critical thinking skills.
+- The goal here is to read a tweet and classify it based on its intention, specifically
+  identifying if it has a sarcastic meaning or if it is sincere.
+- Interpret a selection of tweets to see if they express sarcasm, focusing on the
+  subtleties of language that indicate irony or humor.
+- The goal here is simple yet complex; you'll analyze tweets to catch their emotional
+  flavor, deciding if you're looking at dry humor or genuine sentiment.
+- Assess the provided tweets for sincerity versus sarcasm, as you identify whether
+  the statements reflect genuine sentiments or are meant to convey irony.
+- Examine each tweet for signs of sarcasm, understanding that this often involves
+  nuanced interpretation beyond face value statements.
+- Your job is to interpret the emotional tone of Twitter posts to determine if they
+  are meant as sarcasm or straightforward communication.
+- Analyze the sentiment of various tweets to decide if they are sarcastic in nature.
+  Recognize the subtle cues in language that indicate sarcasm.
+- You are tasked with examining digital expressions on social media and distinguishing
+  between sarcastic humor and serious statements.
+- "You\u2019ll assess tweets for their sarcastic content. The ability to recognize\
+  \ when words convey opposite meanings will be vital for your analysis."
+- Your focus will be on evaluating brief statements made on social media, determining
+  if they carry a sarcastic undertone that contrasts with their literal meaning.
+- Your job is to read short tweets and decide if they are sarcastic or straightforward,
+  focusing on the intended meaning behind the words.
+- You will read a tweet and determine whether it expresses sarcasm or is straightforward
+  in its message.
+- Your responsibility is to classify each tweet based on its tone, deciding if it's
+  ironic or straightforward. This requires strong interpretive skills.
+- Your responsibility is to evaluate tweets for sarcasm, requiring insight into linguistic
+  cues that suggest irony or humor versus sincere communication.
+- Evaluate the emotional tone of tweets to determine if they reflect sarcasm or straightforwardness.
+  This task involves discerning implied meanings behind the words.
+- You need to evaluate tweets to see if they appear sarcastic, which means assessing
+  the words for underlying meanings that contradict their surface sense.
+- The task involves classifying tweets based on their tone. You need to decide if
+  the message is meant to be taken humorously or literally, relying on your understanding
+  of sarcasm.
+- As part of this task, you will look at informal Twitter posts and assess whether
+  they display sarcasm, needing insight into conversational subtext.
+- Interpret a collection of tweets and decide if each one expresses sarcasm by focusing
+  on incongruities between words and intended sentiments.
+- Your job is to interpret social media content for sarcasm. Notice when statements
+  flip expected meanings through playful language or exaggerated expressions.
+- You are asked to evaluate tweets for sarcasm. This requires you to pick up on clues
+  in the wording and phrasing that indicate whether the tweet communicates genuine
+  feelings or irony.
+- Evaluate written posts for tone, specifically looking for sarcastic expressions.
+  Recognizing humor, wit, and irony will aid in making accurate classifications.
+- Your task is to differentiate between sarcastic and non-sarcastic social media posts.
+  Look for exaggeration, irony, or humor that suggests a sarcastic tone.
+- The task requires you to engage with various tweets and evaluate them for sarcasm.
+  Recognizing humor and emotional cues is vital for accuracy.
+- You will assess tweets for their underlying sentiment and classify them accordingly.
+  Recognizing sarcastic commentary is key to successful categorization.
+- The task entails evaluating social media posts for sarcastic content, requiring
+  you to pay attention to implications rather than just direct statements.
+- Your job is to interpret tweets and decide if they reflect a sarcastic attitude
+  or a straightforward perspective.
+- This task involves interpreting tweets and deciding if they reflect sarcasm, which
+  often conveys the opposite of what is said, or a genuine statement.
+- Your objective is to determine if the tone of a tweet reflects sarcasm or authentic
+  emotion. Consider how the wording can change meaning based on context.
+- Your task is to interpret tweets and determine their classification regarding sarcasm.
+  This requires careful listening to what is really being communicated.
+- The objective is to classify tweets into sarcastic or non-sarcastic types. Understanding
+  humor, irony, and exaggeration will be essential for this task.
+- Your task is to read a tweet and determine if it is sarcastic or not. You need to
+  understand the context and tone of the message to make your classification.
+- Your task is to read tweets and determine if they express sarcasm or not. You'll
+  need to identify if the words are used in a way that means the opposite of their
+  literal meaning.
+- Your role is to read tweets and categorize them as either sarcastic or non-sarcastic.
+  You will need to decode hidden meanings in everyday language typical in social media
+  contexts.
+- Focus on discerning nuanced emotions in tweets, deciding whether they project a
+  sincere message or veiled sarcasm through wordplay.
+- Tasked with interpreting tweets, you will differentiate between sarcasm and sincerity.
+  This requires familiarity with humor and social commentary styles.
+- "The task involves examining tweets to identify their nature\u2014whether they express\
+  \ sarcasm or not. This demands a keen sense of language nuances and social cues."
+- Read and evaluate each tweet to understand its impact, determining if it belongs
+  in the sarcastic category or not based on its tone.
+- Your job is to assess tweets for sarcasm. This involves recognizing when someone
+  is saying something that is meant to be taken the opposite way.
+- The goal is to assess the sentiment of various tweets. Identify sarcasm by recognizing
+  when the tweet's meaning is contrary to its wording.
+- You'll be given various tweets and need to discern the author's intent. Look for
+  cues in the language that might indicate sarcasm or sincerity.
+- 'Read various tweets and classify them into two categories: sarcastic or non-sarcastic.
+  Consider how the phrasing and context can change the meaning.'
+- Your task involves reading tweets and determining whether they express sarcasm or
+  not. Use your understanding of language nuances to make this distinction.
+- "Your responsibility is to classify provided tweets as sarcastic or sincere. This\
+  \ involves interpreting context clues that reveal the speaker\u2019s intent."
+- Engage your skills in textual analysis by examining the tone of various tweets and
+  determining if they display a form of sarcasm or if they articulate honest feelings.
+- "Explore the tone of different tweets to classify them as sarcastic or non-sarcastic.\
+  \ It\u2019s essential to interpret the underlying mood in the statements."
+- In this activity, interpreting emotional subtext in tweet language is key. Identify
+  whether responses reveal dry wit or straightforward sentiments.
+- You will examine several tweets and decide whether each one is an example of sarcasm.
+  Pay close attention to phrases that might indicate irony or humor.
+- Reflect on specific tweets and evaluate whether they embody sarcasm. This assessment
+  taps into your ability to understand both context and emotional undertones.
+- In this exercise, you will determine whether given tweets are sarcastic by focusing
+  on context clues and implications within the text.
+- The objective is to analyze social media posts for layers of meaning and recognize
+  any that include sarcasm while others present straightforward sentiments.
+- You will need to dissect various tweets and decide whether they carry a sarcastic
+  undertone or represent a non-sarcastic viewpoint.
+- Assess tweets by identifying key phrases and tone in order to determine if they
+  contain sarcasm or if they communicate a genuine sentiment.
+- In this task, you'll interpret various tweets and decide if they reflect sarcasm
+  or straightforward sentiment. Understanding social cues in language will be critical
+  to making accurate classifications.
+- Assess various tweets to determine their intended meanings. Understanding when words
+  are used ironically will be key in identifying sarcasm.
+- In this task, you will read a tweet and determine whether it is sarcastic or not.
+  Understanding tone and context in language will be essential.
+- This exercise involves assessing the intent behind tweets. Decide if the posts are
+  sarcastic, implying a deeper meaning, or if they are non-sarcastic and literal.
+- "Evaluate each tweet's content and intention, deciding if it\u2019s meant humorously\
+  \ with sarcasm or if it expresses genuine thoughts without irony."
+- Evaluate tweets to detect sarcasm, which often relies on a meaning opposite to what
+  is stated. This requires keen attention to detail and context.
+- Classify each tweet based on its sarcastic essence by analyzing the use of irony
+  and whether the expressed sentiment aligns with real feelings or responses.
+- Distinguish between ironic commentary and genuine expressions within tweets, determining
+  their overall emotional tone.
+- This task focuses on understanding expression through tweets, requiring you to categorize
+  them as either sarcastic or non-sarcastic based on their language cues.
+- In this task, you'll evaluate tweets for their sarcastic intent. Look for indications
+  that someone is mocking or saying the opposite of what they truly feel.
+- Examine the written content of tweets and decide if they fall into the category
+  of sarcastic remarks or non-sarcastic statements.
+- You will read tweets and categorize them based on their sarcastic characteristics,
+  understanding nuances in language as you do so.
+- Examine Twitter posts critically to classify them as sarcastic or not. A fine-tuned
+  sense for language will help you in this analysis.
+- Your task is to identify tweets as either sarcastic or non-sarcastic based on tone.
+  This requires a sharp sense of irony and humor in language.
+- The goal is to classify tweets into two distinct categories, recognizing sarcasm
+  in the text where it exists.
+- Analyze the sentiment presented in each tweet to clarify if it's sarcastically intended
+  or a straightforward statement of feelings.
+- Identify and categorize tweets based on their intent, focusing on sarcasm versus
+  clarity. Recognizing contrasts between what's said and what's meant is key here.
+- Review the provided tweets for sarcasm. Recognizing ironic expressions will be essential
+  as you classify each tweet based on its intent.
+- You will assess various tweets for their sarcastic nature, understanding that it
+  often hinges on context, word choice, and the overall vibe of the statement.
+- In this task, you analyze tweets to determine if they contain sarcasm. You need
+  to recognize clues in the text that imply the speaker means the opposite of what
+  they say.
+- Your task is to sift through tweets to identify whether they contain sarcasm. A
+  keen sense of language subtleties will help you determine the intended message.
+- This task revolves around distinguishing between sarcastic humor and straightforward
+  messages within tweets, requiring a thoughtful assessment of context and intent.
+- This task involves classifying written social commentary by determining its sardonic
+  nature. Analyze nuances in words that indicate an opposite sentiment.
+- In this challenge, analyze a series of tweets for sarcasm by considering their underlying
+  meanings and context, blending language skill with critical thinking.
+- Analyze the content of tweets to classify them based on their sarcasm level. Recognize
+  indicators of sarcasm, such as exaggerated statements or hashtags.
+- In this task, your job is to classify tweets according to their expression of sarcasm.
+  Focus on understanding language playfulness to make accurate judgments.
+- You will evaluate tweets in English and classify them based on whether they are
+  sarcastic or genuine. This requires awareness of language nuances.
+- Your responsibility is to classify each tweet you encounter, recognizing tones that
+  signify sarcasm as opposed to sincerity.
+- This task involves analyzing tweets for sarcasm. You need to identify whether the
+  message conveys the opposite of its literal meaning or expresses genuine sentiment.
+- Analyze the language used in each tweet to identify if it's sarcastic, acknowledging
+  how context can influence meaning and tone.
+- "Analyze a set of tweets and determine their tone, distinguishing between sarcasm\u2014\
+  which often has an ironic twist\u2014and straightforward statements."
+- You need to classify a selection of English tweets, distinguishing between sarcasm
+  and straightforward communication through careful interpretation.
+- Evaluate written tweets to determine if they are sarcastic. This requires an understanding
+  of context and the ability to recognize when someone is joking or being insincere.
+- This task challenges you to interpret tweets accurately, deciding whether they employ
+  sarcasm or express a direct message without irony.
+- This task involves making judgments about social media interactions by discerning
+  between a playful sarcasm and honest emotional expression present in tweets.
+- You will investigate posts on social networking sites, classifying them between
+  sarcastic or non-sarcastic based on underlying tones and contextual humor.
+- Your responsibility is to read tweets and decide if they are sarcastic by identifying
+  language that suggests an ironic interpretation of otherwise sincere statements.
+- "In this activity, you\u2019ll determine whether the sentiment behind each tweet\
+  \ is sarcastic. Familiarity with social media lingo and situational humor will aid\
+  \ your judgment."
+- Read tweets and decide if they use sarcasm. Consider how the words might imply an
+  alternative meaning that contrasts with their literal interpretation.
+- Interpret the meaning in various tweets, focusing specifically on recognizing sarcasm
+  versus non-sarcastic remarks.
+- Your task is to discern sarcasm in tweets by identifying linguistic cues that indicate
+  irony or insincerity, presenting a challenge in reading tone effectively.
+- The task is about identifying the underlying tone of tweets, deciding if they carry
+  a mocking or insincere intent (sarcasm) or if they are earnest statements (non-sarcastic).
+- The goal is to assess the sentiment of various tweets, discerning sarcasm from sincerity.
+  Familiarity with social media language will be beneficial.
+- Evaluate tweets to see if they express sarcasm, relying on your ability to recognize
+  subtle cues in language that convey contradiction or humor.
+- Your job is to classify tweets as sarcastic or non-sarcastic. This requires an understanding
+  of tone and context, particularly the use of irony and humor.
+- You are tasked with identifying whether the provided tweets employ sarcasm as a
+  form of expression or maintain a sincere tone.
+- Understand the subtle differences in expression within tweet language, classifying
+  content as either sarcastically delivered or genuinely intended communication.
+- You will interpret written communication in tweets, focusing on whether the meanings
+  differ from their literal interpretations, signaling sarcasm.
+- Assess tweets for their tone and classify them based on whether they express sarcasm.
+  Familiarity with common sarcastic phrases may help in this evaluation.
+- Your task is to evaluate a given tweet and decide if it is sarcastic or non-sarcastic.
+  You'll need to consider the context and tone of the words used.
+- Your objective is to analyze the sentiment of tweets, identifying if they express
+  sarcasm. This will involve recognizing nuanced language that suggests an opposite
+  meaning.
+- The purpose here is to understand nuanced expressions in tweets, identifying when
+  sarcasm is present and when statements are to be taken at face value.
+- In this assignment, you'll read through tweets and use your understanding of sarcasm
+  to classify them correctly. This includes distinguishing between playful or ironic
+  statements versus serious ones.
+- Analyze a series of tweets in English for sarcasm. This task tests your ability
+  to understand when someone might be joking or being serious.
+- Your task includes sifting through tweets to establish whether they contain sarcasm
+  or are sincere expressions. It involves grasping subtleties in communication styles.
+- The task entails reviewing tweets for their humor level, determining if they imply
+  sarcasm through contrasting expressions of feelings.
+- Focus on the language used in tweets to figure out if there's wit involved that
+  qualifies them as sarcastic comments.
+- "You\u2019ll engage with various tweets, deciding if each one embraces sarcasm.\
+  \ Insight into social communication dynamics and rhetorical devices will assist\
+  \ you here."
+- Delve into the nuances of language presented in tweets to determine whether they
+  represent humor through sarcasm or non-sarcastic content.
+- Understand and categorize tweets by evaluating their sarcasm level. Recognize clues
+  in wording that suggest an insincere or humorous intent.
+- "You will be assessing the intent behind various tweets\u2014consciously separating\
+  \ humorous sarcasm from genuine sentiments expressed by users."
+- You will examine English tweets to see if they utilize sarcasm, requiring you to
+  think critically about how words can convey opposite meanings.
+- The task involves reading and interpreting tweets for sarcasm detection. Focus on
+  contextual clues that reveal whether the sentiment is genuine or satirical.
+- Investigate the emotional cues in tweets that inform whether they are sarcastic.
+  Dissecting irony is key to successfully categorizing these posts.
+- Engage with tweets critically to classify them based on their use of sarcasm, requiring
+  insight into how humor can mask true feelings or sentiments.
+- Analyze tweets to characterize their tone as sarcastic or non-sarcastic. Look for
+  phrases that suggest a humorous contradiction to literal interpretations.
+- In this activity, you will evaluate tweets to classify them into two categories
+  based on their tone. Focus on identifying sarcastic remarks compared to straightforward
+  statements.
+- You will read through a set of tweets and need to discern if they exhibit sarcasm.
+  This includes understanding implied meanings and emotional tones in language.
+- Analyze given tweets to identify whether they convey sarcasm or sincerity. Look
+  for clues in the language that suggest the opposite of what is meant.
+- Examine tweets closely to identify their tone. Decide if each tweet employs sarcasm
+  by looking for signs that the literal meaning differs from the intended meaning.
+- Analyze social media posts to classify their tone as either sarcastic or non-sarcastic,
+  relying on your understanding of humor and context in communication.
+- You will engage with tweets to discern their attitudes, focusing particularly on
+  recognizing sarcastic comments that employ irony in their phrasing.
+- "The task includes categorizing tweets into two groups based on their tone\u2014\
+  sarcastic or non-sarcastic\u2014by interpreting the writer's intentions behind their\
+  \ words."
+- Your job is to identify the sentiment behind each tweet, differentiating between
+  those that use sarcasm effectively for humor or critique and those that communicate
+  sincerity.
+- This task asks you to decide if tweet sentiments are sarcastic by assessing their
+  context and emotional undertones thoughtfully.
+- Examine each tweet closely to classify it as sarcastic or non-sarcastic. Use clues
+  from the language and context to guide your analysis.
+- You will classify tweets based on whether they are sarcastic or not, requiring sensitivity
+  to language nuances especially in humorous contexts.
+- Classifying tweets involves identifying sarcasm by analyzing word choices and tonal
+  cues that suggest an underlying contradiction.
+- Your role involves reading tweets carefully and using your understanding of sarcasm's
+  characteristics to classify each message appropriately.
+- Determine if the sentiments expressed in tweets are genuine or sarcastic, relying
+  on your insight into colloquial expressions and cultural references.
+- Classify the emotional tone of given tweets by identifying which ones employ sarcasm
+  versus those that present honest observations without irony.
+- "You will classify tweets based on their tone, deciding if they express sarcasm\
+  \ or straightforwardness. It\u2019s essential to interpret the underlying intention\
+  \ behind the words."
+- In this task, you'll look at tweets and identify if the sentiment is sarcastic.
+  This involves recognizing irony and playful exaggeration.
+- Your objective is to detect whether tweets convey sarcasm, which involves noticing
+  subtle shifts in meaning that point away from their literal interpretation.
+- You will be presented with a selection of tweets and asked to determine if they
+  convey sarcasm or are simply sincere observations. Pay attention to the context
+  and wording.
+- Classify tweets as either sarcastic or non-sarcastic. You'll need to interpret the
+  author's tone and intention behind their words.
+- You will encounter various tweets and need to label them as either sarcastic or
+  non-sarcastic. Consider how words may convey different meanings in different contexts.
+- Assess the emotional context behind each tweet provided. Your goal is to identify
+  whether it is meant humorously with sarcasm or if it conveys earnestness.
+- Your role is to interpret tweets, distinguishing between those that use sarcasm
+  and those that express straightforward ideas. Look for irony or contradictions.
+- Engage with tweets and use your judgment to decide whether the messages contain
+  sarcastic undertones or are sincere declarations.
+- Undertake a classification of tweets focused on detecting sarcasm versus straightforward
+  expressions. Pay attention to specific wording that hints at irony.
+- In this task, you need to assess a tweet's tone and determine whether it expresses
+  sarcasm or is straightforward. This requires an understanding of language nuances.
+- Scrutinize the language used in tweets to detect sarcasm, requiring critical thinking
+  about how intent can shift with wordplay or irony embedded in text.
+- Analyze the tone of various tweets to find out if they convey sarcasm or sincerity.
+- This task requires you to judge the tone of different tweets, identifying whether
+  they are meant to be sarcastic jokes or genuine messages.
+- This task challenges you to interpret social media language by deciding whether
+  sentiments expressed in tweets are sarcastic or straightforward.
+- Analyze tweets to classify them as either sarcastic or non-sarcastic. This involves
+  understanding the tone and context of the language used.
+- Engage with tweets to distinguish whether they contain sarcasm. This requires a
+  keen sense of humor and an understanding of irony in everyday language.
+- Your job is to examine tweets carefully, discerning whether they express sarcasm
+  by looking for contradictions in the words used and the context.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1489_sarcasmdetection_tweet_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1489_sarcasmdetection_tweet_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

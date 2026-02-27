@@ -1,0 +1,50 @@
+# Linux 跨机环境迁移 Agent 规格说明 (Migration Spec - Pure Conda Edition)
+version: "4.0"
+agent_name: "Linux-EnvMigrator-Vanilla"
+description: "专为 Linux 环境设计的纯净版迁移智能体，仅依赖原生 Conda 进行硬件自适应改写与安装。"
+
+# 1. 源环境基准 (Source Baseline)
+# 这是你打包环境时的真实配置，供 Agent 对比使用
+source_baseline:
+  os: "Windows" 
+  gpu_model: "GTX 5060"             # 替换成你实际的显卡型号
+  cuda_version: "12.9"              # 替换成你打包环境时使用的 CUDA 版本
+  core_framework: "PyTorch"
+  python_version: "3.12"            # 你的 Python 版本
+
+# 2. 目标机器探测 (Target Inspection)
+target_inspection:
+  - task: "detect_gpu_and_cuda"
+    command: "nvidia-smi --query-gpu=name,driver_version --format=csv,noheader"
+    description: "获取目标机器的显卡型号和驱动支持的最高 CUDA 版本。"
+  - task: "detect_conda"
+    command: "which conda"
+    description: "确认目标机器 Conda 路径是否可用。"
+
+# 3. 依赖自适应重写引擎 (Adaptation Rules)
+adaptation_rules:
+  cuda_downgrade:
+    condition: "目标机器最高支持 CUDA 版本 < source_baseline.cuda_version"
+    action: "修改 env.yml，将 pytorch-cuda 降到目标机器支持的最高版本 (如将 12.1 降为 11.8)，同时检查各种相关依赖，尽量保持不变，如果一定要发生改变的话，请保持各个包的版本不要发生冲突"
+  
+  no_gpu_fallback:
+    condition: "目标机器执行 nvidia-smi 失败，判定为无 GPU"
+    action: "剥离 env.yml 中的 pytorch-cuda 和 nvidia-* 依赖，强制将 PyTorch 替换为 CPU 版本。"
+
+  strict_hash_removal:
+    condition: "env.yml 中的包带有特定编译哈希 (如 torch=2.1.0=py310_cu121_1)"
+    action: "剥离所有哈希尾缀，仅保留包名和主要版本号 (如 torch=2.1.0)，防止跨机解析失败。"
+
+# 4. 执行工作流 (Execution Workflow)
+execution_workflow:
+  step_1: "读取同目录下的 env.yml"
+  step_2: "执行 target_inspection 获取目标机器硬件信息"
+  step_3: "根据 adaptation_rules 生成一份 target_env.yml"
+  step_4: "运行原生安装：conda env create -f target_env.yml"
+  step_5: "若 Conda 安装完成但部分 pip 包报错，激活环境后单独执行 pip install 补齐"
+
+# 5. 验证测试 (Verification)
+verification_tests:
+  - test: "cuda_availability"
+    command: "conda run -n <环境名> python -c 'import torch; print(\"CUDA 状态:\", torch.cuda.is_available())'"
+    success_criteria: "如果目标机器有 GPU，必须输出 True；否则输出 False 但不能报错。"

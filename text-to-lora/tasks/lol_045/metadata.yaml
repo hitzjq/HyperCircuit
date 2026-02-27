@@ -1,0 +1,503 @@
+assistant_prefill: ''
+descriptions:
+- Your task is to take a statement and rephrase it in a way that maintains the same
+  meaning, ensuring that the answer to a given question can still be inferred from
+  your new sentence.
+- The goal here is linguistic re-expression; you'll take details of a supporting sentence
+  and reshape them into new sentences, ensuring they still illuminate the connection
+  between the question and answer.
+- The challenge involves critically engaging with language, where you rewrite supporting
+  sentences about questions in different wording while keeping true to their original
+  message.
+- The goal is to reformulate an existing sentence so that it remains relevant to the
+  provided question and answer. Paraphrasing is key, as you should not rely on the
+  original wording.
+- Your work here is about taking factual information from one sentence and expressing
+  it differently so that someone can still derive the same answer when posed with
+  the initial question.
+- Engaging in this task means you'll be paraphrasing sentences linked to certain questions,
+  demonstrating your ability to convey ideas using diverse vocabulary.
+- Engage in paraphrasing by taking a sentence that explains an answer and modifying
+  it with different terms. Ensure that anyone reading your modification can still
+  connect it back to the original query.
+- "In this assignment, you will work on paraphrasing given sentences while maintaining\
+  \ their supportive function concerning a question. It\u2019s an exercise in both\
+  \ understanding and creativity."
+- You're required to take a given assertion linked to a question and present it afresh
+  through paraphrasing. The output should continue affirming the initial response
+  without repeating previous phrasing.
+- This task involves paraphrasing a given sentence in a way that maintains the original
+  meaning and continues to support the answer to a question.
+- Your objective is to reinterpret a supporting sentence in fresh language, ensuring
+  that the essence and relationship to the question remain clear.
+- Your job is to creatively restate provided sentences, ensuring that the essence
+  remains intact so readers can infer the answer to an associated question.
+- In this task, you're asked to take a supporting statement and transform it into
+  alternative expressions. Ensure that your paraphrase still leads back to the answer
+  of the associated question.
+- The task involves rephrasing a supporting sentence to maintain its meaning while
+  using different words. It's about demonstrating an understanding of paraphrasing.
+- Your job is to creatively restate a supporting sentence, allowing for new expressions
+  while making sure it continues to uphold the core meaning related to the question.
+- Your task is to take a statement that supports a specific question and rephrase
+  it in a way that still allows the answer to be inferred. This involves using different
+  words while retaining the core meaning.
+- The emphasis of this task lies in reorganizing and reformulating sentences associated
+  with specific questions, showcasing your ability to convey ideas clearly and understandably
+  through paraphrasing.
+- In this task, you will modify a supporting statement to create a paraphrase that
+  allows the same conclusion about the question to be drawn from the new wording.
+- This activity entails rewriting a supportive statement with different language,
+  while ensuring that the answer remains inferable from your new phrasing.
+- Your task includes restating information from a supporting sentence for clarity
+  and variety while ensuring it remains relevant to the central question. It enhances
+  writing skills through transformation.
+- Your mission is to rephrase the key information from a supporting sentence so that
+  it still aligns with and supports the original question and answer relationship.
+- This exercise asks for an artistic approach in language, asking you to convey existing
+  ideas in new formulations while ensuring clarity towards answering a specific query.
+- The goal is to express the same idea as given in a sentence but using different
+  words. This helps in enhancing your paraphrasing skills and understanding of context.
+- The goal here is to showcase your ability to convey similar ideas through different
+  expressions, ensuring the reworked sentences still point back to the intended answer
+  of each question.
+- Here, you will be rephrasing sentences related to questions while keeping the answers
+  inferable. It involves recognizing key ideas and expressing them through synonyms
+  or alternative phrases.
+- You need to illustrate your understanding of paraphrasing concepts by rephrasing
+  sentences in support of associated questions without losing essential information.
+- This activity requires using your comprehension of language nuances. You are crafting
+  different versions of an existing sentence while ensuring its link to answering
+  the question remains intact.
+- In this task, you will practice your language skills by rewriting a supportive piece
+  of information, changing its wording but retaining its significance in relation
+  to the question being asked.
+- In this task, you will take a supporting sentence and rewrite it in a different
+  way, making sure that the answer to the question can still be inferred from your
+  new version.
+- Your task is to modify a supporting sentence into various forms while keeping the
+  original intent clear for the related question. This requires precision in language
+  and thought.
+- This task involves understanding a supportive statement and rewriting it with different
+  wording while still conveying the same idea and allowing the question's answer to
+  be deduced.
+- You'll be tasked with paraphrasing sentences as you revision language to craft supportive
+  statements that point toward correct answers for related questions.
+- You need to paraphrase a sentence so that it maintains its original meaning in relation
+  to a specific question and answer.
+- You will synthesize ideas from given sentences into uniquely phrased alternatives
+  while ensuring that these alternatives maintain their original informative purpose
+  regarding the query.
+- In this task, you will reformulate a sentence that provides evidence for a question,
+  making sure that the essence and support remain intact. It emphasizes creativity
+  in language use.
+- The task at hand involves taking an informative sentence and expressing it differently
+  while preserving its relevance to the associated inquiry and response.
+- Explore different ways to phrase a statement that backs an answer. Your paraphrases
+  should allow someone else to easily figure out what the answer is just by understanding
+  your words.
+- You will need to engage critically with provided sentences and rearticulate their
+  meaning without losing their connection to related questions, employing creative
+  language choices.
+- The task centers around modifying sentences for varied expression while preserving
+  their relationship with specific questions; it's an exercise in both comprehension
+  and articulation.
+- This task requires you to draw upon your understanding of language to reformulate
+  sentences in ways that preserve their supportive nature towards specific questions.
+- You are required to reformulate sentences to ensure they continue to support an
+  answer to a question, focusing on incorporating fresh language and structure.
+- In this task, you are expected to create an alternative construction of a given
+  sentence such that it offers the same support for the question and includes distinct
+  language.
+- The focus here is on rephrasing statements thoughtfully so that new versions keep
+  intact the connection between the sentences and their respective questions.
+- You'll perform paraphrasing on sentences linked to questions. Each new expression
+  should be distinct and should still emphasize or lead back to the prior stated answer.
+- You will be taking an initial sentence and creatively rewording it, ensuring the
+  revised sentences continue to support an associated question accurately. It relies
+  on both vocabulary knowledge and comprehension.
+- "The goal is to provide several variations of a supportive statement that use distinct\
+  \ words but share the same underlying message regarding a question\u2019s answer."
+- In this task, your challenge is to take a provided sentence and reshape it into
+  other workable forms without sacrificing clarity or the relationship to its respective
+  question.
+- This assignment involves reshaping the wording of an informative sentence so it
+  can still support an answer linked with a query without merely changing single words.
+- "You are tasked with expressing information differently; each paraphrase should\
+  \ carry implications that guide one back towards understanding or deducing the initially\
+  \ posed question\u2019s response."
+- Harness your understanding of semantics by creatively modifying how information
+  is expressed, maintaining an undeniable link back to both the question and its resolution.
+- The objective of this task is to illustrate your comprehension of a concept by reformulating
+  statements that are tied to inquiries, showcasing your ability to reinterpret information.
+- In this exercise, you're synthesizing information by transforming how it's presented,
+  ensuring that each rephrased sentence still logically supports its corresponding
+  question.
+- Partake in an exercise of paraphrasing where various expressions are crafted around
+  direct statements related to queries, all while maintaining essential clarity and
+  context.
+- You need to examine a statement that provides information relevant to a question
+  and create alternative versions of that statement which all point back towards the
+  same answer.
+- The goal of this task is to use different language and expression to present an
+  idea clearly while ensuring it still answers or supports a related question.
+- You will engage with material that requires innovative thinking as you reword sentences
+  provided in relation to specific inquiries, ensuring logical consistency remains
+  intact.
+- In this task, you are required to express an idea in a new way while making sure
+  that it continues to support the question asked.
+- You are required to pick apart an existing assertion and reword it artfully so that
+  every reformulation remains relevant to its guiding question and maintains its informative
+  value.
+- In this exercise, you must focus on changing sentence structures and wording while
+  making sure that each new rendition still supports an associated question logically.
+- This task involves taking a factual statement and rewriting it in different phrasing.
+  The aim is for your new version to preserve the relationship between the question
+  and its answer.
+- This challenge invites you to explore language alternatives by paraphrasing sentences
+  so they remain relevant and substantiative in answering specific questions.
+- You will be asked to take an established statement and reformulate it with different
+  wording while maintaining its role in answering a specific question.
+- You will need to take a straightforward sentence and change its structure or wording
+  while keeping the core message intact for answering the related question.
+- This task requires you to change the structure and words of a provided sentence
+  without losing its connection to the question it supports and the related answer.
+- You will practice your skills in expressing ideas in new ways by restating given
+  sentences, ensuring they hold meaning relevant for deducing an answer to any related
+  query.
+- The challenge here is to take sentences that explain answers to questions and rewrite
+  them using different wording while preserving their original meaning. This requires
+  critical thinking about language.
+- You must demonstrate your grasp of language by paraphrasing sentences designed to
+  support answers while ensuring they serve as valid references for related questions.
+- Engage in creating varied sentences based on provided statements; this should emphasize
+  different lexicons while making sure every derived version can be clearly traced
+  back to its fundamental answer.
+- You are asked to transform a given sentence into new sentences while preserving
+  its meaning tied to a question-answer dynamic. This tests your skill in understanding
+  and rewriting concepts.
+- The assignment entails wrapping your mind around a statement connected to a query
+  and adjusting its wording sufficiently so it can still lead to the same conclusion.
+- Engage in rewording sentences by introducing synonyms or fresh phrases, ensuring
+  they retain their inferential relationship with both the question and its answer.
+- You will need to articulate the same idea found in a supporting sentence in different
+  words, ensuring that the revised version still supports the related question directly.
+- You will rewrite a supporting statement, replacing words and altering structure
+  while ensuring that it still logically leads back to the original question's answer.
+- You are asked to rephrase a given supporting sentence in such a way that it still
+  conveys the same information and supports the related question, but with different
+  language.
+- For this activity, you will paraphrase a provided sentence that relates to a specific
+  question and answer, ensuring that your version can still lead to the same conclusion.
+- You will explore paraphrasing techniques by taking existing sentences and reformulating
+  them in engaging ways that ensure they still underline answers to core questions.
+- Focus on maintaining clarity and coherence as you adapt given sentences, ensuring
+  they continue to align with their foundational questions while employing distinct
+  vocabulary.
+- You need to paraphrase a supporting sentence for a question, ensuring that the new
+  sentence maintains the ability to infer the correct answer. It focuses on language
+  flexibility and comprehension.
+- In this exercise, you need to take a sentence that backs up a question and transform
+  it into another version that still conveys the same idea. This requires skills in
+  language and comprehension.
+- In this exercise, you are asked to reword a sentence so that its meaning shifts
+  slightly with fresh terminology but continues to clarify an answer connected to
+  a question.
+- This activity revolves around selecting alternative expressions for provided sentences,
+  while reinforcing their relevance in supporting specific questions and answers.
+- The essence of this task is to adapt sentences into alternative formulations while
+  preserving their core meaning, thus enabling inference towards the questions posed.
+- Your role is to transform a sentence into various alternative forms, ensuring each
+  paraphrase still conveys sufficient information that leads back to the answer of
+  the related question.
+- The project involves conceptualizing a statement differently; you must be sure that
+  your rewritten sentence still serves as valid support for deducing the correct answer
+  from the original question.
+- Your challenge involves taking statements which support answers and restating them
+  creatively so they remain informative without using the original phrasing.
+- Your task revolves around taking provided sentences that enhance understanding of
+  a question and crafting new expressions of those sentences while retaining their
+  core meaning.
+- You will need to transform a supporting sentence into a different version using
+  fresh vocabulary while keeping its relevance to the question intact.
+- You'll need to engage in paraphrasing where you transform given statements into
+  new sentences that can still effectively indicate answers to questions.
+- Paraphrase the sentence you are given, ensuring that the rephrased version still
+  aligns with answering the specified question.
+- In this task, your goal is to paraphrase a sentence that provides evidence for a
+  question, using new vocabulary while maintaining the original intent and meaning
+  behind the sentence.
+- You will create alternate versions of a given sentence, ensuring the essence remains
+  intact and can still lead to the answer of the question.
+- "Your assignment is centered around paraphrasing\u2014crafting statements anew while\
+  \ ensuring they maintain their evidential role regarding an underlying answer linked\
+  \ to a particular inquiry."
+- This exercise requires you to transform statements that underlie certain answers
+  into variations that are entirely distinct yet still endorse the intended message
+  or meaning.
+- You will be paraphrasing sentences in this exercise, which involves using your linguistic
+  skills to express the same concepts differently while aligning with a specific question.
+- Your role is to take provided information in a supporting sentence and reshape it
+  linguistically while ensuring it still validates the corresponding question asked.
+- As part of this task, you will transform an informational sentence into varied expressions,
+  preserving key ideas and enabling inference about the original response tied to
+  a question.
+- The challenge lies in rearticulating an explanatory sentence; focus on making distinct
+  phrases without losing sight of what supports the factual response derived from
+  the question.
+- The focus of this task is on rephrasing an existing sentence while retaining its
+  core message so it continues to support the answer derived from the question context.
+- The focus here is on the ability to express the same idea in alternate terms. You
+  are meant to grasp the essence of supporting sentences and present them in diverse
+  ways.
+- Your goal is to reformulate a supporting sentence so that it contains new vocabulary
+  but retains its meaning in context with the question.
+- Your task involves focusing on synonyms and restructuring phrases within a sentence
+  that intuitively continues to illustrate the relation between a question and its
+  answer.
+- The focus here is on transforming sentences in supportive roles regarding questions
+  into new forms while maintaining their overall meaning and interpretive strength.
+- You will analyze a sentence that answers a question and then creatively restate
+  that sentence with new vocabulary while keeping the original message intact.
+- Your task includes reformulating provided sentences with innovative wording, allowing
+  others to grasp how they relate to specific questions without altering their fundamental
+  ideas.
+- This task involves transforming a sentence into a new version that uses different
+  words but still implies the same information related to the question.
+- The focus of this activity is on generating alternate phrases for informative sentences
+  tied to questions. Keep in mind, each reformulation should yield obvious links back
+  to their associated answers.
+- The goal of this task is to express a supportive statement in new words, ensuring
+  that the paraphrased version still conveys the necessary information to infer the
+  answer.
+- Your objective is to create paraphrases of sentences that affirmatively relate to
+  an answer to a question, avoiding simple alterations and instead utilizing innovative
+  wording.
+- You will be given a statement related to a question, and you need to restate it
+  using different words while maintaining its ability to convey the original answer.
+- This task challenges you to reword sentences so they still convey supply-related
+  information about a question's answer while introducing new terms and phrases.
+- This activity calls for paraphrasing supportive statements linked to questions while
+  keeping their inferential relationship intact, demonstrating linguist flexibility
+  and insight into content.
+- This task challenges you to take a sentence linking a question and its answer and
+  reword it, ensuring that the essential meaning remains clear. It tests your ability
+  to convey information in varied forms.
+- The objective is to successfully convey the essence of a sentence while using new
+  vocabulary and structure so that it can still be linked back to the original question.
+- Your goal is to take supportive evidence for answers and express it through alternative
+  wording, ensuring comprehension remains consistent despite textual changes.
+- This task emphasizes language flexibility as you reformulate sentences in ways that
+  clearly lead back to their implied answers, enriching comprehension through varied
+  expression.
+- In this task, you will take sentences that help answer specific questions and convert
+  them into paraphrases. The goal is to show your understanding of both the original
+  content and the ability to express it uniquely.
+- In this task, you will be tasked with using your creativity and language skills
+  to generate alternatives to a given sentence that still relate directly to answering
+  a posed question.
+- In this exercise, take care in rephrasing sentences in a way that they preserve
+  the logic necessary for drawing answers while altering their structure and vocabulary
+  significantly.
+- This task demands you to think creatively by taking an existing sentence and transforming
+  it into varied forms, all while upholding its relevance to a particular inquiry.
+- You are required to think critically about how to say the same thing differently,
+  focusing on maintaining meaning as you produce varied expressions based on an original
+  supportive statement.
+- This task requires you to produce multiple rewordings of a sentence that can still
+  be linked back to the question and answer provided, without changing their implications.
+- "In this exercise, you\u2019ll need to find new ways to articulate a statement about\
+  \ a topic so that it remains connected to the context of the question posed."
+- Your focus in this activity is on linguistic creativity as you reformulate sentences,
+  making sure they each still serve as valid support for interpreting answers to questions.
+- Engage with language creatively by reformulating a sentence, ensuring it remains
+  a strong supporter for deriving the provided answer concerning the associated question.
+- Your objective is to take an existing statement and express it in varied words,
+  keeping its support for a related question clear and inferring the answer logically.
+- The task focuses on creating paraphrases of a provided statement to ensure it still
+  supports the inference needed for the question given.
+- You need to take a sentence that provides evidence for a question and transform
+  it into different wording, while ensuring it still supports the same answer.
+- This exercise involves rewriting a sentence that provides justifying details for
+  a question, while using entirely different vocabulary and phrasing.
+- Adapting sentences into new expressions is key here. You will need to ensure that
+  despite the changes, the essence pointing towards the answer remains intact.
+- The objective is to take a supporting sentence and express its content differently
+  by using fresh vocabulary while preserving its support for the answer.
+- The goal is to express the idea from one sentence in various ways while ensuring
+  that it continues to relate directly to the question's answer.
+- Your task is to take a provided sentence and rephrase it while ensuring it still
+  conveys the same meaning that supports a given question.
+- You need to demonstrate your paraphrasing skills by rewording a sentence without
+  losing the key information that helps in answering a related question.
+- This task requires you to express the same idea in a new way. You will paraphrase
+  a given sentence so that it continues to support the answer to a related question.
+- This task requires you to think critically about how ideas can be communicated differently.
+  You'll rewrite sentences so they still align closely with their respective questions
+  but through varied expressions.
+- In this assignment, focus on rewriting sentences by changing their phrasing significantly
+  so that they continue to convey the same meaning relevant to answering an inquiry.
+- This activity revolves around adapting supportive sentences into various rephrased
+  forms, ensuring their relationship with the original inquiry remains clear and intact.
+- This task requires you to take a given sentence and restate it in a new way, using
+  different words while still allowing the original answer to be inferred from your
+  paraphrase.
+- You need to demonstrate your understanding of language by expressing a given statement
+  in new terms, making sure it still aligns with the context of the original question-answer
+  relationship.
+- The task requires crafting multiple new sentences from an original, ensuring they
+  all still connect back to supporting the question with the same answer.
+- You are tasked with paraphrasing sentences linked to an answer for a question, focusing
+  on producing completely new expressions while keeping their informative core.
+- Your task requires you to transform given statements into various inferential forms,
+  ensuring all versions accurately reflect their connection to a specific answer without
+  alteration in meaning.
+- The goal is to paraphrase a statement appropriately so that it continues to affirm
+  its relevance to both the question being asked and its corresponding answer.
+- You will rephrase sentences in such a way that anyone reading your version can still
+  understand what the original sentence aimed to support regarding the question.
+- You need to demonstrate your ability to reword a supporting statement so that it
+  still conveys the same information, keeping the answer to the question intact.
+- Your task is to read a statement that supports a specific question and to rephrase
+  this statement while retaining its core meaning, ensuring it continues to support
+  the same answer.
+- This task assesses your paraphrasing capabilities as you are expected to reformulate
+  supportive text into new sentences that coherently match with defined questions.
+- The aim is to restate sentences that clearly back up an answer so they feel fresh
+  and novel while continuing to communicate their alignment with the original question.
+- You will be paraphrasing given sentences to maintain their relationship with specific
+  questions, making sure your versions include new vocabulary while preserving meaning.
+- Your responsibility is to take an explanatory sentence and describe it differently
+  without losing its original implication related to the main question.
+- Your task is about taking sentences that provide information related to questions
+  and recreating them in varied ways yet consistent with their original meanings.
+- The challenge is to think critically about how information can be conveyed differently
+  through paraphrasing while remaining anchored in the original context of inquiry.
+- In this task, you will shift the wording of sentences that relate directly to answers,
+  making sure they are framed differently yet still convey essential meaning.
+- This activity involves adjusting a supporting sentence such that it upholds the
+  connection between the statement and the answer, all while using new phrasing.
+- The goal is to generate new expressions for an existing supporting sentence, allowing
+  for varied interpretations while consistently pointing back towards the correct
+  answer.
+- This task focuses on transforming sentences through paraphrasing, while ensuring
+  that they continue to relate to the given question-answer pair.
+- This project calls for innovative language use as you take existing supporting statements
+  and rearrange them into new structures while still conveying their original messages.
+- Your goal is to reformulate a given sentence so that it continues to support an
+  associated question. This entails grasping the core message and expressing it differently.
+- This task requires you to reinterpret a sentence, using fresh vocabulary and structure
+  while still keeping the original meaning and supporting the answer to a posed question.
+- Your task is to take a statement that supports a given question and rephrase it
+  while ensuring the meaning stays the same, but with new words.
+- This task focuses on paraphrasing sentences that contain information relevant to
+  a specific question, requiring you to reformulate them in an original way.
+- "You are challenged to express the same facts differently, creating new sentences\
+  \ that align with a question\u2019s framework. This highlights adaptability in communication\
+  \ skills."
+- Your responsibility is to create paraphrases for given sentences that support questions,
+  ensuring that the new sentences still hold true to the original answer without minor
+  adjustments.
+- The challenge lies in creatively transforming statements into fresh paraphrases
+  while keeping their core substantiation intact concerning the associated questions.
+- In this task, you'll be transforming a given sentence into a different expression
+  while ensuring that it continues to support the answer to the corresponding question.
+- The exercise requires crafting paraphrases of a specific supporting statement without
+  altering the intended meaning related to its question. This encourages deeper comprehension
+  of nuances in language.
+- You are required to paraphrase an provided sentence, altering its wording to create
+  new expressions that convey the same idea and still indicate the answer to the question.
+- You are challenged with restating an assertion related to a question so that it
+  keeps its supportive function, utilizing alternative vocabulary and expressions.
+- Here, you will summarize ideas from given sentences related to specific questions,
+  utilizing alternative language forms while ensuring the underlying meaning is preserved.
+- "This task centers around paraphrasing as an exercise in comprehension and expression\u2014\
+  creating varied sentences that still convey the essence of information relevant\
+  \ to a specific question."
+- Your task is to take a statement that supports a specific question and rephrase
+  it while preserving its meaning. This requires a good understanding of synonyms
+  and alternative phrases.
+- The task consists of paraphrasing an answer-supporting sentence to keep it aligned
+  with a given question, emphasizing originality in your word choices.
+- The task involves taking a sentence that supports a question and rewriting it using
+  different words while maintaining its original meaning and relevance to the question.
+- Engage in rewriting statements that validate answers to questions, striving for
+  creativity in expression while keeping core ideas aligned with what needs to be
+  inferred.
+- The task involves rephrasing a given sentence while retaining its original meaning,
+  ensuring it still supports the associated question and answer.
+- You need to demonstrate your language skills by restating a supporting sentence
+  with different terms while ensuring it still clarifies and answers the associated
+  question.
+- Your task is to rephrase a given sentence so that the meaning remains the same and
+  still supports the answer to a specific question.
+- In this task, you draw upon your linguistic skills to transform statements so they
+  continuously reference their foundational questions and answers effectively.
+- You are tasked with generating new expressions of provided sentences in ways that
+  are enriched with different vocabulary yet continue to affirm previous conclusions
+  for questions posed.
+- This activity focuses on paraphrasing sentences to link them effectively with questions,
+  demonstrating your ability to understand context and restructure language elegantly.
+- In this task, you will paraphrase a supporting statement about a topic in such a
+  way that it retains the original meaning and relation to the provided question and
+  answer.
+- Your job is to transform a sentence related to a question into a new sentence that
+  holds the same inferable answer without using the exact phrasing from the original.
+- You are expected to showcase your linguistic skills by restructuring sentences while
+  ensuring they still validly support related questions. This tests your proficiency
+  in adjusting language effectively.
+- The objective here is to rewrite a sentence so that it still confirms the answer
+  to the question, using different words rather than minor alterations.
+- Crafting new wordings for supportive statements is crucial here; your rephrasing
+  efforts should bring forward clarity while still affirming the connection between
+  questions and their responses.
+- Focus on utilizing new words and differing sentence structures as you paraphrase,
+  ensuring that your output still aligns closely with answering the associated query.
+- The activity involves generating paraphrased versions of a statement so that they
+  still logically support the question posed. It exercises your critical thinking
+  and linguistic versatility.
+- Your objective is to express a supporting statement about an answer in diverse ways.
+  Each rephrased version should still relate directly back to the associated question
+  and maintain clarity.
+- Your role is to creatively reword sentences so that they support a specific question
+  and retain the essential information that leads to the answer.
+- This task involves crafting new expressions of existing statements that reinforce
+  answers, prioritizing unique vocabulary and successful retention of core information.
+- The objective is to formulate multiple restatements of a supporting sentence while
+  making sure these variations uphold the connection with a specific inquiry posed
+  in the task.
+- You are asked to creatively express a supporting sentence differently. Focus on
+  keeping the important details that connect to the answer while changing how those
+  details are presented.
+- You will reword an explanatory sentence so that it remains relevant to a specific
+  question. The challenge is in using fresh language while making sure the inference
+  to the original answer remains clear.
+- This exercise calls for your ability to reformulate sentences, ensuring they continue
+  to support an already established answer without simply mirroring the original structure
+  or wording.
+- Here, you will be practicing your ability to restate information; this involves
+  crafting a new version of a sentence so it remains relevant to its corresponding
+  question.
+- This challenge involves analyzing statements and restating them with new words so
+  that they retain support for specific questions and allow reasonable deductions.
+- Your mission is to revise supporting sentences in such a way that they provide the
+  same support for an answer but with different language and structures altogether.
+- You are tasked with creating new versions of sentences that provide support for
+  specific questions, ensuring that they hold the same meaning but use different vocabulary
+  and expression.
+- "In this activity, you\u2019ll practice restating supporting sentences in a fresh\
+  \ way, ensuring the essence remains intact to support answering a question clearly."
+- This assignment will test your linguistic skills by having you rephrase support
+  statements such that they continue to provide valid answers regarding their respective
+  queries even when expressed differently.
+ds_kwargs:
+  path: Lots-of-LoRAs/task045_miscellaneous_sentence_paraphrasing
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task045_miscellaneous_sentence_paraphrasing
+user_prompt_template: '{task_def}
+
+
+  {problem}'

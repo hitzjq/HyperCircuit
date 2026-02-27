@@ -1,0 +1,437 @@
+assistant_prefill: ''
+descriptions:
+- Your assignment involves producing a question that clearly corresponds to the specific
+  answer offered in the input context. Ensure logical connections are evident.
+- In this task, you will generate questions that connect clearly with the context
+  provided and can only be answered in one specific way.
+- Generate a question based on the provided details, ensuring it can be answered with
+  precision using just the input information, without outside knowledge.
+- Your goal is to formulate concise questions based on context that specifically lead
+  to one clear answer. Focus on clarity and relevance in your phrasing.
+- The goal is to create a focused question that can be answered using just the information
+  provided, ensuring a direct link to the answer.
+- This task emphasizes understanding the core details in the context, allowing you
+  to craft a precise question about them for precise understanding.
+- Using the provided context, design a question that seeks specific details, which
+  can be answered by the response given.
+- Reflect on the context presented and construct a well-formed question aimed at eliciting
+  the exact response indicated.
+- The task involves generating a specific question that correlates directly with a
+  provided answer, drawn from the context given.
+- Your role is to distill key details from the context into an effective question
+  format that accurately produces the specific answer outlined in the input.
+- Develop a question that captures the essence of the context and naturally points
+  to the specified answer without requiring any extra information.
+- Your responsibility is to formulate questions that reflect an understanding of the
+  provided context and pinpoint an exact answer without external information.
+- "In this activity, you\u2019ll craft targeted questions based on short texts. Each\
+  \ question should be crafted so it leads clearly to an expected response derived\
+  \ from the given information."
+- Generate a precise question that highlights key aspects of the context while ensuring
+  that it can be succinctly answered by the provided response.
+- This task emphasizes crafting concise questions that effectively connect given information
+  with its corresponding answer.
+- Using the provided context, your objective is to formulate a question whose answer
+  is explicitly stated in the input. This requires a good understanding of the context
+  presented.
+- This task involves formulating questions that elicit a precise answer from a brief
+  background statement.
+- Formulate an exacting question based on specific facts from your input. The generated
+  question should directly correspond to and lead to its intended answer efficiently.
+- Your task is to create a question based on a context provided, ensuring that the
+  answer to this question matches a specific answer given.
+- Your assignment is to generate tuned inquiries based on contextual clues that yield
+  responses directly linked to a provided answer.
+- Generate questions that connect closely with brief contexts. The intent is for these
+  questions to directly solicit an answer drawn from the shared information.
+- Craft a precise question taking cues from the surrounding context, such that your
+  generated question directly correlates with the provided answer.
+- Create a straightforward inquiry derived from provided content, designed so it can
+  be definitively answered by the detail supplied in your input.
+- Tasked with synthesizing data from given material, your goal is to produce a question
+  that harmonizes with and reveals the corresponding answer indicated in input.
+- You will need to create questions that are tightly aligned with specific details
+  within the context, ensuring they lead directly to the answer without deviation.
+- Generate a specific question that matches the answer provided. This requires you
+  to closely analyze the context and extract the relevant details.
+- You are expected to analyze given information and formulate a coherent question
+  consistent with providing an exact answer.
+- Analyze the provided context and construct a relevant question that can be answered
+  using the given response.
+- Reflect on the context and generate question prompts that pinpoint significant elements
+  allowing for easy identification of the correct answers.
+- The goal is to come up with a suitable question that has a straightforward answer
+  based solely on the input you've received. Focus on clarity and relevance.
+- Formulate questions that align precisely with the context provided, ensuring they
+  lead to the exact answer specified.
+- Focus on the details in the context to devise questions that make sense and seamlessly
+  guide towards the intended answer specified in your input.
+- This task requires you to create concise questions from contextual information so
+  they point straight to a predetermined correct answer.
+- Your task is to create a question based on a given context that leads directly to
+  a specified answer. Focus on ensuring that the question aligns closely with the
+  information provided.
+- Your job is to think critically about how to phrase a question derived from certain
+  information ensuring it leads directly to one correct answer as per the input instructions.
+- Focus on deriving an essential inquiry from pertinent contextual information in
+  order to lead directly toward an identified and clearly defined answer.
+- Develop a precise question that can be directly answered with minimal interpretation,
+  relying solely on what has been outlined in the input.
+- You need to design a question around a given statement or context that will naturally
+  point towards the expected answer without needing further elaboration.
+- You must construct a relevant question that utilizes the context provided and leads
+  directly to the stated answer without requiring further elaboration.
+- You must create an appropriate question to extract a direct answer based on the
+  provided context information.
+- Based on the supplied information, your job is to invent a question that will naturally
+  lead to the provided answer without needing any outside knowledge.
+- Create an inquiry about the given content, which will provide clarity by directly
+  leading to the defined answer.
+- Derive questions from contextual information in such a way that the responses are
+  clearly and directly contained in that information.
+- Analyze the given information and design a focused question that corresponds exactly
+  with the supplied answer, emphasizing clarity and relevance.
+- Generate a relevant question that can only be answered by the given answer, using
+  only the details available in the context.
+- This assignment requires you to utilize contextual knowledge to craft questions
+  that can lead unequivocally to a specified answer, showcasing your comprehension
+  skills.
+- Focus on crafting a clear and logical question from contextual clues, so that it
+  leads directly and solely to the outlined answer with precision.
+- This task requires you to synthesize a simple inquiry from given content, structuring
+  it in such a way that it directly elicits the intended answer.
+- Craft simple questions that can be responded to by drawing solely from the contextual
+  data provided, ensuring clarity and relevance.
+- Concentrate on formulating effective questions linked directly to contextual insights,
+  which can seamlessly yield predefined responses.
+- Formulate an inquiry based on specified contextual information, ensuring it leads
+  directly to the correct designated response outlined earlier.
+- You are required to generate a question that captures key information from the given
+  context and corresponds accurately to the answer.
+- Utilize your understanding of the provided context to form a targeted question that
+  can be addressed by the stated answer.
+- Build questions based on specific details within a context that can be answered
+  directly with the response you have been given.
+- You need to think critically about the context and come up with a question that
+  accurately yields the stated answer without any additional context.
+- Based on context clues, develop a precise question designed to capture information
+  leading to an exact response.
+- You'll need to analyze the context and formulate a succinct question that corresponds
+  exactly with the predefined answer.
+- Formulate a question that directly corresponds to the information given, ensuring
+  it is straightforward and answers perfectly with the specified response.
+- The goal here is to encapsulate elements from the context into a well-phrased question
+  designed specifically to obtain an exact pre-provided answer.
+- Utilize the details from the context given to develop precise questions aimed at
+  retrieving singular answers defined earlier in your notes.
+- You need to analyze the given context and respond by generating questions where
+  each can only be correctly answered in the way indicated by your input.
+- Using the information supplied, craft a question that aligns with and elicits the
+  answer indicated, relying solely on the details given.
+- Construct straightforward questions using key elements from short descriptions,
+  aiming for clarity so that each question leads logically toward its corresponding
+  answer.
+- Create a succinct inquiry originating from the given information, ensuring it directs
+  attention towards revealing your required answer.
+- In this task, you need to generate a straightforward question that relates directly
+  to the context given, ensuring the answer aligns perfectly with the information
+  presented.
+- Craft a clear question that corresponds precisely to the answer given in the input.
+  Use your understanding of the context to ensure accuracy.
+- The goal is to think critically about the context and devise a question that can
+  be answered with the stated response.
+- Based on the provided context, generate a simple and clear question that can be
+  answered with the information given, without requiring further details.
+- Your goal is to effectively translate descriptive information into pertinent questions,
+  providing clarity and focus towards arriving at an accurate answer.
+- Using the details found in the input, create straightforward questions which logically
+  lead to the designated answers for clarity.
+- The objective is to formulate a concise question that allows for the direct answer
+  found within the context provided.
+- Taking inspiration from concise statements, your job is to ask clear questions that
+  can be directly answered by pinpointing key details presented in the context.
+- Take contextual clues provided and develop questions aimed at single responses.
+  This needs comprehension skills paired with concise expression in addressing what
+  has been asked for specifically.
+- You need to take a piece of information and come up with a question that reflects
+  what is conveyed in that information and matches the supplied answer.
+- You must think about how best to express queries that will yield an exact match
+  to specified answers based on contextual prompts.
+- The challenge is to create an insightful question based on the context so that it
+  can be answered by using only the information related to the specified answer.
+- You need to create an engaging question based on provided context, ensuring it naturally
+  leads to a clear and direct answer without ambiguity.
+- This task involves deriving insightful questions from various contexts that can
+  be addressed straightforwardly by identified answers.
+- The task requires you to think creatively and construct a relevant question that
+  leads to an exact response matching the input data.
+- Develop a question that correlates with the supplied context in such a way that
+  it naturally leads to an expected answer. Your focus should be on clarity and relevance.
+- The task involves crafting a question that can elicit a specific one-word answer
+  based on the details from the input context. Make sure the connection between your
+  question and the answer is obvious.
+- The task requires generating questions formulated from given contexts while guaranteeing
+  they correspond perfectly with one specified response without need for additional
+  explanations.
+- Your task is to design a clear inquiry based on the given context's information,
+  targeting an exact correspondence with the supplied answer.
+- Use the information given in the context to develop a specific question that can
+  be answered exactly as stated. Focus on staying true to the details provided.
+- Your job is to think about the context given and frame a suitable question such
+  that the answer directly corresponds to what has been specified.
+- From a given piece of information, formulate a question that has a precise answer
+  as indicated in the input.
+- The objective here is to use the contextual information to come up with targeted
+  questions that lead unambiguously to a unique answer provided.
+- Formulate a question that effectively captures essential details from the context
+  and aligns with the given answer.
+- Produce an intelligible question based on details found in the context that encourages
+  an immediate identification of the specified answer.
+- Construct a question that pertains to the context provided, ensuring it aligns perfectly
+  with the answer given.
+- "You'll need to translate provided context into precise inquiries, ensuring they\
+  \ don\u2019t invoke additional knowledge beyond what's presented."
+- The aim is to construct a question that makes use of identifiable elements from
+  the context, resulting in an unambiguous answer as indicated in the input.
+- Develop questions from provided contexts, ensuring they are simple yet effective
+  in achieving a precise match with the given answer.
+- Devise questions using context clues, ensuring they point directly towards designated
+  answers. Effective comprehension of both questions and contexts is essential.
+- The task requires you to think about how to phrase a question so that it directly
+  elicits a specific answer from the supplied information.
+- Develop questions based on descriptive content, ensuring they relate clearly back
+  to an exact response listed in your input data.
+- You are asked to create a question that can produce an exact response based on the
+  context information provided, ensuring clarity and relevance.
+- Create a concise, straightforward question rooted in the supplied context, ensuring
+  it perfectly matches up with the specified answer without requiring further detail.
+- Create a question related to the context provided which, when posed, should exclusively
+  return the given answer without requiring additional context or information.
+- Your task is to create a question that directly leads to a specific answer based
+  on the provided information.
+- The objective here is to generate questions from contextual statements so they naturally
+  guide towards predefined answers. Aim for clarity and logical flow in frame-creating
+  them.
+- In this exercise, you're asked to construct a straightforward question rooted in
+  the given context that has only one correct answer as indicated. Keep the connections
+  clear and direct.
+- Your task is to generate a clear and relevant question that directly leads to the
+  provided answer based on a given context.
+- Utilizing contextual knowledge, create a straightforward question designed to elicit
+  a specific answer based on what has been shared with you.
+- Your objective is to create an appropriate and concise question from the provided
+  information, ensuring it leads directly to the correct answer.
+- Formulate a question that seamlessly connects to the information given, resulting
+  in an answer that corresponds directly with what you have been provided.
+- Formulate a question that will yield a definitive answer drawn from the input details.
+  Consider what information is critical for clarity.
+- You need to formulate a precise question that, when answered, will lead directly
+  to a predetermined response based on the supplied context.
+- The focus of your task is on deriving meaningful queries from contextual insights,
+  ensuring they correlate exactly with an outlined correct response.
+- Formulate concise questions grounded in a narrative or factual backdrop where each
+  query clearly anticipates a specific response.
+- You are tasked with producing relevant questions that distill essential information
+  from a narrative or description, guiding to an exact response.
+- Develop a coherent query based on the descriptive context provided, allowing for
+  an unambiguous answer with no additional context needed for interpretation.
+- Extract themes from the given context and transform them into a well-structured
+  question that anticipates and produces the exact specified answer.
+- Your task is to create a question that can be directly answered with the provided
+  information. Think about how to phrase the question logically based on the given
+  context.
+- Your role is to formulate a question that leads to a predetermined answer, using
+  only the details given in the context.
+- Construct queries that match the theme of the context provided so they naturally
+  align with and can only be answered using the specified response.
+- The task is about constructing a question from contextual details so that it directly
+  yields an expected answer without extraneous information. Clarity and direct relevance
+  are key.
+- The task involves crafting succinct and relevant inquiries driven by conveyed information,
+  designed specifically for answering them with predefined statements.
+- The task requires you to extract crucial details from the context and express them
+  as a well-formed question, leading directly to your expected response.
+- Your task involves understanding the key themes in the given context and asking
+  a relevant question that yields the desired response.
+- Craft a succinct question based on the context that will lead directly to the agreed-upon
+  response without any ambiguity.
+- Aim to develop an engaging question that ties back to the main points of the context
+  and leads clearly to the predetermined answer.
+- The assignment requires you to construct insightful questions that can be answered
+  by the stated answer using only the information supplied.
+- The task requires you to interpret the information in the context and create questions
+  that lead straight to an exact specified answer.
+- In this task, the goal is to construct a clear and direct question that mirrors
+  an aspect of the provided context, guiding towards a specific answer.
+- The objective is to align your questions with the underlying facts from the input,
+  ensuring they are phrased to lead exactly to the supplied answer.
+- You must come up with a question that accurately reflects the input information,
+  and which can be answered using just that information alone.
+- Your challenge is to produce a question based on contextual information which results
+  in a predetermined answer, ensuring your phrasing is concise and directly linked
+  to that content.
+- The challenge is to reconcile provided information into a singular, targeted question
+  that safely navigates toward an anticipated factual response.
+- Generate a clear and direct question that will elicit the corresponding answer from
+  the context provided.
+- Generate a relevant question based on a context description, focused on allowing
+  the specific answer to emerge logically from it.
+- Your assignment is to generate an effective question based on factual information
+  given in the context that can be answered precisely as indicated.
+- Your task is to create a question based on the information provided that would lead
+  to a specific answer without needing additional knowledge.
+- Your job involves generating questions aimed at uncovering specific answers straight
+  from the supplied context.
+- Summarize details from your context into a focused question that results in the
+  individual answer listed.
+- Create a question that relates specifically to the information presented in the
+  context, ensuring that it can be answered by the exact answer given.
+- Your task is to create a relevant question based on the provided context that leads
+  directly to a specific answer.
+- Your challenge is to pull out critical aspects of context and use them as a foundation
+  for crafting appropriate questions with known answers.
+- Your role is to interpret contextual data creatively and generate relevant questioning
+  that guarantees an exact match with an assigned answer in logic.
+- Use your understanding of the supplied information to construct a concise question
+  aimed at revealing a predetermined response strictly based on that input.
+- Generate clear and straightforward questions that emerge directly from given statements
+  or contexts, allowing for an immediate response.
+- Create a relevant question that succinctly stems from provided details. The outcome
+  should logically point to the answer, showcasing your understanding of the context.
+- Create questions rooted entirely in the supplied context so they unambiguously correspond
+  to the provided answer.
+- Create an investigative question informed by key data in your context that directly
+  answers with no broader implications or extra knowledge needed.
+- Develop a coherent question focusing on essential facts laid out in the context
+  so it directly connects with and answers your set objective.
+- You are expected to produce questions inspired by snippets of information that can
+  be directly answered with a specific response. This exercise tests your comprehension
+  skills.
+- Formulate an effective question based on communal knowledge contained within the
+  provided context, which clearly points towards an associated answer.
+- Formulate useful questions based on contextual clues given. Your created inquiries
+  should be well-aligned to produce clear answers based solely on the presented material.
+- Analyze the information given and formulate a question that leads to the correct
+  answer without requiring additional knowledge.
+- Using available context, generate an appropriate inquiry that will yield a specific
+  response provided as input. Your goal is to maintain logical coherence in your question.
+- You need to take the context provided and create a relevant question that will lead
+  to the correct answer mentioned. This requires comprehension of both the context
+  and the intended response.
+- Formulate questions from snippets of information that would guide someone to arrive
+  precisely at the provided answer, displaying your analytical skills.
+- Your challenge is to extract essential points from a brief description and turn
+  them into questions that can yield specific answers listed in the task.
+- Formulate an inquiry that stems from the context given, ensuring it relates closely
+  to an exact answer specified in your input, facilitating an immediate connection
+  between both.
+- Produce succinct and focused questions derived from provided snippets of context.
+  Ensure that each question seamlessly leads toward answering with a specified response.
+- The task requires you to interpret contextual information and come up with an exact
+  question that yields a specified answer.
+- The task involves using contextual clues to formulate an appropriate question, ensuring
+  it leads explicitly to the stated answer without ambiguity or confusion.
+- Your task includes deriving a suitable question from described circumstances, which
+  should culminate in providing an accurate response as shown in the input.
+- You will be taking supplied details and crafting questions that revolve around them,
+  ensuring that the resulting response would perfectly match the designated answer.
+- The job here is to extract factual information from a context and generate an appropriate
+  question that would yield that specific answer.
+- This requires you to analyze brief descriptions and generate related questions,
+  making sure these inquiries are crafted to evoke a particular answer drawn from
+  them.
+- You need to formulate a question that can yield the specified answer. Pay attention
+  to key details in the given context for guidance.
+- The task involves creating questions that reflect details from a specific context
+  while allowing for a straightforward answer.
+- The aim is to produce a straightforward question from contextual clues that can
+  reliably yield an exact piece of information as its response.
+- Your goal is to think critically about the information at hand and create questions
+  designed solely to produce an exact pre-defined answer.
+- Use the context provided to create direct questions targeting specific facts or
+  information, ensuring your questions effectively guide toward a particular answer.
+- Your challenge is to derive a pertinent question from a context that will result
+  in a predetermined answer, testing your comprehension and creativity.
+- The challenge here is to derive a question from contextual details that specifically
+  inquires about a fact leading to a specified answer.
+- Create a relevant, focused question that aligns perfectly with the given context
+  in order to prompt a specific answer. Pay attention to how your question reflects
+  the information provided.
+- You will develop a question that reflects the main ideas from a short text. The
+  goal is to capture essential details so that the answer can be clearly derived.
+- "Formulate questions utilizing the details found within hints while making sure\
+  \ they are tight enough such that there\u2019s only one clear outcome as indicated\
+  \ by your assignment details."
+- "The objective is to write questions based solely on given input, ensuring they\u2019\
+  re tailored such that their answers match perfectly with pre-determined responses."
+- Generate a precise question that can be answered by the information in the input.
+  The question should be clear and directly related to the context and the answer
+  given.
+- Generate a well-phrased question that is strictly centered on the details provided,
+  capable of resolving into the specified answer smoothly.
+- Craft a question with a focus on understanding and extracting important information
+  from the context, ensuring it corresponds clearly with the provided answer.
+- The task is about synthesizing relevant inquiries that correspond precisely with
+  established information in a manner conducive to direct answers.
+- Your task is to create a question based on a provided sentence that can precisely
+  lead to a specific answer.
+- This exercise involves framing questions based on sources of information so that
+  those inquiries can be conclusively answered in one specific way as instructed.
+- The task is to invent a question that aligns with an exact answer found in the input.
+  This involves interpreting the context without adding any assumptions.
+- "You need to create a question based on provided content\u2014one that will lead\
+  \ you naturally towards a stated answer without needing any added context."
+- You need to come up with questions that encapsulate essential facts from a context
+  while matching them closely with the intended answers.
+- Your objective is to generate an inquiry that correlates with the information shared
+  and matches the set answer accurately.
+- Your assignment is to engage with context thoroughly and design a targeted question
+  resilient enough to capture its core themes while adhering closely to generating
+  a specific reply.
+- Your job is to take details from the provided background and create a direct and
+  approachable question capable of producing a specific response.
+- Generate pertinent inquiries reflecting aspects of the provided context so they
+  can solely lead toward an assigned answer without any added explanation required.
+- Your task consists of forming targeted inquiries from pieces of information, resulting
+  in questions that clearly lead to an exact predetermined answer.
+- Your objective is to design questions derived from the background information given,
+  and these questions should directly elicit the exact answer mentioned.
+- Formulate your inquiry with attention to clarity and relevance in relation to the
+  provided content, leading precisely to your required conclusion.
+- Your job is to think critically about the context and phrase a question in such
+  a way that it leads to the exact answer mentioned.
+- Your assignment is to glean insights from contextual information and turn them into
+  direct questions capable of yielding predetermined answers objectively.
+- You need to identify key details from the context and use them to create an appropriate
+  question that will yield an exact answer.
+- This task involves synthesizing information from a brief context snippet into a
+  focused question aimed at extracting an exact response.
+- Your task is to create a question based on a given context that can be directly
+  answered by the specific answer provided.
+- The challenge is to construct a relevant question that aligns with the information
+  from the context and yields a specific answer.
+- You're tasked with inventing a clear question based on supplied information, designed
+  specifically to elicit an accurate, predetermined answer. Maintain focus on simplicity
+  and precision.
+- Create succinct questions based on provided contextual facts designed to result
+  in precise answers as specified in your input. Focus on logical alignment between
+  parts.
+- Create a question that directly aligns with the information in the context and can
+  seamlessly lead to the provided answer without additional explanations.
+- This task involves generating a straightforward question that naturally leads to
+  a specified answer based solely on the information in the context.
+- This task involves taking contextual information and crafting a question that can
+  unambiguously yield the specified answer without requiring any additional details.
+- Develop questions that align closely with the information given, ensuring that they
+  can only lead to the specific answer mentioned in the input.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1326_qa_zre_question_generation_from_answer
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1326_qa_zre_question_generation_from_answer
+user_prompt_template: '{task_def}
+
+
+  {problem}'

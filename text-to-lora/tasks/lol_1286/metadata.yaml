@@ -1,0 +1,467 @@
+assistant_prefill: ''
+descriptions:
+- You'll be presented with questions where your knowledge base will guide you in identifying
+  the option that correctly answers what is being asked.
+- Your task entails confronting a variety of topics through questions, necessitating
+  thoughtful selection among multiple options based on what you already know.
+- You need to evaluate multiple statements in response to a question and determine
+  which one is correct. This demands knowledge of the topic and analytical skills.
+- You will engage with questions that cover various themes, requiring you to apply
+  learned concepts and determine which option accurately responds to the inquiry.
+- "The exercise emphasizes reasoning through questions that touch on different subjects;\
+  \ it\u2019s essential to evaluate each option carefully before determining its validity\
+  \ as an answer."
+- Your role is to sift through several answer choices in response to a posed question,
+  using your cognitive skills to determine which selection is logically consistent
+  and factually accurate.
+- Engage with thought-provoking questions where demonstrating logical reasoning and
+  contextual understanding will guide you in identifying which option most accurately
+  responds.
+- You will be presented with questions that require you to think critically about
+  concepts you have learned, determining which answer reflects accurate knowledge
+  on the topic being questioned.
+- Think critically about each question and rely on what you know to responsibly select
+  an answer from the available choices.
+- You will encounter questions designed to test your familiarity with various concepts.
+  Selecting the right answer reflects your ability to connect ideas logically.
+- This exercise calls for a combination of knowledge recall and critical analysis,
+  as it requires picking the most accurate answers within context.
+- Your focus will be on assessing scenarios presented in the questions and determining
+  which answer best addresses the issues at hand based on relevant information.
+- The focus of this task is on picking answers based on careful consideration of different
+  statements relative to a focused question, emphasizing your cognitive evaluation
+  capabilities.
+- In this task, you will be evaluating multiple statements in response to a question.
+  Strong comprehension and analytical skills are necessary to make the right selection.
+- These questions ask for insight into various topics, calling upon your analytical
+  skills to select options that represent logical conclusions or facts.
+- Analyze inquiries that require an understanding of various topics, discerning which
+  provided statement is true or accurate. Logic and familiarity with general concepts
+  will aid in making your choice.
+- You will engage with various questions that test your understanding across numerous
+  subjects. Identify which option best reflects accurate information corresponding
+  to each query.
+- This activity tests your knowledge across various subjects; you need to analyze
+  each question and select the response that best fits the scenario described.
+- Use your insight into common knowledge and situations to filter through options
+  provided for each question and arrive at a conclusion.
+- Each question will require you to engage with its content critically, enabling you
+  to find the option that best encapsulates the correct information needed for an
+  answer.
+- This activity involves engaging with various concepts through targeted questions,
+  requiring discernment and selection of the most relevant answer.
+- Engage with a set of thought-provoking questions, each requiring you to apply your
+  accumulated knowledge in order to select the optimal answer.
+- In this task, you'll consider different answers related to specific queries and
+  make a choice that best aligns with factual correctness or reasonable inference.
+- You will engage with questions that assess your understanding of various concepts.
+  It requires you to process information effectively and select the most relevant
+  answer.
+- In this activity, you need to evaluate given statements and identify the one that
+  accurately reflects facts or common understanding.
+- In this task, you analyze a question and determine which option accurately represents
+  the answer. It requires comprehension and the ability to distinguish between closely
+  related concepts.
+- The task involves selecting the most accurate response to a question that tests
+  comprehension of various subjects. Critical thinking is required to identify the
+  correct answer.
+- Focus on discerning nuances in questions across different subjects, using reasoning
+  skills to navigate through possible answers logically.
+- The task requires you to evaluate the appropriateness of several options in response
+  to each query. Logic and factual knowledge will guide your selection process.
+- Your responsibility involves determining which statement correctly addresses the
+  question posed, showcasing your ability to analyze multiple choices effectively.
+- This task encourages you to think critically about questions posed in diverse areas,
+  choosing responses that showcase your mastery of relevant concepts.
+- This task involves comprehending questions about diverse subjects and deciding which
+  answer corresponds correctly with each inquiry.
+- Each question presents a unique challenge requiring you to critically analyze information.
+  Your focus should be on clarifying misconceptions while identifying clear, well-supported
+  answers.
+- Here, you will explore a range of questions across different subjects, requiring
+  you to tap into your existing knowledge and choose the answer that fits best.
+- Tackle multiple questions where each requires careful thought and analysis. Employ
+  your reasoning skills to ensure you choose the most appropriate response from a
+  list of alternatives.
+- With an assortment of questions aimed at various topics, your job is to utilize
+  your knowledge to navigate through potential choices and identify the most fitting
+  one.
+- The task consists of reviewing a question, considering relevant facts or concepts,
+  and selecting the appropriate answer that demonstrates comprehension.
+- "As part of this challenge, you'll draw upon your background knowledge in order\
+  \ to hear out answers critically\u2014not merely agreeing but reasoning towards\
+  \ identifying what fits best contextually."
+- Analyze each question closely and use your prior knowledge and reasoning skills
+  to select the right answer from the choices given.
+- You will encounter questions that cover different subjects. The challenge lies in
+  sifting through potential answers and determining which one is correct based on
+  your knowledge.
+- In this challenge, each question prompts a decision-making process as you sift through
+  options to find which one accurately matches what is being asked.
+- Evaluate statements in light of general truths, determining which aligns most accurately
+  with established concepts or norms in society.
+- The task is designed to evaluate how well you can relate general information with
+  specific prompts. Answering correctly reflects strong understanding and insight.
+- Prepare yourself to think analytically as you navigate through various statements
+  tied to different subjects, pinpointing which one accurately reflects understanding
+  of the question posed.
+- The challenge lies in evaluating provided options regarding common knowledge and
+  making a choice that accurately represents what is true or logical.
+- This task involves interpreting questions from various areas and making an informed
+  choice by connecting the question with your knowledge.
+- Your challenge lies in using both logical reasoning and learned information to establish
+  which of the given answers best fits the posed question.
+- Encounter observations or statements in each question, then utilize logic and reasoning
+  skills to discern coherent answers from those proposed.
+- You'll encounter questions that challenge your understanding of concepts across
+  different subjects. Your goal is to pick the answer that best fits each question.
+- Your role is to assess different statements or options related to a question and
+  choose the one that correctly reflects your understanding of the subject matter.
+- This task involves assessing different statements and choosing the one that best
+  responds to the given question, demonstrating your understanding of natural phenomena.
+- The task involves critical thinking and recalling factual information to determine
+  the correct answer to the posed questions.
+- Engage with multiple questions, using your reasoning skills to find the correct
+  answers based on context clues and your knowledge base.
+- "You\u2019ll be assessing questions based on logic and factual knowledge. Think\
+  \ critically to discern which choice aligns with the inquiry posed."
+- You need to demonstrate your knowledge on various topics by selecting the most suitable
+  answer from a list of options.
+- The objective of this task is to select the most accurate answer from a set of options,
+  utilizing your knowledge and reasoning skills related to the topic at hand.
+- You are tasked with evaluating different statements associated with a question.
+  Your goal is to use deductive reasoning to assess which response is most accurate.
+- This exercise assesses your ability to think critically and synthetically about
+  multiple situations, determining which answer stands up to scrutiny within the context
+  given.
+- This task presents scenarios or queries where understanding context is essential.
+  Reflect on your knowledge to pinpoint the best answers from those offered.
+- You will be faced with questions that may involve scientific, environmental, or
+  general knowledge concepts. The objective is to critically analyze each option presented
+  and choose the most fitting answer.
+- This task requires combining comprehension with factual recall. Your judgment on
+  familiarity with various subjects will guide your selection.
+- The focus of this task is to analyze a series of questions and select the most appropriate
+  response based on your general knowledge and reasoning skills.
+- The task is geared towards measuring how well you can assess information and convey
+  your understanding by choosing the right answers among several possibilities.
+- In this task, your skill in recognizing correct information will be essential to
+  identify answers that align with a range of factual situations.
+- Engage thoughtfully with questions requiring an understanding of subject matter.
+  Your goal is to pinpoint the option that provides the most accurate answer.
+- Evaluate the presented question critically, applying your knowledge to identify
+  which answer correctly addresses the inquiry posed. This will involve making informed
+  judgments based on the information given.
+- The goal is to navigate through a series of questions requiring insights from different
+  domains. Your decision-making skills will aid in identifying the right answer from
+  multiple choices.
+- In this task, you will evaluate questions that require knowledge on various topics
+  and demonstrate your understanding by identifying the correct answer from the given
+  options.
+- Assess various propositions related to daily life and broader concepts, using your
+  understanding of the topics to categorize the best answer.
+- Tasked with a variety of inquiries, you must utilize your critical thinking skills
+  to select the response that accurately depicts truth or common sense regarding a
+  topic.
+- You will navigate through questions asking for precise answers; demonstrating your
+  understanding by matching each question with its best-suited option will be key
+  here.
+- In this exercise, expect to encounter questions demanding sound reasoning and well-developed
+  insights into various subjects. Your response must reflect an accurate grasp of
+  relevant concepts being tested.
+- You will tackle numerous inquiries, where your analytical skills will help you choose
+  the most aligned response from several alternatives presented.
+- Navigate through various statements requiring a well-informed decision, emphasizing
+  your understanding of the subject matter at hand.
+- This task challenges you to apply your knowledge and logic to choose the most appropriate
+  response from given statements, ensuring you select the one that best fits the question.
+- The challenge lies in dissecting questions with multiple potential answers, requiring
+  clear thought processes and reliance on factual information you already know.
+- You need to demonstrate your understanding of various domains by evaluating questions
+  and identifying which option accurately addresses them, relying on logic and learned
+  concepts.
+- You will be presented with questions that require critical thinking to determine
+  which response is logically correct or most likely true.
+- This task tests your comprehension of different concepts, requiring you to match
+  questions with the appropriate answers.
+- Analyze each question critically, pulling from a wide range of topics to determine
+  which answer is appropriately relevant and accurate.
+- The aim is to blend comprehension with analytical skills to determine the appropriate
+  answer from a limited selection provided in each case.
+- You will be challenged with a range of questions requiring analytical thinking.
+  Use what you know to navigate through the options and identify the correct one.
+- This task involves responding to questions by recognizing which answer aligns with
+  your learned information, demonstrating your ability to recall and apply knowledge.
+- This activity requires you to assess a question and match it with the appropriate
+  answer choice based on your understanding and reasoning about the content presented.
+- The questions presented will challenge your general knowledge; your goal is to sift
+  through the choices available and pinpoint the most accurate one.
+- "The assignment revolves around showcasing comprehension through question exploration.\
+  \ You\u2019ll need to filter through answers using thoughtful evaluation strategies."
+- Your challenge is to sift through various statements to discern which one correctly
+  responds to the posed question.
+- The subject matter ranges widely, requiring you to tap into your accumulated knowledge
+  base and interpret questions accordingly for a decisive answer.
+- The challenge lies in discerning fact from fiction as you respond to each question,
+  weighing each option carefully before deciding.
+- This task challenges your comprehension skills as you must navigate through various
+  question types and select the most fitting answer choice, highlighting your breadth
+  of knowledge.
+- You will analyze questions related to various subjects and apply your understanding
+  to identify the most accurate answer choice from the given options.
+- Utilize your expertise across various topics to navigate questions and identify
+  which option is most aligned with the facts.
+- Your analytical abilities will be key as you engage with various queries, refining
+  your selection process based on what you know.
+- You'll need to complete a set of questions where each requires discerning the correct
+  or most logical answer from several choices, invoking critical reasoning skills.
+- Engage with questions that challenge your comprehension of different topics, requiring
+  you to make educated guesses or informed decisions about the best answers.
+- The objective lies in swiftly determining which provided statement best fulfills
+  the query posed, utilizing your knowledge of the subject matter at hand.
+- Engage with questions designed to test your knowledge. Your role is to accurately
+  identify which option fulfills the criteria of the question based on your insights
+  and reasoning.
+- You will be engaging with questions that require you to recognize patterns or facts
+  from your knowledge base, and you'll need to pinpoint the most suitable answer among
+  several options.
+- Your challenge will be to recognize subtle differences between multiple phrases
+  or concepts related to each question, allowing you to articulate your understanding
+  through your chosen response.
+- The objective is to sift through various options, using logic and knowledge, to
+  determine the correct answer that solves the question.
+- Your objective is to parse through a range of possible answers for each question,
+  selecting the most suitable one based on your educational background or insights.
+- Engage with a question that requires you to apply your knowledge. Your goal is to
+  evaluate the choices available and pick the one that aligns best with your understanding.
+- The task involves interpreting a question and selecting the best response based
+  on your knowledge of the topic being discussed.
+- Consider context clues in each question, linking them to what you know, to effectively
+  choose the right option based on common knowledge.
+- The task involves selecting the right answer from a set of choices based on your
+  understanding of the subject matter. You need to assess the options given and discern
+  which one is most accurate.
+- The task requires you to understand different situations and pick the most suitable
+  response that addresses the question asked.
+- Your role is to explore familiar themes within multiple-choice questions, applying
+  what you know to identify correct answers.
+- This task calls for analytical skills as you interpret a question and weigh various
+  possible answers. Your aim is to determine which response best fulfills the requirements
+  of the question.
+- This task tests your ability to discern correct information from misinformation.
+  You must approach each question thoughtfully and select the option that aligns with
+  factual knowledge.
+- This exercise encourages you to tap into your existing knowledge base, evaluating
+  each statement critically before deciding which aligns best with what you've learned
+  about the topic at hand.
+- Use deductive reasoning and recall of knowledge to address questions accurately
+  by choosing the most fitting option.
+- In this activity, you must evaluate a question and leverage your knowledge to discern
+  the correct answer among several possibilities.
+- "Apply logic and what you\u2019ve learned in different areas to determine which\
+  \ statement best answers each posed question correctly."
+- You are tasked with examining questions related to everyday topics and finding the
+  most logical answer among provided choices.
+- You will interpret specific inquiries relating to different fields and choose an
+  answer that you believe fits best based on evidence and knowledge.
+- You need to demonstrate your knowledge in various subjects by selecting the most
+  appropriate answer from given options.
+- This task tests your knowledge across various topics. You must read the question
+  carefully and use your reasoning skills to identify the best answer among the provided
+  options.
+- Draw upon your understanding of practical situations or factual information to identify
+  the correct answer in multiple-choice queries.
+- Leaving behind explanations, this task focuses solely on recognizing and selecting
+  answers that correlate effectively with the prompt provided.
+- "Delve into each question\u2019s context and apply what you know about related topics.\
+  \ The goal is selecting a response that thoroughly addresses the inquiry."
+- Your role is to interpret broad themes or specific topics presented in questions
+  and select the answer that accurately reflects your understanding.
+- The objective is to navigate through a set of questions by identifying relevant
+  answers that inform or clarify the topic presented.
+- You will be challenged to apply general knowledge and reasoning to select the best
+  response among several potential choices.
+- "Engage with a variety of inquiries requiring you to correlate what you\u2019ve\
+  \ learned with the details presented in each question for an accurate answer."
+- Analyze different questions that test your comprehension in various fields, then
+  determine which response accurately answers each question based on your insight.
+- The challenge here is to examine a question and the corresponding answers critically,
+  drawing on your existing knowledge to find the choice that best answers the question.
+- This task requires good judgment as you review options associated with various questions.
+  Use your knowledge to unveil which choice accurately addresses the query at hand.
+- In this task, you are to demonstrate your comprehension by identifying the correct
+  answer related to a specific question. Critical thinking will help you in making
+  an informed choice.
+- The objective involves responding to inquiries based on prior knowledge or learned
+  concepts. Delve into each choice closely as context can significantly influence
+  the correct selection.
+- Delve into a selection of questions designed to test your comprehension across a
+  spectrum of topics, identifying which choices align with factual knowledge.
+- The objective is to sift through provided phrases related to various areas of study
+  and identify the one that most accurately answers each question presented.
+- In this activity, your ability to connect ideas and facts is essential as you analyze
+  statements related to specific questions, aiming for clarity in selecting the most
+  appropriate answer.
+- Engage with questions that test your knowledge in diverse topics. The goal is to
+  identify the answer that best matches the question's requirements.
+- Evaluate each question and use your comprehension skills to determine the most fitting
+  response. This requires critical thinking about different concepts.
+- Your task is to process questions related to everyday situations or academic subjects
+  and make informed selections based on logical reasoning and common sense.
+- You will be determining which statements or notions align accurately with given
+  queries, relying on your comprehension and critical analysis skills.
+- The task requires you to apply your reasoning skills to differentiate between similar
+  options and choose the one that best resolves the inquiry posed in each question.
+- Your task is to identify the correct answer to a question based on your knowledge
+  of various subjects, including science, ecology, and behavior.
+- This task involves answering questions based on your understanding of various subjects,
+  requiring critical thinking to identify the best option among several provided choices.
+- Your task integrates various fields of knowledge as you evaluate options related
+  to given questions. Choose responses that resonate with reality or sound reasoning.
+- This activity revolves around demonstrating knowledge through thoughtful selection
+  from available responses. Engage fully with each question, recognizing subtleties
+  between similar options.
+- This task invites you to reflect on general truths or principles that correspond
+  with given statements, enabling you to select valid answers through critical thinking.
+- You are tasked with providing accurate responses to questions by evaluating given
+  alternatives. Understanding key principles or facts related to each question is
+  essential in this exercise.
+- This exercise challenges you to engage with critical thinking as you navigate through
+  possible answers and select those consistent with established knowledge.
+- Your task involves understanding a set of questions and accurately identifying the
+  most appropriate answer based on your knowledge.
+- Your task involves interpreting questions and selecting the most appropriate response
+  based on your general knowledge.
+- You will analyze various scenarios presented in questions and determine the best
+  fitting answer from a set of choices.
+- This activity focuses on using analytical reasoning to evaluate the veracity of
+  various statements in relation to a general question, guiding you toward the best
+  possible answer.
+- You'll be faced with inquiries requiring background knowledge; discerning which
+  provided responses align correctly with the question posed is key to performing
+  well.
+- You are tasked with determining the appropriate response to a diverse range of questions.
+  This requires drawing from your understanding and making connections between concepts.
+- The task asks you to examine different alternatives related to a question and choose
+  one based on logical reasoning or factual correctness.
+- Engage with a variety of inquiries that examine your knowledge base; selecting answers
+  that reflect an accurate understanding of the topics at hand is key.
+- Your task is to analyze and respond to questions based on general knowledge. Understanding
+  context is key to finding the correct answer.
+- Investigate a series of prompts meant to provoke thought about various subjects.
+  Your mission is to connect the dots and select the most fitting answer.
+- This activity seeks to evaluate your ability to draw conclusions from given information
+  by selecting responses that accurately reflect what is asked in each question.
+- You are asked to respond to questions that test your knowledge across different
+  fields. Analyzing each statement critically will help you determine which one is
+  correct.
+- You are asked to apply your understanding of specific subjects in order to choose
+  the best answer from a set of responses.
+- You will analyze a series of questions related to various topics. Your job is to
+  select the most accurate answer based on your general knowledge.
+- This exercise involves deciphering questions that necessitate a thoughtful approach,
+  where you must rely on what you know to select a fitting answer.
+- You will encounter questions that test your comprehension, and your goal is to find
+  the answer that aligns most closely with the information provided.
+- Your task is about applying learned concepts to real situations posed in questions.
+  Assessing each choice critically will guide you toward the most valid response.
+- The activity focuses on critical engagement with queries that correspond to everyday
+  experiences, allowing you to draw from personal knowledge.
+- The task at hand is about understanding questions related to different subjects
+  and choosing the statement that best fits the inquiry based on prior knowledge or
+  logical deduction.
+- Engage with a range of thought-provoking questions where your comprehension of themes
+  will guide you in selecting responses that make logical sense.
+- "Take part in a decision-making task where you identify accurate answers to various\
+  \ inquiries. It\u2019s essential to utilize general knowledge while considering\
+  \ nuances in phrasing."
+- The exercise includes various inquiries aimed at assessing how well you can connect
+  ideas and choose appropriate answers based on logical interpretation.
+- In this activity, you will be presented with questions that require you to think
+  critically and determine which option aligns closest with factual information.
+- Engage with questions that challenge your understanding of different concepts. You'll
+  need to discern which answers reflect a deeper comprehension of the topics discussed.
+- Use your background knowledge and reasoning abilities to navigate through a set
+  of questions that require discernment and thoughtful decision-making for proper
+  response selection.
+- "You\u2019ll need to synthesize information related to general knowledge inquiries,\
+  \ using critical thinking skills to arrive at an appropriate choice reflecting an\
+  \ informed judgment."
+- In this exercise, you're prompted with specific questions to assist in recognizing
+  which statements reflect accurate information based on known principles or facts.
+- The task challenges you to combine knowledge across subjects, using both memory
+  and reasoning skills to select accurate answers among provided choices.
+- Use your critical thinking capabilities to assess each question and select the answer
+  that best aligns with factual information.
+- This task challenges you to think critically by discerning which answers reflect
+  reality most closely according to the information given in the questions.
+- Use analytical skills along with foundational knowledge from different subjects
+  to make an informed choice on the correct response to presented questions.
+- Your goal in this task is to analyze a series of options related to a specific query.
+  Strong comprehension skills are necessary as you sift through potential answers
+  for correctness.
+- In this task, you will exercise your analytical skills by considering various alternatives
+  and their relevance, ultimately leading you to identify the correct answer.
+- Engage in a selection process where you must sift through options available for
+  each question, aligning them with what you know to reach a correct conclusion.
+- Use deductive reasoning as you connect clues from the questions to select appropriate
+  responses that match the context effectively.
+- In this exercise, you will face questions targeting different areas of knowledge.
+  Focus on discerning which response is the most logical or accurate given what you
+  know.
+- This task requires you to use critical thinking and knowledge in specific areas
+  to determine which response best fits the question.
+- Your task consists of evaluating questions that span diverse topics, using logical
+  reasoning, analytical skills, and existing knowledge to choose accurate responses.
+- Your objective is to address questions from diverse areas of knowledge, evaluating
+  which options are viable answers based on context clues provided in each inquiry.
+- The focus of this task is on comprehension and decision-making. You will be asked
+  to choose statements that best match what you've studied while considering their
+  relevance and accuracy.
+- Your role is to evaluate several statements and draw upon your knowledge to pinpoint
+  which one is correct.
+- You will face an array of questions designed to challenge your understanding of
+  different phenomena. Analyze each proposition and determine its accuracy.
+- You must draw from your understanding of different subjects to critically assess
+  questions and pinpoint the responses that are most accurate or appropriate.
+- Your task is centered around assessing multiple possibilities and employing reasoning
+  based on learned information to pick the right one.
+- Engage your understanding of diverse subjects to identify the most accurate response
+  based on the provided statements.
+- You are expected to evaluate each question carefully and draw upon your understanding
+  in order to select the response that is most aligned with factual information.
+- Engage with topics across various areas while employing logical reasoning skills
+  to pinpoint accurate responses from a selection of choices.
+- In this assignment, you will need to make quick yet informed decisions regarding
+  various topics. Each question serves as a prompt for you to utilize what you know
+  effectively.
+- This exercise invites you to think critically about given questions and assess multiple
+  answers to conclude which is most appropriate. This process sharpens reasoning skills.
+- This task asks you to interpret various questions critically, leveraging your insights
+  and familiar concepts from education or life experiences to locate the correct responses.
+- As part of this task, you're asked to critically assess several statements in light
+  of common knowledge. Choose what appears most valid based on your reasoning.
+- This task assesses your familiarity with factual information or concepts. You need
+  to understand the nuances of each choice and select the one that accurately represents
+  the correct information.
+- You're encouraged to reflect on questions that require an assessment of understanding
+  across several subjects. The focus is on recognizing accurate information.
+- Analyze scenarios or concepts presented in questions, leveraging your familiarity
+  with common topics to select the right option.
+- You will assess a range of statements associated with different topics. The aim
+  is to identify the one that most closely aligns with established truths or sensible
+  conclusions.
+- Engage critically with a question requiring factual accuracy or conceptual understanding.
+  Your role is to discern between several possibilities, selecting the best-fitting
+  answer.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1286_openbookqa_question_answering
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1286_openbookqa_question_answering
+user_prompt_template: '{task_def}
+
+
+  {problem}'

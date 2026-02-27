@@ -1,0 +1,416 @@
+assistant_prefill: ''
+descriptions:
+- Your goal is to work with an input list to find all numeric values hidden among
+  other types of data, preserving the order in which you found them for reporting.
+- You are challenged to differentiate numbers from other types of data in an input
+  list and return them sorted by their initial appearance.
+- In this activity, your primary goal will be to filter out digits from an assortment
+  that includes both letters and numbers without changing their order.
+- The objective is to filter out every numeric entry from the given list and present
+  them in the order of their appearance.
+- In this task, you will look at a collection of items and select those that are numeric
+  while disregarding any letters or symbols.
+- You will examine a collection of items and isolate those that are numeric values,
+  ensuring to list them as they occur in the input.
+- Parse through an input list filled with different data types and retrieve just those
+  elements that are numbers, keeping their sequential integrity.
+- Your responsibility is to evaluate an input list and identify which items qualify
+  as numerals, ensuring they are compiled without altering their original arrangement.
+- You are tasked with finding all numeric entries from an input list. Focus specifically
+  on distinguishing these numbers from other types of characters.
+- Your goal is to extract all numbers in their given order from a list that includes
+  various other elements without disrupting their arrangement.
+- In this challenge, you must differentiate between number strings and non-numeric
+  items in a list, preserving the original arrangement of numbers.
+- Your role is to carefully review an input list and identify which of its elements
+  are numbers, returning them in their input order without any additional comments.
+- Identify and list all the numerical values found within a provided input list, ensuring
+  that the sequence remains unchanged.
+- This task entails examining a list and finding all the entries that are numbers,
+  disregarding any characters or letters.
+- You will review a provided list and collect all the numerical values present, ensuring
+  they are arranged in the same order as in the source list.
+- Your objective is to extract only the numbers from a provided list, ignoring any
+  non-numeric characters and presenting the results sequentially.
+- "You\u2019ll need to sift through a provided list and successfully identify which\
+  \ elements are numerical, presenting these findings in correct sequence."
+- In this activity, you'll analyze a mixed-type input list and focus on locating just
+  the number elements for your response.
+- Here, you are required to comb through an input list for numerical values alone,
+  ensuring each one is recorded as it appears.
+- From a given list that contains various types of elements, locate all the numbers
+  and compile them into a single output while preserving their original order.
+- You will analyze an array of values and filter out only the numerical components,
+  presenting them exactly as they occur in the input.
+- Your objective is to find numerical elements in a given sequence of data while preserving
+  their positions as they were listed.
+- This task requires your attention to detail as you search through a list for numeric
+  strings to present them without altering their order.
+- The challenge is to extract numbers from an assortment of entries within a list
+  without altering their sequential placement.
+- Your focus is on a list of items where you must find and collect the numeric values
+  while excluding everything else, maintaining their original sequence.
+- This task requires skill in discerning which elements in a list are numbers, so
+  you can compile them into a new output.
+- Participate in an analysis where your focus is strictly on finding numerical characters
+  within an array of diverse entries, presented sequentially as discovered.
+- You are to look for numerical data within an array of diverse items and provide
+  only those numbers in their original order.
+- The task involves filtering a list to extract only the numerical elements while
+  maintaining their original order.
+- Here, your job is to filter out any numeric values from a mixed input list, presenting
+  them in the same order they were found.
+- Your assignment involves identifying all numerals present within an input collection
+  of characters and stating them in the correct order they were found.
+- Your task is to sift through a list and identify which items are numbers, maintaining
+  their original sequence.
+- You will need to review an input list and separate out all numeric values from other
+  types of characters or symbols.
+- In this task, you will extract numbers from an input list by identifying which entries
+  qualify as numeric data while retaining their initial arrangement.
+- You will be engaged in extracting numerical values from a diverse input list, ensuring
+  they are presented exactly as they appeared originally, allowing for clarity in
+  results.
+- This exercise asks you to identify and gather all numerical elements present in
+  a mixed list, ensuring that they are reported in the order they appear.
+- Scan through an input list and gather all elements that qualify as numbers. Ensure
+  to keep their arrangement consistent with the initial presentation.
+- The objective is to filter out and return only the number elements from a mixed
+  list of various types, preserving their order.
+- Your job is to go through a list of different characters and find those that are
+  digits, then list these numeric values in the order they were found.
+- This task involves selecting all digit strings from a diverse collection of entries
+  in a list, ensuring their original arrangement remains unchanged.
+- You will engage in finding numeric entries among various characters in an input
+  list and presenting them as they were positioned initially.
+- In this assignment, you will sort through a heterogeneous list to distinguish between
+  numbers and other items, focusing exclusively on numeric values.
+- Focus on extracting numerical content from the provided inputs without allowing
+  any non-numerical elements to interfere with your results.
+- The intention behind this activity is to examine a set of items for numeric values
+  and compile these findings while keeping the original structure intact.
+- You will engage with a mixed set of data and your job is to isolate any numerical
+  entries while keeping their order unchanged.
+- In this assignment, your skill in recognizing numbers amidst non-numeric distractions
+  will help you extract relevant data from an otherwise mixed array of items.
+- In this exercise, you'll be tasked with identifying numbers from a list that may
+  contain various other characters or letters, keeping them organized as they appear.
+- You will need to assess a collection of mixed items in a list and isolate the numbers
+  while disregarding non-numeric entries.
+- Take on the task of scanning through an array filled with assorted characters to
+  gather exclusively numbers, ensuring consistency with their order of appearance.
+- This task involves reviewing an array of elements and isolating those that represent
+  numerical values while reflecting their initial arrangement.
+- In this activity, you will focus on a list containing diverse items, where your
+  goal is to pinpoint all numerical entries and arrange them as they appear.
+- The task is to carefully inspect an input sequence and determine which values are
+  numeric, returning only those values in the same order they appeared.
+- The task consists of pinpointing numeric elements within a diverse list and putting
+  together an output listing those numbers only.
+- You need to discern which elements in a mixed-input list denote numbers and gather
+  these into a separate output while preserving their entry order.
+- The essence of this task lies in carefully reviewing a collection of entries to
+  select all numbers present within it while ensuring the output maintains their input
+  order.
+- The task requires you to parse a mixture of data in a list and identify which elements
+  are numbers while keeping their original sequence.
+- Your responsibility is to scan an input list for digits and compile them into a
+  single output without altering the order of occurrence among them.
+- The task involves examining a list and isolating all number entries, so that they
+  can be reported in a structured manner according to their original sequence.
+- This task requires you to sift through an input list, separating out the numeric
+  items from other characters, and providing them in the sequence they appear.
+- You will be tasked with identifying and listing all number elements from an input
+  set, paying attention to keep them orderly as per their appearance.
+- The challenge involves filtering a list to find numerical elements only, reporting
+  these findings in the exact order they are encountered.
+- This task involves extracting all numeric entries from a varied data set while preserving
+  the order each number appears in the given input list.
+- In this activity, you will identify and compile numeric entries from a list filled
+  with various characters and symbols.
+- Analyze a list containing various elements and determine which of them are numbers,
+  ensuring to preserve their sequence in the output.
+- The assignment requires you to extract numeric entries from a provided list and
+  return them in the sequence they were found, disregarding all other content.
+- You are tasked with reviewing a list of various entries and picking out the numerical
+  ones, while ignoring any letters or symbols.
+- Scrutinize an input list carefully to harvest every instance of numerical value
+  while maintaining the order established in the original mix.
+- This task involves reviewing a list for numerical values and compiling those numbers
+  while disregarding letters and other symbols.
+- The challenge is to extract only those elements of a list that are numbers, ignoring
+  any non-numeric entries while keeping the sequence consistent.
+- The focus here is on picking out numbers from a mixed collection, requiring attention
+  to detail to maintain their original ordering in your response.
+- In this task, you will be looking at a mixed collection of items and extracting
+  just the numbers in the order they appear.
+- This activity challenges your attention to detail as you seek out and compile numeric
+  values from among non-numeric distractions in a list.
+- This involves locating and isolating numerical data points from a larger selection
+  that contains various other items.
+- Identify numeric components within a given set of inputs and ensure that these selected
+  entries maintain their chronological order in your response.
+- In this task, you are required to select all numeric entries from a provided list,
+  ensuring that their order is preserved in your final output.
+- The objective here is to filter out numbers from a list filled with various types
+  of content, presenting them as they first occur.
+- The challenge here is identifying only those elements that are numbers from a mixture
+  of characters presented in a list while keeping their original order intact.
+- "You\u2019ll undertake the job of combing through an input list and selecting elements\
+  \ that are solely numbers while reflecting their original order."
+- You are required to sift through a list and identify all the items that are numbers,
+  disregarding any non-numeric elements.
+- You need to sift through a given list to extract only the numeric entries while
+  disregarding any non-numeric elements.
+- Your duty is to sort through a collection of items, identifying which are numbers,
+  while ensuring their sequence remains unchanged for output.
+- The goal is to look through an array of items and select those that are numeric,
+  ensuring that their arrangement remains unchanged.
+- In this activity, you will look through a mixed list of items to pick out and list
+  all the numbers you find.
+- Your mission is to identify and list all the numeric values found within a larger
+  set of varied data types.
+- Your challenge is to identify numbers within a mixed list of characters and strings,
+  isolating them while keeping their sequence intact.
+- "Analyze the mixed data set you\u2019re given, focusing solely on identifying and\
+  \ gathering the numbers for your answer."
+- In this task, you will analyze an input list and report back with all the numbers
+  found in that list, keeping them in the same sequence.
+- Examine a given list and isolate the numbers from it, ensuring that you maintain
+  the order of appearance for a clear output.
+- You need to sift through a collection of items and find all the numbers, maintaining
+  the sequence in which they appear.
+- Your objective is to sift through an input list full of various characters and pinpoint
+  those that are numeric without changing their position in the listing.
+- This task engages you in examining a series of elements with the aim of isolating
+  numbers exclusively while keeping them aligned with how they were presented.
+- You are required to investigate a collection for numbers only and report back with
+  those elements according to their initial order in the list.
+- The focus here is on filtering through a mix of items in a list to retrieve only
+  numerical entries with their arrangement remaining the same.
+- You will need to go through an array of items and pinpoint which ones are numbers,
+  compiling these findings in their natural sequence.
+- The job is to filter an input list to extract only numeric elements. This requires
+  attentiveness to detail as you keep their arrangement intact.
+- The objective is to parse a sequence of items, pinpointing which ones are numbers
+  and presenting them in the same sequence as they appeared.
+- Your task involves examining a list and identifying all the elements that are numerical
+  values, while maintaining their original order.
+- Extract numeric values from an input list, handling different forms of entries with
+  care while maintaining their sequence for clarity.
+- You will be examining a series of elements and must only retain those that are digits,
+  making sure the final output reflects their original arrangement.
+- This task requires careful examination of an input list to extract purely numerical
+  elements without changing their order relative to one another.
+- The challenge requires you to extract digits from a mixture of other characters
+  in a list, presenting them just as they appear originally.
+- Your job is to filter a given set of items to find all numeric entries, ensuring
+  that they keep their original positions when listed.
+- In this exercise, you will identify and collect all numeric items from a provided
+  list, ensuring that the order remains unchanged.
+- The task involves sifting through a list of mixed items to identify all numerical
+  values, maintaining their original order.
+- Analyze the provided list to extract all elements that are composed of digits, returning
+  them in the same order they appear.
+- You need to analyze a given list and extract only those entries that are numbers,
+  ensuring the selection follows the order of appearance.
+- Retrieve all numbers from a list cluttered with a mix of characters and letters,
+  while ensuring those numbers are returned in the order they were found.
+- In this task, you must analyze an assortment of entries in a list to distinguish
+  and select numeric values in the precise order they appear.
+- This exercise involves scanning a list filled with different characters and identifying
+  all the numbers present, maintaining their order as you extract them.
+- This activity requires you to look for numerical components among a variety of items
+  in a list and report them as they appear without alterations.
+- This task centers around parsing an array to identify all numerical entries, which
+  should be compiled as output in their original order.
+- This assignment asks you to carefully search through a list for numerical values,
+  compiling these findings in the same order as presented initially.
+- You will need to filter out numbers from a diverse array of inputs presented in
+  a list format, requiring meticulous attention to keep them arranged correctly.
+- Your responsibility is to parse through an input list and collect all items recognized
+  as numbers, respecting their initial sequence.
+- Extract numbers from a given list while ignoring any other types of entries, ensuring
+  that the output reflects their initial arrangement.
+- This task involves sifting through a list to identify and extract all numeric elements,
+  maintaining their original order.
+- You will be tasked with searching through a mixture of characters and numbers to
+  extract only the numeric values while keeping their relative positions intact.
+- The task at hand is to find and extract all values that are numeric from a given
+  set of items, ensuring they maintain their respective positions from the input.
+- The goal is to scan through a provided list and recognize every element that is
+  a number. Your focus should be on keeping their sequence intact.
+- In this exercise, your objective is to retrieve only the numerical elements from
+  a provided assortment, while maintaining their display order.
+- This task challenges you to sift through a variety of characters in an input list,
+  isolating only those that represent numbers while preserving sequence.
+- Your responsibility in this task is navigating through an input of assorted elements
+  to capture all numeric values without altering their original order.
+- Review an unordered list composed of various characters and isolate the numbers,
+  presenting your findings in the same sequence they were located.
+- Examine the contents of an input list to distinguish any numeric values, reporting
+  them succinctly while respecting their initial order of occurrence.
+- Your goal is to sift through a list of items and pick out every number, keeping
+  the sequence intact as they appear.
+- This task requires sorting through a collection of mixed data types and isolating
+  only the numbers, then listing them in their original order.
+- Work through a list filled with both letters and numbers, isolating only the numerical
+  entries based on how they appear within that list.
+- The task requires you to locate and extract only those elements representing numbers
+  from mixed content within a list while preserving their original sequence.
+- You will examine a list and isolate its numerical components, ensuring that their
+  sequence matches that of the original list.
+- The task at hand is focused on locating all number components within a given array
+  and presenting them just as they appeared originally.
+- The task consists of finding all numeric entries among various other elements in
+  a list and presenting them in the order they show up.
+- Focus on distinguishing digits within a provided list, collecting only those items
+  that qualify as numbers while keeping their arrangement intact.
+- This involves taking an input list and discerning which parts of it contain numbers,
+  ordering your findings just as they were arranged in the original input.
+- Your mission involves sifting through lists containing mixed data and extracting
+  just the numbers while ensuring they stay in their initial sequence.
+- The focus of this task is on identifying all instances of numbers contained within
+  an array, while ignoring any non-numeric entries and retaining their sequence.
+- Your task is to sift through a list and extract elements that are numeric, maintaining
+  the original order they appear in the list.
+- In this exercise, you will select only those parts of a mixed list that are numerals
+  and return them in the same arrangement they were received.
+- You need to evaluate a collection of items and pinpoint which ones are numbers,
+  presenting them in the same order as they were found.
+- This task focuses on recognizing and collecting numeric entries from a mixed list
+  of characters and numbers.
+- Your task centers around parsing through different types of entries in a list to
+  reveal solely the numerical data included therein.
+- The objective here is to identify all instances of numerical values in a disordered
+  collection of items and report them in their initial sequence.
+- In this task, you need to identify and extract all numeric elements from a given
+  list while maintaining their original order.
+- This task asks you to review a list and capture all numbers within it, disregarding
+  non-numerical characters while preserving their order.
+- In this task, your focus will be on distinguishing and collecting numerical items
+  from an unordered blend of data within a single list, without changing any positioning.
+- Your work is to search through an assortment of elements for numerical figures,
+  carefully retaining their original sequence for the final output.
+- In this task, you are required to extract and list only those elements from a given
+  array that are numbers, ignoring any non-numeric characters.
+- The goal of this exercise is to traverse an input list and select all numerical
+  data, preserving the order they are presented in.
+- Your objective is to detect which items in a provided list are numbers. Only these
+  numerical items should be returned, in the order they appear.
+- Your mission is to identify all numbers within a given list and compile them into
+  a new format while ensuring their arrangement mirrors the initial source.
+- You will engage with an input list to isolate numeric elements while ignoring any
+  letters or symbols, ensuring the output reflects their initial sequence.
+- This task sets forth to determine which elements in a given collection are numbers
+  and gather them together while respecting their initial arrangement.
+- The goal here is to pick out only those components of an input collection that are
+  numbers while leaving out any non-numeric content.
+- Your task is to filter through an assortment of characters in a list to find all
+  the numbers, keeping them in the same order they appeared originally.
+- You will analyze a mixed list and determine which items are numbers, returning them
+  in the sequence they were presented.
+- Your assignment is to browse through a diverse range of inputs and select just the
+  numbers from that collection in their respective order.
+- The task requires you to examine a mixed list and separate out only those elements
+  that are numbers, responding with them in their original arrangement.
+- The goal is to review a series of mixed elements and filter out the numbers, presenting
+  them in their original order without additional commentary.
+- The objective is to examine a list and return only those items that are numeric,
+  effectively cleaning the input of non-numeric distractions.
+- Your task is to sift through a list and identify all elements that represent numbers,
+  maintaining their original order in the list provided.
+- The challenge is to go through a list populated with various entries, pinpointing
+  each number accurately while fully respecting the established sequence.
+- You will take on the responsibility of sifting through a provided input to pinpoint
+  every number while maintaining the integrity of their sequence as it was originally
+  presented.
+- This activity focuses on identifying numbers within a given list of mixed items.
+  You'll need to extract just the numeric values without changing their sequence.
+- This assignment involves looking through an assortment of items and extracting only
+  the numerical ones from it, ensuring that their initial sequence is respected.
+- This task is about filtering through a varied list to pinpoint only the number entries,
+  with emphasis on their placement within the list.
+- In this activity, your aim is to differentiate between numbers and non-numeric items
+  within a set list, reporting the numbers chronologically as found.
+- You are to dive into a list containing various types of entries and filter out only
+  the numbers while keeping their position intact.
+- You are required to scrutinize a list and pinpoint every numeral, leaving out non-numeric
+  items while maintaining their sequence.
+- Your role here is to filter out non-numeric characters from a list and present only
+  the elements that are purely numbers, following their original order.
+- In this exercise, you'll extract numbers from a diverse list of elements. It's essential
+  that these are arranged exactly as they originally appear.
+- You need to interact with a collection of various data types, pinpointing only the
+  numeric entries for further use without modifying their arrangement.
+- You will be tasked with identifying numerals within an input list full of different
+  characters, presenting them word for word in the order discussed.
+- The focus here is on scanning a diverse list to extract numbers only, keeping them
+  arranged as they appear in the input.
+- You will analyze a given list and pull out each number, preserving their sequence
+  without including any letters or symbols.
+- You will investigate a set of items, carefully selecting out the numbers for an
+  organized response.
+- In this activity, your focus is on distinguishing numeric data from non-numeric
+  characters within a given list while maintaining their existing order of appearance.
+- Look closely at a provided array to extract every numerical element present amongst
+  letters or symbols, maintaining their order as they were seen.
+- The task involves examining a list and identifying all the elements that are numerical
+  values, preserving their original order.
+- The challenge here is to filter out non-numeric characters from a mixed collection,
+  focusing solely on identifying numbers in their displayed order.
+- The objective here is to analyze a list and filter out all numeric entries, ensuring
+  they appear as they do in the original sequence.
+- The challenge consists of assessing an input list for number elements, maintaining
+  the sequence of these findings when reporting them back.
+- You are tasked with filtering through a list to find all occurrences of numbers
+  while discarding irrelevant information.
+- You will need to differentiate between numerical and non-numerical items in a list
+  and focus solely on reporting the numbers you find.
+- Your role involves inspecting a varied assortment of entries to filter out the numeric
+  parts while preserving their order of appearance.
+- You are asked to scan through a provided list and retrieve the elements that are
+  numeric, making sure to keep them in the order they were listed.
+- Your assignment is to sift through the contents of a list to isolate all numeric
+  values, presenting them in the same order they were found.
+- Engage in retrieving numbers from a mixed collection while keeping track of where
+  each appears originally for coherence in your output.
+- The aim is to carefully sift through a mixed array and highlight all numeric entries,
+  ensuring they are reported in their original sequence.
+- You need to review an input list and pinpoint all the number entries within it,
+  providing them in the same order they are found.
+- Your task is to analyze a mixed list and extract only the numeric elements while
+  keeping their original order.
+- Your objective is to pinpoint all numbers from an assorted list and ensure they
+  are documented in the order you found them.
+- Identify which entries within a given collection are numerical and organize them
+  in the same order they originally appeared without any alterations.
+- Your job is to extract numerical values from a mixed-format list, clearly laying
+  out only those numbers as they originally appear.
+- This task involves reviewing a set of elements, where your goal is to pinpoint every
+  numeric entry in the order they are listed.
+- The goal is to identify every number within a randomized list and present them in
+  the same order they were found.
+- You are tasked with recognizing numbers within a character-filled array, extracting
+  them while remaining faithful to their original placement within the list.
+- Your goal is to analyze the contents of a provided list, filter out the numbers
+  hidden among other characters, and return them in sequence.
+- Focus on identifying all numerical values within a non-homogeneous list while keeping
+  track of their position as they originally appeared together.
+- This task involves picking out numbers from a mixed array of letters and symbols,
+  ensuring that the output reflects their input order.
+- The focus here is on examining an assortment of items and discerning which among
+  them are numbers, maintaining their authentic sequence for output.
+- This task centers on recognizing and collating numerical entries from an assorted
+  list while ensuring their chronological arrangement stays consistent.
+ds_kwargs:
+  path: Lots-of-LoRAs/task497_extract_all_numbers_from_list_in_order
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task497_extract_all_numbers_from_list_in_order
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,416 @@
+assistant_prefill: ''
+descriptions:
+- The goal is to review the comments for any threatening content. Use your judgment
+  to discern whether the tone or content suggests a danger.
+- Categorize remarks as potentially threatening or safe by critically examining their
+  content, which involves careful interpretation and reasoning.
+- "You will categorize comments as threatening or non-threatening, which necessitates\
+  \ an understanding of risky language and how it can affect people\u2019s safety."
+- Examine the given comments for any signs of threats. Your judgment will be based
+  on the nature of the words and phrases used.
+- Your challenge is to evaluate whether there is any threat present in the comments.
+  Being considerate of tone, word choice, and context will guide your conclusions.
+- Determine if the comments present any form of threat. This task relies on your ability
+  to interpret various expressions and their meanings.
+- This task involves analyzing comments and categorizing them based on whether they
+  express any form of threat. Consider the language used and the implications of the
+  statements.
+- Your task is to evaluate comments based on whether they contain any threatening
+  language. You need to discern the intention behind the words to make an accurate
+  judgment.
+- This task requires you to read through comments and determine if they are threatening.
+  It involves recognizing subtle cues in language that indicate hostility.
+- Focus on deciphering messages for threat levels. Assess whether there's an expression
+  of violence or intimidation within the provided comments.
+- You will categorize remarks as either threatening or not threatening. This requires
+  careful attention to language and the emotions conveyed in the statements.
+- Assess each comment to identify if it expresses any form of threat. Pay attention
+  to harsh or violent language that could indicate a threat.
+- This task requires a keen eye for detail in assessing messages. Identify any threatening
+  direction in the language while distinguishing from regular discourse.
+- Your role is to identify whether a comment can be interpreted as threatening by
+  analyzing both explicit statements and underlying connotations.
+- Your responsibility is to determine if statements are menacing or harmful in any
+  way. Critical thinking about the intent behind words is crucial here.
+- In this evaluation task, differentiate between threats and neutral comments based
+  on word choice and overall context.
+- This task requires you to sift through comments and classify them based on their
+  potential to threaten others. Look for aggressive undertones in the statements.
+- Your task is to read through comments and judge whether they pose any threat. Understanding
+  connotations and underlying meanings will be crucial in your analysis.
+- Your responsibility is to identify comments that might suggest violence or intimidation.
+  Determine if each message carries a warning or is benign.
+- Evaluate the thoughts expressed in these comments for any indication of threat.
+  This involves discernment to differentiate between robust opinions and potential
+  harm.
+- This task is about distinguishing between threatening and non-threatening comments.
+  You will look for aggressive or harmful intent in the language used.
+- "Read through comments and classify them based on their perceived threat levels.\
+  \ It\u2019s vital to recognize aggressive or harmful insinuations in everyday language."
+- For each comment provided, decide whether it is threatening in nature. You'll need
+  to look for specific cues and context that indicate hostility or danger.
+- Examine each comment for threatening characteristics, focusing on word choice and
+  sentiment. You must analyze the tone to come to a conclusion.
+- Evaluate each statement for its potential to be considered a threat, relying on
+  an understanding of conversational tone and context.
+- Your task involves reading through comments and making a judgment about their potential
+  to threaten others. Critical thinking will help in this assessment.
+- Assess comments for any signs of threatening behavior. This involves critical thinking
+  about the implications of what is being said.
+- Evaluate each comment to classify it as either threatening or non-threatening. Focus
+  on the implications of the language used.
+- Assess various statements for threatening content. You will need to gauge tone,
+  context, and choice of words in your assessment.
+- The focus of this task is on threat assessment. Dissect each comment carefully and
+  categorize it based on its menacing implications.
+- Evaluate each comment carefully, considering whether they express any intent to
+  harm or intimidate. Focus on identifying threatening content.
+- You must classify comments based on their perceived threat level, using your understanding
+  of language subtleties to identify which remarks are potentially harmful.
+- Distinguish between threatening and non-threatening remarks by analyzing the language
+  carefully. Some comments may require nuanced judgement.
+- Analyze comments to identify if they pose a threat. You'll need to consider the
+  overall meaning and implications within the context given.
+- Investigate the nuances in each comment to conclude whether it expresses any threats,
+  drawing on your analytical skills to gauge intent behind words.
+- Analyze language used in different remarks to discern whether they pose a threat,
+  relying on your critical thinking abilities.
+- For each provided comment, decide whether it encapsulates a dangerous sentiment.
+  Your ability to read between the lines will be essential in making these judgments.
+- Categorize the given comments based on their potential threat level. Look for specific
+  phrases or sentiments that suggest harm or aggression.
+- Your task is to evaluate comments and determine whether they express a threatening
+  sentiment, requiring careful reading and analysis of the language used.
+- Analyze comments for their tone and content. Categorize each comment based on whether
+  it is threatening or safe.
+- Your focus will be on categorizing remarks as threatening or not, relying on your
+  ability to grasp situational context and speaker intent.
+- Read through the given statements and judge their tone, focusing on whether they
+  are threatening in nature.
+- The job involves scrutinizing texts to identify threats. Look closely at the words
+  used and decide if they signal any intention to harm.
+- You need to judge whether a comment contains a threatening message. Pay attention
+  to the context and wording that could indicate hostility.
+- Analyze given statements to categorize them as threatening or not. This requires
+  careful interpretation of language and an awareness of what constitutes a threat.
+- Your task is to scrutinize comments carefully for threatening implications, requiring
+  you to differentiate between normal critique and aggressive statements.
+- Evaluate the nature of comments with an eye for potential threats. Your assessment
+  will hinge on recognizing aggressive language or suggestions of violence.
+- Your task is to assess comments and categorize them based on whether they contain
+  threats.
+- Interpret remarks for threats using your judgment skills. Determine which comments
+  suggest harm and which ones do not pose danger at all.
+- In this exercise, you will determine if certain comments pose a danger by analyzing
+  their content. Focus on identifying aggressive or violent implications.
+- Evaluate the risks associated with each comment by determining if any threats are
+  present. Your judgment should be grounded in an understanding of social cues.
+- You're responsible for analyzing commentary for signs of hostility or threat. Consider
+  how words could potentially reflect aggression or intent to harm.
+- Analyze the provided comments to assess if they contain threats. This involves understanding
+  the context and implications of the statements made.
+- Analyze statements for underlying hostility, determining which comments suggest
+  potential threats and which do not.
+- The task involves analyzing comments and determining if they contain threatening
+  language. You need to assess the tone and content carefully.
+- In this task, you will categorize remarks into those that are threatening and those
+  that are not. Focus on identifying hostility or appeals to violence.
+- Assess the provided comments for threats. This involves understanding context and
+  tone to determine if there is an implication of harm.
+- Review comments for any signs of threats. You need to have a keen eye for language
+  that suggests harm or a desire to intimidate others.
+- "The challenge here is recognizing potentially harmful statements among ordinary\
+  \ commentary. Gauge the severity of each comment\u2019s implications."
+- Examine the statements provided and classify them according to their potential threat
+  level. Consider both explicit and subtle cues in the language.
+- Your task is to assess the nature of comments and determine if they contain threats.
+  This involves reading the comments carefully and identifying any potentially harmful
+  intentions.
+- In this task, you will review written comments and discern whether they imply a
+  threat, calling upon your skills in language comprehension and analysis.
+- Assess each statement to determine if it expresses any type of threat. Your focus
+  should be on identifying language that might imply danger or harm.
+- Evaluate each comment to see if it expresses a threat or aggressive intention. Your
+  judgment will rely on understanding the context and tone of the words used.
+- Review each comment with an eye for possible threats, where keen observation and
+  an understanding of language cues are essential skills.
+- Review each comment critically for implications of violence. Make a decision on
+  whether it expresses a threat or is simply an observation.
+- Read through the provided text and gauge its tone to identify potential threats,
+  using reasoning skills to make judgments.
+- Categorize provided remarks based on whether they are threatening. This task demands
+  sensitivity to language and an understanding of interpersonal communication dynamics.
+- Review each comment and evaluate its aggressive potential. Determine whether the
+  language used can be seen as a threat or an innocent remark.
+- Categorize the comments by identifying any expressions of anger or threats. Consider
+  how the wording might affect safety or imply danger.
+- The objective is to categorize comments based on their threat level. You should
+  focus on identifying any aggressive or menacing undertones.
+- Determine if the comments exhibit threat-like qualities. You must analyze how words
+  are articulated and the potential implications they hold.
+- Your task involves evaluating comments against a standard for threat criteria, requiring
+  thoughtful analysis of language and intent.
+- You will determine the safety level of comments by identifying any threats they
+  may contain. It blends linguistic analysis with an understanding of context.
+- Categorize input statements based on their threatening nature, requiring a careful
+  analysis of phrasing and intent.
+- Categorize the comments by identifying expressions of aggression or discomfort,
+  marking those that are threatening.
+- Your job is to categorize comments based on their threat level. Look for words that
+  escalate into hostility or suggest danger.
+- Read through each comment while considering possible interpretations. Determine
+  whether any remarks cross the line into threat territory.
+- Analyze how individuals express their feelings in comments, focusing on those that
+  may convey a sense of danger or intimidation toward others.
+- Engage in a close examination of different comments to see if any indicate threats,
+  exploring both overt statements and subtle insinuations.
+- For each comment provided, decide if it poses a threat or if it's harmless based
+  on the language used.
+- Your role is to determine the threat level of various comments, assessing whether
+  they are alarming or innocuous.
+- Categorize each comment regarding its threat level. This involves recognizing aggressive
+  nuances in written communication.
+- Identify whether comments are aggressive or non-threatening. This requires careful
+  analysis of language to detect any signs of danger.
+- Evaluate comments for any signs of intimidation or danger, labeling them accordingly
+  as threatening or not.
+- Categorize each statement based on its potential threat level by interpreting language
+  choices and their implications effectively.
+- Assess comments for threats by evaluating their implications and tone. Judge whether
+  they could be interpreted as hostile or non-threatening.
+- Determine if the expressed sentiments in the comments are threatening in nature.
+  This requires an understanding of language nuances and context.
+- Analyze whether phrases in comments exert a threatening tone or sentiment, which
+  calls for attention to detail in interpretation.
+- Consider the emotional tone and implications of each comment, deciding if they convey
+  a sense of threat or security.
+- You need to assess comments critically for threatening content. Look for harsh expressions
+  or sentiments that could provoke fear or concern.
+- You need to critically assess each comment for threatening implications, considering
+  context, intent, and emotional resonance in your evaluation.
+- Analyze the language used in different comments to determine if they carry any threats.
+  Look for phrases that imply aggression or harm.
+- Evaluate each comment for any signs of a threat. Your assessment should focus on
+  the intent and severity of the language used.
+- Review each statement for threatening language or sentiments and categorize them
+  based on their implications.
+- You will need to carefully examine a set of comments and decide if any of them convey
+  a threatening message, taking note of the context and wording.
+- Engaging with these comments requires understanding the difference between critique
+  and threats. Your focus should be on evaluating implications in the statements.
+- Interpret comments with an eye toward identifying threats; this involves understanding
+  both explicit statements and subtle suggestions of harm.
+- The task requires you to interpret comments to identify whether they carry threats.
+  Familiarity with language that suggests danger is important here.
+- Your job is to identify whether the comments convey a sense of threat. This involves
+  discerning the subtleties in language that could signify aggression or intimidation.
+- Identify whether comments are threatening by analyzing their wording carefully,
+  focusing on context clues that suggest aggression or hostility.
+- Evaluate comments for their potential threat level. Understanding subtext and emotional
+  undertones is essential in your analysis.
+- Interpret sentiment in given comments to identify those that carry menacing implications
+  versus those that do not.
+- Your job is to categorize remarks based on their threatening potential, focusing
+  on tone, wording, and implied intentions.
+- Categorize comments based on their threat level by analyzing wording and context,
+  distinguishing between mere frustration and genuine threats of harm.
+- Your responsibility is to analyze comments and classify them as threatening or non-threatening
+  based on their content and underlying meanings.
+- Your task is to classify comments as either threatening or not threatening. Pay
+  close attention to phraseology that may indicate hostility.
+- Your job is to interpret comments for potential threats. Think about the intent
+  behind the words used in each statement.
+- Categorize comments based on their level of threat, distinguishing between harmful
+  implications and neutral expressions. Contextual interpretation is essential.
+- You need to determine if comments can be classified as threatening. This involves
+  scrutinizing the content for words or phrases that might imply danger.
+- Your goal is to evaluate risk in communication by identifying comments with aggressive
+  undertones from those that are purely informational.
+- You are tasked with analyzing language used in comments to judge if they threaten
+  others. Critical thinking about context is necessary for this task.
+- Examine the statements given and decide if they indicate any form of threat. This
+  requires critical thinking and interpretation of the messages.
+- Analyze the provided comments and identify if there are any elements of threat.
+  This involves careful reading and understanding of language nuances.
+- Analyze comments for any signs of hostility or aggression. Classify those that present
+  a real threat versus those that do not.
+- Review the comments and think critically about their tone and content to decide
+  if they could be considered threats.
+- Assess statements for threatening implications, using careful judgment about what
+  constitutes a risk based on communicated sentiments.
+- The goal is to categorize comments as threatening or not. This requires careful
+  reading to pick up on underlying implications of aggression.
+- You are tasked with identifying threats within comments by scrutinizing their content.
+  Understand that not all strong reactions are threats; some are valid disagreements.
+- Assess the nature of given comments by determining their threat level. Consider
+  the tone and content to recognize potential threats.
+- Review the text for threatening undertones. Your goal is to discern whether the
+  language suggests harm or indicates normal commentary.
+- Carefully evaluate comments to ascertain if they contain threats, distinguishing
+  between harmful and neutral expressions.
+- Examine comments and distinguish whether they pose any threats. This will involve
+  unpacking language choices that might suggest negativity or harm.
+- Look through a set of comments and identify whether they are threatening. Focus
+  on the implications rather than just surface meanings.
+- Examine the language in several remarks and judge whether they contain threats.
+  Critical reasoning is needed to interpret subtleties in meaning.
+- Your challenge is to recognize threats within comments by assessing their context
+  and language. Understanding nuance in tone will be essential for this task.
+- Analyze comments to see if they communicate any form of intimidation or aggression.
+  Your assessment should focus on recognizing concerning phrasing.
+- Evaluate each comment critically to determine if it poses a threat. Consider both
+  explicit statements and implied meanings that may indicate hostility.
+- You need to categorize statements based on whether they are threatening. This involves
+  understanding nuances in language and sentiment.
+- Determine whether specific statements carry threats. This exercise involves analyzing
+  language and its implications thoughtfully.
+- You will review various comments and establish if any of them could be perceived
+  as threats to individuals or groups.
+- Analyze the provided comments for any signs of threat. Understanding language nuances
+  will be important in making your judgment.
+- Your task is to evaluate comments for threats. You need to determine if each comment
+  poses a potential danger or threat to individuals or groups.
+- Review each comment, keeping an eye out for potentially dangerous sentiments. This
+  task requires careful reading and interpretation of intentions behind the words.
+- The objective here is to review comments for any signs of threats. You should analyze
+  the intent behind the words used by the commenters.
+- You are tasked with identifying whether each comment poses a threat by closely inspecting
+  its wording and meaning.
+- "Analyze comments for signs of threats and classify them accordingly. It\u2019s\
+  \ essential to discern the tone and evaluate whether it suggests any harm."
+- In this assignment, you will read various comments and assess their tone and content
+  to identify any that are threatening in nature.
+- The task requires you to classify comments regarding their threat level, demanding
+  an insight into how statements might be perceived as harmful or menacing.
+- Examine the tone of each comment to decide if it conveys a threatening message.
+  Awareness of how language can impact perceptions will aid in this task.
+- This task requires you to determine if any of the comments could be harmful or threatening.
+  Assessing intent through tone and phrasing is key.
+- This task involves scrutinizing statements for threatening content. Effectively
+  understanding communication nuances is crucial for accurate classification.
+- For every comment, reflect on its potential as a threat, considering underlying
+  meanings and implications. It's about perception and interpretation.
+- Your job is to parse through the comments and identify the presence of any harmful
+  intentions behind the words.
+- Your task is to assess comments for any threatening language. Determine if the comments
+  pose a threat or are simply expressing an opinion.
+- Your role is to distinguish between harmless remarks and those that could be interpreted
+  as threats. Critical evaluation of content is necessary for this assessment.
+- Determine whether the comments express threats by interpreting their content. This
+  task requires sensitivity to wording and emotional undertones.
+- Your job is to discern the nature of a comment and decide if it can be classified
+  as threatening or not, based on its wording and intent.
+- Your task is to evaluate comments and decide if they contain threats. You will consider
+  the language and context to make your determination.
+- Your role is to sift through various comments and decide if they contain threats.
+  Pay attention to strong language or negative sentiments that could imply danger.
+- Assess each comment for potential threats. This involves interpreting phrases or
+  sentiments that could suggest harmful intentions.
+- You must categorize comments based on their aggressiveness or threats. Keep a sharp
+  eye for inflammatory or hostile language.
+- This task requires you to assess various opinions expressed in comments and identify
+  any that might be interpreted as threats against individuals or groups.
+- Your role is to discern if comments contain any threatening implications, requiring
+  a careful reading of the sentiment behind the words.
+- You will need to categorize comments as either threatening or safe, relying on your
+  ability to interpret expressions and identify concerns.
+- Analyze a series of comments to determine if they express threatening sentiments.
+- Your task is to evaluate comments for any threatening language or implications.
+  You need to discern whether the message carries a threat or not.
+- You are required to evaluate whether each comment poses a threat. Consider the implications
+  and context while reaching your conclusion.
+- Your job is to examine comments for aggressive or harmful statements. Decide whether
+  the comments indicate a threat to anyone.
+- You will be tasked with categorizing remarks based on their level of threat, which
+  involves reading between the lines and recognizing aggressive undertones.
+- The goal is to evaluate comments for threatening content. Understanding tone, context,
+  and implications will be vital for accurate categorization.
+- Analyze various comments to determine if they pose a threat. Use your judgment to
+  identify hostile or aggressive statements.
+- Analyze the tone and intent of comments to make a determination about their threat
+  levels. Understanding social cues is important here.
+- Your role is to read through comments and decide if they could be perceived as threatening.
+  Understanding nuances in communication is key.
+- You need to assess whether a given comment poses a threat. This requires careful
+  reading and interpretation of the context and tone.
+- This task involves reading comments with a critical eye to uncover any potential
+  threats embedded in their language or sentiment.
+- The goal is to classify comments according to their level of threat, requiring a
+  keen understanding of language and the ability to interpret intentions behind words.
+- Assess the comments for threatening content. This means evaluating the tone and
+  context of each remark to uncover possible aggression.
+- In this task, you'll evaluate a range of comments, focusing on assessing whether
+  they exhibit any threatening characteristics that could be harmful.
+- Examine each comment critically to assess whether it expresses a threat. Use your
+  judgment to weigh the implications of the statements made.
+- Your task is to review written comments and determine if any display threatening
+  behavior. Be aware of nuances in language that may indicate hostility.
+- Identify any threatening elements in the comments. Your ability to interpret words
+  and discern their intentions will be key to your assessment.
+- Classify each statement based on its level of threat. This requires you to reflect
+  on the words used and their emotional impact on readers.
+- Review the comments and identify if any contain threatening language. Analyzing
+  context and expression is key in this evaluation.
+- Evaluate a series of comments based on their potential threat. This requires critical
+  thinking about the words used and their potential impact on others.
+- Classify comments by addressing if they hold threatening undertones. The skill lies
+  in recognizing aggression embedded within everyday language.
+- Scrutinize given remarks for any threatening undertones, using your judgment to
+  classify them as either dangerous or benign.
+- Identify potentially threatening remarks within given comments. Use your comprehension
+  skills to decipher underlying meanings.
+- The assignment focuses on identifying threatening language within comments. It's
+  crucial to assess said remarks for potential danger they could present.
+- Review each comment carefully for signs of hostility or threats. A nuanced understanding
+  of communication will aid you in making accurate determinations.
+- Review various comments to ascertain if they convey a sense of threat, necessitating
+  careful interpretation of language clues and context.
+- The task involves evaluating comments to determine if they contain any threatening
+  language or implications.
+- The goal is to identify whether comments contain threatening statements. Reflect
+  on the overall sentiment and context before making a determination.
+- Your goal is to evaluate whether statements might suggest harm or intimidation,
+  requiring a nuanced understanding of human communication dynamics.
+- Assess statements made in the comments critically, focusing on whether they could
+  be interpreted as threatening behavior towards individuals or groups.
+- Examine the given remarks for intrinsically threatening meanings, needing skill
+  in contextual reading and emotional analysis of language.
+- The task is about discerning threat levels in written comments. Look out for any
+  indicators that reflect animosity or intimidation.
+- Review a selection of remarks and ascertain if they are aggressive or threatening
+  in nature. This requires attention to detail.
+- Assess the comments for language that implies aggression or intimidation, labeling
+  them appropriately based on your findings.
+- Assess whether comments contain language that suggests a threat. This requires discerning
+  subtle meanings and implications.
+- "Examine the context and wording of each comment, deciding if it suggests a risk\
+  \ to someone\u2019s well-being."
+- Determine if the comments are threatening by analyzing their context and language
+  choice. Not all strong opinions are threats, so judgment is key.
+- Examine the provided comments closely and decide if they express any threats. This
+  task requires critical thinking and comprehension skills.
+- Think critically about the comments presented. You need to figure out if they contain
+  threatening elements or if they're simply harmless statements.
+- "Your responsibility is to sift through commentary and determine if there\u2019\
+  s any expression of a threat within them. Sensitivity to language is important here."
+- Your responsibility is to analyze comments for threats. Think critically about what
+  constitutes a threat based on language use.
+- The objective is to carefully ascertain whether any comments signal threats through
+  their wording and implications, emphasizing analytical thought in communication.
+- Your job is to pinpoint any comments that convey threats. Take into account the
+  intensity of the language and its possible implications for safety.
+- Assess each comment for underlying threats. Look for hints or explicit statements
+  that could indicate hostility or harmful intentions.
+- Consider the intent behind each comment and determine if it is threatening. Pay
+  attention to phrases or words that might imply anger or hostility.
+ds_kwargs:
+  path: Lots-of-LoRAs/task1722_civil_comments_threat_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task1722_civil_comments_threat_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

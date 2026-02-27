@@ -1,0 +1,561 @@
+assistant_prefill: ''
+descriptions:
+- You'll transform SQL queries by clarifying their structure and content through constructive
+  feedback, enhancing their operational efficiency.
+- In this exercise, you will amend SQL queries according to feedback given for each
+  statement. This entails recognizing the problem in the original query and applying
+  the necessary adjustments.
+- This task requires you to synthesize provided feedback into revised SQL commands.
+  You'll need a solid grasp of how different clauses interact within a query.
+- This assignment requires you to fix SQL statements that are incorrect. You will
+  assess the issues pointed out in the feedback and apply your knowledge of database
+  querying to create a valid SQL statement.
+- You are required to translate feedback into actionable changes for SQL queries.
+  It necessitates a clear understanding of how different SQL commands work in order
+  to ensure that the corrected queries run smoothly.
+- Your responsibility is to refine an SQL statement by following instructions laid
+  out in feedback notes. This may involve changing table references or the conditions
+  under which data is queried.
+- You are tasked with adjusting SQL statements by applying constructive criticism
+  provided for each query's performance or structure, requiring an understanding of
+  database querying.
+- You are asked to refine SQL statements based on provided evaluations. This involves
+  critical thinking and problem-solving skills to ensure that your final query correctly
+  retrieves or manipulates data as intended.
+- You will engage with SQL statements that need adjustment due to outlined issues.
+  Your ability to dissect and reformulate these queries using appropriate syntax is
+  vital for addressing the queries effectively.
+- The goal is to review an SQL statement and make corrections according to specific
+  instructions. You should be familiar with how SQL works, including table structures
+  and relationships.
+- In this activity, you will be given an SQL query that contains mistakes along with
+  feedback explaining what needs to be changed. You must apply your knowledge of SQL
+  to revise the query accurately.
+- The primary objective here is to enhance SQL queries by fixing problems identified
+  through feedback. Understanding both the structure of queries and relational database
+  design is important for achieving the right outcome.
+- Your responsibility is to edit SQL statements so they comply with specified requirements.
+  Understand the functions and structures of SQL to implement these changes effectively.
+- You will work with SQL statements and learn to adapt them based on critiques. An
+  understanding of how different components of SQL interact is vital for making accurate
+  corrections.
+- "You must dissect an SQL query, understand what\u2019s wrong with it based on feedback,\
+  \ and make necessary adjustments for a polished result."
+- You will focus on reworking a problematic SQL query by adhering to detailed criticism
+  regarding its performance or structure. A deep understanding of database management
+  systems will guide your corrections.
+- You are expected to enhance flawed SQL queries based on specific guidance given
+  in feedback remarks. Strong skills in troubleshooting syntax and logical relationships
+  are required for success.
+- This challenge involves improving existing SQL code through careful analysis of
+  associated feedback comments. Strong foundational understanding of relational database
+  language principles is necessary for achieving your objectives here.
+- In this task, you'll interpret feedback on SQL statements and make necessary adjustments
+  to ensure they function correctly within a database context. Precision in syntax
+  and logic is key.
+- This involves scrutinizing an SQL query and making necessary changes based on observations
+  provided. A strong grasp of how different SQL clauses interact will help you succeed
+  in this task.
+- You will engage in improving SQL queries by interpreting feedback about their structure
+  or content. This necessitates a comprehensive grasp of relational databases and
+  query formation.
+- The core activity here is adjusting a given SQL statement so that it aligns with
+  specified corrections from feedback while ensuring that data retrieval remains consistent
+  with intended goals.
+- You will be correcting flaws in given SQL queries as per the provided input. It
+  requires both analytical skills to understand the existing query and technical skills
+  to rectify it.
+- The task involves modifying existing SQL queries based on detailed instructions
+  about what needs changing. It requires a good understanding of data selection methods
+  in SQL.
+- The task involves reviewing and correcting SQL queries. You will analyze the query
+  and identify specific errors based on given feedback to ensure it accurately retrieves
+  the desired data from the correct tables.
+- You're tasked with reworking specific SQL statements that do not meet the required
+  standards as indicated by feedback comments. Knowledge of command functions within
+  SQL will assist you in making proper amendments.
+- In this activity, you will focus on enhancing an SQL statement by applying corrective
+  feedback regarding its effectiveness and accuracy in querying data.
+- You are expected to refine an SQL query by applying provided feedback, requiring
+  familiarity with SQL syntax and logical structure.
+- You are tasked with rectifying an error-prone SQL statement, guided by criticism
+  that identifies what needs correcting in terms of how data is queried from the database.
+- This assignment is about fixing SQL queries based on specific comments. You'll need
+  to evaluate the original query and implement changes that align with database principles
+  and logic.
+- Your role is to enhance SQL commands through careful interpretation of critique,
+  ensuring they effectively target the necessary data from specified tables.
+- This task tests your ability to read an SQL query and make necessary adjustments
+  according to provided critiques, ensuring that the statements return the intended
+  results.
+- This task involves correcting SQL statements by interpreting feedback effectively.
+  You will refine the logic of the queries for better performance and accuracy in
+  retrieving data.
+- This task involves troubleshooting SQL queries so that they adhere to specific requirements.
+  You will need to comprehend both the original statement and the suggested edits.
+- The task involves reviewing an SQL query and modifying it based on specific feedback.
+  You will need to ensure that the modified query aligns with the instructions provided
+  and adheres to SQL syntax rules.
+- In this activity, you will fix errors in SQL statements based on critique provided.
+  Knowledge of query building, including aggregation and filtering techniques, will
+  be instrumental in making the necessary updates.
+- In this exercise, you'll be tasked with fixing flawed SQL queries. Understanding
+  how tables relate in a database will be crucial for implementing necessary changes
+  based on specific feedback.
+- Your job is to refine existing SQL queries by addressing issues identified in feedback.
+  Knowledge of common SQL practices will assist you in properly completing this task.
+- You need to refine an SQL query to align with feedback provided about its correctness.
+  This requires interpretation of that feedback and knowledge of how SQL queries are
+  structured.
+- The aim of this task is to take flawed SQL queries and improve them based on specific
+  guidance, demonstrating your proficiency with SQL grammar and principles.
+- The objective is to enhance existing SQL queries by implementing feedback responsibly.
+  A strong understanding of data relationships in databases will assist you in producing
+  correct and functional queries.
+- You are tasked with improving SQL queries by addressing issues highlighted in feedback.
+  Understanding database relationships and join operations can help make these corrections
+  effectively.
+- This exercise involves scrutinizing SQL commands for errors as described in the
+  feedback. You will make modifications to enhance their functionality within a relational
+  database context.
+- You must analyze an existing SQL query and fix any issues highlighted in the feedback.
+  This involves translating the feedback into practical adjustments within the code.
+- Your challenge is to refine SQL commands following specified guidance from reviewers,
+  ensuring queries accurately represent intended data retrieval needs.
+- Your job is to assess and transform incorrect or inadequate SQL statements into
+  functional ones, utilizing directed feedback as your roadmap. Critical thinking
+  in conjunction with technical knowledge is essential.
+- In this activity, adjust given SQL queries based on identified weaknesses or inaccuracies
+  through precise feedback. Your skills in database management systems and query construction
+  will be critical.
+- Your goal is to modify SQL statements so that they align with specific feedback.
+  This demands familiarity with database concepts like tables, columns, and the appropriate
+  clauses in SQL.
+- The task consists of correcting specified SQL queries based on insights provided.
+  You'll need analytical skills to interpret the feedback and apply them appropriately
+  in your edits.
+- This task requires you to understand a provided SQL statement along with feedback
+  that highlights its flaws. You will need to utilize your SQL skills to make the
+  necessary corrections.
+- "The objective is to fix SQL queries by implementing feedback on what needs adjustment.\
+  \ You\u2019ll need to translate written feedback into precise modifications in the\
+  \ SQL code."
+- You'll need to analyze an SQL statement, identify areas for correction, and implement
+  changes guided by feedback to improve its functionality.
+- The aim of this task is to rectify a complete SQL query using insights gained from
+  critical feedback. Familiarity with data manipulation concepts in relational databases
+  will aid your undertaking.
+- You are expected to reevaluate an SQL statement in light of suggestions for improvement.
+  Being able to navigate through SQL operations and data relationships is vital for
+  success here.
+- In this task, you are expected to interpret feedback on an SQL statement and make
+  alterations accordingly, reflecting your comprehension of database querying practices.
+- Your role is to address issues in an SQL query as pointed out in feedback. This
+  necessitates a solid grasp of SQL language rules and how different clauses interact
+  with each other.
+- The task involves correcting SQL queries based on given feedback. This requires
+  understanding SQL syntax and structure to identify what changes need to be made.
+- The goal here is to improve poorly constructed SQL queries according to explicit
+  suggestions. Understanding relationships between tables and how data should be queried
+  is essential for this task.
+- You are expected to revisit and refine SQL statements following feedback. Being
+  familiar with SQL commands like SELECT, JOIN, and WHERE will aid you in ensuring
+  accurate data output.
+- You're tasked with revising flawed SQL statements based on specific failings mentioned
+  in the feedback. A solid grasp of various SQL commands and the logic behind them
+  is crucial for this task.
+- In this task, you will rectify various SQL statements based on evaluative comments
+  that highlight their shortcomings. The ability to interpret these comments correctly
+  is essential for producing functional SQL.
+- This task involves correcting SQL queries based on provided feedback. You need to
+  understand SQL syntax and logic to identify errors and make appropriate adjustments
+  to ensure the queries run correctly.
+- Understanding SQL logic is crucial as you modify existing queries in line with provided
+  critiques for the desired output from the database.
+- You are tasked with fixing an SQL query that has been deemed incorrect. Analyzing
+  instruction provided in the feedback, you will adjust elements like selected columns,
+  tables, and conditions.
+- Here, you will read through an SQL statement and enact modifications as per the
+  guidance given. Familiarity with database concepts such as primary keys, aggregates,
+  and joins is key to effectively completing the task.
+- Your task is to analyze an SQL query, identify its errors based on provided feedback,
+  and modify it accordingly. It involves understanding SQL syntax and the relationships
+  between tables.
+- Review existing SQL queries for errors and modify them based on detailed instructions
+  provided in the feedback. Proficiency with SQL structures enables better understanding
+  and decision-making when rectifying queries.
+- You will receive an SQL query that contains mistakes. The task is to read the provided
+  feedback and revise the query accordingly, ensuring logical and syntactical accuracy.
+- "This task requires you to take an SQL query and modify it based on given feedback.\
+  \ You\u2019ll need to understand different SQL components like SELECT, JOIN, and\
+  \ WHERE to correctly apply the changes."
+- In this task, you will evaluate SQL queries for errors highlighted in feedback.
+  Your challenge is to address these issues by tailoring the query structure appropriately.
+- The objective is to revise SQL statements according to constructive criticism. Understanding
+  how SQL commands work together is essential for success.
+- The focus of this task is on correcting SQL queries to ensure that they function
+  as intended when interacting with a database.
+- In this task, you will correct SQL queries by following detailed feedback. It tests
+  your understanding of SQL syntax, functions, and how to retrieve data accurately.
+- The assignment challenges you to rectify SQL queries through careful evaluation
+  of provided remarks. Mastery of database theory and practical coding skills are
+  crucial for success here.
+- Your task includes improving an SQL command according to self-contained feedback.
+  Comprehension of database querying principles is important as you refine your output.
+- Your task is to make precise corrections to SQL statements based on formal recommendations
+  presented as feedback. A structured approach toward understanding database interactions
+  will help facilitate your corrections.
+- This project revolves around converting flawed SQL queries into functional ones
+  based on detailed insights. It necessitates a talent for precise adjustments in
+  coding practices.
+- This task requires transforming a given erroneous SQL statement based on specific
+  recommendations. It's important that you leverage your knowledge of data relationships
+  and querying techniques during this adjustment process.
+- Your mission is to enhance SQL queries based on critical assessments found in the
+  feedback provided. Familiarity with foundational SQL concepts will enable you to
+  make coherent adjustments effectively.
+- This assignment challenges you to optimize provided SQL statements by implementing
+  feedback effectively. Knowledge of database principles will help you craft functional
+  and accurate queries.
+- "The task is about refining SQL statements by addressing provided comments on what\
+  \ isn\u2019t working. This involves using your database knowledge and problem-solving\
+  \ skills to create accurate queries."
+- The purpose of this task is to modify flawed SQL queries according to detailed assessments.
+  Comprehensive skills in writing and troubleshooting queries will help achieve an
+  accurate solution.
+- The objective is to enhance existing SQL queries by interpreting feedback and making
+  precise alterations. Knowledge of aggregate functions and grouping data will aid
+  in achieving the correct output.
+- Delve into an SQL statement that requires revision according to particular guidance
+  given. Your focus should be on maintaining logical coherence while adhering to standard
+  querying formats.
+- You will receive an SQL statement along with constructive criticism about its structure
+  or logic. The goal is to correct the SQL based on this feedback, ensuring proper
+  data selection and relations.
+- In this exercise, you are expected to reassess an erroneous SQL query while integrating
+  modification suggestions effectively, ensuring that the newly crafted statement
+  meets required specifications.
+- Here, you'll be correcting SQL queries based on specific feedback. This involves
+  understanding the intent of the query and how it aligns with database principles,
+  while ensuring proper syntax is used.
+- This task involves correcting an SQL query based on various descriptions of what
+  is wrong with it. Understanding how different components of a query interact will
+  be crucial.
+- You need to modify an existing SQL statement based on provided critiques. This requires
+  analytical skills to dissect the query and implications of the suggested modifications.
+- This task requires you to correct flawed SQL statements by interpreting feedback
+  accurately. Applying your insights on database querying can lead to precise and
+  functional results.
+- You will revise and optimize SQL queries according to outlined suggestions, making
+  sure each adjustment leads towards better coherence with database standards.
+- You will analyze a flawed SQL query and refine it as per feedback given. A strong
+  grasp of SQL language features such as SELECT, JOIN, and WHERE clauses is necessary.
+- Analyze a given SQL query in light of criticism received, then aim to produce a
+  revised version that aligns with established database querying standards and achieves
+  the intended output.
+- In this task, you will be adjusting erroneous SQL statements as directed by user
+  comments. Understanding table structures and query logic will be crucial in formulating
+  accurate results.
+- By revising given SQL queries based on detailed critiques, you will create more
+  accurate and effective data retrieval commands.
+- Your objective is to take a flawed example of an SQL command, process the insights
+  from the feedback, and present a corrected version that captures the intended functionality.
+- The task involves identifying and correcting errors in SQL queries based on provided
+  feedback. You will need to understand SQL syntax and concepts like SELECT, JOIN,
+  GROUP BY, and WHERE to make the necessary adjustments.
+- The job involves revising existing SQL code based on clear guidance about its flaws
+  or needed changes. Familiarity with data extraction through SQL is key for success
+  in this task.
+- Your task is to modify an SQL query based on specific feedback to ensure it accurately
+  reflects the required data conditions.
+- You are tasked with amending SQL queries that have errors or omissions. Pay attention
+  to the details in the feedback so that you can provide an accurate and functional
+  SQL statement.
+- The objective is to take an existing SQL query and adapt it based on specific critiques
+  regarding its functionality. You must use your understanding of query structure
+  to enhance the result set produced.
+- You will focus on fixing errors in given SQL commands influenced by specific user
+  feedback. Understanding how various elements within a query interrelate is crucial
+  for effective adjustments.
+- "The goal here is to refine a problematic SQL statement by implementing feedback.\
+  \ It\u2019s essential to know about JOINs, WHERE clauses, and the use of aggregate\
+  \ functions."
+- This task revolves around analyzing existing SQL statements and implementing revisions
+  as per feedback, aiming for clarity and correctness in data selection.
+- This task requires analyzing feedback about SQL queries and applying changes as
+  necessary. Clear comprehension of how to structure these queries will lead to successful
+  outcomes.
+- This task focuses on enhancing SQL queries by rectifying mistakes highlighted in
+  user feedback. You'll need to analyze both the original query and the provided comments
+  to ensure correctness.
+- The challenge lies in rewriting provided SQL queries following highlighted errors
+  in their logic or structure based on explicit guidance, showcasing your comprehension
+  of database querying.
+- Your role involves revising SQL queries based on constructive criticism. Thorough
+  knowledge of how databases operate will help you in restructuring these queries
+  properly.
+- This task focuses on fixing SQL queries that have been flagged for issues. You will
+  analyze the given query, comprehend the feedback, and modify it to fulfill the specified
+  conditions.
+- Your task is to modify SQL statements according to feedback provided. You will need
+  to ensure that each query adheres to proper SQL syntax while correctly selecting
+  information from relevant databases.
+- In this task, you'll fix errors in SQL commands by implementing given suggestions.
+  Knowledge of how to properly format queries and work with databases will be essential.
+- The goal here is to enhance the syntax and logic of SQL statements based on commentary
+  regarding their shortcomings. Critical thinking will guide your revisions as needed.
+- This assignment includes refining erroneous SQL queries based on evaluation comments.
+  An understanding of aggregate functions, filtering, and table relationships is needed
+  for precise corrections.
+- The goal is to refine SQL queries using feedback as a guide. You must apply your
+  understanding of database relationships to ensure accurate data retrieval through
+  corrected SQL syntax.
+- In this task, improvement of an SQL statement must be accomplished through implementing
+  changes suggested by analysis of its structure and logic.
+- Your responsibility is to make adjustments to SQL queries according to provided
+  feedback. This requires understanding SQL structure and the relationships between
+  tables so that the query returns the intended results.
+- Your mission is to improve a provided SQL statement by incorporating specific recommendations
+  from feedback. Understanding logical relationships within the database will be important.
+- Your assignment involves correcting an improperly structured SQL query by using
+  the hints provided. Understanding of relational databases will be vital in successfully
+  completing this task.
+- This assignment deals with identifying faults in SQL statements following submitted
+  remarks. Your challenge is to utilize your understanding of database querying techniques
+  to develop accurate solutions.
+- You are tasked with improving SQL statements using provided feedback. A strong grasp
+  of SQL database operations is required to achieve this effectively.
+- The task consists of analyzing SQL commands that are erroneous or inefficient, followed
+  by correcting them according to pinpointed guidance. Familiarity with data manipulation
+  and retrieval techniques is key here.
+- The focus is on adjusting SQL queries according to specified feedback. You must
+  translate textual critiques into actionable changes to the SQL syntax.
+- Your task is to analyze an SQL query and adjust it based on given feedback. This
+  will require a solid understanding of SQL syntax and logic.
+- Your work revolves around fine-tuning a set of provided SQL queries following specific
+  recommendations. Identifying errors in syntax or logic will aid in delivering functional
+  and correct statements.
+- This activity challenges you to revise SQL statements that have been flagged for
+  issues. You must leverage your knowledge of SQL command syntax along with attention
+  to detail to craft effective responses.
+- The objective here is to enhance existing SQL queries based on specific guidance.
+  Familiarity with database organization and querying mechanics will aid in implementing
+  effective modifications.
+- Your job is to analyze and alter SQL queries as instructed in feedback notes. Familiarity
+  with aggregate functions, filtering criteria, and table joins will be vital for
+  accomplishing the revisions required.
+- This involves reviewing and revising an incorrect SQL query based on contextual
+  feedback. You must synthesize your knowledge of relational databases in order to
+  complete this task.
+- You're expected to fix inaccuracies in SQL queries considering the provided feedback.
+  Familiarity with different components of an SQL statement such as SELECT, FROM,
+  and WHERE will aid your corrections.
+- In this task, your goal is to enhance SQL queries by correcting errors based on
+  feedback. This requires a solid grasp of SQL functions like SELECT, JOIN, and WHERE
+  to accurately reflect the requested changes.
+- You will examine an SQL query that has been flagged for errors and write a revised
+  version according to stipulated suggestions, demonstrating mastery over querying
+  databases.
+- In this task, you will take a flawed SQL query and make necessary corrections guided
+  by feedback. You should be familiar with SQL operations like SELECT, JOIN, and WHERE
+  clauses to effectively modify the queries.
+- "In this job, you\u2019ll work on fixing incorrect elements within provided SQL\
+  \ commands as indicated by user descriptions. Mastery of data querying techniques\
+  \ ensures that any changes you implement are logical and effective."
+- You will work with a series of SQL statements that need correction according to
+  established criteria. This process evaluates your understanding of query optimization
+  and selection criteria.
+- In this exercise, evaluate an incorrect SQL statement and make precise corrections
+  based on the given feedback for optimal performance.
+- In this exercise, you will improve incomplete or faulty SQL queries based on specific
+  critiques. This requires analytical reasoning as well as thorough knowledge of SQL
+  syntax and best practices.
+- Your focus here is on adjusting SQL statements to better align with user requirements
+  indicated in the feedback. Proficiency in SQL keywords and operations is essential
+  for making these adjustments.
+- "The focus of this task is on refining SQL queries based on given instructions.\
+  \ It\u2019s essential to grasp SQL principles like grouping data and applying conditions\
+  \ through clauses."
+- Your role is to take an existing SQL query and enhance it according to guidance
+  given, improving its accuracy in selecting data.
+- Your role involves troubleshooting SQL queries by reviewing critical feedback and
+  revising the statements accordingly. A solid grasp of relational database concepts
+  is crucial for success in this task.
+- Your responsibility is to interpret user feedback regarding SQL queries and implement
+  relevant changes, showcasing your skills in coding and database management principles.
+- Your job is to troubleshoot an SQL query using feedback as your guide. This will
+  include identifying inaccuracies in table naming, selection criteria, or groupings.
+- You need to correct mistakes in given SQL queries using constructive criticism from
+  feedback. Clear knowledge of how each Excel component interacts will prove essential
+  for accurately making these changes.
+- The goal here is to enhance your ability to edit SQL queries effectively by translating
+  feedback into clear instructional changes within the statements.
+- The task is centered around modifying an incorrect SQL statement based on specified
+  comments. Proficiency with various data selection techniques in SQL is essential
+  for effective resolution.
+- This task is about using feedback to enhance SQL statements. You should possess
+  a solid understanding of how databases operate to make these corrections logically
+  and efficiently.
+- You will be evaluating SQL queries and applying corrections based on descriptive
+  feedback. This requires a clear understanding of how SQL functions, including selection,
+  filtering, and sorting data.
+- In this task, you will repair SQL statements by interpreting feedback. You need
+  to apply your knowledge of SQL commands and logic to ensure that the queries function
+  as intended.
+- Your job is to take a given SQL statement and adjust it according to the comments
+  provided. You'll need to apply knowledge of how to select and join tables to get
+  the desired result.
+- You will be responsible for adjusting an SQL command using specific feedback provided.
+  Grasping key database concepts will assist you in executing this modification competently.
+- Your job is to optimize SQL queries by identifying mistakes outlined in the accompanying
+  feedback. This includes adjusting selection criteria, table names, and conditions
+  for accurate data results.
+- By correcting the flaws in provided SQL queries based on feedback, you ensure they
+  meet required data-fetching criteria appropriately.
+- The task involves focusing on identifying flaws in specified SQL queries and correcting
+  them by applying clear guidance from provided feedback while maintaining proper
+  database practices.
+- This task requires you to enhance SQL statements based on critiques provided in
+  written feedback. A solid grasp of SQL principles is essential for correcting errors
+  in table joins, conditions, and selections.
+- You must resolve issues within existing SQL commands by implementing feedback that
+  addresses technical deficiencies. Knowledge of common operations like JOINs or WHERE
+  clauses will be beneficial.
+- As part of this assignment, your challenge is to take flawed SQL queries and refine
+  them according to provided feedback. A comprehensive understanding of how SQL operates
+  will guide your revisions.
+- The objective is to adjust SQL statements in response to specific suggestions. You
+  must have a good grasp of SQL concepts, including filtering, grouping, and joining
+  tables.
+- The task calls for you to adjust an SQL query so that it properly retrieves data
+  according to specific requirements outlined in the feedback. Knowledge of how to
+  structure queries effectively is essential.
+- Your objective is to adjust SQL syntax according to detailed guidance provided by
+  feedback. Knowledge of various SQL functions and how they interact with tables is
+  vital for successful corrections.
+- Your focus should be on reworking given SQL queries by applying specified corrections
+  that improve their functionality or output. Understanding relational tables will
+  aid in this process.
+- This exercise is about correcting shortcomings in an SQL statement through careful
+  modification based on descriptive feedback provided alongside the original query.
+- In this role, your task is to analyze an incorrectly structured SQL query and correct
+  it according to comprehensive feedback provided. A sound knowledge of logical conditions
+  in SQL is necessary.
+- This task involves reviewing and adjusting SQL queries by addressing issues highlighted
+  in feedback, ensuring the query returns the correct results.
+- In this task, you focus on improving SQL queries by implementing necessary revisions
+  guided by feedback. This requires knowledge of SQL commands and how to efficiently
+  retrieve data from databases.
+- Here, your responsibility is to review an SQL query alongside its critiques. Your
+  goal is to ensure that the corrected query adheres to standard practices for querying
+  data effectively.
+- Your role involves modifying given SQL commands based on errors indicated in feedback.
+  A solid understanding of both syntax and database functionality is necessary for
+  this task.
+- You will execute necessary alterations on an SQL statement by following specific
+  directions regarding its current issues. Be prepared to demonstrate your knowledge
+  of database management concepts.
+- The task focuses on repairing inaccuracies within SQL statements according to input
+  received from users. An effective solution hinges on proper interpretation of the
+  suggested changes.
+- The task is centered around troubleshooting and enhancing an SQL statement in response
+  to detailed feedback suggesting modifications necessary for accurate data retrieval.
+- The aim here is to adjust given SQL statements by attentively considering feedback.
+  You will analyze where changes are necessary and correctly implement modifications
+  for effective data handling.
+- You will work with SQL queries that require correction. This entails understanding
+  the underlying data structure and ensuring that the correct tables and conditions
+  are utilized in each query.
+- "In this exercise, you\u2019ll review an SQL statement and modify it according to\
+  \ specific criticisms. This involves correcting errors related to table references,\
+  \ conditions, or the selection of data."
+- This task requires you to improve SQL statements based on specified problems or
+  shortcomings outlined in the feedback. An understanding of expression logic and
+  query optimization will play a significant role here.
+- Here, you need to correct SQL syntax based on provided evaluations. You should be
+  familiar with functions like COUNT and JOIN and how they are used within queries.
+- You will analyze SQL queries, apply corrective measures based on feedback, and ensure
+  that the adjusted statements run correctly in a database environment.
+- This exercise involves correcting SQL queries by interpreting feedback. You should
+  be familiar with SQL commands such as SELECT, JOIN, and WHERE, and apply this knowledge
+  to fix the errors.
+- This involves modifying an SQL query according to feedback on its structure or output.
+  Understanding how tables connect and how data is manipulated in SQL queries will
+  aid in successful execution.
+- The goal of this task is to enhance SQL queries according to specific insights from
+  given feedback. Utilizing both technical skills in SQL and analytical thinking will
+  aid greatly in revising these statements accurately.
+- Your mission is to enhance SQL statements by recognizing their flaws and implementing
+  corrections as per instructions. This requires familiarity with SQL functionalities
+  and the structure of database tables.
+- "The task entails refining SQL queries by incorporating required improvements based\
+  \ on provided descriptions. You\u2019ll need to apply knowledge of database management\
+  \ principles to execute these changes."
+- This task requires you to refine SQL queries by following given recommendations
+  for improvements. Knowledge of how to select and filter data in SQL is crucial for
+  this task.
+- "You\u2019ll be tasked with fixing errors in an SQL statement by ensuring that the\
+  \ correct tables and relationships are used as per the feedback. Familiarity with\
+  \ database structures is key."
+- This task asks for revisions to an SQL query based on feedback highlighting its
+  flaws. You should understand how different SQL commands work together to yield the
+  desired results.
+- You will be addressing various inaccuracies in SQL statements based on highlighted
+  issues in the feedback. Expertise in structuring queries correctly will streamline
+  your revisions for desired outcomes.
+- The task requires you to assess and adjust SQL queries according to input on how
+  they need improvement, relying on your SQL knowledge.
+- In this task, you're tasked with making precise amendments to given SQL commands
+  after assessing pointed criticisms. A thorough understanding of relational databases
+  is key for accurate restructuring.
+- Your working goal is to decode revisions needed for a faulty SQL query through constructive
+  criticism provided. Adjusting conditions and selecting relevant fields will be key
+  components of this process.
+- You are asked to troubleshoot and refine SQL queries according to given corrections.
+  Understanding SQL structure is essential, as you will edit the statements to retrieve
+  the desired data correctly.
+- "You\u2019ll be tasked with adjusting an SQL command according to critique provided.\
+  \ It\u2019s crucial that you understand various SQL components like selection criteria\
+  \ and table associations."
+- Your task is to refine SQL queries by interpreting feedback. You'll analyze the
+  original statement, understand what needs to change, and rephrase the query following
+  SQL rules.
+- "This task centers on correcting SQL queries by interpreting feedback accurately.\
+  \ You\u2019ll demonstrate your ability to transform a query while ensuring it adheres\
+  \ to relational database principles."
+- "You\u2019re required to edit an existing SQL query based on specific critiques\
+  \ regarding its execution and logic. Expertise in crafting accurate queries is fundamental\
+  \ for this task."
+- Engage with SQL statements and their critiques to effectively adjust them for improved
+  accuracy. Your understanding of database schemas and query functionalities will
+  be crucial here.
+- Interpret a flawed SQL statement along with accompanying feedback and refine it
+  into a correct version by applying relevant database querying knowledge.
+- This endeavor involves perfecting SQL queries through detailed modifications inspired
+  by constructive feedback. Knowledge of how different parts of an SQL statement work
+  together will support your corrections.
+- You are tasked with optimizing an SQL query by analyzing corrective feedback about
+  its existing flaws. A thorough understanding of querying principles will support
+  your revisions.
+- The goal here involves diagnosing problems within certain SQL queries and correcting
+  them based on constructive criticism received. It demands an understanding of logical
+  query structuring and relational databases.
+- In this task, you need to analyze an SQL query and modify it based on specific feedback.
+  This requires an understanding of SQL syntax and database structure.
+- This assignment challenges you to transform given SQL statements by considering
+  critiques and enhancing their logic, ensuring they fulfill the intended data retrieval
+  tasks.
+- In this task, you must revise given SQL code snippets by addressing outlined problems
+  in the feedback, highlighting your capability in logical reasoning and database
+  familiarity.
+ds_kwargs:
+  path: Lots-of-LoRAs/task076_splash_correcting_sql_mistake
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task076_splash_correcting_sql_mistake
+user_prompt_template: '{task_def}
+
+
+  {problem}'

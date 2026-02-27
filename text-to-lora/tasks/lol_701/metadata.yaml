@@ -1,0 +1,479 @@
+assistant_prefill: ''
+descriptions:
+- Your role is to think through high school-level concepts in computer science and
+  select the answer that most closely aligns with correct principles and practices
+  in the field.
+- Make evaluations based on your understanding of specific programming tasks and language
+  functions while distinguishing correct from untrue assertions.
+- Interpret logical conditions and their implications within code sequences, aiming
+  to clarify intended operations and highlight correct answers based on programming
+  principles.
+- Interpret scenarios in computer science that require logical reasoning about code
+  execution paths to provide accurate assessments within the context given.
+- Your task is to analyze questions related to computer science concepts, applying
+  your understanding of programming and algorithms to identify the correct response.
+- The task is to assess various assertions related to computer science principles.
+  Leverage your expertise in coding, algorithms, and data structures to choose the
+  best description.
+- Use your knowledge of programming language syntax and logic to analyze the provided
+  scenarios. Identify which statements accurately reflect outcomes based on Python
+  behavior.
+- Engage with questions centered on programming principles, code outputs, and theoretical
+  concepts in computer science to find the right answers based on your expertise.
+- You will examine problems regarding coding practices and results in programming
+  languages, demanding careful consideration and familiarity with expected outcomes
+  in a coding environment.
+- Analyze provided scenarios within computer science and interpret them through your
+  academic foundation, helping you sift through various answers based on logical reasoning.
+- The task involves answering questions related to high school computer science concepts,
+  requiring an understanding of programming languages and algorithms.
+- Evaluate a series of inquiries pertaining to fundamental computer software concepts,
+  applying learned theories and practices to assess which statements hold true under
+  scrutiny.
+- This task involves interpreting questions centered on high school-level computer
+  science topics, requiring you to apply your knowledge effectively to determine the
+  correct answer.
+- This engaging set of questions invites you to delve into the world of computer science
+  where understanding of code structure, effectiveness, and ethical considerations
+  is essential.
+- The objective here revolves around concrete understanding of programming output
+  behavior. Analyze claims about algorithms through a knowledgeable lens of computer
+  science theory.
+- Engage with computer science inquiries that test your grasp of programming logic
+  and syntax, requiring you to discern correct outputs or concepts from misleading
+  options.
+- Your ability to navigate through coding-related questions will be tested, necessitating
+  a clear understanding of language specifics and general coding principles.
+- You are tasked with evaluating specific claims about computer science practices
+  and theories, requiring a balance of critical thinking and foundational knowledge
+  in the subject matter.
+- You'll participate in an evaluation of programming-related queries, drawing from
+  your understanding of specific programming scenarios and their correct operational
+  outcomes.
+- Your ability to interpret and manipulate programming constructs will be put to the
+  test as you work through multiple questions on technical subjects within computer
+  science.
+- This task assesses your grasp of basic programming logic and structures through
+  challenging questions; think critically about each scenario presented.
+- The task aims to test your ability to analyze code snippets and predict outcomes
+  based on established programming rules and logic.
+- Analyze programming questions that evaluate knowledge of variable manipulation and
+  algorithmic behavior in order to choose the correct answer from the options provided.
+- The questions push you to think critically about practical applications of code,
+  asking you to judge their validity or efficiency within typical programming scenarios.
+- This task requires you to apply your knowledge of high school-level computer science
+  topics, focusing on programming languages, functions, and code behavior.
+- The task involves answering questions related to computer science concepts, requiring
+  knowledge of programming, algorithms, and software licensing.
+- Delve into a series of questions related to the fundamentals of computing. The goal
+  is to extract essential insights from the prompts provided and arrive at factual
+  conclusions.
+- You will use your expertise in programming languages and principles to analyze provided
+  situations and distinguish the most appropriate responses based on context.
+- You are required to use your understanding of computer science principles to assess
+  a given scenario and select the most appropriate solution from the provided options.
+- You are required to analyze multiple-choice questions that focus on various aspects
+  of computer programming, ensuring your reasoning aligns with established practices.
+- Your responsibility is to navigate through questions about computer systems and
+  code execution while applying your theoretical understanding to real-world coding
+  situations.
+- Review conceptual inquiries that investigate key principles in computer science
+  education. Utilize logical reasoning based on foundational knowledge in the field.
+- Use your knowledge of algorithms and programming languages to analyze given code
+  snippets or scenarios and determine the potential output or correctness.
+- You will need to leverage your understanding of coding standards and conventions
+  in computer science to choose the right answer among given scenarios.
+- The task involves analyzing a computer science question and applying your knowledge
+  of programming concepts to identify the correct answer.
+- You will be required to apply theoretical knowledge concerning algorithms and basic
+  operations within one or more defined programming languages.
+- The objective is to demonstrate your understanding of key computer science principles
+  and the ability to interpret programming-related questions correctly.
+- You will explore topics in computer science, demonstrating your understanding of
+  code usage, data structures, and encoding methods to arrive at the correct response.
+- Analyze computer science principles presented through various scenarios. You must
+  leverage your analytical skills to judge the validity of these statements effectively.
+- Explore problem statements that require an understanding of data processing, variable
+  manipulation, or output generation in relation to various programming instructions.
+- Your task is to demonstrate your knowledge of Python programming and computer science
+  concepts through a series of multiple-choice questions.
+- You will be asked questions that test your knowledge of programming fundamentals,
+  such as variable assignment and function usage, requiring critical thinking to arrive
+  at the correct option.
+- Familiarize yourself with common programming patterns and conditions, then critically
+  evaluate which among them logically fulfills the stated requirements of a task.
+- This involves evaluating statements about computer science principles, using your
+  knowledge of programming languages and their functionalities to determine the accuracy
+  of each claim.
+- You are expected to utilize your background in computer science to dissect various
+  questions about code snippets and theoretical constructs, ensuring accurate selections
+  based on sound reasoning.
+- Engage with descriptive challenges relating to Python programming. Assess provided
+  answers based on how accurately they represent expected outcomes from specific code
+  examples.
+- Your objective is to evaluate computer science-related queries, some of which may
+  involve debugging code or assessing algorithmic efficiency, to hone in on the right
+  choice.
+- Delve into the evaluation of technical queries in computer science, focusing on
+  code functionalities and data processing methods to verify correct applications.
+- Dissect the explanations provided regarding algorithms within computer science contexts.
+  Identify which assertions reflect accuracy based on established knowledge.
+- The questions will cover a range of topics including programming outcomes, performance
+  considerations in algorithms, and practical coding applications.
+- Delve into various computer science concepts, such as number systems and algorithm
+  efficiency, to determine the best possible answers.
+- You are expected to discern the correctness of proposed solutions within computer
+  science scenarios, leveraging problem-solving skills based on known programming
+  conventions.
+- Demonstrate your analytical skills by interpreting questions related to programming
+  algorithms and data structures, allowing you to identify correct solutions.
+- You will assess questions related to data representation in files and their implications.
+  Understanding metadata versus pixel data is essential in making the right selection.
+- Evaluate scenarios involving programming constructs and communication protocols.
+  Use critical thinking to conclude how certain elements interact or function.
+- You need to apply your understanding of Python and algorithm behavior. Evaluate
+  the statements based on how they reflect the operations of the provided code snippets.
+- This task requires reasoning through questions related to code execution results
+  and algorithm efficiency, drawing on foundational knowledge of programming concepts.
+- Your mission involves engaging with programming challenges that highlight specific
+  cases in code execution and user authentication practices, requiring thoughtful
+  judgment about correctness.
+- Your work here involves diagnosing issues within code snippets or algorithm choices
+  and selecting the best corrective measures based on sound programming logic.
+- Engage with theoretical computer science knowledge applied to practical coding scenarios,
+  determining how specific programming constructs should behave under defined conditions.
+- Your task is to reflect on various facets of computer science knowledge through
+  targeted questioning about programming constructs and logical operations.
+- This undertaking involves problem-solving within the realm of computer science,
+  where you'll examine situations that require an understanding of how specific programming
+  functions operate.
+- Engage with inquiries about data structures, algorithms, and system design in computer
+  science. Use your insight and logical evaluation skills to pinpoint the correct
+  response.
+- Your job is to evaluate various computer science questions that test knowledge on
+  syntax, functions, and best practices in programming.
+- You are tasked with interpreting questions about different programming techniques
+  or algorithms and identifying the choice that reflects proper usage or expected
+  outcomes.
+- The task involves deepening your comprehension of programming concepts by answering
+  questions that may relate to syntax rules or algorithm characteristics.
+- Engage with questions related to computer science fundamentals and logic, applying
+  your knowledge to determine the right answers in specific situations.
+- "You\u2019ll need to apply theoretical knowledge about algorithms and functions\
+  \ in this task. Assess which statements best describe behaviors of algorithms under\
+  \ different inputs."
+- Engage with a series of questions that assess your familiarity with computer programming,
+  algorithm efficiency, and appropriate coding practices.
+- You will engage with questions that test your comprehension of programming logic,
+  syntax, and algorithms, making informed choices based on the content provided.
+- This task focuses on evaluating your grasp of essential computer science knowledge
+  by selecting the option that presents an accurate depiction of coding or theoretical
+  concepts.
+- Assess various computer science principles and their applications, exploring topics
+  such as random number generation, conditionals, and interoperability between systems.
+- "You\u2019ll need to utilize logical reasoning and problem-solving skills regarding\
+  \ common programming practices to accurately respond to each question presented."
+- You'll encounter questions that require a good understanding of how programming
+  works; apply your skill to discern the best option based on logic and theory.
+- This task challenges you to identify accurate responses to queries about coding
+  practices in languages such as Python, emphasizing comprehension of concepts like
+  loops and data manipulation.
+- You'll encounter multiple choice questions that challenge your understanding of
+  computer science. The aim is to connect theoretical concepts with practical scenarios
+  in computing.
+- You are required to evaluate statements about programming languages and their operations,
+  using your understanding of computational concepts.
+- This activity entails navigating through questions that probe your familiarity with
+  coding syntax and typical programming challenges faced in a high school curriculum.
+- By engaging with these questions, you will exhibit your mastery of basic to intermediate
+  programming concepts used in everyday coding challenges.
+- This task pushes you to navigate through complex ideas around software development
+  and ethics in coding while assessing how these ideas relate to real-world applications.
+- Engage with questions that test your knowledge of computer science principles. The
+  goal is to interpret each question and derive the most suitable answer based on
+  your understanding.
+- Your responsibility is to critique given situations involving code functionality
+  and security measures in computer science, using your expertise to pinpoint inaccuracies
+  or correct processes.
+- You will evaluate various computer science scenarios and questions to select the
+  most appropriate answer based on your understanding of programming and algorithms.
+- In this task, you'll delve into diverse topics within computer science that challenge
+  your logical reasoning while reinforcing technical knowledge of various programming
+  practices.
+- Use deductive reasoning when confronted with statements surrounding technical programming
+  concepts. Your job is to discern valid interpretations of these scenarios.
+- This task centers on evaluating a situation in computer science, such as programming
+  methods or code correctness, and determining which answer best reflects sound logic.
+- Solve questions related to core computer science concepts that involve evaluating
+  variables, control flow, and function results through logical deduction based on
+  what you've learned.
+- You need to interpret scenarios and questions related to programming and data management.
+  Your answers should reflect sound reasoning based on established computing principles.
+- The task focuses on assessing your ability to comprehend and respond accurately
+  to computer science inquiries, aiming to evaluate your grasp of fundamental ideas
+  in the field.
+- Your job is to identify issues related to programming tasks and concepts in computer
+  science, employing analytical reasoning to understand potential errors or correct
+  functionalities.
+- The task involves reading statements regarding computer science and selecting the
+  answer that best aligns with standard coding practices or theoretical knowledge.
+- Focus on logic and reasoning as you analyze educational computer science propositions,
+  requiring a sound grasp of fundamental programming theories.
+- Assess communication mechanisms within computing environments, especially how different
+  systems recognize and process data transmitted across networks.
+- You will be presented with questions focused on high school-level computer science
+  topics, where your critical thinking about various programming scenarios will guide
+  you toward the correct answer.
+- Your task is to analyze questions related to computer science concepts and programming
+  logic, using your knowledge to determine the accurate response.
+- Navigate through detailed technical prompts grounded in computer science principles,
+  aiming to discern which response accurately aligns with standard expectations of
+  coding behavior.
+- This task encompasses analyzing statements about coding logic in high school computer
+  science contexts, calling on your ability to interpret code and expected outputs
+  accurately.
+- Your objective is to discern the best answer to questions that touch upon key aspects
+  of computer science, using logical reasoning and conceptual knowledge as your guide.
+- "This exercise expects you to navigate through important theoretical aspects of\
+  \ programming languages\u2014identifying facts about language capabilities and functionalities."
+- Your analysis will involve understanding expressions in programming languages like
+  Python and determining correctness based on syntax rules and logical reasoning.
+- Work with fundamental programming concepts regarding lists, algorithms, and complexity
+  analysis. Decipher whether given options appropriately characterize the stated operations.
+- You will be focusing on evaluating various aspects of Python programming techniques.
+  Assess each statement against your knowledge of how code typically functions in
+  practice.
+- The task involves interpreting and responding to queries about computer programming
+  and logic, demanding analytical skills to grasp underlying principles effectively.
+- The task centers around evaluating your knowledge of Python programming and data
+  manipulation techniques to solve presented problems correctly.
+- Engage with multiple-choice questions that explore critical thinking within computer
+  science, where evaluating each concept could lead you towards the correct response.
+- This assignment asks you to navigate through various topics in computer science
+  and logically determine the best choice based on analytical thinking and pertinent
+  knowledge.
+- You will be required to use your familiarity with binary sequences, data structures,
+  and performance optimization in programming to find the accurate answers.
+- Your mission is to critically assess scenarios in computer science and identify
+  the most accurate descriptions based on theoretical knowledge.
+- Your ability to connect theoretical knowledge with practical implications will be
+  tested as you respond accurately to diverse questions in the realm of high school
+  computer science.
+- Delve into questions that challenge your understanding of programming operations,
+  where evaluating the behavior of code snippets will help you select accurate responses.
+- Focus on unraveling questions that touch upon the core of programming logic, especially
+  Python syntax, by determining which explanations accurately capture the intended
+  outputs.
+- This exercise tasks you with reasoning through logic related to algorithms and their
+  outputs, calling upon your familiarity with coding principles in Python.
+- You will encounter scenarios that examine your comprehension of computer science,
+  where logical deduction and knowledge of programming languages will enable you to
+  choose the right option.
+- You will be tasked with applying theoretical knowledge from computer science to
+  practical scenarios featured in written questions focusing on relevant programming
+  languages.
+- By addressing various questions related to programming logic, software development
+  ethics, and computational strategies, this task gauges your technological aptitude.
+- You will need to think about computer algorithms or programming techniques while
+  determining which answer aligns most closely with sound reasoning in technology.
+- The focus of this task is to interpret questions related to programming and algorithm
+  analysis, requiring the application of theoretical knowledge to practical examples.
+- Analyze various statements related to programming logic, system architectures, or
+  data security, assessing which assertion holds true based on established computing
+  frameworks.
+- Engage with questions about the operation of programming constructs, evaluating
+  different aspects related to data manipulation and programming logic.
+- In this task, you will assess your understanding of high school computer science
+  concepts and apply that knowledge to various questions.
+- Move through questions centered on computational theory and practice by breaking
+  down statements about code functionality and expected results for clarity.
+- By reflecting on your understanding of concepts such as loop behavior and function
+  outputs in programming languages, you can deduce the right answers from a set of
+  possibilities.
+- The objective is to assess your insights into software development practices and
+  concepts like Huffman coding and procedural logic in Python.
+- You are tasked with interpreting various computer science questions, necessitating
+  a solid foundation in coding principles and problem-solving skills to arrive at
+  the right conclusion.
+- You will review a series of computer science inquiries that focus on both theoretical
+  aspects and practical coding implementations; reason carefully for your conclusion.
+- Analyze questions that involve essential programming skills and concepts, demonstrating
+  your knowledge of how different coding languages function.
+- In this task, you will encounter scenarios that challenge your understanding of
+  coding best practices and computational efficiency; choosing the right answer means
+  recognizing effective techniques.
+- In this task, you will interpret computer-related questions and apply logical reasoning
+  to identify the correct output or behavior described in the question.
+- In this exercise, you will critically assess the relevance of various statements
+  in relation to a specific question about computer science, ultimately selecting
+  the most precise option.
+- The task is designed to gauge your ability to differentiate correct statements from
+  incorrect ones in the realm of computer science fundamentals.
+- Assess your knowledge of critical topics within computer science, focusing on aspects
+  like data types, computation methods, and operator functions.
+- Your challenge is to resolve questions focused on high school-level computer science
+  topics by applying theoretical knowledge and problem-solving skills.
+- The assignment requires critical thinking skills as you tackle questions designed
+  to enhance your knowledge of computer science fundamentals and language-specific
+  functionalities.
+- This task challenges you to use your knowledge of computer science to address questions
+  that have real-world applications, selecting the most applicable response from a
+  list of options.
+- You will tackle various scenarios related to programming practice and software principles,
+  employing your analytical skills to derive suitable answers from specialized knowledge.
+- You will be exploring how programming constructs behave under certain conditions,
+  requiring you to apply your coding knowledge accurately.
+- The exercise is geared towards assessing your familiarity with Python and other
+  programming techniques, emphasizing correct coding practices through selective questioning.
+- The focus is on understanding computing concepts such as search algorithms or code
+  efficiency. Evaluating hypothetical questions helps build effective understanding
+  and decision-making skills.
+- You will engage with questions related to programming and algorithms. Use your critical
+  thinking skills to evaluate the provided statements and determine their correctness.
+- This task requires you to think critically about algorithmic functions and their
+  efficiencies. Determine which descriptions align with established computer science
+  principles.
+- This task requires you to apply computer science theories and practical coding knowledge
+  to differentiate between correct and incorrect coding practices.
+- This exercise challenges you to think critically about computer programming principles
+  and evaluate which option correctly describes relevant scenarios.
+- Critically analyze fundamental programming logic, spotting errors or identifying
+  effective approaches that result from specific operational scenarios described in
+  questions.
+- The task tests your grasp of high school-level computer science topics, such as
+  sorting algorithms, data representation, and language syntax.
+- This assessment requires you to recall and apply information regarding computational
+  methods and characteristics of programming languages.
+- Engage with theoretical concepts such as algorithm complexity and ethical usage
+  of code in commercial applications as you work through each question.
+- Tackle questions aimed at measuring your awareness of coding mechanisms and practices
+  in Python or general computing logic, testing both recall and reasoning abilities.
+- The exercise requires you to identify key aspects of programming logic by evaluating
+  choices linked to common practices in computer science.
+- The questions test your grasp of various technical topics within computer science,
+  including unique coding techniques and operational complexities.
+- This involves considering questions related to software usage rights and ethical
+  programming. You must navigate through options while understanding legal interpretations
+  of coding practices.
+- Investigate questions surrounding computational tasks, identifying the best programming
+  strategies or outcomes based on described functionalities or expected behaviors.
+- Use your understanding of programming languages and algorithms to interpret questions
+  that highlight key concepts within the field of computer science.
+- The focus here is on interpreting computer science-related questions where comprehension
+  of Python or general coding practices is essential for determining correct answers.
+- Engage in discerning which options accurately reflect computer science theories
+  or expected programming behaviors through a series of thoughtfully crafted questions.
+- Your task involves understanding computer science concepts. Analyze the given statements
+  and identify which one accurately describes the situation based on your knowledge.
+- The focus is on recognizing proper coding practices and algorithmic efficiency through
+  a detailed problem-solving approach in the realm of computer science.
+- You will analyze computer science concepts, understanding their implications and
+  applications, in order to identify the best response to each question posed.
+- You will need to apply your knowledge of computer programming to determine the correct
+  answers to questions concerning specific programming scenarios and concepts.
+- You are invited to engage with foundational computing principles aimed at enhancing
+  your problem-solving capabilities through varied question formats.
+- The task assesses your proficiency in computer science through questions that cover
+  foundational topics like data structures, control flows, and language-specific functions.
+- This task navigates through core ideas in computer science, challenging you to apply
+  logical reasoning towards procedural improvements or coding efficiency.
+- Engage with questions that explore foundational computer science concepts, where
+  your analytical skills and knowledge of lists, tuples, and authentication methods
+  will aid your decision-making process.
+- Your goal is to analyze computer science-related questions and determine the correct
+  response based on established principles and practices in the field.
+- The task requires familiarity with different programming concepts and an ability
+  to discern correct implementations or ethical considerations in use cases in technology.
+- This involves examining theoretical constructs in computer science, blending practical
+  coding knowledge with abstract inquiry to solve problems presented in question form.
+- Apply your grasp of syntax and semantics from different programming languages to
+  navigate through hypothetical coding scenarios presented in the questions.
+- Through this task, you will engage with problems that require logical reasoning
+  and technical understanding of computer programming, enabling you to apply your
+  knowledge effectively.
+- Engage with inquiries rooted in computer science education, invoking your awareness
+  of sorting techniques, programming structures, and data types.
+- Every question pertains to practical applications in computer science that necessitate
+  critical thinking about how different coding strategies function.
+- Utilize your understanding of programming practices to solve problems that challenge
+  your grasp of algorithm design and software behavior in practical scenarios.
+- Your task involves interpreting programming concepts and their implications in order
+  to select the correct technical solution based on given scenarios.
+- This task is an opportunity for you to showcase your comprehension of essential
+  computer science topics while analyzing coded examples for correct functionality.
+- The task entails engaging with theoretical questions about programming language
+  functionality or legal aspects of software use, pushing you to think critically
+  about each scenario.
+- You must use reasoning and familiarity with computer science theories to parse through
+  questions and select answers that accurately reflect sound judgment in technical
+  contexts.
+- The task focuses on evaluating your grasp of important computer science topics by
+  presenting scenarios where you must discern the correct functional behaviors of
+  code.
+- This task requires you to navigate through questions tied to essential computer
+  science ideas, necessitating an awareness of how different programming elements
+  interact.
+- Diagnose programming exercises that test your comprehension of conditional logic
+  and random number operations in order to correctly infer results from examples.
+- The task invites you to explore fundamental principles in programming and computer
+  science, determining the viability of given statements.
+- This task involves applying knowledge of computer science principles to answer questions
+  related to programming, algorithms, and data structures.
+- This task challenges you to evaluate questions on high school-level computer science.
+  Use your grasp of basic programming concepts to arrive at the right conclusions.
+- You must reflect on common algorithms used in computing scenarios and derive the
+  most suitable answer based on your education in computer science principles.
+- This task challenges your comprehension of fundamental computer science principles,
+  including programming logic and data encoding strategies.
+- Your task hinges on recognizing valid programming patterns and methodologies that
+  enhance game mechanics, data handling, or computational efficiency.
+- Use critical thinking skills honed by studying computer science fundamentals to
+  address programming-related queries accurately by considering what the code does
+  or implies.
+- Each question presents an opportunity for you to demonstrate your understanding
+  of high school-level computing concepts. Carefully reason through each option before
+  reaching a conclusion.
+- Explore questions focused on typical programming errors and functionalities within
+  various languages, where a meticulous approach is essential for identifying correct
+  assertions.
+- Analyze computer science problems, focusing on algorithms, data structures, and
+  programming language behaviors to identify accurate outcomes or conditions.
+- The objective is to use your understanding of programming constructs and computer
+  science theories to ascertain the correct responses to presented queries.
+- Engage with scenarios depicting algorithm behavior in Python. Apply logical reasoning
+  to discern correct versus incorrect interpretations of these programming examples.
+- You will analyze scenarios that integrate key computing concepts and demonstrate
+  familiarity with functional programming methodologies to arrive at a decision.
+- In this assessment, you need to integrate your understanding of algorithms, efficiency
+  in coding, and specific programming languages to answer appropriately.
+- The task requires you to evaluate questions related to computer science and select
+  the most accurate answer from a set of choices.
+- Your task is rooted in understanding computer science fundamentals, requiring you
+  to distinguish between correct and incorrect algorithm descriptions.
+- You are tasked with reviewing programming scenarios that require critical thinking
+  about code functionality or game mechanics, ultimately leading to a reasoned choice
+  based on established principles.
+- Your role is to sift through statements regarding algorithms and their outputs.
+  It's essential to recognize common programming concepts and identify possible errors
+  or correct functionalities.
+- Reflect on significant concepts in programming such as error identification in code
+  blocks and optimal usage of algorithms while arriving at your chosen answer.
+- Evaluate propositions about code behavior and theory in programming contexts. This
+  requires familiarity with syntactic conventions and algorithmic efficiency.
+- The focus here is on extracting precise information from complex statements regarding
+  computer sciences while employing logical analysis and prudent judgment.
+- Your goal is to examine questions about algorithms, data structures, or coding practices
+  and infer the most accurate conclusions based on your expertise in computer science.
+- Engage with scenarios in computer science where you'll need to display an understanding
+  of functions, loops, and coding principles in order to select the appropriate response.
+ds_kwargs:
+  path: Lots-of-LoRAs/task701_mmmlu_answer_generation_high_school_computer_science
+  split: train
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task701_mmmlu_answer_generation_high_school_computer_science
+user_prompt_template: '{task_def}
+
+
+  {problem}'

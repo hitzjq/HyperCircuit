@@ -1,0 +1,431 @@
+assistant_prefill: ''
+descriptions:
+- Examine academic abstracts closely and select keyword phrases that accurately represent
+  the major topics or findings discussed within them.
+- Analyze the given abstract carefully and derive noun phrases that best represent
+  significant concepts or points discussed in the study.
+- The task involves analyzing a scientific abstract to extract relevant keywords that
+  summarize the main topics or contributions of the research paper.
+- Unearth and assemble keyword phrases from the abstract of a paper, clearly reflecting
+  its scientific contributions and focal points.
+- The task includes evaluating a series of abstracts and formulating a keyword list
+  that reflects each paper's main contributions or focuses on specific topics.
+- Your job involves synthesizing the content of an abstract into concise keywords
+  that reflect the main ideas, findings, or areas of investigation discussed.
+- "The goal is to read through a scientific abstract and generate relevant keywords\
+  \ or phrases that reflect its main subjects, requiring familiarity with the field\u2019\
+  s terminology."
+- Your job entails identifying important keywords in given scientific abstracts to
+  summarize core contributions and insights efficiently.
+- "Analyze an academic abstract to select relevant keywords that capture the study\u2019\
+  s objectives, methodologies, or significant results efficiently."
+- This task involves diving into an academic abstract and pulling out significant
+  keywords that reflect its primary messages and contributions.
+- Your task is to analyze abstracts in order to pinpoint keywords that succinctly
+  convey the primary themes of the research, reflecting an understanding of both content
+  and context.
+- The task consists of finding and listing significant terms that capture the main
+  themes in research abstracts, reflecting your ability to engage with academic content
+  meaningfully.
+- Your role is to distill complex academic content into representative keywords, helping
+  to convey the essence of the research paper clearly.
+- This activity involves carefully reviewing scientific abstracts to generate a keyword
+  list that succinctly represents their central messages.
+- The goal is to take an abstract from a scientific paper and pull out noun phrases
+  that succinctly describe its main focus, findings, or implications on the research
+  topic.
+- The aim is to distill information from an academic abstract into meaningful keyword
+  phrases that accurately reflect what issues were addressed in the study.
+- This task focuses on extracting pivotal nouns and phrases from narrative abstracts
+  to highlight major themes and findings relevant to the scientific community.
+- Analyze a written abstract to pinpoint vital terms that succinctly convey the core
+  themes and outcomes of the research presented.
+- This challenge entails reviewing scientific narratives and discerning significant
+  keyword phrases that sum up the contributions made by each research paper.
+- Your challenge is to encapsulate complex scientific research into a series of keywords
+  derived from its abstract, showcasing principal ideas and findings.
+- The objective here is to extract meaningful keywords from given abstracts, reflecting
+  the significant aspects of the research or study discussed.
+- Analyze the provided abstract to extract pertinent terms or phrases that summarize
+  the essence of the research paper.
+- This task consists of distilling complex research findings from abstracts into simple
+  yet impactful keywords that reflect significant concepts within the studies.
+- The objective is to draw meaningful keywords from an abstract, emphasizing crucial
+  aspects such as study populations, methodologies, or findings.
+- Analyze research summaries to produce compact keyword lists that identify pivotal
+  aspects of the studies being examined.
+- Your objective is to read an abstract and generate relevant noun phrases that best
+  summarize the main aspects of the study discussed within it.
+- You will need to extract and compile significant noun phrases from research abstracts,
+  which involves critical reading and understanding of various academic disciplines.
+- Your task focuses on interpreting research abstracts by generating pertinent keyword
+  phrases that articulate their main objectives and results.
+- This task requires extracting nouns or phrases from abstracts that comprehensively
+  depict key themes or areas of investigation, showcasing interpretive skills in academic
+  contexts.
+- You will identify core concepts within an abstract by extracting important noun
+  phrases to generate a coherent keyword list reflecting the research's focus.
+- This task requires reading a research abstract and generating a list of relevant
+  keywords that summarize the essential findings or topics covered in the paper.
+- Evaluate the information in the abstract and compile a list of noun phrases that
+  represent the core topics or subjects addressed in the research study.
+- Your task is to generate a set of descriptive keywords after evaluating abstracts,
+  drawing from both terms used within them and established terminology in the respective
+  fields.
+- This task focuses on scrutinizing academic abstracts to identify distinct keywords
+  that encapsulate the study's primary subjects and objectives.
+- "You must analyze provided abstracts and craft a list of key descriptors that encapsulate\
+  \ important elements within each study\u2019s findings or methodologies."
+- The objective is to generate a list of key terms that define the essence of a research
+  paper as presented in its abstract. This requires expertise in interpreting scientific
+  language.
+- Your job is to interpret an abstract and identify specific keywords that highlight
+  the primary research questions and findings discussed in the paper.
+- In this task, you'll interpret scientific abstracts to produce meaningful keywords
+  or phrases that encapsulate their core contributions to the field.
+- Your task includes reading a research abstract carefully and selecting key terms
+  that represent its central ideas and findings accurately.
+- Your goal is to distill important terms from a research abstract, providing a list
+  of keywords that highlight the central themes of the paper.
+- Analyze the given abstract and produce keywords that best represent the core topics
+  and results discussed within it.
+- You are required to identify and list key nouns or phrases that summarize the focus
+  of the research presented in the provided abstract.
+- Your objective is to extract noun phrases from an abstract, which succinctly describe
+  the primary focus or findings of the scholarly article.
+- You will be tasked with sifting through abstracts and selecting specific terms that
+  denote key concepts, allowing for a better understanding of the research's scope.
+- You are expected to read an abstract carefully and identify key noun phrases that
+  summarize the main topics investigated, reflecting knowledge of the relevant field.
+- Your role is to capture significant keywords from an abstract that illustrate key
+  elements and contributions made by the research presented therein.
+- You will sift through scholarly abstracts to pinpoint keywords that convey vital
+  insights into the research themes covered by each piece of work presented.
+- Engage with a research abstract to tease out critical noun phrases that represent
+  vital concepts in the study conducted.
+- Your role involves extracting terms from research summaries that represent essential
+  ideas, enabling a clearer understanding of their contributions to the field.
+- Your challenge is to distill complex research findings into clear and relevant keyword
+  phrases derived from abstracts, illustrating both comprehension and analytical prowess.
+- Your role here is to extract meaningful noun phrases from scientific abstracts,
+  which helps to encapsulate major themes and essential insights of the papers.
+- You are asked to summarize the content of a scientific abstract into keyword phrases,
+  which serve as descriptors for the study's focus.
+- You will be extracting important noun phrases from academic abstracts, focusing
+  on capturing the essence of the research in concise terms.
+- The task at hand is to distill information from research paper abstracts into concise
+  keywords, highlighting essential themes, methods, or conclusions drawn by authors.
+- Examine a scientific abstract and generate a list of noun phrases that reflect critical
+  topics, methodologies, or results mentioned in the document.
+- You will analyze abstracts of scientific papers and extract important noun phrases
+  that represent the primary focus of each study.
+- Your job is to read through an abstract and produce keywords that succinctly describe
+  the main topics, methodologies, and conclusions drawn by the authors.
+- You will analyze provided abstracts to select words or phrases that most effectively
+  represent the research focus, demonstrating familiarity with scholarly writing conventions.
+- "The task involves gathering essential keywords from a research abstract, helping\
+  \ to provide insights into the paper\u2019s focus and significance."
+- Extract important topics from a given scientific text by generating related keywords
+  that succinctly describe the primary focus areas of the research.
+- "This task requires you to glean essential keywords that summarize the focus areas\
+  \ discussed in an academic paper\u2019s abstract, emphasizing skills in comprehension\
+  \ and retrieval."
+- This task centers on synthesizing information from scientific abstracts to pinpoint
+  critical keywords that describe the essence of the research, demanding both analytical
+  and synthesis skills.
+- Identify critical nouns or phrases that provide insight into a research paper, enabling
+  others to grasp its essence based on the abstract alone.
+- This task centers on analyzing abstracts to derive and articulate important phrases
+  that effectively convey the essence of the research conducted.
+- The goal is to interpret descriptive scholarly texts and identify core keywords
+  that outline their primary themes, thus enhancing comprehension within scientific
+  discourse.
+- The assignment is to distill complex scientific information from an abstract into
+  keyword phrases, ensuring they represent its main focus accurately.
+- This task requires careful examination of an abstract to identify key terms that
+  summarize its contributions and subject matter concisely.
+- Extract important phrases from an abstract that pertain to its key subjects or findings,
+  thereby producing a concise representation of the research focus.
+- You will generate keyword phrases by thoroughly assessing the content of an abstract,
+  aiming to encapsulate its main message concisely.
+- "Your role is to extract significant keywords from abstracts that shed light on\
+  \ the studies\u2019 aims and findings in a concise manner."
+- The objective is to extract essential keywords from a given scientific abstract,
+  focusing on the primary ideas, methods, or results discussed.
+- The assignment centers on closely reading abstracts and distilling them into critical
+  keywords or phrases that convey the main ideas and findings of each research article.
+- The objective is to interpret complex research abstracts and distill them into essential
+  keywords, making their essence clearer and more accessible.
+- Your task is to streamlines complex information into essential phrases that convey
+  the central themes of a paper based solely on its abstract, highlighting your comprehension
+  skills.
+- Your task is to condense the essence of scientific studies into concise keyword
+  phrases that reflect the main themes found in their abstracts.
+- The aim is to identify and compile significant keywords from research abstracts,
+  reflecting important aspects of the studies, including variables, populations, and
+  methodologies.
+- You need to derive important keyword phrases from given abstracts that represent
+  the core topics of study, showcasing an ability to distill complex information into
+  concise terms.
+- Analyze various abstracts and produce a keyword list that encapsulates key findings,
+  methodologies, or specific patient populations addressed in each research study.
+- Identify and compile a list of essential keywords from an abstract, which will clarify
+  the paper's contributions and main findings.
+- Your task involves reviewing an academic abstract and generating relevant keywords
+  that depict its central themes or contributions in a clear manner.
+- Analyze provided abstracts for common themes and specific terms that help summarize
+  what each paper addresses in its findings.
+- You will engage in a process of summarizing research abstracts by generating keyword
+  lists that communicate their key areas of study succinctly.
+- The task invites you to summarize key topics or areas of focus in a scientific paper
+  by generating a list of descriptive noun phrases from its abstract.
+- Your task involves summarizing scientific literature by generating concise keyword
+  lists based on the critical points mentioned in each abstract.
+- The task involves extracting significant keywords from a provided abstract that
+  encapsulate the main themes and findings of a research paper.
+- The objective is to formulate a set of keywords from research abstracts, ensuring
+  they reflect both the methodology and findings concisely.
+- Extract meaningful keywords from provided academic summaries, focusing on elements
+  that best illustrate the nature and implications of the research.
+- The task involves reading a research abstract and identifying key noun phrases that
+  best represent the study's focus and contributions.
+- You need to identify and generate keywords that reflect the central ideas presented
+  in scientific abstracts, focusing on important terms in the text.
+- Your responsibility is to read given abstracts carefully and pinpoint critical vocabulary
+  that represents the focus of each paper's investigation.
+- You will need to summarize key concepts from an academic abstract into concise keywords
+  that reflect the paper's focus and findings.
+- The task involves reading an academic abstract and identifying significant keywords
+  that capture the main topics or contributions of the research.
+- The objective here is to generate relevant keywords that convey the main ideas or
+  topics of a research paper based on its abstract.
+- This exercise requires you to synthesize information from abstracts by selecting
+  keywords that accurately represent the study's major contributions, demanding a
+  nuanced understanding of academic communication.
+- The task centers around producing key descriptors from academic texts that succinctly
+  convey significant aspects of the research work presented.
+- You will be analyzing an abstract from a scientific paper to extract relevant keywords
+  that summarize the main topics or findings of the research.
+- Your goal is to distill information from given abstracts into concise keyword phrases
+  that accurately reflect the content and contributions of the research work.
+- Evaluate and derive essential noun phrases from provided research abstracts, aiding
+  in the identification of significant topics related to the work presented.
+- Your goal is to condense the information provided in an abstract into succinct keyword
+  phrases that capture the core contributions of the research.
+- You are tasked with generating a list of keywords from academic abstracts, capturing
+  the primary concepts and elements of the research work.
+- The task entails distilling complex scientific information into simplified, relevant
+  keywords that inform about crucial aspects highlighted in an abstract.
+- Focus on an abstract's content to derive noun phrases that represent key topics,
+  methodologies, or results of the research presented.
+- The assignment involves generating relevant keywords based on an abstract's content,
+  requiring an understanding of both the subject matter and related vocabulary.
+- The goal is to distill the essence of a research paper into relevant keywords, highlighting
+  key subjects and concepts based on the provided abstract.
+- The task involves reviewing a provided abstract and identifying key terms that capture
+  the main themes or subjects discussed in the research.
+- This task requires you to distill complex academic content into concise keywords
+  that reflect the primary subjects and insights derived from the given abstract.
+- Examine the provided text and select descriptive keywords that encapsulate the primary
+  subjects and aims of the study in question.
+- Read through research abstracts and identify keywords that capture the essence of
+  the studies, including population demographics and clinical outcomes.
+- Engage with the abstract content to identify specific terms or phrases that best
+  represent the main themes of the research being presented.
+- Extracting keywords from an abstract provides a snapshot of its content, allowing
+  you to illuminate key areas of inquiry or focus within the research discussed.
+- Gather key terminology from specified abstracts that accurately reflects clinical
+  findings or theoretical contributions made by researchers in their papers.
+- The task focuses on extracting significant nouns and phrases from an abstract to
+  create a keyword list that reflects its scientific relevance.
+- Review research abstracts to identify and list key terms that have significant relevance
+  to the subject matter explored in the paper.
+- Analyze the provided abstract and extract relevant keywords that summarize the essential
+  contributions of the research paper, focusing on noun phrases.
+- Extract relevant phrases from abstracts, concentrating on words that best convey
+  the main points and contributions of each research paper.
+- This task requires you to interpret a scientific abstract and generate a concise
+  set of keywords that represent the scope and significance of the research discussed.
+- Your task is to extract relevant keywords that encapsulate the central themes and
+  contributions of a scientific paper based on its abstract.
+- The task involves analyzing a research abstract and extracting keywords that encapsulate
+  the main themes and findings of the study.
+- From an abstract, pinpoint and formulate a list of pertinent keywords that reflect
+  the study's primary focus and findings.
+- You will be engaging with abstracts to identify and compile relevant keywords that
+  reflect essential information about the research outcomes.
+- The assignment entails extracting crucial keywords or titles from provided abstracts,
+  emphasizing their contributions to their respective fields.
+- Focus on identifying significant topics represented in an abstract by generating
+  relevant keywords that illustrate crucial findings and contributions of the research.
+- Examine the provided abstract and create a list of important keywords. These should
+  highlight aspects such as methodologies, findings, populations studied, and relevant
+  conditions.
+- You are required to provide an array of keywords that best characterize the thematic
+  essence of various scientific studies based on their abstracts.
+- This task requires synthesizing information from an academic abstract to produce
+  a concise list of noun phrases that capture its main contributions.
+- Utilize your understanding of the context provided in an abstract to generate essential
+  keywords that can effectively summarize its findings or focus.
+- You will review an abstract to determine which noun phrases most closely align with
+  its critical concepts, aiming for clarity in representing the research.
+- Your responsibility is to read through a scientific paper's abstract and pinpoint
+  key phrases that convey significant research topics or findings, indicating proficiency
+  in area-specific knowledge.
+- The focus is on extracting keywords from scientific content to illuminate important
+  aspects of research studies discussed within their corresponding abstracts.
+- Analyze the provided abstracts and identify noun phrases that effectively summarize
+  and highlight the main contributions of each study.
+- You need to interpret scholarly abstracts and extract a collection of impactful
+  keywords that can effectively summarize the research topics discussed.
+- Look at provided abstracts and create a keyword list that captures the broader implications
+  or specific findings discussed within each study.
+- Create a list of precise noun phrases from an abstract that collectively express
+  its major themes or areas explored in the research study.
+- This task is about carefully analyzing an abstract to derive essential keywords
+  that signify its core focus, facilitating quicker comprehension of its content.
+- In this task, you'll examine research abstracts and generate noun phrases that represent
+  the core focus or significant aspects of the study.
+- Distill essential concepts captured in an academic abstract into clear and informative
+  keyword phrases that represent the research effectively.
+- Your task is to identify and generate key phrases that encapsulate the major themes
+  or findings from a scientific abstract.
+- You are tasked with selecting important noun phrases from an academic description,
+  ensuring they convey key elements of the research.
+- Sift through the details in an abstract and document key phrases that succinctly
+  capture the pivotal aspects or conclusions drawn from the research.
+- Identify keyword phrases reflecting central themes in a scientific abstract which
+  convey pivotal topics related to its research contribution.
+- This task is about reviewing academic abstracts and selecting pertinent keywords
+  that illustrate significant conclusions or areas of study represented in those texts.
+- You are tasked with extracting key phrases from a scientific abstract to provide
+  insights into the focus areas of the research work.
+- "You will synthesize content from a research abstract into concise keyword phrases,\
+  \ ensuring they accurately represent the study\u2019s contributions."
+- Analyze an provided scientific summary to create a catalogue of keywords which encapsulate
+  vital aspects of the research work discussed.
+- "This task requires you to extract and compile keyword phrases from an abstract\
+  \ that signify important concepts relevant to the research paper\u2019s theme."
+- Your task involves extracting concise noun phrases from an abstract, designed to
+  provide a brief overview of what key discussions took place in research work.
+- In this task, your goal is to distill important terms from a scholarly abstract
+  that encapsulate the essence of the research presented.
+- You are to synthesize information from academic abstracts into a keyword format
+  that underscores pivotal concepts revealed through the research discussed.
+- In this task, you will evaluate academic abstracts to generate focused keywords
+  or phrases that meaningfully represent the study's objectives and findings.
+- Interpret an abstract and create a list of keywords encompassing both specific and
+  general themes that define the main objectives of the study.
+- You are tasked with summarizing an abstract into relevant keywords that represent
+  major themes and contributions within the presented research work.
+- You will read through a brief research description to find keyword phrases that
+  underline its key themes, methods, or findings for further reference.
+- You will read through academic summaries to extract key terms or phrases representing
+  essential variables, methodologies, or subjects explored in each paper.
+- Your job is to sift through provided academic texts and derive a set of relevant
+  keywords that highlight their core contributions or focal points.
+- Develop a set of keywords that reflect the main objectives or discoveries highlighted
+  in a given scientific abstract, thereby capturing its overall message.
+- Read through an academic abstract and synthesize information into relevant keywords
+  that highlight the major contributions of the study.
+- In this task, you will read and interpret academic abstracts, then extract indicative
+  keywords that align with the primary research objectives.
+- The goal here is to sift through abstracts to pinpoint significant terms that illustrate
+  key findings and topics discussed in the studies.
+- You are required to analyze a scholarly abstract and produce a list of relevant
+  keywords that summarize its key themes and findings.
+- The task involves extracting key terms that encapsulate the main theme or findings
+  of a research paper based on its abstract. This requires a deep understanding of
+  the subject matter.
+- Focus on extracting important terms from the scientific abstract that highlight
+  the primary areas of investigation and results of the research.
+- In this task, you will identify terms from an abstract that function as keywords,
+  summarizing essential components and findings of the study.
+- You will read an abstract and identify key noun phrases that capture the essence
+  of the study, reflecting its focus or findings.
+- The task requires synthesizing information from academic abstracts into distinct
+  keywords that reflect central topics and findings in each piece of research.
+- Examine the provided scientific abstract and produce a series of descriptors in
+  the form of keyword phrases that convey its principal focus and findings.
+- This task requires you to identify keywords or phrases from scientific abstracts
+  that effectively summarize the focus areas of each research study.
+- "The aim is to derive keywords from scientific abstracts that collectively provide\
+  \ a snapshot of the research\u2019s thematic concerns."
+- From the abstract given, your job is to pinpoint important keywords that capture
+  the central themes or findings discussed in the paper.
+- You need to pull out keywords from a provided abstract which categorize its central
+  themes, findings, and methodologies effectively.
+- Your assignment entails identifying significant keywords from an academic abstract
+  that epitomize key findings or themes relevant to the study.
+- "Distill essential information from an academic abstract into a set of noun phrases\
+  \ that appropriately encapsulate the research\u2019s contribution."
+- Your task involves reading a research abstract and identifying key concepts that
+  represent the main contributions or focus areas of the study.
+- The task requires you to interpret an abstract and distill it down to essential
+  keywords that effectively communicate the research's main ideas.
+- Assess an academic abstract to uncover important nouns or phrases that serve as
+  effective descriptors of its investigated subjects.
+- This task centers around isolating crucial keywords from a given abstract, representing
+  concepts central to understanding the research work.
+- In this task, you will assess various abstract texts and extract key terms that
+  signify themes or contributions relevant to the field of study mentioned.
+- The goal is to distill the essence of a research paper from its abstract by producing
+  a set of descriptive keywords that highlight its main focus.
+- You will analyze an abstract of a scientific study and identify key phrases that
+  represent the core contributions and focus areas referenced in the text.
+- The aim is to create a meaningful set of keywords by reviewing a research abstract,
+  focusing on identifying critical themes and methodologies.
+- Your role is to identify and list noun phrases from a research abstract that best
+  highlight its primary contributions and focus, demonstrating comprehension of academic
+  writing.
+- Read an abstract carefully and identify key terms or concepts that are critical
+  for understanding the focus and relevance of the research conducted.
+- Focus on parsing through the scientific abstract to derive meaningful keywords that
+  accurately represent its subject matter and conclusions.
+- This task involves reading a scientific summary and isolating relevant keywords
+  that characterize its important themes and findings.
+- Analyze an academic abstract and generate a series of keywords that highlight the
+  study's core themes and findings.
+- The objective is to synthesize information from scholarly abstracts into keyword
+  phrases that convey significant insights into the research conducted.
+- This task revolves around understanding the essence of a research paper by selecting
+  key terms that highlight its main findings or subjects.
+- The goal is to identify key terms within an academic text that highlight essential
+  aspects of the research, aiding readers in understanding its significance.
+- In this exercise, you will interpret an academic paper's abstract to create a list
+  of keywords that efficiently communicate its primary themes and implications.
+- The goal is to extract important keywords from an abstract, emphasizing terms that
+  signify major themes, subjects, or findings within the research.
+- You need to evaluate academic abstracts for important keywords that succinctly represent
+  their core messages and contributions to scientific knowledge.
+- The aim is to derive meaningful keyword phrases from a provided abstract that signify
+  its main contributions or focus points clearly.
+- You are tasked with mining research abstracts for noteworthy keywords that encapsulate
+  essential information about the studies they summarize.
+- Focus on condensing detailed scientific discussions into keyword lists that represent
+  major findings and focal points outlined in abstracts.
+- You will carefully read through each abstract and summarize its content in a few
+  key phrases that denote its significance and insights.
+- The task involves identifying crucial concepts from a provided abstract and creating
+  a list of appropriate keywords, necessitating strong analytical reading capabilities.
+- Your job is to sift through the abstract for relevant noun phrases that best characterize
+  the study's aims and findings in an articulate manner.
+- You need to read and interpret an abstract, then produce a list of significant keyword
+  phrases that convey the primary focus or contributions of the research.
+- Your responsibility is to interpret research summaries and extract noun phrases
+  that accurately reflect their central themes and scientific contributions.
+- Your challenge is to read through scientific abstracts and identify noun phrases
+  that encapsulate their major areas of investigation.
+- The task requires you to parse scholarly text and generate a list of keywords that
+  are most relevant to the subject matter presented in the abstract.
+ds_kwargs:
+  path: Lots-of-LoRAs/task620_ohsumed_medical_subject_headings_answer_generation
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task620_ohsumed_medical_subject_headings_answer_generation
+user_prompt_template: '{task_def}
+
+
+  {problem}'

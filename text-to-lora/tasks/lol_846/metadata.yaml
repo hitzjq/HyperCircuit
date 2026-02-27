@@ -1,0 +1,424 @@
+assistant_prefill: ''
+descriptions:
+- Your responsibility is to identify if the information in the answer directly correlates
+  with and satisfies the inquiry posed in the question.
+- You will judge if the answer indeed provides a satisfactory information that resolves
+  the question being asked, examining context and clarity.
+- Your task involves determining whether an answer fulfills the requirements of a
+  related question by confirming that it is on-topic and appropriate in context.
+- The task involves assessing whether a provided answer pertains directly to a question
+  asked, which includes scrutinizing context and intent.
+- This task requires you to think carefully about the content of both a question and
+  its supplied answer to see if they align meaningfully.
+- You will analyze a set of questions and answers, then decide if each answer correctly
+  responds to its respective question.
+- Determine if the provided answer appropriately addresses the question asked. Your
+  judgment should be based on the clarity and relevance of the answer.
+- Your task is to determine whether a provided answer effectively responds to a corresponding
+  question.
+- The task involves assessing a relationship between a question and its corresponding
+  answer, determining if the answer satisfactorily addresses the question posed.
+- This assignment calls for assessing if answers can be classified as relevant by
+  matching them against their respective questions' contexts.
+- This analysis requires careful consideration of both questions and answers, guiding
+  you to classify their relationship based on content validity.
+- Your role is to analyze if there is clear alignment between specific questions and
+  their given answers, determining if one satisfies the criteria set forth by the
+  other.
+- This activity consists of analyzing the relationship between questions and responses,
+  deciding if the latter appropriately answers or aligns with the former.
+- The assignment requires evaluating if an answer corresponds directly with the information
+  needs expressed in a specific question.
+- Classify responses based on their relevance to specific questions, using your understanding
+  of language and meaning to guide your assessments.
+- Analyze whether the given answers are pertinent to their questions, assessing clarity
+  and directness in response.
+- You will assess the relationship between a question and its answer, determining
+  if the answer actually resolves the inquiry posed by the question.
+- Consider both questions and answers together; classify them to identify instances
+  where answers may miss or address the query completely.
+- Your mission is to determine whether each answer functions as a satisfactory response
+  to its corresponding question by exploring their relevancy.
+- This task involves judging the relevance of an answer in relation to a specific
+  question, based on context provided in a passage.
+- The task entails evaluating whether an answer logically follows or explains the
+  question based on the information given, requiring analytical skills.
+- The goal is to analyze if responses logically address their questions based on passages
+  presented, using reasoning skills to draw conclusions about their sufficiency.
+- In this assessment, you must identify if an answer gives sufficient information
+  or insight regarding the specifics of a related question.
+- This activity involves classifying answers according to their adequacy in responding
+  to specific questions, emphasizing clarity and relevance.
+- Evaluate the completeness and relevance of answers against questions, requiring
+  thoughtful interpretation of both given pieces of information.
+- You will inspect questions and their answers closely, deciding if each answer appropriately
+  corresponds to its respective question in substance and meaning.
+- This task is focused on determining the accuracy and relevance of answers based
+  on whether they respond appropriately to their questions.
+- The objective is to classify answers based on their relevance to the questions they
+  correspond to, ensuring that each response aligns with what is being asked.
+- In this task, you will dissect questions and their answers, assessing whether each
+  response sufficiently meets the inquiry presented.
+- Engage analytically with each question-answer pair, deciding on their coherence
+  and whether they form a complete dialogue.
+- You are required to evaluate whether the provided answer effectively responds to
+  the given question based on the information given.
+- Assess how well an answer fits a specific question by analyzing both components
+  for clarity and direct relevance.
+- The focus of this task is on understanding if an answer satisfactorily addresses
+  a given inquiry. Attention to detail in both questions and answers is essential.
+- This task requires you to assess the relevance of an answer in relation to the given
+  question. Evaluating the clarity and completeness of the response is crucial for
+  accuracy.
+- Your responsibility is to interpret whether answers sufficiently satisfy the requirements
+  outlined by accompanying questions through logical reasoning.
+- In this task, you need to determine whether the provided answer effectively responds
+  to the related question based on the information given.
+- Your task is to critically analyze questions and their corresponding answers, discerning
+  if one suitably meets the criteria set by the other.
+- In this assignment, you're asked to assess whether given answers provide adequate
+  responses to their questions, focusing on clarity and relevance in context.
+- Here, you are required to make a determination about whether the given response
+  effectively answers its associated query based on textual evidence.
+- Your responsibility is to determine if given responses are appropriate answers to
+  their respective questions, looking for clarity and direct relevance.
+- You will classify answers as relevant or irrelevant based on their adherence to
+  the requirements set by corresponding questions within a passage.
+- Your role is to classify whether an answer sufficiently resolves a question. This
+  requires comprehension skills and an ability to gauge relevance.
+- This task requires you to analyze if an answer sufficiently responds to the related
+  question derived from the passage, focusing on accuracy and relevancy.
+- In this task, you will classify answers based on their direct relevance to specific
+  questions. A thorough understanding of both components is necessary.
+- The aim of this task is to identify effective communication by determining if an
+  answer meaningfully relates to the question it addresses.
+- This exercise entails discerning if an answer appropriately fulfills the intent
+  of a question, examining the details in both to assess their alignment.
+- The goal here is to detect alignment or discrepancies between questions posed and
+  the answers offered, marking them accordingly.
+- The aim is to classify the appropriateness of an answer in relation to a provided
+  question by analyzing contextually relevant information.
+- You need to judge whether the answer clearly answers the question presented, identifying
+  if there is a direct connection between them.
+- The objective is to determine if each answer indeed resolves its question thoughtfully
+  and accurately, assessing their relationship based on content.
+- Your job is to determine if an answer correctly responds to a specific question,
+  utilizing your understanding of both the question's requirements and the answer's
+  content.
+- Your challenge is to determine the effectiveness of an answer in directly addressing
+  the concerns raised by its corresponding question.
+- Analyze the relationship between questions and answers to decide if the answers
+  are relevant and address the questions posed.
+- Determine if an answer adequately aligns with its question by evaluating content
+  relevance and clarity, ensuring that it meets expectations.
+- In this activity, you will compare questions and answers to ascertain whether each
+  answer provides insight or information that matches its question.
+- Evaluate whether the answers given adequately address their respective questions,
+  requiring you to interpret both carefully and analyze their relationships.
+- Your job entails pinpointing whether an answer gives sufficient context and information
+  relevant to addressing its specific question accurately.
+- "The focus of this task is on critical evaluation\u2014determining if an answer\
+  \ genuinely addresses a question posed in terms of correctness and relevance."
+- Your objective is to analyze a passage that includes a question and an answer. You
+  must classify if the answer sufficiently addresses the question posed.
+- Your objective is to evaluate how well an answer addresses its corresponding question,
+  requiring attention to detail and comprehension of both parts.
+- Your job is to evaluate if the answer correctly responds to the question posed.
+  This involves critically analyzing the content and relevance of the answer in relation
+  to the question.
+- You will analyze pairs of questions and answers, deciding if the answers provide
+  sufficient insight in relation to their respective inquiries.
+- Assess each question-answer pair to see if they align correctly, confirming that
+  answers meet the queries raised effectively within provided information.
+- In this task, focus on identifying whether a given answer fulfills the requirements
+  of the question. Your assessment should be based on clarity and directness.
+- Your task is to classify whether given answers appropriately correspond with their
+  questions based on comprehension of subject matter and clarity of expression.
+- The task involves reviewing questions paired with answers and deciding if the answers
+  fulfill their purpose of addressing the questions. Close comprehension is necessary.
+- You are tasked with discerning whether an answer truly resolves and clarifies its
+  respective question through logical reasoning.
+- Your role is to confirm if the answers accurately respond to their respective questions,
+  drawing from the contextual information provided in each case.
+- You need to determine if the answer adequately addresses the question posed. This
+  requires careful reading of both the question and the answer.
+- Read through question-answer sets and establish whether there is coherence between
+  them. This involves interpreting text beyond surface meaning.
+- Your objective is to evaluate if a given response properly answers the corresponding
+  question. Understanding context is vital for making this determination.
+- Analyze answers in relation to their questions by identifying any gaps or misalignments
+  in information that may affect their validity as responses.
+- Your role is to classify responses as either relevant or irrelevant concerning the
+  questions asked, based on textual evidence.
+- Analyze each question-answer pair to see if they align appropriately, focusing on
+  content comprehension and semantic meaning.
+- You will engage in a comparison between questions and answers to conclude if they
+  correctly align in terms of providing answers to queries posed.
+- The objective is to judge whether the responses given adequately satisfy the inquiries
+  posed, relying on analytical reading skills.
+- In this exercise, you will classify responses based on whether they serve as a direct
+  answer to the questions posed. Analyzing language and context is key.
+- Your job is to assess the relationship between a question and its corresponding
+  answer, deciding if the answer meets the requirements of the question.
+- You will examine pairs of questions and answers and classify them based on how well
+  the answers satisfy the questions. It requires attentiveness to detail in language
+  and meaning.
+- Examine each question-answer pair to judge if they connect meaningfully, focusing
+  on whether the answer satisfies the inquiry posed.
+- For each question-answer pair, your job is to judge whether the answer sufficiently
+  satisfies the question asked.
+- The task requires careful consideration of whether an answer meets the expectations
+  set by its associated question. Clear reasoning must guide your judgment.
+- Determine if each provided answer meets the requirements of its associated question
+  by using logic and comprehension skills.
+- This task involves verifying that answers correspond logically and meaningfully
+  with their posed questions, assessing coherence and accuracy.
+- The task involves reviewing a question alongside an answer to determine if the answer
+  satisfactorily addresses the question asked.
+- Evaluate responses for accuracy in relation to their questions, marking them as
+  effective or ineffective based on their relevance.
+- Review pairs of questions and answers, deciding if each response appropriately addresses
+  its respective question, relying on critical analysis.
+- Analyze the connection between questions and their corresponding responses, providing
+  a judgment on whether each answer directly addresses its query.
+- You are tasked with determining whether an answer provided adequately addresses
+  the question asked, requiring careful reading and comprehension of both the question
+  and the response.
+- You will investigate whether or not answers successfully convey responses that meet
+  the criteria established by their associated questions.
+- Your job is to verify if each answer effectively meets the requirements of its associated
+  question, which demands a good understanding of both elements.
+- Evaluate whether answers provided genuinely correspond with the questions asked,
+  relying on your reasoning and interpretation skills.
+- You are tasked with assessing whether an answer is suitable for a given question.
+  This requires understanding both the question's context and the content of the answer.
+- The task is about verifying if the queries posed have responses that are clear,
+  accurate, and pertinent to what was asked in each case.
+- The challenge is to evaluate answers against their questions, ensuring that each
+  response appropriately addresses what was asked.
+- You will be determining if the answer provided successfully clarifies or resolves
+  the query by matching the context and content of both.
+- Your task is to evaluate whether the provided answer appropriately responds to the
+  given question based on the information from the passage.
+- Determine if supplied answers are satisfactory responses to specified questions
+  by considering clarity, informativeness, and relevance within each pair.
+- Your evaluation should focus on understanding whether a given answer adequately
+  covers all aspects of its related question.
+- The task involves reading a question and its answer, then deciding if the answer
+  effectively responds to the question asked. This requires comprehension and critical
+  thinking skills.
+- Your task is to analyze a question and its corresponding answer to determine if
+  the answer effectively addresses the question posed.
+- Classify the answers based on their relevance to their respective questions, determining
+  if they provide an appropriate response.
+- This task focuses on analyzing an inquiry and its response to decide if the answer
+  is relevant and directly answers the question at hand.
+- The task consists of sifting through a question and its answer to ascertain whether
+  the latter genuinely serves as a solution or response to the former.
+- Determine if the answers actually resolve or inform the questions asked, relying
+  on comprehension of not only factual details but also underlying meanings.
+- In this task, you will determine if there is a logical connection between a question
+  and its given answer, assessing clarity and relevance.
+- You need to evaluate whether the provided answer accurately addresses the question.
+  This task focuses on understanding the connection between questions and their answers.
+- "The focus here is on determining if an answer is pertinent and appropriately addresses\
+  \ what\u2019s being inquired in the question."
+- Evaluate if each answer provides significant insight relevant to its related question.
+  This requires thoughtful analysis of both inquiry and response.
+- Evaluate if an answer correctly relates to the corresponding question, deciding
+  if it provides sufficient information or insight.
+- The task requires careful reading and comparison of a question's content with an
+  associated answer, seeking coherence and relevance between them.
+- Focus on understanding if the content of each answer meets the investigative needs
+  of its accompanying question.
+- You are tasked with classifying whether given answers appropriately engage with
+  the content and intent of their respective questions.
+- Here, you will review a question-answer pair and classify the effectiveness of the
+  answer. This task demands careful interpretation of language and meaning.
+- Your role is to critically assess whether each provided answer fulfills its corresponding
+  question by focusing on key details within both texts.
+- You are required to filter answers based on their relevance to specific questions,
+  focusing on logical connections and appropriateness of responses.
+- Assess a given question and its answer, classifying whether the answer successfully
+  addresses the question or not.
+- Review questions and answers to assess if the answers provide information that responds
+  accurately to what is being asked.
+- Assess whether the response provided actually resolves the inquiry posed in the
+  question, demonstrating comprehension of both elements.
+- Your job is to ascertain if an answer presents a clear resolution to its respective
+  question based on contextual understanding from a passage.
+- Assess the relationship between a question and its answer by determining if they
+  are aligned. This involves understanding both parts well.
+- You will assess the relationship between a question and an answer. The goal is to
+  classify whether the answer satisfies the inquiry made by the question.
+- The task involves evaluating whether a provided answer effectively addresses a specific
+  question based on the information given in a passage.
+- This activity requires critical analysis where you classify answers according to
+  their effectiveness in addressing related questions based on contextual clues.
+- You need to judge whether each response directly addresses its respective question,
+  using context clues provided in the text for support.
+- The task requires you to evaluate if an answer appropriately corresponds with its
+  associated question, reflecting understanding and relevance.
+- In this task, you evaluate whether an answer directly addresses the corresponding
+  question based on the provided passage.
+- Your task involves discerning if answers truly capture the essence of what is being
+  questioned, identifying connections where they exist.
+- This task empowers you to discern if answers genuinely address questions within
+  their context, involving analytical reading skills.
+- In this challenge, you will classify responses as correct or incorrect based on
+  whether they adequately respond to the inquiries provided in context.
+- Your job is to discern if an answer answers a question satisfactorily, requiring
+  you to grasp context and implications within both parts.
+- You need to focus on whether an answer truly addresses what is being asked in a
+  question, using analytical skills to conclude your judgment.
+- Evaluate if the answers provided for specific questions contain pertinent information
+  that directly responds to those inquiries.
+- You will read a set of questions alongside their answers and decide if the answers
+  truly answer what is asked. This involves critical thinking and comprehension skills.
+- This task requires you to evaluate the relevance of an answer to its corresponding
+  question. Your judgment should focus on whether the answer provides a clear and
+  direct response.
+- Your goal is to check if answers genuinely reflect or explain what the questions
+  are asking, requiring clear comprehension of both elements.
+- For each question-answer pair, decide whether the answer is appropriate by assessing
+  its content and relation to the question posed.
+- Assess if provided answers correctly and completely address their associated questions,
+  which requires contextual understanding and logical reasoning.
+- This activity involves verifying if an answer adequately satisfies the inquiry presented
+  in a related question by evaluating their connection.
+- The task challenges you to verify if responses directly tackle their associated
+  questions with logic and relevance, highlighting connections between both elements.
+- Evaluate how well each answer corresponds with its question by assessing content
+  alignment and informativeness within each pair you review.
+- Examine each question-answer duo and make a judgment on whether the answer effectively
+  fulfills what the question is seeking.
+- This task involves scrutinizing a dialogue between questions and answers to judge
+  if the answers meet or fulfill the expectations set by the questions.
+- The goal is to discern if provided responses accurately reflect answers to questions,
+  analyzing their content for direct relevance and coherence.
+- You are analyzing pairs of questions and answers for suitability; your objective
+  is to ascertain if the response appropriately fulfills what was asked.
+- Analyze whether each response fulfills the requirements of its question by interpreting
+  both effectively within their context.
+- Engage in evaluating how well answers correspond with their respective questions,
+  considering context and content alignment for accuracy in classification.
+- You will analyze the relationship between a question and its answer to determine
+  if the answer offers a relevant response.
+- The objective is to filter through responses to validate their effectiveness in
+  answering specific questions based on provided information.
+- This task requires you to categorize answers as relevant or irrelevant by comparing
+  them with their associated questions.
+- The goal is to analyze how well the answer corresponds to the question, indicating
+  if it truly answers what was asked.
+- Your responsibility is to evaluate if an answer genuinely addresses its corresponding
+  question, necessitating insight into both queries and their resolutions.
+- This examination involves judging the accuracy of how well an answer corresponds
+  to its question, which entails critical reasoning about content viability.
+- This task involves reviewing pairs of questions and answers to ascertain whether
+  the answers provided effectively respond to what is being asked.
+- Analyze question-answer pairs to determine if the provided answers truly correspond
+  with their respective inquiries. This requires careful consideration of language
+  nuances.
+- Your responsibility is to judge whether the offered answer resolves the specific
+  question. This includes analyzing both content and clarity.
+- Evaluate a series of questions alongside their answers to see if each response accurately
+  fulfills what was asked by each question.
+- You will need to determine if each response successfully engages with its corresponding
+  question. This demands careful consideration of meaning and relevance.
+- You are tasked with evaluating an answer against its corresponding question, determining
+  the degree to which it addresses or fulfills what is being asked.
+- For this task, you must discern if the answers provided truly correspond to the
+  questions asked, focusing on clarity and relevance.
+- Your role is to determine if the information in provided answers aligns with and
+  effectively resolves the inquiries presented in their questions.
+- In this task, you are expected to evaluate the accuracy of responses by determining
+  if they provide satisfactory answers to their associated questions based on context.
+- Focus on whether the answer logically follows from the question, considering if
+  it illustrates a direct relationship that validates it as an appropriate response.
+- The objective is to discern whether the answer effectively satisfies the query posed
+  in light of additional details from an accompanying passage.
+- In this exercise, you will consider how well the answer meets the specific demands
+  of its corresponding question, assessing clarity and relevance.
+- This task consists of assessing responses in relation to their questions, requiring
+  a critical look at whether each answer fully addresses its question.
+- You will evaluate whether the information in an answer logically satisfies the inquiry
+  posed by the accompanying question in the text.
+- This activity focuses on checking answers against questions to see if they make
+  sense as valid responses, ensuring connectivity and logical consistency.
+- Your role is to classify answers based on their relevance to the questions they
+  are associated with, checking for a clear connection.
+- Your task is to judge the efficacy of answers in responding to specific questions,
+  focusing on the correctness and completeness of each response.
+- Your role involves comparing the content of an answer against its related question
+  to decide if they are aligned in meaning.
+- The assignment revolves around confirming if each provided answer truly responds
+  to its question by analyzing clarity, relevance, and completeness.
+- You will categorize responses based on their relevancy to questions, focusing on
+  whether they adequately address the asked points.
+- In this task, you evaluate whether the given answer responds to the question appropriately,
+  indicating if it is relevant or not.
+- Evaluate responses in light of their respective questions, checking for coherence,
+  relevance, and whether they provide trustworthy insight into the queries posed.
+- This involves analyzing how well an answer matches a question's intent. Your assessment
+  will rely on understanding both sides thoroughly.
+- Assess whether or not an answer fulfills the need expressed in a question, emphasizing
+  clarity, relevance, and completeness in your evaluation process.
+- Your job is to read a question and its corresponding answer, then decide if the
+  answer provides a relevant response to the question asked.
+- Assess responses by determining if they truly address what was being asked, focusing
+  on factual correctness and context comprehension.
+- You need to assess if an answer corresponds appropriately to a question posed, ensuring
+  it provides relevant information and addresses all key points.
+- Your assignment is to ensure that each answer aligns with its question in a logical
+  and relevant manner, identifying gaps if present.
+- In this task, you will assess responses in relation to their originating questions,
+  establishing clarity regarding whether they actually address those inquiries.
+- Here, your role is to critically analyze the interaction between a question and
+  its provided answer. You must determine if the answer effectively meets what was
+  asked.
+- Analyze whether each answer truly addresses its corresponding question by determining
+  relevance and alignment with the query's intent.
+- Your responsibility is to classify responses based on their direct relevance to
+  the questions asked, highlighting areas of congruence or discrepancy.
+- You will classify answers based on their effectiveness in answering specific questions,
+  requiring critical thinking about their relevancy and completeness.
+- You are tasked with verifying if an answer contains sufficient information to resolve
+  the question presented, requiring critical evaluation skills.
+- You will engage in a comparative analysis of questions and their responses to evaluate
+  how well each response addresses its query.
+- Assess whether the response given to a question effectively answers it. This task
+  requires careful consideration of how well the two items align.
+- The focus here lies in determining if an answer truly addresses the concerns raised
+  by a question, requiring analytical skills and comprehension abilities.
+- In this task, you need to evaluate whether the provided answer effectively responds
+  to the given question, based on contextual understanding.
+- This task challenges you to discern if an answer effectively resolves a query by
+  closely analyzing both elements for coherence and clarity.
+- Work through each pair of questions and answers with a keen eye for detail, determining
+  whether the answer serves as a clear response to the inquiry.
+- This task involves verifying if an answer truly responds to a specific question.
+  You need to use logical reasoning to make your decision.
+- For this task, you will classify whether specific responses appropriately address
+  the inquiries made. Analyze each pair carefully to reach your conclusion.
+- Your task is to assess an answer's relevance to its question based on the details
+  of a specific passage.
+- Classify each response based on its relevance and completeness regarding the associated
+  question. This requires analytical thinking and comprehension skills.
+- The goal is to classify whether the given answer satisfactorily responds to the
+  question. This involves critical reading and understanding of both the question
+  and answer.
+- In this exercise, analyze whether an answer can be seen as a legitimate response
+  to a specific question based on its completeness and accuracy.
+- You will be determining whether certain answers effectively clarify or inform based
+  on what questions seek to understand or resolve.
+ds_kwargs:
+  path: Lots-of-LoRAs/task846_pubmedqa_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task846_pubmedqa_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'

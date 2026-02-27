@@ -1,0 +1,460 @@
+assistant_prefill: ''
+descriptions:
+- The task involves analyzing two sentences to determine their relationship. You must
+  decide if they agree, disagree, or if it's unclear based on the information provided.
+- Examine two statements closely and judge how they relate in terms of truthfulness.
+  Are they aligned, opposed, or ambiguous?
+- "Your role is to deduce the relationship between given sentence pairs through analytical\
+  \ interpretation\u2014do they confirm each other\u2019s truths, deny them, or remain\
+  \ unresolvable?"
+- This challenge requires you to read closely and think critically about relationships
+  expressed in sentence pairs. Are they consistent, contradictory, or unclear?
+- Your task is to analyze two sentences to identify their relationship, determining
+  whether they agree, contradict, or cannot be assessed based on the information given.
+- Analyze the meaning of given sentence pairs. Your goal is to clarify whether one
+  suggests agreement with the other, opposes it, or if their relationship cannot be
+  clearly established.
+- The job is to assess how two sentences relate to each other. Classify their relationship
+  as either supportive, contradictory, or indeterminate.
+- 'Analyze provided sentences to classify their semantic relationship into three categories:
+  agreement, disagreement, or uncertainty.'
+- Your task involves assessing if two given sentences reinforce each other, oppose
+  each other, or present ambiguous information about their relation.
+- The objective here is to gauge the compatibility of meanings in two sentences by
+  identifying whether they share a common understanding or stand in conflict.
+- "Engage in a logical evaluation of sentence relationships. Determine if they affirm\
+  \ one another, directly oppose each other, or if there\u2019s no clear determination."
+- Evaluate the logical connection between paired sentences and express whether they
+  correspond with each other, oppose each other, or are indeterminate.
+- Your role is to determine the nature of the relationship between two provided phrases;
+  decide if they clearly correlate, oppose each other, or fall into neutrality.
+- Engage critically with sentence pairs. It requires you to discern similarities and
+  differences in meaning and intentions behind each statement for proper classification.
+- The aim is to assess two sentences for agreement or disagreement while considering
+  if additional information might clarify their interaction or ambiguity.
+- In this task, you need to critically evaluate pairs of statements to identify their
+  relational dynamics, requiring close attention to details and context.
+- Read both sentences and apply critical thinking to determine if they are in sync
+  with each other, at odds with one another, or if it is unclear.
+- Your role is to interpret the meaning of two sentences and decide if one logically
+  follows from the other, directly contradicts it, or leaves you uncertain.
+- Your job is to evaluate how one sentence relates to another; this could involve
+  agreement, disagreement, or an unclear correlation between the two.
+- "The task entails a careful examination of statements for contextual relationships\u2014\
+  are they congruent in meaning, contradictory at their core, or too vague for a definitive\
+  \ position?"
+- Engage in a logical evaluation task where you interpret two sentences and decide
+  whether they're aligned in meaning, conflicting in content, or uncertain in relation.
+- "Your responsibility is to analyze the alignment between sentence pairs. Judgment\
+  \ is required on whether they resonate together, confound each other\u2019s meanings,\
+  \ or leave ambiguity unresolved."
+- You'll need to apply your understanding of semantics by parsing the relationships
+  between two sentences and categorizing them separately as entailment, contradiction,
+  or neutral status.
+- "Assess the arguments made by two sentences; categorize them based on whether they\
+  \ complement each other\u2019s views, negate them, or cannot be conclusively interpreted."
+- "Weigh the evidence within two sentences to see if one confirms the other's assertion\
+  \ or negates it. If there\u2019s no direct link, note that ambiguity exists."
+- "Evaluate given sentence pairs to determine how one statement corresponds with another\u2014\
+  whether they reflect agreement, conflict, or ambiguity."
+- Analyze the logical ties between the statements to determine if they overlap in
+  meaning, oppose one another outright, or leave some uncertainty regarding their
+  purpose.
+- "You will work with sentence pairs and need to recognize patterns in how they relate\u2014\
+  either through agreement, contradiction, or an inability to judge their relation\
+  \ clearly."
+- "Review the pairs of sentences for their relational clarity\u2014do they affirm\
+  \ one another's ideas or contradict them? Is there ambiguity?"
+- Analyze the given sentence pairs to see if they reinforce each other, contradict
+  one another, or if the relationship is uncertain.
+- Your task is to evaluate the relationship between two statements, determining if
+  they support, contradict, or are unrelated to one another.
+- "Engage in logical reasoning with sentence pairs to label them based on their degree\
+  \ of agreement\u2014confirming a shared perspective, opposing viewpoints, or exhibiting\
+  \ uncertainty."
+- "Assess the clarity of agreement or opposition between two sentences. This involves\
+  \ critical thinking and careful reading of each statement\u2019s context."
+- Work through pairs of sentences to determine the nature of their relationship. Identify
+  if they provide mutual support, contradict one another, or are neutral.
+- "Your task is to dissect the reasoning in pair sentences. Identify their connection\u2014\
+  either cohesion in thought, opposition in ideas, or ambiguity in meaning."
+- Consider the implications of each sentence and classify them based on whether they
+  agree with one another (entailment), oppose each other (contradiction), or suggest
+  no definitive connection (neutral).
+- This task involves parsing sentence pairs for meaning to see where concurrence exists,
+  where conflict arises, or where uncertainty prevails.
+- This task requires comprehension and critical thinking. Analyze pairs of sentences
+  to ascertain if they are aligned, opposed, or if it's impossible to tell.
+- Consider how two statements interact with one another in terms of agreement and
+  contradiction. This involves discerning clear meaning versus ambiguity.
+- Engage with pairs of sentences by determining their interconnection. Can they coexist
+  logically, stand at odds with each other, or leave room for uncertainty?
+- In this task, you must read pairs of sentences and make a judgment about whether
+  they imply concordance, conflict, or neutrality in their meaning.
+- 'Your job is to assess pairs of sentences and classify them into three categories:
+  agreement, contradiction, or neutrality. This requires careful reading and comprehension.'
+- The focus here is on understanding the connection between two sentences. Consider
+  the context and meaning to discern if they are in harmony, in conflict, or neutral.
+- The objective here is to discern how two sentences relate to one another. You will
+  decide if they support each other, contradict each other, or if their relation remains
+  ambiguous.
+- By examining the sentences closely, your goal is to discern if they convey compatible
+  ideas, opposing ideas, or if the link between them is indeterminate.
+- You'll be presented with two sentences and need to assess their compatibility. Judging
+  whether their meanings align, conflict, or if clarity cannot be reached is key.
+- Your task is to interpret two statements to unveil their relationship. They could
+  be aligned in meaning, contradictory, or too unclear to categorize.
+- "The challenge lies in interpreting two sentences in a way that renders their relationship\
+  \ clear\u2014 are they supportive of one another, at odds, or can no conclusion\
+  \ be drawn?"
+- Your role is to dissect two phrases and clarify their relationship type. This involves
+  understanding nuances in language and context.
+- Engage with pairs of sentences and use your reasoning skills to evaluate their agreement
+  or contradiction. You will delve into the meanings behind the words for clarity.
+- "You will analyze sentence pairs for semantic relationships\u2014recognizing when\
+  \ they align in agreement, conflict with opposing meanings, or leave you uncertain\
+  \ altogether."
+- This involves critically analyzing sentence pairs and categorizing their relationships
+  based on defined criteria regarding agreement and contradiction.
+- "In this activity, you will critically evaluate the essence of two sentences to\
+  \ decide if they complement each other\u2019s meaning, counter each other\u2019\
+  s essence, or present an uncertain narrative."
+- "Delve into sentence comparisons to uncover their relational dynamics\u2014determining\
+  \ what aligns them or sets them apart within their contexts."
+- Assess the connections between paired sentences thoughtfully. This demands an understanding
+  of language nuances that indicate either agreement, opposition, or indecisiveness.
+- Assess provided statements for logical coherence by deciding if they affirm one
+  another's claims, oppose directly, or cannot be clearly connected due to lack of
+  context.
+- Determine the nature of the relationship between two statements through careful
+  analysis of their content and implications for understanding agreement or disagreement.
+- "You are called upon to meticulously interpret two statements against each other\u2014\
+  decoding whether they share a unified stance, contradict each other\u2019s claims,\
+  \ or lack clarity."
+- The objective is to classify the relationship between two statements as either supportive,
+  opposing, or uncertain based on their content.
+- In this task, you must examine two sentences together to see if they express the
+  same idea, provide contradictory information, or if it's impossible to conclude.
+- You are required to judge each pair of sentences on whether they agree with one
+  another, contradict one another, or fall into a neutral stance regarding their relationship.
+- Examine the content of two sentences carefully. Your goal is to identify whether
+  they clearly represent the same idea, oppose each other, or leave you unsure.
+- Evaluate the interconnectedness of two statements by identifying if they are aligned
+  in meaning, at odds with each other, or if it's unclear how they relate.
+- Read and scrutinize two assertions to establish whether they are congruent, in opposition
+  to one another, or ambiguous in their expressed meaning.
+- Evaluate the coherence of two statements and categorize them as either agreeing
+  with each other, being in conflict, or staying neutral without clear implications.
+- "Engage with sentence pairs and utilize your critical thinking prowess to figure\
+  \ out how they fit together\u2014do they align logically, oppose directly, or remain\
+  \ ambiguous?"
+- Your challenge lies in discerning if the relationship between both sentences indicates
+  alignment, contradiction, or an inability to ascertain a clear connection.
+- "Evaluate the semantic relationship between sentence pairs. You must decide if they\
+  \ affirm one another\u2019s meanings, contradict them outright or leave aspects\
+  \ uncertain."
+- Engage in a critical reading task where you assess pairs of sentences for coherence
+  or conflict and classify their relationship accordingly.
+- You need to explore how two sentences relate to one another and decide if they support
+  each other, contradict each other, or are inconclusive.
+- "Engage in a nuanced analysis of language by assessing whether two sentences align\
+  \ logically with each other or stand at odds\u2014and whether a clear conclusion\
+  \ can be drawn."
+- You need to carefully read two sentences and categorize their connection as supportive,
+  opposing, or ambiguous. This requires critical thinking about the content.
+- "Your job is to read two phrases carefully and determine how they relate\u2014whether\
+  \ they reflect agreement, show contradiction, or create uncertainty about their\
+  \ intents."
+- In this exercise, you will read two sentences and determine their logical connection.
+  Classify them into categories of agreement, disagreement, or neutrality based on
+  their meanings.
+- In this analysis task, you will evaluate relationships between sentences by identifying
+  connections or discrepancies in meaning and clarity.
+- "This task involves evaluating linguistic phrases to identify whether they reinforce\
+  \ or challenge each other\u2019s assertions or if their correlation remains uncertain."
+- This task revolves around linguistic interpretation. Determine how two statements
+  relate in terms of validation or negation while considering potential ambiguity.
+- 'Your role is to dissect the relationships embedded within sentence pairs: categorize
+  them as agreeing with one another''s implications or countering those implications
+  or leaving their connection indeterminate.'
+- Use analytical skills as you read through pairs of sentences. Your goal is to categorize
+  them based on whether they confirm one another's ideas or suggest a conflict.
+- "This exercise requires critical reading skills to evaluate how two statements relate\
+  \ in context\u2014matching them into categories of entailment, contradiction, or\
+  \ neutrality."
+- Determine whether the meanings of two sentences align cohesively, conflict directly,
+  or remain indefinite in describing their relevance and connection.
+- You will engage with pairs of sentences as you classify them by understanding their
+  mutual compatibility or incompatibility in meaning.
+- The goal is to evaluate the relation between pairs of sentences. Decide if they
+  confirm each other, express conflicting ideas, or if their relationship is uncertain.
+- Your task is to analyze pairs of sentences to determine if they support each other,
+  contradict each other, or if their relationship is unclear.
+- Analyze the provided statements to conclude whether they exhibit entailment, contradiction,
+  or neutrality based on their expressed meanings.
+- "Approach the sentences with an analytical mindset to establish how they relate\u2014\
+  either supporting each other\u2019s claims, contesting each other directly, or lacking\
+  \ a clear connection."
+- The focus here is on interpreting linguistic information; you'll assess sentence
+  pairs for agreement levels based on the context provided.
+- "You\u2019ll need to decode sentence relations through analysis and decide if they\
+  \ express a consistent idea, oppose each other significantly, or leave room for\
+  \ interpretation."
+- The task requires careful reading and logical reasoning as you judge whether two
+  sentences are equivalent in meaning, contradictory, or uncertain in their relationship.
+- Your responsibility is to compare two statements to see if they support the same
+  idea, cancel each other out, or are inconclusive.
+- Your task is to evaluate relationships between pairs of sentences and categorize
+  them as agreeing, disagreeing, or undetermined based on their content.
+- This task involves discerning whether provided sentences align positively, represent
+  contradictions, or leave you uncertain about their interaction.
+- This task requires you to evaluate two given statements and categorize them based
+  on their logical relationship, using a straightforward classification.
+- Since language can be nuanced, your task is to discern whether the essence of two
+  sentences aligns harmoniously, clashes outright, or creates space for varied interpretation.
+- "You are required to assess two statements and decipher their relationship\u2014\
+  whether they are in agreement, in conflict, or if their connection is unspecified."
+- Evaluate the interactions between sentence pairs by thoughtfully considering whether
+  their meanings overlap, clash sharply, or remain unclear.
+- Assess the similarities and differences between given pairs of sentences. You'll
+  categorize their relationship based on whether they align, conflict, or leave doubts.
+- This task involves analyzing pairs of sentences to determine their relationship.
+  You must identify whether they agree, contradict, or if their relationship is unclear.
+- Your task involves reflecting on the nature of information presented in both sentences
+  to classify them as logically consistent, contradictory, or indeterminate.
+- "The aim here is to understand the implications of two statements and reflect on\
+  \ how they correspond\u2014be it through alignment, opposition, or ambiguity."
+- "Analyze the given sentences to see if they support each other\u2019s assertions,\
+  \ contradict each other\u2019s claims, or leave room for doubt regarding their relationship."
+- Use your comprehension skills to explore the alignment of meanings in paired sentences
+  and sort them into the categories of agreement, disagreement, or neutrality.
+- In this task, you will examine statements to identify whether one follows from the
+  other, if they are conflicting, or if it is unclear how they relate.
+- You'll need to interpret the meanings of two sentences to see if they agree, disagree,
+  or if their relationship remains ambiguous.
+- This task requires evaluating sentence pairs by seeing if their content complements
+  each other positively, diverges significantly in meaning, or lacks clarity in connection.
+- This task involves scrutinizing two different phrases and deciding whether they
+  align, oppose, or leave room for doubt regarding their meanings.
+- Determine the connection between two given sentences by analyzing their content.
+  This requires an understanding of language nuances and inference.
+- This task tests your ability to interpret sentences in relation to one another.
+  Determine whether they support each other, conflict, or provide insufficient information
+  for a clear assessment.
+- This activity involves careful examination of sentence pairs to classify their logical
+  relationships. You'll need to employ your understanding of language nuances effectively.
+- The focus is on evaluating and interpreting the connection between pairs of sentences
+  regarding their agreement levels and clarifying their incongruences.
+- Examine sentence pairs to ascertain whether they express similar ideas (entailment),
+  differing views (contradiction), or lack sufficient information to make a judgment.
+- This task tests your comprehension skills by requiring you to discern the logical
+  ties between two pieces of information and classify those ties accordingly.
+- "The work involves closely reading two statements and discerning whether they resonate\
+  \ with each other positively, negatively challenge one another\u2019s content, or\
+  \ fail to provide clarity on their relationship."
+- Examine the details within two statements to understand their relationship thoroughly.
+  The task requires keen analytical skills regarding language intent and meaning.
+- For each sentence pair, consider the meanings carefully to assign a label that reflects
+  their agreement or disagreement level.
+- "Your job is to interpret the interaction between two sentences. This includes deciding\
+  \ if they align in meaning, counter each other\u2019s statements, or remain indeterminate."
+- In this task, your focus rests on evaluating pairs of text sentences to see if they
+  resonate positively together or not and judging their clarity regarding mutual understanding
+  and interpretation.
+- You will assess pairs of sentences and categorize them as either related (entailment),
+  opposed (contradiction), or ambiguous (neutral).
+- You will analyze pairs of sentences to identify whether they express similar ideas,
+  conflicting ideas, or if it's unclear how they relate to each other.
+- Analyze two sentences to determine if they share a common conclusion, disagree fundamentally,
+  or leave room for uncertainty in interpretation.
+- Under this task, you'll interpret two separate assertions and categorize them according
+  to whether they affirm one another's truthfulness or contradict it entirely.
+- "Examine two sentences side by side. Your objective is to decide if they confirm\
+  \ each other, oppose each other, or if the connection isn\u2019t clear."
+- This task involves assessing pairs of sentences for entailment, contradiction, and
+  neutrality. Focus on understanding their underlying meanings and implications.
+- You will need to investigate the nuances between two statements for verification
+  of agreement, evidence of contradiction, or acknowledgment of neutrality in regard
+  to their meanings.
+- Assess the information in both sentences and classify their relationship as entailment,
+  contradiction, or neutral.
+- Here you will assess the logical connections between two statements. Determine if
+  they yield an agreement on ideas, show contradiction in points made, or leave things
+  uncertain.
+- "This task challenges you to find connections in meaning between two sentences by\
+  \ determining whether they reinforce each other\u2019s intents, refute one another\u2019\
+  s claims, or if you cannot assert a definitive overlap."
+- For this task, you'll closely examine pairs of sentences. Utilize deductive reasoning
+  to classify them into categories of agreement (entailment), disagreement (contradiction),
+  or indeterminate relation (neutral).
+- Analyze pairs of sentences and determine if they express the same idea, disagree
+  with each other, or if it's impossible to tell their connection.
+- "This task involves critically examining pairs of sentences for clarity in meaning.\
+  \ Determine if they confirm each other\u2019s ideas, create oppositional interpretations,\
+  \ or leave various questions unresolved."
+- Analyze how two sentences interact with one another by determining if there's clear
+  support, outright opposition, or an ambiguous link between them.
+- "The goal is to determine how two statements interact with one another\u2014whether\
+  \ they reinforce, dispute each other, or if their connection is not resolvable."
+- Your job is to define the relationship between two statements presented together.
+  Recognizing agreement, conflict, or neutrality is essential for success here.
+- Engage in a judgment of textual relationships by reading pairs of sentences and
+  identifying whether they confirm each other, contradict, or are neutral.
+- Examine each pair of sentences and identify whether they confirm one another's truths,
+  dispute any claims made, or create confusion that obscures a clear relationship.
+- Your challenge is to dissect two provided sentences for underlying meanings and
+  relationships. Assess their agreement, disagreement, or neutrality with perceptive
+  insight.
+- Analyze the provided sentence pairs to ascertain if one conveys a supportive statement,
+  if they are at odds, or if the relation cannot be firmly established.
+- Using your understanding of language and context, determine if the provided sentences
+  agree, contradict each other, or if it's not possible to draw a conclusion.
+- Investigate the semantic connection between two sentences and decide if they convey
+  complementary ideas, conflicting messages, or an unclear situation.
+- Engage in a comparative analysis of two sentences to see how they are related. The
+  goal is to classify them as either aligned in intent, oppositional in essence, or
+  unclear in relation.
+- Your mission is to analyze sentence pairs and judge the nature of their connection,
+  determining if they support each other, contradict, or provide inconclusive information.
+- "You will explore linguistic relationships within sets of sentences to conclude\
+  \ if they substantiate each other\u2019s claims or reveal a conflicting narrative."
+- Engage with pairs of statements through critical thinking. Identify the nature of
+  their relationship based on agreement, disagreement, or uncertainty.
+- "Use reasoning skills to evaluate pairs of statements and determine if they express\
+  \ coherent agreement with one another or show signs of contradiction\u2014and whether\
+  \ a definitive stance can be taken."
+- Read through the given sentences carefully; then categorize them based on whether
+  they overlap in meaning, conflict directly or remain unclear in association.
+- You will read two sentences and decide if they confirm each other, oppose each other,
+  or if their relationship is ambiguous.
+- "Evaluate how language interacts within pairs of statements\u2014deciding whether\
+  \ they affirm one another's meanings outright, oppose them squarely, or wander into\
+  \ uncertain territory."
+- "Your task is to evaluate two sentences and determine the relationship between them.\
+  \ You must decide if they support each other, contradict each other, or if it\u2019\
+  s unclear how they relate."
+- You need to interpret the meaning of two sentences and decide if they are in agreement,
+  conflict, or if more context is needed to understand their relationship.
+- You are expected to critically examine two statements and classify their relationship
+  as either confirmatory, contradictory, or indeterminate.
+- Your job involves interpreting sentence pairs to find out whether they are aligned
+  in meaning, in opposition, or unclear in their connection.
+- "Analyze how two individual statements interact\u2014assess them for agreement in\
+  \ ideas supportive of one another, contradictions presenting conflicting perspectives,\
+  \ or neutrality indicating a lack of clear alignment."
+- Your focus will be on comparing two statements to see if they confirm one another,
+  deliver contradicting messages, or leave matters uncertain.
+- Examine pairs of statements and identify whether they align, disagree, or if their
+  connection cannot be established with certainty.
+- This task involves interpreting two statements to see if they convey the same idea,
+  refute each other, or if it's ambiguous whether they do.
+- Your job is to read through distinct statements and discern whether they support
+  one another, oppose each other directly, or fall into a category that is inconclusive.
+- You are tasked with determining the nature of the relationship between sentence
+  pairs, focusing on whether they align in meaning, oppose each other, or remain ambiguous.
+- Your job is to read the sentences carefully and judge if they express compatible
+  ideas, diverge in meaning, or leave room for interpretation regarding their relationship.
+- "Interpret the content of two given sentences to see how they relate\u2014whether\
+  \ in agreement, contradiction, or ambiguity regarding their meanings."
+- Delve into pairs of statements critically to classify whether they convey similar
+  ideas, oppose one another distinctly, or present an unclear context.
+- You need to analyze two sentences and decide if they agree, disagree, or if their
+  relationship is unclear. This requires reading comprehension and critical reasoning.
+- "The task involves sifting through sentence pairs to assess their dialogues\u2014\
+  classifying them based on their relational dynamics into agreement, opposition,\
+  \ or ambiguity."
+- "Analyze and assess pairs of statements to determine their logical connections\u2014\
+  whether they exhibit agreement, disagreement, or fall into an undefinable category."
+- "You will be tasked with understanding the information conveyed by two sentences\
+  \ to determine their agreement level\u2014if they affirm, contradict, or remain\
+  \ neutral regarding one another."
+- Engage in critical reading where you take pairs of sentences and figure out if they
+  complement one another's meanings effectively, stand at odds with conflicting ideas,
+  or leave room for interpretative ambiguity.
+- The essence of this task lies in comparative analysis. You will judge whether the
+  content of two sentences aligns, contradicts, or remains ambiguous.
+- In this exercise, your ability to comprehend relationships between statements will
+  be tested. Decide the nature of agreement or contradiction between two given sentences.
+- This task requires you to discern the alignment of two given sentences, determining
+  whether they reinforce each other, oppose each other, or leave room for interpretation.
+- You will evaluate differences and agreements in two sentences. This requires reasoning
+  through their meanings to classify their relationship accurately.
+- "Carefully assess the coherence between provided statements; identify whether they\
+  \ mutually support their contentions, oppose one another\u2019s viewpoints outright,\
+  \ or remain unclear about their relationship dynamics."
+- Your task is to evaluate two sentences to see if they support each other, contradict
+  each other, or if their relationship is unclear.
+- Analyze pairs of sentences critically. You must identify whether they clearly align
+  as true together, are opposed in meaning, or if their truthfulness remains uncertain.
+- "Your task is to interpret pairs of statements and categorize them based on how\
+  \ their meanings interact\u2014whether they're supportive, conflicting, or indeterminate."
+- Focus on comparing pairs of sentences and deciding how they relate. Are they in
+  agreement, disagreement, or is it too vague to tell?
+- The focus here is on linguistic analysis where you'll compare sentence pairs to
+  evaluate their congruence or divergence in meaning.
+- This task invites you to cultivate your analytical abilities as you explore sentence
+  pairs for clarity of meaning or potential disagreements within their contexts.
+- "The focus of this task is on analyzing pairs of sentences for clarity in their\
+  \ relationship. Determine if there\u2019s agreement, contradiction, or ambiguity\
+  \ present."
+- Determine the logical relationship between pairs of sentences by analyzing whether
+  they confirm one another, contradict one another, or lead to confusion about their
+  stance.
+- "Review pairs of sentences and judge their relationship based on clarity. You'll\
+  \ determine whether they reinforce each other\u2019s meanings or present conflicting\
+  \ ideas."
+- You are challenged with understanding sentence relationships. Analyze them for whether
+  they support each other, clash, or remain ambiguous.
+- Analyze pairs of textual statements for consistency in meaning; you will determine
+  if they agree with each other clearly, if one negates the other, or if their relationship
+  isn't definitive.
+- The task involves assessing the relationship between two sentences to determine
+  if they agree, disagree, or if their relation is ambiguous.
+- Engage with pairs of sentences to clarify whether they illustrate agreement, disagreement,
+  or ambiguity in their meanings.
+- "This task involves determining how two provided statements relate to one another.\
+  \ Assess if they convey matching meanings, if one denies the other, or if the connection\
+  \ isn\u2019t clear."
+- You will evaluate how two sentences interact. Determine if they affirm each other's
+  statements, directly oppose one another, or if their relationship remains vague.
+- "Your role demands careful evaluation of sentence pairs to find out if they agree\
+  \ completely, are at odds with each other\u2019s claims, or present an unclear relationship."
+- You will be presented with statements, and your job is to clarify their connection
+  by categorizing them into agreement, contradiction, or neutrality.
+- Analyze pairs of statements for clarity on whether they lend support to one another's
+  messages, challenge them outright, or exist within an ambiguous framework.
+- In this activity, ascertain the compatibility of two statements by identifying whether
+  they are consistent with one another or show discrepancies.
+- Evaluate the contextual meanings of the sentences and characterize their relationship
+  as confirming, conflicting, or not apparent.
+- You will read two sentences and judge their relationship by identifying whether
+  they agree, disagree, or if you cannot tell.
+- The goal here is to determine if one sentence logically follows from another or
+  if they present opposing ideas.
+- Evaluate whether two pieces of information support each other clearly, negate one
+  another, or result in indeterminate conclusions about their meaning.
+- You are tasked with discerning the interaction between two written statements. Look
+  for signs of agreement, conflict, or uncertainty in their meanings.
+- Work on understanding sentence pairs and identify whether they logically connect
+  through agreement, opposition, or ambiguity in meaning.
+- This task involves evaluating the relationship between two sentences to decide if
+  they agree, disagree, or if their relationship is uncertain.
+- Analyze the given sentences to determine if one implies or supports the other, contradicts
+  it, or if no clear relationship can be established.
+- "In this exercise, you need to evaluate how two statements relate to one another\u2014\
+  whether they entail agreement, show a contradiction, or remain ambiguous."
+- 'This task calls for close reading and interpretation. Identify connections between
+  sentence pairs: do they entail each other, contradict, or remain neutral?'
+- Your role is to evaluate two provided sentences. Assess whether they convey the
+  same idea, present opposing information, or if their connection isn't evident.
+ds_kwargs:
+  path: Lots-of-LoRAs/task641_esnli_classification
+  split: train[:10000]
+  name: default
+response_field: answer
+system_message: ''
+task_name: Lots-of-LoRAs/task641_esnli_classification
+user_prompt_template: '{task_def}
+
+
+  {problem}'
