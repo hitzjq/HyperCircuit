@@ -1,0 +1,46 @@
+# ARC LoRA fine-tuning config
+
+defaults:
+  - arch: trm
+  - _self_
+
+hydra:
+  output_subdir: null
+
+# Data path
+data_paths: ['data/arc1concept-aug-1000/train']
+data_paths_test: ['data/arc1concept-aug-1000/evaluation']
+
+evaluators:
+  - name: arc@ARC
+
+# Hyperparams - Training
+global_batch_size: 256   # 中大Batch Size, 适配 4x H200 但避开过多循环展开震荡
+
+epochs: 20000            # LoRA finetuning requires fewer epochs generally
+eval_interval: 2000
+checkpoint_every_eval: True
+
+lr: 1e-3                 # LoRA 需要比全量微调大 10 倍的学习率
+lr_min_ratio: 0.1
+lr_warmup_steps: 1000
+
+# LoRA Specific settings inside config!
+lora_r: 64
+lora_alpha: 32
+
+# Standard hyperparameter settings for LM, as used in Llama
+beta1: 0.9
+beta2: 0.95
+weight_decay: 0.1
+puzzle_emb_weight_decay: 0.1
+
+# Hyperparams - Puzzle embeddings training
+puzzle_emb_lr: 1e-2
+
+seed: 42
+min_eval_interval: 0 # when to start the eval
+
+ema: False               # LoRA 必须强制关闭 EMA 平滑，对小外挂矩阵无意义
+ema_rate: 0.999
+freeze_weights: False    # False means LoRA trainable weights + Emb are trained, base is frozen via logic

@@ -1,0 +1,1 @@
+python -m dataset.build_arc_dataset_mem --input-file-prefix kaggle/combined/arc-agi --output-dir data/arc1concept-aug-1000 --subsets training evaluation concept --test-set-name evaluation
