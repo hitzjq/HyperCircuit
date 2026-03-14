@@ -405,9 +405,6 @@ def evaluate(
                 if all_finish:
                     break
 
-            if rank == 0:
-                print(f"  Completed inference in {inference_steps} steps")
-
             for collection in (batch, preds):
                 for k, v in collection.items():
                     if k in config.eval_save_outputs:
@@ -591,14 +588,16 @@ def launch(hydra_config: DictConfig):
     train_loader, train_metadata = create_dataloader(config, "train", test_set_mode=False, epochs_per_iter=train_epochs_per_iter, global_batch_size=config.global_batch_size, rank=RANK, world_size=WORLD_SIZE)
     try:
         eval_loader,  eval_metadata  = create_dataloader(config, "test", test_set_mode=True, epochs_per_iter=1, global_batch_size=config.global_batch_size, rank=RANK, world_size=WORLD_SIZE)
-    except:
-        print("NO EVAL DATA FOUND")
+    except Exception as e:
+        print(f"NO EVAL DATA FOUND: {e}")
         eval_loader = eval_metadata = None
 
     try:
         evaluators = create_evaluators(config, eval_metadata)
-    except:
-        print("No evaluator found")
+    except Exception as e:
+        print(f"No evaluator found: {e}")
+        import traceback
+        traceback.print_exc()
         evaluators = []
 
     # Train state
@@ -627,7 +626,7 @@ def launch(hydra_config: DictConfig):
             metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
 
             if RANK == 0 and metrics is not None:
-                loss_val = metrics.get('train/loss') or metrics.get('loss') or 0.0
+                loss_val = metrics.get('train/lm_loss') or metrics.get('train/loss') or metrics.get('loss') or 0.0
                 progress_bar.set_postfix(loss=f"{loss_val:.4f}")
                 progress_bar.update(train_state.step - progress_bar.n)  # type: ignore
 
