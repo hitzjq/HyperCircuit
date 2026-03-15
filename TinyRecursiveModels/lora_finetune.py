@@ -614,6 +614,28 @@ def launch(hydra_config: DictConfig):
         ema_helper = EMAHelper(mu=config.ema_rate)
         ema_helper.register(train_state.model)
 
+    # ============================================================
+    # BASELINE EVAL: Evaluate the loaded checkpoint BEFORE any LoRA training
+    # (LoRA B matrix is zero-initialized, so this is equivalent to pure base model)
+    # ============================================================
+    if RANK == 0:
+        print("=" * 40)
+        print("📊 BASELINE EVAL: Evaluating loaded checkpoint before LoRA training starts...")
+        print("=" * 40)
+    train_state.model.eval()
+    baseline_metrics = evaluate(config,
+        train_state,
+        eval_loader,
+        eval_metadata,
+        evaluators,
+        rank=RANK,
+        world_size=WORLD_SIZE,
+        cpu_group=CPU_PROCESS_GROUP)
+    if RANK == 0:
+        print("=" * 40)
+        print(f"📊 BASELINE EVAL RESULT (pre-LoRA): {baseline_metrics}")
+        print("=" * 40)
+
     # Training Loop
     for _iter_id in range(total_iters):
         print (f"[Rank {RANK}, World Size {WORLD_SIZE}]: Epoch {_iter_id * train_epochs_per_iter}")

@@ -8,8 +8,8 @@ hydra:
   output_subdir: null
 
 # Data path
-data_paths: ['data/arc1concept-aug-1000/train']
-data_paths_test: ['data/arc1concept-aug-1000/evaluation']
+data_paths: ['data/arc1concept-aug-1000']
+data_paths_test: []
 
 evaluators:
   - name: arc@ARC
