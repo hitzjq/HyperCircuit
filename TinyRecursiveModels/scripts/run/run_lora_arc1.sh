@@ -4,7 +4,7 @@
 # TRM LoRA 微调一键启动脚本 (遵循官方精简版)
 # ==========================================
 
-run_name="LoRA_r64_lr1e-3_8gpus_newchanged"
+run_name="LoRA_r64_lr1e-3_8gpus0316"
 LOG_DIR="checkpoints/${run_name}"
 mkdir -p "${LOG_DIR}"
 
@@ -20,7 +20,7 @@ nohup torchrun --nproc-per-node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:
     lora_alpha=32 \
     lr=1e-3 \
     global_batch_size=256 \
-    epochs=20000 \
+    epochs=10000 \
     > "${LOG_DIR}/terminal_output.log" 2>&1 &
 
 echo "进程已在后台运行。查看日志: tail -f ${LOG_DIR}/terminal_output.log"

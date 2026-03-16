@@ -136,6 +136,10 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
         print(model)
         model = loss_head_cls(model, **config.arch.loss.__pydantic_extra__)  # type: ignore
 
+        # Load checkpoint BEFORE LoRA injection so state_dict keys match
+        if rank == 0:
+            load_checkpoint(model, config)
+
         ### LORA INJECTION START ###
         for param in model.parameters():
             param.requires_grad = False
@@ -146,11 +150,7 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
         if "DISABLE_COMPILE" not in os.environ:
             model = torch.compile(model)  # type: ignore
 
-        # Load checkpoint
-        if rank == 0:
-            load_checkpoint(model, config)
-
-        # Broadcast parameters from rank 0
+        # Broadcast ALL parameters from rank 0 (base weights + LoRA params)
         if world_size > 1:
             with torch.no_grad():
                 for param in list(model.parameters()) + list(model.buffers()):
@@ -260,8 +260,12 @@ def load_checkpoint(model: nn.Module, config: PretrainConfig):
         # Load state dict
         state_dict = torch.load(config.load_checkpoint, map_location="cuda")
 
+        # Strip _orig_mod. prefix from checkpoint keys
+        # (checkpoint was saved from a torch.compiled model, but we load before compile)
+        state_dict = {k.replace("_orig_mod.", ""): v for k, v in state_dict.items()}
+
         # Resize and reset puzzle emb if needed
-        puzzle_emb_name = "_orig_mod.model.inner.puzzle_emb.weights"
+        puzzle_emb_name = "model.inner.puzzle_emb.weights"
         expected_shape: torch.Size = model.model.puzzle_emb.weights.shape  # type: ignore
         if puzzle_emb_name in state_dict:
             puzzle_emb = state_dict[puzzle_emb_name]
@@ -272,7 +276,13 @@ def load_checkpoint(model: nn.Module, config: PretrainConfig):
                     torch.mean(puzzle_emb, dim=0, keepdim=True).expand(expected_shape).contiguous()
                 )
         keys_info = model.load_state_dict(state_dict, assign=True, strict=False)
-        print(f"[{len(keys_info.missing_keys)} missing/unexpected]: Checkpoint base loaded successfully.")
+        n_missing = len(keys_info.missing_keys)
+        n_unexpected = len(keys_info.unexpected_keys)
+        print(f"[{n_missing} missing, {n_unexpected} unexpected]: Checkpoint loaded.")
+        if n_missing > 0:
+            print(f"  Missing keys: {keys_info.missing_keys}")
+        if n_unexpected > 0:
+            print(f"  Unexpected keys: {keys_info.unexpected_keys}")
 
 
 def compute_lr(base_lr: float, config: PretrainConfig, train_state: TrainState):
@@ -386,9 +396,7 @@ def evaluate(
         
         for set_name, batch, global_batch_size in eval_loader:
             processed_batches += 1
-            if rank == 0:
-                print(f"Processing batch {processed_batches}: {set_name}")
-            
+            # (batch processing log suppressed to keep logs clean)
             # To device
             batch = {k: v.cuda() for k, v in batch.items()}
             with torch.device("cuda"):
@@ -572,7 +580,9 @@ def launch(hydra_config: DictConfig):
     if RANK == 0:
         print("="*40)
         print(f"🚀 LoRA Finetuning Initialized 🚀")
+        print(f"Checkpoint   : {config.load_checkpoint}")
         print(f"Dataset      : {config.data_paths}")
+        print(f"Dataset Test : {config.data_paths_test}")
         print(f"Batch Size   : {config.global_batch_size}")
         print(f"Learning Rate: {config.lr}")
         print(f"LoRA R       : {config.lora_r}")
