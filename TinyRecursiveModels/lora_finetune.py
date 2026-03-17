@@ -70,6 +70,7 @@ class PretrainConfig(pydantic.BaseModel):
     # LoRA config
     lora_r: int = 64
     lora_alpha: int = 32
+    unfreeze_embed_tokens: bool = False  # If True, unfreeze token embedding during LoRA finetuning
 
     # Names
     project_name: Optional[str] = None
@@ -146,6 +147,9 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
             param.requires_grad = False
         print(f"Injecting LoRA layers with r={config.lora_r}, alpha={config.lora_alpha}...")
         model = inject_lora(model, r=config.lora_r, alpha=config.lora_alpha)
+        if config.unfreeze_embed_tokens:
+            model.model.inner.embed_tokens.embedding_weight.requires_grad_(True)
+            print("Token embedding unfrozen for finetuning.")
         ### LORA INJECTION END ###
 
         if "DISABLE_COMPILE" not in os.environ:
