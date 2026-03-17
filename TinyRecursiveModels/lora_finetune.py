@@ -5,6 +5,7 @@ import math
 import yaml
 import shutil
 import copy
+from datetime import datetime
 
 import torch
 import torch.distributed as dist
@@ -652,7 +653,7 @@ def launch(hydra_config: DictConfig):
 
         ############ Train Iter
         if RANK == 0:
-            print("TRAIN")
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] TRAIN (Epoch {_iter_id * train_epochs_per_iter})", flush=True)
         train_state.model.train()
         for set_name, batch, global_batch_size in train_loader:
             metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
@@ -662,13 +663,19 @@ def launch(hydra_config: DictConfig):
                 progress_bar.set_postfix(loss=f"{loss_val:.4f}")
                 progress_bar.update(train_state.step - progress_bar.n)  # type: ignore
 
+                if train_state.step % 50 == 0 or train_state.step == 1:
+                    lr_val = metrics.get('train/lr', 0.0)
+                    acc_val = metrics.get('train/accuracy', 0.0)
+                    exact_acc_val = metrics.get('train/exact_accuracy', 0.0)
+                    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Step {train_state.step}/{train_state.total_steps} | lm_loss={loss_val:.4f} | acc={acc_val:.4f} | exact_acc={exact_acc_val:.4f} | lr={lr_val:.6f}", flush=True)
+
             if config.ema:
                 ema_helper.update(train_state.model)
 
         if _iter_id >= config.min_eval_interval:
             ############ Evaluation
             if RANK == 0:
-                print("EVALUATE")
+                print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] EVALUATE (Epoch {(_iter_id + 1) * train_epochs_per_iter})", flush=True)
             if config.ema:
                 print("SWITCH TO EMA")
                 train_state_eval = copy.deepcopy(train_state)
@@ -686,7 +693,9 @@ def launch(hydra_config: DictConfig):
                 cpu_group=CPU_PROCESS_GROUP)
 
             if RANK == 0 and metrics is not None:
-                pass # Extracted metrics logging removed
+                print("=" * 40)
+                print(f"📊 EVAL RESULT (Epoch {(_iter_id + 1) * train_epochs_per_iter}): {metrics}")
+                print("=" * 40, flush=True)
                 
             ############ Checkpointing
             if RANK == 0:

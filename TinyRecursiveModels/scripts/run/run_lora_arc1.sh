@@ -4,7 +4,7 @@
 # TRM LoRA 微调一键启动脚本 (遵循官方精简版)
 # ==========================================
 
-run_name="LoRA_r64_lr1e-3_8gpus0316"
+run_name="LoRA_r64_lr1e-3_8gpus0317am"
 LOG_DIR="checkpoints/${run_name}"
 mkdir -p "${LOG_DIR}"
 
@@ -15,11 +15,12 @@ nohup torchrun --nproc-per-node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:
     arch.H_cycles=3 arch.L_cycles=4 \
     +run_name="${run_name}" \
     +checkpoint_path="${LOG_DIR}" \
-    +load_checkpoint=checkpoints/ARC-AGI-1/step_362650 \
+    +load_checkpoint=checkpoints/ARC-AGI-1/step_310843 \
     lora_r=64 \
     lora_alpha=32 \
     lr=1e-3 \
-    global_batch_size=256 \
+    lr_warmup_steps=800 \
+    global_batch_size=1024 \
     epochs=10000 \
     > "${LOG_DIR}/terminal_output.log" 2>&1 &
 
