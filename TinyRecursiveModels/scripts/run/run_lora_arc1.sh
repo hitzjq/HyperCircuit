@@ -4,7 +4,7 @@
 # TRM LoRA 微调一键启动脚本 (遵循官方精简版)
 # ==========================================
 
-run_name="LoRA_r64_lr1e-3_8gpus0317am"
+run_name="LoRA_r64_lr1e-3_8gpus_$(date +%m%d_%H%M)"
 LOG_DIR="checkpoints/${run_name}"
 mkdir -p "${LOG_DIR}"
 
