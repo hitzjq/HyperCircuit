@@ -37,7 +37,7 @@ torchrun --nproc-per-node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nn
     lr_warmup_steps=800 \
     global_batch_size=768 \
     epochs=10000 \
-    unfreeze_embed_tokens=true \
+    +unfreeze_embed_tokens=true \
     2>&1 | tee "${LOG_FILE}"
 
 # ---------------------------------------------------------
@@ -66,7 +66,7 @@ torchrun --nproc-per-node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nn
     lr_warmup_steps=800 \
     global_batch_size=768 \
     epochs=10000 \
-    unfreeze_embed_tokens=false \
+    +unfreeze_embed_tokens=false \
     2>&1 | tee "${LOG_FILE}"
 
 echo "🎉 All experiments in run_exp_ckpt310.sh completed."

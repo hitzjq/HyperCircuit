@@ -15,7 +15,7 @@ mkdir -p "${LOG_DIR}"
 mkdir -p "logs"
 
 # ---- 可选开关 ----
-UNFREEZE_EMBED_TOKENS=true   # 是否解冻 token embedding 参与微调
+UNFREEZE_EMBED_TOKENS=false   # 是否解冻 token embedding 参与微调
 
 torchrun --nproc-per-node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nnodes=1 lora_finetune.py \
     arch=trm \
@@ -29,9 +29,10 @@ torchrun --nproc-per-node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nn
     lora_alpha=32 \
     lr=1e-3 \
     lr_warmup_steps=800 \
-    global_batch_size=768 \
+    global_batch_size=1024 \
     epochs=10000 \
-    unfreeze_embed_tokens=${UNFREEZE_EMBED_TOKENS} \
+    eval_interval=10000 \
+    +unfreeze_embed_tokens=${UNFREEZE_EMBED_TOKENS} \
     2>&1 | tee "logs/${run_name}.log"
 
 echo "训练已完成。日志保存在: logs/${run_name}.log"
