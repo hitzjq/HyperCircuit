@@ -41,8 +41,7 @@ for r in "${RANKS[@]}"; do
         +load_checkpoint=checkpoints/ARC-AGI-1/step_310843 \
         lora_r=${r} \
         lora_alpha=${alpha} \
-        lr=1e-4 \
-        +lora_dropout=0.05 \
+        lr=1e-3 \
         lr_warmup_steps=800 \
         global_batch_size=1024 \
         epochs=10000 \

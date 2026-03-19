@@ -72,6 +72,7 @@ class PretrainConfig(pydantic.BaseModel):
     lora_alpha: int = 32
     lora_dropout: float = 0.0
     unfreeze_embed_tokens: bool = False  # If True, unfreeze token embedding during LoRA finetuning
+    skip_baseline_eval: bool = False  # If True, skip the initial zero-step evaluation
 
     # Names
     project_name: Optional[str] = None
@@ -634,23 +635,27 @@ def launch(hydra_config: DictConfig):
     # BASELINE EVAL: Evaluate the loaded checkpoint BEFORE any LoRA training
     # (LoRA B matrix is zero-initialized, so this is equivalent to pure base model)
     # ============================================================
-    if RANK == 0:
-        print("=" * 40)
-        print("📊 BASELINE EVAL: Evaluating loaded checkpoint before LoRA training starts...")
-        print("=" * 40)
-    train_state.model.eval()
-    baseline_metrics = evaluate(config,
-        train_state,
-        eval_loader,
-        eval_metadata,
-        evaluators,
-        rank=RANK,
-        world_size=WORLD_SIZE,
-        cpu_group=CPU_PROCESS_GROUP)
-    if RANK == 0:
-        print("=" * 40)
-        print(f"📊 BASELINE EVAL RESULT (pre-LoRA): {baseline_metrics}")
-        print("=" * 40)
+    if not config.skip_baseline_eval:
+        if RANK == 0:
+            print("=" * 40)
+            print("📊 BASELINE EVAL: Evaluating loaded checkpoint before LoRA training starts...")
+            print("=" * 40)
+        train_state.model.eval()
+        baseline_metrics = evaluate(config,
+            train_state,
+            eval_loader,
+            eval_metadata,
+            evaluators,
+            rank=RANK,
+            world_size=WORLD_SIZE,
+            cpu_group=CPU_PROCESS_GROUP)
+        if RANK == 0:
+            print("=" * 40)
+            print(f"📊 BASELINE EVAL RESULT (pre-LoRA): {baseline_metrics}")
+            print("=" * 40)
+    else:
+        if RANK == 0:
+            print("⏭️ BASELINE EVAL: Skipped by config.skip_baseline_eval=True")
 
     # Training Loop
     for _iter_id in range(total_iters):
