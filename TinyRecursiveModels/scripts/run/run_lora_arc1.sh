@@ -15,7 +15,7 @@ mkdir -p "${LOG_DIR}"
 mkdir -p "logs"
 
 # ---- 可选开关 ----
-UNFREEZE_EMBED_TOKENS=false   # 是否解冻 token embedding 参与微调
+UNFREEZE_EMBED_TOKENS=true   # 是否解冻 token embedding 参与微调
 
 torchrun --nproc-per-node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nnodes=1 lora_finetune.py \
     arch=trm \
@@ -25,9 +25,9 @@ torchrun --nproc-per-node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nn
     +run_name="${run_name}" \
     +checkpoint_path="${LOG_DIR}" \
     +load_checkpoint=checkpoints/ARC-AGI-1/step_310843 \
-    lora_r=64 \
+    lora_r=16 \
     lora_alpha=32 \
-    lr=1e-3 \
+    lr=5e-3 \
     lr_warmup_steps=800 \
     global_batch_size=1024 \
     epochs=10000 \
