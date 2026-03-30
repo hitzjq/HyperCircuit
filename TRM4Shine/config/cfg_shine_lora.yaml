@@ -1,0 +1,53 @@
+# SHINE LoRA ARC fine-tuning config
+
+defaults:
+  - arch: trm
+  - _self_
+
+hydra:
+  output_subdir: null
+
+# ==== Runtime Paths & Names ====
+run_name: null
+checkpoint_path: null
+load_checkpoint: checkpoints/ARC-AGI-1/step_310843
+
+# ==== Data path ====
+data_paths: ['data/arc1concept-aug-1000']
+data_paths_test: []
+
+evaluators:
+  - name: arc@ARC
+
+# ==== Hyperparams - Training ====
+global_batch_size: 1024 
+
+epochs: 10000            
+eval_interval: 10000
+checkpoint_every_eval: True
+min_eval_interval: 0
+
+lr: 1e-3                 
+lr_min_ratio: 0.1
+lr_warmup_steps: 800
+
+# ==== LoRA Specific settings ====
+lora_r: 64
+lora_alpha: 32
+unfreeze_embed_tokens: False
+
+# ==== SHINE Hypernetwork Settings ====
+hypernet_num_layers: 3
+hypernet_num_heads: 4
+hypernet_scale: 1.0
+
+# ==== Standard hyperparameter settings for LM ====
+beta1: 0.9
+beta2: 0.95
+weight_decay: 0.1
+puzzle_emb_weight_decay: 0.1
+puzzle_emb_lr: 1e-2
+seed: 42
+ema: False               
+ema_rate: 0.999
+freeze_weights: False    
