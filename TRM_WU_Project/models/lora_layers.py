@@ -39,16 +39,29 @@ class LoRACastedLinear(nn.Module):
             lora_A = self.dynamic_lora_A.to(orig_dtype) # [B, rank, in_features]
             lora_B = self.dynamic_lora_B.to(orig_dtype) # [B, out_features, rank]
             
-            # Batch matrix multiplication expects 3D tensors.
-            # x_dropped: [B, S, in_features]
-            # lora_A^T:  [B, in_features, rank]
-            # h:         [B, S, rank]
-            h = torch.bmm(x_dropped, lora_A.transpose(1, 2))
+            initial_shape = x_dropped.shape
+            B = initial_shape[0]
+            in_features = initial_shape[-1]
+            out_features = lora_B.shape[1]
             
-            # h:         [B, S, rank]
+            # Flatten to 3D for bmm: [B, ..., in_features] -> [B, N, in_features]
+            x_flat = x_dropped.view(B, -1, in_features)
+            
+            # Batch matrix multiplication
+            # x_flat: [B, N, in_features]
+            # lora_A^T:  [B, in_features, rank]
+            # h:         [B, N, rank]
+            h = torch.bmm(x_flat, lora_A.transpose(1, 2))
+            
+            # h:         [B, N, rank]
             # lora_B^T:  [B, rank, out_features]
-            # lora_out:  [B, S, out_features]
+            # lora_out:  [B, N, out_features]
             lora_out = torch.bmm(h, lora_B.transpose(1, 2))
+            
+            # Reshape back: [B, N, out_features] -> [B, ..., out_features]
+            final_shape = list(initial_shape)
+            final_shape[-1] = out_features
+            lora_out = lora_out.view(*final_shape)
             
             result = result + lora_out * self.dynamic_scale
             
