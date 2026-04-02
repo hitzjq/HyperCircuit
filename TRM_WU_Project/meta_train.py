@@ -362,7 +362,7 @@ def train_batch(config: PretrainConfig, train_state: TrainState, batch: Any, glo
     lora_refs = train_state.model["lora_refs"]
     
     # Pass 1: Get z_H context (No Grad)
-    with torch.no_grad():
+    with torch.no_grad(), torch.device("cuda"):
         carry_p1 = trm_model.initial_carry(batch)
         z_H = trm_model.model.inner(carry_p1.inner_carry, batch, return_hidden=True)
     
@@ -387,9 +387,15 @@ def train_batch(config: PretrainConfig, train_state: TrainState, batch: Any, glo
 
     # Allreduce
     if world_size > 1:
-        for param in train_state.model.parameters():
-            if param.grad is not None:
-                dist.all_reduce(param.grad)
+        for model_part in [trm_model, pg_model]:
+            for param in model_part.parameters():
+                if param.grad is not None:
+                    dist.all_reduce(param.grad)
+    
+    # Gradient Clipping to prevent NaN in large batch / HyperNetwork
+    import itertools
+    all_params = itertools.chain(trm_model.parameters(), pg_model.parameters())
+    torch.nn.utils.clip_grad_norm_(all_params, max_norm=1.0, error_if_nonfinite=False)
             
     # Apply optimizer
     lr_this_step = None    
