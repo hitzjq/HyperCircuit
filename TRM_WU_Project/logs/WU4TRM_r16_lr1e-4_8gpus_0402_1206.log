@@ -1,0 +1,520 @@
+Traceback (most recent call last):
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+            ^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 244, in _load_configuration_impl
+    parsed_overrides, caching_repo = self._parse_overrides_and_create_caching_repo(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 230, in _parse_overrides_and_create_caching_repo
+    self._process_config_searchpath(config_name, parsed_overrides, caching_repo)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 159, in _process_config_searchpath
+    loaded = repo.load_config(config_path=config_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 348, in load_config
+    ret = self.delegate.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 91, in load_config
+    ret = source.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/core_plugins/file_config_source.py", line 31, in load_config
+    cfg = OmegaConf.load(f)
+          ^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/omegaconf.py", line 192, in load
+    obj = yaml.load(file_, Loader=get_yaml_loader())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+                 ^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+    value = self.construct_mapping(node)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/_utils.py", line 144, in construct_mapping
+    raise yaml.constructor.ConstructorError(
+yaml.constructor.ConstructorError: while constructing a mapping
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 3, column 1
+found duplicate key skip_baseline_eval
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 41, column 1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+            ^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 244, in _load_configuration_impl
+    parsed_overrides, caching_repo = self._parse_overrides_and_create_caching_repo(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 230, in _parse_overrides_and_create_caching_repo
+    self._process_config_searchpath(config_name, parsed_overrides, caching_repo)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 159, in _process_config_searchpath
+    loaded = repo.load_config(config_path=config_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 348, in load_config
+    ret = self.delegate.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 91, in load_config
+    ret = source.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/core_plugins/file_config_source.py", line 31, in load_config
+    cfg = OmegaConf.load(f)
+          ^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/omegaconf.py", line 192, in load
+    obj = yaml.load(file_, Loader=get_yaml_loader())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+            ^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+                 ^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+    value = self.construct_mapping(node)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/_utils.py", line 144, in construct_mapping
+    raise yaml.constructor.ConstructorError(
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 244, in _load_configuration_impl
+    parsed_overrides, caching_repo = self._parse_overrides_and_create_caching_repo(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 230, in _parse_overrides_and_create_caching_repo
+    self._process_config_searchpath(config_name, parsed_overrides, caching_repo)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 159, in _process_config_searchpath
+    loaded = repo.load_config(config_path=config_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+yaml.constructor.ConstructorError: while constructing a mapping
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 3, column 1
+found duplicate key skip_baseline_eval
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 41, column 1
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 348, in load_config
+    ret = self.delegate.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 91, in load_config
+    ret = source.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/core_plugins/file_config_source.py", line 31, in load_config
+    cfg = OmegaConf.load(f)
+          ^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/omegaconf.py", line 192, in load
+    obj = yaml.load(file_, Loader=get_yaml_loader())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+                 ^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+    value = self.construct_mapping(node)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/_utils.py", line 144, in construct_mapping
+    raise yaml.constructor.ConstructorError(
+yaml.constructor.ConstructorError: while constructing a mapping
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 3, column 1
+found duplicate key skip_baseline_eval
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 41, column 1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+            ^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+            ^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 244, in _load_configuration_impl
+    parsed_overrides, caching_repo = self._parse_overrides_and_create_caching_repo(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 244, in _load_configuration_impl
+    parsed_overrides, caching_repo = self._parse_overrides_and_create_caching_repo(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 230, in _parse_overrides_and_create_caching_repo
+    self._process_config_searchpath(config_name, parsed_overrides, caching_repo)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 230, in _parse_overrides_and_create_caching_repo
+    self._process_config_searchpath(config_name, parsed_overrides, caching_repo)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 159, in _process_config_searchpath
+    loaded = repo.load_config(config_path=config_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 159, in _process_config_searchpath
+    loaded = repo.load_config(config_path=config_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 348, in load_config
+    ret = self.delegate.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 348, in load_config
+    ret = self.delegate.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 91, in load_config
+    ret = source.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 91, in load_config
+    ret = source.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/core_plugins/file_config_source.py", line 31, in load_config
+    cfg = OmegaConf.load(f)
+          ^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/core_plugins/file_config_source.py", line 31, in load_config
+    cfg = OmegaConf.load(f)
+          ^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/omegaconf.py", line 192, in load
+    obj = yaml.load(file_, Loader=get_yaml_loader())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/omegaconf.py", line 192, in load
+    obj = yaml.load(file_, Loader=get_yaml_loader())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+                 ^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+                 ^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+    value = self.construct_mapping(node)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+    value = self.construct_mapping(node)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/_utils.py", line 144, in construct_mapping
+    raise yaml.constructor.ConstructorError(
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/_utils.py", line 144, in construct_mapping
+    raise yaml.constructor.ConstructorError(
+yaml.constructor.ConstructorError: while constructing a mapping
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 3, column 1
+found duplicate key skip_baseline_eval
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 41, column 1
+yaml.constructor.ConstructorError: while constructing a mapping
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 3, column 1
+found duplicate key skip_baseline_eval
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 41, column 1
+Traceback (most recent call last):
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+            ^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 244, in _load_configuration_impl
+    parsed_overrides, caching_repo = self._parse_overrides_and_create_caching_repo(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 230, in _parse_overrides_and_create_caching_repo
+    self._process_config_searchpath(config_name, parsed_overrides, caching_repo)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 159, in _process_config_searchpath
+    loaded = repo.load_config(config_path=config_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 348, in load_config
+    ret = self.delegate.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 91, in load_config
+    ret = source.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/core_plugins/file_config_source.py", line 31, in load_config
+    cfg = OmegaConf.load(f)
+          ^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/omegaconf.py", line 192, in load
+    obj = yaml.load(file_, Loader=get_yaml_loader())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+                 ^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+    value = self.construct_mapping(node)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/_utils.py", line 144, in construct_mapping
+    raise yaml.constructor.ConstructorError(
+yaml.constructor.ConstructorError: while constructing a mapping
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 3, column 1
+found duplicate key skip_baseline_eval
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 41, column 1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+            ^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+            ^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 244, in _load_configuration_impl
+    parsed_overrides, caching_repo = self._parse_overrides_and_create_caching_repo(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 244, in _load_configuration_impl
+    parsed_overrides, caching_repo = self._parse_overrides_and_create_caching_repo(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 230, in _parse_overrides_and_create_caching_repo
+    self._process_config_searchpath(config_name, parsed_overrides, caching_repo)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 230, in _parse_overrides_and_create_caching_repo
+    self._process_config_searchpath(config_name, parsed_overrides, caching_repo)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 159, in _process_config_searchpath
+    loaded = repo.load_config(config_path=config_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_loader_impl.py", line 159, in _process_config_searchpath
+    loaded = repo.load_config(config_path=config_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 348, in load_config
+    ret = self.delegate.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 348, in load_config
+    ret = self.delegate.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 91, in load_config
+    ret = source.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/config_repository.py", line 91, in load_config
+    ret = source.load_config(config_path=config_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/core_plugins/file_config_source.py", line 31, in load_config
+    cfg = OmegaConf.load(f)
+          ^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/hydra/_internal/core_plugins/file_config_source.py", line 31, in load_config
+    cfg = OmegaConf.load(f)
+          ^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/omegaconf.py", line 192, in load
+    obj = yaml.load(file_, Loader=get_yaml_loader())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/omegaconf.py", line 192, in load
+    obj = yaml.load(file_, Loader=get_yaml_loader())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+                 ^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+                 ^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+    value = self.construct_mapping(node)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+    value = self.construct_mapping(node)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/_utils.py", line 144, in construct_mapping
+    raise yaml.constructor.ConstructorError(
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/omegaconf/_utils.py", line 144, in construct_mapping
+    raise yaml.constructor.ConstructorError(
+yaml.constructor.ConstructorError: while constructing a mapping
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 3, column 1
+found duplicate key skip_baseline_eval
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 41, column 1
+yaml.constructor.ConstructorError: while constructing a mapping
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 3, column 1
+found duplicate key skip_baseline_eval
+  in "/mnt/nvme1/HyperCircuit/TRM_WU_Project/config/cfg_wu4trm.yaml", line 41, column 1
+W0402 12:06:14.772000 2768977 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2769035 closing signal SIGTERM
+W0402 12:06:14.773000 2768977 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2769036 closing signal SIGTERM
+W0402 12:06:14.773000 2768977 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2769038 closing signal SIGTERM
+W0402 12:06:14.773000 2768977 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2769039 closing signal SIGTERM
+W0402 12:06:14.773000 2768977 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2769040 closing signal SIGTERM
+W0402 12:06:14.773000 2768977 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2769041 closing signal SIGTERM
+W0402 12:06:14.773000 2768977 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2769042 closing signal SIGTERM
+E0402 12:06:14.838000 2768977 site-packages/torch/distributed/elastic/multiprocessing/api.py:988] failed (exitcode: 1) local_rank: 2 (pid: 2769037) of binary: /mnt/nvme1/anaconda3/envs/TRM/bin/python3.12
+Traceback (most recent call last):
+  File "/mnt/nvme1/anaconda3/envs/TRM/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 367, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/run.py", line 1016, in main
+    run(args)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/run.py", line 1007, in run
+    elastic_launch(
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 184, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 332, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+meta_train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-04-02_12:06:14
+  host      : bms-87039003
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 2769035)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 2769035
+[2]:
+  time      : 2026-04-02_12:06:14
+  host      : bms-87039003
+  rank      : 1 (local_rank: 1)
+  exitcode  : -15 (pid: 2769036)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 2769036
+[3]:
+  time      : 2026-04-02_12:06:14
+  host      : bms-87039003
+  rank      : 3 (local_rank: 3)
+  exitcode  : -15 (pid: 2769038)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 2769038
+[4]:
+  time      : 2026-04-02_12:06:14
+  host      : bms-87039003
+  rank      : 4 (local_rank: 4)
+  exitcode  : -15 (pid: 2769039)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 2769039
+[5]:
+  time      : 2026-04-02_12:06:14
+  host      : bms-87039003
+  rank      : 5 (local_rank: 5)
+  exitcode  : -15 (pid: 2769040)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 2769040
+[6]:
+  time      : 2026-04-02_12:06:14
+  host      : bms-87039003
+  rank      : 6 (local_rank: 6)
+  exitcode  : -15 (pid: 2769041)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 2769041
+[7]:
+  time      : 2026-04-02_12:06:14
+  host      : bms-87039003
+  rank      : 7 (local_rank: 7)
+  exitcode  : -15 (pid: 2769042)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 2769042
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-04-02_12:06:14
+  host      : bms-87039003
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 2769037) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -66,13 +66,17 @@ class PretrainConfig(pydantic.BaseModel):
     # Puzzle embedding
     puzzle_emb_lr: float
     puzzle_emb_weight_decay: float
-    
     # LoRA config
     lora_r: int = 64
     lora_alpha: int = 32
     lora_dropout: float = 0.0
     unfreeze_embed_tokens: bool = False  # If True, unfreeze token embedding during LoRA finetuning
     skip_baseline_eval: bool = False  # If True, skip the initial zero-step evaluation
+
+    # PG Hypernetwork config
+    pg_d_model: int = 256
+    pg_num_blocks: int = 2
+    pg_dim_acc: int = 4
 
     # Names
     project_name: Optional[str] = None
@@ -144,6 +148,10 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
         if rank == 0:
             load_checkpoint(model, config)
 
+        # Force PG model to align with the configured forward precision of TRM
+        forward_dtype_str = model_cfg.get("forward_dtype", "float32")
+        base_dtype = getattr(torch, forward_dtype_str)
+
         ### LORA INJECTION START ###
         print(f"Injecting LoRA layers with r={config.lora_r}, dropout={config.lora_dropout}...")
         model, lora_dict_refs = inject_lora(model, r=config.lora_r, dropout=config.lora_dropout)
@@ -156,16 +164,16 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
             module_specs.append((name, out_features, in_features))
             
         from models.hypernetwork import ParameterGenerator
-        # Hyperparameters for PG are hardcoded for now (matching config/cfg_wu4trm.yaml)
         pg_model = ParameterGenerator(
             module_specs=module_specs,
-            d_model=256,
-            num_blocks=2,
+            d_model=config.pg_d_model,
+            num_blocks=config.pg_num_blocks,
             cond_dim=model_cfg["hidden_size"],
             rank=config.lora_r,
             token_dim=model_cfg["hidden_size"],
-            dim_acc=4,
-        ).to("cuda")
+            dim_acc=config.pg_dim_acc,
+        ).to("cuda").to(base_dtype)
+        print(f"Initialized HyperNetwork (PG) with dtype: {base_dtype}")
 
         # Freeze TRM Base model (we don't train it, PG generates its weights)
         for param in model.parameters():
@@ -196,8 +204,8 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
     if config.arch.puzzle_emb_ndim == 0:
         optimizers = [
             AdamATan2(
-                model.parameters(),
-                lr=0,  # Needs to be set by scheduler
+                list(bundle["trm"].parameters()) + list(bundle["pg"].parameters()),
+                lr=0,
                 weight_decay=config.weight_decay,
                 betas=(config.beta1, config.beta2)
             )
@@ -205,18 +213,7 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
         optimizer_lrs = [
             config.lr
         ]
-    elif config.freeze_weights:
-        optimizers = [
-            CastedSparseEmbeddingSignSGD_Distributed(
-                model.model.puzzle_emb.buffers(),  # type: ignore
-                lr=0,  # Needs to be set by scheduler
-                weight_decay=config.puzzle_emb_weight_decay,
-                world_size=world_size
-            )
-        ]
-        optimizer_lrs = [
-            config.puzzle_emb_lr
-        ]
+    else:
         optimizers = [
             CastedSparseEmbeddingSignSGD_Distributed(
                 bundle["trm"].model.puzzle_emb.buffers(),  # type: ignore
@@ -461,18 +458,35 @@ def evaluate(
             # To device
             batch = {k: v.cuda() for k, v in batch.items()}
             with torch.device("cuda"):
-                carry = train_state.model.initial_carry(batch)  # type: ignore
+                carry = train_state.model["trm"].initial_carry(batch)  # type: ignore
+
+            # >>> EVAL TWO-PASS FORWARD START <<<
+            with torch.no_grad():
+                z_H = train_state.model["trm"].model.inner(carry.inner_carry, batch, return_hidden=True)
+                lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                
+                for name, layer in train_state.model["lora_refs"].items():
+                    layer.set_dynamic_lora(
+                        lora_dict[f"{name}.lora_A"], 
+                        lora_dict[f"{name}.lora_B"], 
+                        scale=lora_dict["scale"]
+                    )
 
             # Forward
             inference_steps = 0
             while True:
-                carry, loss, metrics, preds, all_finish = train_state.model(
+                carry, loss, metrics, preds, all_finish = train_state.model["trm"](
                     carry=carry, batch=batch, return_keys=return_keys
                 )
                 inference_steps += 1
 
                 if all_finish:
                     break
+                    
+            # Clear dynamic LoRA to prevent memory leak
+            for layer in train_state.model["lora_refs"].values():
+                layer.set_dynamic_lora(None, None, None)
+            # >>> EVAL TWO-PASS FORWARD END <<<
 
             for collection in (batch, preds):
                 for k, v in collection.items():
@@ -683,7 +697,7 @@ def launch(hydra_config: DictConfig):
     if config.ema:
         print('Setup EMA')
         ema_helper = EMAHelper(mu=config.ema_rate)
-        ema_helper.register(train_state.model)
+        ema_helper.register(train_state.model["trm"])
 
     # ============================================================
     # BASELINE EVAL: Evaluate the loaded checkpoint BEFORE any LoRA training
@@ -694,7 +708,8 @@ def launch(hydra_config: DictConfig):
             print("=" * 40)
             print("📊 BASELINE EVAL: Evaluating loaded checkpoint before LoRA training starts...")
             print("=" * 40)
-        train_state.model.eval()
+        train_state.model["trm"].eval()
+        train_state.model["pg"].eval()
         baseline_metrics = evaluate(config,
             train_state,
             eval_loader,
@@ -718,7 +733,8 @@ def launch(hydra_config: DictConfig):
         ############ Train Iter
         if RANK == 0:
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] TRAIN (Epoch {_iter_id * train_epochs_per_iter})", flush=True)
-        train_state.model.train()
+        train_state.model["trm"].train()
+        train_state.model["pg"].train()
         for set_name, batch, global_batch_size in train_loader:
             metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
 
@@ -734,7 +750,7 @@ def launch(hydra_config: DictConfig):
                     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Step {train_state.step}/{train_state.total_steps} | lm_loss={loss_val:.4f} | acc={acc_val:.4f} | exact_acc={exact_acc_val:.4f} | lr={lr_val:.6f}", flush=True)
 
             if config.ema:
-                ema_helper.update(train_state.model)
+                ema_helper.update(train_state.model["trm"])
 
         if _iter_id >= config.min_eval_interval:
             ############ Evaluation
@@ -743,10 +759,11 @@ def launch(hydra_config: DictConfig):
             if config.ema:
                 print("SWITCH TO EMA")
                 train_state_eval = copy.deepcopy(train_state)
-                train_state_eval.model = ema_helper.ema_copy(train_state_eval.model)
+                train_state_eval.model["trm"] = ema_helper.ema_copy(train_state_eval.model["trm"])
             else:
                 train_state_eval = train_state
-            train_state_eval.model.eval()
+            train_state_eval.model["trm"].eval()
+            train_state_eval.model["pg"].eval()
             metrics = evaluate(config, 
                 train_state_eval, 
                 eval_loader, 

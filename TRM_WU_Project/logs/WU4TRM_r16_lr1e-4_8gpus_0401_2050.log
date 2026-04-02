@@ -1,0 +1,696 @@
+========================================
+🚀 LoRA Finetuning Initialized 🚀
+Checkpoint   : pretrained_base_ckpt/ARC-AGI-1/step_155718
+Dataset      : ['data/arc1concept-aug-1000']
+Dataset Test : []
+Batch Size   : 256
+Learning Rate: 0.0001
+LoRA R       : 16
+LoRA Alpha   : 32
+========================================
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Loading checkpoint pretrained_base_ckpt/ARC-AGI-1/step_155718
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+[0 missing, 0 unexpected]: Checkpoint loaded.
+Base model TRM synchronized to dtype: torch.float32
+Injecting LoRA layers with r=16, dropout=0.0...
+Base model TRM synchronized to dtype: torch.float32
+Injecting LoRA layers with r=16, dropout=0.0...
+Base model TRM synchronized to dtype: torch.float32
+Injecting LoRA layers with r=16, dropout=0.0...
+Base model TRM synchronized to dtype: torch.float32Base model TRM synchronized to dtype: torch.float32
+
+Injecting LoRA layers with r=16, dropout=0.0...
+Injecting LoRA layers with r=16, dropout=0.0...
+Base model TRM synchronized to dtype: torch.float32
+Injecting LoRA layers with r=16, dropout=0.0...
+Base model TRM synchronized to dtype: torch.float32
+Injecting LoRA layers with r=16, dropout=0.0...
+Base model TRM synchronized to dtype: torch.float32
+Injecting LoRA layers with r=16, dropout=0.0...
+Initialized HyperNetwork (PG) with dtype: torch.float32
+Token embedding unfrozen for finetuning.
+Initialized HyperNetwork (PG) with dtype: torch.float32
+Token embedding unfrozen for finetuning.
+Initialized HyperNetwork (PG) with dtype: torch.float32
+Initialized HyperNetwork (PG) with dtype: torch.float32
+Token embedding unfrozen for finetuning.
+Token embedding unfrozen for finetuning.
+Initialized HyperNetwork (PG) with dtype: torch.float32
+Initialized HyperNetwork (PG) with dtype: torch.float32
+Token embedding unfrozen for finetuning.
+Token embedding unfrozen for finetuning.
+Initialized HyperNetwork (PG) with dtype: torch.float32
+Token embedding unfrozen for finetuning.
+Initialized HyperNetwork (PG) with dtype: torch.float32
+Token embedding unfrozen for finetuning.
+  0%|          | 0/310935 [00:00<?, ?it/s]========================================
+📊 BASELINE EVAL: Evaluating loaded checkpoint before LoRA training starts...
+========================================
+Error executing job with overrides: ['global_batch_size=256', 'lr=1e-4', '+checkpoint_path=checkpoints/WU4TRM_r16_lr1e-4_8gpus_0401_2050', '+load_checkpoint=pretrained_base_ckpt/ARC-AGI-1/step_155718', '+project_name=trm-hypernetwork-integration', '+run_name=WU4TRM_r16_lr1e-4_8gpus_0401_2050']
+Error executing job with overrides: ['global_batch_size=256', 'lr=1e-4', '+checkpoint_path=checkpoints/WU4TRM_r16_lr1e-4_8gpus_0401_2050', '+load_checkpoint=pretrained_base_ckpt/ARC-AGI-1/step_155718', '+project_name=trm-hypernetwork-integration', '+run_name=WU4TRM_r16_lr1e-4_8gpus_0401_2050']
+Error executing job with overrides: ['global_batch_size=256', 'lr=1e-4', '+checkpoint_path=checkpoints/WU4TRM_r16_lr1e-4_8gpus_0401_2050', '+load_checkpoint=pretrained_base_ckpt/ARC-AGI-1/step_155718', '+project_name=trm-hypernetwork-integration', '+run_name=WU4TRM_r16_lr1e-4_8gpus_0401_2050']
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 720, in launch
+    baseline_metrics = evaluate(config,
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 473, in evaluate
+    lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/__init__.py", line 65, in forward
+    x = self.transformer(x, cond) # [B, 152, 256]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 100, in forward
+    x = block(x, cond)
+        ^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 76, in forward
+    h = h + self.cross_attn(self.norm2(h), cond)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 46, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtype: c10::BFloat16 and value.dtype: c10::BFloat16 instead.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 720, in launch
+    baseline_metrics = evaluate(config,
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 473, in evaluate
+    lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/__init__.py", line 65, in forward
+    x = self.transformer(x, cond) # [B, 152, 256]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 100, in forward
+    x = block(x, cond)
+        ^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 76, in forward
+    h = h + self.cross_attn(self.norm2(h), cond)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 46, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtype: c10::BFloat16 and value.dtype: c10::BFloat16 instead.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Traceback (most recent call last):
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 720, in launch
+    baseline_metrics = evaluate(config,
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 473, in evaluate
+    lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/__init__.py", line 65, in forward
+    x = self.transformer(x, cond) # [B, 152, 256]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 100, in forward
+    x = block(x, cond)
+        ^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 76, in forward
+    h = h + self.cross_attn(self.norm2(h), cond)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 46, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtype: c10::BFloat16 and value.dtype: c10::BFloat16 instead.
+Error executing job with overrides: ['global_batch_size=256', 'lr=1e-4', '+checkpoint_path=checkpoints/WU4TRM_r16_lr1e-4_8gpus_0401_2050', '+load_checkpoint=pretrained_base_ckpt/ARC-AGI-1/step_155718', '+project_name=trm-hypernetwork-integration', '+run_name=WU4TRM_r16_lr1e-4_8gpus_0401_2050']
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Error executing job with overrides: ['global_batch_size=256', 'lr=1e-4', '+checkpoint_path=checkpoints/WU4TRM_r16_lr1e-4_8gpus_0401_2050', '+load_checkpoint=pretrained_base_ckpt/ARC-AGI-1/step_155718', '+project_name=trm-hypernetwork-integration', '+run_name=WU4TRM_r16_lr1e-4_8gpus_0401_2050']
+Error executing job with overrides: ['global_batch_size=256', 'lr=1e-4', '+checkpoint_path=checkpoints/WU4TRM_r16_lr1e-4_8gpus_0401_2050', '+load_checkpoint=pretrained_base_ckpt/ARC-AGI-1/step_155718', '+project_name=trm-hypernetwork-integration', '+run_name=WU4TRM_r16_lr1e-4_8gpus_0401_2050']
+Error executing job with overrides: ['global_batch_size=256', 'lr=1e-4', '+checkpoint_path=checkpoints/WU4TRM_r16_lr1e-4_8gpus_0401_2050', '+load_checkpoint=pretrained_base_ckpt/ARC-AGI-1/step_155718', '+project_name=trm-hypernetwork-integration', '+run_name=WU4TRM_r16_lr1e-4_8gpus_0401_2050']
+Error executing job with overrides: ['global_batch_size=256', 'lr=1e-4', '+checkpoint_path=checkpoints/WU4TRM_r16_lr1e-4_8gpus_0401_2050', '+load_checkpoint=pretrained_base_ckpt/ARC-AGI-1/step_155718', '+project_name=trm-hypernetwork-integration', '+run_name=WU4TRM_r16_lr1e-4_8gpus_0401_2050']
+Traceback (most recent call last):
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 720, in launch
+    baseline_metrics = evaluate(config,
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 473, in evaluate
+    lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/__init__.py", line 65, in forward
+    x = self.transformer(x, cond) # [B, 152, 256]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 100, in forward
+    x = block(x, cond)
+        ^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 76, in forward
+    h = h + self.cross_attn(self.norm2(h), cond)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 46, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtype: c10::BFloat16 and value.dtype: c10::BFloat16 instead.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 720, in launch
+    baseline_metrics = evaluate(config,
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 473, in evaluate
+    lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/__init__.py", line 65, in forward
+    x = self.transformer(x, cond) # [B, 152, 256]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 100, in forward
+    x = block(x, cond)
+        ^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 76, in forward
+    h = h + self.cross_attn(self.norm2(h), cond)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 46, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtype: c10::BFloat16 and value.dtype: c10::BFloat16 instead.
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 720, in launch
+    baseline_metrics = evaluate(config,
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 473, in evaluate
+    lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/__init__.py", line 65, in forward
+    x = self.transformer(x, cond) # [B, 152, 256]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 100, in forward
+    x = block(x, cond)
+        ^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 76, in forward
+    h = h + self.cross_attn(self.norm2(h), cond)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 46, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtype: c10::BFloat16 and value.dtype: c10::BFloat16 instead.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 720, in launch
+    baseline_metrics = evaluate(config,
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 473, in evaluate
+    lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/__init__.py", line 65, in forward
+    x = self.transformer(x, cond) # [B, 152, 256]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 100, in forward
+    x = block(x, cond)
+        ^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 76, in forward
+    h = h + self.cross_attn(self.norm2(h), cond)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 46, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtype: c10::BFloat16 and value.dtype: c10::BFloat16 instead.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 720, in launch
+    baseline_metrics = evaluate(config,
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/meta_train.py", line 473, in evaluate
+    lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/__init__.py", line 65, in forward
+    x = self.transformer(x, cond) # [B, 152, 256]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 100, in forward
+    x = block(x, cond)
+        ^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 76, in forward
+    h = h + self.cross_attn(self.norm2(h), cond)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/HyperCircuit/TRM_WU_Project/models/hypernetwork/pg_transformer.py", line 46, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtype: c10::BFloat16 and value.dtype: c10::BFloat16 instead.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+  0%|          | 0/310935 [00:05<?, ?it/s]
+[rank0]:[W401 20:50:28.479221188 ProcessGroupNCCL.cpp:1648] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W0401 20:50:29.691000 2398399 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2398459 closing signal SIGTERM
+W0401 20:50:29.692000 2398399 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2398460 closing signal SIGTERM
+W0401 20:50:29.692000 2398399 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2398461 closing signal SIGTERM
+W0401 20:50:29.692000 2398399 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2398462 closing signal SIGTERM
+W0401 20:50:29.692000 2398399 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2398463 closing signal SIGTERM
+W0401 20:50:29.692000 2398399 site-packages/torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2398465 closing signal SIGTERM
+E0401 20:50:30.164000 2398399 site-packages/torch/distributed/elastic/multiprocessing/api.py:988] failed (exitcode: 1) local_rank: 5 (pid: 2398464) of binary: /mnt/nvme1/anaconda3/envs/TRM/bin/python3.12
+Traceback (most recent call last):
+  File "/mnt/nvme1/anaconda3/envs/TRM/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 367, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/run.py", line 1016, in main
+    run(args)
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/run.py", line 1007, in run
+    elastic_launch(
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 184, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nvme1/anaconda3/envs/TRM/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 332, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+meta_train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-04-01_20:50:29
+  host      : bms-87039003
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 2398466) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2026-04-01_20:50:30
+  host      : bms-87039003
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2398459) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2026-04-01_20:50:30
+  host      : bms-87039003
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 2398460) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2026-04-01_20:50:30
+  host      : bms-87039003
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 2398461) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2026-04-01_20:50:30
+  host      : bms-87039003
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 2398462) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2026-04-01_20:50:30
+  host      : bms-87039003
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 2398463) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2026-04-01_20:50:30
+  host      : bms-87039003
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 2398465) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-04-01_20:50:29
+  host      : bms-87039003
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 2398464) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
