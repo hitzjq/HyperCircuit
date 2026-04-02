@@ -1,0 +1,375 @@
+========================================
+🚀 LoRA Finetuning Initialized 🚀
+Checkpoint   : checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_362650
+Dataset      : ['data/arc1concept-aug-1000']
+Dataset Test : []
+Batch Size   : 256
+Learning Rate: 0.001
+LoRA R       : 64
+LoRA Alpha   : 32
+========================================
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Loading checkpoint checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_362650
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=64, alpha=32...
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=64, alpha=32...
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=64, alpha=32...
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=64, alpha=32...
+Injecting LoRA layers with r=64, alpha=32...
+Injecting LoRA layers with r=64, alpha=32...
+Injecting LoRA layers with r=64, alpha=32...
+[0 missing, 0 unexpected]: Checkpoint loaded.
+Injecting LoRA layers with r=64, alpha=32...
+========================================
+📊 BASELINE EVAL: Evaluating loaded checkpoint before LoRA training starts...
+========================================
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 1, World Size 8]: Epoch 0
+[Rank 3, World Size 8]: Epoch 0
+[Rank 6, World Size 8]: Epoch 0
+[Rank 4, World Size 8]: Epoch 0
+[Rank 7, World Size 8]: Epoch 0
+[Rank 5, World Size 8]: Epoch 0
+[Rank 2, World Size 8]: Epoch 0
+  Completed ARC
+All evaluators completed!
+========================================
+📊 BASELINE EVAL RESULT (pre-LoRA): {'all': {'accuracy': np.float32(0.8689913), 'exact_accuracy': np.float32(0.30117804), 'lm_loss': np.float32(0.71350896), 'q_halt_accuracy': np.float32(0.70434535), 'q_halt_loss': np.float32(1.2627183), 'steps': np.float32(16.0)}, 'ARC/pass@1': 0.3925, 'ARC/pass@2': 0.435, 'ARC/pass@5': 0.47375, 'ARC/pass@10': 0.5025, 'ARC/pass@100': 0.56625, 'ARC/pass@1000': 0.57625}
+========================================
+[Rank 0, World Size 8]: Epoch 0
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 1, World Size 8]: Epoch 2000
+[Rank 7, World Size 8]: Epoch 2000
+[Rank 3, World Size 8]: Epoch 2000
+[Rank 5, World Size 8]: Epoch 2000
+[Rank 2, World Size 8]: Epoch 2000
+[Rank 6, World Size 8]: Epoch 2000
+[Rank 4, World Size 8]: Epoch 2000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 2000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 2, World Size 8]: Epoch 4000
+[Rank 5, World Size 8]: Epoch 4000
+[Rank 6, World Size 8]: Epoch 4000
+[Rank 3, World Size 8]: Epoch 4000
+[Rank 4, World Size 8]: Epoch 4000
+[Rank 1, World Size 8]: Epoch 4000
+[Rank 7, World Size 8]: Epoch 4000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 4000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 3, World Size 8]: Epoch 6000
+[Rank 5, World Size 8]: Epoch 6000
+[Rank 6, World Size 8]: Epoch 6000
+[Rank 1, World Size 8]: Epoch 6000
+[Rank 2, World Size 8]: Epoch 6000
+[Rank 7, World Size 8]: Epoch 6000
+[Rank 4, World Size 8]: Epoch 6000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 6000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 6, World Size 8]: Epoch 8000
+[Rank 2, World Size 8]: Epoch 8000
+[Rank 3, World Size 8]: Epoch 8000
+[Rank 4, World Size 8]: Epoch 8000
+[Rank 7, World Size 8]: Epoch 8000
+[Rank 1, World Size 8]: Epoch 8000
+[Rank 5, World Size 8]: Epoch 8000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 8000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 2, World Size 8]: Epoch 10000
+[Rank 6, World Size 8]: Epoch 10000
+[Rank 3, World Size 8]: Epoch 10000
+[Rank 1, World Size 8]: Epoch 10000
+[Rank 7, World Size 8]: Epoch 10000
+[Rank 5, World Size 8]: Epoch 10000
+[Rank 4, World Size 8]: Epoch 10000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 10000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 3, World Size 8]: Epoch 12000
+[Rank 6, World Size 8]: Epoch 12000
+[Rank 1, World Size 8]: Epoch 12000
+[Rank 7, World Size 8]: Epoch 12000
+[Rank 4, World Size 8]: Epoch 12000
+[Rank 2, World Size 8]: Epoch 12000
+[Rank 5, World Size 8]: Epoch 12000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 12000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 4, World Size 8]: Epoch 14000
+[Rank 6, World Size 8]: Epoch 14000
+[Rank 1, World Size 8]: Epoch 14000
+[Rank 7, World Size 8]: Epoch 14000
+[Rank 2, World Size 8]: Epoch 14000
+[Rank 5, World Size 8]: Epoch 14000
+[Rank 3, World Size 8]: Epoch 14000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 14000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 6, World Size 8]: Epoch 16000
+[Rank 4, World Size 8]: Epoch 16000
+[Rank 3, World Size 8]: Epoch 16000
+[Rank 5, World Size 8]: Epoch 16000
+[Rank 1, World Size 8]: Epoch 16000
+[Rank 7, World Size 8]: Epoch 16000
+[Rank 2, World Size 8]: Epoch 16000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 16000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+[Rank 4, World Size 8]: Epoch 18000
+[Rank 6, World Size 8]: Epoch 18000
+[Rank 3, World Size 8]: Epoch 18000
+[Rank 2, World Size 8]: Epoch 18000
+[Rank 1, World Size 8]: Epoch 18000
+[Rank 5, World Size 8]: Epoch 18000
+[Rank 7, World Size 8]: Epoch 18000
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT
+[Rank 0, World Size 8]: Epoch 18000
+TRAIN
+EVALUATE
+
+Running 1 evaluator(s)...
+Running evaluator 1/1: ARC
+  Completed ARC
+All evaluators completed!
+SAVE CHECKPOINT

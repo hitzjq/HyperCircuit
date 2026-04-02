@@ -16,7 +16,7 @@ cd "$PROJECT_ROOT"
 SEQ_LEN=1024
 # ---- 硬件与规模配置 ----
 NUM_GPUS=8           # 在这里填写你想用多少张显卡 (例如改成 4 或 8)
-GLOBAL_BATCH_SIZE=256  # 这是**全局总 Batch Size**，它会自动平分给你设定的 NUM_GPUS
+GLOBAL_BATCH_SIZE=1024  # 这是**全局总 Batch Size**，它会自动平分给你设定的 NUM_GPUS
 LR=1e-4
 
 # ---- 日志与权重保存路径配置 ----
