@@ -593,6 +593,18 @@ def evaluate(
             print("All evaluators completed!")
 
     return reduced_metrics
+def save_train_state(config: PretrainConfig, train_state: TrainState):
+    if config.checkpoint_path is None:
+        return
+
+    import os
+    import torch
+    os.makedirs(config.checkpoint_path, exist_ok=True)
+    trm_sd = train_state.model["trm"].state_dict()
+    pg_sd = train_state.model["pg"].state_dict()
+    ckpt = {"trm": trm_sd, "pg": pg_sd, "step": train_state.step}
+    torch.save(ckpt, os.path.join(config.checkpoint_path, f"step_{train_state.step}.pt"))
+
 
 def save_code_and_config(config: PretrainConfig):
     if config.checkpoint_path is None:
