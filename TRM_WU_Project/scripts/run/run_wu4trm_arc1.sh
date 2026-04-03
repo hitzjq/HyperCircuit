@@ -24,7 +24,7 @@ LR=1e-4
 DATASET_PATH="data/arc1concept-aug-1000"
 
 # ---- 日志与权重保存路径配置 ----
-run_name="WU4TRM_r16_lr1e-4_${NUM_GPUS}gpus_$(date +%m%d_%H%M)"
+run_name="WU4TRM_r16_lr1e-4_emb_${NUM_GPUS}gpus_$(date +%m%d_%H%M)"
 CKPT_DIR="checkpoints/${run_name}"
 mkdir -p "${CKPT_DIR}"
 mkdir -p "logs"

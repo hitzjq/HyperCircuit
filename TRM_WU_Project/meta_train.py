@@ -77,6 +77,7 @@ class PretrainConfig(pydantic.BaseModel):
     pg_d_model: int = 256
     pg_num_blocks: int = 2
     pg_dim_acc: int = 4
+    condition_mode: str = "embedding_only" # "full_trm" or "embedding_only"
 
     # Names
     project_name: Optional[str] = None
@@ -362,9 +363,15 @@ def train_batch(config: PretrainConfig, train_state: TrainState, batch: Any, glo
     lora_refs = train_state.model["lora_refs"]
     
     # Pass 1: Get z_H context (No Grad)
-    with torch.no_grad(), torch.device("cuda"):
-        carry_p1 = trm_model.initial_carry(batch)
-        z_H = trm_model.model.inner(carry_p1.inner_carry, batch, return_hidden=True)
+    with torch.no_grad():
+        if config.condition_mode == "embedding_only":
+            # Fast mode: directly use token & puzzle embeddings as condition
+            z_H = trm_model.model.inner._input_embeddings(batch["inputs"], batch["puzzle_identifiers"])
+        else:
+            # Full TRM forward mode: slow, but uses deep recursive features
+            with torch.device("cuda"):
+                carry_p1 = trm_model.initial_carry(batch)
+            z_H = trm_model.model.inner(carry_p1.inner_carry, batch, return_hidden=True)
     
     # Pass 2: Generate LoRA via HyperNetwork
     lora_dict = pg_model(z_H, scale=config.lora_alpha / config.lora_r)
@@ -468,7 +475,10 @@ def evaluate(
 
             # >>> EVAL TWO-PASS FORWARD START <<<
             with torch.no_grad():
-                z_H = train_state.model["trm"].model.inner(carry.inner_carry, batch, return_hidden=True)
+                if config.condition_mode == "embedding_only":
+                    z_H = train_state.model["trm"].model.inner._input_embeddings(batch["inputs"], batch["puzzle_identifiers"])
+                else:
+                    z_H = train_state.model["trm"].model.inner(carry.inner_carry, batch, return_hidden=True)
                 lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
                 
                 for name, layer in train_state.model["lora_refs"].items():
