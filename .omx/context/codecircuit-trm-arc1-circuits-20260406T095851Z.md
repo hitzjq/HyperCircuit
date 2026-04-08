@@ -1,0 +1,28 @@
+﻿# Context Snapshot
+
+- Task statement: 用户希望借用 `D:\Project with Jiefu\HyperCircuit\CodeCircuit` 的方法，先针对 `D:\Project with Jiefu\HyperCircuit\TinyRecursiveModels` 在 ARC-AGI-1 数据集上的每个 query 提取 circuit，并识别不能直接复用的地方，再给出方案。
+- Desired outcome: 明确“circuit”在 TRM/ARC 场景中的目标定义、复用深度，以及本轮是否只做差距分析+方案，还是要进一步落地实现路径。
+- Stated solution: 用 CodeCircuit 的 circuit extraction 思路迁移到 TRM on ARC-AGI-1。
+- Probable intent hypothesis: 用户想把已有的 LLM/code attribution-graph 方法迁移到 TRM 的递归推理模型上，做 query-level mechanistic interpretability。
+- Known facts/evidence:
+  - CodeCircuit 的 `data/3_generate_graph.py` 直接调用 `circuit_tracer.attribute(prompt=..., model=ReplacementModel.from_pretrained('google/gemma-2-2b-it', 'gemma'))`，输入是文本 prompt，输出是 graph `.pt` 文件。
+  - CodeCircuit 依赖 `circuit_tracer` 与 `ReplacementModel`，当前设计明显围绕 HuggingFace 文本生成模型和 logits attribution。
+  - TinyRecursiveModels 的 `models/recursive_reasoning/trm.py` 是自定义递归推理网络，输入是 ARC grid token 序列 + `puzzle_identifiers`，前向过程中有 `H_cycles/L_cycles` 递归状态、`q_halt_logits`、非自回归 logits。
+  - TinyRecursiveModels 的 ARC evaluator (`evaluators/arc.py`) 以 puzzle/query 的 grid 预测与 halt 分数聚合为主，不是文本 next-token 生成任务。
+  - TinyRecursiveModels 的 ARC-AGI-1 数据构建入口在 `dataset/build_arc_dataset.py`，数据被编码为固定 30x30 grid 序列。
+- Constraints: 当前处于 deep-interview 模式；每轮只问一个问题；先澄清目标定义与边界；不直接实现。
+- Unknowns/open questions:
+  - 用户说的“每一个 query 的 circuit”具体是指哪种对象：预测某个输出 token/grid cell 的 attribution graph、某一步 halt 决策的 circuit，还是整个 query 的递归计算子图。
+  - 用户希望“复用 CodeCircuit 的方法”到什么程度：是尽量直接套 `circuit_tracer`，还是只借鉴 pipeline/graph 表达/分析框架。
+  - 本轮交付是仅做 feasibility gap analysis + 方案，还是要进一步进入 implementation plan。
+  - 是否已有可用的 TRM checkpoint / ARC-AGI-1 eval 跑通环境。
+- Decision-boundary unknowns:
+  - 我能否自由重新定义 TRM 的 circuit 表示以适配非 Transformer/非文本模型。
+  - 我能否建议放弃直接兼容 `circuit_tracer` 而改成 TRM 专用 tracing/hook/graph 方案。
+- Likely codebase touchpoints:
+  - `CodeCircuit/data/3_generate_graph.py`
+  - `CodeCircuit/circuit_tracer/`
+  - `TinyRecursiveModels/models/recursive_reasoning/trm.py`
+  - `TinyRecursiveModels/dataset/build_arc_dataset.py`
+  - `TinyRecursiveModels/evaluators/arc.py`
+  - `TinyRecursiveModels/puzzle_dataset.py`

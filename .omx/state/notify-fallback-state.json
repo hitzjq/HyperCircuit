@@ -1,0 +1,68 @@
+{
+  "pid": 47940,
+  "parent_pid": 48648,
+  "started_at": "2026-04-07T04:31:55.987Z",
+  "cwd": "D:\\Project with Jiefu\\HyperCircuit",
+  "notify_script": "C:\\Users\\11152\\AppData\\Roaming\\npm\\node_modules\\oh-my-codex\\dist\\scripts\\notify-hook.js",
+  "authority_only": false,
+  "poll_ms": 250,
+  "pid_file": "D:\\Project with Jiefu\\HyperCircuit\\.omx\\state\\notify-fallback.pid",
+  "max_lifetime_ms": 21600000,
+  "tracked_files": 4,
+  "seen_turns": 6,
+  "dispatch_drain": {
+    "enabled": true,
+    "max_per_tick": 5,
+    "run_count": 14067,
+    "leader_only": true,
+    "last_tick_at": "2026-04-07T05:44:22.522Z",
+    "last_result": {
+      "processed": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "last_error": null
+  },
+  "leader_nudge": {
+    "enabled": true,
+    "leader_only": true,
+    "stale_threshold_ms": 180000,
+    "precomputed_leader_stale": false,
+    "last_tick_at": "2026-04-07T05:44:22.524Z",
+    "last_error": null,
+    "run_count": 14067
+  },
+  "ralph_continue_steer": {
+    "enabled": true,
+    "cadence_ms": 60000,
+    "message": "Ralph loop active continue",
+    "active": false,
+    "last_state_check_at": "2026-04-07T05:44:22.593Z",
+    "last_sent_at": "",
+    "cooldown_anchor_at": "",
+    "last_reason": "blocked_by_current_session",
+    "last_error": null,
+    "state_path": "",
+    "pane_id": "",
+    "pane_current_command": "",
+    "current_phase": "",
+    "shared_timestamp_path": "D:\\Project with Jiefu\\HyperCircuit\\.omx\\state\\ralph-last-steer-at",
+    "shared_last_sent_at": "",
+    "singleton_lock_path": "D:\\Project with Jiefu\\HyperCircuit\\.omx\\state\\ralph-continue-steer.lock"
+  },
+  "fallback_auto_nudge": {
+    "enabled": true,
+    "stall_ms": 5000,
+    "last_tick_at": "2026-04-07T05:44:22.534Z",
+    "last_turn_at": "2026-04-07T05:42:46.744Z",
+    "last_turn_count": 11,
+    "last_message": "改好了，方案现在已经明确改成 **transcoder-first** 了。\n\n已更新的文件：\n\n- 英文 PRD：`.omx/plans/prd-codecircuit-trm-arc1-circu",
+    "last_reason": "eligible_but_not_sent",
+    "last_error": null,
+    "last_nudged_signature": "",
+    "last_nudged_at": ""
+  },
+  "stop_reason": "parent_gone",
+  "stop_signal": null,
+  "stopping": true
+}

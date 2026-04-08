@@ -1,0 +1,15 @@
+- `[/]` Phase 0: 训练 TRM-Transcoder (SAE)
+    - `[x]` 创建 `CodeCircuit_TRM_Arc1/` 基础目录结构
+    - `[x]` 编写激活值收集脚本 `collect_activations.py`
+    - `[ ]` 在 8xH200 运行收集脚本，dump 激活值数据
+    - `[x]` 编写 SAE 训练脚本 `train_transcoder.py`
+    - `[ ]` 在 8xA100 训练 SAE 并验证重构损失
+- `[ ]` Phase 1: TRM 归因包装器 (Bypass Forward Wrapper)
+    - `[ ]` 编写 `trm_wrapper.py` 展开递归链
+    - `[ ]` 验证 Wrapper 与原生模型输出一致性
+- `[ ]` Phase 2: Attribution Graph 构建引擎
+    - `[ ]` 实现基于 Cross-Entropy 的梯度回传
+    - `[ ]` 生成 Query-Level 归因图
+- `[ ]` Phase 3: 图特征到向量的降维提取
+    - `[ ]` 实现特征归一化提取逻辑
+    - `[ ]` 验证特征向量对 PG HyperNetwork 的接入
