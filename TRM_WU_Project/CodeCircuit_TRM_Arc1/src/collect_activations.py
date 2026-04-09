@@ -81,11 +81,14 @@ def main():
     dataset_cfg = PuzzleDatasetConfig(
         seed=42,
         dataset_paths=args.dataset_paths,
+        global_batch_size=2,
+        test_set_mode=False,
+        epochs_per_iter=1,
         rank=0,
         num_replicas=1,
     )
     dataset = PuzzleDataset(dataset_cfg, split="train")
-    dataloader = torch.utils.data.DataLoader(dataset, batch_size=2, shuffle=True, collate_fn=None)
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=None, num_workers=0)
     metadata = dataset.metadata
 
     print("Loading Base TRM Config...")
@@ -154,9 +157,12 @@ def main():
                 break
 
             batch = {k: v.to(device) for k, v in batch.items()}
-            carry = model.initial_carry(batch)
             
-            # Forward pass (this will automatically hit the hooks 42 times per sample)
+            # 使用 Device Context 强行逼迫 TRM 内部所有自动申请的张量都长在显卡上，彻底断绝 CPU 内漏
+            with torch.device(device):
+                carry = model.initial_carry(batch)
+            
+            # Forward pass (this will automatically hit the hooks 42 times per sample).
             model(carry, batch)
             
             # Check if buffer is full and save

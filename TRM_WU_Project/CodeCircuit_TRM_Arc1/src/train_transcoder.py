@@ -121,8 +121,8 @@ def train_sae():
             pbar.set_postfix({"mse": f"{mse_loss.item():.4f}", "l1": f"{l1_loss.item():.2f}"})
             
     # Save the transcoder exactly where the rest of the pipeline expects it
-    os.makedirs("CodeCircuit_TRM_Arc1/transcoder", exist_ok=True)
-    out_path = "CodeCircuit_TRM_Arc1/transcoder/trm_transcoder_4096.pt"
+    os.makedirs("CodeCircuit_TRM_Arc1/checkpoints", exist_ok=True)
+    out_path = "CodeCircuit_TRM_Arc1/checkpoints/trm_transcoder_4096.pt"
     torch.save(sae.state_dict(), out_path)
     print(f"\nSAE Training complete! Transcoder saved to: {out_path}")
 
