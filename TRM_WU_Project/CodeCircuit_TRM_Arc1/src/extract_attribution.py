@@ -48,18 +48,40 @@ def load_trm_model(config_path, ckpt_path, device):
     import yaml
     from utils.functions import load_model_class
     
-    with open(config_path) as f:
-        cfg = yaml.safe_load(f)
-    
-    arch_cfg = cfg["arch"]
-    model_cls = load_model_class(arch_cfg["name"])
-    
-    # 构建 config dict
-    model_config = {k: v for k, v in arch_cfg.items() if k not in ("name", "loss")}
-    model_config["batch_size"] = 2  # 归因用的 batch_size
-    
-    model = model_cls(model_config)
-    model.to(device)
+    # 手动声明 TRM 结构的配置（避开 Hydra 的 defaults 解析问题）
+    # 获取 vocab_size (对齐 dataset 定义)
+    from puzzle_dataset import PuzzleDataset, PuzzleDatasetConfig
+    dataset_cfg = PuzzleDatasetConfig(
+        seed=42, dataset_paths=["data/arc1concept-aug-1000"], global_batch_size=1,
+        test_set_mode=False, epochs_per_iter=1, rank=0, num_replicas=1
+    )
+    dataset = PuzzleDataset(dataset_cfg, split="train")
+    metadata = dataset.metadata
+
+    model_cfg = {
+        "H_cycles": 3,
+        "L_cycles": 6,
+        "H_layers": 0,
+        "L_layers": 2,
+        "hidden_size": 512,
+        "num_heads": 8,
+        "expansion": 4,
+        "puzzle_emb_ndim": 512,
+        "pos_encodings": "rope",
+        "forward_dtype": "bfloat16",
+        "mlp_t": False,
+        "puzzle_emb_len": 16,
+        "no_ACT_continue": True,
+        "halt_exploration_prob": 0.1,
+        "halt_max_steps": 16,
+        "batch_size": 2,
+        "vocab_size": metadata.vocab_size,
+        "seq_len": metadata.seq_len,
+        "num_puzzle_identifiers": metadata.num_puzzle_identifiers,
+    }
+
+    model_cls = load_model_class("recursive_reasoning.trm@TinyRecursiveReasoningModel_ACTV1")
+    model = model_cls(model_cfg).to(device)
     model.eval()
     
     # 加载 checkpoint（如有）

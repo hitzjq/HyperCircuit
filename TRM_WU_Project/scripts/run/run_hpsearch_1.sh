@@ -16,7 +16,7 @@ cd "$PROJECT_ROOT"
 # ---- 固定参数 ----
 NUM_GPUS=8
 GLOBAL_BATCH_SIZE=1024
-CONDITION_MODE="embedding_only"
+CONDITION_MODE="full_trm"
 DATASET_PATH="data/arc1concept-aug-1000"
 BASE_CKPT_PATH="pretrained_base_ckpt/ARC-AGI-1/step_155718"
 CFG="cfg_wu4trm"
