@@ -124,7 +124,7 @@ class UnrolledBlock(nn.Module):
         else:
             self.frozen_attn = FrozenAttention(original_block.self_attn)
     
-    def forward(self, cos_sin, hidden_states):
+    def forward(self, cos_sin, hidden_states, sae_model=None, feature_collector=None, mlp_collector=None, recon_collector=None):
         # Post Norm (与原版 trm.py Block.forward 完全一致，仅替换 norm 和 attn)
         if self.config.mlp_t:
             hidden_states = hidden_states.transpose(1, 2)
@@ -139,8 +139,27 @@ class UnrolledBlock(nn.Module):
         
         # MLP — 梯度自由流过
         out = self.mlp(hidden_states)
+        
+        # SAE 注入点：拦截 mlp_out 进行特征转换，通过 Straight-through estimator 替换梯度路径
+        if sae_model is not None and feature_collector is not None:
+            features = sae_model.encode(out)      # (batch, seq, d_sae) 全程 BFloat16
+            
+            # 开启梯度挂钩：为了支持 Phase 1 后续计算 Vector-Jacobian Product (VJP) 边关联
+            if features.requires_grad:
+                features.retain_grad()
+                
+            reconstructed = sae_model.decode(features)
+            
+            feature_collector.append(features)
+            mlp_collector.append(out.detach())
+            recon_collector.append(reconstructed.detach())
+            
+            # 💡 核心：Straight-Through Estimator
+            # 前向保留原生 out 的绝对精确度，反向转给 reconstructed 拿到 Feature 的梯度！
+            out = reconstructed + (out - reconstructed).detach()
+            
         hidden_states = frozen_rms_norm(hidden_states + out, variance_epsilon=self.norm_eps)
-        return hidden_states, out  # 额外返回 mlp 原始输出，用于 SAE 注入
+        return hidden_states, out  # 这时的 out 已经被注入了 SAE 梯度流
 
 
 class UnrolledReasoningModule(nn.Module):
@@ -159,16 +178,14 @@ class UnrolledReasoningModule(nn.Module):
         hidden_states = hidden_states + input_injection
         
         for layer in self.unrolled_layers:
-            hidden_states, mlp_out = layer(hidden_states=hidden_states, **kwargs)
-            
-            # SAE 注入点：在每层 MLP 输出后进行 encode → decode
-            if sae_model is not None and feature_collector is not None:
-                features = sae_model.encode(mlp_out)      # (batch, seq, d_sae) 稀疏
-                reconstructed = sae_model.decode(features) # (batch, seq, d_in)
-                
-                feature_collector.append(features)
-                mlp_collector.append(mlp_out.detach())
-                recon_collector.append(reconstructed.detach())
+            hidden_states, mlp_out = layer(
+                hidden_states=hidden_states,
+                sae_model=sae_model,
+                feature_collector=feature_collector,
+                mlp_collector=mlp_collector,
+                recon_collector=recon_collector,
+                **kwargs
+            )
         
         return hidden_states
 

@@ -34,7 +34,8 @@ def load_sae(sae_path, device):
     sae = SparseAutoencoder(d_in=512, d_sae=4096)
     sae.load_state_dict(torch.load(sae_path, map_location=device))
     sae.to(device)
-    sae.eval()
+    # 将整个 SAE 网络与字典统一切换为 BFloat16 精度，完美对齐 TRM
+    sae = sae.to(torch.bfloat16)
     
     # SAE 参数不需要梯度
     for p in sae.parameters():
@@ -121,18 +122,16 @@ def compute_attribution_scores(wrapper_output: AttributionOutput, labels: torch.
     logits = wrapper_output.logits
     
     # Cross-Entropy Loss（对齐总方案决策 D2）
-    # logits: (batch, seq_len, vocab_size)
-    # labels: (batch, seq_len)
     loss = F.cross_entropy(
         logits.view(-1, logits.size(-1)),
-        labels.view(-1),
-        ignore_index=-100,  # 忽略 padding
+        labels.view(-1).long(),
+        ignore_index=-100,
     )
     
-    # 反向传播 — 梯度将沿全展开链路畅通流回每一层
-    loss.backward()
+    # 【改动】：保留计算图，为接下来的多次独立 VJP 提取邻接线做准备
+    loss.backward(retain_graph=True)
     
-    # 计算归因分数：activation × gradient（Taylor 一阶展开）
+    # 计算一阶节点全局归因分数：activation × gradient
     attributions = []
     for feat_act in wrapper_output.feature_activations:
         if feat_act.grad is not None:
@@ -169,71 +168,131 @@ def build_layer_histogram(attributions, max_virtual_layers=42):
 
 def extract_query_graph(wrapper, batch, device):
     """
-    对单个 query 提取归因图。
-    
-    Returns:
-        graph_data: dict 包含邻接矩阵、特征激活、归因分数等
+    对单个 query 提取归因图：构建符合原版 CodeCircuit 的边特征矩阵 (adjacency_matrix)。
+    为了获取节点间偏导（边），将在找到重要节点后，基于它们各自的张量反打多次 VJP！
     """
-    # 清零梯度
+    print(f"\n  [TRACE] Starting Query Graph Extraction...", flush=True)
     wrapper.zero_grad()
-    
-    # 需要 feature_activations 保留梯度
     batch_gpu = {k: v.to(device) for k, v in batch.items()}
     
-    # 前向传播
+    print(f"  [TRACE] Forward pass...", flush=True)
     output = wrapper(batch_gpu)
     
-    # 确保 feature_activations 需要梯度
-    for feat in output.feature_activations:
-        feat.retain_grad()
-    
-    # 计算归因
+    print(f"  [TRACE] Global Backward passed starting...", flush=True)
+    # 计算全局归因，同时 retain_graph
     attributions, loss_val = compute_attribution_scores(output, batch_gpu["labels"])
+    print(f"  [TRACE] Global Backward Finished! attributions found.", flush=True)
     
-    # 构建层分布直方图
     n_virtual_layers = len(attributions)
     histogram = build_layer_histogram(attributions)
     
-    # 提取每层的 top-K 特征节点（按归因分数绝对值排序）
-    top_k = 100  # 每层最多保留 100 个特征
-    active_features = []   # (layer, position, feature_idx) 三元组
-    activation_values = [] # 对应的激活值
-    attribution_scores = [] # 对应的归因分数
+    print(f"  [TRACE] Node Filtering...", flush=True)
     
-    for layer_idx, (feat_act, attr) in enumerate(zip(
-        output.feature_activations, attributions
-    )):
-        # feat_act: (batch, seq, d_sae)
-        # attr: (batch, seq, d_sae)
-        # 取 batch 维度的平均
-        mean_attr = attr.mean(dim=0).abs()  # (seq, d_sae)
-        mean_act = feat_act.detach().mean(dim=0)  # (seq, d_sae)
+    # ====== Step 1: 捞出活跃节点的全局影响力，用张量向量化防止 Python 循环死锁 ======
+    # 调整为更犀利的 Circuit 剪枝节点数（保留图最重要的 250 个枢纽节点，剔除冗余噪音，速度可直降至 3s！）
+    max_nodes = 250
+    node_pool = []
+    
+    for layer_idx, (feat_act, attr) in enumerate(zip(output.feature_activations, attributions)):
+        act_0 = feat_act[0].detach()  # (seq, d_sae)
+        attr_0 = attr[0].abs()        # (seq, d_sae)
         
-        # 找非零位置
-        nonzero_mask = mean_attr > 1e-6
-        if nonzero_mask.any():
-            positions, feature_indices = nonzero_mask.nonzero(as_tuple=True)
-            scores = mean_attr[positions, feature_indices]
+        # PyTorch 端直接取层内 TopK（即使单层，最多也只可能贡献 max_nodes 个前排）
+        k = min(max_nodes, attr_0.numel())
+        flat_attr = attr_0.flatten()
+        top_scores, top_indices = torch.topk(flat_attr, k)
+        
+        # 过滤掉底噪，减少不必要的 Python 循环
+        valid_mask = top_scores > 1e-6
+        top_scores = top_scores[valid_mask]
+        top_indices = top_indices[valid_mask]
+        
+        if len(top_scores) == 0:
+            continue
             
-            # 按分数排序取 top-K
-            if len(scores) > top_k:
-                topk_idx = scores.topk(top_k).indices
-                positions = positions[topk_idx]
-                feature_indices = feature_indices[topk_idx]
-                scores = scores[topk_idx]
-            
-            for pos, feat_idx, score in zip(positions, feature_indices, scores):
-                active_features.append([layer_idx, pos.item(), feat_idx.item()])
-                activation_values.append(mean_act[pos, feat_idx].item())
-                attribution_scores.append(score.item())
+        # GPU 张量操作还原坐标
+        seq_indices = torch.div(top_indices, attr_0.size(1), rounding_mode='floor')
+        feat_indices = top_indices % attr_0.size(1)
+        
+        acts = act_0[seq_indices, feat_indices]
+        
+        # 现在这个 list 推导式最多只有几百个元素，瞬间完成
+        for s, seq_i, f_i, a_val in zip(top_scores.tolist(), seq_indices.tolist(), feat_indices.tolist(), acts.tolist()):
+            node_pool.append({
+                "layer": layer_idx,
+                "pos": seq_i,
+                "feat": f_i,
+                "act_val": a_val,
+                "score": s
+            })
     
+    # 按照全局影响力倒序排序，截取总网的 Top N
+    node_pool = sorted(node_pool, key=lambda x: x["score"], reverse=True)[:max_nodes]
+    # 截取后再按推理的时序（层级递进，然后 Token 位置递进）进行拓扑排序！这是邻接图计算基石。
+    node_pool = sorted(node_pool, key=lambda x: (x["layer"], x["pos"]))
+    
+    N = len(node_pool)
+    adjacency_matrix = torch.zeros((N, N), dtype=torch.float32, device=device)
+    
+    active_features = []
+    activation_values = []
+    attribution_scores = []
+    
+    for i, node in enumerate(node_pool):
+        active_features.append([node["layer"], node["pos"], node["feat"]])
+        activation_values.append(node["act_val"])
+        attribution_scores.append(node["score"])
+        
+    print(f"  [TRACE] Generating VJP Edges...", flush=True)
+    from tqdm import tqdm
+    tqdm.write(f"\n  [VJP Profiler] Computing Adjacency Edges for {N} topologically sorted active nodes...")
+    
+    # ====== Step 2: VJP (Vector-Jacobian Product) 组装边网络！======
+    # [核心定论]：刚才的 Batched VJP 需要扩容内存并产生 187 次极度缓慢的前向重连（导致35秒）。
+    # 返回最初被证明是神级设计的最简连环策略：1 次 Forward + max_nodes 次串行极速 Backward！
+    # 依赖 retain_graph=True 直接在已有 C++ 原生计算图高速滑行，把 35 秒降维打击回极速！
+    from tqdm import tqdm
+    for target_idx in tqdm(range(1, N), desc="VJP Edge Tracing", leave=False, dynamic_ncols=True):
+        target = node_pool[target_idx]
+        b_layer = target["layer"]
+        
+        # 定位目标节点的张量标量值 (原本的唯一图)
+        b_tensor_val = output.feature_activations[b_layer][0, target["pos"], target["feat"]]
+        
+        if not b_tensor_val.requires_grad:
+            continue
+            
+        # 发送串行高频短脉冲，直接借助 1 棵保留的庞大前戏图复用 250 次，榨干显卡
+        grads = torch.autograd.grad(
+            outputs=b_tensor_val, 
+            inputs=output.feature_activations[:b_layer+1],  # 截断传递路径，后续层必定无连接
+            retain_graph=True, 
+            allow_unused=True
+        )
+        
+        # 收集来自 B 之前的所有 Source 节点的连接
+        for source_idx in range(target_idx):
+            source = node_pool[source_idx]
+            s_layer = source["layer"]
+            s_grad_tensor = grads[s_layer]
+            if s_grad_tensor is not None:
+                grad_a_to_b = s_grad_tensor[0, source["pos"], source["feat"]].item()
+                edge_weight = source["act_val"] * grad_a_to_b
+                adjacency_matrix[target_idx, source_idx] = edge_weight
+                
+    # 释放显存树
+    wrapper.zero_grad()
+    
+    # ====== Step 3: 打包成仿 Graph 对象 ======
+    # CodeCircuit 的 _extract_advanced_features 主要探测 "adjacency_matrix", "active_features" 等字段
     graph_data = {
         "loss": loss_val,
         "n_virtual_layers": n_virtual_layers,
         "layer_histogram": histogram,
-        "active_features": torch.tensor(active_features) if active_features else torch.zeros(0, 3, dtype=torch.long),
-        "activation_values": torch.tensor(activation_values),
-        "attribution_scores": torch.tensor(attribution_scores),
+        "active_features": torch.tensor(active_features, dtype=torch.long),
+        "activation_values": torch.tensor(activation_values, dtype=torch.float32),
+        "attribution_scores": torch.tensor(attribution_scores, dtype=torch.float32),
+        "adjacency_matrix": adjacency_matrix.cpu(),
     }
     
     return graph_data

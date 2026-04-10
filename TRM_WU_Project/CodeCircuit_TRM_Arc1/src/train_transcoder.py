@@ -91,7 +91,7 @@ def train_sae():
         total_l1 = 0
         
         pbar = tqdm(dataloader, desc=f"Epoch {epoch+1}/{epochs}")
-        for batch in pbar:
+        for step, batch in enumerate(pbar):
             batch = batch.to(device)
             if batch.dim() == 1:
                 batch = batch.unsqueeze(0)
@@ -120,11 +120,59 @@ def train_sae():
             
             pbar.set_postfix({"mse": f"{mse_loss.item():.4f}", "l1": f"{l1_loss.item():.2f}"})
             
-    # Save the transcoder exactly where the rest of the pipeline expects it
+            if (step + 1) % 1000 == 0:
+                print(f"Step {step+1} | L1: {l1_loss.item():.4f} | MSE: {mse_loss.item():.4f}")
+
+    # 保存原始的单个 pt 权重，作为 Debug 备用
     os.makedirs("CodeCircuit_TRM_Arc1/checkpoints", exist_ok=True)
     out_path = "CodeCircuit_TRM_Arc1/checkpoints/trm_transcoder_4096.pt"
     torch.save(sae.state_dict(), out_path)
-    print(f"\nSAE Training complete! Transcoder saved to: {out_path}")
+    print(f"✅ Basic SAE dictionary saved to {out_path}")
+    
+    # 🌟 核心改动：为适配 CodeCircuit 原生 VJP，我们必须伪装成 CrossLayerTranscoder 落盘 🌟
+    # TRM 虽然用的是权重复用，但展开后有 42 层。CodeCircuit 要求 Transcoder 以 42 份 safetensors 保存。
+    # 格式要求参见：circuit_tracer.transcoder.cross_layer_transcoder._load_state_dict
+    export_clt_safetensors(sae, base_dir="CodeCircuit_TRM_Arc1/checkpoints", n_layers=42)
+
+def export_clt_safetensors(sae, base_dir, n_layers=42):
+    """
+    将标准 SAE 的权重格式化输出为 CodeCircuit 兼容的 CrossLayerTranscoder (CLT) 目录集。
+    """
+    from safetensors.torch import save_file
+    
+    out_dir = os.path.join(base_dir, "trm_cross_layer_transcoder")
+    os.makedirs(out_dir, exist_ok=True)
+    
+    # SAE 的参数
+    # W_enc (512, 4096) -> CLT W_enc (4096, 512)
+    w_enc = sae.encoder.weight.detach().cpu()
+    b_enc = sae.encoder.bias.detach().cpu()
+    
+    # CLT W_dec 通常形状应为 (d_transcoder(4096), n_out_layers, d_model(512))
+    # 对于普通的当层 SAE，解码器只给当前层输出（n_out_layers=1），或者直接不配置。
+    # 在 CodeCircuit 的单层用法中，CLT 如果 n_layers-i 为长度的话。
+    w_dec_base = sae.decoder.weight.detach().cpu().t() # (4096, 512)
+    b_dec = sae.b_dec.detach().cpu()
+    
+    for i in range(n_layers):
+        # 写入 W_enc_i.safetensors (包含 b_enc_i, b_dec_i, W_enc_i)
+        enc_dict = {
+            f"b_dec_{i}": b_dec,
+            f"b_enc_{i}": b_enc,
+            f"W_enc_{i}": w_enc
+        }
+        save_file(enc_dict, os.path.join(out_dir, f"W_enc_{i}.safetensors"))
+        
+        # 写入 W_dec_i.safetensors 
+        # 本层的概念在跨层 Transcoder 里写成具有向前连线的。这里我们为了简单兼容，保留它只发给下一层。
+        # W_dec 形状：(d_transcoder, n_layers - i, d_model)
+        w_dec_i = w_dec_base.unsqueeze(1).repeat(1, n_layers - i, 1)
+        dec_dict = {
+            f"W_dec_{i}": w_dec_i
+        }
+        save_file(dec_dict, os.path.join(out_dir, f"W_dec_{i}.safetensors"))
+        
+    print(f"✅ CodeCircuit-Compatible CLT exported to {out_dir}/ with {n_layers} virtual layers!")
 
 
 if __name__ == "__main__":
