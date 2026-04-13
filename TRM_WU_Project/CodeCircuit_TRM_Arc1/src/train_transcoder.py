@@ -1,9 +1,11 @@
 import os
+import sys
 import glob
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from safetensors.torch import load_file
+import argparse
 from tqdm import tqdm
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -15,10 +17,17 @@ class ActivationDataset(Dataset):
             raise ValueError(f"No .safetensors files found in {data_dir}")
             
         print(f"Found {len(self.chunk_files)} activation chunks.")
-        # Load the first chunk just to get the shape
-        sample = load_file(self.chunk_files[0])["activations"]
-        self.chunk_size = sample.shape[0]
-        self.total_samples = len(self.chunk_files) * self.chunk_size
+        
+        import safetensors
+        self.chunk_sizes = []
+        for file in self.chunk_files:
+            with safetensors.safe_open(file, framework="pt") as f:
+                self.chunk_sizes.append(f.get_slice("activations").get_shape()[0])
+                
+        self.total_samples = sum(self.chunk_sizes)
+        
+        import itertools
+        self.cumulative_sizes = list(itertools.accumulate(self.chunk_sizes))
 
         self.current_chunk_idx = -1
         self.current_chunk_data = None
@@ -27,13 +36,15 @@ class ActivationDataset(Dataset):
         return self.total_samples
 
     def __getitem__(self, idx):
-        chunk_idx = idx // self.chunk_size
-        local_idx = idx % self.chunk_size
+        import bisect
+        chunk_idx = bisect.bisect_right(self.cumulative_sizes, idx)
+        if chunk_idx == 0:
+            local_idx = idx
+        else:
+            local_idx = idx - self.cumulative_sizes[chunk_idx - 1]
 
         if chunk_idx != self.current_chunk_idx:
             # We assume sequential loading is mostly handled by keeping one chunk in RAM
-            # In a true dataloader you'd want an IterableDataset or chunk caching.
-            # This is simplified for Phase 0 MVP.
             self.current_chunk_data = load_file(self.chunk_files[chunk_idx])["activations"].to(torch.float32)
             self.current_chunk_idx = chunk_idx
 
@@ -46,23 +57,19 @@ class SparseAutoencoder(nn.Module):
         self.d_in = d_in
         self.d_sae = d_sae
         
-        # SAE traditionally uses tied or untied weights. We use untied as per CodeCircuit defaults.
         # W_enc: (d_in, d_sae)
         self.encoder = nn.Linear(d_in, d_sae, bias=True)
         # W_dec: (d_sae, d_in)
-        self.decoder = nn.Linear(d_sae, d_in, bias=False)  # Decoder often has no bias
+        self.decoder = nn.Linear(d_sae, d_in, bias=False)
         self.b_dec = nn.Parameter(torch.zeros(d_in))
         
-        # Initialize
         nn.init.kaiming_uniform_(self.encoder.weight)
         nn.init.kaiming_uniform_(self.decoder.weight)
 
     def encode(self, x):
-        """ Returns the activated SAE features (f(x)) """
         return torch.relu(self.encoder(x))
 
     def decode(self, f):
-        """ Reconstructs x from features f """
         return self.decoder(f) + self.b_dec
 
     def forward(self, x):
@@ -71,49 +78,39 @@ class SparseAutoencoder(nn.Module):
         return x_reconstructed, f
 
 
-def train_sae():
-    data_dir = "CodeCircuit_TRM_Arc1/results/activations"
-    dataset = ActivationDataset(data_dir)
-    # Use a large batch size for SAE training
-    dataloader = DataLoader(dataset, batch_size=4096, shuffle=False, num_workers=0)
+def train_sae(args):
+    dataset = ActivationDataset(args.activations_dir)
+    dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False, num_workers=0)
     
-    sae = SparseAutoencoder(d_in=512, d_sae=4096).to(device)
-    optimizer = torch.optim.Adam(sae.parameters(), lr=1e-3)
+    sae = SparseAutoencoder(d_in=args.d_in, d_sae=args.d_sae).to(device)
+    optimizer = torch.optim.Adam(sae.parameters(), lr=args.lr)
     
-    # Loss coefficients
-    l1_coeff = 1e-3  # Adjust sparsity penalty. Increase if graph is too dense.
+    l1_coeff = args.l1_coeff
     
-    epochs = 2
-    for epoch in range(epochs):
+    for epoch in range(args.epochs):
         sae.train()
         total_loss = 0
         total_mse = 0
         total_l1 = 0
         
-        pbar = tqdm(dataloader, desc=f"Epoch {epoch+1}/{epochs}")
+        pbar = tqdm(dataloader, desc=f"Epoch {epoch+1}/{args.epochs}")
         for step, batch in enumerate(pbar):
             batch = batch.to(device)
             if batch.dim() == 1:
                 batch = batch.unsqueeze(0)
                 
-            # Mean-center the inputs (optional but recommended in SAEs)
             x_centered = batch - sae.b_dec
                 
-            x_hat, f = sae(batch) # Original uncentered as input
+            x_hat, f = sae(batch) 
             
-            # 1. MSE (Reconstruction Loss)
             mse_loss = torch.nn.functional.mse_loss(x_hat, batch)
-            
-            # 2. L1 (Sparsity Loss)
             l1_loss = f.abs().sum(dim=-1).mean()
-            
             loss = mse_loss + l1_coeff * l1_loss
             
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
             
-            # Logging
             total_loss += loss.item()
             total_mse += mse_loss.item()
             total_l1 += l1_loss.item()
@@ -123,39 +120,26 @@ def train_sae():
             if (step + 1) % 1000 == 0:
                 print(f"Step {step+1} | L1: {l1_loss.item():.4f} | MSE: {mse_loss.item():.4f}")
 
-    # 保存原始的单个 pt 权重，作为 Debug 备用
-    os.makedirs("CodeCircuit_TRM_Arc1/checkpoints", exist_ok=True)
-    out_path = "CodeCircuit_TRM_Arc1/checkpoints/trm_transcoder_4096.pt"
-    torch.save(sae.state_dict(), out_path)
-    print(f"✅ Basic SAE dictionary saved to {out_path}")
+    os.makedirs(os.path.dirname(args.save_path), exist_ok=True)
+    torch.save(sae.state_dict(), args.save_path)
+    print(f"✅ Basic SAE dictionary saved to {args.save_path}")
     
-    # 🌟 核心改动：为适配 CodeCircuit 原生 VJP，我们必须伪装成 CrossLayerTranscoder 落盘 🌟
-    # TRM 虽然用的是权重复用，但展开后有 42 层。CodeCircuit 要求 Transcoder 以 42 份 safetensors 保存。
-    # 格式要求参见：circuit_tracer.transcoder.cross_layer_transcoder._load_state_dict
-    export_clt_safetensors(sae, base_dir="CodeCircuit_TRM_Arc1/checkpoints", n_layers=42)
+    # 适配 CodeCircuit 的原生 VJP 必须伪装成 CLT 落盘
+    base_dir = os.path.dirname(args.save_path)
+    export_clt_safetensors(sae, base_dir=base_dir, n_layers=42)
 
 def export_clt_safetensors(sae, base_dir, n_layers=42):
-    """
-    将标准 SAE 的权重格式化输出为 CodeCircuit 兼容的 CrossLayerTranscoder (CLT) 目录集。
-    """
     from safetensors.torch import save_file
     
     out_dir = os.path.join(base_dir, "trm_cross_layer_transcoder")
     os.makedirs(out_dir, exist_ok=True)
     
-    # SAE 的参数
-    # W_enc (512, 4096) -> CLT W_enc (4096, 512)
     w_enc = sae.encoder.weight.detach().cpu()
     b_enc = sae.encoder.bias.detach().cpu()
-    
-    # CLT W_dec 通常形状应为 (d_transcoder(4096), n_out_layers, d_model(512))
-    # 对于普通的当层 SAE，解码器只给当前层输出（n_out_layers=1），或者直接不配置。
-    # 在 CodeCircuit 的单层用法中，CLT 如果 n_layers-i 为长度的话。
     w_dec_base = sae.decoder.weight.detach().cpu().t() # (4096, 512)
     b_dec = sae.b_dec.detach().cpu()
     
     for i in range(n_layers):
-        # 写入 W_enc_i.safetensors (包含 b_enc_i, b_dec_i, W_enc_i)
         enc_dict = {
             f"b_dec_{i}": b_dec,
             f"b_enc_{i}": b_enc,
@@ -163,9 +147,6 @@ def export_clt_safetensors(sae, base_dir, n_layers=42):
         }
         save_file(enc_dict, os.path.join(out_dir, f"W_enc_{i}.safetensors"))
         
-        # 写入 W_dec_i.safetensors 
-        # 本层的概念在跨层 Transcoder 里写成具有向前连线的。这里我们为了简单兼容，保留它只发给下一层。
-        # W_dec 形状：(d_transcoder, n_layers - i, d_model)
         w_dec_i = w_dec_base.unsqueeze(1).repeat(1, n_layers - i, 1)
         dec_dict = {
             f"W_dec_{i}": w_dec_i
@@ -176,4 +157,16 @@ def export_clt_safetensors(sae, base_dir, n_layers=42):
 
 
 if __name__ == "__main__":
-    train_sae()
+    parser = argparse.ArgumentParser(description="Train Sparse Autoencoder (SAE) for TRM")
+    parser.add_argument("--activations_dir", type=str, default="CodeCircuit_TRM_Arc1/results/activations", help="Directory containing activation safetensors")
+    parser.add_argument("--save_path", type=str, default="CodeCircuit_TRM_Arc1/checkpoints/trm_transcoder_4096.pt", help="Path to save the SAE model")
+    parser.add_argument("--d_in", type=int, default=512, help="Input feature dimension")
+    parser.add_argument("--d_sae", type=int, default=4096, help="SAE projected sparse dimension")
+    parser.add_argument("--epochs", type=int, default=2, help="Number of training epochs")
+    parser.add_argument("--batch_size", type=int, default=4096, help="Batch size for training")
+    parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
+    parser.add_argument("--l1_coeff", type=float, default=1e-3, help="L1 penalty coefficient for sparsity")
+    
+    args = parser.parse_args()
+    train_sae(args)
+

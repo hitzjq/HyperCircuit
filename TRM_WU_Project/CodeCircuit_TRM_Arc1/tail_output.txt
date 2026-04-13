@@ -1,0 +1,42 @@
+site-packages/torch/utils/data/dataloader.py", line 741, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 801, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/src/train_transcoder.py", line 40, in __getitem__
+    return self.current_chunk_data[local_idx]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+IndexError: index 4616640 is out of bounds for dimension 0 with size 4616640
+──────────────────────────────────────────
+>> [STEP 2/3] 执行 Phase 1: 拓扑高配归因图阵列化
+Loading SAE Transcoder...
+Traceback (most recent call last):
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/src/extract_attribution.py", line 382, in <module>
+    main()
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/src/extract_attribution.py", line 322, in main
+    sae = load_sae(args.sae_path, device)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/src/extract_attribution.py", line 35, in load_sae
+    sae.load_state_dict(torch.load(sae_path, map_location=device))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/serialization.py", line 1530, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/serialization.py", line 795, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/serialization.py", line 776, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'CodeCircuit_TRM_Arc1/checkpoints/trm_transcoder_4096.pt'
+──────────────────────────────────────────
+>> [STEP 3/3] 执行 Phase 2: 高级拓扑特征降维压缩
+Loading graphs from: CodeCircuit_TRM_Arc1/results/attribution_graphs/*.pt
+未找到任何 .pt 文件，请检查路径。
+──────────────────────────────────────────
+🎉🎉🎉 ALL DONE! 完整流水线结束。 🎉🎉🎉
+最终投喂特征文件就绪: CodeCircuit_TRM_Arc1/results/cc_advanced_features.pt
