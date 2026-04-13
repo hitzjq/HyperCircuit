@@ -1,0 +1,78 @@
+
+=== WU4TRM_hp_lr1e5_plr1e3_wu2k_8gpus_0411_2003.log ===
+NaN: 0, Final train loss: 0.0134
+  Epoch 2000: pass@1=0.3475, pass@2=0.40125, pass@5=0.46, pass@10=0.47875, eval_loss=0.7451976
+  Epoch 4000: pass@1=0.3475, pass@2=0.40125, pass@5=0.45625, pass@10=0.48125, eval_loss=0.7384738
+  Epoch 6000: pass@1=0.35625, pass@2=0.41125, pass@5=0.455, pass@10=0.485, eval_loss=0.75769055
+  Epoch 8000: pass@1=0.36, pass@2=0.40875, pass@5=0.4575, pass@10=0.48, eval_loss=0.76690304
+  Epoch 10000: pass@1=0.35375, pass@2=0.415, pass@5=0.46375, pass@10=0.48, eval_loss=0.7801173
+  Epoch 12000: pass@1=0.3575, pass@2=0.41125, pass@5=0.46625, pass@10=0.4825, eval_loss=0.78207546
+  Epoch 14000: pass@1=0.35625, pass@2=0.4075, pass@5=0.46375, pass@10=0.485, eval_loss=0.7765839
+  Epoch 16000: pass@1=0.35875, pass@2=0.4075, pass@5=0.4575, pass@10=0.4875, eval_loss=0.7896428
+  Epoch 18000: pass@1=0.35125, pass@2=0.4075, pass@5=0.4575, pass@10=0.48625, eval_loss=0.7913862
+  Epoch 20000: pass@1=0.35625, pass@2=0.4075, pass@5=0.45625, pass@10=0.48625, eval_loss=0.78497046
+
+=== WU4TRM_hp_lr1e5_plr1e4_wu2k_8gpus_0411_2003.log ===
+NaN: 0, Final train loss: 0.0198
+  Epoch 2000: pass@1=0.3275, pass@2=0.39125, pass@5=0.435, pass@10=0.46375, eval_loss=0.7392802
+  Epoch 4000: pass@1=0.3425, pass@2=0.3925, pass@5=0.4525, pass@10=0.46625, eval_loss=0.75343496
+  Epoch 6000: pass@1=0.34, pass@2=0.3975, pass@5=0.4525, pass@10=0.475, eval_loss=0.75365955
+  Epoch 8000: pass@1=0.34375, pass@2=0.4025, pass@5=0.45875, pass@10=0.47625, eval_loss=0.75815254
+  Epoch 10000: pass@1=0.34125, pass@2=0.39625, pass@5=0.45375, pass@10=0.47375, eval_loss=0.7497994
+  Epoch 12000: pass@1=0.35375, pass@2=0.4075, pass@5=0.45375, pass@10=0.47375, eval_loss=0.73711205
+  Epoch 14000: pass@1=0.3525, pass@2=0.40375, pass@5=0.45375, pass@10=0.47125, eval_loss=0.73477775
+  Epoch 16000: pass@1=0.35375, pass@2=0.41125, pass@5=0.45375, pass@10=0.47375, eval_loss=0.75588626
+  Epoch 18000: pass@1=0.35625, pass@2=0.40875, pass@5=0.45625, pass@10=0.47125, eval_loss=0.76244575
+  Epoch 20000: pass@1=0.35625, pass@2=0.40625, pass@5=0.45375, pass@10=0.47125, eval_loss=0.75669646
+
+=== WU4TRM_hp_lr5e6_plr1e3_wu2k_8gpus_0412_1126.log ===
+NaN: 0, Final train loss: 0.0107
+  Epoch 2000: pass@1=0.3475, pass@2=0.4025, pass@5=0.44625, pass@10=0.47375, eval_loss=0.7364548
+  Epoch 4000: pass@1=0.35, pass@2=0.40625, pass@5=0.4425, pass@10=0.47125, eval_loss=0.75560397
+  Epoch 6000: pass@1=0.35125, pass@2=0.4075, pass@5=0.44875, pass@10=0.47625, eval_loss=0.76824653
+  Epoch 8000: pass@1=0.34625, pass@2=0.40375, pass@5=0.45125, pass@10=0.47875, eval_loss=0.7846731
+  Epoch 10000: pass@1=0.34625, pass@2=0.405, pass@5=0.44875, pass@10=0.47625, eval_loss=0.7649034
+  Epoch 12000: pass@1=0.35125, pass@2=0.4075, pass@5=0.44625, pass@10=0.47625, eval_loss=0.77920085
+  Epoch 14000: pass@1=0.35125, pass@2=0.4075, pass@5=0.44375, pass@10=0.47875, eval_loss=0.78653675
+  Epoch 16000: pass@1=0.35125, pass@2=0.405, pass@5=0.44625, pass@10=0.47625, eval_loss=0.78927225
+  Epoch 18000: pass@1=0.34875, pass@2=0.4025, pass@5=0.44375, pass@10=0.47875, eval_loss=0.79475534
+  Epoch 20000: pass@1=0.34875, pass@2=0.4025, pass@5=0.4425, pass@10=0.47625, eval_loss=0.79794407
+
+=== WU4TRM_hp_lr5e6_plr1e4_wu3k_8gpus_0412_1127.log ===
+NaN: 0, Final train loss: 0.0186
+  Epoch 2000: pass@1=0.34875, pass@2=0.40875, pass@5=0.45125, pass@10=0.475, eval_loss=0.7597918
+  Epoch 4000: pass@1=0.3525, pass@2=0.4025, pass@5=0.4525, pass@10=0.4825, eval_loss=0.7545399
+  Epoch 6000: pass@1=0.34875, pass@2=0.4025, pass@5=0.44875, pass@10=0.48, eval_loss=0.76964754
+  Epoch 8000: pass@1=0.3525, pass@2=0.41, pass@5=0.45, pass@10=0.485, eval_loss=0.75186765
+  Epoch 10000: pass@1=0.34875, pass@2=0.4075, pass@5=0.45375, pass@10=0.48, eval_loss=0.73697037
+  Epoch 12000: pass@1=0.35125, pass@2=0.4075, pass@5=0.45125, pass@10=0.485, eval_loss=0.74670744
+  Epoch 14000: pass@1=0.35125, pass@2=0.4075, pass@5=0.45375, pass@10=0.485, eval_loss=0.7474992
+  Epoch 16000: pass@1=0.35375, pass@2=0.4075, pass@5=0.45375, pass@10=0.485, eval_loss=0.7511812
+  Epoch 18000: pass@1=0.35375, pass@2=0.4075, pass@5=0.45125, pass@10=0.4825, eval_loss=0.75336784
+  Epoch 20000: pass@1=0.35375, pass@2=0.4075, pass@5=0.44625, pass@10=0.48125, eval_loss=0.75598556
+
+
+====== BASELINE: LoRA ckpt155422 (rank_logs) ======
+  LoRA_r128_ckpt155422_0320_0501.log: pass@1=0.35875, pass@2=0.405, pass@5=0.455
+  LoRA_r16_ckpt155422_0319_2129.log: pass@1=0.35875, pass@2=0.40875, pass@5=0.46
+  LoRA_r256_ckpt155422_0320_0736.log: pass@1=0.365, pass@2=0.40625, pass@5=0.45375
+  LoRA_r32_ckpt155422_0319_2359.log: pass@1=0.36125, pass@2=0.40625, pass@5=0.45375
+  LoRA_r64_ckpt155422_0320_0229.log: pass@1=0.36375, pass@2=0.405, pass@5=0.45625
+  LoRA_r8_ckpt155422_0319_1857.log: pass@1=0.36125, pass@2=0.39875, pass@5=0.45875
+
+====== BASELINE: Pretrain (E2E) ======
+
+====== BASELINE: LoRA lr_logs ckpt155422 ======
+  LoRA_lr1e-3_ckpt155422_0321_0058.log: pass@1=0.36125, pass@2=0.405, pass@5=0.45
+  LoRA_lr1e-4_ckpt155422_0321_1212.log: pass@1=0.35625, pass@2=0.40375, pass@5=0.4525
+  LoRA_lr1e-5_ckpt155422_0321_2326.log: pass@1=0.36125, pass@2=0.40125, pass@5=0.45
+  LoRA_lr5e-3_ckpt155422_0320_1920.log: pass@1=0.3675, pass@2=0.40875, pass@5=0.445
+  LoRA_lr5e-4_ckpt155422_0321_0635.log: pass@1=0.35625, pass@2=0.39875, pass@5=0.4475
+  LoRA_lr5e-5_ckpt155422_0321_1749.log: pass@1=0.36375, pass@2=0.4025, pass@5=0.44875
+
+====== BASELINE: baseline.log ======
+  ðŸ“Š RESULT step_51807: {'all': {'accuracy': np.float32(0.7939476), 'exact_accuracy': np.float32(0.09370035), 'lm_loss': np.float32(1.1531532), 'q_halt_accuracy': np.float32(0.71284163), 'q_halt_loss': np.float32(0.9441392), 'steps': np.float32(16.0)}, 'ARC/pass@1': 0.205, 'ARC/pass@2': 0.24625, 'ARC/pass@5': 0.29, 'ARC/pass@10': 0.3275, 'ARC/pass@100': 0.36125, 'ARC/pass@1000': 0.385}
+  ðŸ“Š RESULT step_103614: {'all': {'accuracy': np.float32(0.8467797), 'exact_accuracy': np.float32(0.23332167), 'lm_loss': np.float32(0.81959367), 'q_halt_accuracy': np.float32(0.7555279), 'q_halt_loss': np.float32(0.8799621), 'steps': np.float32(16.0)}, 'ARC/pass@1': 0.33875, 'ARC/pass@2': 0.3825, 'ARC/pass@5': 0.435, 'ARC/pass@10': 0.46875, 'ARC/pass@100': 0.51875, 'ARC/pass@1000': 0.525}
+  ðŸ“Š RESULT step_155422: {'all': {'accuracy': np.float32(0.8597448), 'exact_accuracy': np.float32(0.27260473), 'lm_loss': np.float32(0.7712755), 'q_halt_accuracy': np.float32(0.7275715), 'q_halt_loss': np.float32(1.1419976), 'steps': np.float32(16.0)}, 'ARC/pass@1': 0.36875, 'ARC/pass@2': 0.405, 'ARC/pass@5': 0.45, 'ARC/pass@10': 0.4675, 'ARC/pass@100': 0.535, 'ARC/pass@1000': 0.5475}
+  ðŸ“Š RESULT step_207229: {'all': {'accuracy': np.float32(0.8628674), 'exact_accuracy': np.float32(0.2837733), 'lm_loss': np.float32(0.7434391), 'q_halt_accuracy': np.float32(0.7098428), 'q_halt_loss': np.float32(1.1774882), 'steps': np.float32(16.0)}, 'ARC/pass@1': 0.38625, 'ARC/pass@2': 0.42125, 'ARC/pass@5': 0.47875, 'ARC/pass@10': 0.5025, 'ARC/pass@100': 0.55875, 'ARC/pass@1000': 0.56625}
+  ðŸ“Š RESULT step_259036: {'all': {'accuracy': np.float32(0.866346), 'exact_accuracy': np.float32(0.29029715), 'lm_loss': np.float32(0.7249093), 'q_halt_accuracy': np.float32(0.71264464), 'q_halt_loss': np.float32(1.1350936), 'steps': np.float32(16.0)}, 'ARC/pass@1': 0.38625, 'ARC/pass@2': 0.42125, 'ARC/pass@5': 0.46625, 'ARC/pass@10': 0.4875, 'ARC/pass@100': 0.55375, 'ARC/pass@1000': 0.56375}
