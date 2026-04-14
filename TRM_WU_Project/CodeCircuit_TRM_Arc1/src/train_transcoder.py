@@ -126,9 +126,9 @@ def train_sae(args):
     
     # 适配 CodeCircuit 的原生 VJP 必须伪装成 CLT 落盘
     base_dir = os.path.dirname(args.save_path)
-    export_clt_safetensors(sae, base_dir=base_dir, n_layers=42)
+    export_clt_safetensors(sae, base_dir=base_dir, n_layers=args.n_layers)
 
-def export_clt_safetensors(sae, base_dir, n_layers=42):
+def export_clt_safetensors(sae, base_dir, n_layers=32):
     from safetensors.torch import save_file
     
     out_dir = os.path.join(base_dir, "trm_cross_layer_transcoder")
@@ -166,6 +166,7 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", type=int, default=4096, help="Batch size for training")
     parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
     parser.add_argument("--l1_coeff", type=float, default=1e-3, help="L1 penalty coefficient for sparsity")
+    parser.add_argument("--n_layers", type=int, default=30, help="Number of virtual layers (H_cycles*(L_cycles+1)*L_layers)")
     
     args = parser.parse_args()
     train_sae(args)

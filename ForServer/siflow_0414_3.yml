@@ -1,0 +1,22 @@
+namePrefix: moe
+image: megatron
+imageVersion: "0.12.1"
+imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7
+type: pytorchjob
+priority: medium
+cmd: |
+  cd /mnt/kbei/ && source conda_init.sh && conda activate TRM && cd /mnt/kbei/HyperCircuit/TRM_WU_Project && bash scripts/run/withHypernet0414/run_0414_3.sh
+workers: 0
+resourcePool: safety-research
+instances:
+  - name: sci.g21-3
+    countPerPod: 8
+volumes:
+  - volumeName: pt-train
+    mountDir: /volume/pt-train
+  - volumeName: kbei
+    mountDir: /mnt/kbei
+enhancements:
+  faultTolerance:
+    enabled: true
+    maxRetryCount: 1

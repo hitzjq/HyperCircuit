@@ -202,10 +202,14 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
     }
 
     # Optimizers and lr
+    # Only include trainable TRM params (e.g. unfrozen embed_tokens) + all PG params
+    trainable_trm_params = [p for p in bundle["trm"].parameters() if p.requires_grad]
+    print(f"Trainable TRM params: {len(trainable_trm_params)}, PG params: {sum(1 for _ in bundle['pg'].parameters())}")
+
     if config.arch.puzzle_emb_ndim == 0:
         optimizers = [
             AdamATan2(
-                list(bundle["trm"].parameters()) + list(bundle["pg"].parameters()),
+                trainable_trm_params + list(bundle["pg"].parameters()),
                 lr=0,
                 weight_decay=config.weight_decay,
                 betas=(config.beta1, config.beta2)
@@ -223,7 +227,7 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
                 world_size=world_size
             ),
             AdamATan2(
-                list(bundle["trm"].parameters()) + list(bundle["pg"].parameters()),
+                trainable_trm_params + list(bundle["pg"].parameters()),
                 lr=0,
                 weight_decay=config.weight_decay,
                 betas=(config.beta1, config.beta2)
@@ -371,7 +375,11 @@ def train_batch(config: PretrainConfig, train_state: TrainState, batch: Any, glo
             # Full TRM forward mode: slow, but uses deep recursive features
             with torch.device("cuda"):
                 carry_p1 = trm_model.initial_carry(batch)
-            z_H = trm_model.model.inner(carry_p1.inner_carry, batch, return_hidden=True)
+            # Reset carry to proper init states (H_init, L_init) instead of empty/garbage data
+            B = batch["inputs"].shape[0]
+            reset_flag = torch.ones(B, dtype=torch.bool, device="cuda")
+            carry_p1_inner = trm_model.model.inner.reset_carry(reset_flag, carry_p1.inner_carry)
+            z_H = trm_model.model.inner(carry_p1_inner, batch, return_hidden=True)
     
     # Pass 2: Generate LoRA via HyperNetwork
     lora_dict = pg_model(z_H, scale=config.lora_alpha / config.lora_r)
@@ -392,12 +400,13 @@ def train_batch(config: PretrainConfig, train_state: TrainState, batch: Any, glo
 
     ((1 / global_batch_size) * loss).backward()
 
-    # Allreduce
+    # Allreduce + normalize by world_size
     if world_size > 1:
         for model_part in [trm_model, pg_model]:
             for param in model_part.parameters():
                 if param.grad is not None:
                     dist.all_reduce(param.grad)
+                    param.grad.div_(world_size)
     
     # Gradient Clipping to prevent NaN in large batch / HyperNetwork
     import itertools
@@ -478,7 +487,11 @@ def evaluate(
                 if config.condition_mode == "embedding_only":
                     z_H = train_state.model["trm"].model.inner._input_embeddings(batch["inputs"], batch["puzzle_identifiers"])
                 else:
-                    z_H = train_state.model["trm"].model.inner(carry.inner_carry, batch, return_hidden=True)
+                    # Reset carry to proper init states (H_init, L_init) instead of empty/garbage data
+                    B = batch["inputs"].shape[0]
+                    reset_flag = torch.ones(B, dtype=torch.bool, device="cuda")
+                    carry_inner = train_state.model["trm"].model.inner.reset_carry(reset_flag, carry.inner_carry)
+                    z_H = train_state.model["trm"].model.inner(carry_inner, batch, return_hidden=True)
                 lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
                 
                 for name, layer in train_state.model["lora_refs"].items():

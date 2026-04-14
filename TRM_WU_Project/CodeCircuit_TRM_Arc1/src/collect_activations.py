@@ -22,7 +22,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Global counter and buffers
 call_counter = 0
-SLICES_PER_FORWARD = 42 # 3 * 7 * 2
+SLICES_PER_FORWARD = 30 # H_cycles(3) * (L_cycles(4)+1) * L_layers(2) = 30
 activation_buffer = [] # format: list of [total_tokens, hidden_size]
 save_chunk_idx = 0
 BUFFER_MAX_SIZE = 100 * SLICES_PER_FORWARD # Adjust to fit your RAM/VRAM
@@ -95,7 +95,7 @@ def main():
     # Hardcoded base parameters reflecting `trm.yaml`
     model_cfg = {
         "H_cycles": 3,
-        "L_cycles": 6,
+        "L_cycles": 4,
         "H_layers": 0,
         "L_layers": 2,
         "hidden_size": 512,
@@ -162,7 +162,7 @@ def main():
             with torch.device(device):
                 carry = model.initial_carry(batch)
             
-            # Forward pass (this will automatically hit the hooks 42 times per sample).
+            # Forward pass (this will automatically hit the hooks 30 times per sample).
             model(carry, batch)
             
             # Check if buffer is full and save

@@ -1,0 +1,672 @@
+========================================
+🚀 LoRA Finetuning Initialized 🚀
+Checkpoint   : /mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422
+Dataset      : ['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']
+Dataset Test : []
+Batch Size   : 4096
+Learning Rate: 2e-05
+LoRA R       : 16
+LoRA Alpha   : 32
+========================================
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Loading checkpoint /mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=16, dropout=0.0...
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=16, dropout=0.0...
+Initialized HyperNetwork (PG) with dtype: torch.bfloat16
+Token embedding unfrozen for finetuning.
+Initialized HyperNetwork (PG) with dtype: torch.bfloat16
+Token embedding unfrozen for finetuning.
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=16, dropout=0.0...
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=16, dropout=0.0...
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=16, dropout=0.0...
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=16, dropout=0.0...
+Initialized HyperNetwork (PG) with dtype: torch.bfloat16
+Token embedding unfrozen for finetuning.
+Initialized HyperNetwork (PG) with dtype: torch.bfloat16
+Token embedding unfrozen for finetuning.
+Initialized HyperNetwork (PG) with dtype: torch.bfloat16
+Initialized HyperNetwork (PG) with dtype: torch.bfloat16
+Token embedding unfrozen for finetuning.
+Token embedding unfrozen for finetuning.
+TinyRecursiveReasoningModel_ACTV1(
+  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): CastedLinear()
+    (q_head): CastedLinear()
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Injecting LoRA layers with r=16, dropout=0.0...
+Initialized HyperNetwork (PG) with dtype: torch.bfloat16
+Token embedding unfrozen for finetuning.
+[0 missing, 0 unexpected]: Checkpoint loaded.
+Injecting LoRA layers with r=16, dropout=0.0...
+Initialized HyperNetwork (PG) with dtype: torch.bfloat16
+Token embedding unfrozen for finetuning.
+[Rank 6, World Size 8]: Epoch 0
+[Rank 3, World Size 8]: Epoch 0
+[Rank 1, World Size 8]: Epoch 0
+[Rank 2, World Size 8]: Epoch 0
+[Rank 4, World Size 8]: Epoch 0
+[Rank 5, World Size 8]: Epoch 0
+[Rank 7, World Size 8]: Epoch 0
+  0%|          | 0/19433 [00:00<?, ?it/s]⏭️ BASELINE EVAL: Skipped by config.skip_baseline_eval=True
+[Rank 0, World Size 8]: Epoch 0
+[2026-04-13 19:58:29] TRAIN (Epoch 0)
+Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=4', 'pg_d_model=256', 'lora_r=16', 'lora_alpha=32', 'weight_decay=0.1', "data_paths=['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']", '+checkpoint_path=checkpoints/WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', '+load_checkpoint=/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422', '+project_name=trm-hp-explore', '+run_name=WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', 'skip_baseline_eval=True']
+Traceback (most recent call last):
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 767, in launch
+    metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 393, in train_batch
+    ((1 / global_batch_size) * loss).backward()
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/graph.py", line 879, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/function.py", line 317, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2849, in backward
+    return impl_fn()
+           ^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2835, in impl_fn
+    out = CompiledFunction._backward_impl(ctx, all_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 3019, in _backward_impl
+    out = call_func_at_runtime_with_args(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/utils.py", line 138, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1258, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 683, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/utils.py", line 3404, in run
+    out = model(new_inputs)
+          ^^^^^^^^^^^^^^^^^
+  File "/tmp/torchinductor_root/sw/cswi3cow7mbi2mlie4vbdqnsnh2ztot6hgn52wyucuspqxskjoev.py", line 2364, in call
+    buf29 = empty_strided_cuda((512, 916, 3072), (2813952, 3072, 1), torch.bfloat16)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 0 has a total capacity of 139.81 GiB of which 1.14 GiB is free. Including non-PyTorch memory, this process has 138.66 GiB memory in use. Of the allocated memory 135.32 GiB is allocated by PyTorch, and 1.76 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=4', 'pg_d_model=256', 'lora_r=16', 'lora_alpha=32', 'weight_decay=0.1', "data_paths=['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']", '+checkpoint_path=checkpoints/WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', '+load_checkpoint=/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422', '+project_name=trm-hp-explore', '+run_name=WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', 'skip_baseline_eval=True']
+Traceback (most recent call last):
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 767, in launch
+    metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 393, in train_batch
+    ((1 / global_batch_size) * loss).backward()
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/graph.py", line 879, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/function.py", line 317, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2849, in backward
+    return impl_fn()
+           ^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2835, in impl_fn
+    out = CompiledFunction._backward_impl(ctx, all_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 3019, in _backward_impl
+    out = call_func_at_runtime_with_args(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/utils.py", line 138, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1258, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 683, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/utils.py", line 3404, in run
+    out = model(new_inputs)
+          ^^^^^^^^^^^^^^^^^
+  File "/tmp/torchinductor_root/xz/cxzm5jasxqdkfae5nzyaffnucetopnkwclg2wemj26naov2fuwm3.py", line 2364, in call
+    buf29 = empty_strided_cuda((512, 916, 3072), (2813952, 3072, 1), torch.bfloat16)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 1 has a total capacity of 139.81 GiB of which 2.06 GiB is free. Including non-PyTorch memory, this process has 137.74 GiB memory in use. Of the allocated memory 135.31 GiB is allocated by PyTorch, and 868.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=4', 'pg_d_model=256', 'lora_r=16', 'lora_alpha=32', 'weight_decay=0.1', "data_paths=['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']", '+checkpoint_path=checkpoints/WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', '+load_checkpoint=/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422', '+project_name=trm-hp-explore', '+run_name=WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', 'skip_baseline_eval=True']
+Traceback (most recent call last):
+Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=4', 'pg_d_model=256', 'lora_r=16', 'lora_alpha=32', 'weight_decay=0.1', "data_paths=['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']", '+checkpoint_path=checkpoints/WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', '+load_checkpoint=/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422', '+project_name=trm-hp-explore', '+run_name=WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', 'skip_baseline_eval=True']
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 767, in launch
+    metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 393, in train_batch
+    ((1 / global_batch_size) * loss).backward()
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/graph.py", line 879, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/function.py", line 317, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2849, in backward
+    return impl_fn()
+           ^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2835, in impl_fn
+    out = CompiledFunction._backward_impl(ctx, all_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 3019, in _backward_impl
+    out = call_func_at_runtime_with_args(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/utils.py", line 138, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1258, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 683, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/utils.py", line 3404, in run
+    out = model(new_inputs)
+          ^^^^^^^^^^^^^^^^^
+  File "/tmp/torchinductor_root/so/csobub3s66j4wysiveuvwr64ak5h5yboqbmblics37hte2vid6td.py", line 2364, in call
+    buf29 = empty_strided_cuda((512, 916, 3072), (2813952, 3072, 1), torch.bfloat16)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 2 has a total capacity of 139.81 GiB of which 2.06 GiB is free. Including non-PyTorch memory, this process has 137.74 GiB memory in use. Of the allocated memory 135.31 GiB is allocated by PyTorch, and 868.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=4', 'pg_d_model=256', 'lora_r=16', 'lora_alpha=32', 'weight_decay=0.1', "data_paths=['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']", '+checkpoint_path=checkpoints/WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', '+load_checkpoint=/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422', '+project_name=trm-hp-explore', '+run_name=WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', 'skip_baseline_eval=True']
+Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=4', 'pg_d_model=256', 'lora_r=16', 'lora_alpha=32', 'weight_decay=0.1', "data_paths=['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']", '+checkpoint_path=checkpoints/WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', '+load_checkpoint=/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422', '+project_name=trm-hp-explore', '+run_name=WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', 'skip_baseline_eval=True']
+Traceback (most recent call last):
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 767, in launch
+    metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 393, in train_batch
+    ((1 / global_batch_size) * loss).backward()
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/graph.py", line 879, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/function.py", line 317, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2849, in backward
+    return impl_fn()
+           ^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2835, in impl_fn
+    out = CompiledFunction._backward_impl(ctx, all_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 3019, in _backward_impl
+    out = call_func_at_runtime_with_args(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/utils.py", line 138, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1258, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 683, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/utils.py", line 3404, in run
+    out = model(new_inputs)
+          ^^^^^^^^^^^^^^^^^
+  File "/tmp/torchinductor_root/ln/cln7wqjqgbt2gl3mg4kzwab4ysckwzszllzzqiicuq4vfu2hgwtl.py", line 2364, in call
+    buf29 = empty_strided_cuda((512, 916, 3072), (2813952, 3072, 1), torch.bfloat16)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 5 has a total capacity of 139.81 GiB of which 2.06 GiB is free. Including non-PyTorch memory, this process has 137.74 GiB memory in use. Of the allocated memory 135.31 GiB is allocated by PyTorch, and 868.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=4', 'pg_d_model=256', 'lora_r=16', 'lora_alpha=32', 'weight_decay=0.1', "data_paths=['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']", '+checkpoint_path=checkpoints/WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', '+load_checkpoint=/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422', '+project_name=trm-hp-explore', '+run_name=WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', 'skip_baseline_eval=True']
+Traceback (most recent call last):
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 767, in launch
+    metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 393, in train_batch
+    ((1 / global_batch_size) * loss).backward()
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/graph.py", line 879, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/function.py", line 317, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2849, in backward
+    return impl_fn()
+           ^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2835, in impl_fn
+    out = CompiledFunction._backward_impl(ctx, all_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 3019, in _backward_impl
+    out = call_func_at_runtime_with_args(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/utils.py", line 138, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1258, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 683, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/utils.py", line 3404, in run
+    out = model(new_inputs)
+          ^^^^^^^^^^^^^^^^^
+  File "/tmp/torchinductor_root/7z/c7zk3mizimhejomesp2d4dbiityewlkttcqz3pos6uehmfpdd6yo.py", line 2364, in call
+    buf29 = empty_strided_cuda((512, 916, 3072), (2813952, 3072, 1), torch.bfloat16)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 6 has a total capacity of 139.81 GiB of which 2.06 GiB is free. Including non-PyTorch memory, this process has 137.74 GiB memory in use. Of the allocated memory 135.31 GiB is allocated by PyTorch, and 868.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=4', 'pg_d_model=256', 'lora_r=16', 'lora_alpha=32', 'weight_decay=0.1', "data_paths=['/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000']", '+checkpoint_path=checkpoints/WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', '+load_checkpoint=/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_155422', '+project_name=trm-hp-explore', '+run_name=WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958', 'skip_baseline_eval=True']
+Traceback (most recent call last):
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 767, in launch
+    metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 393, in train_batch
+    ((1 / global_batch_size) * loss).backward()
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/graph.py", line 879, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/function.py", line 317, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2849, in backward
+    return impl_fn()
+           ^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2835, in impl_fn
+    out = CompiledFunction._backward_impl(ctx, all_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 3019, in _backward_impl
+    out = call_func_at_runtime_with_args(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/utils.py", line 138, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1258, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 683, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/utils.py", line 3404, in run
+    out = model(new_inputs)
+          ^^^^^^^^^^^^^^^^^
+  File "/tmp/torchinductor_root/lc/clcvraqrvdsyq5yni6mxdpallny525z7nfpo53ebmsbfy5e3watq.py", line 2364, in call
+    buf29 = empty_strided_cuda((512, 916, 3072), (2813952, 3072, 1), torch.bfloat16)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 7 has a total capacity of 139.81 GiB of which 2.06 GiB is free. Including non-PyTorch memory, this process has 137.74 GiB memory in use. Of the allocated memory 135.31 GiB is allocated by PyTorch, and 868.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Traceback (most recent call last):
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 767, in launch
+    metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 393, in train_batch
+    ((1 / global_batch_size) * loss).backward()
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/graph.py", line 879, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/function.py", line 317, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2849, in backward
+    return impl_fn()
+           ^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2835, in impl_fn
+    out = CompiledFunction._backward_impl(ctx, all_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 3019, in _backward_impl
+    out = call_func_at_runtime_with_args(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/utils.py", line 138, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1258, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 683, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/utils.py", line 3404, in run
+    out = model(new_inputs)
+          ^^^^^^^^^^^^^^^^^
+  File "/tmp/torchinductor_root/by/cbydtjgas2evlxxqtl2r73qzye4dwkqnnxhlcd5dypdyt3ipvwqj.py", line 2364, in call
+    buf29 = empty_strided_cuda((512, 916, 3072), (2813952, 3072, 1), torch.bfloat16)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 3 has a total capacity of 139.81 GiB of which 2.06 GiB is free. Including non-PyTorch memory, this process has 137.74 GiB memory in use. Of the allocated memory 135.31 GiB is allocated by PyTorch, and 868.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Traceback (most recent call last):
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 767, in launch
+    metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/HyperCircuit/TRM_WU_Project/meta_train.py", line 393, in train_batch
+    ((1 / global_batch_size) * loss).backward()
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/graph.py", line 879, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/autograd/function.py", line 317, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2849, in backward
+    return impl_fn()
+           ^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 2835, in impl_fn
+    out = CompiledFunction._backward_impl(ctx, all_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 3019, in _backward_impl
+    out = call_func_at_runtime_with_args(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/utils.py", line 138, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1258, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 683, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/_inductor/utils.py", line 3404, in run
+    out = model(new_inputs)
+          ^^^^^^^^^^^^^^^^^
+  File "/tmp/torchinductor_root/4d/c4dzla5fd42vakf6hl7hurjqen6qao7jtaeqjxszf4vfyd274eza.py", line 2364, in call
+    buf29 = empty_strided_cuda((512, 916, 3072), (2813952, 3072, 1), torch.bfloat16)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 4 has a total capacity of 139.81 GiB of which 2.06 GiB is free. Including non-PyTorch memory, this process has 137.74 GiB memory in use. Of the allocated memory 135.31 GiB is allocated by PyTorch, and 868.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+  0%|          | 0/19433 [00:12<?, ?it/s]
+[rank0]:[W413 19:58:42.023942190 ProcessGroupNCCL.cpp:1593] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W0413 19:58:43.272000 3183 site-packages/torch/distributed/elastic/multiprocessing/api.py:1012] Sending process 3192 closing signal SIGTERM
+W0413 19:58:43.272000 3183 site-packages/torch/distributed/elastic/multiprocessing/api.py:1012] Sending process 3194 closing signal SIGTERM
+W0413 19:58:43.273000 3183 site-packages/torch/distributed/elastic/multiprocessing/api.py:1012] Sending process 3195 closing signal SIGTERM
+W0413 19:58:43.273000 3183 site-packages/torch/distributed/elastic/multiprocessing/api.py:1012] Sending process 3196 closing signal SIGTERM
+W0413 19:58:43.273000 3183 site-packages/torch/distributed/elastic/multiprocessing/api.py:1012] Sending process 3197 closing signal SIGTERM
+W0413 19:58:43.273000 3183 site-packages/torch/distributed/elastic/multiprocessing/api.py:1012] Sending process 3198 closing signal SIGTERM
+W0413 19:58:43.274000 3183 site-packages/torch/distributed/elastic/multiprocessing/api.py:1012] Sending process 3199 closing signal SIGTERM
+E0413 19:58:44.592000 3183 site-packages/torch/distributed/elastic/multiprocessing/api.py:986] failed (exitcode: 1) local_rank: 1 (pid: 3193) of binary: /mnt/kbei/miniconda/envs/TRM/bin/python
+Traceback (most recent call last):
+  File "/mnt/kbei/miniconda/envs/TRM/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 366, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/distributed/run.py", line 990, in main
+    run(args)
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/distributed/run.py", line 981, in run
+    elastic_launch(
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 170, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kbei/miniconda/envs/TRM/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 317, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+meta_train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-04-13_19:58:44
+  host      : moe-f1dc0615-master-0
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 3192)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3192
+[2]:
+  time      : 2026-04-13_19:58:44
+  host      : moe-f1dc0615-master-0
+  rank      : 2 (local_rank: 2)
+  exitcode  : -15 (pid: 3194)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3194
+[3]:
+  time      : 2026-04-13_19:58:44
+  host      : moe-f1dc0615-master-0
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 3195) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2026-04-13_19:58:44
+  host      : moe-f1dc0615-master-0
+  rank      : 4 (local_rank: 4)
+  exitcode  : -15 (pid: 3196)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3196
+[5]:
+  time      : 2026-04-13_19:58:44
+  host      : moe-f1dc0615-master-0
+  rank      : 5 (local_rank: 5)
+  exitcode  : -15 (pid: 3197)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3197
+[6]:
+  time      : 2026-04-13_19:58:44
+  host      : moe-f1dc0615-master-0
+  rank      : 6 (local_rank: 6)
+  exitcode  : -15 (pid: 3198)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3198
+[7]:
+  time      : 2026-04-13_19:58:44
+  host      : moe-f1dc0615-master-0
+  rank      : 7 (local_rank: 7)
+  exitcode  : -15 (pid: 3199)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3199
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-04-13_19:58:43
+  host      : moe-f1dc0615-master-0
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3193) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

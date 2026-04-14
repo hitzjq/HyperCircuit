@@ -1,0 +1,113 @@
+
+=== WU4TRM_L1_aggressive_lr2e5_plr2e3_8gpus_0413_2020.log (7280274 bytes) ===
+  NaN count: 98699
+  Total steps target: 194334
+  First: Step 1, lm_loss=0.0097, acc=0.9997
+  Last:  Step 1, lm_loss=0.0097, acc=0.9997
+  Eval count: 5
+    Epoch 5000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+    Epoch 10000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+    Epoch 15000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+    Epoch 20000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+    Epoch 25000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+
+=== WU4TRM_L2_steady_lr1e5_plr2e4_8gpus_0413_2020.log (7243963 bytes) ===
+  NaN count: 98238
+  Total steps target: 194334
+  First: Step 1, lm_loss=0.0097, acc=0.9997
+  Last:  Step 1, lm_loss=0.0097, acc=0.9997
+  Eval count: 4
+    Epoch 5000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+    Epoch 10000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+    Epoch 15000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+    Epoch 20000: p@1=0.0, p@2=0.0, p@5=0.0, eval_loss=?
+
+=== WU4TRM_S1_pgblocks3_bs2048_8gpus_0413_2007.log (6443498 bytes) ===
+  Total steps target: 38866
+  First: Step 1, lm_loss=0.0119, acc=0.9989
+  Last:  Step 38850, lm_loss=0.0091, acc=0.9997
+  Eval count: 10
+    Epoch 2000: p@1=0.33875, p@2=0.3875, p@5=0.4475, eval_loss=0.7634395
+    Epoch 4000: p@1=0.3375, p@2=0.395, p@5=0.45875, eval_loss=0.7568412
+    Epoch 6000: p@1=0.34875, p@2=0.4075, p@5=0.46625, eval_loss=0.75056756
+    Epoch 8000: p@1=0.34625, p@2=0.405, p@5=0.46, eval_loss=0.77673584
+    Epoch 10000: p@1=0.35125, p@2=0.405, p@5=0.46, eval_loss=0.79535323
+    Epoch 12000: p@1=0.35375, p@2=0.4, p@5=0.4625, eval_loss=0.76984316
+    Epoch 14000: p@1=0.35, p@2=0.4075, p@5=0.45875, eval_loss=0.7697304
+    Epoch 16000: p@1=0.345, p@2=0.4, p@5=0.46, eval_loss=0.78672767
+    Epoch 18000: p@1=0.34875, p@2=0.3925, p@5=0.46, eval_loss=0.7978816
+    Epoch 20000: p@1=0.34875, p@2=0.3925, p@5=0.46, eval_loss=0.7857312
+
+=== WU4TRM_S1_pgblocks3_bs4096_8gpus_0413_1956.log (43010 bytes) ===
+  ERRORS FOUND (37 lines):
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+  Total steps target: 19433
+  First: Step 1, lm_loss=0.0102, acc=0.9994
+  Last:  Step 1, lm_loss=0.0102, acc=0.9994
+  No eval results!
+
+=== WU4TRM_S2_pgblocks4_bs2048_8gpus_0414_1120.log (542926 bytes) ===
+  NaN count: 7851
+  Total steps target: 38866
+  First: Step 1, lm_loss=0.0119, acc=0.9989
+  Last:  Step 1, lm_loss=0.0119, acc=0.9989
+  No eval results!
+
+=== WU4TRM_S2_pgblocks4_bs4096_8gpus_0413_1958.log (47033 bytes) ===
+  ERRORS FOUND (38 lines):
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Traceback (most recent call last):
+    torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 0 has a total capacity of 139.81 GiB of which 1.14 GiB is free. Including non-PyTorch memory, this process has 138.66 GiB me
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Traceback (most recent call last):
+  No training step logs found!
+  No eval results!
+
+=== WU4TRM_S3_pgdim384_bs4096_8gpus_0413_1958.log (42604 bytes) ===
+  ERRORS FOUND (36 lines):
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Traceback (most recent call last):
+    torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 1 has a total capacity of 139.81 GiB of which 1.10 GiB is free. Including non-PyTorch memory, this process has 138.70 GiB me
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+  Total steps target: 19433
+  First: Step 1, lm_loss=0.0102, acc=0.9993
+  Last:  Step 1, lm_loss=0.0102, acc=0.9993
+  No eval results!
+
+=== WU4TRM_S4_pgdim512_bs4096_8gpus_0413_1959.log (47113 bytes) ===
+  ERRORS FOUND (42 lines):
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Traceback (most recent call last):
+    torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.68 GiB. GPU 6 has a total capacity of 139.81 GiB of which 2.13 GiB is free. Including non-PyTorch memory, this process has 137.67 GiB me
+    Error executing job with overrides: ['global_batch_size=4096', 'lr=2e-5', 'puzzle_emb_lr=2e-3', 'lr_warmup_steps=2000', 'epochs=20000', 'eval_interval=2000', 'condition_mode=full_trm', 'pg_num_blocks=
+    Traceback (most recent call last):
+  No training step logs found!
+  No eval results!
+
+=== WU4TRM_S5_lorar8_bs2048_8gpus_0413_2020.log (6443149 bytes) ===
+  Total steps target: 38866
+  First: Step 1, lm_loss=0.0119, acc=0.9990
+  Last:  Step 38850, lm_loss=0.0109, acc=0.9996
+  Eval count: 10
+    Epoch 2000: p@1=0.3475, p@2=0.39375, p@5=0.4475, eval_loss=0.7608317
+    Epoch 4000: p@1=0.3475, p@2=0.39125, p@5=0.44, eval_loss=0.74594396
+    Epoch 6000: p@1=0.35625, p@2=0.39875, p@5=0.43875, eval_loss=0.7560477
+    Epoch 8000: p@1=0.35, p@2=0.39625, p@5=0.44375, eval_loss=0.80082715
+    Epoch 10000: p@1=0.3475, p@2=0.39625, p@5=0.44875, eval_loss=0.80353683
+    Epoch 12000: p@1=0.35, p@2=0.39375, p@5=0.45125, eval_loss=0.80007774
+    Epoch 14000: p@1=0.34875, p@2=0.395, p@5=0.4525, eval_loss=0.78752214
+    Epoch 16000: p@1=0.35125, p@2=0.4, p@5=0.45375, eval_loss=0.808168
+    Epoch 18000: p@1=0.35125, p@2=0.4025, p@5=0.45625, eval_loss=0.8016745
+    Epoch 20000: p@1=0.35375, p@2=0.405, p@5=0.45125, eval_loss=0.802665
+
+=== WU4TRM_S6_wd001_bs2048_8gpus_0414_1127.log (542915 bytes) ===
+  NaN count: 7855
+  Total steps target: 38866
+  First: Step 1, lm_loss=0.0119, acc=0.9990
+  Last:  Step 1, lm_loss=0.0119, acc=0.9990
+  No eval results!

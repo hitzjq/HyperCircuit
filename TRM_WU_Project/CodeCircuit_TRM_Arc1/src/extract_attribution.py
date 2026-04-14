@@ -61,7 +61,7 @@ def load_trm_model(config_path, ckpt_path, device):
 
     model_cfg = {
         "H_cycles": 3,
-        "L_cycles": 6,
+        "L_cycles": 4,
         "H_layers": 0,
         "L_layers": 2,
         "hidden_size": 512,
@@ -143,7 +143,7 @@ def compute_attribution_scores(wrapper_output: AttributionOutput, labels: torch.
     return attributions, loss.item()
 
 
-def build_layer_histogram(attributions, max_virtual_layers=42):
+def build_layer_histogram(attributions, max_virtual_layers=30):
     """
     构建层分布直方图。
     
