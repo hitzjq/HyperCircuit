@@ -1,233 +1,0 @@
-========================================
-🚀 LoRA Finetuning Initialized 🚀
-Checkpoint   : pretrained_base_ckpt/ARC-AGI-1/step_155718
-Dataset      : ['data/arc1concept-aug-1000']
-Dataset Test : []
-Batch Size   : 256
-Learning Rate: 0.0001
-LoRA R       : 16
-LoRA Alpha   : 32
-========================================
-TinyRecursiveReasoningModel_ACTV1(
-  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
-    (embed_tokens): CastedEmbedding()
-    (lm_head): CastedLinear()
-    (q_head): CastedLinear()
-    (puzzle_emb): CastedSparseEmbedding()
-    (rotary_emb): RotaryEmbedding()
-    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
-      (layers): ModuleList(
-        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
-          (self_attn): Attention(
-            (qkv_proj): CastedLinear()
-            (o_proj): CastedLinear()
-          )
-          (mlp): SwiGLU(
-            (gate_up_proj): CastedLinear()
-            (down_proj): CastedLinear()
-          )
-        )
-      )
-    )
-  )
-)
-TinyRecursiveReasoningModel_ACTV1(
-  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
-    (embed_tokens): CastedEmbedding()
-    (lm_head): CastedLinear()
-    (q_head): CastedLinear()
-    (puzzle_emb): CastedSparseEmbedding()
-    (rotary_emb): RotaryEmbedding()
-    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
-      (layers): ModuleList(
-        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
-          (self_attn): Attention(
-            (qkv_proj): CastedLinear()
-            (o_proj): CastedLinear()
-          )
-          (mlp): SwiGLU(
-            (gate_up_proj): CastedLinear()
-            (down_proj): CastedLinear()
-          )
-        )
-      )
-    )
-  )
-)
-Injecting LoRA layers with r=16, dropout=0.0...
-TinyRecursiveReasoningModel_ACTV1(
-  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
-    (embed_tokens): CastedEmbedding()
-    (lm_head): CastedLinear()
-    (q_head): CastedLinear()
-    (puzzle_emb): CastedSparseEmbedding()
-    (rotary_emb): RotaryEmbedding()
-    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
-      (layers): ModuleList(
-        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
-          (self_attn): Attention(
-            (qkv_proj): CastedLinear()
-            (o_proj): CastedLinear()
-          )
-          (mlp): SwiGLU(
-            (gate_up_proj): CastedLinear()
-            (down_proj): CastedLinear()
-          )
-        )
-      )
-    )
-  )
-)
-Injecting LoRA layers with r=16, dropout=0.0...
-Injecting LoRA layers with r=16, dropout=0.0...
-TinyRecursiveReasoningModel_ACTV1(
-  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
-    (embed_tokens): CastedEmbedding()
-    (lm_head): CastedLinear()
-    (q_head): CastedLinear()
-    (puzzle_emb): CastedSparseEmbedding()
-    (rotary_emb): RotaryEmbedding()
-    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
-      (layers): ModuleList(
-        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
-          (self_attn): Attention(
-            (qkv_proj): CastedLinear()
-            (o_proj): CastedLinear()
-          )
-          (mlp): SwiGLU(
-            (gate_up_proj): CastedLinear()
-            (down_proj): CastedLinear()
-          )
-        )
-      )
-    )
-  )
-)
-Injecting LoRA layers with r=16, dropout=0.0...
-Initialized HyperNetwork (PG) with dtype: torch.bfloat16
-Initialized HyperNetwork (PG) with dtype: torch.bfloat16
-Initialized HyperNetwork (PG) with dtype: torch.bfloat16
-Token embedding unfrozen for finetuning.
-Token embedding unfrozen for finetuning.
-Token embedding unfrozen for finetuning.
-Initialized HyperNetwork (PG) with dtype: torch.bfloat16
-Token embedding unfrozen for finetuning.
-TinyRecursiveReasoningModel_ACTV1(
-  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
-    (embed_tokens): CastedEmbedding()
-    (lm_head): CastedLinear()
-    (q_head): CastedLinear()
-    (puzzle_emb): CastedSparseEmbedding()
-    (rotary_emb): RotaryEmbedding()
-    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
-      (layers): ModuleList(
-        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
-          (self_attn): Attention(
-            (qkv_proj): CastedLinear()
-            (o_proj): CastedLinear()
-          )
-          (mlp): SwiGLU(
-            (gate_up_proj): CastedLinear()
-            (down_proj): CastedLinear()
-          )
-        )
-      )
-    )
-  )
-)
-Injecting LoRA layers with r=16, dropout=0.0...
-TinyRecursiveReasoningModel_ACTV1(
-  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
-    (embed_tokens): CastedEmbedding()
-    (lm_head): CastedLinear()
-    (q_head): CastedLinear()
-    (puzzle_emb): CastedSparseEmbedding()
-    (rotary_emb): RotaryEmbedding()
-    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
-      (layers): ModuleList(
-        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
-          (self_attn): Attention(
-            (qkv_proj): CastedLinear()
-            (o_proj): CastedLinear()
-          )
-          (mlp): SwiGLU(
-            (gate_up_proj): CastedLinear()
-            (down_proj): CastedLinear()
-          )
-        )
-      )
-    )
-  )
-)
-Injecting LoRA layers with r=16, dropout=0.0...
-TinyRecursiveReasoningModel_ACTV1(
-  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
-    (embed_tokens): CastedEmbedding()
-    (lm_head): CastedLinear()
-    (q_head): CastedLinear()
-    (puzzle_emb): CastedSparseEmbedding()
-    (rotary_emb): RotaryEmbedding()
-    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
-      (layers): ModuleList(
-        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
-          (self_attn): Attention(
-            (qkv_proj): CastedLinear()
-            (o_proj): CastedLinear()
-          )
-          (mlp): SwiGLU(
-            (gate_up_proj): CastedLinear()
-            (down_proj): CastedLinear()
-          )
-        )
-      )
-    )
-  )
-)
-Injecting LoRA layers with r=16, dropout=0.0...
-TinyRecursiveReasoningModel_ACTV1(
-  (inner): TinyRecursiveReasoningModel_ACTV1_Inner(
-    (embed_tokens): CastedEmbedding()
-    (lm_head): CastedLinear()
-    (q_head): CastedLinear()
-    (puzzle_emb): CastedSparseEmbedding()
-    (rotary_emb): RotaryEmbedding()
-    (L_level): TinyRecursiveReasoningModel_ACTV1ReasoningModule(
-      (layers): ModuleList(
-        (0-1): 2 x TinyRecursiveReasoningModel_ACTV1Block(
-          (self_attn): Attention(
-            (qkv_proj): CastedLinear()
-            (o_proj): CastedLinear()
-          )
-          (mlp): SwiGLU(
-            (gate_up_proj): CastedLinear()
-            (down_proj): CastedLinear()
-          )
-        )
-      )
-    )
-  )
-)
-Loading checkpoint pretrained_base_ckpt/ARC-AGI-1/step_155718
-Initialized HyperNetwork (PG) with dtype: torch.bfloat16
-Token embedding unfrozen for finetuning.
-Initialized HyperNetwork (PG) with dtype: torch.bfloat16
-Token embedding unfrozen for finetuning.
-Initialized HyperNetwork (PG) with dtype: torch.bfloat16
-Token embedding unfrozen for finetuning.
-[0 missing, 0 unexpected]: Checkpoint loaded.
-Injecting LoRA layers with r=16, dropout=0.0...
-Initialized HyperNetwork (PG) with dtype: torch.bfloat16
-Token embedding unfrozen for finetuning.
-[Rank 4, World Size 8]: Epoch 0
-[Rank 6, World Size 8]: Epoch 0
-[Rank 7, World Size 8]: Epoch 0
-[Rank 5, World Size 8]: Epoch 0
-[Rank 1, World Size 8]: Epoch 0
-[Rank 2, World Size 8]: Epoch 0
-[Rank 3, World Size 8]: Epoch 0
-  0%|          | 0/310935 [00:00<?, ?it/s]⏭️ BASELINE EVAL: Skipped by config.skip_baseline_eval=True
-[Rank 0, World Size 8]: Epoch 0
-[2026-04-02 12:40:22] TRAIN (Epoch 0)
-  0%|          | 0/310935 [00:07<?, ?it/s, loss=0.0029]  0%|          | 1/310935 [00:07<650:18:34,  7.53s/it, loss=0.0029][2026-04-02 12:40:29] Step 1/310935 | lm_loss=0.0029 | acc=0.9993 | exact_acc=0.9779 | lr=0.000000
-  0%|          | 1/310935 [00:07<650:18:34,  7.53s/it, loss=0.0119]  0%|          | 2/310935 [00:07<287:50:33,  3.33s/it, loss=0.0119]  0%|          | 2/310935 [00:08<287:50:33,  3.33s/it, loss=0.0018]  0%|          | 3/310935 [00:08<172:07:41,  1.99s/it, loss=0.0018]  0%|          | 3/310935 [00:08<172:07:41,  1.99s/it, loss=0.0026]  0%|          | 4/310935 [00:08<117:44:04,  1.36s/it, loss=0.0026]  0%|          | 4/310935 [00:09<117:44:04,  1.36s/it, loss=0.0045]  0%|          | 5/310935 [00:09<87:37:21,  1.01s/it, loss=0.0045]   0%|          | 5/310935 [00:09<87:37:21,  1.01s/it, loss=0.0043]  0%|          | 6/310935 [00:09<69:31:52,  1.24it/s, loss=0.0043]  0%|          | 6/310935 [00:09<69:31:52,  1.24it/s, loss=0.0069]  0%|          | 7/310935 [00:09<57:59:35,  1.49it/s, loss=0.0069]  0%|          | 7/310935 [00:10<57:59:35,  1.49it/s, loss=0.0032]  0%|          | 8/310935 [00:10<50:25:11,  1.71it/s, loss=0.0032]  0%|          | 8/310935 [00:10<50:25:11,  1.71it/s, loss=0.0066]  0%|          | 9/310935 [00:10<45:24:53,  1.90it/s, loss=0.0066]  0%|          | 9/310935 [00:11<45:24:53,  1.90it/s, loss=0.0051]  0%|          | 10/310935 [00:11<41:57:41,  2.06it/s, loss=0.0051]  0%|          | 10/310935 [00:11<41:57:41,  2.06it/s, loss=0.0016]  0%|          | 11/310935 [00:11<39:38:07,  2.18it/s, loss=0.0016]  0%|          | 11/310935 [00:11<39:38:07,  2.18it/s, loss=0.0074]  0%|          | 12/310935 [00:11<38:01:02,  2.27it/s, loss=0.0074]  0%|          | 12/310935 [00:12<38:01:02,  2.27it/s, loss=0.0031]  0%|          | 13/310935 [00:12<36:53:52,  2.34it/s, loss=0.0031]  0%|          | 13/310935 [00:12<36:53:52,  2.34it/s, loss=0.0050]  0%|          | 14/310935 [00:12<36:07:59,  2.39it/s, loss=0.0050]  0%|          | 14/310935 [00:13<36:07:59,  2.39it/s, loss=0.0071]  0%|          | 15/310935 [00:13<35:36:18,  2.43it/s, loss=0.0071]  0%|          | 15/310935 [00:13<35:36:18,  2.43it/s, loss=0.0030]  0%|          | 16/310935 [00:13<35:14:16,  2.45it/s, loss=0.0030]  0%|          | 16/310935 [00:13<35:14:16,  2.45it/s, loss=0.0031]  0%|          | 17/310935 [00:13<34:57:48,  2.47it/s, loss=0.0031]  0%|          | 17/310935 [00:14<34:57:48,  2.47it/s, loss=0.0038]  0%|          | 18/310935 [00:14<34:47:42,  2.48it/s, loss=0.0038]  0%|          | 18/310935 [00:14<34:47:42,  2.48it/s, loss=0.0065]  0%|          | 19/310935 [00:14<34:40:39,  2.49it/s, loss=0.0065]  0%|          | 19/310935 [00:15<34:40:39,  2.49it/s, loss=0.0065]  0%|          | 20/310935 [00:15<34:34:45,  2.50it/s, loss=0.0065]  0%|          | 20/310935 [00:15<34:34:45,  2.50it/s, loss=0.0042]  0%|          | 21/310935 [00:15<34:30:58,  2.50it/s, loss=0.0042]  0%|          | 21/310935 [00:15<34:30:58,  2.50it/s, loss=0.0052]  0%|          | 22/310935 [00:15<34:29:06,  2.50it/s, loss=0.0052]  0%|          | 22/310935 [00:16<34:29:06,  2.50it/s, loss=0.0024]  0%|          | 23/310935 [00:16<34:26:50,  2.51it/s, loss=0.0024]  0%|          | 23/310935 [00:16<34:26:50,  2.51it/s, loss=0.0029]  0%|          | 24/310935 [00:16<34:26:11,  2.51it/s, loss=0.0029]  0%|          | 24/310935 [00:17<34:26:11,  2.51it/s, loss=0.0042]  0%|          | 25/310935 [00:17<34:25:07,  2.51it/s, loss=0.0042]  0%|          | 25/310935 [00:17<34:25:07,  2.51it/s, loss=0.0023]  0%|          | 26/310935 [00:17<34:24:44,  2.51it/s, loss=0.0023]  0%|          | 26/310935 [00:17<34:24:44,  2.51it/s, loss=0.0087]  0%|          | 27/310935 [00:17<34:26:35,  2.51it/s, loss=0.0087]  0%|          | 27/310935 [00:18<34:26:35,  2.51it/s, loss=0.0039]  0%|          | 28/310935 [00:18<34:27:04,  2.51it/s, loss=0.0039]  0%|          | 28/310935 [00:18<34:27:04,  2.51it/s, loss=0.0058]  0%|          | 29/310935 [00:18<34:26:01,  2.51it/s, loss=0.0058]  0%|          | 29/310935 [00:19<34:26:01,  2.51it/s, loss=0.0038]  0%|          | 30/310935 [00:19<34:27:09,  2.51it/s, loss=0.0038]  0%|          | 30/310935 [00:19<34:27:09,  2.51it/s, loss=0.0026]  0%|          | 31/310935 [00:19<34:25:47,  2.51it/s, loss=0.0026]  0%|          | 31/310935 [00:19<34:25:47,  2.51it/s, loss=0.0047]  0%|          | 32/310935 [00:19<34:27:11,  2.51it/s, loss=0.0047]  0%|          | 32/310935 [00:20<34:27:11,  2.51it/s, loss=0.0023]  0%|          | 33/310935 [00:20<34:27:51,  2.51it/s, loss=0.0023]  0%|          | 33/310935 [00:20<34:27:51,  2.51it/s, loss=0.0048]  0%|          | 34/310935 [00:20<34:26:39,  2.51it/s, loss=0.0048]  0%|          | 34/310935 [00:21<34:26:39,  2.51it/s, loss=0.0050]  0%|          | 35/310935 [00:21<34:27:33,  2.51it/s, loss=0.0050]  0%|          | 35/310935 [00:21<34:27:33,  2.51it/s, loss=0.0064]  0%|          | 36/310935 [00:21<34:28:49,  2.50it/s, loss=0.0064]  0%|          | 36/310935 [00:21<34:28:49,  2.50it/s, loss=0.0104]  0%|          | 37/310935 [00:21<34:27:42,  2.51it/s, loss=0.0104]  0%|          | 37/310935 [00:22<34:27:42,  2.51it/s, loss=0.0036]  0%|          | 38/310935 [00:22<34:27:39,  2.51it/s, loss=0.0036]  0%|          | 38/310935 [00:22<34:27:39,  2.51it/s, loss=0.0047]  0%|          | 39/310935 [00:22<34:28:02,  2.51it/s, loss=0.0047]  0%|          | 39/310935 [00:23<34:28:02,  2.51it/s, loss=0.0081]  0%|          | 40/310935 [00:23<34:27:12,  2.51it/s, loss=0.0081]  0%|          | 40/310935 [00:23<34:27:12,  2.51it/s, loss=0.0048]  0%|          | 41/310935 [00:23<34:28:42,  2.50it/s, loss=0.0048]  0%|          | 41/310935 [00:23<34:28:42,  2.50it/s, loss=0.0089]  0%|          | 42/310935 [00:23<34:28:22,  2.51it/s, loss=0.0089]  0%|          | 42/310935 [00:24<34:28:22,  2.51it/s, loss=0.0049]  0%|          | 43/310935 [00:24<34:29:03,  2.50it/s, loss=0.0049]  0%|          | 43/310935 [00:24<34:29:03,  2.50it/s, loss=0.0029]  0%|          | 44/310935 [00:24<34:29:05,  2.50it/s, loss=0.0029]  0%|          | 44/310935 [00:25<34:29:05,  2.50it/s, loss=0.0066]  0%|          | 45/310935 [00:25<34:28:55,  2.50it/s, loss=0.0066]  0%|          | 45/310935 [00:25<34:28:55,  2.50it/s, loss=0.0043]  0%|          | 46/310935 [00:25<34:29:35,  2.50it/s, loss=0.0043]  0%|          | 46/310935 [00:25<34:29:35,  2.50it/s, loss=0.0046]  0%|          | 47/310935 [00:25<34:28:26,  2.51it/s, loss=0.0046]  0%|          | 47/310935 [00:26<34:28:26,  2.51it/s, loss=0.0048]  0%|          | 48/310935 [00:26<34:28:04,  2.51it/s, loss=0.0048]  0%|          | 48/310935 [00:26<34:28:04,  2.51it/s, loss=0.0047]  0%|          | 49/310935 [00:26<34:29:51,  2.50it/s, loss=0.0047]  0%|          | 49/310935 [00:27<34:29:51,  2.50it/s, loss=0.0057]  0%|          | 50/310935 [00:27<34:29:35,  2.50it/s, loss=0.0057][2026-04-02 12:40:49] Step 50/310935 | lm_loss=0.0057 | acc=0.9996 | exact_acc=0.9682 | lr=0.000005
-  0%|          | 50/310935 [00:27<34:29:35,  2.50it/s, loss=0.0066]  0%|          | 51/310935 [00:27<34:28:23,  2.51it/s, loss=0.0066]  0%|          | 51/310935 [00:27<34:28:23,  2.51it/s, loss=0.0096]  0%|          | 52/310935 [00:27<34:29:36,  2.50it/s, loss=0.0096]  0%|          | 52/310935 [00:28<34:29:36,  2.50it/s, loss=0.0123]  0%|          | 53/310935 [00:28<34:31:04,  2.50it/s, loss=0.0123]  0%|          | 53/310935 [00:28<34:31:04,  2.50it/s, loss=0.0142]  0%|          | 54/310935 [00:28<34:30:17,  2.50it/s, loss=0.0142]  0%|          | 54/310935 [00:29<34:30:17,  2.50it/s, loss=0.0050]  0%|          | 55/310935 [00:29<34:30:49,  2.50it/s, loss=0.0050]  0%|          | 55/310935 [00:29<34:30:49,  2.50it/s, loss=0.0048]  0%|          | 56/310935 [00:29<34:31:35,  2.50it/s, loss=0.0048]  0%|          | 56/310935 [00:29<34:31:35,  2.50it/s, loss=0.0126]  0%|          | 57/310935 [00:29<34:31:35,  2.50it/s, loss=0.0126]  0%|          | 57/310935 [00:30<34:31:35,  2.50it/s, loss=0.0036]  0%|          | 58/310935 [00:30<34:32:36,  2.50it/s, loss=0.0036]  0%|          | 58/310935 [00:30<34:32:36,  2.50it/s, loss=0.0080]  0%|          | 59/310935 [00:30<34:32:09,  2.50it/s, loss=0.0080]  0%|          | 59/310935 [00:31<34:32:09,  2.50it/s, loss=0.0074]  0%|          | 60/310935 [00:31<34:31:15,  2.50it/s, loss=0.0074]  0%|          | 60/310935 [00:31<34:31:15,  2.50it/s, loss=0.0108]  0%|          | 61/310935 [00:31<34:32:14,  2.50it/s, loss=0.0108]  0%|          | 61/310935 [00:31<34:32:14,  2.50it/s, loss=0.0059]  0%|          | 62/310935 [00:31<34:32:10,  2.50it/s, loss=0.0059]  0%|          | 62/310935 [00:32<34:32:10,  2.50it/s, loss=0.0188]  0%|          | 63/310935 [00:32<34:33:43,  2.50it/s, loss=0.0188]  0%|          | 63/310935 [00:32<34:33:43,  2.50it/s, loss=0.0240]  0%|          | 64/310935 [00:32<34:32:04,  2.50it/s, loss=0.0240]  0%|          | 64/310935 [00:33<34:32:04,  2.50it/s, loss=0.0199]  0%|          | 65/310935 [00:33<34:32:25,  2.50it/s, loss=0.0199]  0%|          | 65/310935 [00:33<34:32:25,  2.50it/s, loss=0.0145]  0%|          | 66/310935 [00:33<34:34:09,  2.50it/s, loss=0.0145]  0%|          | 66/310935 [00:33<34:34:09,  2.50it/s, loss=0.0126]  0%|          | 67/310935 [00:33<34:34:04,  2.50it/s, loss=0.0126]  0%|          | 67/310935 [00:34<34:34:04,  2.50it/s, loss=0.0066]  0%|          | 68/310935 [00:34<34:34:10,  2.50it/s, loss=0.0066]  0%|          | 68/310935 [00:34<34:34:10,  2.50it/s, loss=0.0110]  0%|          | 69/310935 [00:34<34:33:10,  2.50it/s, loss=0.0110]  0%|          | 69/310935 [00:35<34:33:10,  2.50it/s, loss=0.0142]  0%|          | 70/310935 [00:35<34:34:15,  2.50it/s, loss=0.0142]  0%|          | 70/310935 [00:35<34:34:15,  2.50it/s, loss=0.0188]  0%|          | 71/310935 [00:35<34:36:26,  2.50it/s, loss=0.0188]  0%|          | 71/310935 [00:35<34:36:26,  2.50it/s, loss=0.0183]  0%|          | 72/310935 [00:35<34:35:41,  2.50it/s, loss=0.0183]  0%|          | 72/310935 [00:36<34:35:41,  2.50it/s, loss=0.0116]  0%|          | 73/310935 [00:36<34:35:55,  2.50it/s, loss=0.0116]  0%|          | 73/310935 [00:36<34:35:55,  2.50it/s, loss=0.0112]  0%|          | 74/310935 [00:36<34:34:51,  2.50it/s, loss=0.0112]  0%|          | 74/310935 [00:37<34:34:51,  2.50it/s, loss=0.0081]  0%|          | 75/310935 [00:37<34:35:09,  2.50it/s, loss=0.0081]  0%|          | 75/310935 [00:37<34:35:09,  2.50it/s, loss=0.0195]  0%|          | 76/310935 [00:37<34:35:31,  2.50it/s, loss=0.0195]  0%|          | 76/310935 [00:37<34:35:31,  2.50it/s, loss=0.0203]  0%|          | 77/310935 [00:37<34:35:06,  2.50it/s, loss=0.0203]  0%|          | 77/310935 [00:38<34:35:06,  2.50it/s, loss=0.0090]  0%|          | 78/310935 [00:38<34:35:34,  2.50it/s, loss=0.0090]  0%|          | 78/310935 [00:38<34:35:34,  2.50it/s, loss=0.0145]  0%|          | 79/310935 [00:38<34:35:40,  2.50it/s, loss=0.0145]  0%|          | 79/310935 [00:39<34:35:40,  2.50it/s, loss=0.0144]  0%|          | 80/310935 [00:39<34:36:44,  2.49it/s, loss=0.0144]  0%|          | 80/310935 [00:39<34:36:44,  2.49it/s, loss=0.0218]  0%|          | 81/310935 [00:39<34:35:29,  2.50it/s, loss=0.0218]  0%|          | 81/310935 [00:39<34:35:29,  2.50it/s, loss=0.0234]  0%|          | 82/310935 [00:39<34:36:24,  2.50it/s, loss=0.0234]  0%|          | 82/310935 [00:40<34:36:24,  2.50it/s, loss=0.0160]  0%|          | 83/310935 [00:40<34:36:40,  2.49it/s, loss=0.0160]  0%|          | 83/310935 [00:40<34:36:40,  2.49it/s, loss=0.0116]  0%|          | 84/310935 [00:40<34:37:26,  2.49it/s, loss=0.0116]  0%|          | 84/310935 [00:41<34:37:26,  2.49it/s, loss=0.0174]  0%|          | 85/310935 [00:41<34:37:36,  2.49it/s, loss=0.0174]  0%|          | 85/310935 [00:41<34:37:36,  2.49it/s, loss=0.0133]  0%|          | 86/310935 [00:41<34:37:23,  2.49it/s, loss=0.0133]
