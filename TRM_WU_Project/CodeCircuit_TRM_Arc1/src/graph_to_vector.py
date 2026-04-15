@@ -1,3 +1,17 @@
+"""
+Graph-to-Vector Feature Extraction
+===================================
+对齐 CodeCircuit graph_dataset.py _extract_advanced_features:
+
+特征向量结构 (固定长度):
+  Level 1: 高层统计 (5 维)
+  Level 2: 节点统计 (6 维) + 层直方图 (n_layers 维)
+  Level 3: 拓扑特征 (12 维)
+  
+  总维度 = 5 + 6 + n_layers + 12 = 23 + n_layers
+  对 TRM (n_layers=30): 53 维
+"""
+
 import os
 import argparse
 import glob
@@ -5,84 +19,240 @@ import torch
 import numpy as np
 import networkx as nx
 from tqdm import tqdm
+from run_config import RunConfig
 
-def extract_advanced_features_from_adj(adj_matrix: np.ndarray, threshold: float = 0.01) -> np.ndarray:
+N_VIRTUAL_LAYERS = 30  # TRM: H_cycles(3) × (L_cycles(4)+1) × L_layers(2)
+
+
+def normalize_matrix(matrix):
+    """对齐 CodeCircuit graph.py normalize_matrix"""
+    normalized = np.abs(matrix)
+    row_sums = normalized.sum(axis=1, keepdims=True)
+    row_sums = np.clip(row_sums, 1e-10, None)
+    return normalized / row_sums
+
+
+def compute_influence(A, logit_weights, max_iter=1000):
+    """对齐 CodeCircuit graph.py compute_influence: B = A + A^2 + ..."""
+    current = logit_weights @ A
+    influence = current.copy()
+    for _ in range(max_iter):
+        current = current @ A
+        if not np.any(current):
+            break
+        influence += current
+    return influence
+
+
+def compute_node_influence(adj, logit_weights):
+    return compute_influence(normalize_matrix(adj), logit_weights)
+
+
+def prune_graph_simple(adj, n_features, n_errors, n_tokens, n_logits, 
+                       logit_probs, node_threshold=0.8):
     """
-    基于归因邻接矩阵提取高阶拓扑和统计特征（对齐 CodeCircuit GraphDataset 设计）
-    Args:
-        adj_matrix: (N, N) Numpy 数组，代表节点间的梯度影响权重
-        threshold: 绝对值小于该值的边被认为是底噪，予以剔除
+    简化版 prune_graph (对齐 CodeCircuit graph.py prune_graph 的核心逻辑)
+    
     Returns:
-        1D numpy array 包含诸多图论和统计学特征。
+        node_mask: (total_nodes,) bool
+        cumulative_scores: (total_nodes,) float
     """
-    N = adj_matrix.shape[0]
+    total_nodes = adj.shape[0]
     
-    # 构建 NetworkX 有向图 (忽略底噪边)
-    G = nx.DiGraph()
-    G.add_nodes_from(range(N))
+    # 构造 logit_weights
+    logit_weights = np.zeros(total_nodes)
+    logit_weights[-n_logits:] = logit_probs
     
-    edge_weights = []
-    for i in range(N):
-        for j in range(N):
-            w = adj_matrix[i, j]
-            if abs(w) > threshold:
-                G.add_edge(i, j, weight=w)
-                edge_weights.append(w)
-                
-    # --- 1. 基本边统计 ---
+    # 计算节点 influence
+    node_influence = compute_node_influence(adj, logit_weights)
+    
+    # 按 influence 排序, 保留 top threshold
+    sorted_scores = np.sort(node_influence)[::-1]
+    cumulative = np.cumsum(sorted_scores) / (np.sum(sorted_scores) + 1e-10)
+    threshold_idx = int(np.searchsorted(cumulative, node_threshold))
+    threshold_idx = min(threshold_idx, len(cumulative) - 1)
+    threshold_val = sorted_scores[threshold_idx]
+    
+    node_mask = node_influence >= threshold_val
+    # 总是保留 token 和 logit 节点
+    node_mask[-(n_tokens + n_logits):] = True
+    
+    # 计算 cumulative scores
+    sorted_indices = np.argsort(node_influence)[::-1]
+    sorted_vals = node_influence[sorted_indices]
+    cumulative_scores = np.zeros(total_nodes)
+    cum_vals = np.cumsum(sorted_vals) / (np.sum(sorted_vals) + 1e-10)
+    cumulative_scores[sorted_indices] = cum_vals
+    
+    return node_mask, cumulative_scores
+
+
+def extract_advanced_features(graph_data, node_threshold=0.8):
+    """
+    对齐 CodeCircuit graph_dataset.py _extract_advanced_features
+    
+    返回固定长度的特征向量 (5 + 6 + n_layers + 12 = 53 维)
+    """
+    adj = graph_data["adjacency_matrix"].numpy()
+    n_features = graph_data["n_selected_features"]
+    n_errors = graph_data["n_error_nodes"]
+    n_tokens = graph_data["n_token_nodes"]
+    n_logits = graph_data["n_logit_nodes"]
+    n_layers = graph_data["n_layers"]
+    n_pos = graph_data["n_pos"]
+    active_features_tensor = graph_data["active_features"]  # (n_features, 3)
+    activation_values = graph_data["activation_values"]      # (n_features,)
+    logit_probs = graph_data["logit_probabilities"].numpy()  # (k,)
+    
+    # 剪枝
+    node_mask, cumulative_scores = prune_graph_simple(
+        adj, n_features, n_errors, n_tokens, n_logits, logit_probs, node_threshold
+    )
+    
     features = []
+    total_nodes = adj.shape[0]
     
-    # sum, mean, std
-    if len(edge_weights) > 0:
+    # 确定各类节点的 index 范围
+    error_start = n_features
+    error_end = error_start + n_errors
+    token_start = error_end
+    token_end = token_start + n_tokens
+    
+    pruned_indices = np.where(node_mask)[0].tolist()
+    pruned_feature_nodes = [i for i in pruned_indices if i < n_features]
+    pruned_error_nodes = [i for i in pruned_indices if error_start <= i < error_end]
+    
+    # --- Level 1: 高层统计 (5 维) ---
+    features.append(float(n_features))                     # 总活跃特征数
+    features.append(float(len(pruned_feature_nodes)))      # 剪枝后特征节点数
+    features.append(float(len(pruned_error_nodes)))        # 剪枝后 error 节点数
+    
+    if len(logit_probs) > 0:
+        features.append(float(logit_probs[0]))             # Top logit probability
+        entropy = -np.sum(logit_probs * np.log(logit_probs + 1e-8))
+        features.append(float(entropy))                     # Logit entropy
+    else:
+        features.extend([0.0, 0.0])
+    
+    # --- Level 2: 节点统计 (6 维) ---
+    pruned_influence = cumulative_scores[node_mask]
+    features.append(float(np.mean(pruned_influence)) if len(pruned_influence) > 0 else 0.0)
+    
+    if len(pruned_error_nodes) > 0:
+        error_influence = cumulative_scores[pruned_error_nodes]
+        features.append(float(np.sum(error_influence)))
+        features.append(float(np.mean(error_influence)))
+    else:
+        features.extend([0.0, 0.0])
+    
+    if len(pruned_feature_nodes) > 0:
+        pruned_acts = activation_values[pruned_feature_nodes].numpy()
+        features.append(float(np.mean(pruned_acts)))
+        features.append(float(np.max(pruned_acts)))
+        features.append(float(np.std(pruned_acts)))
+    else:
+        features.extend([0.0, 0.0, 0.0])
+    
+    # --- 层直方图 (n_layers 维) ---
+    layer_counts = [0] * n_layers
+    for node_idx in pruned_feature_nodes:
+        if node_idx < len(active_features_tensor):
+            layer = active_features_tensor[node_idx, 0].item()
+            if layer < n_layers:
+                layer_counts[layer] += 1
+    features.extend([float(c) for c in layer_counts])
+    
+    # --- Level 3: 拓扑特征 (12 维) ---
+    topo = extract_topological_features(pruned_indices, adj, 
+                                         n_features, n_errors, n_tokens, n_logits, n_layers, n_pos)
+    features.extend(topo)
+    
+    return np.array(features, dtype=np.float32)
+
+
+def extract_topological_features(pruned_indices, adj, 
+                                  n_features, n_errors, n_tokens, n_logits, n_layers, n_pos):
+    """
+    对齐 CodeCircuit _extract_topological_and_edge_features (12 维)
+    """
+    num_nodes = len(pruned_indices)
+    
+    defaults = [0.0] * 12  # 12 维: sum/mean/std/n_edges/density/components/deg_mean/deg_max/bet_mean/bet_max/avg_spl/input_logit_spl
+    
+    if num_nodes < 2:
+        return defaults
+    
+    # 构建剪枝子图
+    pruned_adj = adj[np.ix_(pruned_indices, pruned_indices)]
+    G = nx.from_numpy_array(pruned_adj, create_using=nx.DiGraph)
+    
+    # 边权统计
+    edge_weights = np.array(list(nx.get_edge_attributes(G, 'weight').values()))
+    
+    features = []
+    if edge_weights.size > 0:
         features.append(float(np.sum(edge_weights)))
         features.append(float(np.mean(edge_weights)))
         features.append(float(np.std(edge_weights)))
     else:
         features.extend([0.0, 0.0, 0.0])
-        
-    # n_edges_pruned (有效边数) 和 graph_density
-    features.append(float(len(edge_weights)))
-    features.append(nx.density(G))
     
-    # 连通分量 (对于弱连通)
-    num_components = nx.number_weakly_connected_components(G)
-    features.append(float(num_components))
+    features.append(float(G.number_of_edges()))
+    features.append(float(nx.density(G)))
+    features.append(float(nx.number_weakly_connected_components(G)))
     
-    # --- 2. 节点中心性分析 ---
-    # Degree Centrality (度中心性，只算入度或出度)
     try:
-        in_degree = list(nx.in_degree_centrality(G).values())
-        features.append(float(np.mean(in_degree)) if in_degree else 0.0)
-        features.append(float(np.max(in_degree)) if in_degree else 0.0)
+        dc = nx.degree_centrality(G)
+        features.append(float(np.mean(list(dc.values()))))
+        features.append(float(np.max(list(dc.values()))) if dc else 0.0)
     except:
         features.extend([0.0, 0.0])
-        
-    # Betweenness Centrality (介数中心性)
+    
     try:
-        betweenness = list(nx.betweenness_centrality(G, weight='weight').values())
-        features.append(float(np.mean(betweenness)) if betweenness else 0.0)
-        features.append(float(np.max(betweenness)) if betweenness else 0.0)
+        bc = nx.betweenness_centrality(G, weight='weight')
+        features.append(float(np.mean(list(bc.values()))))
+        features.append(float(np.max(list(bc.values()))) if bc else 0.0)
     except:
         features.extend([0.0, 0.0])
-        
-    # --- 3. 最短路径 ---
-    try:
-        # 平均最短路径长度（如果图不连通，NetworkX 会报错，故需捕获并在连通子图内算）
-        if nx.is_weakly_connected(G):
-            avg_spl = nx.average_shortest_path_length(G, weight='weight', method='dijkstra')
-        else:
-            components = list(nx.weakly_connected_components(G))
-            lengths = []
-            for c in components:
-                sub_G = G.subgraph(c)
-                if len(sub_G) > 1:
-                    lengths.append(nx.average_shortest_path_length(sub_G, weight='weight'))
-            avg_spl = np.mean(lengths) if lengths else 0.0
-        features.append(float(avg_spl))
-    except Exception as e:
-        features.append(0.0)
-        
-    return np.array(features, dtype=np.float32)
+    
+    # 平均最短路径
+    largest_cc = max(nx.weakly_connected_components(G), key=len)
+    if len(largest_cc) > 1:
+        try:
+            sub = G.subgraph(largest_cc)
+            features.append(float(nx.average_shortest_path_length(sub, weight='weight')))
+        except:
+            features.append(-1.0)
+    else:
+        features.append(-1.0)
+    
+    # Input → Logit 最短路径
+    error_start = n_features
+    error_end = error_start + n_errors
+    token_start = error_end
+    token_end = token_start + n_tokens
+    logit_start = token_end
+    
+    global_to_local = {g: l for l, g in enumerate(pruned_indices)}
+    
+    local_tokens = [global_to_local[i] for i in pruned_indices if token_start <= i < token_end]
+    local_logits = [global_to_local[i] for i in pruned_indices if i >= logit_start]
+    
+    min_path = float('inf')
+    if local_tokens and local_logits:
+        for s in local_tokens:
+            for t in local_logits:
+                if nx.has_path(G, source=s, target=t):
+                    try:
+                        pl = nx.shortest_path_length(G, source=s, target=t, weight='weight')
+                        min_path = min(min_path, pl)
+                    except:
+                        pass
+    
+    features.append(float(min_path) if min_path != float('inf') else -1.0)
+    
+    return features
+
 
 def process_graphs(input_pattern, output_path):
     print(f"Loading graphs from: {input_pattern}")
@@ -91,39 +261,62 @@ def process_graphs(input_pattern, output_path):
     if len(graph_files) == 0:
         print("未找到任何 .pt 文件，请检查路径。")
         return
-        
+    
+    print(f"Found {len(graph_files)} graph files.")
+    
     all_features = []
+    query_mapping = []  # 保存 index → query 的映射关系
     
-    for g_path in tqdm(graph_files, desc="Converting Graph -> Vector"):
+    for g_path in tqdm(graph_files, desc="Extracting Features"):
         data = torch.load(g_path, map_location="cpu", weights_only=False)
+        feat_vec = extract_advanced_features(data)
+        all_features.append(feat_vec)
         
-        adj = data["adjacency_matrix"].numpy()
-        
-        # 获取图高维统计特征
-        adv_features = extract_advanced_features_from_adj(adj)
-        
-        # [可选补充] 接入节点自身的 activation_values 和 attribution_scores 平均值
-        act_mean = float(data["activation_values"].mean())
-        attr_mean = float(data["attribution_scores"].mean())
-        n_layers = float(data["n_virtual_layers"])
-        
-        # 拼接组成最终给 PG 的 1D 向量
-        combined = np.concatenate([[act_mean, attr_mean, n_layers], adv_features])
-        all_features.append(combined)
-        
-    final_tensor = torch.tensor(np.stack(all_features), dtype=torch.float32)
-    print(f"\n✅ All Graphs Processed!")
-    print(f"📊 Final Dataset Shape: {final_tensor.shape} (Num_Queries x Feature_Dims)")
+        # 收集 query 身份信息
+        meta = data.get("query_meta", {})
+        query_mapping.append({
+            "graph_file": os.path.basename(g_path),
+            "graph_index": meta.get("graph_index", len(query_mapping)),
+            "set_name": meta.get("set_name", ""),
+            "puzzle_identifiers": meta.get("puzzle_identifiers", None),
+            "inputs": meta.get("inputs", None),
+            "labels": meta.get("labels", None),
+        })
     
-    # 确保输出目录存在
+    final_tensor = torch.tensor(np.stack(all_features), dtype=torch.float32)
+    print(f"\n✅ Feature Extraction Complete!")
+    print(f"📊 Shape: {final_tensor.shape} (n_queries × feature_dims)")
+    print(f"   Feature breakdown: 5 (high-level) + 6 (node stats) + {N_VIRTUAL_LAYERS} (layer hist) + 12 (topology) = {final_tensor.shape[1]}")
+    
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    torch.save(final_tensor, output_path)
-    print(f"💾 Saved strictly formatted dataset to: {output_path}")
+    
+    # 保存完整的 dataset: features + query mapping
+    output_data = {
+        "features": final_tensor,           # (n_queries, 53) — 53维特征向量
+        "query_mapping": query_mapping,      # list of dicts: 每个 query 的身份
+        "feature_dim": final_tensor.shape[1],
+        "n_queries": len(query_mapping),
+    }
+    torch.save(output_data, output_path)
+    print(f"💾 Saved to: {output_path}")
+    print(f"   包含: features tensor + {len(query_mapping)} 条 query 映射")
+    
+    # 使用示例
+    print(f"\n📌 HyperNet 使用方式:")
+    print(f"   data = torch.load('{output_path}')")
+    print(f"   circuit_vec = data['features'][i]          # 第 i 个 query 的 53 维电路特征")
+    print(f"   query_input = data['query_mapping'][i]['inputs']  # 对应的原始输入")
+
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--input_dir", type=str, default="CodeCircuit_TRM_Arc1/results/attribution_graphs/*.pt")
-    parser.add_argument("--output_path", type=str, default="CodeCircuit_TRM_Arc1/results/cc_advanced_features.pt")
+    parser = argparse.ArgumentParser(description="Step 4: Convert attribution graphs to feature vectors")
+    RunConfig.add_run_args(parser)
     args = parser.parse_args()
     
-    process_graphs(args.input_dir, args.output_path)
+    rc = RunConfig(run_name=args.run_name)
+    rc.print_summary()
+    
+    input_pattern = os.path.join(rc.graphs_dir, "*.pt")
+    process_graphs(input_pattern, rc.features_path)
+    
+    rc.save_config(extra_info={"step": "4_graph_to_vector"})

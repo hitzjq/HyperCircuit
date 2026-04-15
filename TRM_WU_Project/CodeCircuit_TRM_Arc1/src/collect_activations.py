@@ -5,6 +5,7 @@ import torch
 from pathlib import Path
 from tqdm import tqdm
 from safetensors.torch import save_file
+from run_config import RunConfig
 
 # Dynamic path resolution to import TRM_WU_Project and TinyRecursiveModels
 current_dir = Path(__file__).resolve().parent
@@ -20,64 +21,112 @@ from utils.functions import load_model_class
 # Device configuration
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Global counter and buffers
+# -------------------------------------------------------------------
+# TRM 架构参数（来自 ARC-AGI-1 checkpoint）
+# H_cycles = 3, L_cycles = 4, L_layers = 2
+# 每次 L_level 调用经过 2 个 Block（Block 0 和 Block 1）
+# 每次 Inner forward: 15 次 L_level × 2 个 Block = 30 次 MLP 调用
+# ACT 最多 16 步: 16 × 30 = 480 次 MLP 调用（全部收集，其中按Block分存）
+# -------------------------------------------------------------------
+
+# Global buffers — 按 Block 分类收集
+block_0_buffer = []  # Block 0 (偶数 index) 的 MLP 输出
+block_1_buffer = []  # Block 1 (奇数 index) 的 MLP 输出
+save_chunk_idx_0 = 0
+save_chunk_idx_1 = 0
 call_counter = 0
-SLICES_PER_FORWARD = 30 # H_cycles(3) * (L_cycles(4)+1) * L_layers(2) = 30
-activation_buffer = [] # format: list of [total_tokens, hidden_size]
-save_chunk_idx = 0
-BUFFER_MAX_SIZE = 100 * SLICES_PER_FORWARD # Adjust to fit your RAM/VRAM
+BUFFER_MAX_ITEMS = 3000  # 每积累 ~3000 个 MLP 输出就 flush 一次（可调）
+_run_config = None  # 全局 RunConfig, main() 中初始化
 
-def mlp_hook(module, input, output):
-    """
-    Hook to capture the output of mlp.down_proj.
-    output shape: [batch_size, seq_len, hidden_size]
-    """
-    global call_counter
-    # Flatten across batch and seq_len -> [batch * seq_len, hidden_size]
-    flat_out = output.detach().flatten(0, 1).to(torch.bfloat16)
-    
-    # Optional: we can keep memory of which slice it came from if we want separate SAEs,
-    # but CodeCircuit trains a Universal SAE across all layers by mixing them.
-    # We will mix all slice activations together for the SAE.
-    activation_buffer.append(flat_out.cpu())
-    
-    call_counter += 1
 
-def flush_buffer(force=False):
-    global activation_buffer, save_chunk_idx
-    if not force and len(activation_buffer) < BUFFER_MAX_SIZE:
-        return
+def make_block_hooks(model):
+    """
+    为 Block 0 和 Block 1 的 mlp.down_proj 分别注册 hook。
     
-    if len(activation_buffer) == 0:
-        return
+    TRM 的 L_level 是一个包含 L_layers=2 个 Block 的 ReasoningModule。
+    layers[0] = Block 0, layers[1] = Block 1。
+    每次 L_level 被调用时，依次经过 Block 0 → Block 1。
+    """
+    hooks = []
+    
+    for block_idx, layer in enumerate(model.inner.L_level.layers):
+        def hook_fn(module, input, output, _block_idx=block_idx):
+            global call_counter
+            flat_out = output.detach().flatten(0, 1).to(torch.bfloat16)
+            
+            if _block_idx == 0:
+                block_0_buffer.append(flat_out.cpu())
+            else:
+                block_1_buffer.append(flat_out.cpu())
+            
+            call_counter += 1
         
-    print(f"Flushing chunk {save_chunk_idx} to disk...")
-    # Concatenate all gathered flatten activations
-    merged_tensor = torch.cat(activation_buffer, dim=0) # [N_total_tokens, hidden_size]
+        h = layer.mlp.down_proj.register_forward_hook(hook_fn)
+        hooks.append(h)
     
-    # Shuffle the tokens to break temporal correlations for SAE training
+    return hooks
+
+
+def flush_buffer(block_idx, force=False):
+    """Flush 指定 Block 的 buffer 到磁盘"""
+    global save_chunk_idx_0, save_chunk_idx_1
+    
+    if block_idx == 0:
+        buf = block_0_buffer
+        chunk_idx = save_chunk_idx_0
+        out_subdir = "block_0"
+    else:
+        buf = block_1_buffer
+        chunk_idx = save_chunk_idx_1
+        out_subdir = "block_1"
+    
+    if not force and len(buf) < BUFFER_MAX_ITEMS:
+        return
+    
+    if len(buf) == 0:
+        return
+    
+    merged_tensor = torch.cat(buf, dim=0)  # [N_total_tokens, hidden_size]
+    
+    # Shuffle to break temporal correlations
     perm = torch.randperm(merged_tensor.size(0))
     merged_tensor = merged_tensor[perm]
     
-    os.makedirs("CodeCircuit_TRM_Arc1/results/activations", exist_ok=True)
-    out_path = f"CodeCircuit_TRM_Arc1/results/activations/chunk_{save_chunk_idx}.safetensors"
+    out_dir = _run_config.block_0_dir if block_idx == 0 else _run_config.block_1_dir
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, f"chunk_{chunk_idx:04d}.safetensors")
     save_file({"activations": merged_tensor}, out_path)
     
-    print(f"Saved {merged_tensor.shape[0]} tokens to {out_path}.")
+    print(f"  [Block {block_idx}] Saved {merged_tensor.shape[0]} tokens to {out_path}")
     
-    activation_buffer.clear()
-    save_chunk_idx += 1
+    buf.clear()
+    
+    if block_idx == 0:
+        save_chunk_idx_0 += 1
+    else:
+        save_chunk_idx_1 += 1
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Collect TRM internal activations for SAE training")
+    global _run_config
+    parser = argparse.ArgumentParser(description="Step 1: Collect TRM internal activations for SAE training")
+    RunConfig.add_run_args(parser)
     parser.add_argument("--dataset_paths", nargs='+', default=['data/arc1concept-aug-1000'], help="Paths to dataset folders")
     parser.add_argument("--ckpt_path", type=str, default="", help="Path to TRM base checkpoint. Leave empty for random init (A100 debug).")
     parser.add_argument("--max_batches", type=int, default=-1, help="Max batches to evaluate. -1 for full dataset (H200).")
     args = parser.parse_args()
+    
+    _run_config = RunConfig(run_name=args.run_name)
+    _run_config.create_dirs()
+    _run_config.print_summary()
+    _run_config.save_config(extra_info={
+        "step": "1_collect_activations",
+        "ckpt_path": args.ckpt_path,
+        "dataset_paths": args.dataset_paths,
+        "max_batches": args.max_batches,
+    })
 
     print("Loading Dataset from:", args.dataset_paths)
-    # Setup dataset mimicking TRM config
     dataset_cfg = PuzzleDatasetConfig(
         seed=42,
         dataset_paths=args.dataset_paths,
@@ -92,7 +141,6 @@ def main():
     metadata = dataset.metadata
 
     print("Loading Base TRM Config...")
-    # Hardcoded base parameters reflecting `trm.yaml`
     model_cfg = {
         "H_cycles": 3,
         "L_cycles": 4,
@@ -123,11 +171,9 @@ def main():
     base_ckpt_path = args.ckpt_path
     actual_load_file = base_ckpt_path
 
-    # If the user passed a directory like ARC-AGI-1/, find the 'step_*' file inside it.
     if base_ckpt_path and os.path.isdir(base_ckpt_path):
         candidates = [f for f in os.listdir(base_ckpt_path) if f.startswith("step_")]
         if candidates:
-            # Taking the first one if multiple exist, though typically there's only one.
             actual_load_file = os.path.join(base_ckpt_path, candidates[0])
 
     if actual_load_file and os.path.exists(actual_load_file):
@@ -139,42 +185,47 @@ def main():
 
     model.eval()
 
-    print("Registering Hooks on mlp.down_proj...")
-    hooks = []
-    # In TRM, SwiGLU down_proj is what we target
-    for layer in model.inner.L_level.layers:
-        h = layer.mlp.down_proj.register_forward_hook(mlp_hook)
-        hooks.append(h)
+    print("Registering Hooks on mlp.down_proj (Block 0 and Block 1 separately)...")
+    hooks = make_block_hooks(model)
 
-    print("Starting Inference and Collection...")
+    print("Starting Multi-Step ACT Inference and Collection...")
     global call_counter
+    halt_max_steps = model_cfg["halt_max_steps"]  # 16
     
     with torch.no_grad():
         for i, (set_name, batch, global_batch_size) in enumerate(tqdm(dataloader, desc="Collecting")):
-            # Halt early if running a quick debug on A100
             if args.max_batches > 0 and i >= args.max_batches: 
                 print(f"\nReached max_batches limit ({args.max_batches}). Stopping collection.")
                 break
 
             batch = {k: v.to(device) for k, v in batch.items()}
             
-            # 使用 Device Context 强行逼迫 TRM 内部所有自动申请的张量都长在显卡上，彻底断绝 CPU 内漏
+            # 初始化 carry
             with torch.device(device):
                 carry = model.initial_carry(batch)
             
-            # Forward pass (this will automatically hit the hooks 30 times per sample).
-            model(carry, batch)
+            # 多步 ACT 推理循环 — 每步触发 30 次 hook（15 L_level × 2 Block）
+            for act_step in range(halt_max_steps):
+                carry, outputs = model(carry, batch)
+                
+                # 检查是否所有序列都已 halt
+                if carry.halted.all():
+                    break
             
-            # Check if buffer is full and save
-            flush_buffer()
+            # Flush buffer if needed
+            flush_buffer(0)
+            flush_buffer(1)
 
     # Save remaining
-    flush_buffer(force=True)
+    flush_buffer(0, force=True)
+    flush_buffer(1, force=True)
     
     for h in hooks:
         h.remove()
         
-    print(f"Finished. Total hooks triggered: {call_counter}")
+    print(f"\nFinished. Total hooks triggered: {call_counter}")
+    print(f"  Block 0 chunks: {save_chunk_idx_0}")
+    print(f"  Block 1 chunks: {save_chunk_idx_1}")
 
 
 if __name__ == "__main__":
