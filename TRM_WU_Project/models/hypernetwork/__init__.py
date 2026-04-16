@@ -15,7 +15,8 @@ class ParameterGenerator(nn.Module):
         rank: int = 16,
         token_dim: int = 512,
         dim_acc: int = 4,
-        lora_B_zero_init: bool = True
+        lora_B_zero_init: bool = True,
+        use_rope: bool = False
     ):
         super().__init__()
         self.d_model = d_model
@@ -45,7 +46,8 @@ class ParameterGenerator(nn.Module):
             num_blocks=num_blocks,
             num_heads=num_heads,
             cond_dim=d_model, # condition is projected to d_model before cross_attn
-            expansion=4.0
+            expansion=4.0,
+            use_rope=use_rope
         )
 
     def forward(self, z_H: torch.Tensor, scale: float = 2.0) -> dict:

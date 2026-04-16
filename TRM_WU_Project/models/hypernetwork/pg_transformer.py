@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from models.layers import CastedLinear, SwiGLU, Attention, rms_norm
+from models.layers import CastedLinear, SwiGLU, Attention, RotaryEmbedding, rms_norm
 
 class RMSNorm(nn.Module):
     def __init__(self, dim: int, eps: float = 1e-6):
@@ -69,9 +69,9 @@ class PGTransformerBlock(nn.Module):
         self.norm3 = RMSNorm(d_model)
         self.mlp = SwiGLU(hidden_size=d_model, expansion=expansion)
 
-    def forward(self, x: torch.Tensor, cond: torch.Tensor) -> torch.Tensor:
-        # 1. Self-Attention
-        h = x + self.self_attn(cos_sin=None, hidden_states=self.norm1(x))
+    def forward(self, x: torch.Tensor, cond: torch.Tensor, cos_sin=None) -> torch.Tensor:
+        # 1. Self-Attention (with optional RoPE)
+        h = x + self.self_attn(cos_sin=cos_sin, hidden_states=self.norm1(x))
         # 2. Cross-Attention
         h = h + self.cross_attn(self.norm2(h), cond)
         # 3. FFN (SwiGLU)
@@ -86,7 +86,9 @@ class PGTransformer(nn.Module):
         num_heads: int = 4,
         cond_dim: int = 256,
         expansion: float = 4.0,
-        dropout: float = 0.0
+        dropout: float = 0.0,
+        use_rope: bool = False,
+        max_seq_len: int = 256
     ):
         super().__init__()
         self.blocks = nn.ModuleList([
@@ -95,7 +97,22 @@ class PGTransformer(nn.Module):
         ])
         self.norm_final = RMSNorm(d_model)
 
+        # Optional 1D RoPE for self-attention positional awareness
+        self.use_rope = use_rope
+        if use_rope:
+            head_dim = d_model // num_heads
+            self.rotary_emb = RotaryEmbedding(
+                dim=head_dim,
+                max_position_embeddings=max_seq_len,
+                base=10000
+            )
+
     def forward(self, x: torch.Tensor, cond: torch.Tensor) -> torch.Tensor:
+        cos_sin = None
+        if self.use_rope:
+            cos, sin = self.rotary_emb()
+            cos_sin = (cos[:x.shape[1]], sin[:x.shape[1]])
+
         for block in self.blocks:
-            x = block(x, cond)
+            x = block(x, cond, cos_sin=cos_sin)
         return self.norm_final(x)

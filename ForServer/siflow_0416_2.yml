@@ -5,7 +5,7 @@ imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7
 type: pytorchjob
 priority: medium
 cmd: |
-  cd /mnt/kbei/ && source conda_init.sh && conda activate TRM && cd /mnt/kbei/HyperCircuit/TRM_WU_Project && bash scripts/run/withHypernet0414/run_0414_2.sh
+  cd /mnt/kbei/ && source conda_init.sh && conda activate TRM && cd /mnt/kbei/HyperCircuit/TRM_WU_Project && bash scripts/run/0416/run_0416_2.sh
 workers: 0
 resourcePool: safety-research
 instances:

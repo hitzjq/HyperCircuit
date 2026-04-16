@@ -77,7 +77,9 @@ class PretrainConfig(pydantic.BaseModel):
     pg_d_model: int = 256
     pg_num_blocks: int = 2
     pg_dim_acc: int = 4
+    pg_use_rope: bool = False  # If True, add 1D RoPE to PG self-attention
     condition_mode: str = "embedding_only" # "full_trm" or "embedding_only"
+    head_lora: bool = True  # If False, skip LoRA injection on lm_head and q_head
 
     # Names
     project_name: Optional[str] = None
@@ -163,7 +165,24 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
             in_features = layer.base_layer.weight.shape[1]
             out_features = layer.base_layer.weight.shape[0]
             module_specs.append((name, out_features, in_features))
-            
+
+        # Optionally filter out head layers (lm_head, q_head) with very small output dims
+        if not config.head_lora:
+            excluded = [n for n, o, i in module_specs if o < 64]
+            module_specs = [(n, o, i) for n, o, i in module_specs if o >= 64]
+            # Remove LoRA wrappers from excluded layers
+            for exc_name in excluded:
+                if exc_name in lora_dict_refs:
+                    # Restore original CastedLinear
+                    parts = exc_name.rsplit('.', 1)
+                    parent = model
+                    for p in parts[0].split('.'):
+                        parent = getattr(parent, p)
+                    setattr(parent, parts[1], lora_dict_refs[exc_name].base_layer)
+                    del lora_dict_refs[exc_name]
+            if excluded:
+                print(f"Excluded head layers from LoRA: {excluded}")
+
         from models.hypernetwork import ParameterGenerator
         pg_model = ParameterGenerator(
             module_specs=module_specs,
@@ -173,6 +192,7 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
             rank=config.lora_r,
             token_dim=model_cfg["hidden_size"],
             dim_acc=config.pg_dim_acc,
+            use_rope=config.pg_use_rope,
         ).to("cuda").to(base_dtype)
         print(f"Initialized HyperNetwork (PG) with dtype: {base_dtype}")
 
@@ -187,6 +207,7 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
 
         if "DISABLE_COMPILE" not in os.environ:
             model = torch.compile(model)  # type: ignore
+            pg_model = torch.compile(pg_model)
 
         # Broadcast ALL parameters from rank 0 (base weights + PG params)
         if world_size > 1:
