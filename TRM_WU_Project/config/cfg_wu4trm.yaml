@@ -29,6 +29,8 @@ lr_warmup_steps: 1000
 pg_num_blocks: 2         # HyperNetwork 内部 Transformer 的深度
 pg_d_model: 256          # HyperNetwork 内部隐特征维度 (256膨胀至1024)
 pg_dim_acc: 4            # Tokenizer 的压缩截断比
+pg_use_rope: False
+head_lora: True
 condition_mode: "embedding_only"  # 性能模式："full_trm" (获取完整的长循序推理特征，极慢) 或 "embedding_only" (仅抽取底层特征向量，极速)
 
 # 调试模式优化：默认跳过开局耗时的近30万个样例评估

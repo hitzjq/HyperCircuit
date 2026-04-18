@@ -1,6 +1,6 @@
 {
-  "last_turn_at": "2026-04-07T05:42:46.744Z",
-  "last_progress_at": "2026-04-07T05:42:46.744Z",
-  "turn_count": 11,
-  "last_agent_output": "改好了，方案现在已经明确改成 **transcoder-first** 了。\n\n已更新的文件：\n\n- 英文 PRD：`.omx/plans/prd-codecircuit-trm-arc1-circu"
+  "last_turn_at": "2026-04-17T08:24:11.685Z",
+  "last_progress_at": "2026-04-17T08:24:11.685Z",
+  "turn_count": 14,
+  "last_agent_output": "对，就是这个意思。\n\n如果只加一个 `circuit token`，那么：\n\n- 原来：`z_H` 是 `[B, S, 512]`\n- `circuit_vec` 经过 `Linear/MLP` 后变"
 }
