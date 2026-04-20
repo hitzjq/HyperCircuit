@@ -1,10 +1,11 @@
-from typing import Optional, Any, Sequence, List
-from dataclasses import dataclass
+from typing import Optional, Any, Sequence, List, Dict
+from dataclasses import dataclass, field
 import os
 import math
 import yaml
 import shutil
 import copy
+import hashlib
 from datetime import datetime
 
 import torch
@@ -80,6 +81,7 @@ class PretrainConfig(pydantic.BaseModel):
     pg_use_rope: bool = False  # If True, add 1D RoPE to PG self-attention
     condition_mode: str = "embedding_only" # "full_trm" or "embedding_only"
     head_lora: bool = True  # If False, skip LoRA injection on lm_head and q_head
+    circuit_features_path: Optional[str] = None  # Optional offline CodeCircuit feature tensor
 
     # Names
     project_name: Optional[str] = None
@@ -109,6 +111,121 @@ class TrainState:
     total_steps: int
 
 
+@dataclass
+class CircuitFeatureStore:
+    features: torch.Tensor
+    lookup: Dict[str, int]
+    feature_dim: int
+    warned_missing_hashes: set[str] = field(default_factory=set)
+
+
+def inputs_hash(inputs_tensor: Any) -> str:
+    if not isinstance(inputs_tensor, torch.Tensor):
+        inputs_tensor = torch.as_tensor(inputs_tensor)
+
+    return hashlib.md5(inputs_tensor.detach().contiguous().cpu().numpy().tobytes()).hexdigest()
+
+
+def load_circuit_feature_store(config: PretrainConfig, rank: int) -> Optional[CircuitFeatureStore]:
+    if config.circuit_features_path is None:
+        return None
+
+    path = config.circuit_features_path
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"Circuit feature file not found: {path}")
+
+    data = torch.load(path, map_location="cpu", weights_only=False)
+    if "features" not in data or "query_mapping" not in data:
+        raise ValueError(
+            f"Circuit feature file {path} must contain 'features' and 'query_mapping'."
+        )
+
+    features = data["features"]
+    query_mapping = data["query_mapping"]
+    if not isinstance(features, torch.Tensor) or features.ndim != 2:
+        raise ValueError(f"'features' in {path} must be a rank-2 torch.Tensor.")
+    if not isinstance(query_mapping, list):
+        raise ValueError(f"'query_mapping' in {path} must be a list.")
+    if features.shape[0] != len(query_mapping):
+        raise ValueError(
+            f"Feature count mismatch in {path}: features={features.shape[0]}, mappings={len(query_mapping)}"
+        )
+
+    features = features.detach().to(dtype=torch.float32, device="cpu").contiguous()
+    file_feature_dim = data.get("feature_dim", features.shape[1])
+    if file_feature_dim != features.shape[1]:
+        raise ValueError(
+            f"Feature dim mismatch in {path}: feature_dim={file_feature_dim}, tensor_dim={features.shape[1]}"
+        )
+
+    lookup: Dict[str, int] = {}
+    duplicate_hashes = 0
+    for idx, mapping in enumerate(query_mapping):
+        if not isinstance(mapping, dict) or "inputs" not in mapping:
+            raise ValueError(
+                f"query_mapping[{idx}] in {path} must be a dict containing an 'inputs' tensor."
+            )
+
+        key = inputs_hash(mapping["inputs"])
+        if key in lookup:
+            duplicate_hashes += 1
+            continue
+        lookup[key] = idx
+
+    if rank == 0:
+        print("Loaded offline circuit features")
+        print(f"  Path            : {path}")
+        print(f"  Feature tensor  : {list(features.shape)}")
+        print(f"  Unique queries  : {len(lookup)}")
+        if duplicate_hashes:
+            print(f"  Duplicate hashes: {duplicate_hashes} (keeping first occurrence)")
+
+    return CircuitFeatureStore(
+        features=features,
+        lookup=lookup,
+        feature_dim=features.shape[1],
+    )
+
+
+def lookup_circuit_features(
+    inputs_batch: torch.Tensor,
+    circuit_store: Optional[CircuitFeatureStore],
+    device: torch.device,
+    dtype: torch.dtype,
+    rank: int,
+) -> Optional[torch.Tensor]:
+    if circuit_store is None:
+        return None
+
+    batch_size = inputs_batch.shape[0]
+    circuit_feat = torch.zeros((batch_size, circuit_store.feature_dim), dtype=torch.float32)
+    matched_rows: List[int] = []
+    matched_indices: List[int] = []
+
+    for row_idx, inputs_row in enumerate(inputs_batch):
+        key = inputs_hash(inputs_row)
+        feature_idx = circuit_store.lookup.get(key)
+        if feature_idx is None:
+            if (
+                rank == 0
+                and key not in circuit_store.warned_missing_hashes
+                and len(circuit_store.warned_missing_hashes) < 5
+            ):
+                print(f"Warning: missing circuit feature for query hash {key[:8]}..., using zeros.")
+                circuit_store.warned_missing_hashes.add(key)
+            continue
+
+        matched_rows.append(row_idx)
+        matched_indices.append(feature_idx)
+
+    if matched_indices:
+        row_tensor = torch.tensor(matched_rows, dtype=torch.long)
+        index_tensor = torch.tensor(matched_indices, dtype=torch.long)
+        circuit_feat[row_tensor] = circuit_store.features[index_tensor]
+
+    return circuit_feat.to(device=device, dtype=dtype)
+
+
 def create_dataloader(config: PretrainConfig, split: str, rank: int, world_size: int, **kwargs):
     dataset = PuzzleDataset(PuzzleDatasetConfig(
         seed=config.seed,
@@ -128,7 +245,13 @@ def create_dataloader(config: PretrainConfig, split: str, rank: int, world_size:
     return dataloader, dataset.metadata
 
 
-def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, rank: int, world_size: int):
+def create_model(
+    config: PretrainConfig,
+    train_metadata: PuzzleDatasetMetadata,
+    rank: int,
+    world_size: int,
+    circuit_dim: int = 0,
+):
     model_cfg = dict(
         **config.arch.__pydantic_extra__,  # type: ignore
         batch_size=config.global_batch_size // world_size,
@@ -193,8 +316,11 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
             token_dim=model_cfg["hidden_size"],
             dim_acc=config.pg_dim_acc,
             use_rope=config.pg_use_rope,
+            circuit_dim=circuit_dim,
         ).to("cuda").to(base_dtype)
         print(f"Initialized HyperNetwork (PG) with dtype: {base_dtype}")
+        if circuit_dim > 0:
+            print(f"Enabled offline circuit conditioning with feature_dim={circuit_dim}")
 
         # Freeze TRM Base model (we don't train it, PG generates its weights)
         for param in model.parameters():
@@ -286,12 +412,24 @@ def cosine_schedule_with_warmup_lr_lambda(
     return base_lr * (min_ratio + max(0.0, (1 - min_ratio) * 0.5 * (1.0 + math.cos(math.pi * float(num_cycles) * 2.0 * progress))))
 
 
-def init_train_state(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, rank: int, world_size: int):
+def init_train_state(
+    config: PretrainConfig,
+    train_metadata: PuzzleDatasetMetadata,
+    rank: int,
+    world_size: int,
+    circuit_dim: int = 0,
+):
     # Estimated total training steps
     total_steps = int(config.epochs * train_metadata.total_groups * train_metadata.mean_puzzle_examples / config.global_batch_size)
 
     # Model
-    model, optimizers, optimizer_lrs = create_model(config, train_metadata, rank=rank, world_size=world_size)
+    model, optimizers, optimizer_lrs = create_model(
+        config,
+        train_metadata,
+        rank=rank,
+        world_size=world_size,
+        circuit_dim=circuit_dim,
+    )
 
     return TrainState(
         step=0,
@@ -371,12 +509,21 @@ def create_evaluators(config: PretrainConfig, eval_metadata: PuzzleDatasetMetada
 
     return evaluators
 
-def train_batch(config: PretrainConfig, train_state: TrainState, batch: Any, global_batch_size: int, rank: int, world_size: int):
+def train_batch(
+    config: PretrainConfig,
+    train_state: TrainState,
+    batch: Any,
+    global_batch_size: int,
+    rank: int,
+    world_size: int,
+    circuit_store: Optional[CircuitFeatureStore],
+):
     train_state.step += 1
     if train_state.step > train_state.total_steps:  # At most train_total_steps
         return
 
     # To device
+    batch_inputs = batch["inputs"]
     batch = {k: v.cuda() for k, v in batch.items()}
 
     # Init carry if it is None
@@ -405,7 +552,14 @@ def train_batch(config: PretrainConfig, train_state: TrainState, batch: Any, glo
             z_H = trm_model.model.inner(carry_p1_inner, batch, return_hidden=True)
     
     # Pass 2: Generate LoRA via HyperNetwork
-    lora_dict = pg_model(z_H, scale=config.lora_alpha / config.lora_r)
+    circuit_feat = lookup_circuit_features(
+        batch_inputs,
+        circuit_store,
+        device=z_H.device,
+        dtype=z_H.dtype,
+        rank=rank,
+    )
+    lora_dict = pg_model(z_H, scale=config.lora_alpha / config.lora_r, circuit_feat=circuit_feat)
     
     # Inject LoRA into layers
     for name, layer in lora_refs.items():
@@ -477,6 +631,7 @@ def evaluate(
     rank: int,
     world_size: int,
     cpu_group: Optional[dist.ProcessGroup],
+    circuit_store: Optional[CircuitFeatureStore],
 ):
     reduced_metrics = None
 
@@ -501,6 +656,7 @@ def evaluate(
             processed_batches += 1
             # (batch processing log suppressed to keep logs clean)
             # To device
+            batch_inputs = batch["inputs"]
             batch = {k: v.cuda() for k, v in batch.items()}
             with torch.device("cuda"):
                 carry = train_state.model["trm"].initial_carry(batch)  # type: ignore
@@ -515,7 +671,18 @@ def evaluate(
                     reset_flag = torch.ones(B, dtype=torch.bool, device="cuda")
                     carry_inner = train_state.model["trm"].model.inner.reset_carry(reset_flag, carry.inner_carry)
                     z_H = train_state.model["trm"].model.inner(carry_inner, batch, return_hidden=True)
-                lora_dict = train_state.model["pg"](z_H, scale=config.lora_alpha / config.lora_r)
+                circuit_feat = lookup_circuit_features(
+                    batch_inputs,
+                    circuit_store,
+                    device=z_H.device,
+                    dtype=z_H.dtype,
+                    rank=rank,
+                )
+                lora_dict = train_state.model["pg"](
+                    z_H,
+                    scale=config.lora_alpha / config.lora_r,
+                    circuit_feat=circuit_feat,
+                )
                 
                 for name, layer in train_state.model["lora_refs"].items():
                     layer.set_dynamic_lora(
@@ -713,6 +880,8 @@ def launch(hydra_config: DictConfig):
     # Load sync'ed config
     config = load_synced_config(hydra_config, rank=RANK, world_size=WORLD_SIZE)
 
+    circuit_store = load_circuit_feature_store(config, rank=RANK)
+
     # Seed RNGs to ensure consistency
     torch.random.manual_seed(config.seed + RANK)
     
@@ -750,7 +919,13 @@ def launch(hydra_config: DictConfig):
         evaluators = []
 
     # Train state
-    train_state = init_train_state(config, train_metadata, rank=RANK, world_size=WORLD_SIZE)
+    train_state = init_train_state(
+        config,
+        train_metadata,
+        rank=RANK,
+        world_size=WORLD_SIZE,
+        circuit_dim=circuit_store.feature_dim if circuit_store is not None else 0,
+    )
 
     # Progress bar and logger
     progress_bar = None
@@ -781,7 +956,8 @@ def launch(hydra_config: DictConfig):
             evaluators,
             rank=RANK,
             world_size=WORLD_SIZE,
-            cpu_group=CPU_PROCESS_GROUP)
+            cpu_group=CPU_PROCESS_GROUP,
+            circuit_store=circuit_store)
         if RANK == 0:
             print("=" * 40)
             print(f"📊 BASELINE EVAL RESULT (pre-LoRA): {baseline_metrics}")
@@ -800,7 +976,15 @@ def launch(hydra_config: DictConfig):
         train_state.model["trm"].train()
         train_state.model["pg"].train()
         for set_name, batch, global_batch_size in train_loader:
-            metrics = train_batch(config, train_state, batch, global_batch_size, rank=RANK, world_size=WORLD_SIZE)
+            metrics = train_batch(
+                config,
+                train_state,
+                batch,
+                global_batch_size,
+                rank=RANK,
+                world_size=WORLD_SIZE,
+                circuit_store=circuit_store,
+            )
 
             if RANK == 0 and metrics is not None:
                 loss_val = metrics.get('train/lm_loss') or metrics.get('train/loss') or metrics.get('loss') or 0.0
@@ -835,7 +1019,8 @@ def launch(hydra_config: DictConfig):
                 evaluators,
                 rank=RANK, 
                 world_size=WORLD_SIZE,
-                cpu_group=CPU_PROCESS_GROUP)
+                cpu_group=CPU_PROCESS_GROUP,
+                circuit_store=circuit_store)
 
             if RANK == 0 and metrics is not None:
                 print("=" * 40)

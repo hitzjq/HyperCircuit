@@ -10,6 +10,7 @@ hydra:
 # Data path
 data_paths: ['data/arc1concept-aug-1000']
 data_paths_test: []
+circuit_features_path: null
 
 evaluators:
   - name: arc@ARC

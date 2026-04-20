@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from typing import Optional
 from .pg_tokenizer import PGTokenizer
 from .pg_transformer import PGTransformer
 from models.layers import CastedLinear
@@ -16,7 +17,8 @@ class ParameterGenerator(nn.Module):
         token_dim: int = 512,
         dim_acc: int = 4,
         lora_B_zero_init: bool = True,
-        use_rope: bool = False
+        use_rope: bool = False,
+        circuit_dim: int = 0,  # 0 = 不使用电路特征, 53 = 使用 CodeCircuit 53维特征
     ):
         super().__init__()
         self.d_model = d_model
@@ -29,6 +31,15 @@ class ParameterGenerator(nn.Module):
             self.cond_proj = CastedLinear(cond_dim, d_model, bias=False)
         else:
             self.cond_proj = nn.Identity()
+
+        # 1.5 Circuit Feature Projection (可训练，随 PG 一起更新)
+        self.use_circuit = circuit_dim > 0
+        if self.use_circuit:
+            self.circuit_proj = nn.Sequential(
+                CastedLinear(circuit_dim, d_model, bias=False),
+                nn.SiLU(),
+                CastedLinear(d_model, d_model, bias=False),
+            )
 
         # 2. Tokenizer (handles positional embeddings, packing, unpacking, detokenizing)
         self.tokenizer = PGTokenizer(
@@ -50,14 +61,21 @@ class ParameterGenerator(nn.Module):
             use_rope=use_rope
         )
 
-    def forward(self, z_H: torch.Tensor, scale: float = 2.0) -> dict:
+    def forward(self, z_H: torch.Tensor, scale: float = 2.0, circuit_feat: Optional[torch.Tensor] = None) -> dict:
         """
         z_H: Context hidden states from Pass 1, shape [B, seq_len+16, cond_dim=512]
+        circuit_feat: 离线提取的电路特征, shape [B, circuit_dim] (e.g. [B, 53]), or None
         """
         B = z_H.shape[0]
 
         # Step 1: Condition Projection
         cond = self.cond_proj(z_H) # [B, S, 256]
+
+        # Step 1.5: 拼接电路特征 token (模拟在线提取)
+        if self.use_circuit and circuit_feat is not None:
+            circuit_token = self.circuit_proj(circuit_feat)    # [B, d_model]
+            circuit_token = circuit_token.unsqueeze(1)         # [B, 1, d_model]
+            cond = torch.cat([circuit_token, cond], dim=1)     # [B, S+1, d_model]
 
         # Step 2: Initialize Embeddings and Pack into Tokens
         # tokens: [B, 152, 256] (for 38 virtual tokens, rank 16, dim_acc 4)
