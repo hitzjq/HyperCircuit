@@ -207,12 +207,14 @@ def create_model(config: PretrainConfig, train_metadata: PuzzleDatasetMetadata, 
 
         if "DISABLE_COMPILE" not in os.environ:
             model = torch.compile(model)  # type: ignore
-            pg_model = torch.compile(pg_model)
+            # NOTE: pg_model is NOT compiled - torch.compile has known issues
+            # with RotaryEmbedding's nn.Buffer + dynamic slice (cos[:seq_len])
+            # causing SIGSEGV and garbage shape errors in AOT autograd.
 
         # Broadcast ALL parameters from rank 0 (base weights + PG params)
         if world_size > 1:
             with torch.no_grad():
-                for param in list(model.parameters()) + list(model.buffers()) + list(pg_model.parameters()):
+                for param in list(model.parameters()) + list(model.buffers()) + list(pg_model.parameters()) + list(pg_model.buffers()):
                     dist.broadcast(param, src=0)
 
     # Note: Wrap both models into returned bundle so Optimizers can capture PG
