@@ -1,4 +1,4 @@
-namePrefix: moe
+namePrefix: junqi_0416_4
 image: megatron
 imageVersion: "0.12.1"
 imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7
@@ -19,4 +19,4 @@ volumes:
 enhancements:
   faultTolerance:
     enabled: true
-    maxRetryCount: 1
+    maxRetryCount: 0

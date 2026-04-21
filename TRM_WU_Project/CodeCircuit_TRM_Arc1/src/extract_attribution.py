@@ -61,13 +61,13 @@ def load_dual_sae(sae_path_0, sae_path_1, device):
     return [sae_0, sae_1]
 
 
-def load_trm_model(config_path, ckpt_path, device):
+def load_trm_model(config_path, ckpt_path, dataset_paths, device):
     """加载 TRM 基座模型"""
     from utils.functions import load_model_class
     from puzzle_dataset import PuzzleDataset, PuzzleDatasetConfig
     
     dataset_cfg = PuzzleDatasetConfig(
-        seed=42, dataset_paths=["data/arc1concept-aug-1000"], global_batch_size=1,
+        seed=42, dataset_paths=dataset_paths, global_batch_size=1,
         test_set_mode=False, epochs_per_iter=1, rank=0, num_replicas=1
     )
     dataset = PuzzleDataset(dataset_cfg, split="train")
@@ -514,7 +514,7 @@ def main():
     sae_models = load_dual_sae(rc.sae_block_0_path, rc.sae_block_1_path, device)
     
     print("Loading TRM Base Model...")
-    trm_model = load_trm_model(args.config_path, args.ckpt_path, device)
+    trm_model = load_trm_model(args.config_path, args.ckpt_path, args.dataset_paths, device)
     
     print("Assembling UnrolledTRMWrapper...")
     wrapper = UnrolledTRMWrapper(trm_model.inner, sae_models)
