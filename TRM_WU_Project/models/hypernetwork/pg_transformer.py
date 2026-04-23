@@ -110,8 +110,8 @@ class PGTransformer(nn.Module):
     def forward(self, x: torch.Tensor, cond: torch.Tensor) -> torch.Tensor:
         cos_sin = None
         if self.use_rope:
-            cos, sin = self.rotary_emb()
-            cos_sin = (cos[:x.shape[1]], sin[:x.shape[1]])
+            # max_seq_len is set to exact token count at init, no slice needed
+            cos_sin = self.rotary_emb()
 
         for block in self.blocks:
             x = block(x, cond, cos_sin=cos_sin)

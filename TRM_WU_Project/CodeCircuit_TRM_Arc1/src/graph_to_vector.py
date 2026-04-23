@@ -311,12 +311,25 @@ def process_graphs(input_pattern, output_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Step 4: Convert attribution graphs to feature vectors")
     RunConfig.add_run_args(parser)
+    parser.add_argument("--input_dir", type=str, default=None,
+                        help="Directory containing graph_*.pt files. Defaults to the run attribution_graphs directory.")
+    parser.add_argument("--output_path", type=str, default=None,
+                        help="Feature .pt output path. Defaults to the run cc_advanced_features.pt path.")
+    parser.add_argument("--skip_config_save", action="store_true",
+                        help="Do not update the run config.json. Useful for concurrent shard workers.")
     args = parser.parse_args()
     
     rc = RunConfig(run_name=args.run_name)
     rc.print_summary()
     
-    input_pattern = os.path.join(rc.graphs_dir, "*.pt")
-    process_graphs(input_pattern, rc.features_path)
+    input_dir = args.input_dir or rc.graphs_dir
+    output_path = args.output_path or rc.features_path
+    input_pattern = os.path.join(input_dir, "*.pt")
+    process_graphs(input_pattern, output_path)
     
-    rc.save_config(extra_info={"step": "4_graph_to_vector"})
+    if not args.skip_config_save:
+        rc.save_config(extra_info={
+            "step": "4_graph_to_vector",
+            "input_dir": input_dir,
+            "output_path": output_path,
+        })

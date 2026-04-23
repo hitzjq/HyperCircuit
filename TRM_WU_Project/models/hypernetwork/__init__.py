@@ -52,13 +52,17 @@ class ParameterGenerator(nn.Module):
         )
 
         # 3. Backbone Transformer (pure self/cross attention)
+        # Compute exact seq_len from tokenizer so RoPE buffers are pre-sized
+        # (no dynamic slice needed → torch.compile compatible)
+        num_transformer_tokens = self.tokenizer.total_virtual_tokens * (rank // dim_acc)
         self.transformer = PGTransformer(
             d_model=d_model,
             num_blocks=num_blocks,
             num_heads=num_heads,
             cond_dim=d_model, # condition is projected to d_model before cross_attn
             expansion=4.0,
-            use_rope=use_rope
+            use_rope=use_rope,
+            max_seq_len=num_transformer_tokens
         )
 
     def forward(self, z_H: torch.Tensor, scale: float = 2.0, circuit_feat: Optional[torch.Tensor] = None) -> dict:

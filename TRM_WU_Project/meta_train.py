@@ -333,9 +333,7 @@ def create_model(
 
         if "DISABLE_COMPILE" not in os.environ:
             model = torch.compile(model)  # type: ignore
-            # NOTE: pg_model is NOT compiled - torch.compile has known issues
-            # with RotaryEmbedding's nn.Buffer + dynamic slice (cos[:seq_len])
-            # causing SIGSEGV and garbage shape errors in AOT autograd.
+            pg_model = torch.compile(pg_model)  # type: ignore
 
         # Broadcast ALL parameters from rank 0 (base weights + PG params)
         if world_size > 1:

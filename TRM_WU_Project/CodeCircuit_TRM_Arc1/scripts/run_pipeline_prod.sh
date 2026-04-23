@@ -18,6 +18,15 @@ RUN_NAME="prod_$(date +%m%d_%H%M)"
 DATASET_PATH="/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000"
 CONFIG_PATH="config/cfg_wu4trm.yaml"
 CKPT_PATH="/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_518071"
+COLLECT_MAX_BATCHES="${COLLECT_MAX_BATCHES:--1}"
+SAE_EPOCHS="${SAE_EPOCHS:-10}"
+SAE_BATCH_SIZE="${SAE_BATCH_SIZE:-4096}"
+SAE_D_SAE="${SAE_D_SAE:-4096}"
+SAVE_EVERY_EPOCH="${SAVE_EVERY_EPOCH:-1}"
+TRAIN_MAX_QUERIES="${TRAIN_MAX_QUERIES:--1}"
+TEST_MAX_QUERIES="${TEST_MAX_QUERIES:--1}"
+RUN_TEST_SPLIT="${RUN_TEST_SPLIT:-1}"
+STOP_AFTER_SAE="${STOP_AFTER_SAE:-0}"
 
 RUN_DIR="CodeCircuit_TRM_Arc1/runs/$RUN_NAME"
 LOG_DIR="$RUN_DIR/logs"
@@ -33,6 +42,7 @@ LOG_FILE="$LOG_DIR/pipeline.log"
 run_extract_and_vectorize() {
     local split="$1"
     local output_copy="$2"
+    local max_queries="$3"
 
     echo "=========================================================="
     echo "Extracting attribution graphs for split: $split"
@@ -47,7 +57,7 @@ run_extract_and_vectorize() {
         --config_path "$CONFIG_PATH" \
         --ckpt_path "$CKPT_PATH" \
         --dataset_paths "$DATASET_PATH" \
-        --max_queries -1 \
+        --max_queries "$max_queries" \
         --split "$split" \
         --use_last_step
 
@@ -66,6 +76,7 @@ run_extract_and_vectorize() {
 echo "=========================================================="
 echo "  H200 Production Pipeline"
 echo "  Run: $RUN_NAME"
+echo "  Config: collect_max_batches=$COLLECT_MAX_BATCHES, sae_epochs=$SAE_EPOCHS, sae_batch_size=$SAE_BATCH_SIZE, sae_d_sae=$SAE_D_SAE, train_max_queries=$TRAIN_MAX_QUERIES, test_max_queries=$TEST_MAX_QUERIES"
 echo "=========================================================="
 
 echo "Step 1/4: collect activations"
@@ -73,18 +84,31 @@ python CodeCircuit_TRM_Arc1/src/collect_activations.py \
     --run_name "$RUN_NAME" \
     --dataset_paths "$DATASET_PATH" \
     --ckpt_path "$CKPT_PATH" \
-    --max_batches -1
+    --max_batches "$COLLECT_MAX_BATCHES"
 
 echo "Step 2/4: train SAE"
-python CodeCircuit_TRM_Arc1/src/train_transcoder.py \
-    --run_name "$RUN_NAME" \
-    --epochs 10
+TRAIN_TRANSCODER_ARGS=(
+    --run_name "$RUN_NAME"
+    --epochs "$SAE_EPOCHS"
+    --batch_size "$SAE_BATCH_SIZE"
+    --d_sae "$SAE_D_SAE"
+)
+if [ "$SAVE_EVERY_EPOCH" = "1" ]; then
+    TRAIN_TRANSCODER_ARGS+=(--save_every_epoch)
+fi
+python CodeCircuit_TRM_Arc1/src/train_transcoder.py "${TRAIN_TRANSCODER_ARGS[@]}"
+
+if [ "$STOP_AFTER_SAE" = "1" ]; then
+    echo "Stopping after Step 2 because STOP_AFTER_SAE=1"
+    exit 0
+fi
 
 echo "Step 3/4: extract + vectorize train split"
-run_extract_and_vectorize "train" "$TRAIN_FEATURES_PATH"
+run_extract_and_vectorize "train" "$TRAIN_FEATURES_PATH" "$TRAIN_MAX_QUERIES"
 
+if [ "$RUN_TEST_SPLIT" = "1" ]; then
 echo "Step 4/4: extract + vectorize test split"
-run_extract_and_vectorize "test" "$TEST_FEATURES_PATH"
+run_extract_and_vectorize "test" "$TEST_FEATURES_PATH" "$TEST_MAX_QUERIES"
 
 echo "Merging train + test features into all"
 FEATURES_TRAIN="$TRAIN_FEATURES_PATH" \
@@ -117,6 +141,12 @@ print(f"Merged feature tensor shape: {list(merged['features'].shape)}")
 print(f"Saved merged all file: {all_path}")
 print(f"Updated canonical file: {canonical_path}")
 PY
+else
+echo "Skipping test split because RUN_TEST_SPLIT=$RUN_TEST_SPLIT"
+cp "$TRAIN_FEATURES_PATH" "$ALL_FEATURES_PATH"
+cp "$TRAIN_FEATURES_PATH" "$FEATURES_PATH"
+echo "Using train features as temporary all/main outputs"
+fi
 
 echo "Done. Outputs are under: $RUN_DIR"
 echo "  train: $TRAIN_FEATURES_PATH"

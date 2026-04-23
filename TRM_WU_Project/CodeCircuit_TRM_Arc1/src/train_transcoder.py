@@ -106,6 +106,7 @@ def train_single_sae(data_dir, save_path, args, block_name="block"):
     optimizer = torch.optim.Adam(sae.parameters(), lr=args.lr)
     
     l1_coeff = args.l1_coeff
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
     
     for epoch in range(args.epochs):
         sae.train()
@@ -137,8 +138,19 @@ def train_single_sae(data_dir, save_path, args, block_name="block"):
             
             if (step + 1) % 1000 == 0:
                 print(f"  [{block_name}] Step {step+1} | L1: {l1_loss.item():.4f} | MSE: {mse_loss.item():.4f}")
+        
+        num_steps = max(len(dataloader), 1)
+        print(
+            f"  [{block_name}] Epoch {epoch + 1}/{args.epochs} complete | "
+            f"avg_loss={total_loss / num_steps:.4f} | "
+            f"avg_mse={total_mse / num_steps:.4f} | "
+            f"avg_l1={total_l1 / num_steps:.4f}"
+        )
+        
+        if args.save_every_epoch:
+            torch.save(sae.state_dict(), save_path)
+            print(f"  [{block_name}] Saved latest checkpoint after epoch {epoch + 1}: {save_path}")
 
-    os.makedirs(os.path.dirname(save_path), exist_ok=True)
     torch.save(sae.state_dict(), save_path)
     print(f"✅ {block_name} SAE saved to {save_path}")
     
@@ -229,6 +241,11 @@ if __name__ == "__main__":
     parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
     parser.add_argument("--l1_coeff", type=float, default=1e-3, help="L1 penalty coefficient for sparsity")
     parser.add_argument("--n_layers", type=int, default=30, help="Number of virtual layers")
+    parser.add_argument(
+        "--save_every_epoch",
+        action="store_true",
+        help="Overwrite the latest SAE checkpoint after each epoch so long runs can be stopped early.",
+    )
     
     args = parser.parse_args()
     train_sae(args)

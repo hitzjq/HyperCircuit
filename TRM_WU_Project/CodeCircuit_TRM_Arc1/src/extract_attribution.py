@@ -24,6 +24,8 @@ Phase 1: Attribution Graph Extraction for TRM
 import os
 import sys
 import argparse
+import math
+import time
 import torch
 import torch.nn.functional as F
 from tqdm import tqdm
@@ -502,13 +504,27 @@ def main():
     parser.add_argument("--max_queries", type=int, default=-1)
     parser.add_argument("--split", type=str, default="test")
     parser.add_argument("--use_last_step", action="store_true", default=True)
+    parser.add_argument("--num_shards", type=int, default=1,
+                        help="Total number of query shards for parallel extraction.")
+    parser.add_argument("--shard_index", type=int, default=0,
+                        help="This worker's shard index in [0, num_shards).")
+    parser.add_argument("--graph_dir", type=str, default=None,
+                        help="Override graph output directory. Useful for shard-specific outputs.")
+    parser.add_argument("--skip_config_save", action="store_true",
+                        help="Do not update the run config.json. Useful for concurrent shard workers.")
     args = parser.parse_args()
+
+    if args.num_shards < 1:
+        raise ValueError("--num_shards must be >= 1")
+    if args.shard_index < 0 or args.shard_index >= args.num_shards:
+        raise ValueError("--shard_index must satisfy 0 <= shard_index < num_shards")
     
     rc = RunConfig(run_name=args.run_name)
     rc.print_summary()
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    os.makedirs(rc.graphs_dir, exist_ok=True)
+    graphs_dir = args.graph_dir or rc.graphs_dir
+    os.makedirs(graphs_dir, exist_ok=True)
     
     print("Loading Dual SAE Transcoders...")
     sae_models = load_dual_sae(rc.sae_block_0_path, rc.sae_block_1_path, device)
@@ -523,19 +539,55 @@ def main():
     
     print("Loading Dataset...")
     from puzzle_dataset import PuzzleDataset, PuzzleDatasetConfig
+    use_dataset_sharding = args.split == "test" and args.num_shards > 1
     dataset_cfg = PuzzleDatasetConfig(
         seed=42, dataset_paths=args.dataset_paths,
-        global_batch_size=1, test_set_mode=(args.split == "test"),
-        epochs_per_iter=1, rank=0, num_replicas=1,
+        global_batch_size=args.num_shards if use_dataset_sharding else 1,
+        test_set_mode=(args.split == "test"),
+        epochs_per_iter=1,
+        rank=args.shard_index if use_dataset_sharding else 0,
+        num_replicas=args.num_shards if use_dataset_sharding else 1,
     )
     dataset = PuzzleDataset(dataset_cfg, split=args.split)
     dataloader = torch.utils.data.DataLoader(dataset, batch_size=None, num_workers=0)
     
     halt_max_steps = trm_model.config.halt_max_steps
-    print(f"\nStarting Attribution (split={args.split}, use_last_step={args.use_last_step})...")
+    shard_total = None
+    total_examples = None
+    if args.split == "test":
+        dataset._lazy_load_dataset()
+        total_examples = sum(len(data["inputs"]) for data in dataset._data.values())
+        if use_dataset_sharding:
+            shard_total = max(0, math.ceil((total_examples - args.shard_index) / args.num_shards))
+        else:
+            shard_total = total_examples
+    if args.max_queries > 0 and shard_total is not None:
+        shard_total = min(shard_total, args.max_queries)
+
+    print(
+        f"\nStarting Attribution (split={args.split}, use_last_step={args.use_last_step}, "
+        f"shard={args.shard_index}/{args.num_shards}, graph_dir={graphs_dir}, "
+        f"expected_queries={shard_total if shard_total is not None else 'unknown'})..."
+    )
+    start_time = time.time()
     count = 0
     
-    for set_name, batch, effective_batch_size in tqdm(dataloader, desc="Extracting"):
+    pbar = tqdm(
+        dataloader,
+        desc=f"Extracting shard {args.shard_index}/{args.num_shards}",
+        total=shard_total,
+        dynamic_ncols=True,
+    )
+    for source_index, (set_name, batch, effective_batch_size) in enumerate(pbar):
+        if use_dataset_sharding:
+            graph_index = args.shard_index + source_index * args.num_shards
+            if total_examples is not None and graph_index >= total_examples:
+                break
+        else:
+            graph_index = source_index
+            if args.num_shards > 1 and graph_index % args.num_shards != args.shard_index:
+                continue
+
         if args.max_queries > 0 and count >= args.max_queries:
             break
         
@@ -545,7 +597,10 @@ def main():
             # 构造 query 身份标识 (供 HyperNet 对齐用)
             query_meta = {
                 "set_name": set_name,
-                "graph_index": count,
+                "graph_index": graph_index,
+                "shard_index": args.shard_index,
+                "num_shards": args.num_shards,
+                "shard_local_index": count,
                 "puzzle_identifiers": batch["puzzle_identifiers"].cpu(),
                 "inputs": batch["inputs"].cpu(),
                 "labels": batch["labels"].cpu(),
@@ -563,11 +618,11 @@ def main():
                 query_meta=query_meta,
             )
             
-            save_path = os.path.join(rc.graphs_dir, f"graph_{count:06d}.pt")
+            save_path = os.path.join(graphs_dir, f"graph_{graph_index:06d}.pt")
             torch.save(graph_data, save_path)
             
             if count % 50 == 0:
-                print(f"\n  Query {count} [{set_name}]: loss={graph_data['loss']:.4f}, "
+                print(f"\n  Query {graph_index} [{set_name}] shard_local={count}: loss={graph_data['loss']:.4f}, "
                       f"features={graph_data['n_selected_features']}, "
                       f"errors={graph_data['n_error_nodes']}, "
                       f"tokens={graph_data['n_token_nodes']}, "
@@ -575,6 +630,7 @@ def main():
                       f"adj={list(graph_data['adjacency_matrix'].shape)}")
             
             count += 1
+            pbar.set_postfix({"graph_index": graph_index})
             
         except RuntimeError as e:
             if "out of memory" in str(e):
@@ -583,14 +639,24 @@ def main():
                 continue
             raise
     
-    rc.save_config(extra_info={
-        "step": "3_extract_attribution",
-        "ckpt_path": args.ckpt_path,
-        "dataset_paths": args.dataset_paths,
-        "max_queries": args.max_queries,
-        "split": args.split,
-        "n_graphs": count,
-    })
+    if not args.skip_config_save:
+        rc.save_config(extra_info={
+            "step": "3_extract_attribution",
+            "ckpt_path": args.ckpt_path,
+            "dataset_paths": args.dataset_paths,
+            "max_queries": args.max_queries,
+            "split": args.split,
+            "num_shards": args.num_shards,
+            "shard_index": args.shard_index,
+            "n_graphs": count,
+            "graphs_dir": graphs_dir,
+        })
+    elapsed = time.time() - start_time
+    rate = count / elapsed if elapsed > 0 else 0.0
+    print(
+        f"\nShard timing: saved {count} graphs to {graphs_dir}. "
+        f"Elapsed: {elapsed / 3600:.2f}h ({elapsed:.0f}s), rate: {rate:.4f} query/s"
+    )
     print(f"\n✅ Attribution extraction complete! {count} graphs saved to {rc.graphs_dir}")
 
 
