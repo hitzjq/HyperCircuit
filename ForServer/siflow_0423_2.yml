@@ -1,11 +1,11 @@
-namePrefix: junqi-0416-1
+namePrefix: junqi-0423-2
 image: megatron
 imageVersion: "0.12.1"
 imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7
 type: pytorchjob
 priority: medium
 cmd: |
-  cd /mnt/kbei/ && source conda_init.sh && conda activate TRM && cd /mnt/kbei/HyperCircuit/TRM_WU_Project && bash scripts/run/0416/run_0416_1.sh
+  cd /mnt/kbei/ && source conda_init.sh && conda activate TRM && cd /mnt/kbei/HyperCircuit/TRM_WU_Project && bash scripts/run/0423/run_0423_2_c2_lorar32.sh
 workers: 0
 resourcePool: safety-research
 instances:
