@@ -21,6 +21,7 @@ global_batch_size: 16   # Smaller batch size for HyperNetwork due to VRAM cost
 epochs: 20000            
 eval_interval: 2000
 checkpoint_every_eval: True
+skip_eval: False
 
 lr: 1e-4                 # PG Tokenizer & Transformer lr
 lr_min_ratio: 0.1

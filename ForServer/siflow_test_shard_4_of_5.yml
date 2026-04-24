@@ -1,4 +1,4 @@
-namePrefix: junqi_test_shard_4_of_5
+namePrefix: junqi-test-shard-4-of-5
 image: megatron
 imageVersion: "0.12.1"
 imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7

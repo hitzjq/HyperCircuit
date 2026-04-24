@@ -1,4 +1,4 @@
-namePrefix: junqi_circuit
+namePrefix: junqi-circuit
 image: megatron
 imageVersion: "0.12.1"
 imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7

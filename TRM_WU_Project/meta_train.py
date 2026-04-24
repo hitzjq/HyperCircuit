@@ -93,6 +93,7 @@ class PretrainConfig(pydantic.BaseModel):
     seed: int = 0
     checkpoint_every_eval: bool = False
     eval_interval: Optional[int] = None
+    skip_eval: bool = False # If True, save checkpoints at eval_interval without running evaluate()
     min_eval_interval: Optional[int] = 0 # when to start eval
     eval_save_outputs: List[str] = []
 
@@ -1000,6 +1001,14 @@ def launch(hydra_config: DictConfig):
 
         if _iter_id >= config.min_eval_interval:
             ############ Evaluation
+            if config.skip_eval:
+                if RANK == 0:
+                    print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] SKIP EVALUATE (Epoch {(_iter_id + 1) * train_epochs_per_iter}); saving checkpoint only", flush=True)
+                    print("SAVE CHECKPOINT")
+                if RANK == 0 and (config.checkpoint_every_eval or (_iter_id == total_iters - 1)):
+                    save_train_state(config, train_state)
+                continue
+
             if RANK == 0:
                 print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] EVALUATE (Epoch {(_iter_id + 1) * train_epochs_per_iter})", flush=True)
             if config.ema:

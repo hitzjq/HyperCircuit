@@ -1,4 +1,4 @@
-namePrefix: junqi_0416_4
+namePrefix: junqi-0416-4
 image: megatron
 imageVersion: "0.12.1"
 imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7
