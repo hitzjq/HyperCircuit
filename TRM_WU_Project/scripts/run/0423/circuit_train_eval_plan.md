@@ -15,7 +15,7 @@
 训练阶段先使用服务器上的 train-only circuit 文件：
 
 ```bash
-/mnt/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/prod_0421_1742/cc_advanced_features_train.pt
+/volume/safety/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/prod_0421_1742/cc_advanced_features_train.pt
 ```
 
 这个路径应作为 `circuit_features_path` 传给 `meta_train.py`。该文件应包含：
@@ -95,13 +95,13 @@ if _iter_id >= config.min_eval_interval:
 等 test circuit 或 all circuit 准备好后，正式评估时应使用包含 test query 的 circuit 文件，例如：
 
 ```bash
-/mnt/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/<prod_run>/cc_advanced_features.pt
+/volume/safety/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/<prod_run>/cc_advanced_features.pt
 ```
 
 或：
 
 ```bash
-/mnt/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/<prod_run>/cc_advanced_features_all.pt
+/volume/safety/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/<prod_run>/cc_advanced_features_all.pt
 ```
 
 正式评估需要遍历每个实验目录下的所有 `step_*.pt`，包括：
@@ -139,7 +139,7 @@ skip_baseline_eval=True
 skip_eval=True
 global_batch_size=2048
 lr_warmup_steps=2000
-circuit_features_path=/mnt/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/prod_0421_1742/cc_advanced_features_train.pt
+circuit_features_path=/volume/safety/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/prod_0421_1742/cc_advanced_features_train.pt
 ```
 
 在 `skip_eval=true` 的计划下，`eval_interval=2000` 实际作为 checkpoint 保存间隔使用。每套配置会保存：

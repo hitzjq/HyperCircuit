@@ -5,9 +5,9 @@ RUN_NAME="${RUN_NAME:-prod_0421_1742}"
 NUM_SHARDS="${NUM_SHARDS:-40}"
 SHARD_INDEX="${SHARD_INDEX:?Set SHARD_INDEX before launching this worker}"
 
-DATASET_PATH="${DATASET_PATH:-/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000}"
+DATASET_PATH="${DATASET_PATH:-/volume/safety/kbei/HyperCircuit_Data/data/arc1concept-aug-1000}"
 CONFIG_PATH="${CONFIG_PATH:-config/cfg_wu4trm.yaml}"
-CKPT_PATH="${CKPT_PATH:-/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_518071}"
+CKPT_PATH="${CKPT_PATH:-/volume/safety/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_518071}"
 MAX_QUERIES="${MAX_QUERIES:--1}"
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"

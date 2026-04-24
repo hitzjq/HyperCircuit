@@ -15,9 +15,9 @@ cd "$PROJECT_ROOT"
 
 # ---- Config ----
 RUN_NAME="prod_$(date +%m%d_%H%M)"
-DATASET_PATH="/mnt/kbei/HyperCircuit_Data/data/arc1concept-aug-1000"
+DATASET_PATH="/volume/safety/kbei/HyperCircuit_Data/data/arc1concept-aug-1000"
 CONFIG_PATH="config/cfg_wu4trm.yaml"
-CKPT_PATH="/mnt/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_518071"
+CKPT_PATH="/volume/safety/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_518071"
 COLLECT_MAX_BATCHES="${COLLECT_MAX_BATCHES:--1}"
 SAE_EPOCHS="${SAE_EPOCHS:-10}"
 SAE_BATCH_SIZE="${SAE_BATCH_SIZE:-4096}"

@@ -25,6 +25,7 @@ import os
 import sys
 import argparse
 import math
+import re
 import time
 import torch
 import torch.nn.functional as F
@@ -564,21 +565,34 @@ def main():
     if args.max_queries > 0 and shard_total is not None:
         shard_total = min(shard_total, args.max_queries)
 
+    existing_graph_indices = set()
+    graph_name_pattern = re.compile(r"graph_(\d+)\.pt$")
+    for entry in os.scandir(graphs_dir):
+        if not entry.is_file():
+            continue
+        match = graph_name_pattern.fullmatch(entry.name)
+        if match:
+            existing_graph_indices.add(int(match.group(1)))
+
+    existing_count = len(existing_graph_indices)
     print(
         f"\nStarting Attribution (split={args.split}, use_last_step={args.use_last_step}, "
         f"shard={args.shard_index}/{args.num_shards}, graph_dir={graphs_dir}, "
         f"expected_queries={shard_total if shard_total is not None else 'unknown'})..."
     )
+    print(f"Resume state: found {existing_count} existing graph files in {graphs_dir}")
     start_time = time.time()
-    count = 0
-    
+    generated_count = 0
+    skipped_existing_count = 0
+    count = existing_count
+
     pbar = tqdm(
-        dataloader,
         desc=f"Extracting shard {args.shard_index}/{args.num_shards}",
         total=shard_total,
+        initial=min(existing_count, shard_total) if shard_total is not None else 0,
         dynamic_ncols=True,
     )
-    for source_index, (set_name, batch, effective_batch_size) in enumerate(pbar):
+    for source_index, (set_name, batch, effective_batch_size) in enumerate(dataloader):
         if use_dataset_sharding:
             graph_index = args.shard_index + source_index * args.num_shards
             if total_examples is not None and graph_index >= total_examples:
@@ -588,8 +602,17 @@ def main():
             if args.num_shards > 1 and graph_index % args.num_shards != args.shard_index:
                 continue
 
-        if args.max_queries > 0 and count >= args.max_queries:
+        completed_count = existing_count + generated_count
+        if args.max_queries > 0 and completed_count >= args.max_queries:
             break
+
+        save_path = os.path.join(graphs_dir, f"graph_{graph_index:06d}.pt")
+        if graph_index in existing_graph_indices or os.path.exists(save_path):
+            skipped_existing_count += 1
+            if skipped_existing_count % 50 == 0:
+                print(f"\n  Query {graph_index} already exists, skipping")
+            pbar.set_postfix({"graph_index": graph_index, "status": "resume"})
+            continue
         
         try:
             batch_gpu = {k: v.to(device) for k, v in batch.items()}
@@ -600,7 +623,7 @@ def main():
                 "graph_index": graph_index,
                 "shard_index": args.shard_index,
                 "num_shards": args.num_shards,
-                "shard_local_index": count,
+                "shard_local_index": completed_count,
                 "puzzle_identifiers": batch["puzzle_identifiers"].cpu(),
                 "inputs": batch["inputs"].cpu(),
                 "labels": batch["labels"].cpu(),
@@ -618,19 +641,22 @@ def main():
                 query_meta=query_meta,
             )
             
-            save_path = os.path.join(graphs_dir, f"graph_{graph_index:06d}.pt")
             torch.save(graph_data, save_path)
+            generated_count += 1
+            count += 1
+            existing_graph_indices.add(graph_index)
+            pbar.update(1)
             
-            if count % 50 == 0:
-                print(f"\n  Query {graph_index} [{set_name}] shard_local={count}: loss={graph_data['loss']:.4f}, "
+            completed_count = existing_count + generated_count
+            if completed_count % 50 == 0:
+                print(f"\n  Query {graph_index} [{set_name}] shard_local={completed_count}: loss={graph_data['loss']:.4f}, "
                       f"features={graph_data['n_selected_features']}, "
                       f"errors={graph_data['n_error_nodes']}, "
                       f"tokens={graph_data['n_token_nodes']}, "
                       f"logits={graph_data['n_logit_nodes']}, "
                       f"adj={list(graph_data['adjacency_matrix'].shape)}")
             
-            count += 1
-            pbar.set_postfix({"graph_index": graph_index})
+            pbar.set_postfix({"graph_index": graph_index, "status": "new"})
             
         except RuntimeError as e:
             if "out of memory" in str(e):
@@ -652,11 +678,13 @@ def main():
             "graphs_dir": graphs_dir,
         })
     elapsed = time.time() - start_time
-    rate = count / elapsed if elapsed > 0 else 0.0
+    rate = generated_count / elapsed if elapsed > 0 else 0.0
     print(
-        f"\nShard timing: saved {count} graphs to {graphs_dir}. "
-        f"Elapsed: {elapsed / 3600:.2f}h ({elapsed:.0f}s), rate: {rate:.4f} query/s"
+        f"\nShard timing: generated {generated_count} new graphs, reused {skipped_existing_count} existing graphs, "
+        f"total available {count} in {graphs_dir}. "
+        f"Elapsed: {elapsed / 3600:.2f}h ({elapsed:.0f}s), rate: {rate:.4f} new query/s"
     )
+    print(f"Resume summary: graph_dir={graphs_dir}, total_graphs={count}")
     print(f"\n✅ Attribution extraction complete! {count} graphs saved to {rc.graphs_dir}")
 
 
