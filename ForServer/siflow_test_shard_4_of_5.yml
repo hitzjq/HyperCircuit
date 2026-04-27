@@ -15,7 +15,9 @@ volumes:
   - volumeName: pt-train
     mountDir: /volume/pt-train
   - volumeName: kbei
-    mountDir: /volume/safety/kbei
+    mountDir: /mnt/kbei
+  - volumeName: safety
+    mountDir: /volume/safety
 enhancements:
   faultTolerance:
     enabled: true
