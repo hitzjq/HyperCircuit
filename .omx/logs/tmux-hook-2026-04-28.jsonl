@@ -20,3 +20,13 @@
 {"timestamp":"2026-04-28T11:39:27.001Z","type":"auto_nudge_skipped","reason":"unmanaged_session"}
 {"timestamp":"2026-04-28T11:48:04.713Z","type":"tmux_hook","mode":null,"reason":"invalid_config","turn_id":"019dd3ea-8356-7fb1-adcd-2e1def46f186","thread_id":"019dadf2-6fac-76e1-8fd1-11519368e47a","target":null,"dry_run":false,"sent":false,"event":"injection_skipped"}
 {"timestamp":"2026-04-28T11:48:04.931Z","type":"auto_nudge_skipped","reason":"unmanaged_session"}
+{"timestamp":"2026-04-28T11:59:10.984Z","type":"tmux_hook","mode":null,"reason":"invalid_config","turn_id":"019dd3f4-6cd1-7830-8f07-b758c963535d","thread_id":"019dadf2-6fac-76e1-8fd1-11519368e47a","target":null,"dry_run":false,"sent":false,"event":"injection_skipped"}
+{"timestamp":"2026-04-28T11:59:11.234Z","type":"auto_nudge_skipped","reason":"unmanaged_session"}
+{"timestamp":"2026-04-28T12:01:27.261Z","type":"tmux_hook","mode":null,"reason":"invalid_config","turn_id":"019dd3f6-3b37-71c2-b5ff-ceec3e11a8a8","thread_id":"019dadf2-6fac-76e1-8fd1-11519368e47a","target":null,"dry_run":false,"sent":false,"event":"injection_skipped"}
+{"timestamp":"2026-04-28T12:01:27.481Z","type":"auto_nudge_skipped","reason":"unmanaged_session"}
+{"timestamp":"2026-04-28T12:09:25.510Z","type":"tmux_hook","mode":null,"reason":"invalid_config","turn_id":"019dd3fe-063d-7063-92e3-22bb8877d8a4","thread_id":"019dadf2-6fac-76e1-8fd1-11519368e47a","target":null,"dry_run":false,"sent":false,"event":"injection_skipped"}
+{"timestamp":"2026-04-28T12:09:25.738Z","type":"auto_nudge_skipped","reason":"unmanaged_session"}
+{"timestamp":"2026-04-28T12:11:24.352Z","type":"tmux_hook","mode":null,"reason":"invalid_config","turn_id":"019dd3ff-f464-7581-a8cd-10696372919e","thread_id":"019dadf2-6fac-76e1-8fd1-11519368e47a","target":null,"dry_run":false,"sent":false,"event":"injection_skipped"}
+{"timestamp":"2026-04-28T12:11:24.636Z","type":"auto_nudge_skipped","reason":"unmanaged_session"}
+{"timestamp":"2026-04-28T12:13:44.378Z","type":"tmux_hook","mode":null,"reason":"invalid_config","turn_id":"019dd400-bd4d-7700-a1cc-2aeda10d65c7","thread_id":"019dadf2-6fac-76e1-8fd1-11519368e47a","target":null,"dry_run":false,"sent":false,"event":"injection_skipped"}
+{"timestamp":"2026-04-28T12:13:44.617Z","type":"auto_nudge_skipped","reason":"unmanaged_session"}

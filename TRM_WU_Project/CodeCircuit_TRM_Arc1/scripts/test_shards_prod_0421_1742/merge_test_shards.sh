@@ -27,7 +27,13 @@ for shard_index in $(seq 0 $((NUM_SHARDS - 1))); do
   printf -v shard_tag "shard_%02d_of_%02d" "$shard_index" "$NUM_SHARDS"
   shard_root="$SHARDS_ROOT/$shard_tag"
   graph_dir="$shard_root/attribution_graphs"
-  feature_path="$shard_root/cc_advanced_features_test_${shard_tag}.pt"
+  feature_path="$shard_root/feat.pt"
+  legacy_feature_path="$shard_root/cc_advanced_features_test_${shard_tag}.pt"
+
+  if [ ! -f "$feature_path" ] && [ -f "$legacy_feature_path" ]; then
+    echo "Migrating legacy shard feature: $legacy_feature_path -> $feature_path"
+    mv "$legacy_feature_path" "$feature_path"
+  fi
 
   if [ -f "$feature_path" ]; then
     echo "Shard feature already present: $feature_path"
@@ -80,8 +86,16 @@ for shard_index in range(num_shards):
         run_dir,
         "test_shards",
         shard_tag,
+        "feat.pt",
+    )
+    legacy_shard_path = os.path.join(
+        run_dir,
+        "test_shards",
+        shard_tag,
         f"cc_advanced_features_test_{shard_tag}.pt",
     )
+    if not os.path.exists(shard_path) and os.path.exists(legacy_shard_path):
+        shard_path = legacy_shard_path
     if not os.path.exists(shard_path):
         if allow_partial:
             print(f"WARNING: Missing shard feature file: {shard_path}")

@@ -19,7 +19,8 @@ printf -v SHARD_TAG "shard_%02d_of_%02d" "$SHARD_INDEX" "$NUM_SHARDS"
 RUN_DIR="CodeCircuit_TRM_Arc1/runs/$RUN_NAME"
 SHARD_ROOT="$RUN_DIR/test_shards/$SHARD_TAG"
 GRAPH_DIR="$SHARD_ROOT/attribution_graphs"
-FEATURE_PATH="$SHARD_ROOT/cc_advanced_features_test_${SHARD_TAG}.pt"
+FEATURE_PATH="$SHARD_ROOT/feat.pt"
+LEGACY_FEATURE_PATH="$SHARD_ROOT/cc_advanced_features_test_${SHARD_TAG}.pt"
 LOG_DIR="$SHARD_ROOT/logs"
 LOG_FILE="$LOG_DIR/run.log"
 
@@ -49,24 +50,43 @@ echo "  Graph dir: $GRAPH_DIR"
 echo "  Feature path: $FEATURE_PATH"
 echo "=========================================================="
 
-python CodeCircuit_TRM_Arc1/src/extract_attribution.py \
-    --run_name "$RUN_NAME" \
-    --config_path "$CONFIG_PATH" \
-    --ckpt_path "$CKPT_PATH" \
-    --dataset_paths "$DATASET_PATH" \
-    --max_queries "$MAX_QUERIES" \
-    --split test \
-    --use_last_step \
-    --num_shards "$NUM_SHARDS" \
-    --shard_index "$SHARD_INDEX" \
-    --graph_dir "$GRAPH_DIR" \
-    --skip_config_save
+GRAPH_COUNT="$(find "$GRAPH_DIR" -maxdepth 1 -type f -name 'graph_*.pt' | wc -l | tr -d ' ')"
+echo "  Existing graph count: $GRAPH_COUNT"
 
-python CodeCircuit_TRM_Arc1/src/graph_to_vector.py \
-    --run_name "$RUN_NAME" \
-    --input_dir "$GRAPH_DIR" \
-    --output_path "$FEATURE_PATH" \
-    --skip_config_save
+if [ ! -f "$FEATURE_PATH" ] && [ -f "$LEGACY_FEATURE_PATH" ]; then
+  echo "Found legacy feature file, migrating to short name."
+  mv "$LEGACY_FEATURE_PATH" "$FEATURE_PATH"
+fi
+
+if [ -f "$FEATURE_PATH" ]; then
+  echo "Feature file already exists, skipping both extraction and vectorization."
+elif [ "$GRAPH_COUNT" -gt 0 ]; then
+  echo "Existing graphs detected, skipping extraction and running vectorization only."
+else
+  echo "No existing graphs detected, running extraction first."
+  python CodeCircuit_TRM_Arc1/src/extract_attribution.py \
+      --run_name "$RUN_NAME" \
+      --config_path "$CONFIG_PATH" \
+      --ckpt_path "$CKPT_PATH" \
+      --dataset_paths "$DATASET_PATH" \
+      --max_queries "$MAX_QUERIES" \
+      --split test \
+      --use_last_step \
+      --num_shards "$NUM_SHARDS" \
+      --shard_index "$SHARD_INDEX" \
+      --graph_dir "$GRAPH_DIR" \
+      --skip_config_save
+fi
+
+if [ ! -f "$FEATURE_PATH" ]; then
+  python CodeCircuit_TRM_Arc1/src/graph_to_vector.py \
+      --run_name "$RUN_NAME" \
+      --input_dir "$GRAPH_DIR" \
+      --output_path "$FEATURE_PATH" \
+      --skip_config_save
+else
+  echo "Vectorized feature already present: $FEATURE_PATH"
+fi
 
 END_TS="$(date '+%Y-%m-%d %H:%M:%S')"
 END_EPOCH="$(date +%s)"
