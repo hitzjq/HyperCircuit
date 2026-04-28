@@ -1,6 +1,6 @@
 {
-  "last_turn_at": "2026-04-28T10:52:35.233Z",
-  "last_progress_at": "2026-04-28T10:52:35.233Z",
-  "turn_count": 93,
-  "last_agent_output": "好了，我已经按你要的重新做成 **0428** 这一套了，而且是根据之前 `logs0423` 的报错认真调整过的，不是简单复制。\n\n**现在有两部分新东西：**\n\n**1. 0428 的 4 个训练"
+  "last_turn_at": "2026-04-28T11:39:26.751Z",
+  "last_progress_at": "2026-04-28T11:39:26.751Z",
+  "turn_count": 96,
+  "last_agent_output": "已经按这个思路改好了。\n\n**现在 merge 脚本会这样工作：**\n1. 先遍历 `shard_00_of_40` 到 `shard_39_of_40`\n2. 如果发现某个 shard 的：\n   "
 }

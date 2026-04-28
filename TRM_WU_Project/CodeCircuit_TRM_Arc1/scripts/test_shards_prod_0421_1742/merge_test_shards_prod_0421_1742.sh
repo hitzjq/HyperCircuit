@@ -23,6 +23,35 @@ echo "  Run: $RUN_NAME"
 echo "  Shards root: $SHARDS_ROOT"
 echo "=========================================================="
 
+for shard_index in $(seq 0 $((NUM_SHARDS - 1))); do
+  printf -v shard_tag "shard_%02d_of_%02d" "$shard_index" "$NUM_SHARDS"
+  shard_root="$SHARDS_ROOT/$shard_tag"
+  graph_dir="$shard_root/attribution_graphs"
+  feature_path="$shard_root/cc_advanced_features_test_${shard_tag}.pt"
+
+  if [ -f "$feature_path" ]; then
+    echo "Shard feature already present: $feature_path"
+    continue
+  fi
+
+  if [ -d "$graph_dir" ] && find "$graph_dir" -maxdepth 1 -type f -name 'graph_*.pt' | grep -q .; then
+    echo "Missing shard feature for $shard_tag, regenerating from $graph_dir"
+    python CodeCircuit_TRM_Arc1/src/graph_to_vector.py \
+      --run_name "$RUN_NAME" \
+      --input_dir "$graph_dir" \
+      --output_path "$feature_path" \
+      --skip_config_save
+  else
+    message="Missing shard feature and no graphs available for $shard_tag"
+    if [ "$ALLOW_PARTIAL_MERGE" = "1" ]; then
+      echo "WARNING: $message"
+    else
+      echo "ERROR: $message" >&2
+      exit 1
+    fi
+  fi
+done
+
 RUN_DIR="$RUN_DIR" \
 NUM_SHARDS="$NUM_SHARDS" \
 EXPECTED_TEST_QUERIES="$EXPECTED_TEST_QUERIES" \
@@ -54,6 +83,9 @@ for shard_index in range(num_shards):
         f"cc_advanced_features_test_{shard_tag}.pt",
     )
     if not os.path.exists(shard_path):
+        if allow_partial:
+            print(f"WARNING: Missing shard feature file: {shard_path}")
+            continue
         raise FileNotFoundError(f"Missing shard feature file: {shard_path}")
 
     shard = torch.load(shard_path, map_location="cpu", weights_only=False)
