@@ -334,7 +334,8 @@ def create_model(
 
         if "DISABLE_COMPILE" not in os.environ:
             model = torch.compile(model)  # type: ignore
-            pg_model = torch.compile(pg_model)  # type: ignore
+            if "DISABLE_PG_COMPILE" not in os.environ:
+                pg_model = torch.compile(pg_model)  # type: ignore
 
         # Broadcast ALL parameters from rank 0 (base weights + PG params)
         if world_size > 1:

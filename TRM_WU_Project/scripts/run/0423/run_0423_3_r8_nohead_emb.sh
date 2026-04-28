@@ -8,17 +8,23 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &> /dev/null && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../../../" && pwd)"
 cd "$PROJECT_ROOT"
 
+CACHE_ROOT="${PROJECT_ROOT}/.cache/torch"
+mkdir -p "${CACHE_ROOT}/inductor" "${CACHE_ROOT}/triton"
+export TORCHINDUCTOR_CACHE_DIR="${TORCHINDUCTOR_CACHE_DIR:-${CACHE_ROOT}/inductor}"
+export TRITON_CACHE_DIR="${TRITON_CACHE_DIR:-${CACHE_ROOT}/triton}"
+export DISABLE_PG_COMPILE=1
+
 NUM_GPUS=8
 GLOBAL_BATCH_SIZE=2048
 WARMUP=2000
 EPOCHS=20000
 EVAL_INTERVAL=2000
-DATASET_PATH="/volume/safety/kbei/HyperCircuit_Data/data/arc1concept-aug-1000"
-BASE_CKPT_PATH="/volume/safety/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_518071"
-CIRCUIT_FEATURES_PATH="${CIRCUIT_FEATURES_PATH:-/volume/safety/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/prod_0421_1742/cc_advanced_features_train.pt}"
+DATASET_PATH="${DATASET_PATH:-/volume/safety/kbei/HyperCircuit_Data/data/arc1concept-aug-1000}"
+BASE_CKPT_PATH="${BASE_CKPT_PATH:-/volume/safety/kbei/HyperCircuit_Data/checkpoints/Arc1concept-aug-1000-ACT-torch/pretrain_att_arc1concept_4/step_518071}"
+CIRCUIT_FEATURES_PATH="${CIRCUIT_FEATURES_PATH:-/volume/safety/kbei/HyperCircuit/TRM_WU_Project/CodeCircuit_TRM_Arc1/runs/prod_0421_1742/cc_advanced_features.pt}"
 CFG="cfg_wu4trm"
 SKIP_BASELINE_EVAL="True"
-SKIP_EVAL="True"
+SKIP_EVAL="False"
 LOG_DIR="logs/logs0423"
 mkdir -p "$LOG_DIR"
 
@@ -49,7 +55,8 @@ echo "  pg_blocks=${PG_BLOCKS}, pg_d_model=${PG_DIM}, pg_use_rope=${USE_ROPE}"
 echo "  lora_r=${LORA_R}, lora_alpha=${LORA_ALPHA}, head_lora=${HEAD_LORA}"
 echo "  condition_mode=${COND_MODE}, lr=${LR}, wd=${WD}"
 echo "  circuit_features_path=${CIRCUIT_FEATURES_PATH}"
-echo "  skip_eval=${SKIP_EVAL}; checkpoints saved every ${EVAL_INTERVAL} epochs"
+echo "  skip_eval=${SKIP_EVAL}; evaluation + checkpoints every ${EVAL_INTERVAL} epochs"
+echo "  DISABLE_PG_COMPILE=${DISABLE_PG_COMPILE}"
 echo "=========================================================="
 
 torchrun --nproc-per-node=${NUM_GPUS} \

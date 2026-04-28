@@ -24,14 +24,14 @@ CIRCUIT_FEATURES_PATH="${CIRCUIT_FEATURES_PATH:-/volume/safety/kbei/HyperCircuit
 CFG="cfg_wu4trm"
 SKIP_BASELINE_EVAL="True"
 SKIP_EVAL="False"
-LOG_DIR="logs/logs0423"
+LOG_DIR="logs/logs0428"
 mkdir -p "$LOG_DIR"
 
-TAG="C1_lorar8_circuit"
+TAG="C2_lorar32_circuit"
 PG_BLOCKS=2
 PG_DIM=256
-LORA_R=8
-LORA_ALPHA=16
+LORA_R=32
+LORA_ALPHA=64
 WD=0.1
 LR=1e-5
 PUZZLE_LR=1e-3
@@ -83,7 +83,7 @@ torchrun --nproc-per-node=${NUM_GPUS} \
     data_paths="['${DATASET_PATH}']" \
     +checkpoint_path="${CKPT_DIR}" \
     +load_checkpoint=$BASE_CKPT_PATH \
-    +project_name="trm-hp-0423-circuit" \
+    +project_name="trm-hp-0428-circuit" \
     +run_name="${run_name}" \
     skip_baseline_eval=${SKIP_BASELINE_EVAL} \
     2>&1 | tee "${LOG_DIR}/${run_name}.log"

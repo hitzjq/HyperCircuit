@@ -12,6 +12,7 @@ CACHE_ROOT="${PROJECT_ROOT}/.cache/torch"
 mkdir -p "${CACHE_ROOT}/inductor" "${CACHE_ROOT}/triton"
 export TORCHINDUCTOR_CACHE_DIR="${TORCHINDUCTOR_CACHE_DIR:-${CACHE_ROOT}/inductor}"
 export TRITON_CACHE_DIR="${TRITON_CACHE_DIR:-${CACHE_ROOT}/triton}"
+export DISABLE_PG_COMPILE=1
 
 NUM_GPUS=8
 GLOBAL_BATCH_SIZE=2048
@@ -24,10 +25,10 @@ CIRCUIT_FEATURES_PATH="${CIRCUIT_FEATURES_PATH:-/volume/safety/kbei/HyperCircuit
 CFG="cfg_wu4trm"
 SKIP_BASELINE_EVAL="True"
 SKIP_EVAL="False"
-LOG_DIR="logs/logs0423"
+LOG_DIR="logs/logs0428"
 mkdir -p "$LOG_DIR"
 
-TAG="C1_lorar8_circuit"
+TAG="R8_rope_r8_nohead_emb_circuit"
 PG_BLOCKS=2
 PG_DIM=256
 LORA_R=8
@@ -35,9 +36,9 @@ LORA_ALPHA=16
 WD=0.1
 LR=1e-5
 PUZZLE_LR=1e-3
-COND_MODE="full_trm"
-USE_ROPE=False
-HEAD_LORA=True
+COND_MODE="embedding_only"
+USE_ROPE=True
+HEAD_LORA=False
 
 if [[ ! -f "$CIRCUIT_FEATURES_PATH" ]]; then
     echo "Circuit feature file not found: $CIRCUIT_FEATURES_PATH" >&2
@@ -55,6 +56,7 @@ echo "  lora_r=${LORA_R}, lora_alpha=${LORA_ALPHA}, head_lora=${HEAD_LORA}"
 echo "  condition_mode=${COND_MODE}, lr=${LR}, wd=${WD}"
 echo "  circuit_features_path=${CIRCUIT_FEATURES_PATH}"
 echo "  skip_eval=${SKIP_EVAL}; evaluation + checkpoints every ${EVAL_INTERVAL} epochs"
+echo "  DISABLE_PG_COMPILE=${DISABLE_PG_COMPILE}"
 echo "=========================================================="
 
 torchrun --nproc-per-node=${NUM_GPUS} \
@@ -83,7 +85,7 @@ torchrun --nproc-per-node=${NUM_GPUS} \
     data_paths="['${DATASET_PATH}']" \
     +checkpoint_path="${CKPT_DIR}" \
     +load_checkpoint=$BASE_CKPT_PATH \
-    +project_name="trm-hp-0423-circuit" \
+    +project_name="trm-hp-0428-circuit" \
     +run_name="${run_name}" \
     skip_baseline_eval=${SKIP_BASELINE_EVAL} \
     2>&1 | tee "${LOG_DIR}/${run_name}.log"
