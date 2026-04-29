@@ -5,7 +5,10 @@ imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7
 type: pytorchjob
 priority: medium
 cmd: |
-  source /mnt/kbei/conda_init.sh && conda activate TRM && cd /volume/safety/kbei/HyperCircuit/TRM_WU_Project && bash CodeCircuit_TRM_Arc1/scripts/test_shards_prod_0421_1742/merge_test_shards.sh
+  source /mnt/kbei/conda_init.sh && conda activate TRM && cd /volume/safety/kbei/HyperCircuit/TRM_WU_Project && \
+  echo "Using merge script: $(pwd)/CodeCircuit_TRM_Arc1/scripts/test_shards_prod_0421_1742/merge_test_shards.sh" && \
+  grep -nE 'feat\.pt|regenerating from|graph_to_vector|RUN_NAME' CodeCircuit_TRM_Arc1/scripts/test_shards_prod_0421_1742/merge_test_shards.sh && \
+  bash CodeCircuit_TRM_Arc1/scripts/test_shards_prod_0421_1742/merge_test_shards.sh
 workers: 0
 resourcePool: safety-research
 instances:
