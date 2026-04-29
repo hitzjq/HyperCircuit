@@ -16,19 +16,47 @@ LOG_FILE="$SHARDS_ROOT/merge_test_shards.log"
 
 mkdir -p "$SHARDS_ROOT"
 
+resolve_shard_root() {
+  local shard_index="$1"
+  local shard_tag_padded
+  local shard_tag_legacy
+  local shard_root_padded
+  local shard_root_legacy
+
+  printf -v shard_tag_padded "shard_%02d_of_%02d" "$shard_index" "$NUM_SHARDS"
+  printf -v shard_tag_legacy "shard_%d_of_%d" "$shard_index" "$NUM_SHARDS"
+
+  shard_root_padded="$SHARDS_ROOT/$shard_tag_padded"
+  shard_root_legacy="$SHARDS_ROOT/$shard_tag_legacy"
+
+  if [ -d "$shard_root_padded" ]; then
+    printf '%s\n' "$shard_root_padded"
+    return 0
+  fi
+
+  if [ -d "$shard_root_legacy" ]; then
+    printf '%s\n' "$shard_root_legacy"
+    return 0
+  fi
+
+  printf '%s\n' "$shard_root_padded"
+}
+
 {
 echo "=========================================================="
 echo "  Merge test shards"
 echo "  Run: $RUN_NAME"
 echo "  Shards root: $SHARDS_ROOT"
+echo "  Working dir: $(pwd)"
 echo "=========================================================="
 
 for shard_index in $(seq 0 $((NUM_SHARDS - 1))); do
   printf -v shard_tag "shard_%02d_of_%02d" "$shard_index" "$NUM_SHARDS"
-  shard_root="$SHARDS_ROOT/$shard_tag"
+  shard_root="$(resolve_shard_root "$shard_index")"
   graph_dir="$shard_root/attribution_graphs"
   feature_path="$shard_root/feat.pt"
   legacy_feature_path="$shard_root/cc_advanced_features_test_${shard_tag}.pt"
+  graph_probe=""
 
   if [ ! -f "$feature_path" ] && [ -f "$legacy_feature_path" ]; then
     echo "Migrating legacy shard feature: $legacy_feature_path -> $feature_path"
@@ -40,7 +68,11 @@ for shard_index in $(seq 0 $((NUM_SHARDS - 1))); do
     continue
   fi
 
-  if [ -d "$graph_dir" ] && find "$graph_dir" -maxdepth 1 -type f -name 'graph_*.pt' | grep -q .; then
+  if [ -d "$graph_dir" ]; then
+    graph_probe="$(find "$graph_dir" -maxdepth 1 -type f -name 'graph_*.pt' -print -quit)"
+  fi
+
+  if [ -n "$graph_probe" ]; then
     echo "Missing shard feature for $shard_tag, regenerating from $graph_dir"
     python CodeCircuit_TRM_Arc1/src/graph_to_vector.py \
       --run_name "$RUN_NAME" \
@@ -49,6 +81,28 @@ for shard_index in $(seq 0 $((NUM_SHARDS - 1))); do
       --skip_config_save
   else
     message="Missing shard feature and no graphs available for $shard_tag"
+    echo "Diagnostics for $shard_tag:"
+    echo "  shard_root=$shard_root"
+    echo "  graph_dir=$graph_dir"
+    echo "  feature_path=$feature_path"
+    if [ -d "$SHARDS_ROOT" ]; then
+      echo "  shards_root sample:"
+      find "$SHARDS_ROOT" -maxdepth 1 -mindepth 1 -type d | sort | head -n 10
+    else
+      echo "  shards_root directory is missing"
+    fi
+    if [ -d "$shard_root" ]; then
+      echo "  shard_root contents:"
+      ls -lah "$shard_root"
+    else
+      echo "  shard_root directory is missing"
+    fi
+    if [ -d "$graph_dir" ]; then
+      echo "  graph_dir contents sample:"
+      find "$graph_dir" -maxdepth 1 -type f | sort | head -n 10
+    else
+      echo "  graph_dir directory is missing"
+    fi
     if [ "$ALLOW_PARTIAL_MERGE" = "1" ]; then
       echo "WARNING: $message"
     else
