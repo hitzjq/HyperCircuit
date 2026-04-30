@@ -268,7 +268,7 @@ def select_chunk(graph_files, chunk_index, num_chunks):
     return graph_files[start:end]
 
 
-def process_graphs(input_pattern, output_path, chunk_index=0, num_chunks=1):
+def process_graphs(input_pattern, output_path, chunk_index=0, num_chunks=1, max_graphs=-1):
     print(f"Loading graphs from: {input_pattern}")
     graph_files = sorted(glob.glob(input_pattern))
     total_graph_files = len(graph_files)
@@ -283,12 +283,17 @@ def process_graphs(input_pattern, output_path, chunk_index=0, num_chunks=1):
             f"Chunk {chunk_index}/{num_chunks} is empty for {total_graph_files} graph files."
         )
 
+    if max_graphs > 0:
+        graph_files = graph_files[:max_graphs]
+
     print(f"Found {total_graph_files} graph files.")
     if num_chunks > 1:
         print(
             f"Processing chunk {chunk_index}/{num_chunks}: "
             f"{len(graph_files)} graph files."
         )
+    if max_graphs > 0:
+        print(f"Smoke/test limit: processing first {len(graph_files)} graph files only.")
     
     all_features = []
     query_mapping = []  # 保存 index → query 的映射关系
@@ -325,6 +330,7 @@ def process_graphs(input_pattern, output_path, chunk_index=0, num_chunks=1):
         "chunk_index": chunk_index,
         "num_chunks": num_chunks,
         "source_n_graphs": total_graph_files,
+        "max_graphs": max_graphs,
     }
     torch.save(output_data, output_path)
     print(f"💾 Saved to: {output_path}")
@@ -348,6 +354,8 @@ if __name__ == "__main__":
                         help="Split the sorted graph list into this many chunks for parallel vectorization.")
     parser.add_argument("--chunk_index", type=int, default=0,
                         help="Process only this chunk index in [0, num_chunks).")
+    parser.add_argument("--max_graphs", type=int, default=-1,
+                        help="Process at most this many graphs after chunk selection. Useful for smoke tests.")
     parser.add_argument("--skip_config_save", action="store_true",
                         help="Do not update the run config.json. Useful for concurrent shard workers.")
     args = parser.parse_args()
@@ -363,6 +371,7 @@ if __name__ == "__main__":
         output_path,
         chunk_index=args.chunk_index,
         num_chunks=args.num_chunks,
+        max_graphs=args.max_graphs,
     )
     
     if not args.skip_config_save:
@@ -372,4 +381,5 @@ if __name__ == "__main__":
             "output_path": output_path,
             "chunk_index": args.chunk_index,
             "num_chunks": args.num_chunks,
+            "max_graphs": args.max_graphs,
         })

@@ -6,6 +6,7 @@ NUM_SHARDS="${NUM_SHARDS:-40}"
 NUM_VECTOR_CHUNKS="${NUM_VECTOR_CHUNKS:-64}"
 SMOKE_SHARD_INDEX="${SMOKE_SHARD_INDEX:-0}"
 SMOKE_CHUNK_INDEX="${SMOKE_CHUNK_INDEX:-0}"
+SMOKE_MAX_GRAPHS="${SMOKE_MAX_GRAPHS:-8}"
 
 export OMP_NUM_THREADS="${OMP_NUM_THREADS:-1}"
 export MKL_NUM_THREADS="${MKL_NUM_THREADS:-1}"
@@ -26,8 +27,8 @@ printf -v CHUNKS_TAG "%03d" "$NUM_VECTOR_CHUNKS"
 
 SHARD_ROOT="$SHARDS_ROOT/$SHARD_TAG"
 GRAPH_DIR="$SHARD_ROOT/attribution_graphs"
-CHUNK_ROOT="$SHARD_ROOT/vector_chunks"
-CHUNK_PATH="$CHUNK_ROOT/chunk_${CHUNK_TAG}_of_${CHUNKS_TAG}.pt"
+CHUNK_ROOT="$SHARD_ROOT/vector_chunks_smoke"
+CHUNK_PATH="$CHUNK_ROOT/smoke_chunk_${CHUNK_TAG}_of_${CHUNKS_TAG}_max_${SMOKE_MAX_GRAPHS}.pt"
 
 mkdir -p "$CHUNK_ROOT" "$SHARDS_ROOT"
 
@@ -37,8 +38,10 @@ echo "  Smoke test vector chunks"
 echo "  Run: $RUN_NAME"
 echo "  Shard: $SMOKE_SHARD_INDEX/$NUM_SHARDS ($SHARD_TAG)"
 echo "  Chunk: $SMOKE_CHUNK_INDEX/$NUM_VECTOR_CHUNKS"
+echo "  Max graphs: $SMOKE_MAX_GRAPHS"
 echo "  Graph dir: $GRAPH_DIR"
 echo "  Output: $CHUNK_PATH"
+echo "  Note: smoke output uses vector_chunks_smoke and will not be merged into final features."
 echo "  Started at: $(date '+%Y-%m-%d %H:%M:%S')"
 echo "=========================================================="
 
@@ -60,6 +63,7 @@ python CodeCircuit_TRM_Arc1/src/graph_to_vector.py \
   --output_path "$CHUNK_PATH" \
   --num_chunks "$NUM_VECTOR_CHUNKS" \
   --chunk_index "$SMOKE_CHUNK_INDEX" \
+  --max_graphs "$SMOKE_MAX_GRAPHS" \
   --skip_config_save
 
 python - <<PY
@@ -80,6 +84,7 @@ print(f"  n_queries: {n_queries}")
 print(f"  feature_dim: {feature_dim}")
 print(f"  chunk: {data.get('chunk_index')} / {data.get('num_chunks')}")
 print(f"  source_n_graphs: {data.get('source_n_graphs')}")
+print(f"  max_graphs: {data.get('max_graphs')}")
 print(f"  first_graph: {query_mapping[0]['graph_file'] if query_mapping else 'none'}")
 print(f"  last_graph: {query_mapping[-1]['graph_file'] if query_mapping else 'none'}")
 
@@ -89,6 +94,8 @@ assert features.shape[1] == feature_dim == 53
 assert data.get("chunk_index") == $SMOKE_CHUNK_INDEX
 assert data.get("num_chunks") == $NUM_VECTOR_CHUNKS
 assert data.get("source_n_graphs") == $graph_count
+assert data.get("max_graphs") == $SMOKE_MAX_GRAPHS
+assert n_queries <= $SMOKE_MAX_GRAPHS
 print("  result: PASS")
 print("==========================================================")
 PY

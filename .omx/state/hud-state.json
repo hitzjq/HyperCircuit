@@ -1,6 +1,6 @@
 {
-  "last_turn_at": "2026-04-30T12:19:34.885Z",
-  "last_progress_at": "2026-04-30T12:19:34.885Z",
-  "turn_count": 152,
-  "last_agent_output": "已经给你做成一键脚本了：[smoke_vector_chunks.sh](</d:/Project with Jiefu/HyperCircuit/TRM_WU_Project/CodeCircuit"
+  "last_turn_at": "2026-04-30T12:29:53.277Z",
+  "last_progress_at": "2026-04-30T12:29:53.277Z",
+  "turn_count": 157,
+  "last_agent_output": "已经改成几分钟 smoke test 了。现在默认只跑 `8` 个 graph，而且输出到独立目录：\n\n```text\nvector_chunks_smoke/\n```\n\n不会污染正式的：\n\n```t"
 }
