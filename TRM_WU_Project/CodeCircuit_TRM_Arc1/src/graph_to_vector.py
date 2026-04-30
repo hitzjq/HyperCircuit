@@ -217,7 +217,6 @@ def extract_topological_features(pruned_indices, adj,
     
     # 平均最短路径
     largest_cc = max(nx.weakly_connected_components(G), key=len)
-    largest_cc = max(nx.weakly_connected_components(G), key=len)
     if len(largest_cc) > 1:
         try:
             sub = G.subgraph(largest_cc)
@@ -255,15 +254,41 @@ def extract_topological_features(pruned_indices, adj,
     return features
 
 
-def process_graphs(input_pattern, output_path):
+def select_chunk(graph_files, chunk_index, num_chunks):
+    if num_chunks < 1:
+        raise ValueError("--num_chunks must be >= 1")
+    if chunk_index < 0 or chunk_index >= num_chunks:
+        raise ValueError("--chunk_index must satisfy 0 <= chunk_index < num_chunks")
+    if num_chunks == 1:
+        return graph_files
+
+    n_files = len(graph_files)
+    start = (n_files * chunk_index) // num_chunks
+    end = (n_files * (chunk_index + 1)) // num_chunks
+    return graph_files[start:end]
+
+
+def process_graphs(input_pattern, output_path, chunk_index=0, num_chunks=1):
     print(f"Loading graphs from: {input_pattern}")
     graph_files = sorted(glob.glob(input_pattern))
+    total_graph_files = len(graph_files)
     
     if len(graph_files) == 0:
         print("未找到任何 .pt 文件，请检查路径。")
         return
     
-    print(f"Found {len(graph_files)} graph files.")
+    graph_files = select_chunk(graph_files, chunk_index, num_chunks)
+    if len(graph_files) == 0:
+        raise ValueError(
+            f"Chunk {chunk_index}/{num_chunks} is empty for {total_graph_files} graph files."
+        )
+
+    print(f"Found {total_graph_files} graph files.")
+    if num_chunks > 1:
+        print(
+            f"Processing chunk {chunk_index}/{num_chunks}: "
+            f"{len(graph_files)} graph files."
+        )
     
     all_features = []
     query_mapping = []  # 保存 index → query 的映射关系
@@ -297,6 +322,9 @@ def process_graphs(input_pattern, output_path):
         "query_mapping": query_mapping,      # list of dicts: 每个 query 的身份
         "feature_dim": final_tensor.shape[1],
         "n_queries": len(query_mapping),
+        "chunk_index": chunk_index,
+        "num_chunks": num_chunks,
+        "source_n_graphs": total_graph_files,
     }
     torch.save(output_data, output_path)
     print(f"💾 Saved to: {output_path}")
@@ -316,6 +344,10 @@ if __name__ == "__main__":
                         help="Directory containing graph_*.pt files. Defaults to the run attribution_graphs directory.")
     parser.add_argument("--output_path", type=str, default=None,
                         help="Feature .pt output path. Defaults to the run cc_advanced_features.pt path.")
+    parser.add_argument("--num_chunks", type=int, default=1,
+                        help="Split the sorted graph list into this many chunks for parallel vectorization.")
+    parser.add_argument("--chunk_index", type=int, default=0,
+                        help="Process only this chunk index in [0, num_chunks).")
     parser.add_argument("--skip_config_save", action="store_true",
                         help="Do not update the run config.json. Useful for concurrent shard workers.")
     args = parser.parse_args()
@@ -326,11 +358,18 @@ if __name__ == "__main__":
     input_dir = args.input_dir or rc.graphs_dir
     output_path = args.output_path or rc.features_path
     input_pattern = os.path.join(input_dir, "*.pt")
-    process_graphs(input_pattern, output_path)
+    process_graphs(
+        input_pattern,
+        output_path,
+        chunk_index=args.chunk_index,
+        num_chunks=args.num_chunks,
+    )
     
     if not args.skip_config_save:
         rc.save_config(extra_info={
             "step": "4_graph_to_vector",
             "input_dir": input_dir,
             "output_path": output_path,
+            "chunk_index": args.chunk_index,
+            "num_chunks": args.num_chunks,
         })
