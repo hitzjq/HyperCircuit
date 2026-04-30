@@ -217,6 +217,7 @@ def extract_topological_features(pruned_indices, adj,
     
     # 平均最短路径
     largest_cc = max(nx.weakly_connected_components(G), key=len)
+    largest_cc = max(nx.weakly_connected_components(G), key=len)
     if len(largest_cc) > 1:
         try:
             sub = G.subgraph(largest_cc)
