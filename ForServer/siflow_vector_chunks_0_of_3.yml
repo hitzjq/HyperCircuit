@@ -1,0 +1,24 @@
+namePrefix: junqi-vector-chunks-0-of-3
+image: megatron
+imageVersion: "0.12.1"
+imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7
+type: pytorchjob
+priority: medium
+cmd: |
+  source /mnt/kbei/conda_init.sh && conda activate TRM && cd /volume/safety/kbei/HyperCircuit/TRM_WU_Project && NUM_NODES=3 NODE_INDEX=0 MAX_PARALLEL=144 NUM_VECTOR_CHUNKS=64 GPU_KEEPALIVE=4 GPUS_PER_NODE=8 bash CodeCircuit_TRM_Arc1/scripts/test_shards_prod_0421_1742/run_vector_chunks_cpu_node.sh
+workers: 0
+resourcePool: safety-research
+instances:
+  - name: sci.g21-3
+    countPerPod: 8
+volumes:
+  - volumeName: pt-train
+    mountDir: /volume/pt-train
+  - volumeName: kbei
+    mountDir: /mnt/kbei
+  - volumeName: safety
+    mountDir: /volume/safety
+enhancements:
+  faultTolerance:
+    enabled: true
+    maxRetryCount: 0

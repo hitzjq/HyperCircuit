@@ -7,6 +7,12 @@ NUM_VECTOR_CHUNKS="${NUM_VECTOR_CHUNKS:-64}"
 NUM_NODES="${NUM_NODES:-1}"
 NODE_INDEX="${NODE_INDEX:-0}"
 MAX_PARALLEL="${MAX_PARALLEL:-32}"
+GPUS_PER_NODE="${GPUS_PER_NODE:-8}"
+GPU_KEEPALIVE="${GPU_KEEPALIVE:-1}"
+GPU_KEEPALIVE_MATRIX_SIZE="${GPU_KEEPALIVE_MATRIX_SIZE:-4096}"
+GPU_KEEPALIVE_STEPS="${GPU_KEEPALIVE_STEPS:-4}"
+GPU_KEEPALIVE_SLEEP="${GPU_KEEPALIVE_SLEEP:-1.0}"
+GPU_KEEPALIVE_LOG_INTERVAL="${GPU_KEEPALIVE_LOG_INTERVAL:-60}"
 
 export OMP_NUM_THREADS="${OMP_NUM_THREADS:-1}"
 export MKL_NUM_THREADS="${MKL_NUM_THREADS:-1}"
@@ -25,6 +31,42 @@ NODE_LOG="$NODE_LOG_DIR/node.log"
 TOTAL_TASKS=$((NUM_SHARDS * NUM_VECTOR_CHUNKS))
 
 mkdir -p "$NODE_LOG_DIR"
+
+keepalive_pids=()
+
+start_gpu_keepalive() {
+  local gpu_id
+  local log_file
+
+  if [ "$GPU_KEEPALIVE" != "1" ]; then
+    echo "GPU keepalive disabled."
+    return 0
+  fi
+
+  echo "Starting GPU keepalive on $GPUS_PER_NODE visible GPUs."
+  for gpu_id in $(seq 0 $((GPUS_PER_NODE - 1))); do
+    log_file="$NODE_LOG_DIR/gpu_keepalive_${gpu_id}.log"
+    CUDA_VISIBLE_DEVICES="$gpu_id" python CodeCircuit_TRM_Arc1/src/gpu_keepalive.py \
+      --matrix-size "$GPU_KEEPALIVE_MATRIX_SIZE" \
+      --steps "$GPU_KEEPALIVE_STEPS" \
+      --sleep "$GPU_KEEPALIVE_SLEEP" \
+      --log-interval "$GPU_KEEPALIVE_LOG_INTERVAL" \
+      > "$log_file" 2>&1 &
+    keepalive_pids+=("$!")
+    echo "GPU keepalive gpu=$gpu_id pid=${keepalive_pids[-1]} log=$log_file"
+  done
+}
+
+stop_gpu_keepalive() {
+  if [ "${#keepalive_pids[@]}" -eq 0 ]; then
+    return 0
+  fi
+
+  echo "Stopping GPU keepalive processes: ${keepalive_pids[*]}"
+  kill "${keepalive_pids[@]}" 2>/dev/null || true
+  wait "${keepalive_pids[@]}" 2>/dev/null || true
+  keepalive_pids=()
+}
 
 run_chunk_task() {
   local task_id="$1"
@@ -133,8 +175,12 @@ echo "  Chunks per shard: $NUM_VECTOR_CHUNKS"
 echo "  Total chunk tasks: $TOTAL_TASKS"
 echo "  Max parallel: $MAX_PARALLEL"
 echo "  Thread env: OMP=$OMP_NUM_THREADS MKL=$MKL_NUM_THREADS OPENBLAS=$OPENBLAS_NUM_THREADS NUMEXPR=$NUMEXPR_NUM_THREADS"
+echo "  GPU keepalive: enabled=$GPU_KEEPALIVE gpus=$GPUS_PER_NODE matrix_size=$GPU_KEEPALIVE_MATRIX_SIZE steps=$GPU_KEEPALIVE_STEPS sleep=$GPU_KEEPALIVE_SLEEP"
 echo "  Started at: $(date '+%Y-%m-%d %H:%M:%S')"
 echo "=========================================================="
+
+trap stop_gpu_keepalive EXIT INT TERM
+start_gpu_keepalive
 
 batch=()
 batch_tasks=()
