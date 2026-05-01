@@ -116,8 +116,10 @@ class TrainState:
 class CircuitFeatureStore:
     features: torch.Tensor
     lookup: Dict[str, int]
+    puzzle_lookup: Dict[int, int]
     feature_dim: int
     warned_missing_hashes: set[str] = field(default_factory=set)
+    warned_missing_puzzle_ids: set[int] = field(default_factory=set)
 
 
 def inputs_hash(inputs_tensor: Any) -> str:
@@ -125,6 +127,16 @@ def inputs_hash(inputs_tensor: Any) -> str:
         inputs_tensor = torch.as_tensor(inputs_tensor)
 
     return hashlib.md5(inputs_tensor.detach().contiguous().cpu().numpy().tobytes()).hexdigest()
+
+
+def puzzle_identifier_values(puzzle_identifiers: Any) -> List[int]:
+    if puzzle_identifiers is None:
+        return []
+    if not isinstance(puzzle_identifiers, torch.Tensor):
+        puzzle_identifiers = torch.as_tensor(puzzle_identifiers)
+
+    flat = puzzle_identifiers.detach().cpu().reshape(-1)
+    return [int(v.item()) for v in flat]
 
 
 def load_circuit_feature_store(config: PretrainConfig, rank: int) -> Optional[CircuitFeatureStore]:
@@ -160,7 +172,10 @@ def load_circuit_feature_store(config: PretrainConfig, rank: int) -> Optional[Ci
         )
 
     lookup: Dict[str, int] = {}
+    puzzle_lookup: Dict[int, int] = {}
+    puzzle_lookup_sources: Dict[int, str] = {}
     duplicate_hashes = 0
+    duplicate_puzzle_ids = 0
     for idx, mapping in enumerate(query_mapping):
         if not isinstance(mapping, dict) or "inputs" not in mapping:
             raise ValueError(
@@ -170,33 +185,57 @@ def load_circuit_feature_store(config: PretrainConfig, rank: int) -> Optional[Ci
         key = inputs_hash(mapping["inputs"])
         if key in lookup:
             duplicate_hashes += 1
-            continue
-        lookup[key] = idx
+        else:
+            lookup[key] = idx
+
+        set_name = str(mapping.get("set_name", "")).lower()
+        for puzzle_id in puzzle_identifier_values(mapping.get("puzzle_identifiers")):
+            existing_idx = puzzle_lookup.get(puzzle_id)
+            if existing_idx is None:
+                puzzle_lookup[puzzle_id] = idx
+                puzzle_lookup_sources[puzzle_id] = set_name
+                continue
+
+            duplicate_puzzle_ids += 1
+            # For train-time class lookup, prefer the representative train circuit
+            # when a merged train+test feature file contains the same puzzle id.
+            if set_name == "train" and puzzle_lookup_sources.get(puzzle_id) != "train":
+                puzzle_lookup[puzzle_id] = idx
+                puzzle_lookup_sources[puzzle_id] = set_name
 
     if rank == 0:
         print("Loaded offline circuit features")
         print(f"  Path            : {path}")
         print(f"  Feature tensor  : {list(features.shape)}")
         print(f"  Unique queries  : {len(lookup)}")
+        print(f"  Unique puzzles  : {len(puzzle_lookup)}")
         if duplicate_hashes:
             print(f"  Duplicate hashes: {duplicate_hashes} (keeping first occurrence)")
+        if duplicate_puzzle_ids:
+            print(f"  Duplicate puzzle ids: {duplicate_puzzle_ids} (preferring train rows)")
 
     return CircuitFeatureStore(
         features=features,
         lookup=lookup,
+        puzzle_lookup=puzzle_lookup,
         feature_dim=features.shape[1],
     )
 
 
 def lookup_circuit_features(
     inputs_batch: torch.Tensor,
+    puzzle_identifiers_batch: Optional[torch.Tensor],
     circuit_store: Optional[CircuitFeatureStore],
     device: torch.device,
     dtype: torch.dtype,
     rank: int,
+    match_mode: str,
 ) -> Optional[torch.Tensor]:
     if circuit_store is None:
         return None
+
+    if match_mode not in {"input", "puzzle"}:
+        raise ValueError(f"Unsupported circuit feature match_mode: {match_mode}")
 
     batch_size = inputs_batch.shape[0]
     circuit_feat = torch.zeros((batch_size, circuit_store.feature_dim), dtype=torch.float32)
@@ -204,11 +243,30 @@ def lookup_circuit_features(
     matched_indices: List[int] = []
 
     for row_idx, inputs_row in enumerate(inputs_batch):
-        key = inputs_hash(inputs_row)
-        feature_idx = circuit_store.lookup.get(key)
+        feature_idx = None
+        if match_mode == "puzzle" and puzzle_identifiers_batch is not None:
+            puzzle_id = int(puzzle_identifiers_batch[row_idx].detach().cpu().item())
+            feature_idx = circuit_store.puzzle_lookup.get(puzzle_id)
+            if (
+                feature_idx is None
+                and rank == 0
+                and puzzle_id not in circuit_store.warned_missing_puzzle_ids
+                and len(circuit_store.warned_missing_puzzle_ids) < 5
+            ):
+                print(
+                    f"Warning: missing circuit feature for puzzle_identifier {puzzle_id}, "
+                    "falling back to input hash."
+                )
+                circuit_store.warned_missing_puzzle_ids.add(puzzle_id)
+
+        key = None
+        if feature_idx is None:
+            key = inputs_hash(inputs_row)
+            feature_idx = circuit_store.lookup.get(key)
         if feature_idx is None:
             if (
                 rank == 0
+                and key is not None
                 and key not in circuit_store.warned_missing_hashes
                 and len(circuit_store.warned_missing_hashes) < 5
             ):
@@ -524,6 +582,7 @@ def train_batch(
 
     # To device
     batch_inputs = batch["inputs"]
+    batch_puzzle_identifiers = batch["puzzle_identifiers"]
     batch = {k: v.cuda() for k, v in batch.items()}
 
     # Init carry if it is None
@@ -554,10 +613,12 @@ def train_batch(
     # Pass 2: Generate LoRA via HyperNetwork
     circuit_feat = lookup_circuit_features(
         batch_inputs,
+        batch_puzzle_identifiers,
         circuit_store,
         device=z_H.device,
         dtype=z_H.dtype,
         rank=rank,
+        match_mode="puzzle",
     )
     lora_dict = pg_model(z_H, scale=config.lora_alpha / config.lora_r, circuit_feat=circuit_feat)
     
@@ -657,6 +718,7 @@ def evaluate(
             # (batch processing log suppressed to keep logs clean)
             # To device
             batch_inputs = batch["inputs"]
+            batch_puzzle_identifiers = batch["puzzle_identifiers"]
             batch = {k: v.cuda() for k, v in batch.items()}
             with torch.device("cuda"):
                 carry = train_state.model["trm"].initial_carry(batch)  # type: ignore
@@ -673,10 +735,12 @@ def evaluate(
                     z_H = train_state.model["trm"].model.inner(carry_inner, batch, return_hidden=True)
                 circuit_feat = lookup_circuit_features(
                     batch_inputs,
+                    batch_puzzle_identifiers,
                     circuit_store,
                     device=z_H.device,
                     dtype=z_H.dtype,
                     rank=rank,
+                    match_mode="input",
                 )
                 lora_dict = train_state.model["pg"](
                     z_H,

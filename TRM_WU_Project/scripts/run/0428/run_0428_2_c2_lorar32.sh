@@ -12,6 +12,7 @@ CACHE_ROOT="${PROJECT_ROOT}/.cache/torch"
 mkdir -p "${CACHE_ROOT}/inductor" "${CACHE_ROOT}/triton"
 export TORCHINDUCTOR_CACHE_DIR="${TORCHINDUCTOR_CACHE_DIR:-${CACHE_ROOT}/inductor}"
 export TRITON_CACHE_DIR="${TRITON_CACHE_DIR:-${CACHE_ROOT}/triton}"
+export DISABLE_PG_COMPILE=1
 
 NUM_GPUS=8
 GLOBAL_BATCH_SIZE=2048
@@ -35,7 +36,7 @@ LORA_ALPHA=64
 WD=0.1
 LR=1e-5
 PUZZLE_LR=1e-3
-COND_MODE="full_trm"
+COND_MODE="embedding_only"
 USE_ROPE=False
 HEAD_LORA=True
 
@@ -55,6 +56,7 @@ echo "  lora_r=${LORA_R}, lora_alpha=${LORA_ALPHA}, head_lora=${HEAD_LORA}"
 echo "  condition_mode=${COND_MODE}, lr=${LR}, wd=${WD}"
 echo "  circuit_features_path=${CIRCUIT_FEATURES_PATH}"
 echo "  skip_eval=${SKIP_EVAL}; evaluation + checkpoints every ${EVAL_INTERVAL} epochs"
+echo "  DISABLE_PG_COMPILE=${DISABLE_PG_COMPILE}"
 echo "=========================================================="
 
 torchrun --nproc-per-node=${NUM_GPUS} \

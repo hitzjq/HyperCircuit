@@ -1,6 +1,6 @@
 {
-  "last_turn_at": "2026-05-01T04:47:13.999Z",
-  "last_progress_at": "2026-05-01T04:47:13.999Z",
-  "turn_count": 160,
-  "last_agent_output": "我把 `logs0416/logs0416` 下面 24 个日志都扫了一遍。结论是：**0416 最强信号其实不是 full_trm，而是 embedding_only；如果按 pass@2 选，04"
+  "last_turn_at": "2026-05-01T10:26:08.258Z",
+  "last_progress_at": "2026-05-01T10:26:08.258Z",
+  "turn_count": 172,
+  "last_agent_output": "改回来了，现在四个 `0428` 脚本都是：\n\n```bash\nexport DISABLE_PG_COMPILE=1\nCOND_MODE=\"embedding_only\"\n```\n\n确认结果：\n\n-"
 }
