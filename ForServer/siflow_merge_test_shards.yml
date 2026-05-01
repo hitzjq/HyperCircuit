@@ -11,7 +11,7 @@ cmd: |
   grep -nE 'feat\.pt|regenerating from|graph_to_vector|RUN_NAME' CodeCircuit_TRM_Arc1/scripts/test_shards_prod_0421_1742/merge_test_shards.sh && \
   bash CodeCircuit_TRM_Arc1/scripts/test_shards_prod_0421_1742/merge_test_shards.sh
 workers: 0
-resourcePool: safety-research
+resourcePool: llm-research
 instances:
   - name: sci.g21-3
     countPerPod: 1

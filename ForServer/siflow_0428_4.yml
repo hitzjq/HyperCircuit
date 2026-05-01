@@ -5,9 +5,9 @@ imageUrl: registry-cn-beijing.siflow.cn/siflow/megatron:0.12.1-a845aa7
 type: pytorchjob
 priority: medium
 cmd: |
-  cd /mnt/kbei/ && source conda_init.sh && conda activate TRM && cd /mnt/kbei/HyperCircuit/TRM_WU_Project && bash scripts/run/0428/run_0428_4_r2_rope_r8_emb.sh
+  source /mnt/kbei/conda_init.sh && conda activate TRM && cd /volume/safety/kbei/HyperCircuit/TRM_WU_Project && bash scripts/run/0428/run_0428_4_r2_rope_r8_emb.sh
 workers: 0
-resourcePool: safety-research
+resourcePool: llm-research
 instances:
   - name: sci.g21-3
     countPerPod: 8
@@ -16,6 +16,8 @@ volumes:
     mountDir: /volume/pt-train
   - volumeName: kbei
     mountDir: /mnt/kbei
+  - volumeName: safety
+    mountDir: /volume/safety
 enhancements:
   faultTolerance:
     enabled: true

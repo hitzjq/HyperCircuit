@@ -1,6 +1,6 @@
 {
-  "last_turn_at": "2026-05-01T03:15:50.998Z",
-  "last_progress_at": "2026-05-01T03:15:50.998Z",
-  "turn_count": 158,
-  "last_agent_output": "现在是：\n\n```text\n每个 shard 约 9645 个 graph\nNUM_VECTOR_CHUNKS=64\n所以每个 chunk 约 150 到 151 个 graph\n```\n\n具体算一下"
+  "last_turn_at": "2026-05-01T04:47:13.999Z",
+  "last_progress_at": "2026-05-01T04:47:13.999Z",
+  "turn_count": 160,
+  "last_agent_output": "我把 `logs0416/logs0416` 下面 24 个日志都扫了一遍。结论是：**0416 最强信号其实不是 full_trm，而是 embedding_only；如果按 pass@2 选，04"
 }

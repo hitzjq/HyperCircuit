@@ -7,7 +7,7 @@ priority: medium
 cmd: |
   source /mnt/kbei/conda_init.sh && conda activate TRM && cd /volume/safety/kbei/HyperCircuit/TRM_WU_Project && bash scripts/run/0423/run_0423_4_r2_rope_r8_emb.sh
 workers: 0
-resourcePool: safety-research
+resourcePool: llm-research
 instances:
   - name: sci.g21-3
     countPerPod: 8
