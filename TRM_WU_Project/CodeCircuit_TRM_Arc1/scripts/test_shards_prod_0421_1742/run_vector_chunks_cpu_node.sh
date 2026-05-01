@@ -13,6 +13,7 @@ GPU_KEEPALIVE_MATRIX_SIZE="${GPU_KEEPALIVE_MATRIX_SIZE:-4096}"
 GPU_KEEPALIVE_STEPS="${GPU_KEEPALIVE_STEPS:-4}"
 GPU_KEEPALIVE_SLEEP="${GPU_KEEPALIVE_SLEEP:-1.0}"
 GPU_KEEPALIVE_LOG_INTERVAL="${GPU_KEEPALIVE_LOG_INTERVAL:-60}"
+PROGRESS_INTERVAL="${PROGRESS_INTERVAL:-60}"
 
 export OMP_NUM_THREADS="${OMP_NUM_THREADS:-1}"
 export MKL_NUM_THREADS="${MKL_NUM_THREADS:-1}"
@@ -33,12 +34,24 @@ TOTAL_TASKS=$((NUM_SHARDS * NUM_VECTOR_CHUNKS))
 mkdir -p "$NODE_LOG_DIR"
 
 keepalive_pids=()
+progress_pid=""
+
+gpu_keepalive_enabled() {
+  case "$GPU_KEEPALIVE" in
+    0|false|False|FALSE|no|No|NO|off|Off|OFF)
+      return 1
+      ;;
+    *)
+      return 0
+      ;;
+  esac
+}
 
 start_gpu_keepalive() {
   local gpu_id
   local log_file
 
-  if [ "$GPU_KEEPALIVE" != "1" ]; then
+  if ! gpu_keepalive_enabled; then
     echo "GPU keepalive disabled."
     return 0
   fi
@@ -66,6 +79,60 @@ stop_gpu_keepalive() {
   kill "${keepalive_pids[@]}" 2>/dev/null || true
   wait "${keepalive_pids[@]}" 2>/dev/null || true
   keepalive_pids=()
+}
+
+print_progress_once() {
+  local done_count
+  local pct_x100
+  local pct_whole
+  local pct_frac
+  local width=30
+  local filled
+  local empty
+  local bar_done
+  local bar_empty
+
+  done_count="$(find "$SHARDS_ROOT" -path '*/vector_chunks/chunk_*_of_*.pt' -type f 2>/dev/null | wc -l | tr -d ' ')"
+  pct_x100=$((done_count * 10000 / TOTAL_TASKS))
+  pct_whole=$((pct_x100 / 100))
+  pct_frac=$((pct_x100 % 100))
+  filled=$((done_count * width / TOTAL_TASKS))
+  empty=$((width - filled))
+  printf -v bar_done "%${filled}s" ""
+  printf -v bar_empty "%${empty}s" ""
+  bar_done="${bar_done// /#}"
+  bar_empty="${bar_empty// /.}"
+  printf 'VECTOR_PROGRESS [%s%s] %s/%s %d.%02d%% time=%s\n' \
+    "$bar_done" "$bar_empty" "$done_count" "$TOTAL_TASKS" \
+    "$pct_whole" "$pct_frac" "$(date '+%Y-%m-%d %H:%M:%S')"
+}
+
+start_progress_monitor() {
+  echo "Starting progress monitor with interval ${PROGRESS_INTERVAL}s."
+  (
+    while true; do
+      print_progress_once
+      sleep "$PROGRESS_INTERVAL"
+    done
+  ) &
+  progress_pid="$!"
+  echo "Progress monitor pid=$progress_pid"
+}
+
+stop_progress_monitor() {
+  if [ -z "$progress_pid" ]; then
+    return 0
+  fi
+
+  echo "Stopping progress monitor pid=$progress_pid"
+  kill "$progress_pid" 2>/dev/null || true
+  wait "$progress_pid" 2>/dev/null || true
+  progress_pid=""
+}
+
+cleanup_background() {
+  stop_progress_monitor
+  stop_gpu_keepalive
 }
 
 run_chunk_task() {
@@ -176,11 +243,13 @@ echo "  Total chunk tasks: $TOTAL_TASKS"
 echo "  Max parallel: $MAX_PARALLEL"
 echo "  Thread env: OMP=$OMP_NUM_THREADS MKL=$MKL_NUM_THREADS OPENBLAS=$OPENBLAS_NUM_THREADS NUMEXPR=$NUMEXPR_NUM_THREADS"
 echo "  GPU keepalive: enabled=$GPU_KEEPALIVE gpus=$GPUS_PER_NODE matrix_size=$GPU_KEEPALIVE_MATRIX_SIZE steps=$GPU_KEEPALIVE_STEPS sleep=$GPU_KEEPALIVE_SLEEP"
+echo "  Progress interval: $PROGRESS_INTERVAL seconds"
 echo "  Started at: $(date '+%Y-%m-%d %H:%M:%S')"
 echo "=========================================================="
 
-trap stop_gpu_keepalive EXIT INT TERM
+trap cleanup_background EXIT INT TERM
 start_gpu_keepalive
+start_progress_monitor
 
 batch=()
 batch_tasks=()
@@ -216,6 +285,7 @@ for idx in "${!batch[@]}"; do
   fi
 done
 
+print_progress_once
 echo "Assigned tasks: $assigned"
 echo "Finished at: $(date '+%Y-%m-%d %H:%M:%S')"
 exit "$failed"

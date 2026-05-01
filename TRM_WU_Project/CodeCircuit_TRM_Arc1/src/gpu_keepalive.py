@@ -41,8 +41,25 @@ def main():
         flush=True,
     )
 
-    a = torch.randn((args.matrix_size, args.matrix_size), device=device)
-    b = torch.randn((args.matrix_size, args.matrix_size), device=device)
+    matrix_size = args.matrix_size
+    while True:
+        try:
+            a = torch.randn((matrix_size, matrix_size), device=device)
+            b = torch.randn((matrix_size, matrix_size), device=device)
+            break
+        except RuntimeError as exc:
+            if "out of memory" not in str(exc).lower() or matrix_size <= 1024:
+                raise
+            torch.cuda.empty_cache()
+            matrix_size //= 2
+            print(
+                f"Keepalive allocation hit OOM; retrying with matrix_size={matrix_size}",
+                flush=True,
+            )
+
+    if matrix_size != args.matrix_size:
+        print(f"Using fallback matrix_size={matrix_size}", flush=True)
+
     last_log = time.time()
     loops = 0
 

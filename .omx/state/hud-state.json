@@ -1,6 +1,6 @@
 {
-  "last_turn_at": "2026-04-30T12:29:53.277Z",
-  "last_progress_at": "2026-04-30T12:29:53.277Z",
-  "turn_count": 157,
-  "last_agent_output": "已经改成几分钟 smoke test 了。现在默认只跑 `8` 个 graph，而且输出到独立目录：\n\n```text\nvector_chunks_smoke/\n```\n\n不会污染正式的：\n\n```t"
+  "last_turn_at": "2026-05-01T03:15:50.998Z",
+  "last_progress_at": "2026-05-01T03:15:50.998Z",
+  "turn_count": 158,
+  "last_agent_output": "现在是：\n\n```text\n每个 shard 约 9645 个 graph\nNUM_VECTOR_CHUNKS=64\n所以每个 chunk 约 150 到 151 个 graph\n```\n\n具体算一下"
 }
